@@ -1,89 +1,41 @@
 \chapter{Planteamiento del Problema}
 \section{Descripción de la Realidad Problemática}
 
-A nivel mundial, las tasas de presencia de cáncer de tiroides en personas varían de acuerdo con la edad, al género y al país. En el caso de Perú se tiene que por cada 100 000 mujeres existen 10.9 de casos de incidencia en este tipo de cáncer, y por cada 100 000 varones, se tiene un 3.6 de casos. Además de los casos de incidencia, la mortalidad también está presente y varía en varias partes del mundo. En Perú la mortalidad de pacientes mujeres con cáncer de tiroides es 1.7 por cada 100 000 personas, mientras que en los varones es de 0.77 casos cada 100 000 personas. \parencite{ws_oms2022cancert}
+La industria cosmética y de cuidado de la piel ha visto un crecimiento exponencial en las últimas décadas. Según datos de Statista, el mercado global de productos para el cuidado de la piel superó los 130 mil millones de dólares en 2023, con una tasa de crecimiento anual compuesta de aproximadamente el 0,045 \cite{statista2023}. Este auge refleja la creciente demanda por soluciones que permitan a los consumidores mejorar su apariencia, retardar los signos del envejecimiento y solucionar problemas estéticos como las arrugas, los poros dilatados y las manchas faciales.
 
-A continuación, se presentan la Figura \ref{1:fig} y la Figura \ref{1:fig2} que muestran los distintos índices de incidencia y mortalidad de cáncer de tiroides en mujeres, donde se puede resaltar la presencia de Perú en los rangos más altos de cada uno de estos. 
+A pesar de la variedad de productos y tratamientos disponibles en el mercado, persisten varios desafíos relacionados con la evaluación precisa y personalizada de los problemas de la piel. Uno de los mayores obstáculos en la actualidad es la falta de herramientas tecnológicas que permitan realizar un análisis profundo y cuantitativo de las características morfológicas de la piel. Problemas como las arrugas, los poros dilatados y las manchas son difíciles de evaluar de manera objetiva, ya que la mayoría de los diagnósticos aún dependen de la observación manual o de sistemas de análisis que no logran captar las sutilezas y complejidades de la piel facial \cite{phillips2020}.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00 \textwidth]{1/figures/tb_inc_ct_mujeres.png}
-		\caption[Tasa bruta de incidencia de cáncer de tiroides en mujeres por 100 000 personas]{Tasa bruta de incidencia de cáncer de tiroides en mujeres por 100 000 personas. \\
-		Fuente: \cite{ws_oms2022cancert}. \textit{Cancer Today}.}
-		\label{1:fig}
-	\end{center}
-\end{figure}
+La precisión en la detección de estas características es crucial para el desarrollo de tratamientos más efectivos. Por ejemplo, la identificación temprana de las arrugas incipientes permitiría la aplicación de productos antiarrugas de manera preventiva, antes de que las líneas se profundicen. Sin embargo, las evaluaciones actuales a menudo son subjetivas y pueden variar según el profesional o las herramientas utilizadas. En este sentido, estudios recientes han demostrado que las redes neuronales convolucionales (CNN) tienen el potencial de revolucionar la manera en que se realiza la segmentación y análisis de imágenes de piel \cite{esteva2017}. Estas redes permiten procesar grandes volúmenes de datos visuales y detectar patrones morfológicos con un nivel de precisión que supera las técnicas tradicionales.
 
+Otro desafío significativo es la evaluación de poros y manchas. Los poros dilatados son una preocupación estética común, especialmente entre personas con piel grasa. La falta de herramientas capaces de cuantificar y analizar adecuadamente el tamaño y la densidad de los poros limita las recomendaciones de tratamiento personalizadas \cite{jia2019}. De manera similar, las manchas faciales, que pueden aparecer debido a la edad, la exposición solar o factores hormonales, requieren una evaluación temprana para evitar su progresión. Las CNN, al especializarse en la segmentación de imágenes, pueden proporcionar una solución eficaz para mapear la distribución y evolución de estas imperfecciones cutáneas \cite{esteva2017}.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00 \textwidth]{1/figures/tb_mor_ct_mujeres.png}
-		\caption[Tasa bruta de mortalidad de cáncer de tiroides en mujeres por 100 000 personas]{Tasa bruta de mortalidad de cáncer de tiroides en mujeres por 100 000 personas. \\
-		Fuente: \cite{ws_oms2022cancert}. \textit{Cancer Today}.}
-		\label{1:fig2}
-	\end{center}
-\end{figure}
+Estadísticamente, se ha encontrado que más del 0,7 de las personas mayores de 25 años muestran algún signo de envejecimiento facial, como arrugas y manchas, lo que impulsa la demanda de productos antiarrugas y despigmentantes \cite{aad2022}. Sin embargo, el éxito de estos productos depende en gran medida de una evaluación precisa del estado de la piel. Actualmente, los diagnósticos imprecisos o subjetivos pueden llevar a la aplicación de productos inapropiados, lo que no solo afecta la satisfacción del consumidor, sino que también reduce la efectividad de los tratamientos \cite{khatri2018}.
 
-De igual forma, en el caso de los varones, el Perú también se encuentra entre los rangos más altos de incidencia y mortalidad. A continuación, se muestran estos datos en la Figura \ref{1:fig3} y Figura \ref{1:fig4}.
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00 \textwidth]{1/figures/tb_inc_ct_varones.png}
-		\caption[Tasa bruta de incidencia de cáncer de tiroides en varones por 100 000 personas]{Tasa bruta de incidencia de cáncer de tiroides en varones por 100 000 personas. \\
-		Fuente: \cite{ws_oms2022cancert}. \textit{Cancer Today}.}
-		\label{1:fig3}
-	\end{center}
-\end{figure}
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00 \textwidth]{1/figures/tb_mor_ct_varones.png}
-		\caption[Tasa bruta de mortalidad de cáncer de tiroides en varones por 100 000 personas]{Tasa bruta de mortalidad de cáncer de tiroides en varones por 100 000 personas. \\
-		Fuente: \cite{ws_oms2022cancert}. \textit{Cancer Today}.}
-		\label{1:fig4}
-	\end{center}
-\end{figure}
-
-Con la Figura \ref{1:fig5} que muestra los mismos índices distribuidos por género y regiones del mundo, es fácil notar la alta incidencia de este tipo de cáncer en las mujeres, siendo la región con mayor incidencia América del Norte, mientras que la de mayor mortalidad es Oceanía. La región de Latino América y el Caribe supera a Norte América en mortalidad, aunque se encuentra por debajo de Oceanía y Europa.
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.60 \textwidth]{1/figures/tb_inc_mor_gen_y_reg.png}
-		\caption[Tasa bruta de incidencia y mortalidad de cáncer de tiroides por género y región]{Tasa bruta de incidencia y mortalidad de cáncer de tiroides por género y región. \\
-		Fuente: \cite{ws_oms2022cancert}. \textit{Cancer Today}.}
-		\label{1:fig5}
-	\end{center}
-\end{figure}
-
-Además, es importante mencionar que este aumento de incidencia a nivel global de cáncer de tiroides se debe a diversos factores relacionados a problemas de salud como la obesidad y a factores medioambientales como por ejemplo exposición al yodo \parencite{pr_kim2020geoinflu}. Sin embargo, otro factor es la poca disposición y capacidad de realizar un diagnóstico a tiempo de los nódulos tiroideos que, de forma general, cerca del 7\% al 15\% de los casos de llegan a ser cancerígenos \parencite{pr_haugen2016amethy}.
-
-Para la detección temprana de este tipo de cáncer o desarrollo de tumores, depende en gran medida de la experiencia y la capacidad cognitiva de un experto en radiología, y muchos de estos se ven en la necesidad de utilizar no muy avanzados sistemas de pre-diagnóstico por computadora, mejor conocido como CAD por sus siglas en inglés \parencite{pr_zhu2021agendlframew}. Ante grandes limitaciones de sistemas CAD básicos, y aprovechando el extenso uso de la Inteligencia Artificial, el Deep Learning y sus algoritmos son capaces de incorporar mayor eficacia a dichos sistemas.
-
-El Deep Learning ha sido usado ampliamente como herramienta para el procesamiento de imágenes médicas, no solo para detectar diferentes tipos de cáncer o nódulos como los relacionados a los pulmones, sino también para la retinopatía diabética y localización de feto en ecografías, e inclusive en la detección del COVID-19 \parencite{pr_bhatta2021medimage}. Además, el aumento de la calidad de imágenes de ultrasonido que se fue desarrollando en los últimos 30 años, aumentando cada vez más resolución de las imágenes y reduciendo el tiempo de adquisición, ha permitido una mejora en términos de detección de enfermedad; sin embargo, aún se requiere de un médico especializado y debidamente entrenado para lograr un realizar un correcto análisis de las imágenes, por ello se vio en la necesidad de encontrar métodos de clasificación automatizada, pero dichos métodos antiguos consumían bastante tiempo, gran poder computacional y poca capacidad de generalización de resultados, es así que en este contexto, apareció una novedosa arquitectura de Deep Learning que actualmente es usado en diferentes áreas el día de hoy: las Redes Neuronales Convolucionales o CNN, quitando en gran medida los problemas de las antigua técnicas \parencite{pr_signgh20203ddl}. Sin embargo, es importante mencionar que estos últimos años han ido apareciendo nuevas arquitecturas capaces incluso de superar a los ya altamente difundidos CNN. Y es que a pesar del dominio actual de estas redes, las arquitecturas basadas en Transformer han ido tomando cada vez más mayor importancia dentro del mundo de la Inteligencia Artificial, y esto incluye también el área de procesamiento de imágenes médicas gracias a los Vision Transformers o ViT, una versión de los Transformers originales orientados al procesamiento de imágenes.
- 
-El desarrollo de estas nuevas tecnologías basadas en distintos algoritmos de Inteligencia Artificial, ya sea en CNN, ViT o incluso ambos, podrían mejorar aún más los tiempos de pre-diagnóstico de nódulos tiroideos y, además, aumentar los porcentajes de aciertos de los especialistas en estas tareas de diagnóstico a través de un trabajo conjunto con estas tecnologías de alto potencial.
+Este contexto evidencia la necesidad urgente de desarrollar tecnologías avanzadas que mejoren la precisión en la evaluación estética de la piel. Las redes neuronales convolucionales ofrecen una herramienta prometedora para abordar este problema, al permitir una segmentación detallada de las características morfológicas clave de la piel, como arrugas, poros y manchas. El uso de estas tecnologías no solo permitiría mejorar los diagnósticos estéticos, sino que también contribuiría a la creación de tratamientos personalizados más efectivos, incrementando la satisfacción del usuario final.
 
 
 
 \section{Formulación del Problema}
-Con el objetivo de formular los objetivos de esta investigación, se propusieron las siguientes preguntas.
+
 \subsection{Problema General}
 PG: \newcommand{\ProblemaGeneral}{
-¿Es posible implementar un modelo de Deep Learning para el pre-diagnóstico de nódulos tiroideos a través de imágenes de ultrasonido?
+
+¿Cómo afecta la falta de un sistema de segmentación  de características morfológicas de la piel facial en la detección de arrugas, poros y manchas?
 }
 \ProblemaGeneral
 \subsection{Problemas Específicos}
 \newcommand{\Pbone}{
-¿Qué características del conjunto de datos a usar para entrenar y evaluar los modelos son ideales para obtener buenos resultados?
+¿Cómo se medirá la eficiencia del sistema de segmentación morfológica en la detección de arrugas, poros y manchas?
 }
 \newcommand{\Pbtwo}{
-¿Qué técnicas de preprocesamiento se deberían aplicar a las imágenes de ultrasonido del conjunto de datos?
+¿Cómo se desarrollará el sistema de segmentación basado en redes neuronales convolucionales (CNN)?
 }
 \newcommand{\Pbthree}{
-¿De qué forma se puede evaluar el rendimiento de los modelos de Deep Learning en la clasificación de imágenes de ultrasonido?
+¿De dónde se obtendrá la data para entrenar y validar el sistema de segmentación?
 }
+
 \newcommand{\Pbfour}{
-¿Qué arquitecturas de Deep Learning tienen el más alto desempeño en la clasificación de imágenes de ultrasonido de la tiroides?
+¿Cómo se determinará cuál es el mejor modelo de segmentación para la detección de características morfológicas?
 }
 
 \begin{itemize}
@@ -97,21 +49,25 @@ PG: \newcommand{\ProblemaGeneral}{
 A continuación, se presentan el objetivo general y los objetivos específicos.
 \subsection{Objetivo General}
 OG: \newcommand{\ObjetivoGeneral}{
-Diseñar un modelo de Deep Learning para el pre-diagnóstico de nódulos tiroideos a través de imágenes de ultrasonido.
+	
+Desarrollar un sistema avanzado de segmentación de características morfológicas en imágenes de piel facial, centrado en arrugas, poros y manchas, utilizando redes neuronales convolucionales para mejorar la precisión en la evaluación estética y la personalización de tratamientos cosméticos.
+
 }
 \ObjetivoGeneral
 \subsection{Objetivos Específicos}
 \newcommand{\Objone}{
-Determinar las características ideales del conjunto de datos a usar para entrenar y evaluar los modelos.
+Desarrollar métricas de evaluación como precisión, recall, F1-score y AUC-ROC para medir la eficiencia del sistema de segmentación en la identificación de características morfológicas de la piel facial.
 }
+
 \newcommand{\Objtwo}{
-Determinar las técnicas de preprocesamiento que se deben aplicar a las imágenes de ultrasonido del conjunto de datos.
+Desarrollar e implementar un sistema de segmentación utilizando redes neuronales convolucionales, adaptando sus arquitecturas para la detección y diferenciación de características morfológicas de la piel como arrugas, poros y manchas.
 }
+
 \newcommand{\Objthree}{
-Identificar las métricas de evaluación de rendimiento de los modelos de Deep Learning en la clasificación de imágenes de ultrasonido.
+Recopilar y preparar un conjunto de datos de imágenes faciales, asegurando que contenga suficiente variedad en términos de diferentes tipos de piel y problemas cutáneos (arrugas, poros y manchas), para entrenar y validar el sistema de segmentación.
 }
 \newcommand{\Objfour}{
-Determinar las arquitecturas de Deep Learning que tienen el más alto desempeño en la clasificación de imágenes de ultrasonido de la tiroides.
+Comparar diferentes arquitecturas de redes neuronales convolucionales y técnicas de aprendizaje profundo, evaluando su desempeño en la segmentación de arrugas, poros y manchas, para seleccionar el modelo que ofrezca el mejor equilibrio entre precisión y eficiencia computacional.
 }
 
 \begin{itemize}
@@ -126,22 +82,22 @@ Determinar las arquitecturas de Deep Learning que tienen el más alto desempeño
 \section{Justificación de la Investigación}
 
 \subsection{Teórica}
-Esta investigación plantea el desarrollo un modelo de Deep Learning capaz de pre-diagnosticar nódulos de la tiroides mediantes el uso de imágenes de ultrasonido. A través de este, se aborda el problema común de procesos de diagnóstico largos y, en gran porcentaje, inprecisos realizados por el personal especialista, ya que actualmente requiren de una extensa experiencia para lograr mejores resultados en este tipo de análisis de imágenes médicas. Además, la gran cantidad de investigaciones publicadas los últimos años sobre la Inteligencia Artificial han demostrado la alta capacidad de este tipo de tecnologías para desempeñarse en tareas como la detección, segmentación y clasificación enfocado en diversos campos. Específicamente el Deep Learning ha demostrado ser de las arquitecturas más preferidas para el procesamiento de imágenes, especialmente aquellas basadas en Redes Neuronales Convolucionales, los cuales, actualmente, están dominando las tareas relacionadas a imágenes por su alto desempeño. Sin embargo, estos últimos años, gracias al gran avance y divulgación de los modelos basados en Transformers, se ha visto el surgimiento de un nueva clase de arquitecturas que prometen mejorar el desempeño de los actuales modelos dominantes: los Vision Transformer (ViT). Siguiendo esta nueva tendencia, y obsservando el poco desarrollo actual de modelos ViT para el pre-diagnóstico de nódulos tiroideos, la investigación desarrollará modelos basados en ViT, además de los ya conocidos CNN.
+Este estudio formula el desarrollo de un modelo de redes neuronales convolucionales (CNN), que han demostrado ser altamente eficaces para tareas de segmentación y clasificación de imágenes. El desarrollo de un sistema de segmentación morfológica permitirá avanzar en el campo de la dermatología computacional y los sistemas inteligentes aplicados a la cosmética y el cuidado de la piel. Además, se contribuirá a la literatura sobre la intersección entre las ciencias de la salud y la inteligencia artificial, explorando el uso de técnicas como el deep learning para detectar y segmentar características faciales como arrugas, poros y manchas.
 
 \subsection{Práctica}
-La investigación concluirá con una arquitectura de Inteligencia Artificial basada en Deep Learning de alto desempeño capaz de realizar el pre-diagnóstico de nódulos en la glándula de la tiroides, es decir, podrá determinar si un nódulo es benigno o maligno. Esto permitirá agilizar el proceso de diagnóstico realizado por las personas especialistas. Los beneficiarios finales serán todos los pacientes que pasen por este proceso de diagnóstico. Además, esta investigación evidenciará la capacidad de los modelos basados en arquitecturas de Deep Learning para realizar tareas de predicción (benigno o maligno) en base a imágenes de ultrasonido de la glándula de la tiroides.
+El sistema de segmentación propuesto puede tener aplicaciones directas en la industria cosmética, dermatológica y médica. La detección temprana y precisa de imperfecciones en la piel es esencial para tratamientos preventivos y correctivos. Este sistema permitirá automatizar y optimizar la evaluación cutánea, mejorando la precisión y reduciendo el tiempo necesario para diagnósticos o recomendaciones personalizadas de tratamiento. Esto también podría ser útil para mejorar la personalización de productos de belleza, apoyando la creación de soluciones adaptadas a las necesidades específicas de la piel de cada persona.
 
 \subsection{Metodológica}
-El desarrollo de un modelo de Deep Learning para el pre-diagnóstico de nódulos tiroideos permitirá acelerar el proceso de diagnóstico a través de imágenes de ultrasonido, lo cual permitirá que los pacientes obtengan sus resultados de forma más rápida y eficiente, posteriormente, esto favorecerá a que el personal especialista determine los tratamientos adecuados lo más antes posible, llegando así a mejorar el bienestar de los pacientes, puesto que con un tratamiento a tiempo de los nódulos se puede evitar un posible cáncer en la glándula de la tiroides.
+Utilizar arquitecturas probadas de CNN para segmentar características específicas como arrugas, poros y manchas proporciona una metodología efectiva y replicable. Al emplear técnicas de deep learning, se puede mejorar la precisión en la segmentación de imágenes de la piel facial, lo que facilitará comparaciones entre distintas aproximaciones y modelos. La experimentación con distintos modelos también ayudará a determinar cuál es el enfoque más eficiente y preciso para este tipo de segmentación.
 
 \section{Delimitación del Estudio}
-A continuación, se presentará la delimitación espacial, temporal y conceptual.
+Este estudio se centrará exclusivamente en la segmentación de arrugas, poros y manchas en imágenes de piel facial. No se abordarán otras imperfecciones cutáneas ni se desarrollarán sistemas de diagnóstico clínico. El enfoque está dirigido hacia el sector cosmético y de belleza, en lugar de la dermatología médica. Además, el estudio se delimitará a imágenes en dos dimensiones (2D) y no incluirá análisis en 3D.
 
 \subsection{Espacial}
-Debido a que la problemática y necesidad de diagnosticar a tiempo los nódulos tiroideos no es propio de una región o país, la data recopilada para realizar un correcto análisis de Inteligencia Artificial son basados en países extranjeros y de gran alcance como China, del cual se obtuvo el conjunto de datos de imágenes de ultrasonido. Los proyectos previos más afines al tema presentados en la investigación son desarrollados en diversos países extranjeros. 
-
+El estudio utilizará imágenes faciales provenientes de bases de datos públicas con imágenes de alta calidad. Se concentrará en muestras representativas de diferentes tipos de piel, obtenidas principalmente de poblaciones de distintas regiones geográficas para asegurar la diversidad en la segmentación de las características faciales.
+  
 \subsection{Temporal}
-Los datos presentados en esta investigación sobre casos de incidencia y mortalidad de la tiroides son del año 2022. De igual forma, las imágenes de ultrasonido de glándulas de tiroides con presencia de nódulos que se usarán para entrenar y validar el modelo de clasificación son recopiladas del conjunto de datos de acceso libre TNCD publicada en el año 2022. Los antecedentes relacionados a esta investigación fueron publicados entre el 2019 y 2023.
+El desarrollo del estudio y la validación del sistema se llevarán a cabo en un periodo de aproximadamente 6 a 12 meses, incluyendo fases de recolección de datos, desarrollo del modelo, pruebas y evaluación del sistema. Las imágenes utilizadas para el entrenamiento y pruebas corresponderán a muestras recolectadas en los últimos cinco años para asegurar la actualidad de las características cutáneas.
 
 \subsection{Conceptual}
-La presente investigación se centrará en el desarrollo de un modelo de Deep Learning para realizar la clasificación de nódulos de la glándula de tiroides y así lograr determinar si es de carácter benigno o maligno. Esto se logrará a través del uso de diferentes arquitecturas como los basados en Redes Neuronales Convolucionales y los Vision Transformers. Estos modelos se desempeñarán en la tarea de análisis de imágenes médicas, específicamente, en imágenes de ultrasonido de la tiroides. Además, se usarán técnicas propias de la Inteligencia Artificial como la Transferencia de Aprendizaje y el Aumento de Datos para obtener mejores resultados. 
+Este estudio aborda conceptos fundamentales de la segmentación de imágenes, redes neuronales convolucionales, características morfológicas de la piel y técnicas de procesamiento de imágenes. Conceptos clave como segmentación, CNN, arrugas, poros y manchas se definirán claramente para establecer el marco teórico y práctico del trabajo. Además, se discutirán términos como detección automática y análisis morfológico en el contexto del cuidado de la piel.

@@ -1,49 +1,102 @@
-\subsection{Inteligencia Artficial}
-Definir a la Inteligencia Artificial llega a ser complicado, esto debido a la dificultad que se tiene en definir lo que en verdad es inteligencia. Algunos grandes personajes pensaban de la inteligencia como la ambición, mientras que otros mencionaban a la imaginación como gran impulsador de la inteligencia. También lo consideraban como la capacidad de adaptarse a los cambios. Estas definiciones hacen pensar que no existe un consenso claro de lo que es la inteligencia, menos aun de la Inteligencia Artificial; sin embargo, en términos generales, se puede calificar de “Inteligencia Artificial” a todo aquel sistema sintético que muestra algún tipo de comportamiento “inteligente”. Esto quiere decir que se puede considerar como IA a todo a aquellos que simule los sentidos naturales como el visión o audición, incluso a la capacidad de algunos sistemas de aprender de forma autónoma según su entorno lo requiera. \parencite{bk_hurbans2020grokking}
+\subsection{Segmentación de Imágenes}
+La segmentación de imágenes es el proceso de dividir una imagen en diferentes partes o regiones, con el objetivo de simplificar la representación de la imagen y hacerla más significativa y fácil de analizar. Este proceso es fundamental en aplicaciones de visión por computadora, especialmente en la detección de características morfológicas de la piel, como arrugas, poros y manchas \cite{autor2020segmentacion}.
 
-\subsection{Perceptrón}
-Inventado por Frank Rosenblatt en 1957, el Perceptrón es la unidad básica de una red neuronal e incluso es considerado como la más simple red neuronal artificial (ANN). \parencite{bk_geron2022handml}
+\subsection{Características Morfológicas de la Piel}
+Las características morfológicas de la piel son importantes para la evaluación de la salud y la estética facial. En este estudio, se consideran tres características clave:
 
-El Perceptrón se muestra en la Figura \ref{2:fig207-2}.
+\subsubsection{Arrugas}
+Las arrugas son pliegues o líneas en la piel que se desarrollan debido al envejecimiento, expresiones faciales repetitivas y factores externos. La segmentación de arrugas permite su análisis detallado en el contexto de estudios dermatológicos y cosméticos \cite{autor2021arrugas}.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.75\textwidth]{2/figures/perceptron.png}
-		\caption[Perceptrón]{Perceptrón. \\
-		Fuente: \cite{bk_geron2022handml}. \textit{Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow}.}
-		\label{2:fig207-2}
-	\end{center}
-\end{figure}
+\subsubsection{Poros}
+Los poros son pequeñas aberturas en la piel a través de las cuales las glándulas sebáceas secretan aceites. La identificación y análisis de los poros en imágenes faciales son útiles en la evaluación de problemas de piel, como el acné y la textura de la piel \cite{autor2020poros}.
 
+\subsubsection{Manchas}
+Las manchas son áreas de la piel que presentan una pigmentación diferente debido a factores como la exposición al sol o condiciones dermatológicas. La segmentación de manchas es útil para el diagnóstico temprano de condiciones como el melasma o el daño solar \cite{autor2019manchas}.
 
-\subsection{Perceptrón Multicapa}
-Un Multi-Layer Perceptron (MLP) consiste en la unión de varios perceptrones, con la característica de estar organizados por capas. Existe una capa de entrada y otra de salida, todas las capas, a excepción de la salida, contiene una neurona adicional llamada bias. \parencite{bk_geron2022handml}
+\subsection{Redes Neuronales Convolucionales (CNN)}
+Las Redes Neuronales Convolucionales (CNN) son un tipo de red neuronal que ha demostrado ser eficaz en tareas de procesamiento de imágenes. Estas redes están compuestas por diferentes tipos de capas que permiten extraer características de las imágenes \cite{autor2022cnn}.
 
-Una representación gráfica de un MLP se muestra en la Figura \ref{2:fig208}.
+\subsubsection{Capas Convolucionales}
+Las capas convolucionales son la base de las CNN y se encargan de aplicar filtros sobre la imagen para extraer características relevantes. Estas capas permiten detectar bordes, texturas y otros patrones en las imágenes \cite{autor2021conv}.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.77\textwidth]{2/figures/mlp.png}
-		\caption[Perceptrón Multicapa]{Perceptrón Multicapa. \\
-		Fuente: \cite{bk_geron2022handml}. \textit{Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow}.}
-		\label{2:fig208}
-	\end{center}
-\end{figure}
+\subsubsection{Capas de Activación}
+Las capas de activación, como la función ReLU, añaden no linealidad al modelo y permiten que la red capture patrones complejos. Esto es fundamental para mejorar la precisión de la segmentación \cite{autor2020relu}.
 
+\subsubsection{Capas de Pooling (Max Pooling / Average Pooling)}
+Las capas de pooling, como el Max Pooling o el Average Pooling, reducen la dimensionalidad de las características extraídas, lo que ayuda a reducir la complejidad computacional y a generalizar mejor el modelo \cite{autor2019pooling}.
 
-\subsection{Machine Learning}
-El Aprendizaje Automático o Machine Learning es considerado como una ciencia y arte de dar instrucciones a una computadora para que pueda aprender por sí sola de una data. \parencite{bk_geron2022handml}
+\subsubsection{Capas Completamente Conectadas (Fully Connected Layers)}
+Estas capas conectan todas las neuronas de una capa con todas las neuronas de la siguiente, permitiendo la integración de las características extraídas y facilitando la clasificación \cite{autor2021fc}.
 
-En la Figura \ref{2:fig209} se presenta el enfoque tradicional del Machine Learning.
+\subsubsection{Capa de Salida}
+La capa de salida de una CNN es responsable de proporcionar el resultado final, que en segmentación de imágenes puede ser un mapa de segmentos o la clasificación de una región específica \cite{autor2022output}.
 
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.75\textwidth]{2/figures/enfoque_ml.png}
-		\caption[Enfoque del Machine Learning]{Enfoque del Machine Learning. \\
-		Fuente: \cite{bk_geron2022handml}. \textit{Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow}.}
-		\label{2:fig209}
-	\end{center}
-\end{figure}
+\subsection{Modelos de Segmentación}
+Existen varios modelos de segmentación basados en redes neuronales que son populares en el análisis de imágenes médicas y dermatológicas:
+
+\subsubsection{U-Net}
+U-Net es una arquitectura ampliamente utilizada en segmentación médica que permite segmentar características en imágenes con alta precisión \cite{autor2020unet}.
+
+\subsubsection{Fully Convolutional Network (FCN)}
+Las Fully Convolutional Networks (FCN) convierten una red completamente conectada en una red convolucional, permitiendo la segmentación en píxeles en lugar de clasificaciones generales \cite{autor2019fcn}.
+
+\subsubsection{SegNet}
+SegNet es una arquitectura diseñada para segmentación semántica en tiempo real. Utiliza una estructura de codificación-decodificación para segmentar imágenes \cite{autor2021segnet}.
+
+\subsubsection{Mask R-CNN}
+Mask R-CNN extiende la arquitectura Faster R-CNN para incluir la segmentación de objetos en instancias específicas dentro de la imagen \cite{autor2022maskrcnn}.
+
+\subsubsection{DeepLab (v3, v3+)}
+DeepLab es una serie de modelos que utilizan convoluciones atrous para mejorar la segmentación en alta resolución \cite{autor2021deeplab}.
+
+\subsection{Métricas de Evaluación}
+Las métricas de evaluación son fundamentales para medir la precisión y eficacia de los modelos de segmentación de imágenes:
+
+\subsubsection{Índice de Sorensen-Dice (Dice Coefficient)}
+El índice de Dice mide la similitud entre dos conjuntos de datos segmentados, siendo útil en la comparación entre la segmentación automática y la segmentación de referencia \cite{autor2020dice}.
+
+\subsubsection{Coeficiente de Jaccard (Intersection over Union, IoU)}
+El coeficiente de Jaccard o IoU es una métrica que evalúa la superposición entre el segmento predicho y el real \cite{autor2021iou}.
+
+\subsubsection{Precisión (Precision)}
+La precisión es la relación entre verdaderos positivos y el total de elementos predichos como positivos, lo que refleja la efectividad del modelo en evitar falsos positivos \cite{autor2019precision}.
+
+\subsubsection{Entropía Cruzada (Cross-Entropy)}
+La entropía cruzada mide la disonancia entre las distribuciones de probabilidad del modelo y las etiquetas reales \cite{autor2022crossentropy}.
+
+\subsection{Redes de Atención}
+Las redes de atención han surgido como un avance significativo en la segmentación de imágenes, permitiendo que el modelo se enfoque en regiones específicas:
+
+\subsubsection{Mecanismo de Atención}
+El mecanismo de atención permite a la red asignar diferentes pesos a distintas partes de la imagen para enfocarse en características relevantes \cite{autor2021atencion}.
+
+\subsubsection{Atención Espacial}
+La atención espacial asigna pesos basados en la ubicación espacial, destacando áreas específicas en la imagen \cite{autor2020spa}.
+
+\subsubsection{Atención de Canal}
+La atención de canal da importancia a las características específicas dentro de los canales de una imagen \cite{autor2019canal}.
+
+\subsubsection{Beneficios de las Redes de Atención}
+Las redes de atención mejoran la precisión y eficiencia en la segmentación de imágenes complejas \cite{autor2021beneficios}.
+
+\subsubsection{Ejemplos de Modelos con Atención}
+Modelos como Transformer y SENet utilizan mecanismos de atención para mejorar la precisión en tareas de segmentación \cite{autor2022transformer}.
+
+\subsection{Redes Generativas Adversariales (GANs)}
+Las GANs son redes compuestas por un generador y un discriminador que compiten entre sí para generar resultados de alta calidad.
+
+\subsubsection{Estructura de GANs (Generador y Discriminador)}
+El generador intenta crear datos realistas, mientras que el discriminador evalúa la autenticidad de estos datos \cite{autor2020gans}.
+
+\subsubsection{Aplicaciones de GANs en Segmentación}
+Las GANs se han utilizado con éxito en la generación de imágenes y la segmentación, especialmente en áreas donde el conjunto de datos es limitado \cite{autor2021gans_segmentacion}.
+
+\subsubsection{Variantes de GANs (CycleGAN, Pix2Pix)}
+Variantes como CycleGAN y Pix2Pix permiten la traducción de imágenes y la segmentación supervisada en diferentes dominios \cite{autor2019cyclegan}.
+
+\subsubsection{Desafíos de las GANs}
+Las GANs enfrentan desafíos como la inestabilidad en el entrenamiento y el modo colapso, que afecta la diversidad de las muestras generadas \cite{autor2022challenges_gans}.
+
 
 \begin{comment}
 
