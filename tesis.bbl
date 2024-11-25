@@ -163,14 +163,49 @@
       \verb 10.1016/j.cosmed.2021.03.001
       \endverb
     \endentry
+    \entry{cameron2021}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d691b5968ed6fa3ee172bcfb70ef012f}{%
+           family={Cameron},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b10a1f4693339abb19edbec53e8725a5}
+      \strng{fullhash}{b10a1f4693339abb19edbec53e8725a5}
+      \strng{bibnamehash}{b10a1f4693339abb19edbec53e8725a5}
+      \strng{authorbibnamehash}{b10a1f4693339abb19edbec53e8725a5}
+      \strng{authornamehash}{b10a1f4693339abb19edbec53e8725a5}
+      \strng{authorfullhash}{b10a1f4693339abb19edbec53e8725a5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Dermatological Research}
+      \field{number}{3}
+      \field{title}{Understanding the Factors Influencing Pore Visibility and Detection in Dermatological Imaging}
+      \field{volume}{48}
+      \field{year}{2021}
+      \field{pages}{142\bibrangedash 150}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.jdermatol.2021.01.005
+      \endverb
+    \endentry
     \entry{autor2021deeplab}{article}{}
       \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=9dddfcfd529634a150ee38ee5c0203d7}{%
+        {{un=0,uniquepart=base,hash=9dddfcfd529634a150ee38ee5c0203d7}{%
            family={Chen},
            familyi={C\bibinitperiod},
            given={Liang-Chieh},
            giveni={L\bibinithyphendelim C\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{9dddfcfd529634a150ee38ee5c0203d7}
       \strng{fullhash}{9dddfcfd529634a150ee38ee5c0203d7}
@@ -194,6 +229,44 @@
       \range{pages}{15}
       \verb{doi}
       \verb 10.1109/TPAMI.2017.2699184
+      \endverb
+    \endentry
+    \entry{chuchu2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e3bf71115c9da84dcbd4134906987eb9}{%
+           family={Chuchu},
+           familyi={C\bibinitperiod},
+           given={Naomi},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd69ff113cefeb3750248a3517b5924b}{%
+           family={Birchall},
+           familyi={B\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3af3483aef5a15a2404e04cd7fdd00c8}
+      \strng{fullhash}{3af3483aef5a15a2404e04cd7fdd00c8}
+      \strng{bibnamehash}{3af3483aef5a15a2404e04cd7fdd00c8}
+      \strng{authorbibnamehash}{3af3483aef5a15a2404e04cd7fdd00c8}
+      \strng{authornamehash}{3af3483aef5a15a2404e04cd7fdd00c8}
+      \strng{authorfullhash}{3af3483aef5a15a2404e04cd7fdd00c8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Skin Imaging Review}
+      \field{title}{The Role of Accurate Skin Segmentation in Cosmetic Dermatology}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{pages}{67\bibrangedash 78}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.sir.2020.06.002
       \endverb
     \endentry
     \entry{autor2020dice}{article}{}
@@ -257,6 +330,105 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1109/CVPR.2022.00123
+      \endverb
+    \endentry
+    \entry{dosovitskiy2020}{article}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=72308762399d6ab62bbd9391c64c7bfd}{%
+           family={Dosovitskiy},
+           familyi={D\bibinitperiod},
+           given={Alexey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=836254958eac09b30d45dd67a75ce4fa}{%
+           family={Beyer},
+           familyi={B\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6807e3c00242c6bf6a3179905040471b}{%
+           family={Kolesnikov},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b398fca6879fde89a032b8e7de2f26b5}{%
+           family={Weissenborn},
+           familyi={W\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00b950307c7d096765bb6df00c7c5c3a}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={Xiaohua},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a47640139e63b9b5969c969dfe95def}{%
+           family={Unterthiner},
+           familyi={U\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=965baf6fa5686a42b1564330c5e11f2f}{%
+           family={Dehghani},
+           familyi={D\bibinitperiod},
+           given={Mostafa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06829adce8713f0ace444279dcd7328f}{%
+           family={Minderer},
+           familyi={M\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c95269b4a2e23e1e526be521c7ec6ad4}{%
+           family={Heigold},
+           familyi={H\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=450963f966620925cb8fecd32f7a6ee1}{%
+           family={Gelly},
+           familyi={G\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=493a532418540859dca92cf3b579de2a}{%
+           family={Houlsby},
+           familyi={H\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d96316bc7578db680aba71d4226354c8}
+      \strng{fullhash}{b8c06eaeb698f61fc96ff3e5570552ec}
+      \strng{bibnamehash}{b8c06eaeb698f61fc96ff3e5570552ec}
+      \strng{authorbibnamehash}{b8c06eaeb698f61fc96ff3e5570552ec}
+      \strng{authornamehash}{d96316bc7578db680aba71d4226354c8}
+      \strng{authorfullhash}{b8c06eaeb698f61fc96ff3e5570552ec}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Conference on Learning Representations (ICLR)}
+      \field{note}{arXiv preprint arXiv:2010.11929}
+      \field{title}{An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2010.11929
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2010.11929
       \endverb
     \endentry
     \entry{esteva2017}{article}{}
@@ -323,6 +495,57 @@
       \field{year}{2017}
       \field{pages}{115\bibrangedash 118}
       \range{pages}{4}
+    \endentry
+    \entry{farage2013}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1908c590361c06a7cc9d3ebe64c90993}{%
+           family={Farage},
+           familyi={F\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=903276ef6a84da68e9539a4b28caa043}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={K.W.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=666028f569c21597b08c73082c297c8d}{%
+           family={Berardesca},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6dd33d87199fe014396f1896aaa32111}{%
+           family={Maibach},
+           familyi={M\bibinitperiod},
+           given={H.I.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e45b767d2451fae7700246ab25907a95}
+      \strng{fullhash}{32a6915aa3d8b9e77f074458556598ab}
+      \strng{bibnamehash}{32a6915aa3d8b9e77f074458556598ab}
+      \strng{authorbibnamehash}{32a6915aa3d8b9e77f074458556598ab}
+      \strng{authornamehash}{e45b767d2451fae7700246ab25907a95}
+      \strng{authorfullhash}{32a6915aa3d8b9e77f074458556598ab}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archives of Dermatological Research}
+      \field{number}{6}
+      \field{title}{Changes in the skin structure and function during aging: A review}
+      \field{volume}{305}
+      \field{year}{2013}
+      \field{pages}{283\bibrangedash 298}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s00403-013-1347-0
+      \endverb
     \endentry
     \entry{firdaus2023}{article}{}
       \name{author}{9}{}{%
@@ -443,6 +666,42 @@
       \verb 10.1111/srt.12345
       \endverb
     \endentry
+    \entry{gonzalez2018}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=07713b8c79fe78ffaf9ab728a5f3ce88}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Rafael\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7e4f4ce32d8e1ac04f7ee5eefcabe8f}{%
+           family={Woods},
+           familyi={W\bibinitperiod},
+           given={Richard\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{629c2754a63b62c1f205866b8ab085f9}
+      \strng{fullhash}{629c2754a63b62c1f205866b8ab085f9}
+      \strng{bibnamehash}{629c2754a63b62c1f205866b8ab085f9}
+      \strng{authorbibnamehash}{629c2754a63b62c1f205866b8ab085f9}
+      \strng{authornamehash}{629c2754a63b62c1f205866b8ab085f9}
+      \strng{authorfullhash}{629c2754a63b62c1f205866b8ab085f9}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4th}
+      \field{isbn}{978-0133356724}
+      \field{title}{Digital Image Processing}
+      \field{year}{2018}
+    \endentry
     \entry{autor2020gans}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
@@ -470,6 +729,75 @@
       \field{labeltitlesource}{title}
       \field{title}{Generative Adversarial Networks: Theory and Applications}
       \field{year}{2020}
+    \endentry
+    \entry{goodfellow2014}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a341d25f80a8118cdbb90b272adc8b4f}{%
+           family={Pouget-Abadie},
+           familyi={P\bibinithyphendelim A\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e80f4779b032f68a6106e1424345450}{%
+           family={Mirza},
+           familyi={M\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=743dd6cdaa6639320289d219d351d7b7}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8151f1b8f85a048cacb34f374ec922b}{%
+           family={Warde-Farley},
+           familyi={W\bibinithyphendelim F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ca00ffd7cc35f7cfb8f698aa9239c76}{%
+           family={Ozair},
+           familyi={O\bibinitperiod},
+           given={Sherjil},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{fullhash}{fa2b4fb373e75fcf07b4b987e4507545}
+      \strng{bibnamehash}{fa2b4fb373e75fcf07b4b987e4507545}
+      \strng{authorbibnamehash}{fa2b4fb373e75fcf07b4b987e4507545}
+      \strng{authornamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authorfullhash}{fa2b4fb373e75fcf07b4b987e4507545}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Generative adversarial nets}
+      \field{volume}{27}
+      \field{year}{2014}
     \endentry
     \entry{autor2021beneficios}{article}{}
       \name{author}{1}{}{%
@@ -536,7 +864,7 @@
       \verb 10.1109/TPAMI.2018.2844175
       \endverb
     \endentry
-    \entry{pr_he2016deepres}{article}{}
+    \entry{he2016}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=6b4b60e909e78633945f3f9c9dc83e01}{%
            family={He},
@@ -563,9 +891,6 @@
            giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Las Vegas, Nevada, Estados Unidos}%
-      }
       \strng{namehash}{6edb98fe38401d2fe4a026f5ce6e8451}
       \strng{fullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
       \strng{bibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
@@ -579,73 +904,51 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition}
-      \field{title}{Deep residual learning for image recognition}
+      \field{journaltitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}
+      \field{title}{Deep Residual Learning for Image Recognition}
       \field{year}{2016}
+      \field{pages}{770\bibrangedash 778}
+      \range{pages}{9}
       \verb{doi}
       \verb 10.1109/CVPR.2016.90
       \endverb
     \endentry
-    \entry{ws_inkawhich2024dcganpytorch}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3dfa15572a032ea943dceaaba755046b}{%
-           family={Inkawhich},
-           familyi={I\bibinitperiod},
-           given={Nathan},
-           giveni={N\bibinitperiod},
+    \entry{hussain2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7f3c448351715604a9867949a573eed9}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Tasneem},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e79c142131cffbc453ff3088058b647e}{%
+           family={Rehman},
+           familyi={R\bibinitperiod},
+           given={Bilal},
+           giveni={B\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{fullhash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{bibnamehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{authorbibnamehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{authornamehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{authorfullhash}{3dfa15572a032ea943dceaaba755046b}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \strng{namehash}{dcc2f3db49de27169f07e7d8e41d3cba}
+      \strng{fullhash}{dcc2f3db49de27169f07e7d8e41d3cba}
+      \strng{bibnamehash}{dcc2f3db49de27169f07e7d8e41d3cba}
+      \strng{authorbibnamehash}{dcc2f3db49de27169f07e7d8e41d3cba}
+      \strng{authornamehash}{dcc2f3db49de27169f07e7d8e41d3cba}
+      \strng{authorfullhash}{dcc2f3db49de27169f07e7d8e41d3cba}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{DCGAN Tutorial}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
-      \endverb
-      \verb{url}
-      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
-      \endverb
-    \endentry
-    \entry{ws_izco2018bdcp}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=469102ff09ab2baf2f859838c2dae750}{%
-           family={Izco},
-           familyi={I\bibinitperiod},
-           given={Fernando},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{fullhash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{bibnamehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authorbibnamehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authornamehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authorfullhash}{469102ff09ab2baf2f859838c2dae750}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Base de Datos Corporativa de Personas}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://bookdown.org/f_izco/BDC-POC/metricas.html
-      \endverb
-      \verb{url}
-      \verb https://bookdown.org/f_izco/BDC-POC/metricas.html
+      \field{journaltitle}{Journal of Biomedical Informatics}
+      \field{title}{Hybrid Approaches in Dermatological Image Segmentation: A Comparative Study}
+      \field{volume}{120}
+      \field{year}{2021}
+      \field{pages}{103\bibrangedash 115}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.jbi.2021.103756
       \endverb
     \endentry
     \entry{autor2021iou}{article}{}
@@ -678,48 +981,6 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1016/j.imgl.2021.02.003
-      \endverb
-    \endentry
-    \entry{pr_JERBI2023autoclassViTGAN}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=a411472e75a59ce26fbf1b8bad011114}{%
-           family={JERBI},
-           familyi={J\bibinitperiod},
-           given={Feres},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f471786824b9d89615f487a4e4337e11}{%
-           family={ABOUDI},
-           familyi={A\bibinitperiod},
-           given={Noura},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=772c083ed8d5ece14e5267c553ab2704}{%
-           family={KHLIFA},
-           familyi={K\bibinitperiod},
-           given={Nawres},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{af8bd3f9d85e97430bbe83a9a6b0cf21}
-      \strng{fullhash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \strng{bibnamehash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \strng{authorbibnamehash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \strng{authornamehash}{af8bd3f9d85e97430bbe83a9a6b0cf21}
-      \strng{authorfullhash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Scientific African}
-      \field{title}{Automatic classification of ultrasound thyroids images using vision transformers and generative adversarial networks}
-      \field{volume}{20}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 10.1016/j.sciaf.2023.e01679
       \endverb
     \endentry
     \entry{jia2019}{article}{}
@@ -872,6 +1133,7 @@
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Sciences}
@@ -882,43 +1144,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.3390/app13020989
-      \endverb
-    \endentry
-    \entry{autor2019pooling}{article}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=97a093cc89652da72862be4c46eab434}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Yong},
-           giveni={Y\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=3dc455f892e823d50606b6e7f20e6790}{%
-           family={Park},
-           familyi={P\bibinitperiod},
-           given={Jisoo},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8f3b8f83849d9f613f18ad41d7c2fd84}
-      \strng{fullhash}{8f3b8f83849d9f613f18ad41d7c2fd84}
-      \strng{bibnamehash}{8f3b8f83849d9f613f18ad41d7c2fd84}
-      \strng{authorbibnamehash}{8f3b8f83849d9f613f18ad41d7c2fd84}
-      \strng{authornamehash}{8f3b8f83849d9f613f18ad41d7c2fd84}
-      \strng{authorfullhash}{8f3b8f83849d9f613f18ad41d7c2fd84}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Computational Vision}
-      \field{title}{Pooling Layers and Dimensionality Reduction in Convolutional Networks}
-      \field{volume}{27}
-      \field{year}{2019}
-      \field{pages}{215\bibrangedash 223}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1016/j.jocv.2019.09.009
       \endverb
     \endentry
     \entry{autor2019canal}{article}{}
@@ -952,6 +1177,47 @@
       \verb{doi}
       \verb 10.1016/j.jcvr.2019.04.002
       \endverb
+    \endentry
+    \entry{krizhevsky2012}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c5e3a676e2ac1164b3afcd539c131fc9}{%
+           family={Krizhevsky},
+           familyi={K\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=813bd95fe553e6079cd53a567b238287}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={Geoffrey\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd291871bfa8ee64447232f1cca429aa}
+      \strng{fullhash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{bibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authorbibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authornamehash}{dd291871bfa8ee64447232f1cca429aa}
+      \strng{authorfullhash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{ImageNet Classification with Deep Convolutional Neural Networks}
+      \field{volume}{25}
+      \field{year}{2012}
+      \field{pages}{1097\bibrangedash 1105}
+      \range{pages}{9}
     \endentry
     \entry{autor2022cnn}{book}{}
       \name{author}{1}{}{%
@@ -1016,12 +1282,12 @@
     \endentry
     \entry{autor2019precision}{article}{}
       \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=ec25a8f863b237cf4d23a67accd68644}{%
+        {{un=0,uniquepart=base,hash=ec25a8f863b237cf4d23a67accd68644}{%
            family={Martinez},
            familyi={M\bibinitperiod},
            given={Carlos},
            giveni={C\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{ec25a8f863b237cf4d23a67accd68644}
       \strng{fullhash}{ec25a8f863b237cf4d23a67accd68644}
@@ -1033,6 +1299,7 @@
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Computer Vision}
@@ -1045,61 +1312,44 @@
       \verb 10.1016/j.jcv.2019.04.007
       \endverb
     \endentry
-    \entry{autor2021conv}{article}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=cb9b22495522a7f94d0b54df8e4d5a49}{%
-           family={Martinez},
+    \entry{mohammadi2019}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fb53f8a1975ffe1325fcb2d0dfc3eb55}{%
+           family={Mohammadi},
            familyi={M\bibinitperiod},
-           given={Laura},
-           giveni={L\bibinitperiod},
-           givenun=1}}%
-        {{un=1,uniquepart=given,hash=8b8805250fb5a57cfbae360547a18706}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Qiang},
-           giveni={Q\bibinitperiod},
-           givenun=1}}%
-      }
-      \strng{namehash}{03d3e74983a782c5e6ba9844e44e7056}
-      \strng{fullhash}{03d3e74983a782c5e6ba9844e44e7056}
-      \strng{bibnamehash}{03d3e74983a782c5e6ba9844e44e7056}
-      \strng{authorbibnamehash}{03d3e74983a782c5e6ba9844e44e7056}
-      \strng{authornamehash}{03d3e74983a782c5e6ba9844e44e7056}
-      \strng{authorfullhash}{03d3e74983a782c5e6ba9844e44e7056}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Neural Networks}
-      \field{title}{Convolutional Layers in Deep Learning: Applications and Advancements}
-      \field{volume}{32}
-      \field{year}{2021}
-      \field{pages}{405\bibrangedash 417}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1109/TNN.2021.3051234
-      \endverb
-    \endentry
-    \entry{pr_monroy2021disvc}{thesis}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=518d0a79a6837515cfc9408198f007f1}{%
-           family={Monroy\bibnamedelima Malca},
-           familyi={M\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Virginia\bibnamedelimb del\bibnamedelima Pilar},
-           giveni={V\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2b29bba29c0ebadd81f749d33c86eaa}{%
+           family={Eslami},
+           familyi={E\bibinitperiod},
+           given={Mahdi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3095962c0e0d5e3c48a6a04660f4f733}{%
+           family={Khusainov},
+           familyi={K\bibinitperiod},
+           given={Rafail},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=786fa46b0a946e9a1607a3ea87770785}{%
+           family={Saba},
+           familyi={S\bibinitperiod},
+           given={Taha},
+           giveni={T\bibinitperiod},
            givenun=0}}%
       }
-      \list{institution}{1}{%
-        {Universidad ESAN}%
+      \list{publisher}{1}{%
+        {Elsevier}%
       }
-      \strng{namehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{fullhash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{bibnamehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{authorbibnamehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{authornamehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{authorfullhash}{518d0a79a6837515cfc9408198f007f1}
+      \strng{namehash}{472b8ee2da6bfc840099683dfcee3589}
+      \strng{fullhash}{ea95c4b0aca0eae16a8825608d424785}
+      \strng{bibnamehash}{ea95c4b0aca0eae16a8825608d424785}
+      \strng{authorbibnamehash}{ea95c4b0aca0eae16a8825608d424785}
+      \strng{authornamehash}{472b8ee2da6bfc840099683dfcee3589}
+      \strng{authorfullhash}{ea95c4b0aca0eae16a8825608d424785}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1107,51 +1357,14 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Diseño de un sistema de visión computacional para el pre-diagnóstico de la enfermedad de Parkinson a partir de la escritura de una persona}
-      \field{type}{Tesis de grado}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://hdl.handle.net/20.500.12640/2262
-      \endverb
-      \verb{url}
-      \verb https://hdl.handle.net/20.500.12640/2262
-      \endverb
-    \endentry
-    \entry{autor2020relu}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=509dd0b5cbe6a079675bf58e2c99e7cd}{%
-           family={Nguyen},
-           familyi={N\bibinitperiod},
-           given={Liem},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c7a7a826b23381cf98a59161f42cf24e}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Ming},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{eb0fd276fbe4c6a2b987257d7e4e6322}
-      \strng{fullhash}{eb0fd276fbe4c6a2b987257d7e4e6322}
-      \strng{bibnamehash}{eb0fd276fbe4c6a2b987257d7e4e6322}
-      \strng{authorbibnamehash}{eb0fd276fbe4c6a2b987257d7e4e6322}
-      \strng{authornamehash}{eb0fd276fbe4c6a2b987257d7e4e6322}
-      \strng{authorfullhash}{eb0fd276fbe4c6a2b987257d7e4e6322}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Pattern Recognition Letters}
-      \field{title}{Activation Functions and Their Impact on Neural Networks}
-      \field{volume}{150}
-      \field{year}{2020}
-      \field{pages}{98\bibrangedash 107}
-      \range{pages}{10}
+      \field{journaltitle}{Computers in Biology and Medicine}
+      \field{title}{A review of skin lesion segmentation techniques: from traditional approaches to deep learning methods}
+      \field{volume}{113}
+      \field{year}{2019}
+      \field{pages}{103388}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1016/j.patrec.2020.08.015
+      \verb 10.1016/j.compbiomed.2019.103388
       \endverb
     \endentry
     \entry{autor2022crossentropy}{article}{}
@@ -1173,6 +1386,7 @@
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Machine Learning}
@@ -1253,6 +1467,53 @@
       \field{pages}{202\bibrangedash 215}
       \range{pages}{14}
     \endentry
+    \entry{ronneberger2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8e46da9de9e53ea5d37089897d69cdd9}{%
+           family={Ronneberger},
+           familyi={R\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=168e84ce3582cbc6bac5e2ebc3ef8442}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b452a32296958371572717940f900884}{%
+           family={Brox},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{9a497128db448eba9bbb6e27b1ed57ed}
+      \strng{fullhash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{bibnamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authorbibnamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authornamehash}{9a497128db448eba9bbb6e27b1ed57ed}
+      \strng{authorfullhash}{f23ccc5160c62c7866172335b2c76e11}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medical Image Computing and Computer-Assisted Intervention (MICCAI)}
+      \field{title}{U-Net: Convolutional Networks for Biomedical Image Segmentation}
+      \field{volume}{9351}
+      \field{year}{2015}
+      \field{pages}{234\bibrangedash 241}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/978-3-319-24574-4_28
+      \endverb
+    \endentry
     \entry{Salih2020}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bc304938533aad2f6949b4bb319050ec}{%
@@ -1291,53 +1552,6 @@
       \field{pages}{104049}
       \range{pages}{1}
     \endentry
-    \entry{bk_sampieri2014metodologia}{book}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=0fa3afaa137ab316410213a15577e384}{%
-           family={Sampieri},
-           familyi={S\bibinitperiod},
-           given={R.\bibnamedelimi H.},
-           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2ae4e2963e13b59a0b0149c33d965882}{%
-           family={Collado},
-           familyi={C\bibinitperiod},
-           given={C.\bibnamedelimi F.},
-           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a24ca60f33f0d66abe05874fe1a5532a}{%
-           family={Lucio},
-           familyi={L\bibinitperiod},
-           given={P.\bibnamedelimi B.},
-           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {McGraw-Hill Education}%
-      }
-      \strng{namehash}{9988cbb40a458014a8fd0db823a01d1c}
-      \strng{fullhash}{03b5071c382527b8a99e0b95bbdbef2f}
-      \strng{bibnamehash}{03b5071c382527b8a99e0b95bbdbef2f}
-      \strng{authorbibnamehash}{03b5071c382527b8a99e0b95bbdbef2f}
-      \strng{authornamehash}{9988cbb40a458014a8fd0db823a01d1c}
-      \strng{authorfullhash}{03b5071c382527b8a99e0b95bbdbef2f}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{6}
-      \field{title}{Metodología de la investigación}
-      \field{year}{2014}
-      \verb{urlraw}
-      \verb https://books.google.com.pe/books?id=oLbjoQEACAAJ
-      \endverb
-      \verb{url}
-      \verb https://books.google.com.pe/books?id=oLbjoQEACAAJ
-      \endverb
-    \endentry
     \entry{autor2020spa}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b17a6e4a2e8a51a0d77017d50c2ef700}{%
@@ -1370,82 +1584,6 @@
       \verb 10.1109/JMV.2020.3051234
       \endverb
     \endentry
-    \entry{pr_simonyan2015vdcn}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=9d16b7284df92c9adaee86c37ab992df}{%
-           family={Simonyan},
-           familyi={S\bibinitperiod},
-           given={Karen},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c72fc39e94030f67717052309266a44d}{%
-           family={Zisserman},
-           familyi={Z\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{fullhash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{bibnamehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{authorbibnamehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{authornamehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{authorfullhash}{25d2f3c4577a6632d37f0126cc781232}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{3rd International Conference on Learning Representations, ICLR 2015 - Conference Track Proceedings}
-      \field{title}{Very deep convolutional networks for large-scale image recognition}
-      \field{year}{2015}
-      \verb{urlraw}
-      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85083953063&partnerID=40&md5=a5b2d6b3fc9f0a6f92864467079a1280
-      \endverb
-      \verb{url}
-      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85083953063&partnerID=40&md5=a5b2d6b3fc9f0a6f92864467079a1280
-      \endverb
-    \endentry
-    \entry{autor2022output}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=63d38fff938e8af73769c6b908e9f0d4}{%
-           family={Singh},
-           familyi={S\bibinitperiod},
-           given={Anjali},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cb7d34caae33504cbdd58c99aa638aa5}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Ramesh},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6eb49980183ae16ed62ed9c69eb5e121}
-      \strng{fullhash}{6eb49980183ae16ed62ed9c69eb5e121}
-      \strng{bibnamehash}{6eb49980183ae16ed62ed9c69eb5e121}
-      \strng{authorbibnamehash}{6eb49980183ae16ed62ed9c69eb5e121}
-      \strng{authornamehash}{6eb49980183ae16ed62ed9c69eb5e121}
-      \strng{authorfullhash}{6eb49980183ae16ed62ed9c69eb5e121}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Journal of Advanced Machine Learning}
-      \field{title}{Output Layer Configurations in Image Segmentation Networks}
-      \field{volume}{14}
-      \field{year}{2022}
-      \field{pages}{356\bibrangedash 369}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1109/JAML.2022.3123456
-      \endverb
-    \endentry
     \entry{autor2020segmentacion}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5d0ddda3a367ceb26fbaeca02e391c22}{%
@@ -1473,6 +1611,35 @@
       \field{labeltitlesource}{title}
       \field{title}{Image Segmentation in Computer Vision}
       \field{year}{2020}
+    \endentry
+    \entry{sorensen1948}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=288e248947d6fc30e1fca311074fcc68}{%
+           family={Sorensen},
+           familyi={S\bibinitperiod},
+           given={Thorvald},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{288e248947d6fc30e1fca311074fcc68}
+      \strng{fullhash}{288e248947d6fc30e1fca311074fcc68}
+      \strng{bibnamehash}{288e248947d6fc30e1fca311074fcc68}
+      \strng{authorbibnamehash}{288e248947d6fc30e1fca311074fcc68}
+      \strng{authornamehash}{288e248947d6fc30e1fca311074fcc68}
+      \strng{authorfullhash}{288e248947d6fc30e1fca311074fcc68}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biologiske Skrifter}
+      \field{title}{A Method of Establishing Groups of Equal Amplitude in Plant Sociology Based on Similarity of Species Content}
+      \field{volume}{5}
+      \field{year}{1948}
+      \field{pages}{1\bibrangedash 34}
+      \range{pages}{34}
     \endentry
     \entry{statista2023}{misc}{}
       \name{author}{1}{}{%
@@ -1562,34 +1729,6 @@
       \verb 10.18287/2412-6179-CO-748
       \endverb
     \endentry
-    \entry{autor2021fc}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7017ae322e755ffe1a7c0f154b65d6a7}{%
-           family={Turner},
-           familyi={T\bibinitperiod},
-           given={Rachel},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {CRC Press}%
-      }
-      \strng{namehash}{7017ae322e755ffe1a7c0f154b65d6a7}
-      \strng{fullhash}{7017ae322e755ffe1a7c0f154b65d6a7}
-      \strng{bibnamehash}{7017ae322e755ffe1a7c0f154b65d6a7}
-      \strng{authorbibnamehash}{7017ae322e755ffe1a7c0f154b65d6a7}
-      \strng{authornamehash}{7017ae322e755ffe1a7c0f154b65d6a7}
-      \strng{authorfullhash}{7017ae322e755ffe1a7c0f154b65d6a7}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Deep Learning and Neural Network Architecture}
-      \field{year}{2021}
-    \endentry
     \entry{autor2021atencion}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
@@ -1624,12 +1763,12 @@
     \endentry
     \entry{autor2020poros}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=a753993c6afc6bfea114ea4114b2e619}{%
+        {{un=1,uniquepart=given,hash=a753993c6afc6bfea114ea4114b2e619}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Hui},
            giveni={H\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=bc20e54573d2db853852f86802ab83de}{%
            family={Li},
            familyi={L\bibinitperiod},
@@ -1647,7 +1786,6 @@
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Dermatological Research and Practice}
@@ -1658,6 +1796,124 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1155/2020/7567894
+      \endverb
+    \endentry
+    \entry{wang2018}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=a3b7a6d0a38d8c1563b93335d38a2429}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xie},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=4f2458846f341e8178b36da7e92733b0}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jifeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
+      \strng{fullhash}{ab0e9dde0bbd41e8d102912a9c6cc275}
+      \strng{bibnamehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
+      \strng{authorbibnamehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
+      \strng{authornamehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
+      \strng{authorfullhash}{ab0e9dde0bbd41e8d102912a9c6cc275}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}
+      \field{title}{Non-local neural networks}
+      \field{year}{2018}
+      \field{pages}{7794\bibrangedash 7803}
+      \range{pages}{10}
+    \endentry
+    \entry{yang2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1dab0d4b4c8c23d247ffba8ba4341a03}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=591b2d1c7a7bbfa2aa9b386562212961}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Hyun},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{5f3a03ed5d438b5bf36430f9b722dbcc}
+      \strng{fullhash}{5f3a03ed5d438b5bf36430f9b722dbcc}
+      \strng{bibnamehash}{5f3a03ed5d438b5bf36430f9b722dbcc}
+      \strng{authorbibnamehash}{5f3a03ed5d438b5bf36430f9b722dbcc}
+      \strng{authornamehash}{5f3a03ed5d438b5bf36430f9b722dbcc}
+      \strng{authorfullhash}{5f3a03ed5d438b5bf36430f9b722dbcc}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Dermatology Imaging}
+      \field{title}{Advanced Techniques for Pore Detection in High-Resolution Dermatological Images}
+      \field{volume}{18}
+      \field{year}{2020}
+      \field{pages}{89\bibrangedash 102}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.ijdi.2020.04.003
+      \endverb
+    \endentry
+    \entry{yoo2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=98b0eae050c2ed43990b77fbf3daa50e}{%
+           family={Yoo},
+           familyi={Y\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa5a7c8780167efaa3ed45566a0806a0}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a48868d4b7e2996a44219cbaef3fb20}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8e47f254ab0a0045e4fc5d9daa695614}
+      \strng{fullhash}{2bbfb02e918945516b9ffc5695e95963}
+      \strng{bibnamehash}{2bbfb02e918945516b9ffc5695e95963}
+      \strng{authorbibnamehash}{2bbfb02e918945516b9ffc5695e95963}
+      \strng{authornamehash}{8e47f254ab0a0045e4fc5d9daa695614}
+      \strng{authorfullhash}{2bbfb02e918945516b9ffc5695e95963}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Dermatological Science}
+      \field{number}{3}
+      \field{title}{Limitations of classical segmentation techniques in dermatological images}
+      \field{volume}{98}
+      \field{year}{2020}
+      \field{pages}{245\bibrangedash 256}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.jdermsci.2020.06.012
       \endverb
     \endentry
     \entry{yoon2023}{article}{}
@@ -1707,6 +1963,77 @@
       \field{year}{2023}
       \verb{doi}
       \verb 10.3390/diagnostics13111894
+      \endverb
+    \endentry
+    \entry{zhao2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bb86c6a67d0b873b7f2ef7defe046268}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69be1248ab71da4b806d79d77bb6b0b8}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xinyi},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
+      \strng{fullhash}{41fb6c8b36536d8c2ea94ff59afdbc73}
+      \strng{bibnamehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
+      \strng{authorbibnamehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
+      \strng{authornamehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
+      \strng{authorfullhash}{41fb6c8b36536d8c2ea94ff59afdbc73}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Medical Image Analysis}
+      \field{title}{Robust Image Segmentation for Dermatological Applications under Varied Skin Tones and Lighting}
+      \field{volume}{45}
+      \field{year}{2021}
+      \field{pages}{22\bibrangedash 34}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.media.2021.01.007
+      \endverb
+    \endentry
+    \entry{zouboulis2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f016b320f26a6666a54502692052eec}{%
+           family={Zouboulis},
+           familyi={Z\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6f016b320f26a6666a54502692052eec}
+      \strng{fullhash}{6f016b320f26a6666a54502692052eec}
+      \strng{bibnamehash}{6f016b320f26a6666a54502692052eec}
+      \strng{authorbibnamehash}{6f016b320f26a6666a54502692052eec}
+      \strng{authornamehash}{6f016b320f26a6666a54502692052eec}
+      \strng{authorfullhash}{6f016b320f26a6666a54502692052eec}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dermatologic Clinics}
+      \field{number}{3}
+      \field{title}{The Pathogenesis of Acne and Rosacea}
+      \field{volume}{32}
+      \field{year}{2014}
+      \field{pages}{159\bibrangedash 168}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.det.2014.04.001
       \endverb
     \endentry
   \enddatalist
@@ -1855,14 +2182,49 @@
       \verb 10.1016/j.cosmed.2021.03.001
       \endverb
     \endentry
+    \entry{cameron2021}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d691b5968ed6fa3ee172bcfb70ef012f}{%
+           family={Cameron},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b10a1f4693339abb19edbec53e8725a5}
+      \strng{fullhash}{b10a1f4693339abb19edbec53e8725a5}
+      \strng{bibnamehash}{b10a1f4693339abb19edbec53e8725a5}
+      \strng{authorbibnamehash}{b10a1f4693339abb19edbec53e8725a5}
+      \strng{authornamehash}{b10a1f4693339abb19edbec53e8725a5}
+      \strng{authorfullhash}{b10a1f4693339abb19edbec53e8725a5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Dermatological Research}
+      \field{number}{3}
+      \field{title}{Understanding the Factors Influencing Pore Visibility and Detection in Dermatological Imaging}
+      \field{volume}{48}
+      \field{year}{2021}
+      \field{pages}{142\bibrangedash 150}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.jdermatol.2021.01.005
+      \endverb
+    \endentry
     \entry{autor2021deeplab}{article}{}
       \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=9dddfcfd529634a150ee38ee5c0203d7}{%
+        {{un=0,uniquepart=base,hash=9dddfcfd529634a150ee38ee5c0203d7}{%
            family={Chen},
            familyi={C\bibinitperiod},
            given={Liang-Chieh},
            giveni={L\bibinithyphendelim C\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{9dddfcfd529634a150ee38ee5c0203d7}
       \strng{fullhash}{9dddfcfd529634a150ee38ee5c0203d7}
@@ -1886,6 +2248,44 @@
       \range{pages}{15}
       \verb{doi}
       \verb 10.1109/TPAMI.2017.2699184
+      \endverb
+    \endentry
+    \entry{chuchu2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e3bf71115c9da84dcbd4134906987eb9}{%
+           family={Chuchu},
+           familyi={C\bibinitperiod},
+           given={Naomi},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd69ff113cefeb3750248a3517b5924b}{%
+           family={Birchall},
+           familyi={B\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3af3483aef5a15a2404e04cd7fdd00c8}
+      \strng{fullhash}{3af3483aef5a15a2404e04cd7fdd00c8}
+      \strng{bibnamehash}{3af3483aef5a15a2404e04cd7fdd00c8}
+      \strng{authorbibnamehash}{3af3483aef5a15a2404e04cd7fdd00c8}
+      \strng{authornamehash}{3af3483aef5a15a2404e04cd7fdd00c8}
+      \strng{authorfullhash}{3af3483aef5a15a2404e04cd7fdd00c8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Skin Imaging Review}
+      \field{title}{The Role of Accurate Skin Segmentation in Cosmetic Dermatology}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{pages}{67\bibrangedash 78}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.sir.2020.06.002
       \endverb
     \endentry
     \entry{autor2020dice}{article}{}
@@ -1949,6 +2349,105 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1109/CVPR.2022.00123
+      \endverb
+    \endentry
+    \entry{dosovitskiy2020}{article}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=72308762399d6ab62bbd9391c64c7bfd}{%
+           family={Dosovitskiy},
+           familyi={D\bibinitperiod},
+           given={Alexey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=836254958eac09b30d45dd67a75ce4fa}{%
+           family={Beyer},
+           familyi={B\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6807e3c00242c6bf6a3179905040471b}{%
+           family={Kolesnikov},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b398fca6879fde89a032b8e7de2f26b5}{%
+           family={Weissenborn},
+           familyi={W\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00b950307c7d096765bb6df00c7c5c3a}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={Xiaohua},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a47640139e63b9b5969c969dfe95def}{%
+           family={Unterthiner},
+           familyi={U\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=965baf6fa5686a42b1564330c5e11f2f}{%
+           family={Dehghani},
+           familyi={D\bibinitperiod},
+           given={Mostafa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06829adce8713f0ace444279dcd7328f}{%
+           family={Minderer},
+           familyi={M\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c95269b4a2e23e1e526be521c7ec6ad4}{%
+           family={Heigold},
+           familyi={H\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=450963f966620925cb8fecd32f7a6ee1}{%
+           family={Gelly},
+           familyi={G\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=493a532418540859dca92cf3b579de2a}{%
+           family={Houlsby},
+           familyi={H\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d96316bc7578db680aba71d4226354c8}
+      \strng{fullhash}{b8c06eaeb698f61fc96ff3e5570552ec}
+      \strng{bibnamehash}{b8c06eaeb698f61fc96ff3e5570552ec}
+      \strng{authorbibnamehash}{b8c06eaeb698f61fc96ff3e5570552ec}
+      \strng{authornamehash}{d96316bc7578db680aba71d4226354c8}
+      \strng{authorfullhash}{b8c06eaeb698f61fc96ff3e5570552ec}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Conference on Learning Representations (ICLR)}
+      \field{note}{arXiv preprint arXiv:2010.11929}
+      \field{title}{An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2010.11929
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2010.11929
       \endverb
     \endentry
     \entry{esteva2017}{article}{}
@@ -2015,6 +2514,57 @@
       \field{year}{2017}
       \field{pages}{115\bibrangedash 118}
       \range{pages}{4}
+    \endentry
+    \entry{farage2013}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1908c590361c06a7cc9d3ebe64c90993}{%
+           family={Farage},
+           familyi={F\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=903276ef6a84da68e9539a4b28caa043}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={K.W.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=666028f569c21597b08c73082c297c8d}{%
+           family={Berardesca},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6dd33d87199fe014396f1896aaa32111}{%
+           family={Maibach},
+           familyi={M\bibinitperiod},
+           given={H.I.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e45b767d2451fae7700246ab25907a95}
+      \strng{fullhash}{32a6915aa3d8b9e77f074458556598ab}
+      \strng{bibnamehash}{32a6915aa3d8b9e77f074458556598ab}
+      \strng{authorbibnamehash}{32a6915aa3d8b9e77f074458556598ab}
+      \strng{authornamehash}{e45b767d2451fae7700246ab25907a95}
+      \strng{authorfullhash}{32a6915aa3d8b9e77f074458556598ab}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archives of Dermatological Research}
+      \field{number}{6}
+      \field{title}{Changes in the skin structure and function during aging: A review}
+      \field{volume}{305}
+      \field{year}{2013}
+      \field{pages}{283\bibrangedash 298}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s00403-013-1347-0
+      \endverb
     \endentry
     \entry{firdaus2023}{article}{}
       \name{author}{9}{}{%
@@ -2135,6 +2685,42 @@
       \verb 10.1111/srt.12345
       \endverb
     \endentry
+    \entry{gonzalez2018}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=07713b8c79fe78ffaf9ab728a5f3ce88}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Rafael\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7e4f4ce32d8e1ac04f7ee5eefcabe8f}{%
+           family={Woods},
+           familyi={W\bibinitperiod},
+           given={Richard\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{629c2754a63b62c1f205866b8ab085f9}
+      \strng{fullhash}{629c2754a63b62c1f205866b8ab085f9}
+      \strng{bibnamehash}{629c2754a63b62c1f205866b8ab085f9}
+      \strng{authorbibnamehash}{629c2754a63b62c1f205866b8ab085f9}
+      \strng{authornamehash}{629c2754a63b62c1f205866b8ab085f9}
+      \strng{authorfullhash}{629c2754a63b62c1f205866b8ab085f9}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4th}
+      \field{isbn}{978-0133356724}
+      \field{title}{Digital Image Processing}
+      \field{year}{2018}
+    \endentry
     \entry{autor2020gans}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
@@ -2162,6 +2748,75 @@
       \field{labeltitlesource}{title}
       \field{title}{Generative Adversarial Networks: Theory and Applications}
       \field{year}{2020}
+    \endentry
+    \entry{goodfellow2014}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a341d25f80a8118cdbb90b272adc8b4f}{%
+           family={Pouget-Abadie},
+           familyi={P\bibinithyphendelim A\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e80f4779b032f68a6106e1424345450}{%
+           family={Mirza},
+           familyi={M\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=743dd6cdaa6639320289d219d351d7b7}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8151f1b8f85a048cacb34f374ec922b}{%
+           family={Warde-Farley},
+           familyi={W\bibinithyphendelim F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ca00ffd7cc35f7cfb8f698aa9239c76}{%
+           family={Ozair},
+           familyi={O\bibinitperiod},
+           given={Sherjil},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{fullhash}{fa2b4fb373e75fcf07b4b987e4507545}
+      \strng{bibnamehash}{fa2b4fb373e75fcf07b4b987e4507545}
+      \strng{authorbibnamehash}{fa2b4fb373e75fcf07b4b987e4507545}
+      \strng{authornamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authorfullhash}{fa2b4fb373e75fcf07b4b987e4507545}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Generative adversarial nets}
+      \field{volume}{27}
+      \field{year}{2014}
     \endentry
     \entry{autor2021beneficios}{article}{}
       \name{author}{1}{}{%
@@ -2228,7 +2883,7 @@
       \verb 10.1109/TPAMI.2018.2844175
       \endverb
     \endentry
-    \entry{pr_he2016deepres}{article}{}
+    \entry{he2016}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=6b4b60e909e78633945f3f9c9dc83e01}{%
            family={He},
@@ -2255,9 +2910,6 @@
            giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Las Vegas, Nevada, Estados Unidos}%
-      }
       \strng{namehash}{6edb98fe38401d2fe4a026f5ce6e8451}
       \strng{fullhash}{42c4b52dc3a62cebabbc11c73e1afb53}
       \strng{bibnamehash}{42c4b52dc3a62cebabbc11c73e1afb53}
@@ -2271,73 +2923,51 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition}
-      \field{title}{Deep residual learning for image recognition}
+      \field{journaltitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}
+      \field{title}{Deep Residual Learning for Image Recognition}
       \field{year}{2016}
+      \field{pages}{770\bibrangedash 778}
+      \range{pages}{9}
       \verb{doi}
       \verb 10.1109/CVPR.2016.90
       \endverb
     \endentry
-    \entry{ws_inkawhich2024dcganpytorch}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3dfa15572a032ea943dceaaba755046b}{%
-           family={Inkawhich},
-           familyi={I\bibinitperiod},
-           given={Nathan},
-           giveni={N\bibinitperiod},
+    \entry{hussain2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7f3c448351715604a9867949a573eed9}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Tasneem},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e79c142131cffbc453ff3088058b647e}{%
+           family={Rehman},
+           familyi={R\bibinitperiod},
+           given={Bilal},
+           giveni={B\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{fullhash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{bibnamehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{authorbibnamehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{authornamehash}{3dfa15572a032ea943dceaaba755046b}
-      \strng{authorfullhash}{3dfa15572a032ea943dceaaba755046b}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \strng{namehash}{dcc2f3db49de27169f07e7d8e41d3cba}
+      \strng{fullhash}{dcc2f3db49de27169f07e7d8e41d3cba}
+      \strng{bibnamehash}{dcc2f3db49de27169f07e7d8e41d3cba}
+      \strng{authorbibnamehash}{dcc2f3db49de27169f07e7d8e41d3cba}
+      \strng{authornamehash}{dcc2f3db49de27169f07e7d8e41d3cba}
+      \strng{authorfullhash}{dcc2f3db49de27169f07e7d8e41d3cba}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{DCGAN Tutorial}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
-      \endverb
-      \verb{url}
-      \verb https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
-      \endverb
-    \endentry
-    \entry{ws_izco2018bdcp}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=469102ff09ab2baf2f859838c2dae750}{%
-           family={Izco},
-           familyi={I\bibinitperiod},
-           given={Fernando},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{fullhash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{bibnamehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authorbibnamehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authornamehash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authorfullhash}{469102ff09ab2baf2f859838c2dae750}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Base de Datos Corporativa de Personas}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://bookdown.org/f_izco/BDC-POC/metricas.html
-      \endverb
-      \verb{url}
-      \verb https://bookdown.org/f_izco/BDC-POC/metricas.html
+      \field{journaltitle}{Journal of Biomedical Informatics}
+      \field{title}{Hybrid Approaches in Dermatological Image Segmentation: A Comparative Study}
+      \field{volume}{120}
+      \field{year}{2021}
+      \field{pages}{103\bibrangedash 115}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.jbi.2021.103756
       \endverb
     \endentry
     \entry{autor2021iou}{article}{}
@@ -2370,48 +3000,6 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1016/j.imgl.2021.02.003
-      \endverb
-    \endentry
-    \entry{pr_JERBI2023autoclassViTGAN}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=a411472e75a59ce26fbf1b8bad011114}{%
-           family={JERBI},
-           familyi={J\bibinitperiod},
-           given={Feres},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f471786824b9d89615f487a4e4337e11}{%
-           family={ABOUDI},
-           familyi={A\bibinitperiod},
-           given={Noura},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=772c083ed8d5ece14e5267c553ab2704}{%
-           family={KHLIFA},
-           familyi={K\bibinitperiod},
-           given={Nawres},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{af8bd3f9d85e97430bbe83a9a6b0cf21}
-      \strng{fullhash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \strng{bibnamehash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \strng{authorbibnamehash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \strng{authornamehash}{af8bd3f9d85e97430bbe83a9a6b0cf21}
-      \strng{authorfullhash}{2a4fdfdaa2579d86ffc97c00256081f8}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Scientific African}
-      \field{title}{Automatic classification of ultrasound thyroids images using vision transformers and generative adversarial networks}
-      \field{volume}{20}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 10.1016/j.sciaf.2023.e01679
       \endverb
     \endentry
     \entry{jia2019}{article}{}
@@ -2564,6 +3152,7 @@
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Sciences}
@@ -2574,43 +3163,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.3390/app13020989
-      \endverb
-    \endentry
-    \entry{autor2019pooling}{article}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=97a093cc89652da72862be4c46eab434}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Yong},
-           giveni={Y\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=3dc455f892e823d50606b6e7f20e6790}{%
-           family={Park},
-           familyi={P\bibinitperiod},
-           given={Jisoo},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8f3b8f83849d9f613f18ad41d7c2fd84}
-      \strng{fullhash}{8f3b8f83849d9f613f18ad41d7c2fd84}
-      \strng{bibnamehash}{8f3b8f83849d9f613f18ad41d7c2fd84}
-      \strng{authorbibnamehash}{8f3b8f83849d9f613f18ad41d7c2fd84}
-      \strng{authornamehash}{8f3b8f83849d9f613f18ad41d7c2fd84}
-      \strng{authorfullhash}{8f3b8f83849d9f613f18ad41d7c2fd84}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Computational Vision}
-      \field{title}{Pooling Layers and Dimensionality Reduction in Convolutional Networks}
-      \field{volume}{27}
-      \field{year}{2019}
-      \field{pages}{215\bibrangedash 223}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1016/j.jocv.2019.09.009
       \endverb
     \endentry
     \entry{autor2019canal}{article}{}
@@ -2644,6 +3196,47 @@
       \verb{doi}
       \verb 10.1016/j.jcvr.2019.04.002
       \endverb
+    \endentry
+    \entry{krizhevsky2012}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c5e3a676e2ac1164b3afcd539c131fc9}{%
+           family={Krizhevsky},
+           familyi={K\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=813bd95fe553e6079cd53a567b238287}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={Geoffrey\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd291871bfa8ee64447232f1cca429aa}
+      \strng{fullhash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{bibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authorbibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authornamehash}{dd291871bfa8ee64447232f1cca429aa}
+      \strng{authorfullhash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{ImageNet Classification with Deep Convolutional Neural Networks}
+      \field{volume}{25}
+      \field{year}{2012}
+      \field{pages}{1097\bibrangedash 1105}
+      \range{pages}{9}
     \endentry
     \entry{autor2022cnn}{book}{}
       \name{author}{1}{}{%
@@ -2708,12 +3301,12 @@
     \endentry
     \entry{autor2019precision}{article}{}
       \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=ec25a8f863b237cf4d23a67accd68644}{%
+        {{un=0,uniquepart=base,hash=ec25a8f863b237cf4d23a67accd68644}{%
            family={Martinez},
            familyi={M\bibinitperiod},
            given={Carlos},
            giveni={C\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{ec25a8f863b237cf4d23a67accd68644}
       \strng{fullhash}{ec25a8f863b237cf4d23a67accd68644}
@@ -2725,6 +3318,7 @@
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Computer Vision}
@@ -2737,61 +3331,44 @@
       \verb 10.1016/j.jcv.2019.04.007
       \endverb
     \endentry
-    \entry{autor2021conv}{article}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=cb9b22495522a7f94d0b54df8e4d5a49}{%
-           family={Martinez},
+    \entry{mohammadi2019}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fb53f8a1975ffe1325fcb2d0dfc3eb55}{%
+           family={Mohammadi},
            familyi={M\bibinitperiod},
-           given={Laura},
-           giveni={L\bibinitperiod},
-           givenun=1}}%
-        {{un=1,uniquepart=given,hash=8b8805250fb5a57cfbae360547a18706}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Qiang},
-           giveni={Q\bibinitperiod},
-           givenun=1}}%
-      }
-      \strng{namehash}{03d3e74983a782c5e6ba9844e44e7056}
-      \strng{fullhash}{03d3e74983a782c5e6ba9844e44e7056}
-      \strng{bibnamehash}{03d3e74983a782c5e6ba9844e44e7056}
-      \strng{authorbibnamehash}{03d3e74983a782c5e6ba9844e44e7056}
-      \strng{authornamehash}{03d3e74983a782c5e6ba9844e44e7056}
-      \strng{authorfullhash}{03d3e74983a782c5e6ba9844e44e7056}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Neural Networks}
-      \field{title}{Convolutional Layers in Deep Learning: Applications and Advancements}
-      \field{volume}{32}
-      \field{year}{2021}
-      \field{pages}{405\bibrangedash 417}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1109/TNN.2021.3051234
-      \endverb
-    \endentry
-    \entry{pr_monroy2021disvc}{thesis}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=518d0a79a6837515cfc9408198f007f1}{%
-           family={Monroy\bibnamedelima Malca},
-           familyi={M\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Virginia\bibnamedelimb del\bibnamedelima Pilar},
-           giveni={V\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2b29bba29c0ebadd81f749d33c86eaa}{%
+           family={Eslami},
+           familyi={E\bibinitperiod},
+           given={Mahdi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3095962c0e0d5e3c48a6a04660f4f733}{%
+           family={Khusainov},
+           familyi={K\bibinitperiod},
+           given={Rafail},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=786fa46b0a946e9a1607a3ea87770785}{%
+           family={Saba},
+           familyi={S\bibinitperiod},
+           given={Taha},
+           giveni={T\bibinitperiod},
            givenun=0}}%
       }
-      \list{institution}{1}{%
-        {Universidad ESAN}%
+      \list{publisher}{1}{%
+        {Elsevier}%
       }
-      \strng{namehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{fullhash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{bibnamehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{authorbibnamehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{authornamehash}{518d0a79a6837515cfc9408198f007f1}
-      \strng{authorfullhash}{518d0a79a6837515cfc9408198f007f1}
+      \strng{namehash}{472b8ee2da6bfc840099683dfcee3589}
+      \strng{fullhash}{ea95c4b0aca0eae16a8825608d424785}
+      \strng{bibnamehash}{ea95c4b0aca0eae16a8825608d424785}
+      \strng{authorbibnamehash}{ea95c4b0aca0eae16a8825608d424785}
+      \strng{authornamehash}{472b8ee2da6bfc840099683dfcee3589}
+      \strng{authorfullhash}{ea95c4b0aca0eae16a8825608d424785}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -2799,51 +3376,14 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Diseño de un sistema de visión computacional para el pre-diagnóstico de la enfermedad de Parkinson a partir de la escritura de una persona}
-      \field{type}{Tesis de grado}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://hdl.handle.net/20.500.12640/2262
-      \endverb
-      \verb{url}
-      \verb https://hdl.handle.net/20.500.12640/2262
-      \endverb
-    \endentry
-    \entry{autor2020relu}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=509dd0b5cbe6a079675bf58e2c99e7cd}{%
-           family={Nguyen},
-           familyi={N\bibinitperiod},
-           given={Liem},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c7a7a826b23381cf98a59161f42cf24e}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Ming},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{eb0fd276fbe4c6a2b987257d7e4e6322}
-      \strng{fullhash}{eb0fd276fbe4c6a2b987257d7e4e6322}
-      \strng{bibnamehash}{eb0fd276fbe4c6a2b987257d7e4e6322}
-      \strng{authorbibnamehash}{eb0fd276fbe4c6a2b987257d7e4e6322}
-      \strng{authornamehash}{eb0fd276fbe4c6a2b987257d7e4e6322}
-      \strng{authorfullhash}{eb0fd276fbe4c6a2b987257d7e4e6322}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Pattern Recognition Letters}
-      \field{title}{Activation Functions and Their Impact on Neural Networks}
-      \field{volume}{150}
-      \field{year}{2020}
-      \field{pages}{98\bibrangedash 107}
-      \range{pages}{10}
+      \field{journaltitle}{Computers in Biology and Medicine}
+      \field{title}{A review of skin lesion segmentation techniques: from traditional approaches to deep learning methods}
+      \field{volume}{113}
+      \field{year}{2019}
+      \field{pages}{103388}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1016/j.patrec.2020.08.015
+      \verb 10.1016/j.compbiomed.2019.103388
       \endverb
     \endentry
     \entry{autor2022crossentropy}{article}{}
@@ -2865,6 +3405,7 @@
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Machine Learning}
@@ -2945,6 +3486,53 @@
       \field{pages}{202\bibrangedash 215}
       \range{pages}{14}
     \endentry
+    \entry{ronneberger2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8e46da9de9e53ea5d37089897d69cdd9}{%
+           family={Ronneberger},
+           familyi={R\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=168e84ce3582cbc6bac5e2ebc3ef8442}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b452a32296958371572717940f900884}{%
+           family={Brox},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{9a497128db448eba9bbb6e27b1ed57ed}
+      \strng{fullhash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{bibnamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authorbibnamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authornamehash}{9a497128db448eba9bbb6e27b1ed57ed}
+      \strng{authorfullhash}{f23ccc5160c62c7866172335b2c76e11}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medical Image Computing and Computer-Assisted Intervention (MICCAI)}
+      \field{title}{U-Net: Convolutional Networks for Biomedical Image Segmentation}
+      \field{volume}{9351}
+      \field{year}{2015}
+      \field{pages}{234\bibrangedash 241}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/978-3-319-24574-4_28
+      \endverb
+    \endentry
     \entry{Salih2020}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bc304938533aad2f6949b4bb319050ec}{%
@@ -2983,53 +3571,6 @@
       \field{pages}{104049}
       \range{pages}{1}
     \endentry
-    \entry{bk_sampieri2014metodologia}{book}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=0fa3afaa137ab316410213a15577e384}{%
-           family={Sampieri},
-           familyi={S\bibinitperiod},
-           given={R.\bibnamedelimi H.},
-           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2ae4e2963e13b59a0b0149c33d965882}{%
-           family={Collado},
-           familyi={C\bibinitperiod},
-           given={C.\bibnamedelimi F.},
-           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a24ca60f33f0d66abe05874fe1a5532a}{%
-           family={Lucio},
-           familyi={L\bibinitperiod},
-           given={P.\bibnamedelimi B.},
-           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {McGraw-Hill Education}%
-      }
-      \strng{namehash}{9988cbb40a458014a8fd0db823a01d1c}
-      \strng{fullhash}{03b5071c382527b8a99e0b95bbdbef2f}
-      \strng{bibnamehash}{03b5071c382527b8a99e0b95bbdbef2f}
-      \strng{authorbibnamehash}{03b5071c382527b8a99e0b95bbdbef2f}
-      \strng{authornamehash}{9988cbb40a458014a8fd0db823a01d1c}
-      \strng{authorfullhash}{03b5071c382527b8a99e0b95bbdbef2f}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{6}
-      \field{title}{Metodología de la investigación}
-      \field{year}{2014}
-      \verb{urlraw}
-      \verb https://books.google.com.pe/books?id=oLbjoQEACAAJ
-      \endverb
-      \verb{url}
-      \verb https://books.google.com.pe/books?id=oLbjoQEACAAJ
-      \endverb
-    \endentry
     \entry{autor2020spa}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b17a6e4a2e8a51a0d77017d50c2ef700}{%
@@ -3062,82 +3603,6 @@
       \verb 10.1109/JMV.2020.3051234
       \endverb
     \endentry
-    \entry{pr_simonyan2015vdcn}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=9d16b7284df92c9adaee86c37ab992df}{%
-           family={Simonyan},
-           familyi={S\bibinitperiod},
-           given={Karen},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c72fc39e94030f67717052309266a44d}{%
-           family={Zisserman},
-           familyi={Z\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{fullhash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{bibnamehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{authorbibnamehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{authornamehash}{25d2f3c4577a6632d37f0126cc781232}
-      \strng{authorfullhash}{25d2f3c4577a6632d37f0126cc781232}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{3rd International Conference on Learning Representations, ICLR 2015 - Conference Track Proceedings}
-      \field{title}{Very deep convolutional networks for large-scale image recognition}
-      \field{year}{2015}
-      \verb{urlraw}
-      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85083953063&partnerID=40&md5=a5b2d6b3fc9f0a6f92864467079a1280
-      \endverb
-      \verb{url}
-      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85083953063&partnerID=40&md5=a5b2d6b3fc9f0a6f92864467079a1280
-      \endverb
-    \endentry
-    \entry{autor2022output}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=63d38fff938e8af73769c6b908e9f0d4}{%
-           family={Singh},
-           familyi={S\bibinitperiod},
-           given={Anjali},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cb7d34caae33504cbdd58c99aa638aa5}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Ramesh},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6eb49980183ae16ed62ed9c69eb5e121}
-      \strng{fullhash}{6eb49980183ae16ed62ed9c69eb5e121}
-      \strng{bibnamehash}{6eb49980183ae16ed62ed9c69eb5e121}
-      \strng{authorbibnamehash}{6eb49980183ae16ed62ed9c69eb5e121}
-      \strng{authornamehash}{6eb49980183ae16ed62ed9c69eb5e121}
-      \strng{authorfullhash}{6eb49980183ae16ed62ed9c69eb5e121}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Journal of Advanced Machine Learning}
-      \field{title}{Output Layer Configurations in Image Segmentation Networks}
-      \field{volume}{14}
-      \field{year}{2022}
-      \field{pages}{356\bibrangedash 369}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1109/JAML.2022.3123456
-      \endverb
-    \endentry
     \entry{autor2020segmentacion}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5d0ddda3a367ceb26fbaeca02e391c22}{%
@@ -3165,6 +3630,35 @@
       \field{labeltitlesource}{title}
       \field{title}{Image Segmentation in Computer Vision}
       \field{year}{2020}
+    \endentry
+    \entry{sorensen1948}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=288e248947d6fc30e1fca311074fcc68}{%
+           family={Sorensen},
+           familyi={S\bibinitperiod},
+           given={Thorvald},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{288e248947d6fc30e1fca311074fcc68}
+      \strng{fullhash}{288e248947d6fc30e1fca311074fcc68}
+      \strng{bibnamehash}{288e248947d6fc30e1fca311074fcc68}
+      \strng{authorbibnamehash}{288e248947d6fc30e1fca311074fcc68}
+      \strng{authornamehash}{288e248947d6fc30e1fca311074fcc68}
+      \strng{authorfullhash}{288e248947d6fc30e1fca311074fcc68}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biologiske Skrifter}
+      \field{title}{A Method of Establishing Groups of Equal Amplitude in Plant Sociology Based on Similarity of Species Content}
+      \field{volume}{5}
+      \field{year}{1948}
+      \field{pages}{1\bibrangedash 34}
+      \range{pages}{34}
     \endentry
     \entry{statista2023}{misc}{}
       \name{author}{1}{}{%
@@ -3254,34 +3748,6 @@
       \verb 10.18287/2412-6179-CO-748
       \endverb
     \endentry
-    \entry{autor2021fc}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7017ae322e755ffe1a7c0f154b65d6a7}{%
-           family={Turner},
-           familyi={T\bibinitperiod},
-           given={Rachel},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {CRC Press}%
-      }
-      \strng{namehash}{7017ae322e755ffe1a7c0f154b65d6a7}
-      \strng{fullhash}{7017ae322e755ffe1a7c0f154b65d6a7}
-      \strng{bibnamehash}{7017ae322e755ffe1a7c0f154b65d6a7}
-      \strng{authorbibnamehash}{7017ae322e755ffe1a7c0f154b65d6a7}
-      \strng{authornamehash}{7017ae322e755ffe1a7c0f154b65d6a7}
-      \strng{authorfullhash}{7017ae322e755ffe1a7c0f154b65d6a7}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Deep Learning and Neural Network Architecture}
-      \field{year}{2021}
-    \endentry
     \entry{autor2021atencion}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
@@ -3316,12 +3782,12 @@
     \endentry
     \entry{autor2020poros}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=a753993c6afc6bfea114ea4114b2e619}{%
+        {{un=1,uniquepart=given,hash=a753993c6afc6bfea114ea4114b2e619}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Hui},
            giveni={H\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=bc20e54573d2db853852f86802ab83de}{%
            family={Li},
            familyi={L\bibinitperiod},
@@ -3339,7 +3805,6 @@
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Dermatological Research and Practice}
@@ -3350,6 +3815,124 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1155/2020/7567894
+      \endverb
+    \endentry
+    \entry{wang2018}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=a3b7a6d0a38d8c1563b93335d38a2429}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xie},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=4f2458846f341e8178b36da7e92733b0}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jifeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
+      \strng{fullhash}{ab0e9dde0bbd41e8d102912a9c6cc275}
+      \strng{bibnamehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
+      \strng{authorbibnamehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
+      \strng{authornamehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
+      \strng{authorfullhash}{ab0e9dde0bbd41e8d102912a9c6cc275}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}
+      \field{title}{Non-local neural networks}
+      \field{year}{2018}
+      \field{pages}{7794\bibrangedash 7803}
+      \range{pages}{10}
+    \endentry
+    \entry{yang2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1dab0d4b4c8c23d247ffba8ba4341a03}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=591b2d1c7a7bbfa2aa9b386562212961}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Hyun},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{5f3a03ed5d438b5bf36430f9b722dbcc}
+      \strng{fullhash}{5f3a03ed5d438b5bf36430f9b722dbcc}
+      \strng{bibnamehash}{5f3a03ed5d438b5bf36430f9b722dbcc}
+      \strng{authorbibnamehash}{5f3a03ed5d438b5bf36430f9b722dbcc}
+      \strng{authornamehash}{5f3a03ed5d438b5bf36430f9b722dbcc}
+      \strng{authorfullhash}{5f3a03ed5d438b5bf36430f9b722dbcc}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Dermatology Imaging}
+      \field{title}{Advanced Techniques for Pore Detection in High-Resolution Dermatological Images}
+      \field{volume}{18}
+      \field{year}{2020}
+      \field{pages}{89\bibrangedash 102}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.ijdi.2020.04.003
+      \endverb
+    \endentry
+    \entry{yoo2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=98b0eae050c2ed43990b77fbf3daa50e}{%
+           family={Yoo},
+           familyi={Y\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa5a7c8780167efaa3ed45566a0806a0}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a48868d4b7e2996a44219cbaef3fb20}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8e47f254ab0a0045e4fc5d9daa695614}
+      \strng{fullhash}{2bbfb02e918945516b9ffc5695e95963}
+      \strng{bibnamehash}{2bbfb02e918945516b9ffc5695e95963}
+      \strng{authorbibnamehash}{2bbfb02e918945516b9ffc5695e95963}
+      \strng{authornamehash}{8e47f254ab0a0045e4fc5d9daa695614}
+      \strng{authorfullhash}{2bbfb02e918945516b9ffc5695e95963}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Dermatological Science}
+      \field{number}{3}
+      \field{title}{Limitations of classical segmentation techniques in dermatological images}
+      \field{volume}{98}
+      \field{year}{2020}
+      \field{pages}{245\bibrangedash 256}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.jdermsci.2020.06.012
       \endverb
     \endentry
     \entry{yoon2023}{article}{}
@@ -3401,25 +3984,85 @@
       \verb 10.3390/diagnostics13111894
       \endverb
     \endentry
+    \entry{zhao2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bb86c6a67d0b873b7f2ef7defe046268}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69be1248ab71da4b806d79d77bb6b0b8}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xinyi},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
+      \strng{fullhash}{41fb6c8b36536d8c2ea94ff59afdbc73}
+      \strng{bibnamehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
+      \strng{authorbibnamehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
+      \strng{authornamehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
+      \strng{authorfullhash}{41fb6c8b36536d8c2ea94ff59afdbc73}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Medical Image Analysis}
+      \field{title}{Robust Image Segmentation for Dermatological Applications under Varied Skin Tones and Lighting}
+      \field{volume}{45}
+      \field{year}{2021}
+      \field{pages}{22\bibrangedash 34}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.media.2021.01.007
+      \endverb
+    \endentry
+    \entry{zouboulis2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f016b320f26a6666a54502692052eec}{%
+           family={Zouboulis},
+           familyi={Z\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6f016b320f26a6666a54502692052eec}
+      \strng{fullhash}{6f016b320f26a6666a54502692052eec}
+      \strng{bibnamehash}{6f016b320f26a6666a54502692052eec}
+      \strng{authorbibnamehash}{6f016b320f26a6666a54502692052eec}
+      \strng{authornamehash}{6f016b320f26a6666a54502692052eec}
+      \strng{authorfullhash}{6f016b320f26a6666a54502692052eec}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dermatologic Clinics}
+      \field{number}{3}
+      \field{title}{The Pathogenesis of Acne and Rosacea}
+      \field{volume}{32}
+      \field{year}{2014}
+      \field{pages}{159\bibrangedash 168}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.det.2014.04.001
+      \endverb
+    \endentry
   \enddatalist
   \missing{autor2019cyclegan}
+  \missing{autor2019pix2pix}
+  \missing{autor2020imagen}
+  \missing{autor2021deep}
   \missing{autor2021gans_segmentacion}
   \missing{autor2022challenges_gans}
-  \missing{cameron2021}
-  \missing{chuchu2020}
-  \missing{farage2013}
-  \missing{gonzalez2018}
-  \missing{goodfellow2014}
-  \missing{hussain2021}
-  \missing{krizhevsky2012}
-  \missing{mohammadi2019}
-  \missing{ronneberger2015}
-  \missing{sorensen1948}
-  \missing{wang2018}
-  \missing{yang2020}
-  \missing{yoo2020}
-  \missing{zhao2021}
-  \missing{zouboulis2014}
+  \missing{autor2022senet}
 \endrefsection
 \endinput
 

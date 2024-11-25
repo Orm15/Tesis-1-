@@ -17,82 +17,14 @@ La población de este estudio se compone de imágenes faciales representativas d
 \subsection{Muestra}
 La muestra de la investigación comprenderá una parte de aproximadamente 5000 retratos faciales seleccionados de archivos públicos y privados Estas imágenes se seleccionarán mediante muestreo basado en estratos, lo que garantizará una representación uniforme en diferentes categorías de edad, identidades masculinas y femeninas y pigmentación dérmica variable La lista también tendrá imágenes con diferentes tamaños y claridad, mostrando varios tipos de arrugas, poros y manchas, asegurándose de que el grupo muestre condiciones reales de la piel Los usaremos para enseñar, verificar y desafiar nuestro modelo de visión por computadora, asegurándonos de que funcione bien en la vida real con mucha variedad.
 \section{Metodología de Implementación de la Solución}
-La metodología por seguir para implementar un modelo de Deep Learning está basado en gran medida en el conocido ciclo de vida de desarrollo de modelos de Inteligencia Artificial, del cual gran parte de los antecedentes mostrados anteriormente siguen con algunas variaciones. 
-
-En el presente caso, se pretende desarrollar un modelo de Deep Learning capaz de brindar ayuda en el diagnóstico médico; por tal motivo, se optó por basar metodología de esta investigación en la de \cite{pr_monroy2021disvc}, modificándolo en cierta medida en el contexto de nódulos tiroideos e imágenes de ultrasonido. En la Figura \ref{3:fig301} se presenta de forma gráfica la metodología a seguir.
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=1.00\textwidth]{3/figures/metod_classthy1.png}
-		\caption[Metodología de implementación]{Metodología de implementación. \\
-		Fuente: Elaboración propia.}
-		\label{3:fig301}
-	\end{center}
-\end{figure}
-
-La adquisición del conjunto de datos, es decir, imágenes de ultrasonido, consiste en la búsqueda y revisión de las bases de datos sobre imágenes de nódulos tiroideos, donde finalmente se seleccionará y descargará la de mayor utilidad. La base de datos debe cumplir con ciertos requerimientos para realizar un posterior entrenamiento del modelo que otorgue buenos resultados. Las imágenes deben ser debidamente etiquetadas según el carácter del nódulo al que representen, es decir, se debe indicar si cada una de las imágenes pertenece a la categoría benigno o maligno. Además, para evitar discrepancias entre calidad de imágenes en futuras evaluaciones, el conjunto de datos debe poseer imágenes de distintas instituciones de salud y de distintas calidades. Esto permitirá que el modelo entrenado no dependa de la una alta o baja calidad de las imágenes para realizar una correcta predicción. Finalmente, la cantidad de datos debe ser relativamente alta con el fin de aumentar la capacidad de generalización del modelo y evitar posibles sobreajustes o bajo rendimiento.  
-
-En la etapa de preprocesamiento, se realizará en primera instancia una exploración del conjunto de datos con el fin de entender su composición y las características a mejorar; por ejemplo, un posible desbalanceo de clases o presencia de imágenes corruptas o sin etiquetar. Posteriormente, se realizará limpieza datos en caso de imágenes corruptas o de nula utilidad. Además, se usarán técnicas de Aumento de Datos en la situación de desbalanceo de datos, con el fin de evitar una baja generalización y sobreajuste en la clase mayoritaria. Además, se aplicará un redimensionamiento y normalización en las imágenes destinadas al entrenamiento del modelo con el objetivo de reducir la complejidad computacional y así obtener menor tiempo de ejecución.
-
-Una vez se tenga la data ya preprocesada, una parte de este se usará para el entrenamiento de modelos de Deep Learning. Inicialmente, se planea usar algunos de los diversos tipos y arquitecturas de Redes Neuronales Convolucionales (CNN), específicamente los más utilizados en este tipo de tareas como lo son VGG y ResNet, pues son ideales para la extracción de características de las imágenes, facilitando así el proceso final de clasificación. Además, se desarrollarán modelos basados en arquitecturas de Vision Transformer debido al potencial que han demostrado en anteriores investigaciones. Finalmente, también se realizará el desarrollo de modelos híbridos de CNN con Vision Transformer. %similares a los descritos por \cite{pr_JERBI2023autoclassViTGAN}.
-
-Cada uno de los modelos será probado en la parte restante de la data, específicamente en la data de prueba o test. De aquí se obtendrán las predicciones de los modelos clasificando las imágenes en benigno (0) o maligno (1).
-
-\section{Metodología para la Medición de Resultados de la Implementación}
-
-Los resultados obtenidos de la clasificación de los modelos previamente entrenados deberán ser evaluados para una correcta elección final. 
-
-Antes de presentar las métricas a usar, es necesario conocer a la matriz de confusión y las partes que lo conforman, pues servirá como base para entenderlas. 
-
-Según \cite{ws_izco2018bdcp} la matriz de confusión es una herramienta que permite ver de forma más clara el rendimiento de nuestro modelo. Este se presenta en la Figura \ref{3:fig302}.
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.75\textwidth]{3/figures/conf_matrix.jpg}
-		\caption[Matriz de Confusión]{Matriz de Confusión. \\
-		Fuente: Elaboración propia.}
-		\label{3:fig302}
-	\end{center}
-\end{figure}
-
-La matriz consta de cuatro partes importantes: TP, FP, FN y TN. Estos serán usados para presentar las fórmulas de las métricas más adelante. El primero (TP o true positive) se refiere a la cantidad de observaciones que se han predicho como positivos y que en verdad sí son positivos; por el contrario, FP (false positive) se refiere a aquellas predicciones dadas como positivos, pero en verdad son negativos. FN (false negative) es la cantidad de observaciones predichas como negativas; sin embargo, estas en realidad son positivas. Finalmente, TN (true negative) es la cantidad de observaciones predichas como negativas y que en realidad son también negativas.
-
-A continuación, se presenta las métricas para medir el desempeño de la clasificación del modelo.
-
-El accuracy representa aquella proporción del total de predicciones que se ha obtenido correctamente \parencite{ws_izco2018bdcp}. Este se calcula a través de la siguiente fórmula 1.
-
-%\begin{equcaption}[!ht]
-\begin{equation}\label{eq:accuracy}
-\phantomsection
-accuracy=\frac{TP+TN}{TP+TN+FP+FN}
-\end{equation}
-\myequations{Fórmula para calcular el accuracy}
-
-El recall representa la proporción de solo los positivos reales predichos de manera acertada \parencite{ws_izco2018bdcp}. Se calcula con la siguiente fórmula.
-
-%\begin{equcaption}[!ht]
-\begin{equation}\label{eq:recall}
-\phantomsection
-recall=\frac{TP}{TP+FN}
-\end{equation}
-\myequations{Fórmula para calcular el recall}
-
-Precision representa aquella proporción de lo predicho positivamente que es positiva \parencite{ws_izco2018bdcp}. Se calcula con la fórmula a continuación.
-
-%\begin{equcaption}[!ht]
-\begin{equation}\label{eq:precision}
-\phantomsection
-precision=\frac{TP}{TP+FP}
-\end{equation}
-\myequations{Fórmula para calcular el precision}
-
+%%%%%%%%%%%%%%%%%%%
 \begin{landscape}
-	\section{Cronograma de actividades y presupuesto}
-	Se propuso un cronograma para la investigación. Conforma desde el inicio hasta ser terminada con la sustentación final planeada para mediados del año 2024. Este se presneta en la Figura \ref{3:fig303}.
+	\section{Diagrama de la Metodología}
+	Se propuso esta Metodología. Este se presneta en la Figura \ref{3:fig303}.
 
 	\begin{figure}[!ht]
 		\begin{center}
-			\includegraphics[width=1.50\textwidth]{3/figures/cronograma_tesis_thyr.jpg}
+			\includegraphics[width=1.50\textwidth]{3/figures/metodologia.png}
 			\caption[Cronograma de actividades]{Cronograma de actividades.\\
 				Fuente: Elaboración propia.}
 			\label{3:fig303}
@@ -101,37 +33,131 @@ precision=\frac{TP}{TP+FP}
 	
 \end{landscape}
 
-Además, se determinó el presupuesto necesario para la elaboración completa de la investigación. Este se presenta en la Tabla \ref{3:table1}.
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+La implementación de la solución propuesta se llevará a cabo en varias etapas clave, que garantizarán la preparación adecuada de los datos, el desarrollo de modelos efectivos y su evaluación rigurosa para abordar las necesidades específicas de segmentación de características morfológicas de la piel facial.
+
+\subsection{Adquisición y Preparación de los Datos}
+Se recopilará un conjunto de datos compuesto por imágenes faciales provenientes de bases de datos públicas y privadas. Se priorizarán imágenes que reflejen diversidad en tipos de piel, condiciones morfológicas (como arrugas, poros dilatados y manchas) y niveles de calidad visual. Cada imagen será etiquetada manualmente para clasificar las características específicas en categorías relevantes, como "arrugas incipientes", "poros dilatados" o "manchas hiperpigmentadas".
+
+Durante esta etapa, se planea realizar las siguientes acciones:
+\begin{itemize}
+    \item \textbf{Exploración inicial:} Se analizará el conjunto de datos para identificar inconsistencias, como imágenes corruptas, valores faltantes o clases desbalanceadas.
+    \item \textbf{Limpieza:} Se eliminarán imágenes no útiles (mal etiquetadas o de baja resolución) y se corregirán anomalías en las etiquetas.
+    \item \textbf{Aumento de Datos:} Se aplicarán técnicas como rotación, escalado, cambios de iluminación y adición de ruido para abordar problemas de desbalanceo y mejorar la capacidad de generalización de los modelos.
+    \item \textbf{Preprocesamiento:} Las imágenes se redimensionarán a una resolución uniforme, se normalizarán los valores de color y se convertirán a un formato estándar que facilite su uso en redes neuronales convolucionales.
+\end{itemize}
+
+\subsection{Desarrollo de los Modelos de Segmentación}
+Se desarrollarán modelos de segmentación de características morfológicas de la piel utilizando Redes Neuronales Convolucionales (CNN), dada su eficacia comprobada en tareas de análisis de imágenes. Las arquitecturas que se implementarán incluyen:
+
+\begin{itemize}
+    \item \textbf{U-Net:} Se utilizará por su capacidad para realizar segmentaciones precisas en áreas específicas, como arrugas y poros, gracias a su diseño simétrico que facilita la reconstrucción de imágenes segmentadas \cite{ronneberger2015}.
+    \item \textbf{ResNet:} Se probará para capturar características profundas y complejas mediante su estructura de aprendizaje residual, mejorando el rendimiento en imágenes con texturas complejas \cite{he2016}.
+    \item \textbf{Modelos híbridos con Vision Transformer (ViT):} Se explorará su uso para la segmentación de patrones más sutiles, aprovechando su enfoque basado en atención combinado con la extracción de características de las CNN \cite{dosovitskiy2020}.
+\end{itemize}
+
+El entrenamiento de los modelos se realizará aplicando las siguientes técnicas:
+\begin{itemize}
+    \item \textbf{Optimización con Adam:} Para garantizar convergencia rápida y eficiente.
+    \item \textbf{Data augmentation:} Se emplearán técnicas de aumento de datos para mejorar la robustez del modelo ante variaciones en el conjunto de datos.
+    \item \textbf{Validación cruzada:} El conjunto de datos se dividirá en pliegues para evaluar el desempeño del modelo en diferentes particiones.
+\end{itemize}
+
+\subsection{Evaluación y Validación del Sistema}
+El desempeño del sistema de segmentación será evaluado utilizando métricas específicas para problemas de clasificación y segmentación:
+\begin{itemize}
+    \item \textbf{Precisión (Accuracy):} Proporción de predicciones correctas sobre el total de predicciones.
+    \item \textbf{Recall (Sensibilidad):} Proporción de características positivas correctamente identificadas.
+    \item \textbf{F1-Score:} Promedio armónico de precisión y recall, útil para conjuntos de datos desbalanceados.
+    \item \textbf{AUC-ROC:} Área bajo la curva ROC para medir la capacidad del modelo de distinguir entre clases.
+\end{itemize}
+
+Adicionalmente, se utilizará una matriz de confusión para analizar en detalle los errores cometidos por los modelos, lo que permitirá identificar patrones en los casos mal clasificados.
+
+\subsection{Implementación y Pruebas Finales}
+El modelo seleccionado será integrado en un prototipo funcional que permitirá procesar imágenes faciales y generar un reporte detallado de las características segmentadas. Este prototipo incluirá una interfaz amigable que mostrará:
+\begin{itemize}
+    \item Mapas de calor que destacarán áreas con arrugas, poros dilatados y manchas.
+    \item Gráficos comparativos que mostrarán la evolución de las características morfológicas.
+    \item Recomendaciones personalizadas basadas en el análisis segmentado.
+\end{itemize}
+
+Las pruebas finales se realizarán en un entorno simulado para verificar su rendimiento en casos prácticos, como evaluaciones estéticas en clínicas dermatológicas o la personalización de tratamientos cosméticos.
+
+\section{Metodología para la Medición de Resultados de la Implementación}
+
+Para garantizar la correcta evaluación del sistema, se emplearán las siguientes métricas basadas en la matriz de confusión:
+\begin{itemize}
+    \item \textbf{Precisión (Accuracy):} \[ accuracy = \frac{TP + TN}{TP + TN + FP + FN} \]
+    \item \textbf{Recall:} \[ recall = \frac{TP}{TP + FN} \]
+    \item \textbf{Precisión Positiva:} \[ precision = \frac{TP}{TP + FP} \]
+    \item \textbf{F1-Score:} \[ F1 = 2 \cdot \frac{precision \cdot recall}{precision + recall} \]
+\end{itemize}
+
+Cada métrica será calculada para determinar la efectividad del modelo en la segmentación de arrugas, poros y manchas, evaluando su capacidad de proporcionar predicciones precisas y consistentes en datos no vistos.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{landscape}
+	\section{Cronograma de actividades y presupuesto}
+	Se propuso un cronograma para la investigación. Conforma desde el inicio hasta ser terminada con la sustentación final planeada para mediados del año 2024. Este se presneta en la Figura \ref{3:fig303}.
+
+	\begin{figure}[!ht]
+		\begin{center}
+			\includegraphics[width=1.50\textwidth]{3/figures/gant.png}
+			\caption[Cronograma de actividades]{Cronograma de actividades.\\
+				Fuente: Elaboración propia.}
+			\label{3:fig303}
+		\end{center}
+	\end{figure}
+	
+\end{landscape}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+Se determinó el siguiente presupuesto necesario para la elaboración completa de la investigación. Este se presenta en la Tabla \ref{3:table1}.
 
 \begin{table}[H]
-	\caption[Presupuesto]{Presupuesto.}
+	\caption[Presupuesto]{Presupuesto estimado para el desarrollo del sistema de segmentación morfológica.}
 	\label{3:table1}
 	\centering
 	\small
 	\begin{tabular}{llll}
 		\specialrule{.1em}{.05em}{.05em}
-		{Grupo} & {Item} & {Costo (soles)} & {Subtotal} \\
+		{Grupo} & {Item} & {Costo (soles)} & {Subtotal} \\ 
 		\specialrule{.1em}{.05em}{.05em}
-		\multirow{2}{4cm}{Recursos materiales} & {Laptop} & {S/ 6,500.00} & {} \\
-		{} & {Materiales de escritorio} & {S/ 100.00} & {S/ 6,600.00} \\
+		\multirow{3}{4cm}{Recursos materiales} 
+		& {Laptop de alto rendimiento} & {S/ 7,500.00} & {} \\ 
+		& {Materiales de escritorio} & {S/ 150.00} & {} \\
+		& {Dispositivo de almacenamiento externo} & {S/ 300.00} & {S/ 7,950.00} \\ 
 		\cline{1-4}
-		\multirow{2}{4cm}{Software y trámites} & {Matrícula de Trabajo de Tesis II} & {S/ 375.00} & {} \\ % & {Reserva de tema} & {S/ 2,700.00} & {} \\
-		{} & {Cuotas de Trabajo de Tesis II} & {S/ 1,044.00} & {} \\
-		%{} & {Derecho de inscripción} & {S/ 800.00} & {} \\
-		%{} & {Derecho de sustentación} & {S/ 1,500.00} & {} \\
-		{} & {Software} & {S/ 50.00} & {} \\
-		{} & {Renta de servidor en la nube} & {S/ 224.15} & {S/ 1,693.15} \\ % & {S/ 5,274.15} \\
+		\multirow{3}{4cm}{Software y servicios} 
+		& {Licencia de software (Python/IDE)} & {S/ 50.00} & {} \\
+		& {Renta de servidor en la nube} & {S/ 500.00} & {} \\
+		& {Acceso a bases de datos de imágenes} & {S/ 300.00} & {S/ 850.00} \\ 
 		\cline{1-4}
-		\multirow{2}{4cm}{Extras} & {Consultorías} & {S/ 100.00} & {} \\
-		{} & {Movilidad} & {S/ 200.00} & {S/ 300.00} \\
+		\multirow{3}{4cm}{Costos académicos} 
+		& {Matrícula en Trabajo de Tesis II} & {S/ 375.00} & {} \\
+		& {Cuotas de Trabajo de Tesis II} & {S/ 1,044.00} & {S/ 1,419.00} \\ 
+		\cline{1-4}
+		\multirow{2}{4cm}{Extras} 
+		& {Consultorías especializadas} & {S/ 200.00} & {} \\
+		& {Movilidad y transporte} & {S/ 300.00} & {S/ 500.00} \\ 
 		\specialrule{.1em}{.05em}{.05em} 
-		{} & {Total} & {} & {S/ 8,593.15} \\ % & {S/ 12,174.15} \\
+		{} & {Total} & {} & {S/ 10,719.00} \\ 
 		\specialrule{.1em}{.05em}{.05em}
 	\end{tabular}
 	\begin{flushleft}	
 		\small Fuente: Elaboración propia.
 	\end{flushleft}
 \end{table}
+
 
 
 
