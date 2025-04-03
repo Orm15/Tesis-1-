@@ -91,14 +91,82 @@ Para superar estos desafíos, se implementan cinco tácticas que mejoran signifi
 
 Los resultados experimentales muestran que estas tácticas incrementan el rendimiento diagnóstico en un 32.58\% respecto a los modelos CNN convencionales, alcanzando una precisión de 83.38\%. Este enfoque no solo es preciso, sino que es adecuado para implementarse en dispositivos de bajo costo y en aplicaciones móviles, proporcionando una alternativa económica a las visitas clínicas. Los autores sugieren que este sistema podría ser de utilidad en clínicas de cuidado de la piel o como una herramienta accesible para el diagnóstico domiciliario.
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.5\textwidth]{2/figures/resultados de cuarto anteedente.png}
-    \caption{Comparación del modelo propuesto con otros 6 modelos de redes neuronales}
-    \label{fig:framework}
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{2/figures/resultados de cuarto anteedente.png}
+		\caption[Comparación del modelo propuesto con otros 6 modelos de redes neuronales]{Comparación del modelo propuesto con otros 6 modelos de redes neuronales.\\
+			Fuente: \cite{Kim2023}. \citetitle{Kim2023}. (p. 8)}
+		\label{2:fig1}
+	\end{center}
 \end{figure}
 
+
 %% Quinto antecedente: 
+El artículo titulado \citetitle{Zhong2024} de \cite{Zhong2024} presenta un enfoque innovador para la detección de arrugas faciales, abordando las limitaciones de métodos tradicionales que se ven afectados por interferencias con otras características faciales. Para mejorar la precisión, los autores proponen el uso del modelo DeepLabV3+ junto con una estrategia de etiquetado semi-automática, lo que permite generar datos de entrenamiento más representativos y mejorar la segmentación de arrugas.
+La investigación, como podemos ver en las Figuras 2 y 3, emplea técnicas avanzadas como DeepLabV3+, una red optimizada para segmentación de imágenes, y MobileNetV2 para reducir la carga computacional. Además, se desarrolla una estrategia de etiquetado semi-automática combinando anotaciones dermatológicas con mapas de textura generados mediante filtros Wiener y umbralización adaptativa. La precisión del modelo se evalúa mediante el Índice de Similitud Jaccard (JSI).
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{2/figures/Meto1.png}
+		\caption[Estructura de red de DeepLabV3+]{Estructura de red de DeepLabV3+.\\
+			Fuente: \cite{Zhong2024}. \citetitle{Zhong2024}. (p. 4)}
+		\label{2:fig3}
+	\end{center}
+\end{figure}
+
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.80\textwidth]{2/figures/Meto2.png}
+		\caption[El proceso de convolución separable en profundidad]{El proceso de convolución separable en profundidad.\\
+			Fuente: \cite{Zhong2024}. \citetitle{Zhong2024}. (p. 4)}
+		\label{2:fig4}
+	\end{center}
+\end{figure}
+
+
+El conjunto de datos se construyó con 300 imágenes de Flickr-Face-HQ, divididas en entrenamiento (225), validación (25) y pruebas (50). Las pruebas se realizaron en un sistema con hardware de alto rendimiento (Intel Core i9-12900K, GPU RTX 3070 y 32GB RAM) y utilizando PyTorch como framework principal.
+
+Los resultados demostraron que el método propuesto supera a enfoques tradicionales como el filtro Hessiano y el modelo U-Net, obteniendo mayores valores de JSI en la frente (0.62) y área ocular (0.64). Además, redujo la cantidad de falsos positivos y mejoró la segmentación de bordes, logrando un mejor desempeño en la detección de arrugas finas.
+
+
+En conclusión, el modelo DeepLabV3+ con etiquetado semi-automático se mostró más efectivo en la detección de arrugas faciales. Sin embargo, aún enfrenta desafíos en la diferenciación de arrugas muy finas y cabellos, lo que sugiere la necesidad de mejoras futuras para incrementar la precisión del sistema.
+
+
+%% Sexto antecedente: 
+
+En el artículo de \cite{karshiev2020improved} llamado \citetitle{karshiev2020improved} analiza el problema de la segmentación de lesiones cutáneas, una tarea fundamental para el diagnóstico temprano del melanoma. Aunque el modelo U-Net ha sido ampliamente utilizado en segmentación médica, presenta limitaciones como ralentización en el entrenamiento y problemas con la función de activación ReLU. Para mejorar su desempeño, los autores proponen una versión optimizada que incorpora interpolación bilineal para el upsampling y la función de activación PReLU, lo que mejora la precisión y evita problemas como el sobreajuste.
+
+La investigación emplea un diagrama el cual se puede ver en la Figura 5 y a su vez varias técnicas clave: la interpolación bilineal sustituye la deconvolución tradicional para mejorar la segmentación de bordes, la función PReLU reemplaza ReLU para prevenir "neuronas muertas" y optimizar la convergencia, y el dropout se utiliza después de cada bloque convolucional para reducir el sobreajuste. Estas modificaciones permiten mejorar la estabilidad y eficiencia del entrenamiento.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.80\textwidth]{2/figures/flowchart.png}
+		\caption[Diagrama de flujo del sistema propuesto]{Diagrama de flujo del sistema propuesto.\\
+			Fuente: \cite{karshiev2020improved}. \citetitle{karshiev2020improved}. (p. 4)}
+		\label{2:fig5}
+	\end{center}
+\end{figure}
+
+El modelo propuesto como se ve en la Figura 6, se basa en una arquitectura U-Net modificada con capas convolucionales optimizadas, PReLU, dropout y upsampling mediante interpolación bilineal. Fue entrenado en un sistema con un procesador Intel Core i7-9700K, 32 GB de RAM y una GPU NVIDIA GeForce RTX 2060 SUPER, garantizando un entorno adecuado para el procesamiento intensivo de imágenes médicas.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.80\textwidth]{2/figures/segmentation1.png}
+		\caption[Modelo totalmente convolucional propuesto para la segmentación de lesiones cutáneas]{Modelo totalmente convolucional propuesto para la segmentación de lesiones cutáneas.\\
+			Fuente: \cite{karshiev2020improved}. \citetitle{karshiev2020improved}. (p. 4)}
+		\label{2:fig6}
+	\end{center}
+\end{figure}
+
+Para el entrenamiento y prueba del modelo se utilizó un conjunto de datos de imágenes dermoscópicas, con 2594 imágenes etiquetadas para entrenamiento y 1000 para prueba. Todas las imágenes fueron preprocesadas, redimensionadas a 256×256 píxeles y convertidas a escala de grises, lo que facilitó la normalización y mejoró la eficiencia del modelo.
+
+Los resultados muestran un alto rendimiento del modelo mejorado, alcanzando una precisión por píxel del 94\% y un coeficiente Dice del 88\%. Estas mejoras permiten reducir artefactos en la segmentación y aumentar la eficiencia computacional en comparación con la U-Net estándar, consolidándose como una alternativa más precisa y robusta para la segmentación de lesiones cutáneas.
+
+En conclusión, la versión mejorada de U-Net supera las limitaciones del modelo original al abordar problemas como gradientes débiles y artefactos en la segmentación. La integración de interpolación bilineal, PReLU y dropout permite lograr una mayor precisión y eficiencia, posicionando este enfoque como una herramienta prometedora para la segmentación de imágenes médicas en el ámbito dermatológico.
+
+%% Séptimo antecedente: 
+
 
 
 

@@ -1117,6 +1117,74 @@
       \field{pages}{101871}
       \range{pages}{1}
     \endentry
+    \entry{karshiev2020improved}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=028ff361ef266e23e1505bdcf8188b61}{%
+           family={Karshiev},
+           familyi={K\bibinitperiod},
+           given={Sanjar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0d4f92365f4455ed4d9b19fa340dd01}{%
+           family={Olimov},
+           familyi={O\bibinitperiod},
+           given={Bekhzod},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75cfede95283beda8fb76d9b88a52131}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jaeil},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca9b2cd3d3a7a11b0f715a0297893187}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jaesoo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ceef3925d1f1c212e8b5c828bbabe53a}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Anand},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4058669eadae5c644a5e3350f945db70}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jeonghong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{f01f91cf7306405c6d475f4d8c97bf99}
+      \strng{fullhash}{c0998e75b328d938fa8ce9faef3e5bdc}
+      \strng{fullhashraw}{c0998e75b328d938fa8ce9faef3e5bdc}
+      \strng{bibnamehash}{c0998e75b328d938fa8ce9faef3e5bdc}
+      \strng{authorbibnamehash}{c0998e75b328d938fa8ce9faef3e5bdc}
+      \strng{authornamehash}{f01f91cf7306405c6d475f4d8c97bf99}
+      \strng{authorfullhash}{c0998e75b328d938fa8ce9faef3e5bdc}
+      \strng{authorfullhashraw}{c0998e75b328d938fa8ce9faef3e5bdc}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{10}
+      \field{title}{Improved U-Net: Fully Convolutional Network Model for Skin-Lesion Segmentation}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{pages}{3658}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app10103658
+      \endverb
+    \endentry
     \entry{khatri2018}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ca2c7916089619356a6460c5737526c5}{%
@@ -2099,6 +2167,83 @@
       \range{pages}{13}
       \verb{doi}
       \verb 10.1016/j.media.2021.01.007
+      \endverb
+    \endentry
+    \entry{Zhong2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=b397eba556bd786e66a6f64271a255c5}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Jiaxuan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=037e97a7a122ab92e7578a3dd189f86e}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={Xun},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dea6dba03b8a5e5f3337301e7a2e37e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xieyang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9fc2a88989493455b319d7f381fbfb9}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Bingbing},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56bda333ab85070cdf1934ac222e12aa}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhao},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b001f7abb5f2445c55fa67416725a5d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yufeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f043736d53a7fb6bc7d25ed7e3f99e20}{%
+           family={Rashed},
+           familyi={R\bibinitperiod},
+           given={G.\bibnamedelimi Izat},
+           giveni={G\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOS Press}%
+      }
+      \strng{namehash}{7efbc5be057a945f797203b5eac0ca85}
+      \strng{fullhash}{81c4f22c68ab1d83f02cc67d3631cea4}
+      \strng{fullhashraw}{81c4f22c68ab1d83f02cc67d3631cea4}
+      \strng{bibnamehash}{81c4f22c68ab1d83f02cc67d3631cea4}
+      \strng{authorbibnamehash}{81c4f22c68ab1d83f02cc67d3631cea4}
+      \strng{authornamehash}{7efbc5be057a945f797203b5eac0ca85}
+      \strng{authorfullhash}{81c4f22c68ab1d83f02cc67d3631cea4}
+      \strng{authorfullhashraw}{81c4f22c68ab1d83f02cc67d3631cea4}
+      \strng{editorbibnamehash}{f043736d53a7fb6bc7d25ed7e3f99e20}
+      \strng{editornamehash}{f043736d53a7fb6bc7d25ed7e3f99e20}
+      \strng{editorfullhash}{f043736d53a7fb6bc7d25ed7e3f99e20}
+      \strng{editorfullhashraw}{f043736d53a7fb6bc7d25ed7e3f99e20}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronic Engineering and Informatics}
+      \field{title}{Facial Wrinkle Detection Based on DeepLabV3+ and Semi-Automatic Labelling Strategy}
+      \field{year}{2024}
+      \field{pages}{738\bibrangedash 743}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.3233/ATDE240140
       \endverb
     \endentry
     \entry{zouboulis2014}{article}{}{}
@@ -3236,6 +3381,74 @@
       \field{pages}{101871}
       \range{pages}{1}
     \endentry
+    \entry{karshiev2020improved}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=028ff361ef266e23e1505bdcf8188b61}{%
+           family={Karshiev},
+           familyi={K\bibinitperiod},
+           given={Sanjar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0d4f92365f4455ed4d9b19fa340dd01}{%
+           family={Olimov},
+           familyi={O\bibinitperiod},
+           given={Bekhzod},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75cfede95283beda8fb76d9b88a52131}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jaeil},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca9b2cd3d3a7a11b0f715a0297893187}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jaesoo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ceef3925d1f1c212e8b5c828bbabe53a}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Anand},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4058669eadae5c644a5e3350f945db70}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jeonghong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{f01f91cf7306405c6d475f4d8c97bf99}
+      \strng{fullhash}{c0998e75b328d938fa8ce9faef3e5bdc}
+      \strng{fullhashraw}{c0998e75b328d938fa8ce9faef3e5bdc}
+      \strng{bibnamehash}{c0998e75b328d938fa8ce9faef3e5bdc}
+      \strng{authorbibnamehash}{c0998e75b328d938fa8ce9faef3e5bdc}
+      \strng{authornamehash}{f01f91cf7306405c6d475f4d8c97bf99}
+      \strng{authorfullhash}{c0998e75b328d938fa8ce9faef3e5bdc}
+      \strng{authorfullhashraw}{c0998e75b328d938fa8ce9faef3e5bdc}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{10}
+      \field{title}{Improved U-Net: Fully Convolutional Network Model for Skin-Lesion Segmentation}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{pages}{3658}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app10103658
+      \endverb
+    \endentry
     \entry{khatri2018}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ca2c7916089619356a6460c5737526c5}{%
@@ -4218,6 +4431,83 @@
       \range{pages}{13}
       \verb{doi}
       \verb 10.1016/j.media.2021.01.007
+      \endverb
+    \endentry
+    \entry{Zhong2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=b397eba556bd786e66a6f64271a255c5}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Jiaxuan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=037e97a7a122ab92e7578a3dd189f86e}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={Xun},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dea6dba03b8a5e5f3337301e7a2e37e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xieyang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9fc2a88989493455b319d7f381fbfb9}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Bingbing},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56bda333ab85070cdf1934ac222e12aa}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhao},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b001f7abb5f2445c55fa67416725a5d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yufeng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f043736d53a7fb6bc7d25ed7e3f99e20}{%
+           family={Rashed},
+           familyi={R\bibinitperiod},
+           given={G.\bibnamedelimi Izat},
+           giveni={G\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOS Press}%
+      }
+      \strng{namehash}{7efbc5be057a945f797203b5eac0ca85}
+      \strng{fullhash}{81c4f22c68ab1d83f02cc67d3631cea4}
+      \strng{fullhashraw}{81c4f22c68ab1d83f02cc67d3631cea4}
+      \strng{bibnamehash}{81c4f22c68ab1d83f02cc67d3631cea4}
+      \strng{authorbibnamehash}{81c4f22c68ab1d83f02cc67d3631cea4}
+      \strng{authornamehash}{7efbc5be057a945f797203b5eac0ca85}
+      \strng{authorfullhash}{81c4f22c68ab1d83f02cc67d3631cea4}
+      \strng{authorfullhashraw}{81c4f22c68ab1d83f02cc67d3631cea4}
+      \strng{editorbibnamehash}{f043736d53a7fb6bc7d25ed7e3f99e20}
+      \strng{editornamehash}{f043736d53a7fb6bc7d25ed7e3f99e20}
+      \strng{editorfullhash}{f043736d53a7fb6bc7d25ed7e3f99e20}
+      \strng{editorfullhashraw}{f043736d53a7fb6bc7d25ed7e3f99e20}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronic Engineering and Informatics}
+      \field{title}{Facial Wrinkle Detection Based on DeepLabV3+ and Semi-Automatic Labelling Strategy}
+      \field{year}{2024}
+      \field{pages}{738\bibrangedash 743}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.3233/ATDE240140
       \endverb
     \endentry
     \entry{zouboulis2014}{article}{}{}

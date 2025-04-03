@@ -1,0 +1,31 @@
+[1] Config.pm:308> INFO - This is Biber 2.20
+[2] Config.pm:311> INFO - Logfile is 'tesis.blg'
+[362] biber-MSWIN64:340> INFO - === 
+[497] Biber.pm:420> INFO - Reading 'tesis.bcf'
+[870] Biber.pm:994> INFO - Found 59 citekeys in bib section 0
+[909] Biber.pm:4463> INFO - Processing section 0
+[928] Biber.pm:4654> INFO - Looking for bibtex file 'biblio/references.bib' for section 0
+[1033] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1166] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio/references.bib'
+[1998] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1998] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1998] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[2392] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2393] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2393] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[2592] bbl.pm:676> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
+[2721] bbl.pm:779> INFO - Output to tesis.bbl
+[2722] Biber.pm:131> WARN - Duplicate entry key: 'statista2023' in file 'biblio/references.bib', skipping ...
+[2722] Biber.pm:131> WARN - Duplicate entry key: 'phillips2020' in file 'biblio/references.bib', skipping ...
+[2722] Biber.pm:131> WARN - Duplicate entry key: 'esteva2017' in file 'biblio/references.bib', skipping ...
+[2723] Biber.pm:131> WARN - Duplicate entry key: 'jia2019' in file 'biblio/references.bib', skipping ...
+[2723] Biber.pm:131> WARN - Duplicate entry key: 'aad2022' in file 'biblio/references.bib', skipping ...
+[2723] Biber.pm:131> WARN - Duplicate entry key: 'khatri2018' in file 'biblio/references.bib', skipping ...
+[2724] Biber.pm:131> WARN - I didn't find a database entry for 'autor2021deep' (section 0)
+[2724] Biber.pm:131> WARN - I didn't find a database entry for 'autor2020imagen' (section 0)
+[2724] Biber.pm:131> WARN - I didn't find a database entry for 'autor2022senet' (section 0)
+[2724] Biber.pm:131> WARN - I didn't find a database entry for 'autor2021gans_segmentacion' (section 0)
+[2725] Biber.pm:131> WARN - I didn't find a database entry for 'autor2019cyclegan' (section 0)
+[2725] Biber.pm:131> WARN - I didn't find a database entry for 'autor2019pix2pix' (section 0)
+[2725] Biber.pm:131> WARN - I didn't find a database entry for 'autor2022challenges_gans' (section 0)
+[2725] Biber.pm:133> INFO - WARNINGS: 13

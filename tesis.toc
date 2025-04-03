@@ -19,90 +19,90 @@
 \contentsline {subsection}{\numberline {1.5.3}Conceptual}{8}{subsection.1.5.3}%
 \contentsline {chapter}{\numberline {II}Marco Teórico}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{9}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Bases Teóricas}{13}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Segmentación de Imágenes}{13}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Definición y objetivos de la segmentación de imágenes}{13}{subsubsection.2.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}Importancia de la segmentación en aplicaciones médicas y cosméticas}{14}{subsubsection.2.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.2.1.3}Técnicas de segmentación clásicas y sus limitaciones en imágenes dermatológicas}{14}{subsubsection.2.2.1.3}%
-\contentsline {subsection}{\numberline {2.2.2}Características Morfológicas de la Piel Facial}{16}{subsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.2.1}Descripción de arrugas: origen, tipos y características visuales}{16}{subsubsection.2.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2.2}Análisis de poros: estructura, visibilidad y factores que influyen en su detección}{17}{subsubsection.2.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.2.3}Tipología de manchas: causas y patrones de aparición en la piel facial}{17}{subsubsection.2.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.3}Redes Neuronales Convolucionales (CNN)}{18}{subsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.3.1}Arquitectura de las CNN: capas convolucionales, de pooling y totalmente conectadas}{18}{subsubsection.2.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.2.3.2}Aplicación de CNN en segmentación de imágenes y su relevancia para la dermatología}{19}{subsubsection.2.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.2.3.3}Modelos avanzados de CNN para segmentación: U-Net, Fully Convolutional Networks (FCN)}{19}{subsubsection.2.2.3.3}%
-\contentsline {subsection}{\numberline {2.2.4}Modelos Avanzados de Segmentación en Imágenes Médicas}{19}{subsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.4.1}Introducción a las redes de atención (Attention Networks) y su rol en la precisión de la segmentación}{19}{subsubsection.2.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.2.4.2}Aplicación de Generative Adversarial Networks (GAN) para mejorar la calidad de segmentación}{20}{subsubsection.2.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.2.4.3}Comparación entre modelos basados en CNN y modelos híbridos en el contexto dermatológico}{21}{subsubsection.2.2.4.3}%
-\contentsline {subsubsection}{\numberline {2.2.4.4}Métricas de evaluación: Sorensen-Dice, especificidad, precisión, sensibilidad}{21}{subsubsection.2.2.4.4}%
-\contentsline {subsubsection}{\numberline {2.2.4.5}Importancia de la precisión en segmentación de arrugas, poros y manchas para aplicaciones clínicas y cosméticas}{22}{subsubsection.2.2.4.5}%
-\contentsline {subsubsection}{\numberline {2.2.4.6}Variabilidad en tipos de piel y condiciones externas (luz, color)}{22}{subsubsection.2.2.4.6}%
-\contentsline {subsubsection}{\numberline {2.2.4.7}Complejidad de identificar características pequeñas como poros en imágenes de alta resolución}{23}{subsubsection.2.2.4.7}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{23}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Segmentación de Imágenes}{23}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Características Morfológicas de la Piel}{23}{subsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.2.1}Arrugas}{24}{subsubsection.2.3.2.1}%
-\contentsline {subsubsection}{\numberline {2.3.2.2}Poros}{24}{subsubsection.2.3.2.2}%
-\contentsline {subsubsection}{\numberline {2.3.2.3}Manchas}{24}{subsubsection.2.3.2.3}%
-\contentsline {subsection}{\numberline {2.3.3}Redes Neuronales Convolucionales (CNN)}{25}{subsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.3.1}Estructura de las CNN}{25}{subsubsection.2.3.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.3.2}Aplicaciones en Segmentación de Imágenes Faciales}{26}{subsubsection.2.3.3.2}%
-\contentsline {paragraph}{Segmentación de arrugas.}{26}{paragraph*.14}%
-\contentsline {paragraph}{Detección de poros.}{26}{paragraph*.15}%
-\contentsline {paragraph}{Segmentación de manchas.}{26}{paragraph*.16}%
-\contentsline {subsubsection}{\numberline {2.3.3.3}Ventajas y Limitaciones}{26}{subsubsection.2.3.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Modelos de Segmentación}{27}{subsection.2.3.4}%
-\contentsline {subsubsection}{\numberline {2.3.4.1}U-Net}{27}{subsubsection.2.3.4.1}%
-\contentsline {subsubsection}{\numberline {2.3.4.2}Fully Convolutional Network (FCN)}{27}{subsubsection.2.3.4.2}%
-\contentsline {subsubsection}{\numberline {2.3.4.3}SegNet}{28}{subsubsection.2.3.4.3}%
-\contentsline {subsubsection}{\numberline {2.3.4.4}Mask R-CNN}{28}{subsubsection.2.3.4.4}%
-\contentsline {subsubsection}{\numberline {2.3.4.5}DeepLab (v3, v3+)}{29}{subsubsection.2.3.4.5}%
-\contentsline {paragraph}{Comparativa de Modelos}{29}{paragraph*.17}%
-\contentsline {subsection}{\numberline {2.3.5}Métricas de Evaluación}{29}{subsection.2.3.5}%
-\contentsline {subsubsection}{\numberline {2.3.5.1}Índice de Sorensen-Dice (Dice Coefficient)}{29}{subsubsection.2.3.5.1}%
-\contentsline {subsubsection}{\numberline {2.3.5.2}Coeficiente de Jaccard (Intersection over Union, IoU)}{30}{subsubsection.2.3.5.2}%
-\contentsline {subsubsection}{\numberline {2.3.5.3}Precisión (Precision)}{30}{subsubsection.2.3.5.3}%
-\contentsline {subsubsection}{\numberline {2.3.5.4}Entropía Cruzada (Cross-Entropy)}{31}{subsubsection.2.3.5.4}%
-\contentsline {subsection}{\numberline {2.3.6}Redes de Atención}{32}{subsection.2.3.6}%
-\contentsline {subsubsection}{\numberline {2.3.6.1}Mecanismo de Atención}{32}{subsubsection.2.3.6.1}%
-\contentsline {subsubsection}{\numberline {2.3.6.2}Atención Espacial}{32}{subsubsection.2.3.6.2}%
-\contentsline {subsubsection}{\numberline {2.3.6.3}Atención de Canal}{33}{subsubsection.2.3.6.3}%
-\contentsline {subsubsection}{\numberline {2.3.6.4}Beneficios de las Redes de Atención}{33}{subsubsection.2.3.6.4}%
-\contentsline {subsubsection}{\numberline {2.3.6.5}Ejemplos de Modelos con Atención}{34}{subsubsection.2.3.6.5}%
-\contentsline {subsection}{\numberline {2.3.7}Redes Generativas Adversariales (GANs)}{34}{subsection.2.3.7}%
-\contentsline {subsubsection}{\numberline {2.3.7.1}Estructura de GANs (Generador y Discriminador)}{34}{subsubsection.2.3.7.1}%
-\contentsline {subsubsection}{\numberline {2.3.7.2}Aplicaciones de GANs en Segmentación}{35}{subsubsection.2.3.7.2}%
-\contentsline {subsubsection}{\numberline {2.3.7.3}Variantes de GANs (CycleGAN, Pix2Pix)}{35}{subsubsection.2.3.7.3}%
-\contentsline {subsubsection}{\numberline {2.3.7.4}Desafíos de las GANs}{36}{subsubsection.2.3.7.4}%
-\contentsline {section}{\numberline {2.4}Hipótesis}{36}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{36}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{36}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {III}Metodología de la Investigación}{38}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diseño de la investigación}{38}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Alcance de la investigación}{38}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{38}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Población}{39}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Muestra}{39}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Metodología de Implementación de la Solución}{39}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Adquisición y Preparación de los Datos}{39}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}Diagrama de la Metodología}{40}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Desarrollo de los Modelos de Segmentación}{41}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Evaluación y Validación del Sistema}{42}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Implementación y Pruebas Finales}{42}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Metodología para la Medición de Resultados de la Implementación}{42}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Cronograma de actividades y presupuesto}{44}{section.3.5}%
-\contentsline {chapter}{\numberline {IV}Desarrollo de la Solución}{46}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Determinación y evaluación de alternativas de solución}{46}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Propuesta solución}{46}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Planeamiento y descripción de Actividades}{46}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Desarrollo de actividades}{46}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Medición de la solución}{46}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Análisis de Indicadores cuantitativo}{46}{subsection.4.3.1}%
-\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{47}{chapter.5}%
-\contentsline {chapter}{Referencias}{50}{chapter*.21}%
-\contentsline {chapter}{Anexos}{54}{section*.22}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{55}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{56}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{57}{section.Alph0.3}%
+\contentsline {section}{\numberline {2.2}Bases Teóricas}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Segmentación de Imágenes}{17}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Definición y objetivos de la segmentación de imágenes}{17}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Importancia de la segmentación en aplicaciones médicas y cosméticas}{17}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Técnicas de segmentación clásicas y sus limitaciones en imágenes dermatológicas}{18}{subsubsection.2.2.1.3}%
+\contentsline {subsection}{\numberline {2.2.2}Características Morfológicas de la Piel Facial}{19}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Descripción de arrugas: origen, tipos y características visuales}{19}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Análisis de poros: estructura, visibilidad y factores que influyen en su detección}{20}{subsubsection.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}Tipología de manchas: causas y patrones de aparición en la piel facial}{21}{subsubsection.2.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Redes Neuronales Convolucionales (CNN)}{22}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Arquitectura de las CNN: capas convolucionales, de pooling y totalmente conectadas}{22}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}Aplicación de CNN en segmentación de imágenes y su relevancia para la dermatología}{23}{subsubsection.2.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}Modelos avanzados de CNN para segmentación: U-Net, Fully Convolutional Networks (FCN)}{23}{subsubsection.2.2.3.3}%
+\contentsline {subsection}{\numberline {2.2.4}Modelos Avanzados de Segmentación en Imágenes Médicas}{23}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}Introducción a las redes de atención (Attention Networks) y su rol en la precisión de la segmentación}{23}{subsubsection.2.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.2.4.2}Aplicación de Generative Adversarial Networks (GAN) para mejorar la calidad de segmentación}{24}{subsubsection.2.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.2.4.3}Comparación entre modelos basados en CNN y modelos híbridos en el contexto dermatológico}{24}{subsubsection.2.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.2.4.4}Métricas de evaluación: Sorensen-Dice, especificidad, precisión, sensibilidad}{25}{subsubsection.2.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.2.4.5}Importancia de la precisión en segmentación de arrugas, poros y manchas para aplicaciones clínicas y cosméticas}{26}{subsubsection.2.2.4.5}%
+\contentsline {subsubsection}{\numberline {2.2.4.6}Variabilidad en tipos de piel y condiciones externas (luz, color)}{26}{subsubsection.2.2.4.6}%
+\contentsline {subsubsection}{\numberline {2.2.4.7}Complejidad de identificar características pequeñas como poros en imágenes de alta resolución}{27}{subsubsection.2.2.4.7}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{27}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Segmentación de Imágenes}{27}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Características Morfológicas de la Piel}{27}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}Arrugas}{28}{subsubsection.2.3.2.1}%
+\contentsline {subsubsection}{\numberline {2.3.2.2}Poros}{28}{subsubsection.2.3.2.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.3}Manchas}{28}{subsubsection.2.3.2.3}%
+\contentsline {subsection}{\numberline {2.3.3}Redes Neuronales Convolucionales (CNN)}{29}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}Estructura de las CNN}{29}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.3.2}Aplicaciones en Segmentación de Imágenes Faciales}{30}{subsubsection.2.3.3.2}%
+\contentsline {paragraph}{Segmentación de arrugas.}{30}{paragraph*.18}%
+\contentsline {paragraph}{Detección de poros.}{30}{paragraph*.19}%
+\contentsline {paragraph}{Segmentación de manchas.}{30}{paragraph*.20}%
+\contentsline {subsubsection}{\numberline {2.3.3.3}Ventajas y Limitaciones}{30}{subsubsection.2.3.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Modelos de Segmentación}{31}{subsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.4.1}U-Net}{31}{subsubsection.2.3.4.1}%
+\contentsline {subsubsection}{\numberline {2.3.4.2}Fully Convolutional Network (FCN)}{31}{subsubsection.2.3.4.2}%
+\contentsline {subsubsection}{\numberline {2.3.4.3}SegNet}{32}{subsubsection.2.3.4.3}%
+\contentsline {subsubsection}{\numberline {2.3.4.4}Mask R-CNN}{32}{subsubsection.2.3.4.4}%
+\contentsline {subsubsection}{\numberline {2.3.4.5}DeepLab (v3, v3+)}{32}{subsubsection.2.3.4.5}%
+\contentsline {paragraph}{Comparativa de Modelos}{33}{paragraph*.21}%
+\contentsline {subsection}{\numberline {2.3.5}Métricas de Evaluación}{33}{subsection.2.3.5}%
+\contentsline {subsubsection}{\numberline {2.3.5.1}Índice de Sorensen-Dice (Dice Coefficient)}{33}{subsubsection.2.3.5.1}%
+\contentsline {subsubsection}{\numberline {2.3.5.2}Coeficiente de Jaccard (Intersection over Union, IoU)}{34}{subsubsection.2.3.5.2}%
+\contentsline {subsubsection}{\numberline {2.3.5.3}Precisión (Precision)}{34}{subsubsection.2.3.5.3}%
+\contentsline {subsubsection}{\numberline {2.3.5.4}Entropía Cruzada (Cross-Entropy)}{35}{subsubsection.2.3.5.4}%
+\contentsline {subsection}{\numberline {2.3.6}Redes de Atención}{36}{subsection.2.3.6}%
+\contentsline {subsubsection}{\numberline {2.3.6.1}Mecanismo de Atención}{36}{subsubsection.2.3.6.1}%
+\contentsline {subsubsection}{\numberline {2.3.6.2}Atención Espacial}{36}{subsubsection.2.3.6.2}%
+\contentsline {subsubsection}{\numberline {2.3.6.3}Atención de Canal}{37}{subsubsection.2.3.6.3}%
+\contentsline {subsubsection}{\numberline {2.3.6.4}Beneficios de las Redes de Atención}{37}{subsubsection.2.3.6.4}%
+\contentsline {subsubsection}{\numberline {2.3.6.5}Ejemplos de Modelos con Atención}{38}{subsubsection.2.3.6.5}%
+\contentsline {subsection}{\numberline {2.3.7}Redes Generativas Adversariales (GANs)}{38}{subsection.2.3.7}%
+\contentsline {subsubsection}{\numberline {2.3.7.1}Estructura de GANs (Generador y Discriminador)}{38}{subsubsection.2.3.7.1}%
+\contentsline {subsubsection}{\numberline {2.3.7.2}Aplicaciones de GANs en Segmentación}{39}{subsubsection.2.3.7.2}%
+\contentsline {subsubsection}{\numberline {2.3.7.3}Variantes de GANs (CycleGAN, Pix2Pix)}{39}{subsubsection.2.3.7.3}%
+\contentsline {subsubsection}{\numberline {2.3.7.4}Desafíos de las GANs}{40}{subsubsection.2.3.7.4}%
+\contentsline {section}{\numberline {2.4}Hipótesis}{40}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{40}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{40}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {III}Metodología de la Investigación}{42}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diseño de la investigación}{42}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Alcance de la investigación}{42}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{42}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Población}{43}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Muestra}{43}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Metodología de Implementación de la Solución}{43}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Adquisición y Preparación de los Datos}{43}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Diagrama de la Metodología}{44}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Desarrollo de los Modelos de Segmentación}{45}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Evaluación y Validación del Sistema}{46}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Implementación y Pruebas Finales}{46}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Metodología para la Medición de Resultados de la Implementación}{46}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Cronograma de actividades y presupuesto}{48}{section.3.5}%
+\contentsline {chapter}{\numberline {IV}Desarrollo de la Solución}{50}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Determinación y evaluación de alternativas de solución}{50}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Propuesta solución}{50}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Planeamiento y descripción de Actividades}{50}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Desarrollo de actividades}{50}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Medición de la solución}{50}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Análisis de Indicadores cuantitativo}{50}{subsection.4.3.1}%
+\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{51}{chapter.5}%
+\contentsline {chapter}{Referencias}{54}{chapter*.25}%
+\contentsline {chapter}{Anexos}{58}{section*.26}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{59}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{60}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{61}{section.Alph0.3}%
