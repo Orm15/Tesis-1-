@@ -96,41 +96,6 @@
       \field{pages}{1101\bibrangedash 1114}
       \range{pages}{14}
     \endentry
-    \entry{autor2021segnet}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=2b517df4f81c42dc3c5b32aede012cf9}{%
-           family={Badrinarayanan},
-           familyi={B\bibinitperiod},
-           given={Vijay},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{fullhash}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{fullhashraw}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{bibnamehash}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{authorbibnamehash}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{authornamehash}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{authorfullhash}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{authorfullhashraw}{2b517df4f81c42dc3c5b32aede012cf9}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
-      \field{number}{12}
-      \field{title}{SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation}
-      \field{volume}{39}
-      \field{year}{2021}
-      \field{pages}{2481\bibrangedash 2495}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1109/TPAMI.2016.2644615
-      \endverb
-    \endentry
     \entry{autor2021arrugas}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6f52c51caac5c7df94f9349a2e45d419}{%
@@ -206,41 +171,6 @@
       \range{pages}{9}
       \verb{doi}
       \verb 10.1016/j.jdermatol.2021.01.005
-      \endverb
-    \endentry
-    \entry{autor2021deeplab}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9dddfcfd529634a150ee38ee5c0203d7}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Liang-Chieh},
-           giveni={L\bibinithyphendelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{fullhash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{fullhashraw}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{bibnamehash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{authorbibnamehash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{authornamehash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{authorfullhash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{authorfullhashraw}{9dddfcfd529634a150ee38ee5c0203d7}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
-      \field{number}{4}
-      \field{title}{DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs}
-      \field{volume}{40}
-      \field{year}{2021}
-      \field{pages}{834\bibrangedash 848}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1109/TPAMI.2017.2699184
       \endverb
     \endentry
     \entry{chuchu2020}{article}{}{}
@@ -734,12 +664,12 @@
     \endentry
     \entry{autor2020gans}{book}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+        {{un=1,uniquepart=given,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
            family={Goodfellow},
            familyi={G\bibinitperiod},
            given={Ian},
            giveni={I\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{publisher}{1}{%
         {MIT Press}%
@@ -756,7 +686,6 @@
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Generative Adversarial Networks: Theory and Applications}
@@ -764,12 +693,12 @@
     \endentry
     \entry{goodfellow2014}{article}{}{}
       \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+        {{un=1,uniquepart=given,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
            family={Goodfellow},
            familyi={G\bibinitperiod},
            given={Ian},
            giveni={I\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=a341d25f80a8118cdbb90b272adc8b4f}{%
            family={Pouget-Abadie},
            familyi={P\bibinithyphendelim A\bibinitperiod},
@@ -825,13 +754,68 @@
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Advances in Neural Information Processing Systems}
       \field{title}{Generative adversarial nets}
       \field{volume}{27}
       \field{year}{2014}
+    \endentry
+    \entry{tec_goodfellow2014gan}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=9065df87f119d90d95d857dd67df5ad0}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=894d54b162716acedb56a3fca6cdec31}{%
+           family={Pouget-Abadie},
+           familyi={P\bibinithyphendelim A\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=69767ef463c93a67989ae0a47642deec}{%
+           family={Mirza},
+           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=02aa60b52defac8624a7c0ac76815e06}{%
+           family={Xu},
+           familyi={X\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=62a9be8cd228ffa0a42b1f584d04deef}{%
+           family={Warde-Farley},
+           familyi={W\bibinithyphendelim F\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=895e0491853df2d0a9720017130aeb09}{%
+           family={Ozair},
+           familyi={O\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=b466ee9eb701c5a6a885359ddf930f18}{%
+           family={Courville},
+           familyi={C\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=f428044f9ba9d68b58d744c2aaed4a2c}{%
+           family={Bengio},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{153b02604ab9cd559ffdec0ba2374aac}
+      \strng{fullhash}{053f87b8b21997034ab8eb50dd1babec}
+      \strng{fullhashraw}{053f87b8b21997034ab8eb50dd1babec}
+      \strng{bibnamehash}{053f87b8b21997034ab8eb50dd1babec}
+      \strng{authorbibnamehash}{053f87b8b21997034ab8eb50dd1babec}
+      \strng{authornamehash}{153b02604ab9cd559ffdec0ba2374aac}
+      \strng{authorfullhash}{053f87b8b21997034ab8eb50dd1babec}
+      \strng{authorfullhashraw}{053f87b8b21997034ab8eb50dd1babec}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{10495258}
+      \field{title}{Generative Adversarial Networks}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1001/jamainternmed.2016.8245
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1406.2661
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1406.2661
+      \endverb
     \endentry
     \entry{autor2021beneficios}{article}{}{}
       \name{author}{1}{}{%
@@ -865,41 +849,6 @@
       \range{pages}{16}
       \verb{doi}
       \verb 10.1007/s00542-021-02514-w
-      \endverb
-    \endentry
-    \entry{autor2022maskrcnn}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6b4b60e909e78633945f3f9c9dc83e01}{%
-           family={He},
-           familyi={H\bibinitperiod},
-           given={Kaiming},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{fullhash}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{fullhashraw}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{bibnamehash}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{authorbibnamehash}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{authornamehash}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{authorfullhash}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{authorfullhashraw}{6b4b60e909e78633945f3f9c9dc83e01}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
-      \field{number}{2}
-      \field{title}{Mask R-CNN}
-      \field{volume}{42}
-      \field{year}{2022}
-      \field{pages}{386\bibrangedash 397}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1109/TPAMI.2018.2844175
       \endverb
     \endentry
     \entry{he2016}{article}{}{}
@@ -1253,7 +1202,6 @@
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Sciences}
@@ -1265,6 +1213,53 @@
       \verb{doi}
       \verb 10.3390/app13020989
       \endverb
+    \endentry
+    \entry{tec_kim2014convolutional}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=1fecefbf07117382be6f83e7910ea8a0}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Yoon},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Doha, Qatar}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{fullhash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{fullhashraw}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{bibnamehash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{authorbibnamehash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{authornamehash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{authorfullhash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{authorfullhashraw}{1fecefbf07117382be6f83e7910ea8a0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)}
+      \field{month}{8}
+      \field{title}{Convolutional Neural Networks for Sentence Classification}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{1746\bibrangedash 1751}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.3115/v1/D14-1181
+      \endverb
+      \verb{urlraw}
+      \verb https://www.aclweb.org/anthology/D14-1181.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.aclweb.org/anthology/D14-1181.pdf
+      \endverb
+      \warn{\item Overwriting field 'month' with month value from field 'date' for entry 'tec_kim2014convolutional'}
     \endentry
     \entry{autor2019canal}{article}{}{}
       \name{author}{1}{}{%
@@ -1342,71 +1337,6 @@
       \field{year}{2012}
       \field{pages}{1097\bibrangedash 1105}
       \range{pages}{9}
-    \endentry
-    \entry{autor2022cnn}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=dd12628ece2c2bcccc0e876cbeafa9c9}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Kevin},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{fullhash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{fullhashraw}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{bibnamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{authorbibnamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{authornamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{authorfullhash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{authorfullhashraw}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Convolutional Neural Networks: Theory and Practice}
-      \field{year}{2022}
-    \endentry
-    \entry{autor2019fcn}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=17faae490b91366d25e0e2d774e7b6b1}{%
-           family={Long},
-           familyi={L\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{fullhash}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{fullhashraw}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{bibnamehash}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{authorbibnamehash}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{authornamehash}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{authorfullhash}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{authorfullhashraw}{17faae490b91366d25e0e2d774e7b6b1}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
-      \field{number}{4}
-      \field{title}{Fully Convolutional Networks for Semantic Segmentation}
-      \field{volume}{39}
-      \field{year}{2019}
-      \field{pages}{640\bibrangedash 651}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1109/TPAMI.2016.2572683
-      \endverb
     \endentry
     \entry{autor2019precision}{article}{}{}
       \name{author}{1}{}{%
@@ -1531,40 +1461,6 @@
       \range{pages}{8}
       \verb{doi}
       \verb 10.1016/j.ijml.2022.01.005
-      \endverb
-    \endentry
-    \entry{autor2020unet}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=900b03057a585a5083151d44ab793768}{%
-           family={Olaf},
-           familyi={O\bibinitperiod},
-           given={Ronneberger},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{900b03057a585a5083151d44ab793768}
-      \strng{fullhash}{900b03057a585a5083151d44ab793768}
-      \strng{fullhashraw}{900b03057a585a5083151d44ab793768}
-      \strng{bibnamehash}{900b03057a585a5083151d44ab793768}
-      \strng{authorbibnamehash}{900b03057a585a5083151d44ab793768}
-      \strng{authornamehash}{900b03057a585a5083151d44ab793768}
-      \strng{authorfullhash}{900b03057a585a5083151d44ab793768}
-      \strng{authorfullhashraw}{900b03057a585a5083151d44ab793768}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Medical Image Computing and Computer-Assisted Intervention}
-      \field{title}{U-Net: Convolutional Networks for Biomedical Image Segmentation}
-      \field{volume}{9351}
-      \field{year}{2020}
-      \field{pages}{234\bibrangedash 241}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1007/978-3-319-24574-4_28
       \endverb
     \endentry
     \entry{phillips2020}{article}{}{}
@@ -2360,41 +2256,6 @@
       \field{pages}{1101\bibrangedash 1114}
       \range{pages}{14}
     \endentry
-    \entry{autor2021segnet}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=2b517df4f81c42dc3c5b32aede012cf9}{%
-           family={Badrinarayanan},
-           familyi={B\bibinitperiod},
-           given={Vijay},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{fullhash}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{fullhashraw}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{bibnamehash}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{authorbibnamehash}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{authornamehash}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{authorfullhash}{2b517df4f81c42dc3c5b32aede012cf9}
-      \strng{authorfullhashraw}{2b517df4f81c42dc3c5b32aede012cf9}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
-      \field{number}{12}
-      \field{title}{SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation}
-      \field{volume}{39}
-      \field{year}{2021}
-      \field{pages}{2481\bibrangedash 2495}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1109/TPAMI.2016.2644615
-      \endverb
-    \endentry
     \entry{autor2021arrugas}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6f52c51caac5c7df94f9349a2e45d419}{%
@@ -2470,41 +2331,6 @@
       \range{pages}{9}
       \verb{doi}
       \verb 10.1016/j.jdermatol.2021.01.005
-      \endverb
-    \endentry
-    \entry{autor2021deeplab}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9dddfcfd529634a150ee38ee5c0203d7}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Liang-Chieh},
-           giveni={L\bibinithyphendelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{fullhash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{fullhashraw}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{bibnamehash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{authorbibnamehash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{authornamehash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{authorfullhash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{authorfullhashraw}{9dddfcfd529634a150ee38ee5c0203d7}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
-      \field{number}{4}
-      \field{title}{DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs}
-      \field{volume}{40}
-      \field{year}{2021}
-      \field{pages}{834\bibrangedash 848}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1109/TPAMI.2017.2699184
       \endverb
     \endentry
     \entry{chuchu2020}{article}{}{}
@@ -2998,12 +2824,12 @@
     \endentry
     \entry{autor2020gans}{book}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+        {{un=1,uniquepart=given,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
            family={Goodfellow},
            familyi={G\bibinitperiod},
            given={Ian},
            giveni={I\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{publisher}{1}{%
         {MIT Press}%
@@ -3020,7 +2846,6 @@
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Generative Adversarial Networks: Theory and Applications}
@@ -3028,12 +2853,12 @@
     \endentry
     \entry{goodfellow2014}{article}{}{}
       \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+        {{un=1,uniquepart=given,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
            family={Goodfellow},
            familyi={G\bibinitperiod},
            given={Ian},
            giveni={I\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=a341d25f80a8118cdbb90b272adc8b4f}{%
            family={Pouget-Abadie},
            familyi={P\bibinithyphendelim A\bibinitperiod},
@@ -3089,13 +2914,68 @@
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Advances in Neural Information Processing Systems}
       \field{title}{Generative adversarial nets}
       \field{volume}{27}
       \field{year}{2014}
+    \endentry
+    \entry{tec_goodfellow2014gan}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=9065df87f119d90d95d857dd67df5ad0}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=894d54b162716acedb56a3fca6cdec31}{%
+           family={Pouget-Abadie},
+           familyi={P\bibinithyphendelim A\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=69767ef463c93a67989ae0a47642deec}{%
+           family={Mirza},
+           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=02aa60b52defac8624a7c0ac76815e06}{%
+           family={Xu},
+           familyi={X\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=62a9be8cd228ffa0a42b1f584d04deef}{%
+           family={Warde-Farley},
+           familyi={W\bibinithyphendelim F\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=895e0491853df2d0a9720017130aeb09}{%
+           family={Ozair},
+           familyi={O\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=b466ee9eb701c5a6a885359ddf930f18}{%
+           family={Courville},
+           familyi={C\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=f428044f9ba9d68b58d744c2aaed4a2c}{%
+           family={Bengio},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{153b02604ab9cd559ffdec0ba2374aac}
+      \strng{fullhash}{053f87b8b21997034ab8eb50dd1babec}
+      \strng{fullhashraw}{053f87b8b21997034ab8eb50dd1babec}
+      \strng{bibnamehash}{053f87b8b21997034ab8eb50dd1babec}
+      \strng{authorbibnamehash}{053f87b8b21997034ab8eb50dd1babec}
+      \strng{authornamehash}{153b02604ab9cd559ffdec0ba2374aac}
+      \strng{authorfullhash}{053f87b8b21997034ab8eb50dd1babec}
+      \strng{authorfullhashraw}{053f87b8b21997034ab8eb50dd1babec}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{10495258}
+      \field{title}{Generative Adversarial Networks}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1001/jamainternmed.2016.8245
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1406.2661
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1406.2661
+      \endverb
     \endentry
     \entry{autor2021beneficios}{article}{}{}
       \name{author}{1}{}{%
@@ -3129,41 +3009,6 @@
       \range{pages}{16}
       \verb{doi}
       \verb 10.1007/s00542-021-02514-w
-      \endverb
-    \endentry
-    \entry{autor2022maskrcnn}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6b4b60e909e78633945f3f9c9dc83e01}{%
-           family={He},
-           familyi={H\bibinitperiod},
-           given={Kaiming},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{fullhash}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{fullhashraw}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{bibnamehash}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{authorbibnamehash}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{authornamehash}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{authorfullhash}{6b4b60e909e78633945f3f9c9dc83e01}
-      \strng{authorfullhashraw}{6b4b60e909e78633945f3f9c9dc83e01}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
-      \field{number}{2}
-      \field{title}{Mask R-CNN}
-      \field{volume}{42}
-      \field{year}{2022}
-      \field{pages}{386\bibrangedash 397}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1109/TPAMI.2018.2844175
       \endverb
     \endentry
     \entry{he2016}{article}{}{}
@@ -3517,7 +3362,6 @@
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Sciences}
@@ -3529,6 +3373,53 @@
       \verb{doi}
       \verb 10.3390/app13020989
       \endverb
+    \endentry
+    \entry{tec_kim2014convolutional}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=1fecefbf07117382be6f83e7910ea8a0}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Yoon},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Doha, Qatar}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{fullhash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{fullhashraw}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{bibnamehash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{authorbibnamehash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{authornamehash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{authorfullhash}{1fecefbf07117382be6f83e7910ea8a0}
+      \strng{authorfullhashraw}{1fecefbf07117382be6f83e7910ea8a0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)}
+      \field{month}{8}
+      \field{title}{Convolutional Neural Networks for Sentence Classification}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{1746\bibrangedash 1751}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.3115/v1/D14-1181
+      \endverb
+      \verb{urlraw}
+      \verb https://www.aclweb.org/anthology/D14-1181.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.aclweb.org/anthology/D14-1181.pdf
+      \endverb
+      \warn{\item Overwriting field 'month' with month value from field 'date' for entry 'tec_kim2014convolutional'}
     \endentry
     \entry{autor2019canal}{article}{}{}
       \name{author}{1}{}{%
@@ -3606,71 +3497,6 @@
       \field{year}{2012}
       \field{pages}{1097\bibrangedash 1105}
       \range{pages}{9}
-    \endentry
-    \entry{autor2022cnn}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=dd12628ece2c2bcccc0e876cbeafa9c9}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Kevin},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{fullhash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{fullhashraw}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{bibnamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{authorbibnamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{authornamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{authorfullhash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{authorfullhashraw}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Convolutional Neural Networks: Theory and Practice}
-      \field{year}{2022}
-    \endentry
-    \entry{autor2019fcn}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=17faae490b91366d25e0e2d774e7b6b1}{%
-           family={Long},
-           familyi={L\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{fullhash}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{fullhashraw}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{bibnamehash}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{authorbibnamehash}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{authornamehash}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{authorfullhash}{17faae490b91366d25e0e2d774e7b6b1}
-      \strng{authorfullhashraw}{17faae490b91366d25e0e2d774e7b6b1}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
-      \field{number}{4}
-      \field{title}{Fully Convolutional Networks for Semantic Segmentation}
-      \field{volume}{39}
-      \field{year}{2019}
-      \field{pages}{640\bibrangedash 651}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1109/TPAMI.2016.2572683
-      \endverb
     \endentry
     \entry{autor2019precision}{article}{}{}
       \name{author}{1}{}{%
@@ -3795,40 +3621,6 @@
       \range{pages}{8}
       \verb{doi}
       \verb 10.1016/j.ijml.2022.01.005
-      \endverb
-    \endentry
-    \entry{autor2020unet}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=900b03057a585a5083151d44ab793768}{%
-           family={Olaf},
-           familyi={O\bibinitperiod},
-           given={Ronneberger},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{900b03057a585a5083151d44ab793768}
-      \strng{fullhash}{900b03057a585a5083151d44ab793768}
-      \strng{fullhashraw}{900b03057a585a5083151d44ab793768}
-      \strng{bibnamehash}{900b03057a585a5083151d44ab793768}
-      \strng{authorbibnamehash}{900b03057a585a5083151d44ab793768}
-      \strng{authornamehash}{900b03057a585a5083151d44ab793768}
-      \strng{authorfullhash}{900b03057a585a5083151d44ab793768}
-      \strng{authorfullhashraw}{900b03057a585a5083151d44ab793768}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Medical Image Computing and Computer-Assisted Intervention}
-      \field{title}{U-Net: Convolutional Networks for Biomedical Image Segmentation}
-      \field{volume}{9351}
-      \field{year}{2020}
-      \field{pages}{234\bibrangedash 241}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1007/978-3-319-24574-4_28
       \endverb
     \endentry
     \entry{phillips2020}{article}{}{}
@@ -4553,6 +4345,7 @@
   \missing{autor2021gans_segmentacion}
   \missing{autor2022challenges_gans}
   \missing{autor2022senet}
+  \missing{bk_kamath2019deeplearning_nlp_sr}
 \endrefsection
 \endinput
 

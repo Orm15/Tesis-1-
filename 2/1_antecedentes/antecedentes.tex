@@ -61,17 +61,20 @@ Resultados: Los resultados obtenidos demostraron que el modelo propuesto superó
 Conclusiones: Yoon et al.\ concluyen que la integración de mecanismos de atención y codificación posicional en la arquitectura U-Net proporciona una segmentación más precisa de arrugas y poros, con potencial de aplicación en tareas avanzadas como la estimación de la edad de la piel y el análisis de su elasticidad y rugosidad. Este enfoque innovador podría facilitar diagnósticos estéticos y médicos de la piel, permitiendo mejorar la personalización en el cuidado cutáneo \cite{yoon2023}.
 
 
-\begin{table}[h]
+\begin{table}[h!]
     \centering
     \caption{Performance Metrics of Different Models}
-    \begin{tabular}{@{}lcccc@{}}
+    \renewcommand{\arraystretch}{1.2} % Adjust row spacing
+    \setlength{\tabcolsep}{5pt} % Adjust column spacing
+    \begin{tabularx}{\textwidth}{@{}X c c c c@{}}
         \toprule
-        Models & \#Params & Loss & IoU of Wrinkle & IoU of Pore \\ \midrule
+        \textbf{Models} & \textbf{\#Params} & \textbf{Loss} & \textbf{IoU of Wrinkle} & \textbf{IoU of Pore} \\ \midrule
         U-Net & 17.3 M & 1.243 & 0.2078 & 0.3601 \\
         Reduced U-Net & 4.3 M & 1.250 & 0.2147 & 0.3646 \\
         Reduced U-Net, Attentions & 5.2 M & 1.242 & 0.2250 & 0.3714 \\
-        Reduced U-Net, Attentions, Zero-padding (Proposed) & 5.2 M & 1.145 & 0.2341 & 0.4032 \\ \bottomrule
-    \end{tabular}
+        Reduced U-Net, Attentions, Zero-padding (Proposed) & 5.2 M & 1.145 & 0.2341 & 0.4032 \\ 
+        \bottomrule
+    \end{tabularx}
     \label{tab:models_performance}
 \end{table}
 
