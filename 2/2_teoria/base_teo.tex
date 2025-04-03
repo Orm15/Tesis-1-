@@ -1,3 +1,153 @@
+\subsection{Inteligencia Artificial}
+
+El método racional fusiona la ingeniería y las matemáticas basándose en las "leyes del pensamiento", las cuales tienen su origen en la antigua Grecia y han sido influenciadas por filósofos como Aristóteles. Durante el siglo XIX, se diseñaron programas capaces de resolver problemas de lógica. Por consiguiente, el propósito de la Inteligencia Artificial en la vida real es crear sistemas inteligentes que posean estas habilidades. Aun en situaciones de incertidumbre, un "Agente Racional" toma acciones con el fin de obtener el mejor resultado posible. La inteligencia artificial se apoya en diversas disciplinas, tales como la ingeniería computacional, la teoría de control, la cibernética, la lingüística, la filosofía, la economía, la psicología, la neurociencia y las matemáticas, de acuerdo con \cite{bk_russell2004intart}.
+
+Dos investigadores en neurociencia crearon el primer modelo de IA basado en neuronas artificiales en 1943, dando inicio al análisis de la Inteligencia Artificial. McCulloch y Pitts idearon el prototipo que permitía que las neuronas fueran <<activadas>> o <<desactivadas>>, lo que demostró que una red de neuronas era capaz de realizar cualquier tarea computacional. Posteriormente, Donald Hebb propuso la <<Regla de Aprendizaje Hebbiano>>. John McCarthy, Allen Newell y Herbert Simon desarrollaron un programa que podía tener el pensamiento no numérico en el taller de Dartmouth, aunque no se publicó. El término <<Inteligencia Artificial>> fue acuñado por McCarthy, \parencite{bk_russell2004intart}.
+
+La IA comenzó a entrar en la industria en los años 80, especialmente en grandes empresas de países desarrollados, a través de la investigación en sistemas expertos y el desarrollo de computadoras más poderosas.
+
+\subsection{Aprendizaje Automático}
+El Machine Learning es un área de la Inteligencia Artificial enfocada en técnicas que permiten a las computadoras aprender a través de algoritmos, convirtiendo muestras de datos en programas sin requerir programación explícita. Según \cite{bk_russell2009intart}, el aprendizaje automático es una división de la inteligencia artificial. Estos algoritmos emplean tecnologías como el procesamiento del lenguaje natural, el aprendizaje profundo y las redes neuronales. Tanto el aprendizaje supervisado como el no supervisado se fundamentan en lecciones extraídas de los datos. La creación de algoritmos capaces de recibir datos de entrada y utilizar análisis estadístico para prever una salida, la cual se ajusta conforme se obtienen nuevos datos, constituye el fundamento del aprendizaje automático \cite{bk_alpaydin2014ml}.
+
+Se puede clasificar en cuatro tipos principales de la siguiente manera según el objetivo que se desea alcanzar mediante el uso de ML:
+\begin{itemize}
+	\item \textbf{Aprendizaje Supervisado}: El Aprendizaje Supervisado se ganó su nombre porque los científicos de datos actúan como una guía para enseñarle al algoritmo las conclusiones a las que debe llegar. Es similar a la forma en que un estudiante aprende aritmética básica de un maestro. Este tipo de aprendizaje requiere datos etiquetados con las respuestas correctas que se esperan del resultado del algoritmo. Para problemas de clasificación y regresión, el aprendizaje supervisado demostró ser preciso y rápido según \parencite{bk_zambrano2018supnosup}.
+	
+	Los dos tipos de Aprendizaje Supervisado son:
+
+	\begin{itemize}
+		\item \textbf{La Clasificación}: es la predicción del valor categórico de salida que permite dividir los datos en clases específicas. La clasificación se puede usar para varios propósitos, como determinar el clima, determinar si un correo electrónico es spam o no o identificar tipos de animales después de recibir una educación adecuada, un conjunto de datos con etiquetas de imágenes que incluyen la especie y algunas identificaciones características, según \parencite{bk_zambrano2018supnosup}.
+		\item \textbf{La Regresión}: es un tipo de problema en el que la predicción de un valor de respuesta continua es necesaria, como los precios de las acciones y la vivienda, según \parencite{bk_zambrano2018supnosup}.
+	\end{itemize}
+
+	Por lo tanto, funciona modelando las relaciones y dependencias entre las características de entrada y la salida de predicción objetivo, lo que permite predecir los valores de salida para nuevos datos utilizando las relaciones que aprendió de conjuntos de datos anteriores, según \parencite{bk_alpaydin2014ml}.
+
+	\item \textbf{Aprendizaje No Supervisado}: Por otro lado, el Aprendizaje No Supervisado se asemeja más a lo que algunos expertos llaman Inteligencia Artificial real: la idea de que una máquina puede aprender a identificar patrones y procesos complejos sin la supervisión de humanos. Cuando los expertos no saben qué buscar en los datos y los datos en sí no incluyen objetivos, este método es particularmente útil. La agrupación de k-means, el análisis de componentes principales e independientes y las reglas de asociación según \parencite{bk_zambrano2018supnosup} son algunos de los muchos casos de uso del Aprendizaje Automático No Supervisado.
+	
+	\begin{itemize}
+		\item \textbf{Agrupación K-means}: es un tipo de problema en el que cosas similares están agrupadas, como se muestra en la Figura \ref{2:fig33}. Comparte el mismo concepto con la clasificación, pero no se proporcionan etiquetas, por lo que el sistema entenderá los datos y los agrupará. Un uso de esto sería agrupar los artículos y las noticias según su género y contenido, según \parencite{tec_sancho2018supnosup}
+	\end{itemize}
+	
+		\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.75\textwidth]{2/figures/kmeans.png}
+			\caption[El algoritmo de K medias]{El algoritmo de K medias.\\
+			Fuente: \cite{tec_sancho2018supnosup}. \citetitle{tec_sancho2018supnosup}.}
+			\label{2:fig33}
+		\end{center}
+	\end{figure}
+		
+	Debido a su complejidad y dificultad de implementación, este tipo de Aprendizaje Automático no se utiliza tan frecuentemente como el Aprendizaje Supervisado, a pesar de que abre las puertas a la resolución de problemas que los humanos normalmente no abordarían, según \parencite{tec_sancho2018supnosup}
+
+	\item \textbf{Aprendizaje Semisupervisado}: Hasta el momento, todos los datos enviados han sido etiquetados con el resultado deseado o no han sido etiquetados en absoluto. El Aprendizaje Automático Semisupervisado utiliza ambos. El costo de etiquetar es bastante alto en muchas situaciones prácticas y, en el caso de grandes conjuntos de datos, se vuelve aburrido y requiere mucho tiempo. Además, proporcionar demasiados datos etiquetados puede hacer que el modelo tenga sesgos humanos. A pesar de que los datos sin etiquetar son desconocidos para la red, ofrecen información útil sobre los parámetros del grupo objetivo. que conduce a la conclusión de que se puede mejorar la precisión del modelo al incluir datos sin etiquetar y, al mismo tiempo, ahorrar tiempo y dinero en su construcción. Por ejemplo, la clasificación de páginas web, el reconocimiento de voz o la secuenciación genética pueden usar Aprendizaje Automático Semisupervisado. En esos casos, los científicos de datos pueden acceder a grandes cantidades de datos sin etiquetarlos, y la tarea de etiquetarlos todos llevaría mucho tiempo, según \parencite{bk_zambrano2018supnosup}.
+
+	Se puede comparar estos tres tipos de Aprendizaje Automático para el mismo uso, como clasificación, utilizando los datos recopilados hasta ahora:
+
+	\begin{itemize}
+		\item \textbf{Clasificación supervisada}: el algoritmo clasificará los tipos de páginas web según las etiquetas proporcionadas desde el principio, según \parencite{bk_zambrano2018supnosup}.
+		\item \textbf{Agrupación no supervisada}: el algoritmo buscará patrones y características que ayudan a agrupar páginas web en grupos, según \parencite{bk_zambrano2018supnosup}.
+		\item \textbf{Clasificación semi no supervisada}: identificará varios grupos de páginas web utilizando los datos etiquetados, luego utilizará los datos no etiquetados para establecer los límites de esos grupos de páginas web y buscar otros tipos que posiblemente no aparezcan en los datos etiquetados, según \parencite{bk_zambrano2018supnosup}.
+	\end{itemize}
+	
+\end{itemize}
+
+\subsection{Aprendizaje Profundo}
+
+Desde que llegó la Inteligencia Artificial hace un tiempo, tiene una amplia gama de aplicaciones y se divide en muchas ramas, como se menciona en \parencite{gl_sas_deeplearning}. El Aprendizaje Profundo es un subconjunto del Aprendizaje Automático, que es en sí mismo un subcampo de la IA. La Figura \ref{2:fig55} es una representación visual de la relación entre AI, ML y DL.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.50\textwidth]{2/figures/deeplearning_machinelearning.jpg}
+		\caption[Relación entre IA, ML y DL]{Relación entre IA, ML y DL.\\
+		Fuente: \cite{tec_cook2018deeplearning}. \textit{Most Popular 20 Free Online Courses to Learn Deep Learning}.}
+		\label{2:fig55}
+	\end{center}
+\end{figure}
+
+El Aprendizaje Profundo no solo permite representar datos de la manera correcta, sino que también permite que la computadora aprenda programas informáticos de varios pasos al incluir el concepto de profundidad en sus modelos. Como se muestra en la Figura \ref{2:fig56}, cada capa de representación puede interpretarse como el estado de la memoria de la computadora. Las computadoras interpretan las imágenes como una colección de valores de píxeles que representan escenas de nuestra realidad. Según \parencite{tec_cook2018deeplearning}, identificar un objeto o mapear su identidad a partir de esos valores es una tarea difícil para las máquinas y puede resultar casi imposible cuando se intenta aprender este mapeo directamente.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.70\textwidth]{2/figures/deeplearning_machinelearning2.jpg}
+		\caption[Modelo de aprendizaje profundo]{Modelo de aprendizaje profundo.\\
+		Fuente: \cite{tec_cook2018deeplearning}. \textit{Most Popular 20 Free Online Courses to Learn Deep Learning}.}
+		\label{2:fig56}
+	\end{center}
+\end{figure}
+
+
+\subsection{Aprendizaje Profundo Multimodal}
+Podemos ver en la Figura \ref{2:fig57}, el fundamento del Aprendizaje Profundo Multimodal es la integración de diversas modalidades a través del uso de redes neuronales profundas. \parencite{bk_deng2018deeplearningnlp}.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.85\textwidth]{2/figures/multimodal_network.png}
+		\caption[Modelo que combina imágenes y texto]{Modelo que combina imágenes y texto.\\
+		Fuente: \cite{tec_nishida2015multimodal}. \textit{Multimodal gesture recognition using multi-stream recurrent neural network}.}
+		\label{2:fig57}
+	\end{center}
+\end{figure}
+
+Las señales provenientes de distintas fuentes brindan datos adicionales sobre diferentes aspectos de un tema, lo cual capacita a los métodos que emplean varias técnicas para efectuar inferencias más sólidas. En el ámbito de las técnicas multimodales existen diversas estrategias como las estrategias de integración y combinación, los sistemas computacionales, el proceso de unir diferentes modelos y las estructuras de redes neuronales con múltiples capas. Al combinar estas características para la toma de decisiones, se emplean enfoques aditivos que recopilan información relevante y mejoran conjuntamente la precisión de las predicciones \cite{bk_deng2018deeplearningnlp}.
+
+\cite{tec_baheti2020introduction_mdl} afirman que el uso de modelos multimodales mejora el rendimiento de las redes neuronales y permite una extracción más efectiva de características, lo que favorece predicciones mayores. Uno de las ventajas es que los datos de diferentes fuentes ofrecen información complementaria que revela patrones ocultos que no se pueden ver cuando las modalidades se analizan individualmente, mejorando así la precisión de las predicciones.
+
+Según \cite{tec_brownlee2018stacked_models}, se puede mejorar la calidad del promedio del modelo al considerar de manera ponderada las aportaciones individuales de cada submodelo a la predicción global. Este enfoque se conoce como <<generalización apilada>> y se divide en dos niveles.
+
+\begin{itemize}
+    \item Nivel 0: Este nivel utiliza los datos de entrada del conjunto de entrenamiento para enseñar a los modelos a hacer predicciones.
+    \item Nivel 1: Aquí, los datos provienen de las salidas de los modelos del nivel anterior, que se utilizan como entradas para instruir a los modelos en esta etapa, también conocidos como meta-aprendices o generalizadores.
+\end{itemize}
+
+En el contexto de los modelos apilados, se utilizan dos métodos diferentes:
+
+\begin{itemize}
+    \item Enfoque de apilamiento por separado: Implica crear los datos de entrada conjuntos utilizando los pronósticos amalgamados de modelos adicionales. Estos datos se emplean para instruir a un modelo extra que realiza la predicción final.
+	\item Modelo apilado integrado: Esta estrategia facilita la utilización de arquitecturas neuronales y un modelo de múltiples cabezas conformado por otros modelos preentrenados. Estos modelos no requieren conservar la misma configuración, dado que sus niveles se etiquetancomo "no susceptibles al entrenamiento" para prevenir la modificación de sus valores antes de efectuar predicciones. Las salidas de los submodelos se fusionan directamente en el modelo principal.
+\end{itemize}
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=0.79\textwidth]{2/figures/multimodal_deep_learning_example.jpg}
+		\caption[Un modelo multimodal para las señales de la vista]{Un modelo multimodal para las señales de la vista.\\
+		Fuente: \cite{tec_baheti2020introduction_mdl}. \citetitle{tec_baheti2020introduction_mdl}.}
+		\label{2:fig58}
+	\end{center}
+\end{figure}
+
+\subsection{Inteligencia Artificial Generativa}
+
+La Inteligencia Artificial Generativa es el campo de la ciencia que estudia cómo crear inteligencia totalmente automatizada. Esto contrasta con el campo de la Inteligencia Artificial Moderna, que investiga cómo los humanos comprenden y construyen la inteligencia. La construcción manual es lo que hacen los investigadores, pero la parte <<por humanos>> de la definición de IA suele ser una variable oculta en la construcción de los sistemas de IA contemporáneos. Aunque la diferencia puede parecer sutil, incluso innecesaria, la construcción automatizada requiere una perspectiva completamente nueva, que no está disponible en la literatura sobre IA actual. No importa si los humanos comprenden cómo funcionan los mecanismos internos de una máquina en la Inteligencia Artificial Generativa, aunque podría ayudar a los investigadores en su búsqueda de la creación de máquinas inteligentes. Lo que importa es que la máquina pueda controlar y dirigir el proceso de creación de estructuras internas en la dirección deseada. Es como criar hijos: los seres humanos no son conscientes de los procesos mentales, pero interactúan con sus hijos en un nivel diferente al hablar de sus sustratos neuronales. En lugar de eso, utilizan una variedad de máquinas clasificadoras para diferenciar los comportamientos positivos de los negativos, que podrían ser beneficiosos para el niño cuando sea mayor. Los castigos corporales, los institutos educativos, los medios de comunicación y otros lugares son algunos de los usos de estas máquinas clasificadoras, según \parencite{th_zant2010genai}
+
+A continuación, ofrecemos una variedad de categorías de modelos de Inteligencia Artificial Generativa.
+
+\begin{itemize}
+	\item \textbf{Modelos de difusión}: crean nuevos datos iterando cambios aleatorios controlados en una muestra de datos previa. Empezan con los datos originales y luego agregan cambios sutiles, también conocidos como ruido, que hacen que gradualmente pierdan la similitud con el original. Este ruido se controla minuciosamente para garantizar que los datos generados sigan siendo consistentes y realistas. El modelo de difusión invierte el proceso después de agregar ruido en varias iteraciones. Como se muestra en la Figura \ref{2:fig59}, la eliminación de ruido inversa crea una muestra de datos nueva que se asemeja a la original, según \parencite{tec_amaz2023iagen}.
+	
+	\begin{figure}[!ht]
+		\begin{center}
+			\includegraphics[width=0.85\textwidth]{2/figures/modelosdedifusion.jpg}
+			\caption[Modelos de difusión]{Modelos de difusión.\\
+			Fuente: \cite{tec_amaz2023iagen}. \citetitle{tec_amaz2023iagen}.}
+			\label{2:fig59}
+		\end{center}
+	\end{figure}
+
+	\item \textbf{Redes generativas adversativas}: compiten con dos redes neuronales. La primera red, también conocida como generador, agrega ruido aleatorio para crear muestras de datos falsas. La segunda red, conocida como discriminador, ayuda a distinguir entre los datos reales y falsos generados por el generador. El generador mejora continuamente su capacidad de generar datos realistas, mientras que el discriminador mejora su capacidad de distinguir entre lo real y lo falso. Hasta que el generador produzca datos tan persuasivos que el discriminador no pueda diferenciarlos de los datos reales, este proceso adversativo termina, según \parencite{tec_amaz2023iagen}.
+
+	\item \textbf{Autocodificadores variacionales}: aprenden sobre el espacio latente, una pequeña representación de datos. La representación matemática de los datos se conoce como espacio latente. Puede verse como un código único que representa los datos en función de cada característica. Por ejemplo, cuando se estudian los rostros, el espacio latente contiene números que representan la forma de las orejas, los pómulos, la nariz y los ojos. Las dos redes neuronales utilizadas por los VAE son el codificador y el decodificador. Para cada dimensión del espacio latente, la red neuronal del codificador mapea los datos de entrada a una media y una varianza. crea una muestra aleatoria utilizando la distribución normal gaussiana. Este ejemplo es un punto en el espacio latente, y como se puede ver en la Figura \ref{2:fig60}, representa una versión comprimida y simplificada de los datos de entrada, según \parencite{tec_amaz2023iagen}.
+	
+	\begin{figure}[!ht]
+		\begin{center}
+			\includegraphics[width=0.85\textwidth]{2/figures/autocodificadoresvariacionales.png}
+			\caption[Autocodificadores variacionales]{Autocodificadores variacionales.\\
+			Fuente: \cite{tec_amaz2023iagen}. \citetitle{tec_amaz2023iagen}.}
+			\label{2:fig60}
+		\end{center}
+	\end{figure}
+\end{itemize}
+
+
 \subsection{Segmentación de Imágenes}
 %%%%%%%%
 \subsubsection{Definición y objetivos de la segmentación de imágenes}
@@ -27,30 +177,6 @@ Estas técnicas clásicas también presentan dificultades cuando se enfrentan a 
 
 Debido a estas limitaciones, las técnicas clásicas de segmentación no siempre son adecuadas para aplicaciones dermatológicas de alta precisión. Aunque siguen siendo útiles en ciertos contextos, su capacidad para segmentar con precisión detalles finos en la piel es insuficiente cuando se requiere una segmentación detallada y robusta. Es por esto que, en los últimos años, las técnicas más avanzadas, como las redes neuronales convolucionales (CNN), han comenzado a ganar popularidad en el campo de la dermatología y la cosmética, ofreciendo una solución más precisa y automática para la segmentación de características morfológicas complejas en la piel \parencite{yoo2020}.
 
-\subsection{Características Morfológicas de la Piel Facial}
-
-\subsubsection{Descripción de arrugas: origen, tipos y características visuales}
-Las arrugas son pliegues o líneas en la piel que se forman como consecuencia del envejecimiento natural, la exposición prolongada al sol, y la pérdida de elasticidad y colágeno en la dermis. Con el paso del tiempo, la capacidad de la piel para repararse disminuye, lo que provoca la aparición de estas líneas de expresión, que son visibles principalmente en zonas del rostro, como la frente, alrededor de los ojos y la boca. 
-
-El origen de las arrugas se debe a varios factores, tanto intrínsecos como extrínsecos. El envejecimiento intrínseco, o envejecimiento biológico, ocurre de manera natural con el tiempo y está relacionado con la disminución de la producción de colágeno y elastina, proteínas esenciales que mantienen la firmeza y elasticidad de la piel. Por otro lado, el envejecimiento extrínseco, causado por factores ambientales como la exposición al sol, el tabaco y la contaminación, acelera este proceso. El daño solar, en particular, es una de las principales causas de arrugas prematuras, ya que los rayos UV destruyen las fibras de colágeno y elastina.
-
-Las arrugas se pueden clasificar principalmente en dos tipos: arrugas finas y arrugas profundas. Las arrugas finas, también conocidas como líneas de expresión, suelen ser superficiales y se forman con el movimiento repetido de los músculos faciales, como al sonreír o fruncir el ceño. Estas arrugas suelen ser más notorias en áreas de la piel más delgadas, como alrededor de los ojos (patas de gallo) y la boca. Por otro lado, las arrugas profundas son más prominentes y se desarrollan cuando la piel pierde su elasticidad, haciendo que las líneas se profundicen con el tiempo. Son comunes en la frente, el contorno de los ojos y el cuello, y tienden a ser más difíciles de tratar.
-
-Desde una perspectiva visual, las arrugas finas se presentan como líneas delgadas que alteran la suavidad de la piel, mientras que las arrugas profundas son surcos más marcados que pueden crear sombras y texturas visibles, afectando la uniformidad de la superficie cutánea. Estas alteraciones en la textura de la piel tienen un impacto significativo en la percepción estética, ya que las arrugas son comúnmente asociadas con el envejecimiento y la pérdida de juventud. Es por eso que la detección temprana y el análisis preciso de las arrugas son fundamentales para personalizar tratamientos cosméticos y dermatológicos, mejorando la apariencia y la salud de la piel.
-
-La identificación y clasificación de arrugas se realiza en el ámbito dermatológico mediante el análisis de características visuales, como la profundidad, la longitud, el patrón y la distribución de las líneas en la piel. Con el avance de la tecnología, métodos automáticos de segmentación de imágenes, basados en técnicas de inteligencia artificial como las redes neuronales convolucionales (CNN), han mejorado significativamente la precisión en la detección y evaluación de las arrugas en imágenes dermatológicas \parencite{farage2013}.
-
-\subsubsection{Análisis de poros: estructura, visibilidad y factores que influyen en su detección}
-Los poros son pequeñas aberturas en la epidermis, a través de las cuales se secretan sebo y otras sustancias, y son fundamentales para el mantenimiento de la función barrera de la piel. Aunque no son visibles a simple vista en su mayoría, en algunas personas, especialmente aquellas con piel grasa, los poros pueden dilatarse, haciéndose más prominentes. La dilatación de los poros puede ser causada por varios factores, como la sobreproducción de sebo, la pérdida de elasticidad de la piel relacionada con la edad, la exposición al sol y el daño causado por factores ambientales o genéticos.
-
-La visibilidad y el tamaño de los poros son cruciales en la evaluación estética de la piel, ya que son una preocupación común en el cuidado cosmético, especialmente en personas con piel grasa o combinada. Los poros dilatados son frecuentemente asociados con una piel de apariencia rugosa y envejecida, lo que genera un impacto en la percepción estética. Además, la detección precisa de estos poros es esencial no solo para evaluar el estado de la piel, sino también para diseñar tratamientos específicos que puedan reducir su tamaño o mejorar su apariencia. 
-
-Entre los factores que afectan la visibilidad de los poros se incluyen el tipo de piel, la genética, la exposición a la luz solar, el uso de productos de cuidado de la piel y hábitos de limpieza. Una detección precisa de los poros, que permita medir su tamaño y densidad, es un desafío debido a la variabilidad de las características cutáneas y la complejidad de las texturas de la piel. En este sentido, las técnicas de segmentación avanzadas, como las redes neuronales convolucionales (CNN), pueden ofrecer soluciones efectivas para identificar y cuantificar los poros con mayor precisión, mejorando el diagnóstico y personalización de los tratamientos. \parencite{cameron2021}
-
-\subsubsection{Tipología de manchas: causas y patrones de aparición en la piel facial}
-Las manchas faciales son alteraciones en la pigmentación de la piel que pueden aparecer por diversos factores. Entre las causas más comunes se encuentran el envejecimiento, la exposición excesiva al sol, y los cambios hormonales. La hiperpigmentación, como las manchas solares o lentigos, es particularmente frecuente en personas que han estado expuestas a la radiación ultravioleta (UV) durante largos periodos. También se observan manchas debido a trastornos hormonales, como el melasma, que ocurre principalmente en mujeres durante el embarazo o el uso de anticonceptivos orales.
-
-El estudio y clasificación de las manchas faciales es esencial para su diagnóstico y tratamiento. Las manchas pueden ser de diferentes formas, tamaños y colores, dependiendo de su origen y evolución. Además, es importante tener en cuenta factores como la localización de las manchas en la piel, que suele estar relacionada con la exposición al sol en áreas específicas, como la frente, las mejillas y el labio superior. Las técnicas de segmentación de imágenes, como las redes neuronales convolucionales, son herramientas valiosas para identificar y clasificar estos patrones de manera precisa, facilitando la personalización de los tratamientos \parencite{zouboulis2014}.
 
 \subsection{Redes Neuronales Convolucionales (CNN)}
 

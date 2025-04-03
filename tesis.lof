@@ -4,9 +4,16 @@
 \contentsline {figure}{\numberline {3}{\ignorespaces El proceso de convolución separable en profundidad}}{14}{figure.caption.15}%
 \contentsline {figure}{\numberline {4}{\ignorespaces Diagrama de flujo del sistema propuesto}}{15}{figure.caption.16}%
 \contentsline {figure}{\numberline {5}{\ignorespaces Modelo totalmente convolucional propuesto para la segmentación de lesiones cutáneas}}{16}{figure.caption.17}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Arquitectura de un modelo CNN}}{22}{figure.caption.18}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Red Generativa Antagónica de Imágenes}}{24}{figure.caption.19}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Red Generativa Antagónica de Imágenes}}{25}{figure.caption.20}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Imágenes de Ruido Gaussiano}}{25}{figure.caption.21}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Cronograma de actividades}}{42}{figure.caption.25}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Cronograma de actividades}}{46}{figure.caption.26}%
+\contentsline {figure}{\numberline {6}{\ignorespaces El algoritmo de K medias}}{19}{figure.caption.18}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Relación entre IA, ML y DL}}{20}{figure.caption.19}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Modelo de aprendizaje profundo}}{21}{figure.caption.20}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Modelo que combina imágenes y texto}}{22}{figure.caption.21}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Un modelo multimodal para las señales de la vista}}{23}{figure.caption.22}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Modelos de difusión}}{24}{figure.caption.23}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Autocodificadores variacionales}}{25}{figure.caption.24}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Arquitectura de un modelo CNN}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Red Generativa Antagónica de Imágenes}}{31}{figure.caption.26}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Red Generativa Antagónica de Imágenes}}{31}{figure.caption.27}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Imágenes de Ruido Gaussiano}}{32}{figure.caption.28}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Cronograma de actividades}}{48}{figure.caption.32}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Cronograma de actividades}}{52}{figure.caption.33}%

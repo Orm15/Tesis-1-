@@ -19,6 +19,67 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{bk_alpaydin2014ml}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8351b0b43ad4aed68fb279505ebd7d01}{%
+           family={Alpaydin},
+           familyi={A\bibinitperiod},
+           given={Ethem},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{fullhash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{fullhashraw}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{bibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authorbibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authornamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authorfullhash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authorfullhashraw}{8351b0b43ad4aed68fb279505ebd7d01}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Introduction to Machine Learning}
+      \field{year}{2014}
+    \endentry
+    \entry{tec_amaz2023iagen}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b3b3a6ac74ecbd56bcdbefa4799fb9df}{%
+           family={{Amazon}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{fullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{fullhashraw}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{bibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorfullhashraw}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Qué es la IA generativa?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.bbvaopenmind.com/tecnologia/mundo-digital/que-es-el-aprendijaze-profundo/
+      \endverb
+      \verb{url}
+      \verb https://www.bbvaopenmind.com/tecnologia/mundo-digital/que-es-el-aprendijaze-profundo/
+      \endverb
+    \endentry
     \entry{aad2022}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9feb01f62daba370fb4d61885fd06029}{%
@@ -96,6 +157,39 @@
       \field{pages}{1101\bibrangedash 1114}
       \range{pages}{14}
     \endentry
+    \entry{tec_baheti2020introduction_mdl}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=acb1a8bbc36bf2d131015ac20419fe36}{%
+           family={Baheti},
+           familyi={B\bibinitperiod},
+           given={Pragati},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{fullhash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{fullhashraw}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{bibnamehash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{authorbibnamehash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{authornamehash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{authorfullhash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{authorfullhashraw}{acb1a8bbc36bf2d131015ac20419fe36}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Multimodal Deep Learning}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://heartbeat.fritz.ai/introduction-to-multimodal-deep-learning-630b259f9291
+      \endverb
+      \verb{url}
+      \verb https://heartbeat.fritz.ai/introduction-to-multimodal-deep-learning-630b259f9291
+      \endverb
+    \endentry
     \entry{autor2021arrugas}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6f52c51caac5c7df94f9349a2e45d419}{%
@@ -136,41 +230,40 @@
       \verb 10.1016/j.cosmed.2021.03.001
       \endverb
     \endentry
-    \entry{cameron2021}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
+    \entry{tec_brownlee2018stacked_models}{online}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d691b5968ed6fa3ee172bcfb70ef012f}{%
-           family={Cameron},
-           familyi={C\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
+        {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{fullhash}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{fullhashraw}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{bibnamehash}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{authorbibnamehash}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{authornamehash}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{authorfullhash}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{authorfullhashraw}{b10a1f4693339abb19edbec53e8725a5}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \list{organization}{1}{%
+        {Machine Learning Mastery}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhashraw}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhashraw}{915af163e2107106fced5dd3164d9a8e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Dermatological Research}
-      \field{number}{3}
-      \field{title}{Understanding the Factors Influencing Pore Visibility and Detection in Dermatological Imaging}
-      \field{volume}{48}
-      \field{year}{2021}
-      \field{pages}{142\bibrangedash 150}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1016/j.jdermatol.2021.01.005
+      \field{title}{Stacking Ensemble for Deep Learning Neural Networks in Python}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/
+      \endverb
+      \verb{url}
+      \verb https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/
       \endverb
     \endentry
     \entry{chuchu2020}{article}{}{}
@@ -211,6 +304,49 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1016/j.sir.2020.06.002
+      \endverb
+    \endentry
+    \entry{bk_deng2018deeplearningnlp}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2f5fbdc5c3cf91f62a64663cd72397b3}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=621013bf54d3546375ad71f17f020b5b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Singapur}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{fullhash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{fullhashraw}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{bibnamehash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{authorbibnamehash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{authornamehash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{authorfullhash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{authorfullhashraw}{50894ce5feedd9b24ced0b416daf0caf}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789811052088}
+      \field{title}{Deep Learning in Natural Language Processing}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1007/978-981-10-5209-5
       \endverb
     \endentry
     \entry{autor2020dice}{article}{}{}
@@ -447,59 +583,6 @@
       \field{year}{2017}
       \field{pages}{115\bibrangedash 118}
       \range{pages}{4}
-    \endentry
-    \entry{farage2013}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1908c590361c06a7cc9d3ebe64c90993}{%
-           family={Farage},
-           familyi={F\bibinitperiod},
-           given={M.A.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=903276ef6a84da68e9539a4b28caa043}{%
-           family={Miller},
-           familyi={M\bibinitperiod},
-           given={K.W.},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=666028f569c21597b08c73082c297c8d}{%
-           family={Berardesca},
-           familyi={B\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6dd33d87199fe014396f1896aaa32111}{%
-           family={Maibach},
-           familyi={M\bibinitperiod},
-           given={H.I.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e45b767d2451fae7700246ab25907a95}
-      \strng{fullhash}{32a6915aa3d8b9e77f074458556598ab}
-      \strng{fullhashraw}{32a6915aa3d8b9e77f074458556598ab}
-      \strng{bibnamehash}{32a6915aa3d8b9e77f074458556598ab}
-      \strng{authorbibnamehash}{32a6915aa3d8b9e77f074458556598ab}
-      \strng{authornamehash}{e45b767d2451fae7700246ab25907a95}
-      \strng{authorfullhash}{32a6915aa3d8b9e77f074458556598ab}
-      \strng{authorfullhashraw}{32a6915aa3d8b9e77f074458556598ab}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Archives of Dermatological Research}
-      \field{number}{6}
-      \field{title}{Changes in the skin structure and function during aging: A review}
-      \field{volume}{305}
-      \field{year}{2013}
-      \field{pages}{283\bibrangedash 298}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1007/s00403-013-1347-0
-      \endverb
     \endentry
     \entry{firdaus2023}{article}{}{}
       \name{author}{9}{}{%
@@ -900,6 +983,47 @@
       \range{pages}{9}
       \verb{doi}
       \verb 10.1109/CVPR.2016.90
+      \endverb
+    \endentry
+    \entry{tec_cook2018deeplearning}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aeb9610436aac15fb6a7c09973abd706}{%
+           family={{House of Bots}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=95480c374c875335e209ff987f5d42b1}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Kimberly},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{fullhash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{fullhashraw}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{bibnamehash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{authorbibnamehash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{authornamehash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{authorfullhash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{authorfullhashraw}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{editorbibnamehash}{95480c374c875335e209ff987f5d42b1}
+      \strng{editornamehash}{95480c374c875335e209ff987f5d42b1}
+      \strng{editorfullhash}{95480c374c875335e209ff987f5d42b1}
+      \strng{editorfullhashraw}{95480c374c875335e209ff987f5d42b1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Most Popular 20 Free Online Courses to Learn Deep Learning}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.houseofbots.com/news-detail/3620-4-most-popular-20-free-online-courses-to-learn-deep-learning
+      \endverb
+      \verb{url}
+      \verb https://www.houseofbots.com/news-detail/3620-4-most-popular-20-free-online-courses-to-learn-deep-learning
       \endverb
     \endentry
     \entry{hussain2021}{article}{}{}
@@ -1463,6 +1587,49 @@
       \verb 10.1016/j.ijml.2022.01.005
       \endverb
     \endentry
+    \entry{tec_nishida2015multimodal}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c215f8d03e8981958b33fef05bef95de}{%
+           family={Nishida},
+           familyi={N\bibinitperiod},
+           given={Noriki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f9ff031d2ad4586c77cd52cd46d1311}{%
+           family={Nakayama},
+           familyi={N\bibinitperiod},
+           given={Hideki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Tokio}%
+      }
+      \strng{namehash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{fullhash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{fullhashraw}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{bibnamehash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{authorbibnamehash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{authornamehash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{authorfullhash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{authorfullhashraw}{c41657d8ed262a3b2d817060d5ce6f02}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Multimodal gesture recognition using multi-stream recurrent neural network}
+      \field{type}{Reporte técnico}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb http://www.nlab.ci.i.u-tokyo.ac.jp/projects/deeplearn-e.html
+      \endverb
+      \verb{url}
+      \verb http://www.nlab.ci.i.u-tokyo.ac.jp/projects/deeplearn-e.html
+      \endverb
+    \endentry
     \entry{phillips2020}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=cd11e30a94f3958bcd2f8a6c9cf887cf}{%
@@ -1550,6 +1717,100 @@
       \verb 10.1007/978-3-319-24574-4_28
       \endverb
     \endentry
+    \entry{bk_russell2004intart}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{8}{}{%
+        {{hash=0f6a6b892624b3be6f82d908f91ec1fd}{%
+           family={Corchado\bibnamedelima Rodríguez},
+           familyi={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Juan\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6e3b9f9fb4519d19a43a15b04fa10b4b}{%
+           family={Martín\bibnamedelima Rubio},
+           familyi={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c69be90887b3b6430bb1532cb0aa5d2a}{%
+           family={Cadenas\bibnamedelima Figueredo},
+           familyi={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={José\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fab8202faef86200788ce5ed547eadd1}{%
+           family={Hernández\bibnamedelima Molinero},
+           familyi={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Luis\bibnamedelima Daniel},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8171a6b1e14429c9754cadd24069b01c}{%
+           family={Paniagua\bibnamedelima Arís},
+           familyi={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b50e398014dab184f1906f822d9730bb}{%
+           family={Fuentetaja\bibnamedelima Pinzán},
+           familyi={F\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Raquel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=988e21bccaf1c439718acbab4a4e65bb}{%
+           family={Robledo\bibnamedelimb de\bibnamedelimb los\bibnamedelima Santos},
+           familyi={R\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim l\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Mónica},
+           giveni={M\bibinitperiod}}}%
+        {{hash=796f4f9f1a8cf2a4439f21413b47c5b1}{%
+           family={Rizo\bibnamedelima Aldeguer},
+           familyi={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Ramón},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Madrid, España}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Educación, S.A.}%
+      }
+      \strng{namehash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhashraw}{b280605b721b4ebcba5395298499f924}
+      \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhashraw}{b280605b721b4ebcba5395298499f924}
+      \strng{translatorbibnamehash}{1cb6e05e9397c6f5bbf497c05c49a517}
+      \strng{translatornamehash}{34c5a49e0dcd6a713494d87de76112f4}
+      \strng{translatorfullhash}{1cb6e05e9397c6f5bbf497c05c49a517}
+      \strng{translatorfullhashraw}{1cb6e05e9397c6f5bbf497c05c49a517}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Inteligencia Artificial: Un Enfoque Moderno}
+      \field{year}{2004}
+      \field{pages}{1\bibrangedash 1240}
+      \range{pages}{1240}
+      \verb{urlraw}
+      \verb https://luismejias21.files.wordpress.com/2017/09/inteligencia-artificial-un-enfoque-moderno-stuart-j-russell.pdf
+      \endverb
+      \verb{url}
+      \verb https://luismejias21.files.wordpress.com/2017/09/inteligencia-artificial-un-enfoque-moderno-stuart-j-russell.pdf
+      \endverb
+    \endentry
     \entry{Salih2020}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bc304938533aad2f6949b4bb319050ec}{%
@@ -1590,6 +1851,46 @@
       \field{pages}{104049}
       \range{pages}{1}
     \endentry
+    \entry{tec_sancho2018supnosup}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0420a3ca37de3cf5d2661da09b11e868}{%
+           family={Sancho\bibnamedelima Caparrini},
+           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Sevilla}%
+      }
+      \list{location}{1}{%
+        {Sevilla, España}%
+      }
+      \strng{namehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{fullhash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{fullhashraw}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{bibnamehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authorbibnamehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authornamehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authorfullhash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authorfullhashraw}{0420a3ca37de3cf5d2661da09b11e868}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Clasificación Supervisada y No Supervisada}
+      \field{type}{Reporte técnico}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://www.cs.us.es/~fsancho/?e=77
+      \endverb
+      \verb{url}
+      \verb http://www.cs.us.es/~fsancho/?e=77
+      \endverb
+    \endentry
     \entry{autor2020spa}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b17a6e4a2e8a51a0d77017d50c2ef700}{%
@@ -1622,6 +1923,34 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1109/JMV.2020.3051234
+      \endverb
+    \endentry
+    \entry{gl_sas_deeplearning}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fed2cabe2c5fbb2abc601c8460691920}{%
+           family={{SAS Institute}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{fullhash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{fullhashraw}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{bibnamehash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{authorbibnamehash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{authornamehash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{authorfullhash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{authorfullhashraw}{fed2cabe2c5fbb2abc601c8460691920}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Qué es Deep Learning?}
+      \verb{urlraw}
+      \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
+      \endverb
+      \verb{url}
+      \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
       \endverb
     \endentry
     \entry{autor2020segmentacion}{book}{}{}
@@ -2025,6 +2354,43 @@
       \verb 10.3390/diagnostics13111894
       \endverb
     \endentry
+    \entry{bk_zambrano2018supnosup}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5382f6d4dddfd71a612981c6be0a65c5}{%
+           family={Zambrano},
+           familyi={Z\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Medium}%
+      }
+      \strng{namehash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{fullhash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{fullhashraw}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{bibnamehash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{authorbibnamehash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{authornamehash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{authorfullhash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{authorfullhashraw}{5382f6d4dddfd71a612981c6be0a65c5}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{¿Aprendizaje supervisado o no supervisado? Conoce sus diferencias dentro del machine learning y la automatización inteligente}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://medium.com/@juanzambrano/aprendizaje-supervisado-o-no-supervisado-39ccf1fd6e7b
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@juanzambrano/aprendizaje-supervisado-o-no-supervisado-39ccf1fd6e7b
+      \endverb
+    \endentry
     \entry{zhao2021}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bb86c6a67d0b873b7f2ef7defe046268}{%
@@ -2033,12 +2399,12 @@
            given={Feng},
            giveni={F\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=69be1248ab71da4b806d79d77bb6b0b8}{%
+        {{un=1,uniquepart=given,hash=69be1248ab71da4b806d79d77bb6b0b8}{%
            family={Liu},
            familyi={L\bibinitperiod},
            given={Xinyi},
            giveni={X\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{fullhash}{41fb6c8b36536d8c2ea94ff59afdbc73}
@@ -2140,45 +2506,71 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.3233/ATDE240140
-      \endverb
-    \endentry
-    \entry{zouboulis2014}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6f016b320f26a6666a54502692052eec}{%
-           family={Zouboulis},
-           familyi={Z\bibinitperiod},
-           given={C.\bibnamedelimi C.},
-           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6f016b320f26a6666a54502692052eec}
-      \strng{fullhash}{6f016b320f26a6666a54502692052eec}
-      \strng{fullhashraw}{6f016b320f26a6666a54502692052eec}
-      \strng{bibnamehash}{6f016b320f26a6666a54502692052eec}
-      \strng{authorbibnamehash}{6f016b320f26a6666a54502692052eec}
-      \strng{authornamehash}{6f016b320f26a6666a54502692052eec}
-      \strng{authorfullhash}{6f016b320f26a6666a54502692052eec}
-      \strng{authorfullhashraw}{6f016b320f26a6666a54502692052eec}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Dermatologic Clinics}
-      \field{number}{3}
-      \field{title}{The Pathogenesis of Acne and Rosacea}
-      \field{volume}{32}
-      \field{year}{2014}
-      \field{pages}{159\bibrangedash 168}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1016/j.det.2014.04.001
       \endverb
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
+    \entry{bk_alpaydin2014ml}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8351b0b43ad4aed68fb279505ebd7d01}{%
+           family={Alpaydin},
+           familyi={A\bibinitperiod},
+           given={Ethem},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{fullhash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{fullhashraw}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{bibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authorbibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authornamehash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authorfullhash}{8351b0b43ad4aed68fb279505ebd7d01}
+      \strng{authorfullhashraw}{8351b0b43ad4aed68fb279505ebd7d01}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Introduction to Machine Learning}
+      \field{year}{2014}
+    \endentry
+    \entry{tec_amaz2023iagen}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b3b3a6ac74ecbd56bcdbefa4799fb9df}{%
+           family={{Amazon}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{fullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{fullhashraw}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{bibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorfullhashraw}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Qué es la IA generativa?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.bbvaopenmind.com/tecnologia/mundo-digital/que-es-el-aprendijaze-profundo/
+      \endverb
+      \verb{url}
+      \verb https://www.bbvaopenmind.com/tecnologia/mundo-digital/que-es-el-aprendijaze-profundo/
+      \endverb
+    \endentry
     \entry{aad2022}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9feb01f62daba370fb4d61885fd06029}{%
@@ -2256,6 +2648,39 @@
       \field{pages}{1101\bibrangedash 1114}
       \range{pages}{14}
     \endentry
+    \entry{tec_baheti2020introduction_mdl}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=acb1a8bbc36bf2d131015ac20419fe36}{%
+           family={Baheti},
+           familyi={B\bibinitperiod},
+           given={Pragati},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{fullhash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{fullhashraw}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{bibnamehash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{authorbibnamehash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{authornamehash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{authorfullhash}{acb1a8bbc36bf2d131015ac20419fe36}
+      \strng{authorfullhashraw}{acb1a8bbc36bf2d131015ac20419fe36}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Multimodal Deep Learning}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://heartbeat.fritz.ai/introduction-to-multimodal-deep-learning-630b259f9291
+      \endverb
+      \verb{url}
+      \verb https://heartbeat.fritz.ai/introduction-to-multimodal-deep-learning-630b259f9291
+      \endverb
+    \endentry
     \entry{autor2021arrugas}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6f52c51caac5c7df94f9349a2e45d419}{%
@@ -2296,41 +2721,40 @@
       \verb 10.1016/j.cosmed.2021.03.001
       \endverb
     \endentry
-    \entry{cameron2021}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
+    \entry{tec_brownlee2018stacked_models}{online}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d691b5968ed6fa3ee172bcfb70ef012f}{%
-           family={Cameron},
-           familyi={C\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
+        {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
+           family={Brownlee},
+           familyi={B\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{fullhash}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{fullhashraw}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{bibnamehash}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{authorbibnamehash}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{authornamehash}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{authorfullhash}{b10a1f4693339abb19edbec53e8725a5}
-      \strng{authorfullhashraw}{b10a1f4693339abb19edbec53e8725a5}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \list{organization}{1}{%
+        {Machine Learning Mastery}%
+      }
+      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{fullhashraw}{915af163e2107106fced5dd3164d9a8e}
+      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
+      \strng{authorfullhashraw}{915af163e2107106fced5dd3164d9a8e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Dermatological Research}
-      \field{number}{3}
-      \field{title}{Understanding the Factors Influencing Pore Visibility and Detection in Dermatological Imaging}
-      \field{volume}{48}
-      \field{year}{2021}
-      \field{pages}{142\bibrangedash 150}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1016/j.jdermatol.2021.01.005
+      \field{title}{Stacking Ensemble for Deep Learning Neural Networks in Python}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/
+      \endverb
+      \verb{url}
+      \verb https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/
       \endverb
     \endentry
     \entry{chuchu2020}{article}{}{}
@@ -2371,6 +2795,49 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1016/j.sir.2020.06.002
+      \endverb
+    \endentry
+    \entry{bk_deng2018deeplearningnlp}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2f5fbdc5c3cf91f62a64663cd72397b3}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=621013bf54d3546375ad71f17f020b5b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Singapur}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{fullhash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{fullhashraw}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{bibnamehash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{authorbibnamehash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{authornamehash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{authorfullhash}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{authorfullhashraw}{50894ce5feedd9b24ced0b416daf0caf}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789811052088}
+      \field{title}{Deep Learning in Natural Language Processing}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1007/978-981-10-5209-5
       \endverb
     \endentry
     \entry{autor2020dice}{article}{}{}
@@ -2607,59 +3074,6 @@
       \field{year}{2017}
       \field{pages}{115\bibrangedash 118}
       \range{pages}{4}
-    \endentry
-    \entry{farage2013}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1908c590361c06a7cc9d3ebe64c90993}{%
-           family={Farage},
-           familyi={F\bibinitperiod},
-           given={M.A.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=903276ef6a84da68e9539a4b28caa043}{%
-           family={Miller},
-           familyi={M\bibinitperiod},
-           given={K.W.},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=666028f569c21597b08c73082c297c8d}{%
-           family={Berardesca},
-           familyi={B\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6dd33d87199fe014396f1896aaa32111}{%
-           family={Maibach},
-           familyi={M\bibinitperiod},
-           given={H.I.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e45b767d2451fae7700246ab25907a95}
-      \strng{fullhash}{32a6915aa3d8b9e77f074458556598ab}
-      \strng{fullhashraw}{32a6915aa3d8b9e77f074458556598ab}
-      \strng{bibnamehash}{32a6915aa3d8b9e77f074458556598ab}
-      \strng{authorbibnamehash}{32a6915aa3d8b9e77f074458556598ab}
-      \strng{authornamehash}{e45b767d2451fae7700246ab25907a95}
-      \strng{authorfullhash}{32a6915aa3d8b9e77f074458556598ab}
-      \strng{authorfullhashraw}{32a6915aa3d8b9e77f074458556598ab}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Archives of Dermatological Research}
-      \field{number}{6}
-      \field{title}{Changes in the skin structure and function during aging: A review}
-      \field{volume}{305}
-      \field{year}{2013}
-      \field{pages}{283\bibrangedash 298}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1007/s00403-013-1347-0
-      \endverb
     \endentry
     \entry{firdaus2023}{article}{}{}
       \name{author}{9}{}{%
@@ -3060,6 +3474,47 @@
       \range{pages}{9}
       \verb{doi}
       \verb 10.1109/CVPR.2016.90
+      \endverb
+    \endentry
+    \entry{tec_cook2018deeplearning}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aeb9610436aac15fb6a7c09973abd706}{%
+           family={{House of Bots}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=95480c374c875335e209ff987f5d42b1}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Kimberly},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{fullhash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{fullhashraw}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{bibnamehash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{authorbibnamehash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{authornamehash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{authorfullhash}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{authorfullhashraw}{aeb9610436aac15fb6a7c09973abd706}
+      \strng{editorbibnamehash}{95480c374c875335e209ff987f5d42b1}
+      \strng{editornamehash}{95480c374c875335e209ff987f5d42b1}
+      \strng{editorfullhash}{95480c374c875335e209ff987f5d42b1}
+      \strng{editorfullhashraw}{95480c374c875335e209ff987f5d42b1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Most Popular 20 Free Online Courses to Learn Deep Learning}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.houseofbots.com/news-detail/3620-4-most-popular-20-free-online-courses-to-learn-deep-learning
+      \endverb
+      \verb{url}
+      \verb https://www.houseofbots.com/news-detail/3620-4-most-popular-20-free-online-courses-to-learn-deep-learning
       \endverb
     \endentry
     \entry{hussain2021}{article}{}{}
@@ -3623,6 +4078,49 @@
       \verb 10.1016/j.ijml.2022.01.005
       \endverb
     \endentry
+    \entry{tec_nishida2015multimodal}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c215f8d03e8981958b33fef05bef95de}{%
+           family={Nishida},
+           familyi={N\bibinitperiod},
+           given={Noriki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f9ff031d2ad4586c77cd52cd46d1311}{%
+           family={Nakayama},
+           familyi={N\bibinitperiod},
+           given={Hideki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Tokio}%
+      }
+      \strng{namehash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{fullhash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{fullhashraw}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{bibnamehash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{authorbibnamehash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{authornamehash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{authorfullhash}{c41657d8ed262a3b2d817060d5ce6f02}
+      \strng{authorfullhashraw}{c41657d8ed262a3b2d817060d5ce6f02}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Multimodal gesture recognition using multi-stream recurrent neural network}
+      \field{type}{Reporte técnico}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb http://www.nlab.ci.i.u-tokyo.ac.jp/projects/deeplearn-e.html
+      \endverb
+      \verb{url}
+      \verb http://www.nlab.ci.i.u-tokyo.ac.jp/projects/deeplearn-e.html
+      \endverb
+    \endentry
     \entry{phillips2020}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=cd11e30a94f3958bcd2f8a6c9cf887cf}{%
@@ -3710,6 +4208,100 @@
       \verb 10.1007/978-3-319-24574-4_28
       \endverb
     \endentry
+    \entry{bk_russell2004intart}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{8}{}{%
+        {{hash=0f6a6b892624b3be6f82d908f91ec1fd}{%
+           family={Corchado\bibnamedelima Rodríguez},
+           familyi={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Juan\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6e3b9f9fb4519d19a43a15b04fa10b4b}{%
+           family={Martín\bibnamedelima Rubio},
+           familyi={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c69be90887b3b6430bb1532cb0aa5d2a}{%
+           family={Cadenas\bibnamedelima Figueredo},
+           familyi={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={José\bibnamedelima Manuel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fab8202faef86200788ce5ed547eadd1}{%
+           family={Hernández\bibnamedelima Molinero},
+           familyi={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Luis\bibnamedelima Daniel},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8171a6b1e14429c9754cadd24069b01c}{%
+           family={Paniagua\bibnamedelima Arís},
+           familyi={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b50e398014dab184f1906f822d9730bb}{%
+           family={Fuentetaja\bibnamedelima Pinzán},
+           familyi={F\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Raquel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=988e21bccaf1c439718acbab4a4e65bb}{%
+           family={Robledo\bibnamedelimb de\bibnamedelimb los\bibnamedelima Santos},
+           familyi={R\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim l\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Mónica},
+           giveni={M\bibinitperiod}}}%
+        {{hash=796f4f9f1a8cf2a4439f21413b47c5b1}{%
+           family={Rizo\bibnamedelima Aldeguer},
+           familyi={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Ramón},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Madrid, España}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Educación, S.A.}%
+      }
+      \strng{namehash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhashraw}{b280605b721b4ebcba5395298499f924}
+      \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhashraw}{b280605b721b4ebcba5395298499f924}
+      \strng{translatorbibnamehash}{1cb6e05e9397c6f5bbf497c05c49a517}
+      \strng{translatornamehash}{34c5a49e0dcd6a713494d87de76112f4}
+      \strng{translatorfullhash}{1cb6e05e9397c6f5bbf497c05c49a517}
+      \strng{translatorfullhashraw}{1cb6e05e9397c6f5bbf497c05c49a517}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Inteligencia Artificial: Un Enfoque Moderno}
+      \field{year}{2004}
+      \field{pages}{1\bibrangedash 1240}
+      \range{pages}{1240}
+      \verb{urlraw}
+      \verb https://luismejias21.files.wordpress.com/2017/09/inteligencia-artificial-un-enfoque-moderno-stuart-j-russell.pdf
+      \endverb
+      \verb{url}
+      \verb https://luismejias21.files.wordpress.com/2017/09/inteligencia-artificial-un-enfoque-moderno-stuart-j-russell.pdf
+      \endverb
+    \endentry
     \entry{Salih2020}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bc304938533aad2f6949b4bb319050ec}{%
@@ -3750,6 +4342,46 @@
       \field{pages}{104049}
       \range{pages}{1}
     \endentry
+    \entry{tec_sancho2018supnosup}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0420a3ca37de3cf5d2661da09b11e868}{%
+           family={Sancho\bibnamedelima Caparrini},
+           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de Sevilla}%
+      }
+      \list{location}{1}{%
+        {Sevilla, España}%
+      }
+      \strng{namehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{fullhash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{fullhashraw}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{bibnamehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authorbibnamehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authornamehash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authorfullhash}{0420a3ca37de3cf5d2661da09b11e868}
+      \strng{authorfullhashraw}{0420a3ca37de3cf5d2661da09b11e868}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Clasificación Supervisada y No Supervisada}
+      \field{type}{Reporte técnico}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://www.cs.us.es/~fsancho/?e=77
+      \endverb
+      \verb{url}
+      \verb http://www.cs.us.es/~fsancho/?e=77
+      \endverb
+    \endentry
     \entry{autor2020spa}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b17a6e4a2e8a51a0d77017d50c2ef700}{%
@@ -3782,6 +4414,34 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1109/JMV.2020.3051234
+      \endverb
+    \endentry
+    \entry{gl_sas_deeplearning}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fed2cabe2c5fbb2abc601c8460691920}{%
+           family={{SAS Institute}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{fullhash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{fullhashraw}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{bibnamehash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{authorbibnamehash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{authornamehash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{authorfullhash}{fed2cabe2c5fbb2abc601c8460691920}
+      \strng{authorfullhashraw}{fed2cabe2c5fbb2abc601c8460691920}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Qué es Deep Learning?}
+      \verb{urlraw}
+      \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
+      \endverb
+      \verb{url}
+      \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
       \endverb
     \endentry
     \entry{autor2020segmentacion}{book}{}{}
@@ -4185,6 +4845,43 @@
       \verb 10.3390/diagnostics13111894
       \endverb
     \endentry
+    \entry{bk_zambrano2018supnosup}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5382f6d4dddfd71a612981c6be0a65c5}{%
+           family={Zambrano},
+           familyi={Z\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Medium}%
+      }
+      \strng{namehash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{fullhash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{fullhashraw}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{bibnamehash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{authorbibnamehash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{authornamehash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{authorfullhash}{5382f6d4dddfd71a612981c6be0a65c5}
+      \strng{authorfullhashraw}{5382f6d4dddfd71a612981c6be0a65c5}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{¿Aprendizaje supervisado o no supervisado? Conoce sus diferencias dentro del machine learning y la automatización inteligente}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://medium.com/@juanzambrano/aprendizaje-supervisado-o-no-supervisado-39ccf1fd6e7b
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@juanzambrano/aprendizaje-supervisado-o-no-supervisado-39ccf1fd6e7b
+      \endverb
+    \endentry
     \entry{zhao2021}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bb86c6a67d0b873b7f2ef7defe046268}{%
@@ -4193,12 +4890,12 @@
            given={Feng},
            giveni={F\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=69be1248ab71da4b806d79d77bb6b0b8}{%
+        {{un=1,uniquepart=given,hash=69be1248ab71da4b806d79d77bb6b0b8}{%
            family={Liu},
            familyi={L\bibinitperiod},
            given={Xinyi},
            giveni={X\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{fullhash}{41fb6c8b36536d8c2ea94ff59afdbc73}
@@ -4300,41 +4997,6 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.3233/ATDE240140
-      \endverb
-    \endentry
-    \entry{zouboulis2014}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6f016b320f26a6666a54502692052eec}{%
-           family={Zouboulis},
-           familyi={Z\bibinitperiod},
-           given={C.\bibnamedelimi C.},
-           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6f016b320f26a6666a54502692052eec}
-      \strng{fullhash}{6f016b320f26a6666a54502692052eec}
-      \strng{fullhashraw}{6f016b320f26a6666a54502692052eec}
-      \strng{bibnamehash}{6f016b320f26a6666a54502692052eec}
-      \strng{authorbibnamehash}{6f016b320f26a6666a54502692052eec}
-      \strng{authornamehash}{6f016b320f26a6666a54502692052eec}
-      \strng{authorfullhash}{6f016b320f26a6666a54502692052eec}
-      \strng{authorfullhashraw}{6f016b320f26a6666a54502692052eec}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Dermatologic Clinics}
-      \field{number}{3}
-      \field{title}{The Pathogenesis of Acne and Rosacea}
-      \field{volume}{32}
-      \field{year}{2014}
-      \field{pages}{159\bibrangedash 168}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1016/j.det.2014.04.001
       \endverb
     \endentry
   \enddatalist
@@ -4346,6 +5008,8 @@
   \missing{autor2022challenges_gans}
   \missing{autor2022senet}
   \missing{bk_kamath2019deeplearning_nlp_sr}
+  \missing{bk_russell2009intart}
+  \missing{th_zant2010genai}
 \endrefsection
 \endinput
 
