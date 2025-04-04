@@ -2091,6 +2091,76 @@
       \verb https://www.statista.com/statistics/254612/global-skin-care-market-size/
       \endverb
     \endentry
+    \entry{Tamilkodi2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=b5318b1429134a7ecaa0cc7944130a9e}{%
+           family={Tamilkodi},
+           familyi={T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e55b254e983fa9563ae29c8dc1d02f50}{%
+           family={Chakravarthy},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi Kalyan},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=175b338cb35179910599694ec4a97fea}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={P.\bibnamedelimi Hemanth},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a952a3cf6cfcd85a78efac48cd3429f0}{%
+           family={Narayana},
+           familyi={N\bibinitperiod},
+           given={A.\bibnamedelimi V\bibnamedelima Laksmi},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55b468b1fcde90a4467806e3f26f3a63}{%
+           family={Karthik},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d08bb48889ec91abc1f27f94a2cf5dd}{%
+           family={Ramabrahmam},
+           familyi={R\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{2}{%
+        {Godavari Institute of Engineering}%
+        {Technology, Rajahmundry, Andhra Pradesh, India}%
+      }
+      \list{publisher}{1}{%
+        {https://doi.org/10.2991/978-94-6463-471-6_129}%
+      }
+      \strng{namehash}{6090a3894f9cc0a8a02548ceae0ba21e}
+      \strng{fullhash}{dd19f5b4bed707fe17e8b5900eb96a5e}
+      \strng{fullhashraw}{dd19f5b4bed707fe17e8b5900eb96a5e}
+      \strng{bibnamehash}{dd19f5b4bed707fe17e8b5900eb96a5e}
+      \strng{authorbibnamehash}{dd19f5b4bed707fe17e8b5900eb96a5e}
+      \strng{authornamehash}{6090a3894f9cc0a8a02548ceae0ba21e}
+      \strng{authorfullhash}{dd19f5b4bed707fe17e8b5900eb96a5e}
+      \strng{authorfullhashraw}{dd19f5b4bed707fe17e8b5900eb96a5e}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the International Conference on Computational Innovations and Emerging Trends (ICCIET 2024), Advances in Computer Science Research}
+      \field{series}{Advances in Computer Science Research}
+      \field{title}{A New Approach to Facial Skin Analyzer}
+      \field{volume}{112}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.2991/978-94-6463-471-6_129
+      \endverb
+    \endentry
     \entry{Thanh2021}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=c6f3684f2c2fdeca92a0c8b61032417f}{%
@@ -4627,6 +4697,76 @@
       \endverb
       \verb{url}
       \verb https://www.statista.com/statistics/254612/global-skin-care-market-size/
+      \endverb
+    \endentry
+    \entry{Tamilkodi2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=b5318b1429134a7ecaa0cc7944130a9e}{%
+           family={Tamilkodi},
+           familyi={T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e55b254e983fa9563ae29c8dc1d02f50}{%
+           family={Chakravarthy},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi Kalyan},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=175b338cb35179910599694ec4a97fea}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={P.\bibnamedelimi Hemanth},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a952a3cf6cfcd85a78efac48cd3429f0}{%
+           family={Narayana},
+           familyi={N\bibinitperiod},
+           given={A.\bibnamedelimi V\bibnamedelima Laksmi},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55b468b1fcde90a4467806e3f26f3a63}{%
+           family={Karthik},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d08bb48889ec91abc1f27f94a2cf5dd}{%
+           family={Ramabrahmam},
+           familyi={R\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{2}{%
+        {Godavari Institute of Engineering}%
+        {Technology, Rajahmundry, Andhra Pradesh, India}%
+      }
+      \list{publisher}{1}{%
+        {https://doi.org/10.2991/978-94-6463-471-6_129}%
+      }
+      \strng{namehash}{6090a3894f9cc0a8a02548ceae0ba21e}
+      \strng{fullhash}{dd19f5b4bed707fe17e8b5900eb96a5e}
+      \strng{fullhashraw}{dd19f5b4bed707fe17e8b5900eb96a5e}
+      \strng{bibnamehash}{dd19f5b4bed707fe17e8b5900eb96a5e}
+      \strng{authorbibnamehash}{dd19f5b4bed707fe17e8b5900eb96a5e}
+      \strng{authornamehash}{6090a3894f9cc0a8a02548ceae0ba21e}
+      \strng{authorfullhash}{dd19f5b4bed707fe17e8b5900eb96a5e}
+      \strng{authorfullhashraw}{dd19f5b4bed707fe17e8b5900eb96a5e}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the International Conference on Computational Innovations and Emerging Trends (ICCIET 2024), Advances in Computer Science Research}
+      \field{series}{Advances in Computer Science Research}
+      \field{title}{A New Approach to Facial Skin Analyzer}
+      \field{volume}{112}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.2991/978-94-6463-471-6_129
       \endverb
     \endentry
     \entry{Thanh2021}{article}{}{}

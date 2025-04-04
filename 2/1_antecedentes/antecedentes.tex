@@ -192,4 +192,43 @@ Los resultados muestran que su método supera en un 15.34\% en MIoU a redes de s
 En conclusión, el enfoque propuesto basado en aprendizaje "objeto por objeto" y los módulos REthinker permiten capturar eficazmente relaciones contextuales entre diferentes tipos de lesiones. Esta estrategia mejora considerablemente la precisión de los sistemas de segmentación facial, destacándose como una alternativa poderosa frente a los métodos convencionales.
 
 %% Octavo antecedente:
+\cite{Tamilkodi2024} elaboraron el artículo titulado \citetitle{Tamilkodi2024}, que presenta un software avanzado para el análisis de la piel facial que permite identificar características clave como arrugas, poros, manchas y textura, además de predecir edad y género. El sistema compara los resultados con datos de personas del mismo grupo etario, clasifica el tono de piel, genera máscaras visuales para resaltar zonas específicas del rostro y ofrece recomendaciones personalizadas. El objetivo central es desarrollar un modelo robusto capaz de realizar un análisis facial completo en diversos contextos.  
 
+Para lograrlo, el software utiliza redes neuronales convolucionales profundas (D-CNN), apoyadas por modelos preentrenados para la detección de edad y género. También emplea técnicas como KMeans para clasificar el tono de piel y gradientes de Sobel para identificar arrugas. Estas herramientas se integran para ofrecer un análisis visual y cuantitativo de cada característica facial.  
+
+La metodología del sistema incluye la captura de imágenes faciales desde múltiples ángulos, el preprocesamiento mediante técnicas como desenfoque gaussiano y conversión de formatos, seguido del análisis específico de textura, tono y arrugas. Finalmente, los resultados se visualizan en gráficos y máscaras y se utilizan para generar recomendaciones personalizadas para el usuario.  
+
+Como base de datos, se empleó la **Indian Face Age Database (IFAD)**, compuesta por 3,296 imágenes de 55 personas con diversidad de edad, poses, expresiones e iluminación. Esta variedad permite entrenar modelos con mayor capacidad de generalización y robustez en escenarios reales de análisis facial.  
+
+Los resultados como se pueden ver en las Figuras \ref{2:fig8}, \ref{2:fig9} y \ref{2:fig10} ,muestran una alta precisión en la detección de características faciales y predicciones fiables de edad y género. Además, el sistema logra una visualización efectiva mediante gráficos y máscaras que resaltan áreas clave del rostro, lo que mejora la comprensión de los resultados.  
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{2/figures/softres1.png}
+		\caption[Detección de edad y género]{Detección de edad y género.\\
+			Fuente: \cite{Tamilkodi2024}. \citetitle{Tamilkodi2024}. (p. 6)}
+		\label{2:fig8}
+	\end{center}
+\end{figure}
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{2/figures/softres2.png}
+		\caption[Análisis del tono de piel]{Análisis del tono de piel.\\
+			Fuente: \cite{Tamilkodi2024}. \citetitle{Tamilkodi2024}. (p. 6)}
+		\label{2:fig9}
+	\end{center}
+\end{figure}
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{2/figures/softres3.png}
+		\caption[Análisis de arrugas]{Análisis de arrugas.\\
+			Fuente: \cite{Tamilkodi2024}. \citetitle{Tamilkodi2024}. (p. 6)}
+		\label{2:fig10}
+	\end{center}
+\end{figure}
+
+En conclusión, el enfoque propuesto demuestra ser eficaz para detectar estructuras faciales importantes incluso en condiciones variables. Aunque aún no alcanza una precisión perfecta, se reconoce el valor de expandir el conjunto de datos para mejorar el rendimiento. Este modelo tiene un gran potencial para aplicaciones automatizadas en análisis dermatológico y cuidado personalizado de la piel.
+
+%% Noveno antecedente:
