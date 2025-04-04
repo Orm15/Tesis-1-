@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.1)  4 APR 2025 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.1)  4 APR 2025 15:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2404,8 +2404,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <anexos/arb_problemas.jpg, id=1087, 963.6pt x 453.94594pt>
 File: anexos/arb_problemas.jpg Graphic file (type jpg)
 <use anexos/arb_problemas.jpg>
-Package pdftex.def Info: anexos/arb_problemas.jpg  used on input line 16.
-(pdftex.def)             Requested size: 452.96826pt x 213.38925pt.
+Package pdftex.def Info: anexos/arb_problemas.jpg  used on input line 18.
+(pdftex.def)             Requested size: 700.50723pt x 330.01323pt.
 
 
 
@@ -2417,12 +2417,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [64
 
+
  <./anexos/arb_problemas.jpg>]
 <anexos/arb_objetivos.jpg, id=1093, 963.6pt x 440.39531pt>
 File: anexos/arb_objetivos.jpg Graphic file (type jpg)
 <use anexos/arb_objetivos.jpg>
-Package pdftex.def Info: anexos/arb_objetivos.jpg  used on input line 29.
-(pdftex.def)             Requested size: 452.96826pt x 207.01941pt.
+Package pdftex.def Info: anexos/arb_objetivos.jpg  used on input line 33.
+(pdftex.def)             Requested size: 700.50723pt x 320.16208pt.
 
 
 
@@ -2434,532 +2435,534 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [65
 
+
+
  <./anexos/arb_objetivos.jpg>]
-Underfull \hbox (badness 7308) in paragraph at lines 46--46
+Underfull \hbox (badness 7308) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 ta de un sis-te-ma
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 46--46
+Underfull \hbox (badness 2894) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas mor-
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 46--46
+Underfull \hbox (badness 4416) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 piel fa-cial, cen-tra-
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 46--46
+Underfull \hbox (badness 1087) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 con-vo-lu-cio-na-les pa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 sis-te-ma avan-za-do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 de seg-men-ta-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 de ca-rac-ter[]^^Psti-cas
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 46--46
+Underfull \hbox (badness 2318) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 mor-fol[]ogi-cas de la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 re-des neu-ro-na-les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 con-vo-lu-cio-na-les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 (CNN) me-jo-rar[]a
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 46--46
+Underfull \hbox (badness 1748) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 tec-ci[]on de arru-gas,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 po-ros y man-chas,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 lo que per-mi-tir[]a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 la per-so-na-li-za-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \OT1/ptm/m/n/12 de tra-ta-mien-tos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 []|\OT1/ptm/m/n/12 Dependiente:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 \OT1/ptm/m/n/12 Pre-diagn[]osti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 \OT1/ptm/m/n/12 co de n[]odu-los
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 \OT1/ptm/m/n/12 ti-roi-deos. In-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 \OT1/ptm/m/n/12 de-pen-dien-te:
  []
 
 
-Underfull \hbox (badness 8113) in paragraph at lines 54--54
+Underfull \hbox (badness 8113) in paragraph at lines 58--58
 []|\OT1/ptm/m/n/12 ?`C[]omo se me-dir[]a
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 54--54
+Underfull \hbox (badness 2005) in paragraph at lines 58--58
 \OT1/ptm/m/n/12 te-ma de seg-men-ta-
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 54--54
+Underfull \hbox (badness 1859) in paragraph at lines 58--58
 \OT1/ptm/m/n/12 gas, po-ros y man-
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 54--54
+Underfull \hbox (badness 1776) in paragraph at lines 58--58
 \OT1/ptm/m/n/12 score y AUC-ROC
  []
 
 
-Underfull \hbox (badness 3271) in paragraph at lines 54--54
+Underfull \hbox (badness 3271) in paragraph at lines 58--58
 \OT1/ptm/m/n/12 pa-ra me-dir la efi-
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 54--54
+Underfull \hbox (badness 1527) in paragraph at lines 58--58
 \OT1/ptm/m/n/12 cien-cia del sis-te-ma
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 54--54
+Underfull \hbox (badness 1205) in paragraph at lines 58--58
 \OT1/ptm/m/n/12 la iden-ti-fi-ca-ci[]on de
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 54--54
+Underfull \hbox (badness 2894) in paragraph at lines 58--58
 \OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas mor-
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 54--54
+Underfull \hbox (badness 1776) in paragraph at lines 58--58
 \OT1/ptm/m/n/12 score y AUC-ROC
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 54--54
+Underfull \hbox (badness 1205) in paragraph at lines 58--58
 \OT1/ptm/m/n/12 en la iden-ti-fi-ca-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 []|\OT1/ptm/m/n/12 Dependiente:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 \OT1/ptm/m/n/12 De-sa-rro-llo del
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 \OT1/ptm/m/n/12 Lear-ning. In-de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 \OT1/ptm/m/n/12 pen-dien-te: Las
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 \OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 56--57
+Underfull \hbox (badness 3138) in paragraph at lines 60--61
 \OT1/ptm/m/n/12 del con-jun-to de
  []
 
 
-Overfull \vbox (37.70015pt too high) detected at line 62
+Overfull \vbox (37.70015pt too high) detected at line 66
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 64--64
+Underfull \hbox (badness 1895) in paragraph at lines 68--68
 []|\OT1/ptm/m/n/12 ?`C[]omo se de-sa-rro-
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 64--64
+Underfull \hbox (badness 1478) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 llar[]a el sis-te-ma de
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 64--64
+Underfull \hbox (badness 2781) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 seg-men-ta-ci[]on ba-sa-
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 64--64
+Underfull \hbox (badness 1087) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 na-les con-vo-lu-cio-na-
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 64--64
+Underfull \hbox (badness 3942) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 men-tar un sis-te-ma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 de seg-men-ta-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 uti-li-zan-do re-des
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 64--64
+Underfull \hbox (badness 2057) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 cio-na-les, adap-tan-do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 sus ar-qui-tec-tu-ras
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 pa-ra la de-tec-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 y di-fe-ren-cia-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 de ca-rac-ter[]^^Psti-cas
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 64--64
+Underfull \hbox (badness 2318) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 mor-fol[]ogi-cas de la
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 64--64
+Underfull \hbox (badness 2591) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 piel co-mo arru-gas,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 men-ta-ci[]on ba-sa-do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 con-vo-lu-cio-na-les
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 64--64
+Underfull \hbox (badness 1533) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 (CNN) lo-grar[]a una
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 me-jor de-tec-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 y di-fe-ren-cia-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 de ca-rac-ter[]^^Psti-cas
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 64--64
+Underfull \hbox (badness 2318) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 mor-fol[]ogi-cas de la
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 64--64
+Underfull \hbox (badness 1888) in paragraph at lines 68--68
 \OT1/ptm/m/n/12 con m[]eto-dos tra-di-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 []|\OT1/ptm/m/n/12 Dependiente:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 \OT1/ptm/m/n/12 Des-em-pe[]no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 \OT1/ptm/m/n/12 del mo-de-lo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 \OT1/ptm/m/n/12 Deep Lear-ning.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 \OT1/ptm/m/n/12 In-de-pen-dien-te:
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 70--70
+Underfull \hbox (badness 2564) in paragraph at lines 74--74
 []|\OT1/ptm/m/n/12 ?`De d[]onde se ob-
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 70--70
+Underfull \hbox (badness 1975) in paragraph at lines 74--74
 \OT1/ptm/m/n/12 de im[]age-nes fa-cia-
  []
 
 
-Underfull \hbox (badness 6741) in paragraph at lines 70--70
+Underfull \hbox (badness 6741) in paragraph at lines 74--74
 \OT1/ptm/m/n/12 con-ten-ga su-fi-cien-te
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 70--70
+Underfull \hbox (badness 3612) in paragraph at lines 74--74
 \OT1/ptm/m/n/12 va-rie-dad en t[]ermi-
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 70--70
+Underfull \hbox (badness 1859) in paragraph at lines 74--74
 \OT1/ptm/m/n/12 gas, po-ros y man-
  []
 
 
-Underfull \hbox (badness 6220) in paragraph at lines 70--70
+Underfull \hbox (badness 6220) in paragraph at lines 74--74
 \OT1/ptm/m/n/12 ca-pa-ci-dad del sis-
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 70--70
+Underfull \hbox (badness 2005) in paragraph at lines 74--74
 \OT1/ptm/m/n/12 te-ma de seg-men-ta-
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 70--70
+Underfull \hbox (badness 1902) in paragraph at lines 74--74
 \OT1/ptm/m/n/12 ci[]on pa-ra ge-ne-ra-li-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 []|\OT1/ptm/m/n/12 Dependiente:
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 72--73
+Underfull \hbox (badness 4429) in paragraph at lines 76--77
 \OT1/ptm/m/n/12 Com-pa-ra-ci[]on de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 \OT1/ptm/m/n/12 mo-de-los en la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 \OT1/ptm/m/n/12 de ul-tra-so-ni-do.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 \OT1/ptm/m/n/12 In-de-pen-dien-te:
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 72--73
+Underfull \hbox (badness 2165) in paragraph at lines 76--77
 \OT1/ptm/m/n/12 Las m[]etri-cas de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 \OT1/ptm/m/n/12 eva-lua-ci[]on de
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 76--76
+Underfull \hbox (badness 1205) in paragraph at lines 80--80
 []|\OT1/ptm/m/n/12 ?`C[]omo se de-ter-mi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 ar-qui-tec-tu-ras de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 re-des neu-ro-na-les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 con-vo-lu-cio-na-
  []
 
 
-Underfull \hbox (badness 6110) in paragraph at lines 76--76
+Underfull \hbox (badness 6110) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 les y t[]ecni-cas de
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 76--76
+Underfull \hbox (badness 2529) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 apren-di-za-je pro-fun-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 do, eva-luan-do su
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 des-em-pe[]no en la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 seg-men-ta-ci[]on de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 arru-gas, po-ros y
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 76--76
+Underfull \hbox (badness 5802) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 man-chas, pa-ra se-
  []
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 76--76
+Underfull \hbox (badness 4634) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 ci-si[]on y efi-cien-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []|\OT1/ptm/m/n/12 La com-pa-ra-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 en-tre dis-tin-tas ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 neu-ro-na-les con-vo-
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 76--76
+Underfull \hbox (badness 1043) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 lu-cio-na-les per-mi-tir[]a
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 76--76
+Underfull \hbox (badness 5374) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 iden-ti-fi-car un mo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 de-lo []opti-mo que
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 en la seg-men-ta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/ptm/m/n/12 ci[]on y efi-cien-cia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 []|\OT1/ptm/m/n/12 Dependiente:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 \OT1/ptm/m/n/12 Des-em-pe[]no en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 \OT1/ptm/m/n/12 la cla-si-fi-ca-ci[]on
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 78--79
+Underfull \hbox (badness 3148) in paragraph at lines 82--83
 \OT1/ptm/m/n/12 de im[]age-nes de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 \OT1/ptm/m/n/12 ul-tra-so-ni-do. In-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 \OT1/ptm/m/n/12 ar-qui-tec-tu-ras de
  []
 
@@ -2971,6 +2974,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [66
+
 
 
 ]
@@ -3034,15 +3038,15 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35526 strings out of 473523
- 683261 string characters out of 5715115
- 1625716 words of memory out of 5000000
- 57904 multiletter control sequences out of 15000+600000
+ 35527 strings out of 473523
+ 683271 string characters out of 5715115
+ 1624736 words of memory out of 5000000
+ 57905 multiletter control sequences out of 15000+600000
  595689 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,117p,1752b,3165s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (80 pages, 3241945 bytes).
+Output written on tesis.pdf (80 pages, 3242040 bytes).
 PDF statistics:
  1216 PDF objects out of 1440 (max. 8388607)
  263 named destinations out of 1000 (max. 500000)
