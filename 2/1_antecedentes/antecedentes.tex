@@ -170,6 +170,26 @@ En conclusión, la versión mejorada de U-Net supera las limitaciones del modelo
 
 %% Séptimo antecedente: 
 
+El artículo titulado \citetitle{Bekmirzaev2021} de los autores \cite{Bekmirzaev2021}, presenta una novedosa técnica de aprendizaje "objeto por objeto" para detectar 11 tipos de lesiones cutáneas faciales mediante segmentación semántica. Los autores destacan que muchas clases de lesiones, como arrugas y manchas, presentan relaciones visuales concurrentes, y explotan esta característica para abordar ambigüedades en la apariencia de las imágenes, mejorando así la precisión en el diagnóstico automatizado.  
 
+Entre las técnicas utilizadas, introducen los módulos REthinker, formados por capas convLSTM/Conv3D locales y un módulo SE como mecanismo de atención. Además, integran estos bloques en redes CNN estándar, junto con técnicas avanzadas como convolución atrous, agrupación espacial piramidal y convolución separable en profundidad, lo que permite una representación más rica y contextual de las lesiones cutáneas.  
 
+La metodología como se observa en la Figura \ref{2:fig7}, se basa en modelar explícitamente las relaciones contextuales entre clases de objetos mediante el aprendizaje "objeto por objeto". Los módulos REthinker se diseñan para mejorar la sensibilidad de la red tanto en contextos locales como globales. Las CNN se modifican para incorporar estos módulos, y los modelos resultantes se entrenan y validan sobre datos dermatológicos cuidadosamente anotados.  
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{2/figures/propose7.png}
+		\caption[Propuesta basada en RethNet RE-Xception y el decodificador de DeepLabv3+]{Propuesta basada en RethNet RE-Xception y el decodificador de DeepLabv3+.\\
+			Fuente: \cite{Bekmirzaev2021}. \citetitle{Bekmirzaev2021}. (p. 5)}
+		\label{2:fig7}
+	\end{center}
+\end{figure}
+
+Para validar su enfoque, los autores construyen la base de datos propia **MSLD**, que contiene 27,790 imágenes faciales, de las cuales 412 están anotadas con 11 tipos de lesiones cutáneas y 6 clases adicionales. También evalúan sus modelos con el conjunto de datos ISIC 2018, ampliamente utilizado en tareas de segmentación dermatológica.  
+
+Los resultados muestran que su método supera en un 15.34\% en MIoU a redes de segmentación de última generación en el conjunto de datos MSLD, y obtiene buenos resultados en ISIC 2018, lo que demuestra su eficacia en contextos diversos.  
+
+En conclusión, el enfoque propuesto basado en aprendizaje "objeto por objeto" y los módulos REthinker permiten capturar eficazmente relaciones contextuales entre diferentes tipos de lesiones. Esta estrategia mejora considerablemente la precisión de los sistemas de segmentación facial, destacándose como una alternativa poderosa frente a los métodos convencionales.
+
+%% Octavo antecedente:
 

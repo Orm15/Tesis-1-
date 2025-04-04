@@ -190,6 +190,53 @@
       \verb https://heartbeat.fritz.ai/introduction-to-multimodal-deep-learning-630b259f9291
       \endverb
     \endentry
+    \entry{Bekmirzaev2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e48d237042babdc7e6b6e5c6bf38eb1d}{%
+           family={Bekmirzaev},
+           familyi={B\bibinitperiod},
+           given={Shohrukh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c49582c8911f68e842338c201f7c283}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={Seoyoung},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3022d12474c82fab6be970fb10960d9}{%
+           family={Yoo},
+           familyi={Y\bibinitperiod},
+           given={Sangwook},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9617d8cd20ec05368a8ed2f3f024fda8}
+      \strng{fullhash}{af001892a1580ce295110478ffb3a330}
+      \strng{fullhashraw}{af001892a1580ce295110478ffb3a330}
+      \strng{bibnamehash}{af001892a1580ce295110478ffb3a330}
+      \strng{authorbibnamehash}{af001892a1580ce295110478ffb3a330}
+      \strng{authornamehash}{9617d8cd20ec05368a8ed2f3f024fda8}
+      \strng{authorfullhash}{af001892a1580ce295110478ffb3a330}
+      \strng{authorfullhashraw}{af001892a1580ce295110478ffb3a330}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2101.02127}
+      \field{note}{Version 2, January 2021}
+      \field{title}{Object-by-Object Learning for Facial Skin Lesion Detection Using Semantic Segmentation Methods}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2101.02127
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2101.02127
+      \endverb
+    \endentry
     \entry{autor2021arrugas}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6f52c51caac5c7df94f9349a2e45d419}{%
@@ -2679,6 +2726,53 @@
       \endverb
       \verb{url}
       \verb https://heartbeat.fritz.ai/introduction-to-multimodal-deep-learning-630b259f9291
+      \endverb
+    \endentry
+    \entry{Bekmirzaev2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e48d237042babdc7e6b6e5c6bf38eb1d}{%
+           family={Bekmirzaev},
+           familyi={B\bibinitperiod},
+           given={Shohrukh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c49582c8911f68e842338c201f7c283}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={Seoyoung},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3022d12474c82fab6be970fb10960d9}{%
+           family={Yoo},
+           familyi={Y\bibinitperiod},
+           given={Sangwook},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9617d8cd20ec05368a8ed2f3f024fda8}
+      \strng{fullhash}{af001892a1580ce295110478ffb3a330}
+      \strng{fullhashraw}{af001892a1580ce295110478ffb3a330}
+      \strng{bibnamehash}{af001892a1580ce295110478ffb3a330}
+      \strng{authorbibnamehash}{af001892a1580ce295110478ffb3a330}
+      \strng{authornamehash}{9617d8cd20ec05368a8ed2f3f024fda8}
+      \strng{authorfullhash}{af001892a1580ce295110478ffb3a330}
+      \strng{authorfullhashraw}{af001892a1580ce295110478ffb3a330}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2101.02127}
+      \field{note}{Version 2, January 2021}
+      \field{title}{Object-by-Object Learning for Facial Skin Lesion Detection Using Semantic Segmentation Methods}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2101.02127
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2101.02127
       \endverb
     \endentry
     \entry{autor2021arrugas}{article}{}{}
