@@ -1864,36 +1864,6 @@
       \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
       \endverb
     \endentry
-    \entry{autor2020segmentacion}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5d0ddda3a367ceb26fbaeca02e391c22}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Academic Press}%
-      }
-      \strng{namehash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{fullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{fullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{bibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{authorbibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{authornamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{authorfullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{authorfullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Image Segmentation in Computer Vision}
-      \field{year}{2020}
-    \endentry
     \entry{sorensen1948}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=288e248947d6fc30e1fca311074fcc68}{%
@@ -4335,36 +4305,6 @@
       \verb{url}
       \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
       \endverb
-    \endentry
-    \entry{autor2020segmentacion}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5d0ddda3a367ceb26fbaeca02e391c22}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Academic Press}%
-      }
-      \strng{namehash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{fullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{fullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{bibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{authorbibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{authornamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{authorfullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{authorfullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Image Segmentation in Computer Vision}
-      \field{year}{2020}
     \endentry
     \entry{sorensen1948}{article}{}{}
       \name{author}{1}{}{%
