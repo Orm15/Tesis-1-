@@ -396,40 +396,6 @@
       \verb 10.1007/978-981-10-5209-5
       \endverb
     \endentry
-    \entry{autor2020dice}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=18d9c40a0d05f5f7a661088d5e9a978b}{%
-           family={Dice},
-           familyi={D\bibinitperiod},
-           given={Lee},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{fullhash}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{fullhashraw}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{bibnamehash}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{authorbibnamehash}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{authornamehash}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{authorfullhash}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{authorfullhashraw}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Pattern Recognition Letters}
-      \field{title}{Evaluation Metrics for Image Segmentation}
-      \field{volume}{130}
-      \field{year}{2020}
-      \field{pages}{34\bibrangedash 41}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1016/j.patrec.2020.07.012
-      \endverb
-    \endentry
     \entry{autor2022transformer}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=72308762399d6ab62bbd9391c64c7bfd}{%
@@ -1113,40 +1079,6 @@
       \verb 10.1016/j.jbi.2021.103756
       \endverb
     \endentry
-    \entry{autor2021iou}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c4a98c7a2913792b5501ecdcb067315d}{%
-           family={Jaccard},
-           familyi={J\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{fullhash}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{fullhashraw}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{bibnamehash}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{authorbibnamehash}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{authornamehash}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{authorfullhash}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{authorfullhashraw}{c4a98c7a2913792b5501ecdcb067315d}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Image Processing Letters}
-      \field{title}{Intersection over Union as an Evaluation Metric for Segmentation Models}
-      \field{volume}{11}
-      \field{year}{2021}
-      \field{pages}{56\bibrangedash 65}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1016/j.imgl.2021.02.003
-      \endverb
-    \endentry
     \entry{jia2019}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=0f98d24928baeb4dcd760770761b00a5}{%
@@ -1509,40 +1441,6 @@
       \field{pages}{1097\bibrangedash 1105}
       \range{pages}{9}
     \endentry
-    \entry{autor2019precision}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ec25a8f863b237cf4d23a67accd68644}{%
-           family={Martinez},
-           familyi={M\bibinitperiod},
-           given={Carlos},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{fullhash}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{fullhashraw}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{bibnamehash}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{authorbibnamehash}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{authornamehash}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{authorfullhash}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{authorfullhashraw}{ec25a8f863b237cf4d23a67accd68644}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Computer Vision}
-      \field{title}{Precision and Accuracy in Segmentation Algorithms}
-      \field{volume}{25}
-      \field{year}{2019}
-      \field{pages}{123\bibrangedash 135}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1016/j.jcv.2019.04.007
-      \endverb
-    \endentry
     \entry{mohammadi2019}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1598,40 +1496,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1016/j.compbiomed.2019.103388
-      \endverb
-    \endentry
-    \entry{autor2022crossentropy}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e8e3955f50d538fc566ff677c683200b}{%
-           family={Nguyen},
-           familyi={N\bibinitperiod},
-           given={Linh},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e8e3955f50d538fc566ff677c683200b}
-      \strng{fullhash}{e8e3955f50d538fc566ff677c683200b}
-      \strng{fullhashraw}{e8e3955f50d538fc566ff677c683200b}
-      \strng{bibnamehash}{e8e3955f50d538fc566ff677c683200b}
-      \strng{authorbibnamehash}{e8e3955f50d538fc566ff677c683200b}
-      \strng{authornamehash}{e8e3955f50d538fc566ff677c683200b}
-      \strng{authorfullhash}{e8e3955f50d538fc566ff677c683200b}
-      \strng{authorfullhashraw}{e8e3955f50d538fc566ff677c683200b}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Machine Learning}
-      \field{title}{Cross-Entropy as a Loss Function in Deep Learning}
-      \field{volume}{3}
-      \field{year}{2022}
-      \field{pages}{98\bibrangedash 105}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1016/j.ijml.2022.01.005
       \endverb
     \endentry
     \entry{tec_nishida2015multimodal}{report}{}{}
@@ -3004,40 +2868,6 @@
       \verb 10.1007/978-981-10-5209-5
       \endverb
     \endentry
-    \entry{autor2020dice}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=18d9c40a0d05f5f7a661088d5e9a978b}{%
-           family={Dice},
-           familyi={D\bibinitperiod},
-           given={Lee},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{fullhash}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{fullhashraw}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{bibnamehash}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{authorbibnamehash}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{authornamehash}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{authorfullhash}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \strng{authorfullhashraw}{18d9c40a0d05f5f7a661088d5e9a978b}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Pattern Recognition Letters}
-      \field{title}{Evaluation Metrics for Image Segmentation}
-      \field{volume}{130}
-      \field{year}{2020}
-      \field{pages}{34\bibrangedash 41}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1016/j.patrec.2020.07.012
-      \endverb
-    \endentry
     \entry{autor2022transformer}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=72308762399d6ab62bbd9391c64c7bfd}{%
@@ -3721,40 +3551,6 @@
       \verb 10.1016/j.jbi.2021.103756
       \endverb
     \endentry
-    \entry{autor2021iou}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c4a98c7a2913792b5501ecdcb067315d}{%
-           family={Jaccard},
-           familyi={J\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{fullhash}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{fullhashraw}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{bibnamehash}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{authorbibnamehash}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{authornamehash}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{authorfullhash}{c4a98c7a2913792b5501ecdcb067315d}
-      \strng{authorfullhashraw}{c4a98c7a2913792b5501ecdcb067315d}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Image Processing Letters}
-      \field{title}{Intersection over Union as an Evaluation Metric for Segmentation Models}
-      \field{volume}{11}
-      \field{year}{2021}
-      \field{pages}{56\bibrangedash 65}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1016/j.imgl.2021.02.003
-      \endverb
-    \endentry
     \entry{jia2019}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=0f98d24928baeb4dcd760770761b00a5}{%
@@ -4117,40 +3913,6 @@
       \field{pages}{1097\bibrangedash 1105}
       \range{pages}{9}
     \endentry
-    \entry{autor2019precision}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ec25a8f863b237cf4d23a67accd68644}{%
-           family={Martinez},
-           familyi={M\bibinitperiod},
-           given={Carlos},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{fullhash}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{fullhashraw}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{bibnamehash}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{authorbibnamehash}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{authornamehash}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{authorfullhash}{ec25a8f863b237cf4d23a67accd68644}
-      \strng{authorfullhashraw}{ec25a8f863b237cf4d23a67accd68644}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Computer Vision}
-      \field{title}{Precision and Accuracy in Segmentation Algorithms}
-      \field{volume}{25}
-      \field{year}{2019}
-      \field{pages}{123\bibrangedash 135}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1016/j.jcv.2019.04.007
-      \endverb
-    \endentry
     \entry{mohammadi2019}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -4206,40 +3968,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1016/j.compbiomed.2019.103388
-      \endverb
-    \endentry
-    \entry{autor2022crossentropy}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e8e3955f50d538fc566ff677c683200b}{%
-           family={Nguyen},
-           familyi={N\bibinitperiod},
-           given={Linh},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e8e3955f50d538fc566ff677c683200b}
-      \strng{fullhash}{e8e3955f50d538fc566ff677c683200b}
-      \strng{fullhashraw}{e8e3955f50d538fc566ff677c683200b}
-      \strng{bibnamehash}{e8e3955f50d538fc566ff677c683200b}
-      \strng{authorbibnamehash}{e8e3955f50d538fc566ff677c683200b}
-      \strng{authornamehash}{e8e3955f50d538fc566ff677c683200b}
-      \strng{authorfullhash}{e8e3955f50d538fc566ff677c683200b}
-      \strng{authorfullhashraw}{e8e3955f50d538fc566ff677c683200b}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Machine Learning}
-      \field{title}{Cross-Entropy as a Loss Function in Deep Learning}
-      \field{volume}{3}
-      \field{year}{2022}
-      \field{pages}{98\bibrangedash 105}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1016/j.ijml.2022.01.005
       \endverb
     \endentry
     \entry{tec_nishida2015multimodal}{report}{}{}

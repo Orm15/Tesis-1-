@@ -315,53 +315,53 @@ Por lo tanto, se necesita el desarrollo de modelos de segmentación más robusto
 La segmentación de características pequeñas, como los poros en la piel, es una tarea particularmente desafiante debido a su tamaño reducido y la alta resolución necesaria para detectarlos de manera precisa. Las imágenes dermatológicas a menudo contienen detalles finos que requieren técnicas avanzadas para identificar correctamente estos pequeños elementos sin incluir ruido o artefactos en la segmentación.
 
 La identificación precisa de los poros es crucial, especialmente en aplicaciones cosméticas donde la evaluación de la textura de la piel es esencial para ofrecer tratamientos personalizados. Para abordar este desafío, se deben emplear técnicas de segmentación de alta resolución y redes neuronales profundas capaces de capturar los detalles más pequeños, incluso cuando los poros están parcialmente ocultos o tienen un contraste bajo respecto al resto de la piel. \parencite{yang2020}
-\subsection{Métricas de Evaluación}  
-Las métricas de evaluación son fundamentales para medir la precisión y eficacia de los modelos de segmentación de imágenes, ya que permiten comparar la segmentación automática generada por el modelo con las segmentaciones de referencia (verdaderas). A continuación se describen las principales métricas utilizadas en este tipo de análisis.
+% \subsection{Métricas de Evaluación}  
+% Las métricas de evaluación son fundamentales para medir la precisión y eficacia de los modelos de segmentación de imágenes, ya que permiten comparar la segmentación automática generada por el modelo con las segmentaciones de referencia (verdaderas). A continuación se describen las principales métricas utilizadas en este tipo de análisis.
 
-\subsubsection{Índice de Sorensen-Dice (Dice Coefficient)}  
-El índice de Sorensen-Dice, o simplemente Dice coefficient, es una métrica ampliamente utilizada para evaluar la similitud entre dos conjuntos de datos segmentados. Esta métrica es especialmente útil en problemas de segmentación de imágenes médicas, donde es necesario comparar la segmentación automática con la segmentación de referencia.  
-\begin{itemize}
-    \item \textbf{Fórmula:}  
-    \[
-    \text{Dice} = \frac{2|A \cap B|}{|A| + |B|}
-    \]
-    donde \( A \) y \( B \) son los conjuntos de píxeles segmentados de la imagen predicha y la imagen real, respectivamente.
-    \item \textbf{Interpretación:} El valor de Dice oscila entre 0 y 1, donde 1 indica una coincidencia perfecta entre las dos segmentaciones, y 0 indica ninguna superposición.
-    \item \textbf{Aplicación:} Es útil para tareas donde se requiere alta precisión en la identificación de áreas segmentadas, como en el análisis de manchas y arrugas en la piel, donde una segmentación precisa es crucial \parencite{autor2020dice}.
-\end{itemize}
+% \subsubsection{Índice de Sorensen-Dice (Dice Coefficient)}  
+% El índice de Sorensen-Dice, o simplemente Dice coefficient, es una métrica ampliamente utilizada para evaluar la similitud entre dos conjuntos de datos segmentados. Esta métrica es especialmente útil en problemas de segmentación de imágenes médicas, donde es necesario comparar la segmentación automática con la segmentación de referencia.  
+% \begin{itemize}
+%     \item \textbf{Fórmula:}  
+%     \begin{equation}\label{eq:Índice de Sorensen-Dice}
+% 		\text{Dice} = \frac{2|A \cap B|}{|A| + |B|}
+% 	\end{equation}
+%     donde \( A \) y \( B \) son los conjuntos de píxeles segmentados de la imagen predicha y la imagen real, respectivamente.
+%     \item \textbf{Interpretación:} El valor de Dice oscila entre 0 y 1, donde 1 indica una coincidencia perfecta entre las dos segmentaciones, y 0 indica ninguna superposición.
+%     \item \textbf{Aplicación:} Es útil para tareas donde se requiere alta precisión en la identificación de áreas segmentadas, como en el análisis de manchas y arrugas en la piel, donde una segmentación precisa es crucial \parencite{autor2020dice}.
+% \end{itemize}
 
-\subsubsection{Coeficiente de Jaccard (Intersection over Union, IoU)}  
-El coeficiente de Jaccard, también conocido como \( \text{Intersection over Union} \) (IoU), es otra métrica popular para evaluar la superposición entre dos conjuntos de segmentación. A diferencia del índice de Dice, IoU mide la relación entre la intersección de los conjuntos de píxeles predichos y reales con respecto a su unión total.  
-\begin{itemize}
-    \item \textbf{Fórmula:}  
-    \[
-    \text{IoU} = \frac{|A \cap B|}{|A \cup B|}
-    \]
-    donde \( A \) y \( B \) son los conjuntos de píxeles segmentados de la imagen predicha y la imagen real, respectivamente.
-    \item \textbf{Interpretación:} El valor de IoU también varía entre 0 y 1. Un valor más alto indica una mayor superposición entre los segmentos predichos y reales. IoU es especialmente útil cuando se requiere evaluar la precisión en áreas de segmentación con bordes definidos, como en el análisis de arrugas y poros \parencite{autor2021iou}.
-    \item \textbf{Aplicación:} Es más severo que el índice de Dice, por lo que es adecuado para evaluar tareas donde la precisión en los bordes y las áreas superpuestas es esencial.
-\end{itemize}
+% \subsubsection{Coeficiente de Jaccard (Intersection over Union, IoU)}  
+% El coeficiente de Jaccard, también conocido como \( \text{Intersection over Union} \) (IoU), es otra métrica popular para evaluar la superposición entre dos conjuntos de segmentación. A diferencia del índice de Dice, IoU mide la relación entre la intersección de los conjuntos de píxeles predichos y reales con respecto a su unión total.  
+% \begin{itemize}
+%     \item \textbf{Fórmula:}  
+%     \begin{equation}\label{eq:Coeficiente de Jaccard}
+%     \text{IoU} = \frac{|A \cap B|}{|A \cup B|}
+% 	\end{equation}
+%     donde \( A \) y \( B \) son los conjuntos de píxeles segmentados de la imagen predicha y la imagen real, respectivamente.
+%     \item \textbf{Interpretación:} El valor de IoU también varía entre 0 y 1. Un valor más alto indica una mayor superposición entre los segmentos predichos y reales. IoU es especialmente útil cuando se requiere evaluar la precisión en áreas de segmentación con bordes definidos, como en el análisis de arrugas y poros \parencite{autor2021iou}.
+%     \item \textbf{Aplicación:} Es más severo que el índice de Dice, por lo que es adecuado para evaluar tareas donde la precisión en los bordes y las áreas superpuestas es esencial.
+% \end{itemize}
 
-\subsubsection{Precisión (Precision)}  
-La precisión es una métrica que refleja la efectividad del modelo en evitar falsos positivos. Se calcula como la relación entre los verdaderos positivos y el total de elementos que el modelo ha predicho como positivos. En el contexto de la segmentación de imágenes, la precisión mide la exactitud de las regiones predichas como relevantes por el modelo.  
-\begin{itemize}
-    \item \textbf{Fórmula:}  
-    \[
-    \text{Precisión} = \frac{TP}{TP + FP}
-    \]
-    donde \( TP \) son los verdaderos positivos (píxeles correctamente predichos como parte de la característica) y \( FP \) son los falsos positivos (píxeles incorrectamente predichos como parte de la característica).
-    \item \textbf{Interpretación:} Un valor más alto de precisión indica que el modelo es más efectivo en minimizar los falsos positivos, lo cual es crítico en aplicaciones dermatológicas, donde un modelo debe evitar identificar incorrectamente áreas no relevantes como características de la piel.
-    \item \textbf{Aplicación:} Es útil para tareas donde el modelo debe ser riguroso en evitar predecir áreas de la imagen que no pertenecen a la característica de interés, como en el caso de la segmentación de manchas o poros \parencite{autor2019precision}.
-\end{itemize}
+% \subsubsection{Precisión (Precision)}  
+% La precisión es una métrica que refleja la efectividad del modelo en evitar falsos positivos. Se calcula como la relación entre los verdaderos positivos y el total de elementos que el modelo ha predicho como positivos. En el contexto de la segmentación de imágenes, la precisión mide la exactitud de las regiones predichas como relevantes por el modelo.  
+% \begin{itemize}
+%     \item \textbf{Fórmula:}  
+%     \[
+%     \text{Precisión} = \frac{TP}{TP + FP}
+%     \]
+%     donde \( TP \) son los verdaderos positivos (píxeles correctamente predichos como parte de la característica) y \( FP \) son los falsos positivos (píxeles incorrectamente predichos como parte de la característica).
+%     \item \textbf{Interpretación:} Un valor más alto de precisión indica que el modelo es más efectivo en minimizar los falsos positivos, lo cual es crítico en aplicaciones dermatológicas, donde un modelo debe evitar identificar incorrectamente áreas no relevantes como características de la piel.
+%     \item \textbf{Aplicación:} Es útil para tareas donde el modelo debe ser riguroso en evitar predecir áreas de la imagen que no pertenecen a la característica de interés, como en el caso de la segmentación de manchas o poros \parencite{autor2019precision}.
+% \end{itemize}
 
-\subsubsection{Entropía Cruzada (Cross-Entropy)}  
-La entropía cruzada es una función de pérdida utilizada comúnmente en problemas de clasificación y segmentación. Mide la disonancia o la diferencia entre la distribución de probabilidad predicha por el modelo y la distribución de probabilidad real (etiquetas verdaderas). En el contexto de la segmentación, la entropía cruzada es utilizada para entrenar el modelo, ya que penaliza las predicciones incorrectas.  
-\begin{itemize}
-    \item \textbf{Fórmula:}  
-    \[
-    \text{Cross-Entropy} = -\sum_{i} y_i \log(p_i)
-    \]
-    donde \( y_i \) es la etiqueta real de la clase \( i \) y \( p_i \) es la probabilidad predicha para la clase \( i \).
-    \item \textbf{Interpretación:} Un valor bajo de entropía cruzada indica que el modelo ha aprendido bien a predecir las clases correctas, es decir, las características de la piel en las imágenes segmentadas. Un valor alto sugiere una mala predicción, lo que indica que el modelo está lejos de la distribución real.
-    \item \textbf{Aplicación:} La entropía cruzada es especialmente útil durante el proceso de entrenamiento para ajustar los parámetros del modelo y garantizar que la segmentación final sea lo más precisa posible, especialmente al tratar con características complejas de la piel como manchas o arrugas \parencite{autor2022crossentropy}.
-\end{itemize}
+% \subsubsection{Entropía Cruzada (Cross-Entropy)}  
+% La entropía cruzada es una función de pérdida utilizada comúnmente en problemas de clasificación y segmentación. Mide la disonancia o la diferencia entre la distribución de probabilidad predicha por el modelo y la distribución de probabilidad real (etiquetas verdaderas). En el contexto de la segmentación, la entropía cruzada es utilizada para entrenar el modelo, ya que penaliza las predicciones incorrectas.  
+% \begin{itemize}
+%     \item \textbf{Fórmula:}  
+%     \[
+%     \text{Cross-Entropy} = -\sum_{i} y_i \log(p_i)
+%     \]
+%     donde \( y_i \) es la etiqueta real de la clase \( i \) y \( p_i \) es la probabilidad predicha para la clase \( i \).
+%     \item \textbf{Interpretación:} Un valor bajo de entropía cruzada indica que el modelo ha aprendido bien a predecir las clases correctas, es decir, las características de la piel en las imágenes segmentadas. Un valor alto sugiere una mala predicción, lo que indica que el modelo está lejos de la distribución real.
+%     \item \textbf{Aplicación:} La entropía cruzada es especialmente útil durante el proceso de entrenamiento para ajustar los parámetros del modelo y garantizar que la segmentación final sea lo más precisa posible, especialmente al tratar con características complejas de la piel como manchas o arrugas \parencite{autor2022crossentropy}.
+% \end{itemize}
