@@ -95,10 +95,35 @@ Los resultados obtenidos demostraron que el modelo propuesto superó a otros mé
 
 %% Tercer antecedente : Skin lesion segmentation method for dermoscopic images with convolutional neural networks and semantic segmentation
 
-El artículo \citetitle{Thanh2021} de \cite{Thanh2021} presenta un método avanzado de segmentación de lesiones cutáneas en imágenes dermoscópicas, diseñado para facilitar la detección temprana de melanoma. Esta técnica utiliza la arquitectura U-Net en combinación con el codificador VGG-16, mejorando la segmentación en áreas de baja intensidad, un aspecto crítico en las imágenes dermoscópicas. El método propuesto es notablemente eficaz en sistemas de cómputo con recursos limitados, como los que carecen de GPU potentes, y ofrece una precisión superior al 95\% tras el entrenamiento. El estudio emplea el conjunto de datos ISIC para evaluar su rendimiento, aplicando métricas de similitud Sorensen-Dice y Jaccard. Los resultados experimentales demuestran que esta técnica supera a otros enfoques basados en redes profundas, especialmente en la segmentación precisa de regiones de baja intensidad en las imágenes.
+El artículo \citetitle{Thanh2021} de \cite{Thanh2021} trata sobre la segmentación automática de lesiones cutáneas en imágenes dermoscópicas, un proceso fundamental para el diagnóstico temprano del melanoma, una de las formas más agresivas de cáncer de piel. A pesar de los avances con redes neuronales convolucionales (CNN), muchos modelos fallan en detectar detalles pequeños o regiones con baja intensidad. Para abordar estas deficiencias, se propone una arquitectura basada en U-Net combinada con un codificador VGG-16, que mejora la precisión y es adecuada para dispositivos con recursos computacionales limitados.
 
-El enfoque presentado evita la necesidad de preprocesamiento de la imagen, como la eliminación de cabello, la extracción de regiones de interés (ROI) o la mejora del contraste. Este método permite el procesamiento directo de imágenes en color sin la conversión a escala de grises ni la segmentación en canales separados. La implementación de este método se realizó en MATLAB, logrando buenos resultados en términos de sensibilidad y especificidad, con valores promedio de 0.92 y 0.86 para las métricas Dice y Jaccard, respectivamente, en las imágenes de prueba.
+El enfoque combina U-Net, conocida por su eficacia en segmentación a nivel de píxel, con VGG-16 como codificador, lo cual mejora la capacidad del modelo para manejar regiones con bajo contraste. También se implementa segmentación semántica para clasificar píxeles según su clase. Además, tras la segmentación inicial, se aplican filtros Gaussianos, se rellenan huecos y se eliminan pequeñas regiones, refinando así la calidad final del resultado segmentado.
 
+La metodología se organiza en tres etapas: un preentrenamiento con un conjunto reducido de datos, la implementación del método de segmentación semántica de Brostow et al. en MATLAB, y una mejora posterior de los resultados a través de técnicas como filtros Gaussianos, relleno de huecos y eliminación de pequeños segmentos irrelevantes. Este enfoque permite optimizar la segmentación incluso con un volumen de datos limitado y sin preprocesamiento complejo.
+
+Se utilizó el conjunto ISIC 2017, que cuenta con aproximadamente 2000 imágenes dermoscópicas anotadas por expertos. Estas imágenes están en formato RGB y se acompañan de máscaras de segmentación en PNG. El conjunto se divide en subconjuntos para entrenamiento, validación y prueba, lo que permite evaluar adecuadamente la eficacia del modelo propuesto bajo distintas condiciones clínicas.
+
+Los experimentos, como se ven en las Figuras \ref{2:fig31} y \ref{2:fig32}, demostraron que el modelo U-Net con VGG-16 logra una segmentación más precisa que otros enfoques previos, superando el 95\% de precisión según métricas como el índice Dice y el coeficiente de Jaccard. Se destaca su buen desempeño en zonas de baja intensidad, sin necesidad de un gran volumen de datos ni de procesos complejos de preprocesamiento, lo que lo hace eficiente y aplicable en escenarios reales.
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{2/figures/ant3_1.png}
+		\caption[Resultados segmentados de lesiones cutáneas en modo blanco y negro]{Resultados segmentados de lesiones cutáneas en modo blanco y negro.\\
+			Fuente: \cite{Thanh2021}. \citetitle{Thanh2021}. (p. 5)}
+		\label{2:fig31}
+	\end{center}
+\end{figure}
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{2/figures/ant3_2.png}
+		\caption[Las lesiones cutáneas segmentadas de las imágenes dermatoscópicas: el borde rojo (oscuro) – nuestro resultado segmentado, el borde verde (claro) – la realidad fundamental]{Las lesiones cutáneas segmentadas de las imágenes dermatoscópicas: el borde rojo (oscuro) – nuestro resultado segmentado, el borde verde (claro) – la realidad fundamental.\\
+			Fuente: \cite{Thanh2021}. \citetitle{Zhong2024}. (p. 5)}
+		\label{2:fig32}
+	\end{center}
+\end{figure}
+
+La arquitectura U-Net con codificador VGG-16 representa una mejora significativa para la segmentación de lesiones cutáneas, ofreciendo precisión, eficiencia computacional y robustez ante variaciones en las imágenes. Su capacidad de trabajar directamente con imágenes a color sin procesamiento previo permite su implementación en sistemas automáticos accesibles, contribuyendo potencialmente al diagnóstico temprano del melanoma.
 
 %% Cuarto antecedente :  High Performing Facial Skin Problem Diagnosis with Enhanced Mask R-CNN and Super Resolution GAN
 
@@ -106,7 +131,7 @@ En el artículo \citetitle{Kim2023} de \cite{Kim2023}, se propone un sistema mej
 
 Para superar estos desafíos, se implementan cinco tácticas que mejoran significativamente el rendimiento. En primer lugar, el modelo Mask R-CNN se optimiza mediante capas de fusión y deconvolución, lo que permite detectar características de pequeño tamaño, como poros y arrugas. En segundo lugar, se emplea un SR-GAN para aumentar la resolución de las imágenes de baja calidad, mejorando la precisión en la detección de problemas pequeños. Tercero, se entrenan modelos de segmentación específicos para cada tipo de problema, lo que optimiza la detección al reducir las interferencias de clases no relacionadas. La cuarta táctica consiste en utilizar modelos de segmentación específicos para cada dirección facial (frontal, lateral izquierda y derecha), ya que la posición y visibilidad de ciertos problemas varía según la orientación del rostro. Finalmente, la quinta táctica emplea un modelo de detección de landmarks faciales para descartar segmentaciones en áreas no faciales, como ojos, cejas y cabello, evitando falsos positivos.
 
-Los resultados experimentales muestran que estas tácticas incrementan el rendimiento diagnóstico en un 32.58\% respecto a los modelos CNN convencionales, alcanzando una precisión de 83.38\%. Este enfoque no solo es preciso, sino que es adecuado para implementarse en dispositivos de bajo costo y en aplicaciones móviles, proporcionando una alternativa económica a las visitas clínicas. Los autores sugieren que este sistema podría ser de utilidad en clínicas de cuidado de la piel o como una herramienta accesible para el diagnóstico domiciliario.
+Los resultados, como se ven en la Figura \ref{2:fig1}, experimentales muestran que estas tácticas incrementan el rendimiento diagnóstico en un 32.58\% respecto a los modelos CNN convencionales, alcanzando una precisión de 83.38\%. Este enfoque no solo es preciso, sino que es adecuado para implementarse en dispositivos de bajo costo y en aplicaciones móviles, proporcionando una alternativa económica a las visitas clínicas. Los autores sugieren que este sistema podría ser de utilidad en clínicas de cuidado de la piel o como una herramienta accesible para el diagnóstico domiciliario.
 
 \begin{figure}[!ht]
 	\begin{center}
