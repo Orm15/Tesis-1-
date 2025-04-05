@@ -23,10 +23,10 @@
 \contentsline {subsection}{\numberline {2.2.1}Inteligencia Artificial}{22}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Aprendizaje Automático}{22}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Aprendizaje Profundo}{25}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Aprendizaje Profundo Multimodal}{26}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}Aprendizaje Profundo Multimodal}{25}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}Inteligencia Artificial Generativa}{28}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Segmentación de Imágenes}{30}{subsection.2.2.6}%
-\contentsline {subsubsection}{\numberline {2.2.6.1}Definición y objetivos de la segmentación de imágenes}{30}{subsubsection.2.2.6.1}%
+\contentsline {subsection}{\numberline {2.2.6}Segmentación de Imágenes}{31}{subsection.2.2.6}%
+\contentsline {subsubsection}{\numberline {2.2.6.1}Definición y objetivos de la segmentación de imágenes}{31}{subsubsection.2.2.6.1}%
 \contentsline {subsubsection}{\numberline {2.2.6.2}Importancia de la segmentación en aplicaciones médicas y cosméticas}{31}{subsubsection.2.2.6.2}%
 \contentsline {subsubsection}{\numberline {2.2.6.3}Técnicas de segmentación clásicas y sus limitaciones en imágenes dermatológicas}{32}{subsubsection.2.2.6.3}%
 \contentsline {subsection}{\numberline {2.2.7}Redes Neuronales Convolucionales (CNN)}{33}{subsection.2.2.7}%
