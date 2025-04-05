@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber tesis"] 1743799383.0371 "tesis.bcf" "tesis.bbl" "tesis" 1743800319.03355 0
+["biber tesis"] 1743865429.77121 "tesis.bcf" "tesis.bbl" "tesis" 1743865635.97762 0
   "biblio/references.bib" 1743795366 26111 fb59b2829bdd9c606acd6228d0ebf8b2 ""
-  "tesis.bcf" 1743800318 147384 dd8bdd09e33a3e07eaf9a6959e9da925 "pdflatex"
+  "tesis.bcf" 1743865635 146917 94c0d8ed3b67fbe3b717b29cc78f5bb0 "pdflatex"
   (generated)
   "tesis.bbl"
   "tesis.blg"
   (rewritten before read)
-["pdflatex"] 1743800306.87089 "c:/Users/DELL/Desktop/Tesis/Tesis-1-/tesis.tex" "tesis.pdf" "tesis" 1743800319.03482 0
+["pdflatex"] 1743865622.18787 "c:/Users/DELL/Desktop/Tesis/Tesis-1-/tesis.tex" "tesis.pdf" "tesis" 1743865635.97885 0
   "0/agradecimientos.tex" 1743530566 143 a5ca4259ceb6a257936d6c5796fd3947 ""
   "0/aprobacion.tex" 1743531036 506 6dbd623971308408bbc29a86eb12d49e ""
   "0/introduccion.tex" 1743530536 2047 92a0f60fdf981fcd760720bf9018e6e3 ""
   "0/resumen.tex" 1743530536 3562 5240cb095b365ce1971f6d1dac3b39b8 ""
   "0/titulo.tex" 1743530536 237 cf4fe6c3917c655f44ae77bff31fbd39 ""
-  "1/planteamiento.tex" 1743530536 10671 455f9d203424a3c91845cf6b28503678 ""
+  "1/planteamiento.tex" 1743865609 10700 44714f4322b372a4508aef0f6662c72e ""
   "2/1_antecedentes/antecedentes.tex" 1743795805 25521 102f1752a5805a80812017c7fa0a4345 ""
   "2/2_teoria/base_teo.tex" 1743799245 53427 2af51ec9009c77e43ba4d875738f108e ""
   "2/3_conceptos/marc_conceptual.tex" 1743799366 17121 184fb77323c3527b438bb8b3268166b1 ""
@@ -40,7 +40,7 @@
   "2/marco.tex" 1743530536 294 1e4dcbe643c32c938c7c3b5ac963890e ""
   "3/figures/gant.png" 1743530536 71502 5572db03bdf10535050d68fda68d5695 ""
   "3/figures/metodologia.png" 1743530536 220701 2e7db7b2ffe43cc524c39100cc368197 ""
-  "3/metodologia.tex" 1743531599 12919 105be75f8453d848f5d88938ebc74b4e ""
+  "3/metodologia.tex" 1743865450 12923 d4ab42d010f8266c6e9a46fb81ce9860 ""
   "4/desarrollo.tex" 1743530536 336 461a1a32fc1035e9fd9d0f4d286ba45e ""
   "5/resultados.tex" 1743530536 6600 f7585e2242cb6dc0047469d67afdbc65 ""
   "C:/Users/DELL/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1743531061 82507 a9eef8696c92627b87e9975edea03b2a ""
@@ -251,16 +251,16 @@
   "anexos/arb_problemas.jpg" 1743530536 107817 c21b2c3e79d2648517ae4c89861359e3 ""
   "c:/Users/DELL/Desktop/Tesis/Tesis-1-/tesis.tex" 1743707159 14006 9f12bea4ec2e8e0ec2e13cc4df9ed344 ""
   "images_repo/esanlogomin.png" 1743530536 44054 5686aaa912c5c911c9912422804fbdf6 ""
-  "tesis.aux" 1743800318 76661 0ff12fcb7c8fc7d2a4a8936c94daffa9 "pdflatex"
-  "tesis.bbl" 1743799390 207100 4684f7fdfe61701374b03cda373818de "biber tesis"
-  "tesis.equ" 1743800312 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tesis.loa" 1743800312 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tesis.lof" 1743800318 2631 b3f824332064161853dc871434764f4c "pdflatex"
-  "tesis.lot" 1743800318 570 1178c827dc66859cd1a823ca888f9f70 "pdflatex"
-  "tesis.out" 1743800318 21747 b01b98f6499082046122f8ffb8089bb7 "pdflatex"
-  "tesis.run.xml" 1743800318 2407 abd49b23619a5865ba13eeb8aa920da5 "pdflatex"
+  "tesis.aux" 1743865635 76235 ea3047390140d3d90beb5e113e84acb9 "pdflatex"
+  "tesis.bbl" 1743865455 207100 4684f7fdfe61701374b03cda373818de "biber tesis"
+  "tesis.equ" 1743865627 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tesis.loa" 1743865627 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tesis.lof" 1743865635 2633 80ca49113c162de1c920a4bf1fba32e0 "pdflatex"
+  "tesis.lot" 1743865635 570 1178c827dc66859cd1a823ca888f9f70 "pdflatex"
+  "tesis.out" 1743865635 21747 b01b98f6499082046122f8ffb8089bb7 "pdflatex"
+  "tesis.run.xml" 1743865635 2407 abd49b23619a5865ba13eeb8aa920da5 "pdflatex"
   "tesis.tex" 1743707159 14006 9f12bea4ec2e8e0ec2e13cc4df9ed344 ""
-  "tesis.toc" 1743800318 9599 6e5f846a8af3b6dc7978c1c3b84b8b0c "pdflatex"
+  "tesis.toc" 1743865635 9599 4e9480c11f75ce5a4e666d34ddcd4d36 "pdflatex"
   (generated)
   "tesis.aux"
   "tesis.bcf"
