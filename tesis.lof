@@ -8,16 +8,17 @@
 \contentsline {figure}{\numberline {7}{\ignorespaces Detección de edad y género}}{19}{figure.caption.19}%
 \contentsline {figure}{\numberline {8}{\ignorespaces Análisis del tono de piel}}{19}{figure.caption.20}%
 \contentsline {figure}{\numberline {9}{\ignorespaces Análisis de arrugas}}{20}{figure.caption.21}%
-\contentsline {figure}{\numberline {10}{\ignorespaces El algoritmo de K medias}}{22}{figure.caption.22}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Relación entre IA, ML y DL}}{24}{figure.caption.23}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Modelo de aprendizaje profundo}}{25}{figure.caption.24}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Modelo que combina imágenes y texto}}{25}{figure.caption.25}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Un modelo multimodal para las señales de la vista}}{27}{figure.caption.26}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Modelos de difusión}}{28}{figure.caption.27}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Autocodificadores variacionales}}{29}{figure.caption.28}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Arquitectura de un modelo CNN}}{32}{figure.caption.29}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Red Generativa Antagónica de Imágenes}}{34}{figure.caption.30}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Red Generativa Antagónica de Imágenes}}{35}{figure.caption.31}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Imágenes de Ruido Gaussiano}}{35}{figure.caption.32}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Diagrama de la Metodología}}{49}{figure.caption.36}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Cronograma de actividades}}{53}{figure.caption.37}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Entrenamiento en dos etapas para la segmentación de arrugas faciales}}{21}{figure.caption.22}%
+\contentsline {figure}{\numberline {11}{\ignorespaces El algoritmo de K medias}}{24}{figure.caption.23}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Relación entre IA, ML y DL}}{25}{figure.caption.24}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Modelo de aprendizaje profundo}}{26}{figure.caption.25}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Modelo que combina imágenes y texto}}{27}{figure.caption.26}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Un modelo multimodal para las señales de la vista}}{28}{figure.caption.27}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Modelos de difusión}}{29}{figure.caption.28}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Autocodificadores variacionales}}{30}{figure.caption.29}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Arquitectura de un modelo CNN}}{34}{figure.caption.30}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Red Generativa Antagónica de Imágenes}}{36}{figure.caption.31}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Red Generativa Antagónica de Imágenes}}{37}{figure.caption.32}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Imágenes de Ruido Gaussiano}}{37}{figure.caption.33}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Diagrama de la Metodología}}{51}{figure.caption.37}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Cronograma de actividades}}{55}{figure.caption.38}%

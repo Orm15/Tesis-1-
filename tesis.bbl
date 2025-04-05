@@ -1498,6 +1498,52 @@
       \verb 10.1016/j.compbiomed.2019.103388
       \endverb
     \endentry
+    \entry{moon2024dermatology}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=79547a5b843d71784aa077e52148d086}{%
+           family={Moon},
+           familyi={M\bibinitperiod},
+           given={Junho},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c8b66ad99972d74651e8f6a6a20d623}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Haejun},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b24ec32d8fc72997af3f86f32405b8bf}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={Ikbeom},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{08f84242db27b8503f8f37ee6aec0b14}
+      \strng{fullhash}{471bc15beffc5a786885e5cda575cc54}
+      \strng{fullhashraw}{471bc15beffc5a786885e5cda575cc54}
+      \strng{bibnamehash}{471bc15beffc5a786885e5cda575cc54}
+      \strng{authorbibnamehash}{471bc15beffc5a786885e5cda575cc54}
+      \strng{authornamehash}{08f84242db27b8503f8f37ee6aec0b14}
+      \strng{authorfullhash}{471bc15beffc5a786885e5cda575cc54}
+      \strng{authorfullhashraw}{471bc15beffc5a786885e5cda575cc54}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2408.10060}
+      \field{title}{Dermatology: Pretraining with Texture Map-Based Weak Supervision}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/labhai/ffhq-wrinkle-dataset
+      \endverb
+      \verb{url}
+      \verb https://github.com/labhai/ffhq-wrinkle-dataset
+      \endverb
+    \endentry
     \entry{tec_nishida2015multimodal}{report}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c215f8d03e8981958b33fef05bef95de}{%
@@ -3938,6 +3984,52 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1016/j.compbiomed.2019.103388
+      \endverb
+    \endentry
+    \entry{moon2024dermatology}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=79547a5b843d71784aa077e52148d086}{%
+           family={Moon},
+           familyi={M\bibinitperiod},
+           given={Junho},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c8b66ad99972d74651e8f6a6a20d623}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Haejun},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b24ec32d8fc72997af3f86f32405b8bf}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={Ikbeom},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{08f84242db27b8503f8f37ee6aec0b14}
+      \strng{fullhash}{471bc15beffc5a786885e5cda575cc54}
+      \strng{fullhashraw}{471bc15beffc5a786885e5cda575cc54}
+      \strng{bibnamehash}{471bc15beffc5a786885e5cda575cc54}
+      \strng{authorbibnamehash}{471bc15beffc5a786885e5cda575cc54}
+      \strng{authornamehash}{08f84242db27b8503f8f37ee6aec0b14}
+      \strng{authorfullhash}{471bc15beffc5a786885e5cda575cc54}
+      \strng{authorfullhashraw}{471bc15beffc5a786885e5cda575cc54}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2408.10060}
+      \field{title}{Dermatology: Pretraining with Texture Map-Based Weak Supervision}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/labhai/ffhq-wrinkle-dataset
+      \endverb
+      \verb{url}
+      \verb https://github.com/labhai/ffhq-wrinkle-dataset
       \endverb
     \endentry
     \entry{tec_nishida2015multimodal}{report}{}{}

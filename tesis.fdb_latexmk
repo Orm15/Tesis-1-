@@ -1,19 +1,19 @@
 # Fdb version 4
-["biber tesis"] 1743865429.77121 "tesis.bcf" "tesis.bbl" "tesis" 1743865635.97762 0
-  "biblio/references.bib" 1743795366 26111 fb59b2829bdd9c606acd6228d0ebf8b2 ""
-  "tesis.bcf" 1743865635 146917 94c0d8ed3b67fbe3b717b29cc78f5bb0 "pdflatex"
+["biber tesis"] 1743867728.48833 "tesis.bcf" "tesis.bbl" "tesis" 1743867747.67192 0
+  "biblio/references.bib" 1743867484 26401 862134899d7c3ded99a3580e24f1e1c5 ""
+  "tesis.bcf" 1743867746 147373 ebdd2c498746c433ee7afa46bd8224c9 "pdflatex"
   (generated)
   "tesis.bbl"
   "tesis.blg"
   (rewritten before read)
-["pdflatex"] 1743865622.18787 "c:/Users/DELL/Desktop/Tesis/Tesis-1-/tesis.tex" "tesis.pdf" "tesis" 1743865635.97885 0
+["pdflatex"] 1743867735.04993 "c:/Users/DELL/Desktop/Tesis/Tesis-1-/tesis.tex" "tesis.pdf" "tesis" 1743867747.67478 0
   "0/agradecimientos.tex" 1743530566 143 a5ca4259ceb6a257936d6c5796fd3947 ""
   "0/aprobacion.tex" 1743531036 506 6dbd623971308408bbc29a86eb12d49e ""
   "0/introduccion.tex" 1743530536 2047 92a0f60fdf981fcd760720bf9018e6e3 ""
   "0/resumen.tex" 1743530536 3562 5240cb095b365ce1971f6d1dac3b39b8 ""
   "0/titulo.tex" 1743530536 237 cf4fe6c3917c655f44ae77bff31fbd39 ""
   "1/planteamiento.tex" 1743865609 10700 44714f4322b372a4508aef0f6662c72e ""
-  "2/1_antecedentes/antecedentes.tex" 1743795805 25521 102f1752a5805a80812017c7fa0a4345 ""
+  "2/1_antecedentes/antecedentes.tex" 1743867716 29102 3be5c44cff50a00e7bb90cbb800c11d8 ""
   "2/2_teoria/base_teo.tex" 1743799245 53427 2af51ec9009c77e43ba4d875738f108e ""
   "2/3_conceptos/marc_conceptual.tex" 1743799366 17121 184fb77323c3527b438bb8b3268166b1 ""
   "2/4_hipotesis/hipotesis.tex" 1743530536 1551 f976c057f1773837b625fb658fbc6200 ""
@@ -25,6 +25,7 @@
   "2/figures/deeplearning_machinelearning2.jpg" 1743708030 99979 45fedfdee997064a75b88d46c6f4435c ""
   "2/figures/flowchart.png" 1743642282 125170 1c53fc5f1947dd97111593c122cf0d38 ""
   "2/figures/kmeans.png" 1743707997 9715 663bb9d5ba081cf8551c0fac4b109dec ""
+  "2/figures/metoart9.png" 1743867627 92997 7406a12a8881cd1f8aacbe41afa06435 ""
   "2/figures/modelosdedifusion.jpg" 1743708084 39272 8195952f88010141f8e39602f0feb162 ""
   "2/figures/multimodal_deep_learning_example.jpg" 1743708069 61505 54fb432a78cdde705f8b8c7c17c98d93 ""
   "2/figures/multimodal_network.png" 1743708051 74892 27b1d13b9d7f1c104dc6ec5e1111c721 ""
@@ -251,16 +252,16 @@
   "anexos/arb_problemas.jpg" 1743530536 107817 c21b2c3e79d2648517ae4c89861359e3 ""
   "c:/Users/DELL/Desktop/Tesis/Tesis-1-/tesis.tex" 1743707159 14006 9f12bea4ec2e8e0ec2e13cc4df9ed344 ""
   "images_repo/esanlogomin.png" 1743530536 44054 5686aaa912c5c911c9912422804fbdf6 ""
-  "tesis.aux" 1743865635 76235 ea3047390140d3d90beb5e113e84acb9 "pdflatex"
-  "tesis.bbl" 1743865455 207100 4684f7fdfe61701374b03cda373818de "biber tesis"
-  "tesis.equ" 1743865627 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tesis.loa" 1743865627 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tesis.lof" 1743865635 2633 80ca49113c162de1c920a4bf1fba32e0 "pdflatex"
-  "tesis.lot" 1743865635 570 1178c827dc66859cd1a823ca888f9f70 "pdflatex"
-  "tesis.out" 1743865635 21747 b01b98f6499082046122f8ffb8089bb7 "pdflatex"
-  "tesis.run.xml" 1743865635 2407 abd49b23619a5865ba13eeb8aa920da5 "pdflatex"
+  "tesis.aux" 1743867746 77390 f1e6623d9c87895b5bec4a0e9a94877e "pdflatex"
+  "tesis.bbl" 1743867734 210956 1e9286373d69447244720f4a9361bdd2 "biber tesis"
+  "tesis.equ" 1743867739 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tesis.loa" 1743867739 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tesis.lof" 1743867746 2783 7313188f2f35c99c8185b623d481e5f5 "pdflatex"
+  "tesis.lot" 1743867746 570 4f467621e1bd5835bbcc95a078c3755b "pdflatex"
+  "tesis.out" 1743867746 21747 1613662f465701fa18c0f960a0bf4b9c "pdflatex"
+  "tesis.run.xml" 1743867746 2407 abd49b23619a5865ba13eeb8aa920da5 "pdflatex"
   "tesis.tex" 1743707159 14006 9f12bea4ec2e8e0ec2e13cc4df9ed344 ""
-  "tesis.toc" 1743865635 9599 4e9480c11f75ce5a4e666d34ddcd4d36 "pdflatex"
+  "tesis.toc" 1743867746 9599 3d61729aba381337a8392620a5d6ffca "pdflatex"
   (generated)
   "tesis.aux"
   "tesis.bcf"
