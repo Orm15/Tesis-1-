@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber tesis"] 1743960062.78476 "tesis.bcf" "tesis.bbl" "tesis" 1743960792.14294 0
+["biber tesis"] 1743963732.25269 "tesis.bcf" "tesis.bbl" "tesis" 1743963763.35319 0
   "biblio/references.bib" 1743960055 31520 69da93495a1060ed9bfe823569bc0b8c ""
-  "tesis.bcf" 1743960790 144601 c34a71da0fbf310c15793b8c1132708e "pdflatex"
+  "tesis.bcf" 1743963761 145288 ef7ad5b75c5d41a2a4469699b060624d "pdflatex"
   (generated)
   "tesis.bbl"
   "tesis.blg"
   (rewritten before read)
-["pdflatex"] 1743960778.36651 "c:/Users/DELL/Desktop/Tesis/Tesis-1-/tesis.tex" "tesis.pdf" "tesis" 1743960792.14623 0
+["pdflatex"] 1743963752.03685 "c:/Users/DELL/Desktop/Tesis/Tesis-1-/tesis.tex" "tesis.pdf" "tesis" 1743963763.35629 0
   "0/agradecimientos.tex" 1743530566 143 a5ca4259ceb6a257936d6c5796fd3947 ""
   "0/aprobacion.tex" 1743883755 521 253d70a1d4589a4fbb193e9e18b55b93 ""
   "0/introduccion.tex" 1743530536 2047 92a0f60fdf981fcd760720bf9018e6e3 ""
@@ -16,8 +16,8 @@
   "1/figures/cap1global.png" 1743884397 29575 ba082c8fc01f9b164dda2bd783ea5e09 ""
   "1/figures/cap1usa.png" 1743884409 31378 59eddc345a2f06d12486c29a264a85dc ""
   "1/figures/careperu.jpg" 1743958353 59940 3646ddd965d9136782cf93029557767f ""
-  "1/planteamiento.tex" 1743960776 20889 46e97793cd7b27f36bf111c15c273283 ""
-  "2/1_antecedentes/antecedentes.tex" 1743884609 32039 4ca1939bd10cefa0c68fd17e54e7f3c9 ""
+  "1/planteamiento.tex" 1743960799 20889 46e97793cd7b27f36bf111c15c273283 ""
+  "2/1_antecedentes/antecedentes.tex" 1743963741 24074 cb0bda5315ed17a82add3d48287a7a36 ""
   "2/2_teoria/base_teo.tex" 1743881750 42495 fee5dbf1a1e26b631216712298d5c548 ""
   "2/3_conceptos/marc_conceptual.tex" 1743881751 11386 655472d912c727bf25c6c9c2f2099abd ""
   "2/4_hipotesis/hipotesis.tex" 1743530536 1551 f976c057f1773837b625fb658fbc6200 ""
@@ -29,6 +29,8 @@
   "2/figures/flowchart.png" 1743642282 125170 1c53fc5f1947dd97111593c122cf0d38 ""
   "2/figures/kmeans.png" 1743707997 9715 663bb9d5ba081cf8551c0fac4b109dec ""
   "2/figures/metoart9.png" 1743867627 92997 7406a12a8881cd1f8aacbe41afa06435 ""
+  "2/figures/resant1.png" 1743961918 287196 4c40db10aead24aba142e2b4ae99f67d ""
+  "2/figures/resant2.png" 1743962809 102088 eee03c45a6dd10565019ba9a53fb3e2e ""
   "2/figures/resultados de cuarto anteedente.png" 1743530536 39809 6f6c40559cb86beca975f047d2e2fe74 ""
   "2/figures/segmentation1.png" 1743642366 110164 fa0638da6179c626fae144aced3e3e40 ""
   "2/figures/softres1.png" 1743795525 203508 3d1a0e41fb55b9be1dc9fa059335a2e6 ""
@@ -248,16 +250,16 @@
   "anexos/arb_problemas.jpg" 1743530536 107817 c21b2c3e79d2648517ae4c89861359e3 ""
   "c:/Users/DELL/Desktop/Tesis/Tesis-1-/tesis.tex" 1743958976 14027 6c1a2cb3cd2da291775828a1d027e472 ""
   "images_repo/esanlogomin.png" 1743530536 44054 5686aaa912c5c911c9912422804fbdf6 ""
-  "tesis.aux" 1743960790 70193 fc933c9e3140e8c14dbb7a7bb520a2b8 "pdflatex"
-  "tesis.bbl" 1743960070 193557 0ff87fbad04d9c8cab87b450a5beb38e "biber tesis"
-  "tesis.equ" 1743960782 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tesis.loa" 1743960782 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tesis.lof" 1743960790 2554 b97695d8767e7a2af3a8099d4628f65c "pdflatex"
-  "tesis.lot" 1743960790 236 b430b7ef1802dfcafebe839f5f4e9516 "pdflatex"
-  "tesis.out" 1743960790 19398 f13ad4af37982869e49c0808b7529ddc "pdflatex"
-  "tesis.run.xml" 1743960790 2407 abd49b23619a5865ba13eeb8aa920da5 "pdflatex"
+  "tesis.aux" 1743963761 73331 7ad3986244d1c6d2ecb4c7a9a488619d "pdflatex"
+  "tesis.bbl" 1743963737 193557 0ff87fbad04d9c8cab87b450a5beb38e "biber tesis"
+  "tesis.equ" 1743963756 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tesis.loa" 1743963756 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tesis.lof" 1743963761 2883 307408a4fcf57dbe8edf28edff67ae7a "pdflatex"
+  "tesis.lot" 1743963761 236 45a5724f1e485930bc44ea13da1216bf "pdflatex"
+  "tesis.out" 1743963761 20150 f3f356cd15879d081c856ee001e003f2 "pdflatex"
+  "tesis.run.xml" 1743963761 2407 abd49b23619a5865ba13eeb8aa920da5 "pdflatex"
   "tesis.tex" 1743958976 14027 6c1a2cb3cd2da291775828a1d027e472 ""
-  "tesis.toc" 1743960790 8652 e93a9a98af5288f153d66f1a964288a4 "pdflatex"
+  "tesis.toc" 1743963761 9370 7efeb48700a964afd5d70ad12ae5edf1 "pdflatex"
   (generated)
   "tesis.aux"
   "tesis.bcf"
