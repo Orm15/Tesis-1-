@@ -120,6 +120,41 @@
       \verb 10.1016/j.cosmed.2021.03.001
       \endverb
     \endentry
+    \entry{autor2021deeplab}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9dddfcfd529634a150ee38ee5c0203d7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Liang-Chieh},
+           giveni={L\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{fullhash}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{fullhashraw}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{bibnamehash}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{authorbibnamehash}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{authornamehash}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{authorfullhash}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{authorfullhashraw}{9dddfcfd529634a150ee38ee5c0203d7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{number}{4}
+      \field{title}{DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs}
+      \field{volume}{40}
+      \field{year}{2021}
+      \field{pages}{834\bibrangedash 848}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/TPAMI.2017.2699184
+      \endverb
+    \endentry
     \entry{chuchu2020}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e3bf71115c9da84dcbd4134906987eb9}{%
@@ -803,6 +838,48 @@
       \field{pages}{2606\bibrangedash 2614}
       \range{pages}{9}
     \endentry
+    \entry{bk_kamath2019deeplearning_nlp_sr}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1cfc30479d29622a456cfefbcbdf6fa3}{%
+           family={Kamath},
+           familyi={K\bibinitperiod},
+           given={Uday},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43b0dce2cc8966238118a2bec6068e52}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0ab2cb08ed94aa242262cef31788bcb}{%
+           family={Whitaker},
+           familyi={W\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{833301448c7c5c65ed3aafb1cfd401dd}
+      \strng{fullhash}{ed948ed3d6f5cbfb413490904762ee41}
+      \strng{fullhashraw}{ed948ed3d6f5cbfb413490904762ee41}
+      \strng{bibnamehash}{ed948ed3d6f5cbfb413490904762ee41}
+      \strng{authorbibnamehash}{ed948ed3d6f5cbfb413490904762ee41}
+      \strng{authornamehash}{833301448c7c5c65ed3aafb1cfd401dd}
+      \strng{authorfullhash}{ed948ed3d6f5cbfb413490904762ee41}
+      \strng{authorfullhashraw}{ed948ed3d6f5cbfb413490904762ee41}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep Learning for NLP and Speech Recognition}
+      \field{year}{2019}
+    \endentry
     \entry{karshiev2020improved}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=028ff361ef266e23e1505bdcf8188b61}{%
@@ -1162,6 +1239,35 @@
       \verb 10.1111/jocd.13370
       \endverb
     \endentry
+    \entry{autor2022cnn}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=dd12628ece2c2bcccc0e876cbeafa9c9}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{fullhash}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{fullhashraw}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{bibnamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{authorbibnamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{authornamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{authorfullhash}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{authorfullhashraw}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Convolutional Neural Networks: Theory and Practice}
+      \field{year}{2022}
+    \endentry
     \entry{mohammadi2019}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1471,6 +1577,7 @@
       \strng{translatornamehash}{34c5a49e0dcd6a713494d87de76112f4}
       \strng{translatorfullhash}{1cb6e05e9397c6f5bbf497c05c49a517}
       \strng{translatorfullhashraw}{1cb6e05e9397c6f5bbf497c05c49a517}
+      \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -1489,6 +1596,46 @@
       \verb{url}
       \verb https://luismejias21.files.wordpress.com/2017/09/inteligencia-artificial-un-enfoque-moderno-stuart-j-russell.pdf
       \endverb
+    \endentry
+    \entry{bk_russell2009intart}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhashraw}{b280605b721b4ebcba5395298499f924}
+      \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhashraw}{b280605b721b4ebcba5395298499f924}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Inteligencia Artificial: Un Enfoque Moderno}
+      \field{year}{2009}
+      \field{pages}{229}
+      \range{pages}{1}
     \endentry
     \entry{tec_sancho2018supnosup}{report}{}{}
       \name{author}{1}{}{%
@@ -1591,6 +1738,36 @@
       \verb{url}
       \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
       \endverb
+    \endentry
+    \entry{autor2020segmentacion}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d0ddda3a367ceb26fbaeca02e391c22}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{fullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{fullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{bibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authorbibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authornamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authorfullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authorfullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Image Segmentation in Computer Vision}
+      \field{year}{2020}
     \endentry
     \entry{sorensen1948}{article}{}{}
       \name{author}{1}{}{%
@@ -1919,55 +2096,16 @@
       \verb 10.1109/TNN.2021.3051234
       \endverb
     \endentry
-    \entry{autor2020poros}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=a753993c6afc6bfea114ea4114b2e619}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Hui},
-           giveni={H\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=bc20e54573d2db853852f86802ab83de}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Jun},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{fullhash}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{fullhashraw}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{bibnamehash}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{authorbibnamehash}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{authornamehash}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{authorfullhash}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{authorfullhashraw}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Dermatological Research and Practice}
-      \field{title}{Pore Detection and Analysis in Facial Skin Imaging}
-      \field{volume}{2020}
-      \field{year}{2020}
-      \field{pages}{5\bibrangedash 14}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1155/2020/7567894
-      \endverb
-    \endentry
     \entry{wang2018}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=a3b7a6d0a38d8c1563b93335d38a2429}{%
+        {{un=0,uniquepart=base,hash=a3b7a6d0a38d8c1563b93335d38a2429}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Xie},
            giveni={X\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=4f2458846f341e8178b36da7e92733b0}{%
            family={Wu},
            familyi={W\bibinitperiod},
@@ -1987,6 +2125,7 @@
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}
@@ -2390,6 +2529,41 @@
       \verb 10.1016/j.cosmed.2021.03.001
       \endverb
     \endentry
+    \entry{autor2021deeplab}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9dddfcfd529634a150ee38ee5c0203d7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Liang-Chieh},
+           giveni={L\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{fullhash}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{fullhashraw}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{bibnamehash}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{authorbibnamehash}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{authornamehash}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{authorfullhash}{9dddfcfd529634a150ee38ee5c0203d7}
+      \strng{authorfullhashraw}{9dddfcfd529634a150ee38ee5c0203d7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{number}{4}
+      \field{title}{DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs}
+      \field{volume}{40}
+      \field{year}{2021}
+      \field{pages}{834\bibrangedash 848}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/TPAMI.2017.2699184
+      \endverb
+    \endentry
     \entry{chuchu2020}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e3bf71115c9da84dcbd4134906987eb9}{%
@@ -3073,6 +3247,48 @@
       \field{pages}{2606\bibrangedash 2614}
       \range{pages}{9}
     \endentry
+    \entry{bk_kamath2019deeplearning_nlp_sr}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1cfc30479d29622a456cfefbcbdf6fa3}{%
+           family={Kamath},
+           familyi={K\bibinitperiod},
+           given={Uday},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43b0dce2cc8966238118a2bec6068e52}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0ab2cb08ed94aa242262cef31788bcb}{%
+           family={Whitaker},
+           familyi={W\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{833301448c7c5c65ed3aafb1cfd401dd}
+      \strng{fullhash}{ed948ed3d6f5cbfb413490904762ee41}
+      \strng{fullhashraw}{ed948ed3d6f5cbfb413490904762ee41}
+      \strng{bibnamehash}{ed948ed3d6f5cbfb413490904762ee41}
+      \strng{authorbibnamehash}{ed948ed3d6f5cbfb413490904762ee41}
+      \strng{authornamehash}{833301448c7c5c65ed3aafb1cfd401dd}
+      \strng{authorfullhash}{ed948ed3d6f5cbfb413490904762ee41}
+      \strng{authorfullhashraw}{ed948ed3d6f5cbfb413490904762ee41}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep Learning for NLP and Speech Recognition}
+      \field{year}{2019}
+    \endentry
     \entry{karshiev2020improved}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=028ff361ef266e23e1505bdcf8188b61}{%
@@ -3432,6 +3648,35 @@
       \verb 10.1111/jocd.13370
       \endverb
     \endentry
+    \entry{autor2022cnn}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=dd12628ece2c2bcccc0e876cbeafa9c9}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{fullhash}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{fullhashraw}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{bibnamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{authorbibnamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{authornamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{authorfullhash}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \strng{authorfullhashraw}{dd12628ece2c2bcccc0e876cbeafa9c9}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Convolutional Neural Networks: Theory and Practice}
+      \field{year}{2022}
+    \endentry
     \entry{mohammadi2019}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -3741,6 +3986,7 @@
       \strng{translatornamehash}{34c5a49e0dcd6a713494d87de76112f4}
       \strng{translatorfullhash}{1cb6e05e9397c6f5bbf497c05c49a517}
       \strng{translatorfullhashraw}{1cb6e05e9397c6f5bbf497c05c49a517}
+      \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -3759,6 +4005,46 @@
       \verb{url}
       \verb https://luismejias21.files.wordpress.com/2017/09/inteligencia-artificial-un-enfoque-moderno-stuart-j-russell.pdf
       \endverb
+    \endentry
+    \entry{bk_russell2009intart}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhashraw}{b280605b721b4ebcba5395298499f924}
+      \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhashraw}{b280605b721b4ebcba5395298499f924}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Inteligencia Artificial: Un Enfoque Moderno}
+      \field{year}{2009}
+      \field{pages}{229}
+      \range{pages}{1}
     \endentry
     \entry{tec_sancho2018supnosup}{report}{}{}
       \name{author}{1}{}{%
@@ -3861,6 +4147,36 @@
       \verb{url}
       \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
       \endverb
+    \endentry
+    \entry{autor2020segmentacion}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d0ddda3a367ceb26fbaeca02e391c22}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{fullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{fullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{bibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authorbibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authornamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authorfullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \strng{authorfullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Image Segmentation in Computer Vision}
+      \field{year}{2020}
     \endentry
     \entry{sorensen1948}{article}{}{}
       \name{author}{1}{}{%
@@ -4189,55 +4505,16 @@
       \verb 10.1109/TNN.2021.3051234
       \endverb
     \endentry
-    \entry{autor2020poros}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=a753993c6afc6bfea114ea4114b2e619}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Hui},
-           giveni={H\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=bc20e54573d2db853852f86802ab83de}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Jun},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{fullhash}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{fullhashraw}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{bibnamehash}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{authorbibnamehash}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{authornamehash}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{authorfullhash}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \strng{authorfullhashraw}{d4557b7dfb6ea4d8af563fe725f0bfa1}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Dermatological Research and Practice}
-      \field{title}{Pore Detection and Analysis in Facial Skin Imaging}
-      \field{volume}{2020}
-      \field{year}{2020}
-      \field{pages}{5\bibrangedash 14}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1155/2020/7567894
-      \endverb
-    \endentry
     \entry{wang2018}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=a3b7a6d0a38d8c1563b93335d38a2429}{%
+        {{un=0,uniquepart=base,hash=a3b7a6d0a38d8c1563b93335d38a2429}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Xie},
            giveni={X\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=4f2458846f341e8178b36da7e92733b0}{%
            family={Wu},
            familyi={W\bibinitperiod},
@@ -4257,6 +4534,7 @@
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}
@@ -4558,11 +4836,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{autor2020imagen}
-  \missing{autor2021deep}
-  \missing{autor2022senet}
-  \missing{bk_kamath2019deeplearning_nlp_sr}
-  \missing{bk_russell2009intart}
 \endrefsection
 \endinput
 
