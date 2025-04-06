@@ -461,6 +461,41 @@ INPUT .\1\planteamiento.tex
 INPUT .\1\planteamiento.tex
 INPUT .\1\planteamiento.tex
 INPUT 1\planteamiento.tex
+INPUT .\1\figures\GlobalSkinCareProductsMarket.jpg
+INPUT .\1\figures\GlobalSkinCareProductsMarket.jpg
+INPUT .\1\figures\GlobalSkinCareProductsMarket.jpg
+INPUT .\1\figures\GlobalSkinCareProductsMarket.jpg
+INPUT .\1\figures\GlobalSkinCareProductsMarket.jpg
+INPUT .\1\figures\GlobalSkinCareProductsMarket.jpg
+INPUT .\1\figures\GlobalSkinCareProductsMarket.jpg
+INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
+INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
+INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
+INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
+INPUT .\1\figures\cap1global.png
+INPUT .\1\figures\cap1global.png
+INPUT .\1\figures\cap1global.png
+INPUT .\1\figures\cap1global.png
+INPUT .\1\figures\cap1global.png
+INPUT .\1\figures\cap1global.png
+INPUT .\1\figures\cap1global.png
+INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
+INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
+INPUT .\1\figures\cap1usa.png
+INPUT .\1\figures\cap1usa.png
+INPUT .\1\figures\cap1usa.png
+INPUT .\1\figures\cap1usa.png
+INPUT .\1\figures\cap1usa.png
+INPUT .\1\figures\cap1usa.png
+INPUT .\1\figures\cap1usa.png
+INPUT .\1\figures\careperu.jpg
+INPUT .\1\figures\careperu.jpg
+INPUT .\1\figures\careperu.jpg
+INPUT .\1\figures\careperu.jpg
+INPUT .\1\figures\careperu.jpg
+INPUT .\1\figures\careperu.jpg
+INPUT .\1\figures\careperu.jpg
 INPUT .\2\marco.tex
 INPUT .\2\marco.tex
 INPUT .\2\marco.tex
@@ -473,38 +508,10 @@ INPUT .\2\1_antecedentes\antecedentes.tex
 INPUT 2\1_antecedentes\antecedentes.tex
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT .\2\figures\antecedente 1 resultados.png
-INPUT .\2\figures\antecedente 1 resultados.png
-INPUT .\2\figures\antecedente 1 resultados.png
-INPUT .\2\figures\antecedente 1 resultados.png
-INPUT .\2\figures\antecedente 1 resultados.png
-INPUT .\2\figures\antecedente 1 resultados.png
-INPUT .\2\figures\antecedente 1 resultados.png
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
-INPUT .\2\figures\ant3_1.png
-INPUT .\2\figures\ant3_1.png
-INPUT .\2\figures\ant3_1.png
-INPUT .\2\figures\ant3_1.png
-INPUT .\2\figures\ant3_1.png
-INPUT .\2\figures\ant3_1.png
-INPUT .\2\figures\ant3_1.png
-INPUT .\2\figures\ant3_2.png
-INPUT .\2\figures\ant3_2.png
-INPUT .\2\figures\ant3_2.png
-INPUT .\2\figures\ant3_2.png
-INPUT .\2\figures\ant3_2.png
-INPUT .\2\figures\ant3_2.png
-INPUT .\2\figures\ant3_2.png
 INPUT .\2\figures\resultados de cuarto anteedente.png
 INPUT .\2\figures\resultados de cuarto anteedente.png
 INPUT .\2\figures\resultados de cuarto anteedente.png
@@ -545,13 +552,6 @@ INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
-INPUT .\2\figures\propose7.png
-INPUT .\2\figures\propose7.png
-INPUT .\2\figures\propose7.png
-INPUT .\2\figures\propose7.png
-INPUT .\2\figures\propose7.png
-INPUT .\2\figures\propose7.png
-INPUT .\2\figures\propose7.png
 INPUT .\2\figures\softres1.png
 INPUT .\2\figures\softres1.png
 INPUT .\2\figures\softres1.png
@@ -612,34 +612,6 @@ INPUT .\2\figures\deeplearning_machinelearning2.jpg
 INPUT .\2\figures\deeplearning_machinelearning2.jpg
 INPUT .\2\figures\deeplearning_machinelearning2.jpg
 INPUT .\2\figures\deeplearning_machinelearning2.jpg
-INPUT .\2\figures\multimodal_network.png
-INPUT .\2\figures\multimodal_network.png
-INPUT .\2\figures\multimodal_network.png
-INPUT .\2\figures\multimodal_network.png
-INPUT .\2\figures\multimodal_network.png
-INPUT .\2\figures\multimodal_network.png
-INPUT .\2\figures\multimodal_network.png
-INPUT .\2\figures\multimodal_deep_learning_example.jpg
-INPUT .\2\figures\multimodal_deep_learning_example.jpg
-INPUT .\2\figures\multimodal_deep_learning_example.jpg
-INPUT .\2\figures\multimodal_deep_learning_example.jpg
-INPUT .\2\figures\multimodal_deep_learning_example.jpg
-INPUT .\2\figures\multimodal_deep_learning_example.jpg
-INPUT .\2\figures\multimodal_deep_learning_example.jpg
-INPUT .\2\figures\modelosdedifusion.jpg
-INPUT .\2\figures\modelosdedifusion.jpg
-INPUT .\2\figures\modelosdedifusion.jpg
-INPUT .\2\figures\modelosdedifusion.jpg
-INPUT .\2\figures\modelosdedifusion.jpg
-INPUT .\2\figures\modelosdedifusion.jpg
-INPUT .\2\figures\modelosdedifusion.jpg
-INPUT .\2\figures\autocodificadoresvariacionales.png
-INPUT .\2\figures\autocodificadoresvariacionales.png
-INPUT .\2\figures\autocodificadoresvariacionales.png
-INPUT .\2\figures\autocodificadoresvariacionales.png
-INPUT .\2\figures\autocodificadoresvariacionales.png
-INPUT .\2\figures\autocodificadoresvariacionales.png
-INPUT .\2\figures\autocodificadoresvariacionales.png
 INPUT .\2\figures\cnn_nlp.png
 INPUT .\2\figures\cnn_nlp.png
 INPUT .\2\figures\cnn_nlp.png
@@ -647,27 +619,6 @@ INPUT .\2\figures\cnn_nlp.png
 INPUT .\2\figures\cnn_nlp.png
 INPUT .\2\figures\cnn_nlp.png
 INPUT .\2\figures\cnn_nlp.png
-INPUT .\2\figures\redgan.jpg
-INPUT .\2\figures\redgan.jpg
-INPUT .\2\figures\redgan.jpg
-INPUT .\2\figures\redgan.jpg
-INPUT .\2\figures\redgan.jpg
-INPUT .\2\figures\redgan.jpg
-INPUT .\2\figures\redgan.jpg
-INPUT .\2\figures\redgan2.jpg
-INPUT .\2\figures\redgan2.jpg
-INPUT .\2\figures\redgan2.jpg
-INPUT .\2\figures\redgan2.jpg
-INPUT .\2\figures\redgan2.jpg
-INPUT .\2\figures\redgan2.jpg
-INPUT .\2\figures\redgan2.jpg
-INPUT .\2\figures\redgan3.jpg
-INPUT .\2\figures\redgan3.jpg
-INPUT .\2\figures\redgan3.jpg
-INPUT .\2\figures\redgan3.jpg
-INPUT .\2\figures\redgan3.jpg
-INPUT .\2\figures\redgan3.jpg
-INPUT .\2\figures\redgan3.jpg
 INPUT .\2\3_conceptos\marc_conceptual.tex
 INPUT .\2\3_conceptos\marc_conceptual.tex
 INPUT .\2\3_conceptos\marc_conceptual.tex

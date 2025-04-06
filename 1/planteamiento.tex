@@ -1,36 +1,76 @@
 \chapter{Planteamiento del Problema}
 \section{Descripción de la Realidad Problemática}
 
-La industria cosmética y de cuidado de la piel ha visto un crecimiento exponencial en las últimas décadas. Según datos de Statista, el mercado global de productos para el cuidado de la piel superó los 130 mil millones de dólares en 2023, con una tasa de crecimiento anual compuesta de aproximadamente el 0,045 \parencite{statista2023}. Este auge refleja la creciente demanda por soluciones que permitan a los consumidores mejorar su apariencia, retardar los signos del envejecimiento y solucionar problemas estéticos como las arrugas, los poros dilatados y las manchas faciales.
+La industria global de cuidado de la piel ha experimentado un crecimiento sostenido en los últimos años, como se puede ver en la Figura \ref{1:fig1}. En 2023, se estimó que el mercado mundial generó ingresos de aproximadamente 181.2 mil millones de dólares estadounidenses, con proyecciones que indican un aumento a más de 210 mil millones para 2028 . Este crecimiento refleja una tasa compuesta anual significativa, impulsada por la creciente conciencia sobre la importancia del cuidado de la piel y la demanda de productos innovadores. \parencite{databridge2024}
 
-A pesar de la variedad de productos y tratamientos disponibles en el mercado, persisten varios desafíos relacionados con la evaluación precisa y personalizada de los problemas de la piel. Uno de los mayores obstáculos en la actualidad es la falta de herramientas tecnológicas que permitan realizar un análisis profundo y cuantitativo de las características morfológicas de la piel. Problemas como las arrugas, los poros dilatados y las manchas son difíciles de evaluar de manera objetiva, ya que la mayoría de los diagnósticos aún dependen de la observación manual o de sistemas de análisis que no logran captar las sutilezas y complejidades de la piel facial \parencite{phillips2020}.
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{1/figures/GlobalSkinCareProductsMarket.jpg}
+		\caption[Mercado mundial de productos para el cuidado de la piel: tendencias de la industria y pronóstico hasta 2031]{Mercado mundial de productos para el cuidado de la piel: tendencias de la industria y pronóstico hasta 2031.\\
+			Fuente: \cite{databridge2024}. \citetitle{databridge2024}.}
+		\label{1:fig1}
+	\end{center}
+\end{figure}
 
-La precisión en la detección de estas características es crucial para el desarrollo de tratamientos más efectivos. Por ejemplo, la identificación temprana de las arrugas incipientes permitiría la aplicación de productos antiarrugas de manera preventiva, antes de que las líneas se profundicen. Sin embargo, las evaluaciones actuales a menudo son subjetivas y pueden variar según el profesional o las herramientas utilizadas. En este sentido, estudios recientes han demostrado que las redes neuronales convolucionales (CNN) tienen el potencial de revolucionar la manera en que se realiza la segmentación y análisis de imágenes de piel \parencite{esteva2017}. Estas redes permiten procesar grandes volúmenes de datos visuales y detectar patrones morfológicos con un nivel de precisión que supera las técnicas tradicionales.
+Dentro de este mercado, el segmento de cuidado facial representa la mayor proporción de ingresos, como se puede ver en la Figura \ref{1:fig2}alcanzando aproximadamente 108.94 mil millones de dólares en 2023 . Este segmento incluye productos como cremas hidratantes, sueros antiarrugas y tratamientos despigmentantes, dirigidos a abordar preocupaciones estéticas como arrugas dilatados y manchas faciales. \parencite{statista2023segment}
 
-Otro desafío significativo es la evaluación de poros y manchas. Los poros dilatados son una preocupación estética común, especialmente entre personas con piel grasa. La falta de herramientas capaces de cuantificar y analizar adecuadamente el tamaño y la densidad de los poros limita las recomendaciones de tratamiento personalizadas \parencite{jia2019}. De manera similar, las manchas faciales, que pueden aparecer debido a la edad, la exposición solar o factores hormonales, requieren una evaluación temprana para evitar su progresión. Las CNN, al especializarse en la segmentación de imágenes, pueden proporcionar una solución eficaz para mapear la distribución y evolución de estas imperfecciones cutáneas \parencite{esteva2017}.
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{1/figures/cap1global.png}
+		\caption[Ingresos del mercado mundial del cuidado de la piel de 2020 a 2030 (en millones de dólares estadounidenses)]{Ingresos del mercado mundial del cuidado de la piel de 2020 a 2030 (en millones de dólares estadounidenses).\\
+			Fuente: \cite{statista2023global}. \citetitle{statista2023global}.}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
 
-Estadísticamente, se ha encontrado que más del 0,7 de las personas mayores de 25 años muestran algún signo de envejecimiento facial, como arrugas y manchas, lo que impulsa la demanda de productos antiarrugas y despigmentantes \parencite{aad2022}. Sin embargo, el éxito de estos productos depende en gran medida de una evaluación precisa del estado de la piel. Actualmente, los diagnósticos imprecisos o subjetivos pueden llevar a la aplicación de productos inapropiados, lo que no solo afecta la satisfacción del consumidor, sino que también reduce la efectividad de los tratamientos \parencite{khatri2018}.
+Estados Unidos se posiciona como el mercado más lucrativo en la industria del cuidado de la piel. En 2023, el mercado estadounidense generó ingresos cercanos a 24 mil millones de dólares, superando a otros países como Japón y China . Se proyecta que para 2025, los ingresos alcancen los 26.01 mil millones de dólares, con una tasa de crecimiento anual compuesta del 4.53\% entre 2025 y 2029. \parencite{statista2023us}
 
-Este contexto evidencia la necesidad urgente de desarrollar tecnologías avanzadas que mejoren la precisión en la evaluación estética de la piel. Las redes neuronales convolucionales ofrecen una herramienta prometedora para abordar este problema, al permitir una segmentación detallada de las características morfológicas clave de la piel, como arrugas, poros y manchas. El uso de estas tecnologías no solo permitiría mejorar los diagnósticos estéticos, sino que también contribuiría a la creación de tratamientos personalizados más efectivos, incrementando la satisfacción del usuario final.
+El segmento de cuidado facial domina el mercado estadounidense, lo podemos ver en la Figura \ref{1:fig3}, representando la mayor parte de las ventas. En 2023, las ventas de productos para el cuidado de la piel en Estados Unidos superaron los 23.5 mil millones de dólares, con el segmento facial contribuyendo significativamente a esta cifra. \parencite{statista2025usforecast}
 
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{1/figures/cap1usa.png}
+		\caption[Ingresos del mercado del cuidado de la piel en Estados Unidos de 2019 a 2030 (en millones de dólares estadounidenses)]{Ingresos del mercado del cuidado de la piel en Estados Unidos de 2019 a 2030 (en millones de dólares estadounidenses).\\
+			Fuente: \cite{statista2023us}. \citetitle{statista2023us}.}
+		\label{1:fig3}
+	\end{center}
+\end{figure}
 
+El mercado peruano de belleza y cuidado personal también ha mostrado un crecimiento notable. En 2023, se estimó que el mercado generó ingresos de aproximadamente 2.94 mil millones de dólares, con una tasa de crecimiento anual compuesta proyectada del 4.60\% . Dentro de este mercado, el segmento de cuidado personal, que incluye productos para el cuidado de la piel, representa una proporción significativa, con un volumen estimado de 1.72 mil millones de dólares en 2025. \parencite{statista2023peru}
+
+En el Perú, el mercado de belleza y cuidado personal ha mostrado un crecimiento sostenido, como se ve en la Infografía de la Figura \ref{1:fig4}, alcanzando los 2,240 millones de soles en ventas durante 2023, con proyecciones favorables para los próximos años, según datos proporcionados por la Cámara de Comercio de Lima (CCL). Este comportamiento refleja una creciente preocupación de los consumidores por el cuidado estético, especialmente en segmentos como el cuidado facial y productos anti-edad. \parencite{elperuano2025belleza}
+
+\begin{figure}[!ht]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{1/figures/careperu.jpg}
+		\caption[Infografía de la Proyección del Mercado Cosmético e Higiene Personal en Perú]{Infografía de la Proyección del Mercado Cosmético e Higiene Personal en Perú.\\
+			Fuente: \cite{elperuano2025belleza}. \citetitle{elperuano2025belleza}.}
+		\label{1:fig4}
+	\end{center}
+\end{figure}
+
+A pesar de la amplia disponibilidad de productos y tratamientos, persisten desafíos en la evaluación precisa y personalizada de problemas cutáneos. La falta de herramientas tecnológicas avanzadas dificulta el análisis cuantitativo de características morfológicas de la piel, como arrugas y manchas. Actualmente, muchos diagnósticos dependen de observaciones manuales, lo que puede llevar a evaluaciones subjetivas y tratamientos menos efectivos. \parencite{esteva2017}
+
+Investigaciones recientes han demostrado el potencial de las redes neuronales convolucionales (CNN) en la clasificación y análisis de imágenes de la piel. Un estudio destacado por Andre Esteva y colaboradores utilizó una base de datos de 129,450 imágenes clínicas para entrenar una CNN capaz de clasificar lesiones cutáneas con una precisión comparable a la de dermatólogos certificados . Este avance sugiere que las CNN pueden ser herramientas valiosas para mejorar la precisión en la evaluación de características cutáneas y el desarrollo de tratamientos personalizados. \parencite{clevelandclinic2023}
+
+El envejecimiento de la piel es una preocupación común entre adultos jóvenes. Según la Clínica Cleveland, las líneas finas pueden comenzar a aparecer después de los 25 años, y las arrugas se vuelven más prominentes entre los 40 y 55 años . Además, un estudio en Corea del Sur encontró que el 33\% de los adultos jóvenes presentaban algún grado de arrugas faciales, porcentaje que aumentaba al 87.8\% en personas de mediana edad y al 100\% en adultos mayores. \parencite{lee2008}
 
 \section{Formulación del Problema}
 
 \subsection{Problema General}
 PG: \newcommand{\ProblemaGeneral}{
-¿Cómo afecta la falta de un sistema de segmentación  de características morfológicas de la piel facial en la detección de arrugas, poros y manchas?
+¿Es posible que una técnica de CNN pueda segmentar características morfológicas en la Piel del Rostro?
 }
 \ProblemaGeneral
 \subsection{Problemas Específicos}
 \newcommand{\Pbone}{
-¿Cómo se medirá la eficiencia del sistema de segmentación morfológica en la detección de arrugas, poros y manchas?
+¿De dónde se obtendrá la data para entrenar y validar el sistema de segmentación?
 }
 \newcommand{\Pbtwo}{
 ¿Cómo se desarrollará el sistema de segmentación basado en redes neuronales convolucionales (CNN)?
 }
 \newcommand{\Pbthree}{
-¿De dónde se obtendrá la data para entrenar y validar el sistema de segmentación?
+¿Cómo se medirá la eficiencia del sistema de segmentación morfológica en la detección de arrugas y manchas?
 }
 
 \newcommand{\Pbfour}{
@@ -48,23 +88,24 @@ PG: \newcommand{\ProblemaGeneral}{
 A continuación, se presentan el objetivo general y los objetivos específicos.
 \subsection{Objetivo General}
 OG: \newcommand{\ObjetivoGeneral}{
-	Desarrollar un sistema avanzado de segmentación de características morfológicas en imágenes de piel facial, centrado en arrugas, poros y manchas, utilizando redes neuronales convolucionales para mejorar la precisión en la evaluación estética y la personalización de tratamientos cosméticos.
+	Desarrollar un sistema avanzado de segmentación de características morfológicas en imágenes de piel facial, centrado en arrugas y manchas, utilizando redes neuronales convolucionales para mejorar la precisión en la evaluación estética y la personalización de tratamientos cosméticos.
 }
 \ObjetivoGeneral
 \subsection{Objetivos Específicos}
 \newcommand{\Objone}{
-Desarrollar métricas de evaluación como precisión, recall, F1-score y AUC-ROC para medir la eficiencia del sistema de segmentación en la identificación de características morfológicas de la piel facial.
+Recopilar y preparar un conjunto de datos de imágenes faciales, asegurando que contenga suficiente variedad en términos de diferentes tipos de piel y problemas cutáneos (arrugas y manchas), para entrenar y validar el sistema de segmentación.
 }
 
 \newcommand{\Objtwo}{
-Desarrollar e implementar un sistema de segmentación utilizando redes neuronales convolucionales, adaptando sus arquitecturas para la detección y diferenciación de características morfológicas de la piel como arrugas, poros y manchas.
+Desarrollar e implementar un sistema de segmentación utilizando redes neuronales convolucionales, adaptando sus arquitecturas para la detección y diferenciación de características morfológicas de la piel como arrugas y manchas.
 }
 
 \newcommand{\Objthree}{
-Recopilar y preparar un conjunto de datos de imágenes faciales, asegurando que contenga suficiente variedad en términos de diferentes tipos de piel y problemas cutáneos (arrugas, poros y manchas), para entrenar y validar el sistema de segmentación.
+Desarrollar métricas de evaluación como precisión, recall, F1-score y AUC-ROC para medir la eficiencia del sistema de segmentación en la identificación de características morfológicas de la piel facial.
 }
+
 \newcommand{\Objfour}{
-Comparar diferentes arquitecturas de redes neuronales convolucionales y técnicas de aprendizaje profundo, evaluando su desempeño en la segmentación de arrugas, poros y manchas, para seleccionar el modelo que ofrezca el mejor equilibrio entre precisión y eficiencia computacional.
+Comparar diferentes arquitecturas de redes neuronales convolucionales y técnicas de aprendizaje profundo, evaluando su desempeño en la segmentación de arrugas y manchas, para seleccionar el modelo que ofrezca el mejor equilibrio entre precisión y eficiencia computacional.
 }
 
 \begin{itemize}
@@ -75,26 +116,59 @@ Comparar diferentes arquitecturas de redes neuronales convolucionales y técnica
 \end{itemize}
 
 
-
 \section{Justificación de la Investigación}
 
 \subsection{Teórica}
-Este estudio formula el desarrollo de un modelo de redes neuronales convolucionales (CNN), que han demostrado ser altamente eficaces para tareas de segmentación y clasificación de imágenes. El desarrollo de un sistema de segmentación morfológica permitirá avanzar en el campo de la dermatología computacional y los sistemas inteligentes aplicados a la cosmética y el cuidado de la piel. Además, se contribuirá a la literatura sobre la intersección entre las ciencias de la salud y la inteligencia artificial, explorando el uso de técnicas como el deep learning para detectar y segmentar características faciales como arrugas, poros y manchas.
+
+Este estudio plantea el diseño y desarrollo de un modelo basado en redes neuronales convolucionales (CNN), las cuales han demostrado un rendimiento sobresaliente en tareas de clasificación, detección y segmentación de imágenes, especialmente en contextos médicos y biomédicos \parencite{esteva2017}. Las CNN son particularmente eficaces al capturar patrones espaciales jerárquicos dentro de imágenes, lo que las convierte en herramientas idóneas para analizar características morfológicas complejas como arrugas, poros dilatados y manchas cutáneas.
+
+La aplicación de estas arquitecturas de aprendizaje profundo al campo de la dermatología computacional responde a una creciente necesidad de automatización y precisión diagnóstica en el análisis de imágenes de piel, tanto en contextos clínicos como cosméticos. En la actualidad, gran parte del diagnóstico dermatológico depende de la experiencia visual subjetiva de los profesionales de la salud o de tecnologías que no permiten una segmentación detallada de las estructuras faciales. Esta falta de precisión dificulta el monitoreo objetivo de tratamientos dermatológicos o estéticos y limita la personalización de los mismos \parencite{lee2020}.
+
+Mediante la incorporación de técnicas de deep learning en el procesamiento de imágenes faciales, este estudio busca contribuir no solo al perfeccionamiento de herramientas tecnológicas aplicadas al cuidado personal, sino también al cuerpo de conocimiento que existe en la intersección entre inteligencia artificial y ciencias de la salud. El uso de CNN permite abordar tareas de segmentación con una granularidad que supera los métodos tradicionales, facilitando la detección temprana de signos de envejecimiento, hiperpigmentaciones o alteraciones cutáneas superficiales que podrían ser indicativas de patologías subyacentes o simplemente influir en la percepción estética del rostro \parencite{phillips2020, gao2018}.
+
+Además, este tipo de investigación fortalece el desarrollo de sistemas inteligentes con capacidad de autoaprendizaje, lo cual tiene implicancias directas en la industria cosmética, ya que permitiría la creación de aplicaciones móviles o plataformas web capaces de ofrecer diagnósticos preliminares, seguimiento de tratamientos, o recomendaciones personalizadas basadas en el análisis visual de la piel del usuario. Así, el presente estudio no solo aporta al desarrollo académico en el ámbito de la inteligencia artificial aplicada, sino también al diseño de soluciones tecnológicas que puedan ser integradas en productos de uso cotidiano.
 
 \subsection{Práctica}
-El sistema de segmentación propuesto puede tener aplicaciones directas en la industria cosmética, dermatológica y médica. La detección temprana y precisa de imperfecciones en la piel es esencial para tratamientos preventivos y correctivos. Este sistema permitirá automatizar y optimizar la evaluación cutánea, mejorando la precisión y reduciendo el tiempo necesario para diagnósticos o recomendaciones personalizadas de tratamiento. Esto también podría ser útil para mejorar la personalización de productos de belleza, apoyando la creación de soluciones adaptadas a las necesidades específicas de la piel de cada persona.
+Desde un enfoque aplicado, el sistema de segmentación morfológica propuesto presenta un alto potencial de impacto en diversos sectores, particularmente en la industria cosmética, dermatológica y médica. En el ámbito cosmético, esta herramienta puede emplearse para ofrecer evaluaciones automáticas de la piel que guíen la selección de productos según las condiciones faciales específicas del usuario, como arrugas finas, hiperpigmentaciones o poros dilatados. Esto representa una oportunidad significativa para la personalización masiva de productos, mejorando la experiencia del consumidor y fortaleciendo la fidelidad hacia las marcas que integren inteligencia artificial en sus soluciones.
+
+En dermatología, el sistema puede complementar la labor médica mediante la detección temprana y precisa de imperfecciones cutáneas, contribuyendo al diagnóstico preventivo de condiciones dérmicas y al monitoreo del progreso de tratamientos tópicos o procedimientos estéticos no invasivos. Esta automatización reduce la carga de trabajo en clínicas y consultorios, optimiza los tiempos de atención, y proporciona una evaluación objetiva, reproducible y cuantificable del estado de la piel, mitigando la variabilidad que suele existir entre profesionales humanos \parencite{huang2020}.
+
+Adicionalmente, en el sector médico y tecnológico, esta herramienta puede integrarse en aplicaciones móviles, cabinas inteligentes o espejos digitales, abriendo nuevas posibilidades para el desarrollo de interfaces humano-máquina que permitan realizar escaneos faciales sin contacto y de manera remota. Este enfoque puede ser especialmente valioso en contextos rurales o con acceso limitado a dermatólogos especializados.
+
+En suma, el sistema no solo aporta valor tecnológico al automatizar una tarea compleja como la segmentación de estructuras faciales, sino que también genera ventajas competitivas en la industria de la belleza y la salud, al permitir ofrecer servicios personalizados, más eficientes y de mayor calidad.
 
 \subsection{Metodológica}
-Utilizar arquitecturas probadas de CNN para segmentar características específicas como arrugas, poros y manchas proporciona una metodología efectiva y replicable. Al emplear técnicas de deep learning, se puede mejorar la precisión en la segmentación de imágenes de la piel facial, lo que facilitará comparaciones entre distintas aproximaciones y modelos. La experimentación con distintos modelos también ayudará a determinar cuál es el enfoque más eficiente y preciso para este tipo de segmentación.
+
+Desde el punto de vista metodológico, este proyecto se sustenta en la utilización de redes neuronales convolucionales (CNN), una arquitectura de deep learning ampliamente validada en tareas de segmentación y clasificación de imágenes biomédicas \parencite{ronneberger2015}. Su capacidad para identificar patrones espaciales jerárquicos y aprender representaciones discriminativas las convierte en herramientas particularmente efectivas para el análisis morfológico de imágenes faciales.
+
+La metodología propuesta se apoya en la selección de arquitecturas CNN previamente documentadas, como U-Net, ResNet o EfficientNet, que ofrecen robustez y flexibilidad para abordar problemas de segmentación pixel a pixel. Este enfoque no solo mejora la precisión y reproducibilidad de los resultados, sino que también permite comparar el rendimiento entre distintas configuraciones, hiperparámetros y funciones de pérdida, facilitando así una exploración científica profunda sobre cuál es el modelo más eficiente para detectar y segmentar características específicas como arrugas, manchas y poros.
+
+El uso de datasets etiquetados y técnicas de data augmentation permitirá entrenar modelos capaces de generalizar a diferentes condiciones de iluminación, tonalidades de piel y tipos de imperfecciones. Asimismo, el análisis de métricas cuantitativas como IoU (Intersection over Union), Dice Coefficient, precisión y recall, aportará un marco sistemático para validar y comparar las aproximaciones implementadas, asegurando una evaluación rigurosa del desempeño del sistema.
+
+De este modo, la metodología del estudio no solo es replicable y escalable, sino también adaptable a otras áreas del análisis médico o estético, promoviendo así la expansión del conocimiento científico en la intersección entre visión computacional e inteligencia artificial aplicada a la salud y la cosmética.
 
 \section{Delimitación del Estudio}
-Este estudio se centrará exclusivamente en la segmentación de arrugas, poros y manchas en imágenes de piel facial. No se abordarán otras imperfecciones cutáneas ni se desarrollarán sistemas de diagnóstico clínico. El enfoque está dirigido hacia el sector cosmético y de belleza, en lugar de la dermatología médica. Además, el estudio se delimitará a imágenes en dos dimensiones (2D) y no incluirá análisis en 3D.
+Este estudio se delimita al desarrollo y evaluación de un sistema de segmentación automática enfocado exclusivamente en arrugas y manchas presentes en imágenes de piel facial humana. No se considerarán otras imperfecciones cutáneas como acné, cicatrices, rosácea, poros dilatados u otras lesiones dérmicas. Asimismo, el estudio no tiene fines diagnósticos clínicos ni médicos, por lo que no se pretende reemplazar la evaluación profesional de dermatólogos, sino más bien aportar herramientas tecnológicas para fines cosméticos, estéticos y de cuidado personal.
+
+El enfoque se restringe al análisis de imágenes en dos dimensiones (2D) capturadas bajo condiciones controladas de iluminación y resolución estándar, por lo que no se incluirán modelos tridimensionales (3D), ni reconstrucción volumétrica de la piel facial. Además, las imágenes utilizadas corresponderán a rostros humanos adultos, descartando el análisis en otras zonas del cuerpo o en poblaciones pediátricas.
+
+Finalmente, este trabajo se sitúa dentro del ámbito de la inteligencia artificial aplicada al sector cosmético y de belleza, y no en el contexto de herramientas clínicas o terapias dermatológicas. Por tanto, las conclusiones derivadas deberán interpretarse dentro del marco de la estética facial y el cuidado personal, sin extenderse a aplicaciones médicas o farmacológicas.
 
 \subsection{Espacial}
-El estudio utilizará imágenes faciales provenientes de bases de datos públicas con imágenes de alta calidad. Se concentrará en muestras representativas de diferentes tipos de piel, obtenidas principalmente de poblaciones de distintas regiones geográficas para asegurar la diversidad en la segmentación de las características faciales.
-  
+Desde el punto de vista espacial, este estudio se desarrollará utilizando imágenes faciales obtenidas de bases de datos públicas internacionales, las cuales contienen fotografías de alta resolución capturadas bajo condiciones controladas. Las imágenes seleccionadas incluirán muestras representativas de diversos fototipos cutáneos (según la clasificación de Fitzpatrick) y procedencias geográficas variadas, con el objetivo de asegurar la diversidad étnica y regional en el análisis morfológico de la piel.
+
+Cabe señalar que no se realizarán capturas de imágenes locales ni se recopilarán datos de sujetos en campo, ya que todo el trabajo se fundamentará en datasets disponibles de manera pública y ética para fines de investigación científica. Las bases de datos a emplearse incluyen, por ejemplo, UTKFace, CelebA y otras similares que contienen metadatos relevantes como edad, género y origen étnico, lo cual facilitará el análisis estratificado y la validación del modelo.
+
 \subsection{Temporal}
-El desarrollo del estudio y la validación del sistema se llevarán a cabo en un periodo de aproximadamente 6 a 12 meses, incluyendo fases de recolección de datos, desarrollo del modelo, pruebas y evaluación del sistema. Las imágenes utilizadas para el entrenamiento y pruebas corresponderán a muestras recolectadas en los últimos cinco años para asegurar la actualidad de las características cutáneas.
+
+Desde una perspectiva temporal, el desarrollo completo del presente estudio se proyecta en un período estimado de seis a doce meses, estructurado en varias fases consecutivas: recolección y selección de datos, preprocesamiento de imágenes, diseño e implementación del modelo de redes neuronales convolucionales, entrenamiento, validación y análisis de resultados. Este marco temporal incluye además iteraciones necesarias para la mejora del rendimiento del sistema y pruebas de robustez.
+
+Las imágenes utilizadas para el entrenamiento y prueba de los modelos provendrán de datasets públicos recolectados o actualizados en los últimos cinco años. Esta selección se realiza con el fin de asegurar que las características cutáneas analizadas como arrugas y manchas reflejen condiciones actuales de la población, considerando los cambios recientes en tendencias estéticas, estilos de vida, y exposición ambiental (como la contaminación o la radiación UV). Asimismo, se busca que las imágenes estén alineadas con los estándares contemporáneos de calidad visual y anotación, lo cual es fundamental para garantizar la validez y vigencia de los resultados obtenidos.
 
 \subsection{Conceptual}
-Este estudio aborda conceptos fundamentales de la segmentación de imágenes, redes neuronales convolucionales, características morfológicas de la piel y técnicas de procesamiento de imágenes. Conceptos clave como segmentación, CNN, arrugas, poros y manchas se definirán claramente para establecer el marco teórico y práctico del trabajo. Además, se discutirán términos como detección automática y análisis morfológico en el contexto del cuidado de la piel.
+
+Este estudio se basa en conceptos fundamentales relacionados con la segmentación de imágenes, un área crucial en visión por computadora, y con el uso de redes neuronales convolucionales (CNN) para el procesamiento avanzado de imágenes faciales. A lo largo del trabajo se definirá con precisión el término segmentación, que hace referencia al proceso de dividir una imagen en regiones de interés para facilitar el análisis de características específicas.
+
+El estudio también abordará las características morfológicas de la piel, tales como arrugas y manchas, explicando cómo estas se presentan en imágenes de alta resolución y qué técnicas de procesamiento de imágenes son necesarias para identificarlas de manera precisa. Se profundizará en la técnica de análisis morfológico, que examina la forma, tamaño y disposición de las imperfecciones cutáneas.
+
+Además, el concepto de detección automática se explorará en su relación con el cuidado de la piel, destacando cómo la automatización del análisis de imágenes puede facilitar una evaluación precisa y objetiva de la piel, mejorando la personalización de productos cosméticos y los diagnósticos preventivos. Con todo, el trabajo construirá un marco teórico y práctico robusto que permita contextualizar la investigación en el área de la inteligencia artificial aplicada al cuidado de la piel.

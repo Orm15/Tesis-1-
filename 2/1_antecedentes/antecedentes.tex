@@ -1,66 +1,66 @@
 En esta parte de la investigación se presentan algunos antecedentes relacionados a la detección y pre-diagnóstico de nódulos en distintos órganos y a través de diversas metodologías. Estos ayudarán a entender el enfoque y obtener bases para un correcto desarrollo del proyecto en cuestión.
 
-% Primer antecedente : Segmentation of Skin Lesions Using Convolutional Neural Networks
+% % Primer antecedente : Segmentation of Skin Lesions Using Convolutional Neural Networks
 
-La investigación de Firdaus et al.\ \cite{firdaus2023} presenta un sistema de segmentación de lesiones cutáneas basado en redes neuronales convolucionales (CNN), utilizando específicamente la arquitectura U-Net, ampliamente reconocida en la segmentación de imágenes biomédicas. Este enfoque busca abordar los desafíos inherentes al análisis de imágenes de dermatoscopia, donde las características de las lesiones cutáneas, como bordes borrosos, variaciones en el contraste, y residuos (cabello y marcadores de regla), dificultan la segmentación precisa y la posterior detección de patologías.
+% La investigación de \cite{firdaus2023} presenta un sistema de segmentación de lesiones cutáneas basado en redes neuronales convolucionales (CNN), utilizando específicamente la arquitectura U-Net, ampliamente reconocida en la segmentación de imágenes biomédicas. Este enfoque busca abordar los desafíos inherentes al análisis de imágenes de dermatoscopia, donde las características de las lesiones cutáneas, como bordes borrosos, variaciones en el contraste, y residuos (cabello y marcadores de regla), dificultan la segmentación precisa y la posterior detección de patologías.
 
-La segmentación precisa de lesiones cutáneas es crucial para el diagnóstico temprano de enfermedades como el melanoma, un tipo de cáncer de piel con alta mortalidad. El estudio emplea el conjunto de datos HAM10000, que contiene más de 10,000 imágenes de dermatoscopia, cubriendo siete categorías diagnósticas de lesiones cutáneas. Estas imágenes, recopiladas en múltiples ubicaciones a lo largo de 20 años, representan una amplia variedad de casos, lo que fortalece la robustez y aplicabilidad del modelo.
+% La segmentación precisa de lesiones cutáneas es crucial para el diagnóstico temprano de enfermedades como el melanoma, un tipo de cáncer de piel con alta mortalidad. El estudio emplea el conjunto de datos HAM10000, que contiene más de 10,000 imágenes de dermatoscopia, cubriendo siete categorías diagnósticas de lesiones cutáneas. Estas imágenes, recopiladas en múltiples ubicaciones a lo largo de 20 años, representan una amplia variedad de casos, lo que fortalece la robustez y aplicabilidad del modelo.
 
-El modelo U-Net propuesto se optimizó mediante técnicas de preprocesamiento de imágenes, tales como redimensionamiento, escalado de características, y aumentación de datos, con el objetivo de mejorar la capacidad de generalización y reducir el riesgo de sobreajuste. Durante el entrenamiento, se experimentó con diferentes combinaciones de hiperparámetros, como funciones de pérdida (entropía cruzada binaria y coeficiente de Dice), tasas de aprendizaje y tamaños de lotes. El modelo final alcanzó resultados sobresalientes, con una precisión de píxeles del 95.89\%, un índice de intersección sobre unión (IoU) de 90.37\%, y una puntuación F1 de 92.54\%, lo que evidencia su efectividad y precisión en la segmentación de lesiones.
+% El modelo U-Net propuesto se optimizó mediante técnicas de preprocesamiento de imágenes, tales como redimensionamiento, escalado de características, y aumentación de datos, con el objetivo de mejorar la capacidad de generalización y reducir el riesgo de sobreajuste. Durante el entrenamiento, se experimentó con diferentes combinaciones de hiperparámetros, como funciones de pérdida (entropía cruzada binaria y coeficiente de Dice), tasas de aprendizaje y tamaños de lotes. El modelo final alcanzó resultados sobresalientes, con una precisión de píxeles del 95.89\%, un índice de intersección sobre unión (IoU) de 90.37\%, y una puntuación F1 de 92.54\%, lo que evidencia su efectividad y precisión en la segmentación de lesiones.
 
-En comparación con otros métodos de segmentación previos, como campos aleatorios de Markov, bosques aleatorios y máquinas de soporte vectorial (SVM), el modelo U-Net superó a estos enfoques al no requerir extracción de características manual y al ofrecer una segmentación más precisa. La arquitectura U-Net, diseñada con capas de convolución y pooling, permite capturar características complejas de las lesiones, logrando una segmentación de alta calidad que puede ser fundamental para la detección temprana y precisa de enfermedades cutáneas.
+% En comparación con otros métodos de segmentación previos, como campos aleatorios de Markov, bosques aleatorios y máquinas de soporte vectorial (SVM), el modelo U-Net superó a estos enfoques al no requerir extracción de características manual y al ofrecer una segmentación más precisa. La arquitectura U-Net, diseñada con capas de convolución y pooling, permite capturar características complejas de las lesiones, logrando una segmentación de alta calidad que puede ser fundamental para la detección temprana y precisa de enfermedades cutáneas.
 
-En conclusión, el modelo U-Net desarrollado por Firdaus et al.\ demuestra ser una herramienta eficaz para la segmentación de lesiones cutáneas en imágenes de dermatoscopia. Aunque el estudio reconoce limitaciones en términos de recursos computacionales y la necesidad de ajuste fino de hiperparámetros, plantea futuras mejoras que podrían optimizar aún más la segmentación automática de imágenes médicas \cite{firdaus2023}.
+% En conclusión, el modelo U-Net desarrollado por Firdaus et al.\ demuestra ser una herramienta eficaz para la segmentación de lesiones cutáneas en imágenes de dermatoscopia. Aunque el estudio reconoce limitaciones en términos de recursos computacionales y la necesidad de ajuste fino de hiperparámetros, plantea futuras mejoras que podrían optimizar aún más la segmentación automática de imágenes médicas \cite{firdaus2023}.
 
-\begin{table}[h!]
-    \centering
-    \begin{tabular}{lccc}
-        \toprule
-        \textbf{Model} & \textbf{Pixel Accuracy} & \textbf{IoU} & \textbf{F1 Score} \\
-        \midrule
-        Model 1 & 95.86 & 90.29 & 92.53 \\
-        Model 2 & 95.20 & 88.82 & 90.94 \\
-        Model 3 & 95.61 & 89.70 & 91.73 \\
-        Model 4 & 95.67 & 89.79 & 92.10 \\
-        Model 5 & 95.62 & 89.72 & 92.06 \\
-        Model 6 & 95.89 & 90.37 & 92.54 \\
-        \bottomrule
-    \end{tabular}
-    \caption{Comparación de Modelos: Precisión de Píxeles, IoU y Puntuación F1}
-    \label{tab:comparison}
-\end{table}
-
-
-
-\begin{figure}[h!]
-	\begin{center}
-		\includegraphics[width=0.80\textwidth]{2/figures/antecedente 1 resultados.png}
-		\caption[The dataset used in the research in the segmentation process is a dermoscopy 
-		image from The HAM10000]{The dataset used in the research in the segmentation process is a dermoscopy 
-		image from The HAM10000\\
-			Fuente: \cite{firdaus2023}. \citetitle{firdaus2023}. (p. 1)}
-		\label{2:fig12}
-	\end{center}
-\end{figure}
+% \begin{table}[h!]
+%     \centering
+%     \begin{tabular}{lccc}
+%         \toprule
+%         \textbf{Model} & \textbf{Pixel Accuracy} & \textbf{IoU} & \textbf{F1 Score} \\
+%         \midrule
+%         Model 1 & 95.86 & 90.29 & 92.53 \\
+%         Model 2 & 95.20 & 88.82 & 90.94 \\
+%         Model 3 & 95.61 & 89.70 & 91.73 \\
+%         Model 4 & 95.67 & 89.79 & 92.10 \\
+%         Model 5 & 95.62 & 89.72 & 92.06 \\
+%         Model 6 & 95.89 & 90.37 & 92.54 \\
+%         \bottomrule
+%     \end{tabular}
+%     \caption{Comparación de Modelos: Precisión de Píxeles, IoU y Puntuación F1}
+%     \label{tab:comparison}
+% \end{table}
 
 
-Además se realizó una comparación con otras investigaciones relevantes y se obtuvieron los siquientes resultados.
 
-\begin{table}[h!]
-    \centering
-    \begin{tabular}{llccccc}
-        \toprule
-        \textbf{Research} & \textbf{Method} & \textbf{Dataset} & \textbf{Acc} & \textbf{IoU} & \textbf{F1 Score} \\
-        \midrule
-        Salih \& Viriri \cite{Salih2020} & SRM+MRF & ISIC 2018 & 0.92 & 0.79 & 0.88 \\
-        Jin et al.\ \cite{Jin2021} & CKDNet & ISIC 2018 & 0.93 & 0.79 & 0.87 \\
-        Arora et al.\ \cite{Arora2021} & Attn\_U-Net+GN & ISIC 2018 & 0.95 & 0.83 & 0.91 \\
-        Proposed* & U-Net & ISIC 2018 & 0.95 & 0.90 & 0.92 \\
-        \bottomrule
-    \end{tabular}
-    \caption{Comparación de diferentes métodos de segmentación de lesiones cutáneas en el conjunto de datos ISIC 2018.}
-    \label{tab:comparison_methods}
-\end{table}
+% \begin{figure}[h!]
+% 	\begin{center}
+% 		\includegraphics[width=0.80\textwidth]{2/figures/antecedente 1 resultados.png}
+% 		\caption[The dataset used in the research in the segmentation process is a dermoscopy 
+% 		image from The HAM10000]{The dataset used in the research in the segmentation process is a dermoscopy 
+% 		image from The HAM10000\\
+% 			Fuente: \cite{firdaus2023}. \citetitle{firdaus2023}. (p. 1)}
+% 		\label{2:fig12}
+% 	\end{center}
+% \end{figure}
+
+
+% Además se realizó una comparación con otras investigaciones relevantes y se obtuvieron los siquientes resultados.
+
+% \begin{table}[h!]
+%     \centering
+%     \begin{tabular}{llccccc}
+%         \toprule
+%         \textbf{Research} & \textbf{Method} & \textbf{Dataset} & \textbf{Acc} & \textbf{IoU} & \textbf{F1 Score} \\
+%         \midrule
+%         Salih \& Viriri \cite{Salih2020} & SRM+MRF & ISIC 2018 & 0.92 & 0.79 & 0.88 \\
+%         Jin et al.\ \cite{Jin2021} & CKDNet & ISIC 2018 & 0.93 & 0.79 & 0.87 \\
+%         Arora et al.\ \cite{Arora2021} & Attn\_U-Net+GN & ISIC 2018 & 0.95 & 0.83 & 0.91 \\
+%         Proposed* & U-Net & ISIC 2018 & 0.95 & 0.90 & 0.92 \\
+%         \bottomrule
+%     \end{tabular}
+%     \caption{Comparación de diferentes métodos de segmentación de lesiones cutáneas en el conjunto de datos ISIC 2018.}
+%     \label{tab:comparison_methods}
+% \end{table}
 
 %% Segunda antecedente : Deep-Learning-Based Morphological Feature Segmentation for Facial Skin Image Analysis
 
@@ -70,9 +70,9 @@ El modelo está basado en la arquitectura U-Net, que ha demostrado ser efectiva 
 
 Para optimizar la precisión de la segmentación, se desarrolla un método de generación de “ground truth” (GT) adaptado a la naturaleza específica de las arrugas y poros. Este GT se obtiene utilizando mapas de textura específicos: un filtro de alta frecuencia que realza los detalles de las arrugas y un método de pirámide laplaciana para destacar los poros. El conjunto de datos incluyó 314 imágenes faciales obtenidas mediante dispositivos de diagnóstico dermatológico, de las cuales 264 fueron empleadas para entrenamiento y 50 para validación. Las imágenes fueron preprocesadas y anotadas manualmente por especialistas.
 
-Los resultados obtenidos demostraron que el modelo propuesto superó a otros métodos tradicionales de procesamiento de imágenes y arquitecturas de aprendizaje profundo, como U-Net++. Específicamente, el modelo alcanzó un valor de Intersección sobre Unión (IoU) de 0.2341 para arrugas y de 0.4032 para poros, superando los valores de 0.2160 y 0.3669 obtenidos con U-Net++ en estas mismas categorías. En términos de precisión de píxeles, el modelo alcanzó un 95.89%, mientras que la puntuación F1 fue de 92.54%, lo que indica un rendimiento robusto en condiciones variadas de iluminación y textura de la piel.
+Los resultados obtenidos demostraron que el modelo propuesto superó a otros métodos tradicionales de procesamiento de imágenes y arquitecturas de aprendizaje profundo, como U-Net++. Específicamente, el modelo alcanzó un valor de Intersección sobre Unión (IoU) de 0.2341 para arrugas y de 0.4032 para poros, superando los valores de 0.2160 y 0.3669 obtenidos con U-Net++ en estas mismas categorías. En términos de precisión de píxeles, el modelo alcanzó un 95.89\%, mientras que la puntuación F1 fue de 92.54\%, lo que indica un rendimiento robusto en condiciones variadas de iluminación y textura de la piel.
 
-\cite{yoon2023} concluyen que la integración de mecanismos de atención y codificación posicional en la arquitectura U-Net proporciona una segmentación más precisa de arrugas y poros, con potencial de aplicación en tareas avanzadas como la estimación de la edad de la piel y el análisis de su elasticidad y rugosidad. Este enfoque innovador podría facilitar diagnósticos estéticos y médicos de la piel, permitiendo mejorar la personalización en el cuidado cutáneo \cite{yoon2023}.
+\cite{yoon2023} concluyen que la integración de mecanismos de atención y codificación posicional en la arquitectura U-Net proporciona una segmentación más precisa de arrugas y poros, con potencial de aplicación en tareas avanzadas como la estimación de la edad de la piel y el análisis de su elasticidad y rugosidad. Este enfoque innovador podría facilitar diagnósticos estéticos y médicos de la piel, permitiendo mejorar la personalización en el cuidado cutáneo.
 
 
 \begin{table}[h!]
@@ -95,35 +95,35 @@ Los resultados obtenidos demostraron que el modelo propuesto superó a otros mé
 
 %% Tercer antecedente : Skin lesion segmentation method for dermoscopic images with convolutional neural networks and semantic segmentation
 
-El artículo \citetitle{Thanh2021} de \cite{Thanh2021} trata sobre la segmentación automática de lesiones cutáneas en imágenes dermoscópicas, un proceso fundamental para el diagnóstico temprano del melanoma, una de las formas más agresivas de cáncer de piel. A pesar de los avances con redes neuronales convolucionales (CNN), muchos modelos fallan en detectar detalles pequeños o regiones con baja intensidad. Para abordar estas deficiencias, se propone una arquitectura basada en U-Net combinada con un codificador VGG-16, que mejora la precisión y es adecuada para dispositivos con recursos computacionales limitados.
+% El artículo \citetitle{Thanh2021} de \cite{Thanh2021} trata sobre la segmentación automática de lesiones cutáneas en imágenes dermoscópicas, un proceso fundamental para el diagnóstico temprano del melanoma, una de las formas más agresivas de cáncer de piel. A pesar de los avances con redes neuronales convolucionales (CNN), muchos modelos fallan en detectar detalles pequeños o regiones con baja intensidad. Para abordar estas deficiencias, se propone una arquitectura basada en U-Net combinada con un codificador VGG-16, que mejora la precisión y es adecuada para dispositivos con recursos computacionales limitados.
 
-El enfoque combina U-Net, conocida por su eficacia en segmentación a nivel de píxel, con VGG-16 como codificador, lo cual mejora la capacidad del modelo para manejar regiones con bajo contraste. También se implementa segmentación semántica para clasificar píxeles según su clase. Además, tras la segmentación inicial, se aplican filtros Gaussianos, se rellenan huecos y se eliminan pequeñas regiones, refinando así la calidad final del resultado segmentado.
+% El enfoque combina U-Net, conocida por su eficacia en segmentación a nivel de píxel, con VGG-16 como codificador, lo cual mejora la capacidad del modelo para manejar regiones con bajo contraste. También se implementa segmentación semántica para clasificar píxeles según su clase. Además, tras la segmentación inicial, se aplican filtros Gaussianos, se rellenan huecos y se eliminan pequeñas regiones, refinando así la calidad final del resultado segmentado.
 
-La metodología se organiza en tres etapas: un preentrenamiento con un conjunto reducido de datos, la implementación del método de segmentación semántica de Brostow et al. en MATLAB, y una mejora posterior de los resultados a través de técnicas como filtros Gaussianos, relleno de huecos y eliminación de pequeños segmentos irrelevantes. Este enfoque permite optimizar la segmentación incluso con un volumen de datos limitado y sin preprocesamiento complejo.
+% La metodología se organiza en tres etapas: un preentrenamiento con un conjunto reducido de datos, la implementación del método de segmentación semántica de Brostow et al. en MATLAB, y una mejora posterior de los resultados a través de técnicas como filtros Gaussianos, relleno de huecos y eliminación de pequeños segmentos irrelevantes. Este enfoque permite optimizar la segmentación incluso con un volumen de datos limitado y sin preprocesamiento complejo.
 
-Se utilizó el conjunto ISIC 2017, que cuenta con aproximadamente 2000 imágenes dermoscópicas anotadas por expertos. Estas imágenes están en formato RGB y se acompañan de máscaras de segmentación en PNG. El conjunto se divide en subconjuntos para entrenamiento, validación y prueba, lo que permite evaluar adecuadamente la eficacia del modelo propuesto bajo distintas condiciones clínicas.
+% Se utilizó el conjunto ISIC 2017, que cuenta con aproximadamente 2000 imágenes dermoscópicas anotadas por expertos. Estas imágenes están en formato RGB y se acompañan de máscaras de segmentación en PNG. El conjunto se divide en subconjuntos para entrenamiento, validación y prueba, lo que permite evaluar adecuadamente la eficacia del modelo propuesto bajo distintas condiciones clínicas.
 
-Los experimentos, como se ven en las Figuras \ref{2:fig31} y \ref{2:fig32}, demostraron que el modelo U-Net con VGG-16 logra una segmentación más precisa que otros enfoques previos, superando el 95\% de precisión según métricas como el índice Dice y el coeficiente de Jaccard. Se destaca su buen desempeño en zonas de baja intensidad, sin necesidad de un gran volumen de datos ni de procesos complejos de preprocesamiento, lo que lo hace eficiente y aplicable en escenarios reales.
+% Los experimentos, como se ven en las Figuras \ref{2:fig31} y \ref{2:fig32}, demostraron que el modelo U-Net con VGG-16 logra una segmentación más precisa que otros enfoques previos, superando el 95\% de precisión según métricas como el índice Dice y el coeficiente de Jaccard. Se destaca su buen desempeño en zonas de baja intensidad, sin necesidad de un gran volumen de datos ni de procesos complejos de preprocesamiento, lo que lo hace eficiente y aplicable en escenarios reales.
 
-\begin{figure}[!ht]
-	\begin{center}
-		\includegraphics[width=1\textwidth]{2/figures/ant3_1.png}
-		\caption[Resultados segmentados de lesiones cutáneas en modo blanco y negro]{Resultados segmentados de lesiones cutáneas en modo blanco y negro.\\
-			Fuente: \cite{Thanh2021}. \citetitle{Thanh2021}. (p. 5)}
-		\label{2:fig31}
-	\end{center}
-\end{figure}
+% \begin{figure}[!ht]
+% 	\begin{center}
+% 		\includegraphics[width=1\textwidth]{2/figures/ant3_1.png}
+% 		\caption[Resultados segmentados de lesiones cutáneas en modo blanco y negro]{Resultados segmentados de lesiones cutáneas en modo blanco y negro.\\
+% 			Fuente: \cite{Thanh2021}. \citetitle{Thanh2021}. (p. 5)}
+% 		\label{2:fig31}
+% 	\end{center}
+% \end{figure}
 
-\begin{figure}[!ht]
-	\begin{center}
-		\includegraphics[width=1\textwidth]{2/figures/ant3_2.png}
-		\caption[Las lesiones cutáneas segmentadas de las imágenes dermatoscópicas: el borde rojo (oscuro) – nuestro resultado segmentado, el borde verde (claro) – la realidad fundamental]{Las lesiones cutáneas segmentadas de las imágenes dermatoscópicas: el borde rojo (oscuro) – nuestro resultado segmentado, el borde verde (claro) – la realidad fundamental.\\
-			Fuente: \cite{Thanh2021}. \citetitle{Zhong2024}. (p. 5)}
-		\label{2:fig32}
-	\end{center}
-\end{figure}
+% \begin{figure}[!ht]
+% 	\begin{center}
+% 		\includegraphics[width=1\textwidth]{2/figures/ant3_2.png}
+% 		\caption[Las lesiones cutáneas segmentadas de las imágenes dermatoscópicas: el borde rojo (oscuro) – nuestro resultado segmentado, el borde verde (claro) – la realidad fundamental]{Las lesiones cutáneas segmentadas de las imágenes dermatoscópicas: el borde rojo (oscuro) – nuestro resultado segmentado, el borde verde (claro) – la realidad fundamental.\\
+% 			Fuente: \cite{Thanh2021}. \citetitle{Zhong2024}. (p. 5)}
+% 		\label{2:fig32}
+% 	\end{center}
+% \end{figure}
 
-La arquitectura U-Net con codificador VGG-16 representa una mejora significativa para la segmentación de lesiones cutáneas, ofreciendo precisión, eficiencia computacional y robustez ante variaciones en las imágenes. Su capacidad de trabajar directamente con imágenes a color sin procesamiento previo permite su implementación en sistemas automáticos accesibles, contribuyendo potencialmente al diagnóstico temprano del melanoma.
+% La arquitectura U-Net con codificador VGG-16 representa una mejora significativa para la segmentación de lesiones cutáneas, ofreciendo precisión, eficiencia computacional y robustez ante variaciones en las imágenes. Su capacidad de trabajar directamente con imágenes a color sin procesamiento previo permite su implementación en sistemas automáticos accesibles, contribuyendo potencialmente al diagnóstico temprano del melanoma.
 
 %% Cuarto antecedente :  High Performing Facial Skin Problem Diagnosis with Enhanced Mask R-CNN and Super Resolution GAN
 
@@ -209,26 +209,26 @@ En conclusión, la versión mejorada de U-Net supera las limitaciones del modelo
 
 %% Séptimo antecedente: 
 
-El artículo titulado \citetitle{Bekmirzaev2021} de los autores \cite{Bekmirzaev2021}, presenta una novedosa técnica de aprendizaje "objeto por objeto" para detectar 11 tipos de lesiones cutáneas faciales mediante segmentación semántica. Los autores destacan que muchas clases de lesiones, como arrugas y manchas, presentan relaciones visuales concurrentes, y explotan esta característica para abordar ambigüedades en la apariencia de las imágenes, mejorando así la precisión en el diagnóstico automatizado.  
+% El artículo titulado \citetitle{Bekmirzaev2021} de los autores \cite{Bekmirzaev2021}, presenta una novedosa técnica de aprendizaje "objeto por objeto" para detectar 11 tipos de lesiones cutáneas faciales mediante segmentación semántica. Los autores destacan que muchas clases de lesiones, como arrugas y manchas, presentan relaciones visuales concurrentes, y explotan esta característica para abordar ambigüedades en la apariencia de las imágenes, mejorando así la precisión en el diagnóstico automatizado.  
 
-Entre las técnicas utilizadas, introducen los módulos REthinker, formados por capas convLSTM/Conv3D locales y un módulo SE como mecanismo de atención. Además, integran estos bloques en redes CNN estándar, junto con técnicas avanzadas como convolución atrous, agrupación espacial piramidal y convolución separable en profundidad, lo que permite una representación más rica y contextual de las lesiones cutáneas.  
+% Entre las técnicas utilizadas, introducen los módulos REthinker, formados por capas convLSTM/Conv3D locales y un módulo SE como mecanismo de atención. Además, integran estos bloques en redes CNN estándar, junto con técnicas avanzadas como convolución atrous, agrupación espacial piramidal y convolución separable en profundidad, lo que permite una representación más rica y contextual de las lesiones cutáneas.  
 
-La metodología como se observa en la Figura \ref{2:fig7}, se basa en modelar explícitamente las relaciones contextuales entre clases de objetos mediante el aprendizaje "objeto por objeto". Los módulos REthinker se diseñan para mejorar la sensibilidad de la red tanto en contextos locales como globales. Las CNN se modifican para incorporar estos módulos, y los modelos resultantes se entrenan y validan sobre datos dermatológicos cuidadosamente anotados.  
+% La metodología como se observa en la Figura \ref{2:fig7}, se basa en modelar explícitamente las relaciones contextuales entre clases de objetos mediante el aprendizaje "objeto por objeto". Los módulos REthinker se diseñan para mejorar la sensibilidad de la red tanto en contextos locales como globales. Las CNN se modifican para incorporar estos módulos, y los modelos resultantes se entrenan y validan sobre datos dermatológicos cuidadosamente anotados.  
 
-\begin{figure}[!ht]
-	\begin{center}
-		\includegraphics[width=1\textwidth]{2/figures/propose7.png}
-		\caption[Propuesta basada en RethNet RE-Xception y el decodificador de DeepLabv3+]{Propuesta basada en RethNet RE-Xception y el decodificador de DeepLabv3+.\\
-			Fuente: \cite{Bekmirzaev2021}. \citetitle{Bekmirzaev2021}. (p. 5)}
-		\label{2:fig7}
-	\end{center}
-\end{figure}
+% \begin{figure}[!ht]
+% 	\begin{center}
+% 		\includegraphics[width=1\textwidth]{2/figures/propose7.png}
+% 		\caption[Propuesta basada en RethNet RE-Xception y el decodificador de DeepLabv3+]{Propuesta basada en RethNet RE-Xception y el decodificador de DeepLabv3+.\\
+% 			Fuente: \cite{Bekmirzaev2021}. \citetitle{Bekmirzaev2021}. (p. 5)}
+% 		\label{2:fig7}
+% 	\end{center}
+% \end{figure}
 
-Para validar su enfoque, los autores construyen la base de datos propia **MSLD**, que contiene 27,790 imágenes faciales, de las cuales 412 están anotadas con 11 tipos de lesiones cutáneas y 6 clases adicionales. También evalúan sus modelos con el conjunto de datos ISIC 2018, ampliamente utilizado en tareas de segmentación dermatológica.  
+% Para validar su enfoque, los autores construyen la base de datos propia **MSLD**, que contiene 27,790 imágenes faciales, de las cuales 412 están anotadas con 11 tipos de lesiones cutáneas y 6 clases adicionales. También evalúan sus modelos con el conjunto de datos ISIC 2018, ampliamente utilizado en tareas de segmentación dermatológica.  
 
-Los resultados muestran que su método supera en un 15.34\% en MIoU a redes de segmentación de última generación en el conjunto de datos MSLD, y obtiene buenos resultados en ISIC 2018, lo que demuestra su eficacia en contextos diversos.  
+% Los resultados muestran que su método supera en un 15.34\% en MIoU a redes de segmentación de última generación en el conjunto de datos MSLD, y obtiene buenos resultados en ISIC 2018, lo que demuestra su eficacia en contextos diversos.  
 
-En conclusión, el enfoque propuesto basado en aprendizaje "objeto por objeto" y los módulos REthinker permiten capturar eficazmente relaciones contextuales entre diferentes tipos de lesiones. Esta estrategia mejora considerablemente la precisión de los sistemas de segmentación facial, destacándose como una alternativa poderosa frente a los métodos convencionales.
+% En conclusión, el enfoque propuesto basado en aprendizaje "objeto por objeto" y los módulos REthinker permiten capturar eficazmente relaciones contextuales entre diferentes tipos de lesiones. Esta estrategia mejora considerablemente la precisión de los sistemas de segmentación facial, destacándose como una alternativa poderosa frente a los métodos convencionales.
 
 %% Octavo antecedente:
 \cite{Tamilkodi2024} elaboraron el artículo titulado \citetitle{Tamilkodi2024}, que presenta un software avanzado para el análisis de la piel facial que permite identificar características clave como arrugas, poros, manchas y textura, además de predecir edad y género. El sistema compara los resultados con datos de personas del mismo grupo etario, clasifica el tono de piel, genera máscaras visuales para resaltar zonas específicas del rostro y ofrece recomendaciones personalizadas. El objetivo central es desarrollar un modelo robusto capaz de realizar un análisis facial completo en diversos contextos.  

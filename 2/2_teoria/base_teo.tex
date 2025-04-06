@@ -76,78 +76,6 @@ El Aprendizaje Profundo no solo permite representar datos de la manera correcta,
 \end{figure}
 
 
-\subsection{Aprendizaje Profundo Multimodal}
-Podemos ver en la Figura \ref{2:fig57}, el fundamento del Aprendizaje Profundo Multimodal es la integración de diversas modalidades a través del uso de redes neuronales profundas. \parencite{bk_deng2018deeplearningnlp}.
-
-\begin{figure}[!ht]
-	\begin{center}
-		\includegraphics[width=0.85\textwidth]{2/figures/multimodal_network.png}
-		\caption[Modelo que combina imágenes y texto]{Modelo que combina imágenes y texto.\\
-		Fuente: \cite{tec_nishida2015multimodal}. \textit{Multimodal gesture recognition using multi-stream recurrent neural network}.}
-		\label{2:fig57}
-	\end{center}
-\end{figure}
-
-Las señales provenientes de distintas fuentes brindan datos adicionales sobre diferentes aspectos de un tema, lo cual capacita a los métodos que emplean varias técnicas para efectuar inferencias más sólidas. En el ámbito de las técnicas multimodales existen diversas estrategias como las estrategias de integración y combinación, los sistemas computacionales, el proceso de unir diferentes modelos y las estructuras de redes neuronales con múltiples capas. Al combinar estas características para la toma de decisiones, se emplean enfoques aditivos que recopilan información relevante y mejoran conjuntamente la precisión de las predicciones \cite{bk_deng2018deeplearningnlp}.
-
-\cite{tec_baheti2020introduction_mdl} afirman que el uso de modelos multimodales mejora el rendimiento de las redes neuronales y permite una extracción más efectiva de características, lo que favorece predicciones mayores. Uno de las ventajas es que los datos de diferentes fuentes ofrecen información complementaria que revela patrones ocultos que no se pueden ver cuando las modalidades se analizan individualmente, mejorando así la precisión de las predicciones.
-
-Según \cite{tec_brownlee2018stacked_models}, se puede mejorar la calidad del promedio del modelo al considerar de manera ponderada las aportaciones individuales de cada submodelo a la predicción global. Este enfoque se conoce como <<generalización apilada>> y se divide en dos niveles.
-
-\begin{itemize}
-    \item Nivel 0: Este nivel utiliza los datos de entrada del conjunto de entrenamiento para enseñar a los modelos a hacer predicciones.
-    \item Nivel 1: Aquí, los datos provienen de las salidas de los modelos del nivel anterior, que se utilizan como entradas para instruir a los modelos en esta etapa, también conocidos como meta-aprendices o generalizadores.
-\end{itemize}
-
-En el contexto de los modelos apilados, se utilizan dos métodos diferentes:
-
-\begin{itemize}
-    \item Enfoque de apilamiento por separado: Implica crear los datos de entrada conjuntos utilizando los pronósticos amalgamados de modelos adicionales. Estos datos se emplean para instruir a un modelo extra que realiza la predicción final.
-	\item Modelo apilado integrado: Esta estrategia facilita la utilización de arquitecturas neuronales y un modelo de múltiples cabezas conformado por otros modelos preentrenados. Estos modelos no requieren conservar la misma configuración, dado que sus niveles se etiquetancomo "no susceptibles al entrenamiento" para prevenir la modificación de sus valores antes de efectuar predicciones. Las salidas de los submodelos se fusionan directamente en el modelo principal.
-\end{itemize}
-
-\begin{figure}[!ht]
-	\begin{center}
-		\includegraphics[width=0.79\textwidth]{2/figures/multimodal_deep_learning_example.jpg}
-		\caption[Un modelo multimodal para las señales de la vista]{Un modelo multimodal para las señales de la vista.\\
-		Fuente: \cite{tec_baheti2020introduction_mdl}. \citetitle{tec_baheti2020introduction_mdl}.}
-		\label{2:fig58}
-	\end{center}
-\end{figure}
-
-\subsection{Inteligencia Artificial Generativa}
-
-La Inteligencia Artificial Generativa es el campo de la ciencia que estudia cómo crear inteligencia totalmente automatizada. Esto contrasta con el campo de la Inteligencia Artificial Moderna, que investiga cómo los humanos comprenden y construyen la inteligencia. La construcción manual es lo que hacen los investigadores, pero la parte <<por humanos>> de la definición de IA suele ser una variable oculta en la construcción de los sistemas de IA contemporáneos. Aunque la diferencia puede parecer sutil, incluso innecesaria, la construcción automatizada requiere una perspectiva completamente nueva, que no está disponible en la literatura sobre IA actual. No importa si los humanos comprenden cómo funcionan los mecanismos internos de una máquina en la Inteligencia Artificial Generativa, aunque podría ayudar a los investigadores en su búsqueda de la creación de máquinas inteligentes. Lo que importa es que la máquina pueda controlar y dirigir el proceso de creación de estructuras internas en la dirección deseada. Es como criar hijos: los seres humanos no son conscientes de los procesos mentales, pero interactúan con sus hijos en un nivel diferente al hablar de sus sustratos neuronales. En lugar de eso, utilizan una variedad de máquinas clasificadoras para diferenciar los comportamientos positivos de los negativos, que podrían ser beneficiosos para el niño cuando sea mayor. Los castigos corporales, los institutos educativos, los medios de comunicación y otros lugares son algunos de los usos de estas máquinas clasificadoras, según \parencite{th_zant2010genai}
-
-A continuación, ofrecemos una variedad de categorías de modelos de Inteligencia Artificial Generativa.
-
-\begin{itemize}
-	\item \textbf{Modelos de difusión}: crean nuevos datos iterando cambios aleatorios controlados en una muestra de datos previa. Empezan con los datos originales y luego agregan cambios sutiles, también conocidos como ruido, que hacen que gradualmente pierdan la similitud con el original. Este ruido se controla minuciosamente para garantizar que los datos generados sigan siendo consistentes y realistas. El modelo de difusión invierte el proceso después de agregar ruido en varias iteraciones. Como se muestra en la Figura \ref{2:fig59}, la eliminación de ruido inversa crea una muestra de datos nueva que se asemeja a la original, según \parencite{tec_amaz2023iagen}.
-	
-	\begin{figure}[!ht]
-		\begin{center}
-			\includegraphics[width=0.85\textwidth]{2/figures/modelosdedifusion.jpg}
-			\caption[Modelos de difusión]{Modelos de difusión.\\
-			Fuente: \cite{tec_amaz2023iagen}. \citetitle{tec_amaz2023iagen}.}
-			\label{2:fig59}
-		\end{center}
-	\end{figure}
-
-	\item \textbf{Redes generativas adversativas}: compiten con dos redes neuronales. La primera red, también conocida como generador, agrega ruido aleatorio para crear muestras de datos falsas. La segunda red, conocida como discriminador, ayuda a distinguir entre los datos reales y falsos generados por el generador. El generador mejora continuamente su capacidad de generar datos realistas, mientras que el discriminador mejora su capacidad de distinguir entre lo real y lo falso. Hasta que el generador produzca datos tan persuasivos que el discriminador no pueda diferenciarlos de los datos reales, este proceso adversativo termina, según \parencite{tec_amaz2023iagen}.
-
-	\item \textbf{Autocodificadores variacionales}: aprenden sobre el espacio latente, una pequeña representación de datos. La representación matemática de los datos se conoce como espacio latente. Puede verse como un código único que representa los datos en función de cada característica. Por ejemplo, cuando se estudian los rostros, el espacio latente contiene números que representan la forma de las orejas, los pómulos, la nariz y los ojos. Las dos redes neuronales utilizadas por los VAE son el codificador y el decodificador. Para cada dimensión del espacio latente, la red neuronal del codificador mapea los datos de entrada a una media y una varianza. crea una muestra aleatoria utilizando la distribución normal gaussiana. Este ejemplo es un punto en el espacio latente, y como se puede ver en la Figura \ref{2:fig60}, representa una versión comprimida y simplificada de los datos de entrada, según \parencite{tec_amaz2023iagen}.
-	
-	\begin{figure}[!ht]
-		\begin{center}
-			\includegraphics[width=0.85\textwidth]{2/figures/autocodificadoresvariacionales.png}
-			\caption[Autocodificadores variacionales]{Autocodificadores variacionales.\\
-			Fuente: \cite{tec_amaz2023iagen}. \citetitle{tec_amaz2023iagen}.}
-			\label{2:fig60}
-		\end{center}
-	\end{figure}
-\end{itemize}
-
-
 \subsection{Segmentación de Imágenes}
 %%%%%%%%
 \subsubsection{Definición y objetivos de la segmentación de imágenes}
@@ -212,67 +140,6 @@ El uso de CNN en la segmentación de imágenes dermatológicas ha demostrado una
 \subsubsection{Modelos avanzados de CNN para segmentación: U-Net, Fully Convolutional Networks (FCN)}
 Modelos como U-Net y FCN han sido diseñados específicamente para la segmentación de imágenes. U-Net, por ejemplo, utiliza una arquitectura simétrica que permite una recuperación precisa de detalles en imágenes médicas \parencite{ronneberger2015}.
 
-\subsection{Redes Generativas Adversariales (GANs)}  
-Las Redes Generativas Adversariales (GANs) son una clase de redes neuronales que consisten en dos submodelos: un generador y un discriminador, que compiten entre sí para mejorar la calidad de los resultados generados. Las GANs han demostrado ser altamente efectivas en la generación de imágenes realistas y en tareas de segmentación, especialmente cuando los datos disponibles son limitados.
-
-\subsubsection{Estructura de GANs (Generador y Discriminador)}  
-La Figura \ref{2:fig47} muestra la relación entre el generador y el discriminador en una GAN. El discriminador debe determinar la procedencia de cada imagen que recibe, que puede provenir de un generador o de un conjunto de datos. Mientras tanto, los valores aleatorios se convierten en imágenes que el discriminador reconoce como pertenecientes al conjunto de datos a través del generador. \parencite{tec_goodfellow2014gan}
-
-\begin{figure}[!ht]
-	\begin{center}
-		\includegraphics[width=0.75\textwidth]{2/figures/redgan.jpg}
-		\caption[Red Generativa Antagónica de Imágenes]{Red Generativa Antagónica de Imágenes.\\
-		Fuente: \cite{tec_goodfellow2014gan}. \citetitle{tec_goodfellow2014gan}.}
-		\label{2:fig47}
-	\end{center}
-\end{figure}
-
-El uso de GANs es amplia y no se limita a un tipo de datos específico. La Figura \ref{2:fig48} muestra una GAN con un generador y un discriminador de dos capas. En el generador, cada capa es gradualmente más grande, mientras que en el discriminador, cada capa se vuelve más pequeña hasta que se encuentra una neurona en la última capa. \parencite{tec_goodfellow2014gan}
-
-\begin{figure}[!ht]
-	\begin{center}
-		\includegraphics[width=0.75\textwidth]{2/figures/redgan2.jpg}
-		\caption[Red Generativa Antagónica de Imágenes]{Red Generativa Antagónica de Imágenes.\\
-		Fuente: \cite{tec_goodfellow2014gan}. \citetitle{tec_goodfellow2014gan}.}
-		\label{2:fig48}
-	\end{center}
-\end{figure}
-
-Como se muestra en la Figura \ref{2:fig49} con imágenes en blanco y negro, la entrada del generador es una distribución aleatoria gaussiana. Su salida es comparable a la del conjunto de datos, y la capa de salida debe tener suficientes neuronas dispuestas de manera adecuada para producir datos con la misma estructura que el conjunto de datos original, ya sea imágenes, audio o cualquier otro tipo de datos. Por ejemplo, si se quieren imágenes de 20 x 20 píxeles, el generador debe producir 400 neuronas. Cada capa del generador es más grande que la anterior y generalmente utiliza la activación Selu, excepto la capa final, que utiliza Sigmoide. \parencite{tec_goodfellow2014gan}
-
-\begin{figure}[!ht]
-	\begin{center}
-		\includegraphics[width=0.75\textwidth]{2/figures/redgan3.jpg}
-		\caption[Imágenes de Ruido Gaussiano]{Imágenes de Ruido Gaussiano.\\
-		Fuente: \cite{tec_goodfellow2014gan}. \citetitle{tec_goodfellow2014gan}.}
-		\label{2:fig49}
-	\end{center}
-\end{figure}
-A lo largo del proceso de entrenamiento, el generador intenta engañar al discriminador para que clasifique sus imágenes como reales, mientras que el discriminador mejora en la detección de imágenes falsas. Este proceso de competencia mejora gradualmente la calidad de las imágenes generadas.  
-\begin{itemize}
-    \item \textbf{Aplicación en Segmentación:} Las GANs se utilizan en la segmentación de imágenes cuando se dispone de un conjunto de datos limitado, ya que el generador puede crear imágenes realistas que amplían el conjunto de entrenamiento y ayudan a mejorar la capacidad del modelo de segmentación \parencite{autor2020gans}.
-\end{itemize}
-
-\subsubsection{Aplicaciones de GANs en Segmentación}  
-Las GANs se han utilizado con éxito en diversas aplicaciones de segmentación, especialmente cuando se enfrenta a desafíos como conjuntos de datos pequeños o imágenes ruidosas. Algunas de sus aplicaciones incluyen:
-\begin{itemize}
-    \item \textbf{Generación de datos sintéticos:} En áreas como la dermatología, donde puede ser difícil obtener grandes volúmenes de imágenes etiquetadas, las GANs pueden generar imágenes sintéticas que representan diversas condiciones de la piel, lo que amplía el conjunto de datos de entrenamiento.
-    \item \textbf{Segmentación de imágenes:} Las GANs también se aplican directamente a la segmentación de imágenes, especialmente en la mejora de la precisión en bordes complejos, como los que definen arrugas o manchas, a través de la generación de nuevas muestras \parencite{autor2021gans_segmentacion}.
-\end{itemize}
-
-\subsubsection{Variantes de GANs (CycleGAN, Pix2Pix)}  
-Existen variantes de las GANs que mejoran la capacidad de las redes para realizar tareas de segmentación de manera más efectiva:
-\begin{itemize}
-    \item \textbf{CycleGAN:} CycleGAN es una variante que se utiliza para la traducción de imágenes entre dominios, es decir, transformar imágenes de un estilo a otro, como convertir imágenes de baja resolución a alta resolución o generar imágenes en diferentes condiciones de iluminación. Este modelo puede ser útil en segmentación cuando las imágenes de entrada varían significativamente entre diferentes dominios \parencite{autor2019cyclegan}.
-    \item \textbf{Pix2Pix:} Pix2Pix es otro modelo basado en GAN que se usa para la segmentación supervisada, donde el modelo aprende a mapear una imagen de entrada a una imagen de salida. Se ha aplicado exitosamente en tareas de segmentación de imágenes faciales y dermatológicas, donde se requiere una alta precisión en los bordes de las características segmentadas \parencite{autor2019pix2pix}.
-\end{itemize}
-
-\subsubsection{Desafíos de las GANs}  
-A pesar de su éxito, las GANs enfrentan varios desafíos importantes:
-\begin{itemize}
-    \item \textbf{Inestabilidad en el entrenamiento:} Durante el entrenamiento, el generador y el discriminador pueden no converger correctamente, lo que puede llevar a resultados inconsistentes o de baja calidad.
-    \item \textbf{Modo colapso:} Un desafío común en las GANs es el "modo colapso", donde el generador produce una variedad limitada de muestras, afectando la diversidad de los datos generados. Este problema puede resultar en segmentaciones menos precisas o en la falta de variabilidad en las características segmentadas \parencite{autor2022challenges_gans}.
-\end{itemize}
 
 \subsection{Modelos Avanzados de Segmentación en Imágenes Médicas}
 %
@@ -280,14 +147,6 @@ A pesar de su éxito, las GANs enfrentan varios desafíos importantes:
 Las redes de atención, como las arquitecturas basadas en atención (Attention Mechanisms), han emergido como una de las tecnologías más poderosas para mejorar el rendimiento de modelos de aprendizaje profundo, especialmente en tareas de segmentación de imágenes. Estas redes permiten que el modelo se enfoque dinámicamente en las partes más relevantes de una imagen, ajustando su atención a regiones específicas que contienen características clave. Este mecanismo es particularmente útil en imágenes dermatológicas, donde las características morfológicas, como arrugas, poros y manchas, pueden ser pequeñas, sutiles y difíciles de distinguir de otras partes de la imagen.
 
 La introducción de redes de atención mejora la precisión de la segmentación al permitir que el modelo asigne un mayor peso a las regiones relevantes y minimice la interferencia de las áreas no importantes. Este enfoque facilita la identificación precisa de características morfológicas, lo cual es crucial para el análisis dermatológico. En el contexto de la piel, donde las variaciones de textura y color pueden ser complejas, las redes de atención ayudan a mejorar la segmentación y clasificación de estas características. Como resultado, la precisión en el diagnóstico y la personalización del tratamiento se ve significativamente aumentada, lo que contribuye a una mayor efectividad de las soluciones cosméticas y médicas \parencite{wang2018}.
-
-%
-\subsubsection{Aplicación de Generative Adversarial Networks (GAN) para mejorar la calidad de segmentación}
-Las Generative Adversarial Networks (GAN) son una clase de modelos de aprendizaje profundo que consisten en dos redes neuronales: un generador y un discriminador. El generador crea imágenes sintéticas, mientras que el discriminador evalúa si las imágenes generadas son reales o falsas. Este enfoque adversarial permite que el generador produzca imágenes cada vez más realistas, lo que puede ser extremadamente útil en aplicaciones de segmentación de imágenes dermatológicas.
-
-En el contexto de la segmentación de características cutáneas, como arrugas, poros y manchas, las GAN se utilizan para generar grandes cantidades de datos de entrenamiento de alta calidad. Estas imágenes sintéticas pueden complementar los conjuntos de datos reales, mejorando la diversidad y la variabilidad en las características de la piel, lo que a su vez ayuda a entrenar modelos de segmentación más robustos. Además, las GAN pueden generar imágenes con diferentes condiciones de iluminación, ángulos o incluso distorsiones en la piel, lo que permite a los modelos de segmentación aprender a identificar características cutáneas en una variedad más amplia de escenarios.
-
-Esta técnica es particularmente valiosa en el ámbito dermatológico, donde la obtención de grandes cantidades de imágenes de alta calidad puede ser costosa o difícil debido a la privacidad de los pacientes o la variabilidad en las condiciones de la piel. Las GAN permiten superar estas limitaciones, mejorando la precisión y la generalización de los modelos de segmentación, lo que facilita una mejor evaluación estética y la personalización de tratamientos. \parencite{goodfellow2014}
 %
 \subsubsection{Comparación entre modelos basados en CNN y modelos híbridos en el contexto dermatológico}
 La segmentación de imágenes dermatológicas es crucial para una correcta evaluación clínica y cosmética de la piel, donde las redes neuronales convolucionales (CNN) han demostrado ser eficaces al aprender características relevantes de manera jerárquica y sin necesidad de intervención manual. Sin embargo, las CNN pueden enfrentar desafíos cuando se trata de la segmentación en condiciones de iluminación cambiantes, variabilidad en tipos de piel y características pequeñas como poros o arrugas finas.
@@ -315,6 +174,47 @@ Por lo tanto, se necesita el desarrollo de modelos de segmentación más robusto
 La segmentación de características pequeñas, como los poros en la piel, es una tarea particularmente desafiante debido a su tamaño reducido y la alta resolución necesaria para detectarlos de manera precisa. Las imágenes dermatológicas a menudo contienen detalles finos que requieren técnicas avanzadas para identificar correctamente estos pequeños elementos sin incluir ruido o artefactos en la segmentación.
 
 La identificación precisa de los poros es crucial, especialmente en aplicaciones cosméticas donde la evaluación de la textura de la piel es esencial para ofrecer tratamientos personalizados. Para abordar este desafío, se deben emplear técnicas de segmentación de alta resolución y redes neuronales profundas capaces de capturar los detalles más pequeños, incluso cuando los poros están parcialmente ocultos o tienen un contraste bajo respecto al resto de la piel. \parencite{yang2020}
+
+\subsection{Redes de Atención}  
+Las redes de atención han surgido como una de las principales innovaciones en el campo de la segmentación de imágenes, permitiendo que los modelos se enfoquen de manera más eficiente en las regiones relevantes de una imagen. Este mecanismo resulta especialmente útil cuando se trabaja con imágenes complejas, como las faciales, donde ciertas áreas contienen características importantes para el análisis, pero pueden ser de menor tamaño o estar localizadas en posiciones no centrales.
+
+\subsubsection{Mecanismo de Atención}  
+El mecanismo de atención permite a la red asignar diferentes pesos a distintas partes de la imagen durante el proceso de segmentación. Este mecanismo es esencial para que el modelo pueda enfocarse en las áreas relevantes de la imagen, como arrugas, manchas o poros, sin perder detalles importantes de otras zonas. El concepto básico detrás de la atención es que no todas las partes de la imagen son igualmente importantes para la tarea en cuestión. Por lo tanto, la atención ayuda a los modelos a priorizar las áreas clave que impactan en el resultado final.  
+\begin{itemize}
+    \item \textbf{Funcionamiento:} La atención se puede aplicar de manera global o local. En el caso de la segmentación de imágenes faciales, por ejemplo, el modelo puede aprender a dar más importancia a las áreas alrededor de los ojos o la frente, donde las arrugas suelen ser más notorias.
+    \item \textbf{Beneficio:} Aumenta la precisión de la segmentación al concentrarse solo en las características más relevantes y minimizar el "ruido" de otras regiones no significativas \parencite{autor2021atencion}.
+\end{itemize}
+
+\subsubsection{Atención Espacial}  
+La atención espacial es un tipo específico de atención que asigna pesos según la ubicación espacial de los elementos dentro de la imagen. Esto permite al modelo resaltar áreas específicas de la imagen que contienen características clave para la segmentación.  
+\begin{itemize}
+    \item \textbf{Funcionamiento:} A través de la atención espacial, el modelo puede identificar patrones en las posiciones de las características de interés, como las arrugas en la zona de la frente o las manchas en la mejilla. Este enfoque es útil cuando las características relevantes están distribuidas de manera no uniforme en la imagen.
+    \item \textbf{Aplicación:} Es particularmente eficaz en la segmentación de imágenes faciales, donde las características que deben segmentarse no están siempre en el mismo lugar de la imagen y varían según la persona y la expresión facial \parencite{autor2020spa}.
+\end{itemize}
+
+\subsubsection{Atención de Canal}  
+La atención de canal se enfoca en las características dentro de los canales de la imagen, es decir, en las distintas representaciones de las características de la imagen que corresponden a las diferentes profundidades o colores de los filtros en una red convolucional. Este tipo de atención permite que la red enfoque su procesamiento en los canales que contienen la información más relevante para la tarea.  
+\begin{itemize}
+    \item \textbf{Funcionamiento:} En lugar de distribuir el enfoque en toda la imagen, la atención de canal resalta los canales específicos que contienen detalles cruciales, como la textura de la piel o las sombras que definen arrugas o manchas.
+    \item \textbf{Beneficio:} Mejora la capacidad del modelo para diferenciar entre características de diferentes intensidades o patrones, lo cual es esencial en imágenes donde la variabilidad de la textura de la piel puede ser un desafío \parencite{autor2019canal}.
+\end{itemize}
+
+\subsubsection{Beneficios de las Redes de Atención}  
+Las redes de atención proporcionan varios beneficios clave que mejoran la precisión y eficiencia de los modelos de segmentación, especialmente cuando se trabaja con imágenes complejas como las faciales:
+\begin{itemize}
+    \item \textbf{Precisión mejorada:} Al permitir que el modelo se enfoque en las regiones más importantes de la imagen, las redes de atención ayudan a obtener segmentaciones más precisas y detalladas.
+    \item \textbf{Eficiencia en el procesamiento:} Reduciendo el "ruido" o la información irrelevante, las redes de atención aumentan la eficiencia computacional, ya que el modelo dedica más recursos a las áreas clave.
+    \item \textbf{Versatilidad:} Las redes de atención se pueden combinar con otros modelos de segmentación, como U-Net o Mask R-CNN, para mejorar aún más la capacidad del modelo para realizar segmentaciones de alta calidad \parencite{autor2021beneficios}.
+\end{itemize}
+
+\subsubsection{Ejemplos de Modelos con Atención}  
+Existen varios modelos que implementan mecanismos de atención para mejorar la segmentación de imágenes. Algunos ejemplos notables incluyen:
+\begin{itemize}
+    \item \textbf{Transformer:} El modelo Transformer ha sido exitoso en tareas de procesamiento de secuencias y también ha demostrado ser útil para segmentación de imágenes, particularmente al aplicar atención a nivel global en la imagen. Este modelo asigna pesos no solo localmente, sino también a nivel global, lo que mejora la precisión en tareas complejas de segmentación \parencite{autor2022transformer}.
+    \item \textbf{SENet:} SENet es una arquitectura que utiliza un módulo de atención de canal para asignar diferentes importancias a los canales de características en una red convolucional. Este modelo ha demostrado ser eficaz en tareas de clasificación y segmentación, particularmente en la mejora de la detección de características sutiles, como pequeñas arrugas o manchas \parencite{autor2022senet}.
+\end{itemize}
+
+
 % \subsection{Métricas de Evaluación}  
 % Las métricas de evaluación son fundamentales para medir la precisión y eficacia de los modelos de segmentación de imágenes, ya que permiten comparar la segmentación automática generada por el modelo con las segmentaciones de referencia (verdaderas). A continuación se describen las principales métricas utilizadas en este tipo de análisis.
 

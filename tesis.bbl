@@ -50,36 +50,6 @@
       \field{title}{Introduction to Machine Learning}
       \field{year}{2014}
     \endentry
-    \entry{tec_amaz2023iagen}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b3b3a6ac74ecbd56bcdbefa4799fb9df}{%
-           family={{Amazon}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{fullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{fullhashraw}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{bibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{authorfullhashraw}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{¿Qué es la IA generativa?}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.bbvaopenmind.com/tecnologia/mundo-digital/que-es-el-aprendijaze-profundo/
-      \endverb
-      \verb{url}
-      \verb https://www.bbvaopenmind.com/tecnologia/mundo-digital/que-es-el-aprendijaze-profundo/
-      \endverb
-    \endentry
     \entry{aad2022}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9feb01f62daba370fb4d61885fd06029}{%
@@ -108,133 +78,6 @@
       \endverb
       \verb{url}
       \verb https://www.aad.org/skin-care/skin-aging/statistics
-      \endverb
-    \endentry
-    \entry{Arora2021}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=b9aee7f294795033862a457acb7a54fc}{%
-           family={Arora},
-           familyi={A\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=29941a55ce9570d3258751081c4834e7}{%
-           family={Gupta},
-           familyi={G\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7aa73ec6dc3d024355efc1d6aabb782d}{%
-           family={Bansal},
-           familyi={B\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{10f1d3294bb1992f292670da76118a76}
-      \strng{fullhash}{ca4b3dd2e75ac4c288ecb30a21266ad1}
-      \strng{fullhashraw}{ca4b3dd2e75ac4c288ecb30a21266ad1}
-      \strng{bibnamehash}{ca4b3dd2e75ac4c288ecb30a21266ad1}
-      \strng{authorbibnamehash}{ca4b3dd2e75ac4c288ecb30a21266ad1}
-      \strng{authornamehash}{10f1d3294bb1992f292670da76118a76}
-      \strng{authorfullhash}{ca4b3dd2e75ac4c288ecb30a21266ad1}
-      \strng{authorfullhashraw}{ca4b3dd2e75ac4c288ecb30a21266ad1}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Biocybernetics and Biomedical Engineering}
-      \field{number}{3}
-      \field{title}{Attn\_U-Net: Attention U-Net for skin lesion segmentation}
-      \field{volume}{41}
-      \field{year}{2021}
-      \field{pages}{1101\bibrangedash 1114}
-      \range{pages}{14}
-    \endentry
-    \entry{tec_baheti2020introduction_mdl}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=acb1a8bbc36bf2d131015ac20419fe36}{%
-           family={Baheti},
-           familyi={B\bibinitperiod},
-           given={Pragati},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{fullhash}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{fullhashraw}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{bibnamehash}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{authorbibnamehash}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{authornamehash}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{authorfullhash}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{authorfullhashraw}{acb1a8bbc36bf2d131015ac20419fe36}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Introduction to Multimodal Deep Learning}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://heartbeat.fritz.ai/introduction-to-multimodal-deep-learning-630b259f9291
-      \endverb
-      \verb{url}
-      \verb https://heartbeat.fritz.ai/introduction-to-multimodal-deep-learning-630b259f9291
-      \endverb
-    \endentry
-    \entry{Bekmirzaev2021}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=e48d237042babdc7e6b6e5c6bf38eb1d}{%
-           family={Bekmirzaev},
-           familyi={B\bibinitperiod},
-           given={Shohrukh},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4c49582c8911f68e842338c201f7c283}{%
-           family={Oh},
-           familyi={O\bibinitperiod},
-           given={Seoyoung},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f3022d12474c82fab6be970fb10960d9}{%
-           family={Yoo},
-           familyi={Y\bibinitperiod},
-           given={Sangwook},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9617d8cd20ec05368a8ed2f3f024fda8}
-      \strng{fullhash}{af001892a1580ce295110478ffb3a330}
-      \strng{fullhashraw}{af001892a1580ce295110478ffb3a330}
-      \strng{bibnamehash}{af001892a1580ce295110478ffb3a330}
-      \strng{authorbibnamehash}{af001892a1580ce295110478ffb3a330}
-      \strng{authornamehash}{9617d8cd20ec05368a8ed2f3f024fda8}
-      \strng{authorfullhash}{af001892a1580ce295110478ffb3a330}
-      \strng{authorfullhashraw}{af001892a1580ce295110478ffb3a330}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2101.02127}
-      \field{note}{Version 2, January 2021}
-      \field{title}{Object-by-Object Learning for Facial Skin Lesion Detection Using Semantic Segmentation Methods}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2101.02127
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2101.02127
       \endverb
     \endentry
     \entry{autor2021arrugas}{article}{}{}
@@ -277,42 +120,6 @@
       \verb 10.1016/j.cosmed.2021.03.001
       \endverb
     \endentry
-    \entry{tec_brownlee2018stacked_models}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
-           family={Brownlee},
-           familyi={B\bibinitperiod},
-           given={Jason},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{organization}{1}{%
-        {Machine Learning Mastery}%
-      }
-      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{fullhashraw}{915af163e2107106fced5dd3164d9a8e}
-      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authorfullhashraw}{915af163e2107106fced5dd3164d9a8e}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Stacking Ensemble for Deep Learning Neural Networks in Python}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/
-      \endverb
-      \verb{url}
-      \verb https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/
-      \endverb
-    \endentry
     \entry{chuchu2020}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e3bf71115c9da84dcbd4134906987eb9}{%
@@ -353,35 +160,50 @@
       \verb 10.1016/j.sir.2020.06.002
       \endverb
     \endentry
-    \entry{bk_deng2018deeplearningnlp}{book}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=2f5fbdc5c3cf91f62a64663cd72397b3}{%
-           family={Deng},
-           familyi={D\bibinitperiod},
-           given={Li},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=621013bf54d3546375ad71f17f020b5b}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Yang},
-           giveni={Y\bibinitperiod},
-           givenun=1}}%
+    \entry{clevelandclinic2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=18a3b2aa5b80cdc35c37255cff78fbaa}{%
+           family={{Cleveland Clinic}},
+           familyi={C\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Singapur}%
+      \strng{namehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{fullhash}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{fullhashraw}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{bibnamehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{authorbibnamehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{authornamehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{authorfullhash}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{authorfullhashraw}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wrinkles}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://my.clevelandclinic.org/health/diseases/10984-wrinkles
+      \endverb
+      \verb{url}
+      \verb https://my.clevelandclinic.org/health/diseases/10984-wrinkles
+      \endverb
+    \endentry
+    \entry{databridge2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=275dc315f4cb9010d79ef716e2c54f51}{%
+           family={{Data Bridge Market Research}},
+           familyi={D\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{fullhash}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{fullhashraw}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{bibnamehash}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{authorbibnamehash}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{authornamehash}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{authorfullhash}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{authorfullhashraw}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{namehash}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{fullhash}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{fullhashraw}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{bibnamehash}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{authorbibnamehash}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{authornamehash}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{authorfullhash}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{authorfullhashraw}{275dc315f4cb9010d79ef716e2c54f51}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -389,11 +211,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{9789811052088}
-      \field{title}{Deep Learning in Natural Language Processing}
-      \field{year}{2018}
-      \verb{doi}
-      \verb 10.1007/978-981-10-5209-5
+      \field{title}{Mercado mundial de productos para el cuidado de la piel: tendencias de la industria y pronóstico hasta 2031}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.databridgemarketresearch.com/es/reports/global-skin-care-products-market
+      \endverb
+      \verb{url}
+      \verb https://www.databridgemarketresearch.com/es/reports/global-skin-care-products-market
       \endverb
     \endentry
     \entry{autor2022transformer}{article}{}{}
@@ -532,57 +356,60 @@
     \endentry
     \entry{esteva2017}{article}{}{}
       \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=1007bbd654095a4cf8c2407d7e63bb8f}{%
+        {{un=0,uniquepart=base,hash=5243abb0865221bf8daee169b621b075}{%
            family={Esteva},
            familyi={E\bibinitperiod},
-           given={A.},
+           given={Andre},
            giveni={A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=7f7927b0ee6646c9726c9c277c8c4713}{%
+        {{un=0,uniquepart=base,hash=9eebdac3670ed2b9871136c675f3354e}{%
            family={Kuprel},
            familyi={K\bibinitperiod},
-           given={B.},
+           given={Brett},
            giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=8764f59ece9896839854aa2bd5ab03a4}{%
+        {{un=0,uniquepart=base,hash=7dcf7c517335b316301b5a23b218557b}{%
            family={Novoa},
            familyi={N\bibinitperiod},
-           given={R.A.},
-           giveni={R\bibinitperiod},
+           given={Roberto\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0498b363d108c3ca83ae0b0bdb70d77}{%
+        {{un=0,uniquepart=base,hash=d5274c1d02c20ebd471b200127fcee09}{%
            family={Ko},
            familyi={K\bibinitperiod},
-           given={J.},
+           given={Justin},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=fbff841a7c7201a9c1d5a92211b98d02}{%
+        {{un=0,uniquepart=base,hash=2418082b9eed3d391d9b768fd518590b}{%
            family={Swetter},
            familyi={S\bibinitperiod},
-           given={S.M.},
-           giveni={S\bibinitperiod},
+           given={Susan\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=0d08ab062a49b10d49d695f725b96c14}{%
+        {{un=0,uniquepart=base,hash=783e12f70b583afa14d66ac21e6d8a13}{%
            family={Blau},
            familyi={B\bibinitperiod},
-           given={H.M.},
-           giveni={H\bibinitperiod},
+           given={Helen\bibnamedelima M},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=9aae21f53f8024b5be43d6281ed55dce}{%
+        {{un=0,uniquepart=base,hash=5112ea130eadef0764fce0145b8b9f91}{%
            family={Thrun},
            familyi={T\bibinitperiod},
-           given={S.},
+           given={Sebastian},
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{73a4b49de2498d048b9e28e83d1790d4}
-      \strng{fullhash}{4b28461b338d84deb793cd77cb300272}
-      \strng{fullhashraw}{4b28461b338d84deb793cd77cb300272}
-      \strng{bibnamehash}{4b28461b338d84deb793cd77cb300272}
-      \strng{authorbibnamehash}{4b28461b338d84deb793cd77cb300272}
-      \strng{authornamehash}{73a4b49de2498d048b9e28e83d1790d4}
-      \strng{authorfullhash}{4b28461b338d84deb793cd77cb300272}
-      \strng{authorfullhashraw}{4b28461b338d84deb793cd77cb300272}
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{8996a2e2d5273de74158f688db6d25f7}
+      \strng{fullhash}{6ab07ac579bf17d04b49f954f4cfa136}
+      \strng{fullhashraw}{6ab07ac579bf17d04b49f954f4cfa136}
+      \strng{bibnamehash}{6ab07ac579bf17d04b49f954f4cfa136}
+      \strng{authorbibnamehash}{6ab07ac579bf17d04b49f954f4cfa136}
+      \strng{authornamehash}{8996a2e2d5273de74158f688db6d25f7}
+      \strng{authorfullhash}{6ab07ac579bf17d04b49f954f4cfa136}
+      \strng{authorfullhashraw}{6ab07ac579bf17d04b49f954f4cfa136}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -591,93 +418,54 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
+      \field{number}{7639}
       \field{title}{Dermatologist-level classification of skin cancer with deep neural networks}
       \field{volume}{542}
       \field{year}{2017}
       \field{pages}{115\bibrangedash 118}
       \range{pages}{4}
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nature21056
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nature21056
+      \endverb
     \endentry
-    \entry{firdaus2023}{article}{}{}
-      \name{author}{9}{}{%
-        {{un=0,uniquepart=base,hash=a050c6f0ad80e2f38fe874f1f9aba126}{%
-           family={Firdaus},
-           familyi={F\bibinitperiod},
-           given={Firdaus},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=892451668f1584b4cf795d6cd644adc5}{%
-           family={Fachrurrozi},
-           familyi={F\bibinitperiod},
-           given={Muhammad},
+    \entry{gao2018}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6ce985ac0295b29b4c8ec512ff32fdc}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={M.},
            giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd2174ae2a4fa4fc74fd8d1a71896004}{%
-           family={Rachmatullah},
-           familyi={R\bibinitperiod},
-           given={Muhammad\bibnamedelima Naufal},
-           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4faacc07bf26abea3150bc619537ee4e}{%
-           family={Nurmaini},
-           familyi={N\bibinitperiod},
-           given={Siti},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6ff19c3c0dc5a7dce1bf611b08b8bdbb}{%
-           family={Chayanti},
-           familyi={C\bibinitperiod},
-           given={Dewi},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=78a3303c9b5650c57b002d9733e416b6}{%
-           family={Darmawahyuni},
-           familyi={D\bibinitperiod},
-           given={Annisa},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4437fad042927005145768a434451898}{%
-           family={Islami},
-           familyi={I\bibinitperiod},
-           given={Anggun},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3c1b6c88e0d8a1c28c2c1a3816561bbd}{%
-           family={Sapitri},
-           familyi={S\bibinitperiod},
-           given={Ade\bibnamedelima Iriani},
-           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=23abfdacc48aaa81dfc9bebb4b650912}{%
-           family={Tutuko},
-           familyi={T\bibinitperiod},
-           given={Bambang},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
       }
-      \strng{namehash}{0ba4119b0f73071357b7b012dbdefe66}
-      \strng{fullhash}{213b858782fe5009bb047899f4f6dee4}
-      \strng{fullhashraw}{213b858782fe5009bb047899f4f6dee4}
-      \strng{bibnamehash}{213b858782fe5009bb047899f4f6dee4}
-      \strng{authorbibnamehash}{213b858782fe5009bb047899f4f6dee4}
-      \strng{authornamehash}{0ba4119b0f73071357b7b012dbdefe66}
-      \strng{authorfullhash}{213b858782fe5009bb047899f4f6dee4}
-      \strng{authorfullhashraw}{213b858782fe5009bb047899f4f6dee4}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \strng{namehash}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{fullhash}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{fullhashraw}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{bibnamehash}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{authorbibnamehash}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{authornamehash}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{authorfullhash}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{authorfullhashraw}{7d631ee74847fc2fba8f82c32b958fd3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Computer Engineering and Applications}
-      \field{number}{1}
-      \field{title}{Segmentation of Skin Lesions Using Convolutional Neural Networks}
-      \field{volume}{12}
-      \field{year}{2023}
-      \field{pages}{58\bibrangedash 67}
-      \range{pages}{10}
+      \field{journaltitle}{Sensors}
+      \field{number}{2}
+      \field{title}{Skin lesion analysis toward melanoma detection using deep learning network}
+      \field{volume}{18}
+      \field{year}{2018}
+      \field{pages}{556}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1007/s00521-016-2482-6
+      \verb 10.3390/s18020556
       \endverb
     \endentry
     \entry{autor2019manchas}{article}{}{}
@@ -757,161 +545,6 @@
       \field{isbn}{978-0133356724}
       \field{title}{Digital Image Processing}
       \field{year}{2018}
-    \endentry
-    \entry{autor2020gans}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
-           family={Goodfellow},
-           familyi={G\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod},
-           givenun=1}}%
-      }
-      \list{publisher}{1}{%
-        {MIT Press}%
-      }
-      \strng{namehash}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{fullhash}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{fullhashraw}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{bibnamehash}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{authorbibnamehash}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{authornamehash}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{authorfullhash}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{authorfullhashraw}{5d2585c11210cf1d4512e6e0a03ec315}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Generative Adversarial Networks: Theory and Applications}
-      \field{year}{2020}
-    \endentry
-    \entry{goodfellow2014}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=1,uniquepart=given,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
-           family={Goodfellow},
-           familyi={G\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=a341d25f80a8118cdbb90b272adc8b4f}{%
-           family={Pouget-Abadie},
-           familyi={P\bibinithyphendelim A\bibinitperiod},
-           given={Jean},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9e80f4779b032f68a6106e1424345450}{%
-           family={Mirza},
-           familyi={M\bibinitperiod},
-           given={Mehdi},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=743dd6cdaa6639320289d219d351d7b7}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Bing},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e8151f1b8f85a048cacb34f374ec922b}{%
-           family={Warde-Farley},
-           familyi={W\bibinithyphendelim F\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9ca00ffd7cc35f7cfb8f698aa9239c76}{%
-           family={Ozair},
-           familyi={O\bibinitperiod},
-           given={Sherjil},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
-           family={Courville},
-           familyi={C\bibinitperiod},
-           given={Aaron},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
-           family={Bengio},
-           familyi={B\bibinitperiod},
-           given={Yoshua},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d17e6557c5836d2d978179999ea1037f}
-      \strng{fullhash}{fa2b4fb373e75fcf07b4b987e4507545}
-      \strng{fullhashraw}{fa2b4fb373e75fcf07b4b987e4507545}
-      \strng{bibnamehash}{fa2b4fb373e75fcf07b4b987e4507545}
-      \strng{authorbibnamehash}{fa2b4fb373e75fcf07b4b987e4507545}
-      \strng{authornamehash}{d17e6557c5836d2d978179999ea1037f}
-      \strng{authorfullhash}{fa2b4fb373e75fcf07b4b987e4507545}
-      \strng{authorfullhashraw}{fa2b4fb373e75fcf07b4b987e4507545}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Advances in Neural Information Processing Systems}
-      \field{title}{Generative adversarial nets}
-      \field{volume}{27}
-      \field{year}{2014}
-    \endentry
-    \entry{tec_goodfellow2014gan}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=9065df87f119d90d95d857dd67df5ad0}{%
-           family={Goodfellow},
-           familyi={G\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=894d54b162716acedb56a3fca6cdec31}{%
-           family={Pouget-Abadie},
-           familyi={P\bibinithyphendelim A\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=69767ef463c93a67989ae0a47642deec}{%
-           family={Mirza},
-           familyi={M\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=02aa60b52defac8624a7c0ac76815e06}{%
-           family={Xu},
-           familyi={X\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=62a9be8cd228ffa0a42b1f584d04deef}{%
-           family={Warde-Farley},
-           familyi={W\bibinithyphendelim F\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=895e0491853df2d0a9720017130aeb09}{%
-           family={Ozair},
-           familyi={O\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=b466ee9eb701c5a6a885359ddf930f18}{%
-           family={Courville},
-           familyi={C\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=f428044f9ba9d68b58d744c2aaed4a2c}{%
-           family={Bengio},
-           familyi={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{153b02604ab9cd559ffdec0ba2374aac}
-      \strng{fullhash}{053f87b8b21997034ab8eb50dd1babec}
-      \strng{fullhashraw}{053f87b8b21997034ab8eb50dd1babec}
-      \strng{bibnamehash}{053f87b8b21997034ab8eb50dd1babec}
-      \strng{authorbibnamehash}{053f87b8b21997034ab8eb50dd1babec}
-      \strng{authornamehash}{153b02604ab9cd559ffdec0ba2374aac}
-      \strng{authorfullhash}{053f87b8b21997034ab8eb50dd1babec}
-      \strng{authorfullhashraw}{053f87b8b21997034ab8eb50dd1babec}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{10495258}
-      \field{title}{Generative Adversarial Networks}
-      \field{year}{2014}
-      \field{pages}{1\bibrangedash 9}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1001/jamainternmed.2016.8245
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1406.2661
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1406.2661
-      \endverb
     \endentry
     \entry{autor2021beneficios}{article}{}{}
       \name{author}{1}{}{%
@@ -1039,6 +672,53 @@
       \verb https://www.houseofbots.com/news-detail/3620-4-most-popular-20-free-online-courses-to-learn-deep-learning
       \endverb
     \endentry
+    \entry{huang2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cae9da35ae12a6cbd407d07b86b4e18c}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=049da0c69b2f28d52bf94c37098ab3cc}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e439b19c8e4701f38fa84fbe494296c}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{163d2cf5fe8e59a79268f7871c4ee263}
+      \strng{fullhash}{b1c09cc0517261eeb883ffd79f086366}
+      \strng{fullhashraw}{b1c09cc0517261eeb883ffd79f086366}
+      \strng{bibnamehash}{b1c09cc0517261eeb883ffd79f086366}
+      \strng{authorbibnamehash}{b1c09cc0517261eeb883ffd79f086366}
+      \strng{authornamehash}{163d2cf5fe8e59a79268f7871c4ee263}
+      \strng{authorfullhash}{b1c09cc0517261eeb883ffd79f086366}
+      \strng{authorfullhashraw}{b1c09cc0517261eeb883ffd79f086366}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dermatologic Therapy}
+      \field{number}{6}
+      \field{title}{Artificial intelligence in cosmetic dermatology: Current applications and future directions}
+      \field{volume}{33}
+      \field{year}{2020}
+      \field{pages}{e14124}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1111/dth.14124
+      \endverb
+    \endentry
     \entry{hussain2021}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7f3c448351715604a9867949a573eed9}{%
@@ -1122,52 +802,6 @@
       \field{year}{2019}
       \field{pages}{2606\bibrangedash 2614}
       \range{pages}{9}
-    \endentry
-    \entry{Jin2021}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=984d7b09d09bdcd32d9fd65096c220c9}{%
-           family={Jin},
-           familyi={J\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=92faacc6874983183ce7fb86e39f31ec}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cc4aadc875d7abdbaf96dfa4a83d8b77}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{55fad1f25e3194478c8eb2b07ec6b483}
-      \strng{fullhash}{390c66ca91afafcb64d6b1addff62440}
-      \strng{fullhashraw}{390c66ca91afafcb64d6b1addff62440}
-      \strng{bibnamehash}{390c66ca91afafcb64d6b1addff62440}
-      \strng{authorbibnamehash}{390c66ca91afafcb64d6b1addff62440}
-      \strng{authornamehash}{55fad1f25e3194478c8eb2b07ec6b483}
-      \strng{authorfullhash}{390c66ca91afafcb64d6b1addff62440}
-      \strng{authorfullhashraw}{390c66ca91afafcb64d6b1addff62440}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Medical Image Analysis}
-      \field{title}{CKDNet: a deep learning framework for skin lesion segmentation and classification}
-      \field{volume}{68}
-      \field{year}{2021}
-      \field{pages}{101871}
-      \range{pages}{1}
     \endentry
     \entry{karshiev2020improved}{article}{}{}
       \name{author}{6}{}{%
@@ -1441,6 +1075,93 @@
       \field{pages}{1097\bibrangedash 1105}
       \range{pages}{9}
     \endentry
+    \entry{lee2008}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=fb32cc1c24443e5ef2c25fdd8c785276}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Chul\bibnamedelima Hwan},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=5c9428e5addbce3fe72c45a0dc0ca155}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Nam-Yong},
+           giveni={N\bibinithyphendelim Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=9aa149be8f386eb0ec00d265e4f55e1f}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Hyo\bibnamedelima Jin},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5eb06e951efd53dea4e270c850fd3f31}
+      \strng{fullhash}{73b503ef7c418fcf29f94942ffa40c90}
+      \strng{fullhashraw}{73b503ef7c418fcf29f94942ffa40c90}
+      \strng{bibnamehash}{73b503ef7c418fcf29f94942ffa40c90}
+      \strng{authorbibnamehash}{73b503ef7c418fcf29f94942ffa40c90}
+      \strng{authornamehash}{5eb06e951efd53dea4e270c850fd3f31}
+      \strng{authorfullhash}{73b503ef7c418fcf29f94942ffa40c90}
+      \strng{authorfullhashraw}{73b503ef7c418fcf29f94942ffa40c90}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Dermatological Science}
+      \field{title}{A quantitative analysis of facial wrinkles in the Korean population}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2613964/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2613964/
+      \endverb
+    \endentry
+    \entry{lee2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=a38fe2282e0ae708270c02346a36d08f}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=a3ee7bee5a5ecb7a55a51ecdd4e78cef}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{fullhash}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{fullhashraw}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{bibnamehash}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{authorbibnamehash}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{authornamehash}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{authorfullhash}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{authorfullhashraw}{07dd27ddb7d58787d21f960ffc963778}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cosmetic Dermatology}
+      \field{number}{7}
+      \field{title}{Automatic facial wrinkle detection using deep learning: A dermatological approach}
+      \field{volume}{19}
+      \field{year}{2020}
+      \field{pages}{1567\bibrangedash 1574}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/jocd.13370
+      \endverb
+    \endentry
     \entry{mohammadi2019}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1544,72 +1265,23 @@
       \verb https://github.com/labhai/ffhq-wrinkle-dataset
       \endverb
     \endentry
-    \entry{tec_nishida2015multimodal}{report}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=c215f8d03e8981958b33fef05bef95de}{%
-           family={Nishida},
-           familyi={N\bibinitperiod},
-           given={Noriki},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1f9ff031d2ad4586c77cd52cd46d1311}{%
-           family={Nakayama},
-           familyi={N\bibinitperiod},
-           given={Hideki},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Universidad de Tokio}%
-      }
-      \strng{namehash}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{fullhash}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{fullhashraw}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{bibnamehash}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{authorbibnamehash}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{authornamehash}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{authorfullhash}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{authorfullhashraw}{c41657d8ed262a3b2d817060d5ce6f02}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Multimodal gesture recognition using multi-stream recurrent neural network}
-      \field{type}{Reporte técnico}
-      \field{year}{2015}
-      \verb{urlraw}
-      \verb http://www.nlab.ci.i.u-tokyo.ac.jp/projects/deeplearn-e.html
-      \endverb
-      \verb{url}
-      \verb http://www.nlab.ci.i.u-tokyo.ac.jp/projects/deeplearn-e.html
-      \endverb
-    \endentry
-    \entry{phillips2020}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=cd11e30a94f3958bcd2f8a6c9cf887cf}{%
-           family={Phillips},
+    \entry{elperuano2025belleza}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=23f2026178a5cd3b56f3239350abd54b}{%
+           family={Peruano},
            familyi={P\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6d96d6fbd106e2ffd88ad23ce0119654}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
+           given={Redacción\bibnamedelima El},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{039fa04337b7771db225a82a746939c2}
-      \strng{fullhash}{039fa04337b7771db225a82a746939c2}
-      \strng{fullhashraw}{039fa04337b7771db225a82a746939c2}
-      \strng{bibnamehash}{039fa04337b7771db225a82a746939c2}
-      \strng{authorbibnamehash}{039fa04337b7771db225a82a746939c2}
-      \strng{authornamehash}{039fa04337b7771db225a82a746939c2}
-      \strng{authorfullhash}{039fa04337b7771db225a82a746939c2}
-      \strng{authorfullhashraw}{039fa04337b7771db225a82a746939c2}
+      \strng{namehash}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{fullhash}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{fullhashraw}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{bibnamehash}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{authorbibnamehash}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{authornamehash}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{authorfullhash}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{authorfullhashraw}{23f2026178a5cd3b56f3239350abd54b}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1617,13 +1289,61 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Dermatology Research}
-      \field{number}{4}
-      \field{title}{Advanced analysis of facial skin features}
-      \field{volume}{12}
+      \field{journaltitle}{Diario Oficial El Peruano}
+      \field{note}{Consultado el 6 de abril de 2025}
+      \field{title}{Belleza y cuidado personal: una industria que se afianza}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.elperuano.pe/noticia/237309-belleza-y-cuidado-personal-una-industria-que-se-afianza
+      \endverb
+      \verb{url}
+      \verb https://www.elperuano.pe/noticia/237309-belleza-y-cuidado-personal-una-industria-que-se-afianza
+      \endverb
+    \endentry
+    \entry{phillips2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cd11e30a94f3958bcd2f8a6c9cf887cf}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1971ba4710beb366867335cd7fb9cac5}{%
+           family={Marsden},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3d224583fa3e85fca7621fa1db10818}
+      \strng{fullhash}{2a2c3e7f596e51393e9b5f275e0d315f}
+      \strng{fullhashraw}{2a2c3e7f596e51393e9b5f275e0d315f}
+      \strng{bibnamehash}{2a2c3e7f596e51393e9b5f275e0d315f}
+      \strng{authorbibnamehash}{2a2c3e7f596e51393e9b5f275e0d315f}
+      \strng{authornamehash}{a3d224583fa3e85fca7621fa1db10818}
+      \strng{authorfullhash}{2a2c3e7f596e51393e9b5f275e0d315f}
+      \strng{authorfullhashraw}{2a2c3e7f596e51393e9b5f275e0d315f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Biology and Medicine}
+      \field{title}{Deep learning for dermoscopic image analysis: A review}
+      \field{volume}{124}
       \field{year}{2020}
-      \field{pages}{202\bibrangedash 215}
-      \range{pages}{14}
+      \field{pages}{103930}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.compbiomed.2020.103930
+      \endverb
     \endentry
     \entry{ronneberger2015}{article}{}{}
       \name{author}{3}{}{%
@@ -1646,7 +1366,7 @@
            giveni={T\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
+      \list{organization}{1}{%
         {Springer}%
       }
       \strng{namehash}{9a497128db448eba9bbb6e27b1ed57ed}
@@ -1664,14 +1384,16 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Medical Image Computing and Computer-Assisted Intervention (MICCAI)}
+      \field{journaltitle}{International Conference on Medical image computing and computer-assisted intervention}
       \field{title}{U-Net: Convolutional Networks for Biomedical Image Segmentation}
-      \field{volume}{9351}
       \field{year}{2015}
       \field{pages}{234\bibrangedash 241}
       \range{pages}{8}
-      \verb{doi}
-      \verb 10.1007/978-3-319-24574-4_28
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1505.04597
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1505.04597
       \endverb
     \endentry
     \entry{bk_russell2004intart}{book}{}{}
@@ -1767,46 +1489,6 @@
       \verb{url}
       \verb https://luismejias21.files.wordpress.com/2017/09/inteligencia-artificial-un-enfoque-moderno-stuart-j-russell.pdf
       \endverb
-    \endentry
-    \entry{Salih2020}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=bc304938533aad2f6949b4bb319050ec}{%
-           family={Salih},
-           familyi={S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=07f4269e986daa34dca7a01c1f5c129f}{%
-           family={Viriri},
-           familyi={V\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{e1793d8b6764420521159de5eca63bc5}
-      \strng{fullhash}{e1793d8b6764420521159de5eca63bc5}
-      \strng{fullhashraw}{e1793d8b6764420521159de5eca63bc5}
-      \strng{bibnamehash}{e1793d8b6764420521159de5eca63bc5}
-      \strng{authorbibnamehash}{e1793d8b6764420521159de5eca63bc5}
-      \strng{authornamehash}{e1793d8b6764420521159de5eca63bc5}
-      \strng{authorfullhash}{e1793d8b6764420521159de5eca63bc5}
-      \strng{authorfullhashraw}{e1793d8b6764420521159de5eca63bc5}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computers in Biology and Medicine}
-      \field{title}{Skin lesion classification using a hybrid model based on SRM and MRF}
-      \field{volume}{127}
-      \field{year}{2020}
-      \field{pages}{104049}
-      \range{pages}{1}
     \endentry
     \entry{tec_sancho2018supnosup}{report}{}{}
       \name{author}{1}{}{%
@@ -1941,6 +1623,38 @@
       \field{pages}{1\bibrangedash 34}
       \range{pages}{34}
     \endentry
+    \entry{statista2023segment}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global revenue in the skin care market by segment}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.statista.com/forecasts/1270033/global-revenue-skin-care-market-by-segment
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/forecasts/1270033/global-revenue-skin-care-market-by-segment
+      \endverb
+    \endentry
     \entry{statista2023}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
@@ -1955,8 +1669,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1969,6 +1685,134 @@
       \endverb
       \verb{url}
       \verb https://www.statista.com/statistics/254612/global-skin-care-market-size/
+      \endverb
+    \endentry
+    \entry{statista2023peru}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Peru - Beauty \& Personal Care}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.statista.com/outlook/cmo/beauty-personal-care/peru
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/outlook/cmo/beauty-personal-care/peru
+      \endverb
+    \endentry
+    \entry{statista2025usforecast}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Revenue forecast in the U.S. skin care market (2025-2029)}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.statista.com/outlook/cmo/beauty-personal-care/skin-care/united-states
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/outlook/cmo/beauty-personal-care/skin-care/united-states
+      \endverb
+    \endentry
+    \entry{statista2023global}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Revenue in the Skin Care market worldwide}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.statista.com/forecasts/1268473/worldwide-revenue-skin-care-market
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/forecasts/1268473/worldwide-revenue-skin-care-market
+      \endverb
+    \endentry
+    \entry{statista2023us}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{U.S. skin care market - Statistics \& Facts}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.statista.com/topics/4517/us-skin-care-market/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/topics/4517/us-skin-care-market/
       \endverb
     \endentry
     \entry{Tamilkodi2024}{article}{}{}
@@ -2039,68 +1883,6 @@
       \field{year}{2024}
       \verb{doi}
       \verb 10.2991/978-94-6463-471-6_129
-      \endverb
-    \endentry
-    \entry{Thanh2021}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=c6f3684f2c2fdeca92a0c8b61032417f}{%
-           family={Thanh},
-           familyi={T\bibinitperiod},
-           given={D.\bibnamedelimi N.\bibnamedelimi H.},
-           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=81e3bf632c905a935854e4e471231571}{%
-           family={Hai},
-           familyi={H\bibinitperiod},
-           given={N.\bibnamedelimi H.},
-           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5d4c4d8ee4316ad88fd94e0dc2e35a2f}{%
-           family={Hieu},
-           familyi={H\bibinitperiod},
-           given={L.\bibnamedelimi M.},
-           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d7f00261fb2a8a880108ffb616ac1d74}{%
-           family={Tiwari},
-           familyi={T\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e9b06e37d293d7b26830207ac4681d5e}{%
-           family={Prasath},
-           familyi={P\bibinitperiod},
-           given={V.\bibnamedelimi B.\bibnamedelimi S.},
-           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Computer Optics}%
-      }
-      \strng{namehash}{1388104c1f59ecd508f916528fbcc940}
-      \strng{fullhash}{6116db24f4d962c4c499face2db9cfb3}
-      \strng{fullhashraw}{6116db24f4d962c4c499face2db9cfb3}
-      \strng{bibnamehash}{6116db24f4d962c4c499face2db9cfb3}
-      \strng{authorbibnamehash}{6116db24f4d962c4c499face2db9cfb3}
-      \strng{authornamehash}{1388104c1f59ecd508f916528fbcc940}
-      \strng{authorfullhash}{6116db24f4d962c4c499face2db9cfb3}
-      \strng{authorfullhashraw}{6116db24f4d962c4c499face2db9cfb3}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computer Optics}
-      \field{number}{1}
-      \field{title}{Skin lesion segmentation method for dermoscopic images with convolutional neural networks and semantic segmentation}
-      \field{volume}{45}
-      \field{year}{2021}
-      \field{pages}{122\bibrangedash 129}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.18287/2412-6179-CO-748
       \endverb
     \endentry
     \entry{autor2021atencion}{article}{}{}
@@ -2396,12 +2178,12 @@
            given={Feng},
            giveni={F\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=69be1248ab71da4b806d79d77bb6b0b8}{%
+        {{un=0,uniquepart=base,hash=69be1248ab71da4b806d79d77bb6b0b8}{%
            family={Liu},
            familyi={L\bibinitperiod},
            given={Xinyi},
            giveni={X\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{fullhash}{41fb6c8b36536d8c2ea94ff59afdbc73}
@@ -2538,36 +2320,6 @@
       \field{title}{Introduction to Machine Learning}
       \field{year}{2014}
     \endentry
-    \entry{tec_amaz2023iagen}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b3b3a6ac74ecbd56bcdbefa4799fb9df}{%
-           family={{Amazon}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{fullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{fullhashraw}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{bibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{authorfullhashraw}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{¿Qué es la IA generativa?}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.bbvaopenmind.com/tecnologia/mundo-digital/que-es-el-aprendijaze-profundo/
-      \endverb
-      \verb{url}
-      \verb https://www.bbvaopenmind.com/tecnologia/mundo-digital/que-es-el-aprendijaze-profundo/
-      \endverb
-    \endentry
     \entry{aad2022}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9feb01f62daba370fb4d61885fd06029}{%
@@ -2596,133 +2348,6 @@
       \endverb
       \verb{url}
       \verb https://www.aad.org/skin-care/skin-aging/statistics
-      \endverb
-    \endentry
-    \entry{Arora2021}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=b9aee7f294795033862a457acb7a54fc}{%
-           family={Arora},
-           familyi={A\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=29941a55ce9570d3258751081c4834e7}{%
-           family={Gupta},
-           familyi={G\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7aa73ec6dc3d024355efc1d6aabb782d}{%
-           family={Bansal},
-           familyi={B\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{10f1d3294bb1992f292670da76118a76}
-      \strng{fullhash}{ca4b3dd2e75ac4c288ecb30a21266ad1}
-      \strng{fullhashraw}{ca4b3dd2e75ac4c288ecb30a21266ad1}
-      \strng{bibnamehash}{ca4b3dd2e75ac4c288ecb30a21266ad1}
-      \strng{authorbibnamehash}{ca4b3dd2e75ac4c288ecb30a21266ad1}
-      \strng{authornamehash}{10f1d3294bb1992f292670da76118a76}
-      \strng{authorfullhash}{ca4b3dd2e75ac4c288ecb30a21266ad1}
-      \strng{authorfullhashraw}{ca4b3dd2e75ac4c288ecb30a21266ad1}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Biocybernetics and Biomedical Engineering}
-      \field{number}{3}
-      \field{title}{Attn\_U-Net: Attention U-Net for skin lesion segmentation}
-      \field{volume}{41}
-      \field{year}{2021}
-      \field{pages}{1101\bibrangedash 1114}
-      \range{pages}{14}
-    \endentry
-    \entry{tec_baheti2020introduction_mdl}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=acb1a8bbc36bf2d131015ac20419fe36}{%
-           family={Baheti},
-           familyi={B\bibinitperiod},
-           given={Pragati},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{fullhash}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{fullhashraw}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{bibnamehash}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{authorbibnamehash}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{authornamehash}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{authorfullhash}{acb1a8bbc36bf2d131015ac20419fe36}
-      \strng{authorfullhashraw}{acb1a8bbc36bf2d131015ac20419fe36}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Introduction to Multimodal Deep Learning}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://heartbeat.fritz.ai/introduction-to-multimodal-deep-learning-630b259f9291
-      \endverb
-      \verb{url}
-      \verb https://heartbeat.fritz.ai/introduction-to-multimodal-deep-learning-630b259f9291
-      \endverb
-    \endentry
-    \entry{Bekmirzaev2021}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=e48d237042babdc7e6b6e5c6bf38eb1d}{%
-           family={Bekmirzaev},
-           familyi={B\bibinitperiod},
-           given={Shohrukh},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4c49582c8911f68e842338c201f7c283}{%
-           family={Oh},
-           familyi={O\bibinitperiod},
-           given={Seoyoung},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f3022d12474c82fab6be970fb10960d9}{%
-           family={Yoo},
-           familyi={Y\bibinitperiod},
-           given={Sangwook},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9617d8cd20ec05368a8ed2f3f024fda8}
-      \strng{fullhash}{af001892a1580ce295110478ffb3a330}
-      \strng{fullhashraw}{af001892a1580ce295110478ffb3a330}
-      \strng{bibnamehash}{af001892a1580ce295110478ffb3a330}
-      \strng{authorbibnamehash}{af001892a1580ce295110478ffb3a330}
-      \strng{authornamehash}{9617d8cd20ec05368a8ed2f3f024fda8}
-      \strng{authorfullhash}{af001892a1580ce295110478ffb3a330}
-      \strng{authorfullhashraw}{af001892a1580ce295110478ffb3a330}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2101.02127}
-      \field{note}{Version 2, January 2021}
-      \field{title}{Object-by-Object Learning for Facial Skin Lesion Detection Using Semantic Segmentation Methods}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2101.02127
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2101.02127
       \endverb
     \endentry
     \entry{autor2021arrugas}{article}{}{}
@@ -2765,42 +2390,6 @@
       \verb 10.1016/j.cosmed.2021.03.001
       \endverb
     \endentry
-    \entry{tec_brownlee2018stacked_models}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=915af163e2107106fced5dd3164d9a8e}{%
-           family={Brownlee},
-           familyi={B\bibinitperiod},
-           given={Jason},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{organization}{1}{%
-        {Machine Learning Mastery}%
-      }
-      \strng{namehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{fullhash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{fullhashraw}{915af163e2107106fced5dd3164d9a8e}
-      \strng{bibnamehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authorbibnamehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authornamehash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authorfullhash}{915af163e2107106fced5dd3164d9a8e}
-      \strng{authorfullhashraw}{915af163e2107106fced5dd3164d9a8e}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Stacking Ensemble for Deep Learning Neural Networks in Python}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/
-      \endverb
-      \verb{url}
-      \verb https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/
-      \endverb
-    \endentry
     \entry{chuchu2020}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e3bf71115c9da84dcbd4134906987eb9}{%
@@ -2841,35 +2430,50 @@
       \verb 10.1016/j.sir.2020.06.002
       \endverb
     \endentry
-    \entry{bk_deng2018deeplearningnlp}{book}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=2f5fbdc5c3cf91f62a64663cd72397b3}{%
-           family={Deng},
-           familyi={D\bibinitperiod},
-           given={Li},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=621013bf54d3546375ad71f17f020b5b}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Yang},
-           giveni={Y\bibinitperiod},
-           givenun=1}}%
+    \entry{clevelandclinic2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=18a3b2aa5b80cdc35c37255cff78fbaa}{%
+           family={{Cleveland Clinic}},
+           familyi={C\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Singapur}%
+      \strng{namehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{fullhash}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{fullhashraw}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{bibnamehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{authorbibnamehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{authornamehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{authorfullhash}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \strng{authorfullhashraw}{18a3b2aa5b80cdc35c37255cff78fbaa}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wrinkles}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://my.clevelandclinic.org/health/diseases/10984-wrinkles
+      \endverb
+      \verb{url}
+      \verb https://my.clevelandclinic.org/health/diseases/10984-wrinkles
+      \endverb
+    \endentry
+    \entry{databridge2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=275dc315f4cb9010d79ef716e2c54f51}{%
+           family={{Data Bridge Market Research}},
+           familyi={D\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{fullhash}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{fullhashraw}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{bibnamehash}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{authorbibnamehash}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{authornamehash}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{authorfullhash}{50894ce5feedd9b24ced0b416daf0caf}
-      \strng{authorfullhashraw}{50894ce5feedd9b24ced0b416daf0caf}
+      \strng{namehash}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{fullhash}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{fullhashraw}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{bibnamehash}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{authorbibnamehash}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{authornamehash}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{authorfullhash}{275dc315f4cb9010d79ef716e2c54f51}
+      \strng{authorfullhashraw}{275dc315f4cb9010d79ef716e2c54f51}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -2877,11 +2481,13 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{9789811052088}
-      \field{title}{Deep Learning in Natural Language Processing}
-      \field{year}{2018}
-      \verb{doi}
-      \verb 10.1007/978-981-10-5209-5
+      \field{title}{Mercado mundial de productos para el cuidado de la piel: tendencias de la industria y pronóstico hasta 2031}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.databridgemarketresearch.com/es/reports/global-skin-care-products-market
+      \endverb
+      \verb{url}
+      \verb https://www.databridgemarketresearch.com/es/reports/global-skin-care-products-market
       \endverb
     \endentry
     \entry{autor2022transformer}{article}{}{}
@@ -3020,57 +2626,60 @@
     \endentry
     \entry{esteva2017}{article}{}{}
       \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=1007bbd654095a4cf8c2407d7e63bb8f}{%
+        {{un=0,uniquepart=base,hash=5243abb0865221bf8daee169b621b075}{%
            family={Esteva},
            familyi={E\bibinitperiod},
-           given={A.},
+           given={Andre},
            giveni={A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=7f7927b0ee6646c9726c9c277c8c4713}{%
+        {{un=0,uniquepart=base,hash=9eebdac3670ed2b9871136c675f3354e}{%
            family={Kuprel},
            familyi={K\bibinitperiod},
-           given={B.},
+           given={Brett},
            giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=8764f59ece9896839854aa2bd5ab03a4}{%
+        {{un=0,uniquepart=base,hash=7dcf7c517335b316301b5a23b218557b}{%
            family={Novoa},
            familyi={N\bibinitperiod},
-           given={R.A.},
-           giveni={R\bibinitperiod},
+           given={Roberto\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0498b363d108c3ca83ae0b0bdb70d77}{%
+        {{un=0,uniquepart=base,hash=d5274c1d02c20ebd471b200127fcee09}{%
            family={Ko},
            familyi={K\bibinitperiod},
-           given={J.},
+           given={Justin},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=fbff841a7c7201a9c1d5a92211b98d02}{%
+        {{un=0,uniquepart=base,hash=2418082b9eed3d391d9b768fd518590b}{%
            family={Swetter},
            familyi={S\bibinitperiod},
-           given={S.M.},
-           giveni={S\bibinitperiod},
+           given={Susan\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=0d08ab062a49b10d49d695f725b96c14}{%
+        {{un=0,uniquepart=base,hash=783e12f70b583afa14d66ac21e6d8a13}{%
            family={Blau},
            familyi={B\bibinitperiod},
-           given={H.M.},
-           giveni={H\bibinitperiod},
+           given={Helen\bibnamedelima M},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=9aae21f53f8024b5be43d6281ed55dce}{%
+        {{un=0,uniquepart=base,hash=5112ea130eadef0764fce0145b8b9f91}{%
            family={Thrun},
            familyi={T\bibinitperiod},
-           given={S.},
+           given={Sebastian},
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{73a4b49de2498d048b9e28e83d1790d4}
-      \strng{fullhash}{4b28461b338d84deb793cd77cb300272}
-      \strng{fullhashraw}{4b28461b338d84deb793cd77cb300272}
-      \strng{bibnamehash}{4b28461b338d84deb793cd77cb300272}
-      \strng{authorbibnamehash}{4b28461b338d84deb793cd77cb300272}
-      \strng{authornamehash}{73a4b49de2498d048b9e28e83d1790d4}
-      \strng{authorfullhash}{4b28461b338d84deb793cd77cb300272}
-      \strng{authorfullhashraw}{4b28461b338d84deb793cd77cb300272}
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{8996a2e2d5273de74158f688db6d25f7}
+      \strng{fullhash}{6ab07ac579bf17d04b49f954f4cfa136}
+      \strng{fullhashraw}{6ab07ac579bf17d04b49f954f4cfa136}
+      \strng{bibnamehash}{6ab07ac579bf17d04b49f954f4cfa136}
+      \strng{authorbibnamehash}{6ab07ac579bf17d04b49f954f4cfa136}
+      \strng{authornamehash}{8996a2e2d5273de74158f688db6d25f7}
+      \strng{authorfullhash}{6ab07ac579bf17d04b49f954f4cfa136}
+      \strng{authorfullhashraw}{6ab07ac579bf17d04b49f954f4cfa136}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -3079,93 +2688,54 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
+      \field{number}{7639}
       \field{title}{Dermatologist-level classification of skin cancer with deep neural networks}
       \field{volume}{542}
       \field{year}{2017}
       \field{pages}{115\bibrangedash 118}
       \range{pages}{4}
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nature21056
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nature21056
+      \endverb
     \endentry
-    \entry{firdaus2023}{article}{}{}
-      \name{author}{9}{}{%
-        {{un=0,uniquepart=base,hash=a050c6f0ad80e2f38fe874f1f9aba126}{%
-           family={Firdaus},
-           familyi={F\bibinitperiod},
-           given={Firdaus},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=892451668f1584b4cf795d6cd644adc5}{%
-           family={Fachrurrozi},
-           familyi={F\bibinitperiod},
-           given={Muhammad},
+    \entry{gao2018}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c6ce985ac0295b29b4c8ec512ff32fdc}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={M.},
            giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd2174ae2a4fa4fc74fd8d1a71896004}{%
-           family={Rachmatullah},
-           familyi={R\bibinitperiod},
-           given={Muhammad\bibnamedelima Naufal},
-           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4faacc07bf26abea3150bc619537ee4e}{%
-           family={Nurmaini},
-           familyi={N\bibinitperiod},
-           given={Siti},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6ff19c3c0dc5a7dce1bf611b08b8bdbb}{%
-           family={Chayanti},
-           familyi={C\bibinitperiod},
-           given={Dewi},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=78a3303c9b5650c57b002d9733e416b6}{%
-           family={Darmawahyuni},
-           familyi={D\bibinitperiod},
-           given={Annisa},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4437fad042927005145768a434451898}{%
-           family={Islami},
-           familyi={I\bibinitperiod},
-           given={Anggun},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3c1b6c88e0d8a1c28c2c1a3816561bbd}{%
-           family={Sapitri},
-           familyi={S\bibinitperiod},
-           given={Ade\bibnamedelima Iriani},
-           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=23abfdacc48aaa81dfc9bebb4b650912}{%
-           family={Tutuko},
-           familyi={T\bibinitperiod},
-           given={Bambang},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
       }
-      \strng{namehash}{0ba4119b0f73071357b7b012dbdefe66}
-      \strng{fullhash}{213b858782fe5009bb047899f4f6dee4}
-      \strng{fullhashraw}{213b858782fe5009bb047899f4f6dee4}
-      \strng{bibnamehash}{213b858782fe5009bb047899f4f6dee4}
-      \strng{authorbibnamehash}{213b858782fe5009bb047899f4f6dee4}
-      \strng{authornamehash}{0ba4119b0f73071357b7b012dbdefe66}
-      \strng{authorfullhash}{213b858782fe5009bb047899f4f6dee4}
-      \strng{authorfullhashraw}{213b858782fe5009bb047899f4f6dee4}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \strng{namehash}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{fullhash}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{fullhashraw}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{bibnamehash}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{authorbibnamehash}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{authornamehash}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{authorfullhash}{7d631ee74847fc2fba8f82c32b958fd3}
+      \strng{authorfullhashraw}{7d631ee74847fc2fba8f82c32b958fd3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Computer Engineering and Applications}
-      \field{number}{1}
-      \field{title}{Segmentation of Skin Lesions Using Convolutional Neural Networks}
-      \field{volume}{12}
-      \field{year}{2023}
-      \field{pages}{58\bibrangedash 67}
-      \range{pages}{10}
+      \field{journaltitle}{Sensors}
+      \field{number}{2}
+      \field{title}{Skin lesion analysis toward melanoma detection using deep learning network}
+      \field{volume}{18}
+      \field{year}{2018}
+      \field{pages}{556}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1007/s00521-016-2482-6
+      \verb 10.3390/s18020556
       \endverb
     \endentry
     \entry{autor2019manchas}{article}{}{}
@@ -3245,161 +2815,6 @@
       \field{isbn}{978-0133356724}
       \field{title}{Digital Image Processing}
       \field{year}{2018}
-    \endentry
-    \entry{autor2020gans}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=1,uniquepart=given,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
-           family={Goodfellow},
-           familyi={G\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod},
-           givenun=1}}%
-      }
-      \list{publisher}{1}{%
-        {MIT Press}%
-      }
-      \strng{namehash}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{fullhash}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{fullhashraw}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{bibnamehash}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{authorbibnamehash}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{authornamehash}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{authorfullhash}{5d2585c11210cf1d4512e6e0a03ec315}
-      \strng{authorfullhashraw}{5d2585c11210cf1d4512e6e0a03ec315}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Generative Adversarial Networks: Theory and Applications}
-      \field{year}{2020}
-    \endentry
-    \entry{goodfellow2014}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=1,uniquepart=given,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
-           family={Goodfellow},
-           familyi={G\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=a341d25f80a8118cdbb90b272adc8b4f}{%
-           family={Pouget-Abadie},
-           familyi={P\bibinithyphendelim A\bibinitperiod},
-           given={Jean},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9e80f4779b032f68a6106e1424345450}{%
-           family={Mirza},
-           familyi={M\bibinitperiod},
-           given={Mehdi},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=743dd6cdaa6639320289d219d351d7b7}{%
-           family={Xu},
-           familyi={X\bibinitperiod},
-           given={Bing},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e8151f1b8f85a048cacb34f374ec922b}{%
-           family={Warde-Farley},
-           familyi={W\bibinithyphendelim F\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9ca00ffd7cc35f7cfb8f698aa9239c76}{%
-           family={Ozair},
-           familyi={O\bibinitperiod},
-           given={Sherjil},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
-           family={Courville},
-           familyi={C\bibinitperiod},
-           given={Aaron},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
-           family={Bengio},
-           familyi={B\bibinitperiod},
-           given={Yoshua},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d17e6557c5836d2d978179999ea1037f}
-      \strng{fullhash}{fa2b4fb373e75fcf07b4b987e4507545}
-      \strng{fullhashraw}{fa2b4fb373e75fcf07b4b987e4507545}
-      \strng{bibnamehash}{fa2b4fb373e75fcf07b4b987e4507545}
-      \strng{authorbibnamehash}{fa2b4fb373e75fcf07b4b987e4507545}
-      \strng{authornamehash}{d17e6557c5836d2d978179999ea1037f}
-      \strng{authorfullhash}{fa2b4fb373e75fcf07b4b987e4507545}
-      \strng{authorfullhashraw}{fa2b4fb373e75fcf07b4b987e4507545}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Advances in Neural Information Processing Systems}
-      \field{title}{Generative adversarial nets}
-      \field{volume}{27}
-      \field{year}{2014}
-    \endentry
-    \entry{tec_goodfellow2014gan}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=9065df87f119d90d95d857dd67df5ad0}{%
-           family={Goodfellow},
-           familyi={G\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=894d54b162716acedb56a3fca6cdec31}{%
-           family={Pouget-Abadie},
-           familyi={P\bibinithyphendelim A\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=69767ef463c93a67989ae0a47642deec}{%
-           family={Mirza},
-           familyi={M\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=02aa60b52defac8624a7c0ac76815e06}{%
-           family={Xu},
-           familyi={X\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=62a9be8cd228ffa0a42b1f584d04deef}{%
-           family={Warde-Farley},
-           familyi={W\bibinithyphendelim F\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=895e0491853df2d0a9720017130aeb09}{%
-           family={Ozair},
-           familyi={O\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=b466ee9eb701c5a6a885359ddf930f18}{%
-           family={Courville},
-           familyi={C\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=f428044f9ba9d68b58d744c2aaed4a2c}{%
-           family={Bengio},
-           familyi={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{153b02604ab9cd559ffdec0ba2374aac}
-      \strng{fullhash}{053f87b8b21997034ab8eb50dd1babec}
-      \strng{fullhashraw}{053f87b8b21997034ab8eb50dd1babec}
-      \strng{bibnamehash}{053f87b8b21997034ab8eb50dd1babec}
-      \strng{authorbibnamehash}{053f87b8b21997034ab8eb50dd1babec}
-      \strng{authornamehash}{153b02604ab9cd559ffdec0ba2374aac}
-      \strng{authorfullhash}{053f87b8b21997034ab8eb50dd1babec}
-      \strng{authorfullhashraw}{053f87b8b21997034ab8eb50dd1babec}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{10495258}
-      \field{title}{Generative Adversarial Networks}
-      \field{year}{2014}
-      \field{pages}{1\bibrangedash 9}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1001/jamainternmed.2016.8245
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1406.2661
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1406.2661
-      \endverb
     \endentry
     \entry{autor2021beneficios}{article}{}{}
       \name{author}{1}{}{%
@@ -3527,6 +2942,53 @@
       \verb https://www.houseofbots.com/news-detail/3620-4-most-popular-20-free-online-courses-to-learn-deep-learning
       \endverb
     \endentry
+    \entry{huang2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cae9da35ae12a6cbd407d07b86b4e18c}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=049da0c69b2f28d52bf94c37098ab3cc}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e439b19c8e4701f38fa84fbe494296c}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{163d2cf5fe8e59a79268f7871c4ee263}
+      \strng{fullhash}{b1c09cc0517261eeb883ffd79f086366}
+      \strng{fullhashraw}{b1c09cc0517261eeb883ffd79f086366}
+      \strng{bibnamehash}{b1c09cc0517261eeb883ffd79f086366}
+      \strng{authorbibnamehash}{b1c09cc0517261eeb883ffd79f086366}
+      \strng{authornamehash}{163d2cf5fe8e59a79268f7871c4ee263}
+      \strng{authorfullhash}{b1c09cc0517261eeb883ffd79f086366}
+      \strng{authorfullhashraw}{b1c09cc0517261eeb883ffd79f086366}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dermatologic Therapy}
+      \field{number}{6}
+      \field{title}{Artificial intelligence in cosmetic dermatology: Current applications and future directions}
+      \field{volume}{33}
+      \field{year}{2020}
+      \field{pages}{e14124}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1111/dth.14124
+      \endverb
+    \endentry
     \entry{hussain2021}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7f3c448351715604a9867949a573eed9}{%
@@ -3610,52 +3072,6 @@
       \field{year}{2019}
       \field{pages}{2606\bibrangedash 2614}
       \range{pages}{9}
-    \endentry
-    \entry{Jin2021}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=984d7b09d09bdcd32d9fd65096c220c9}{%
-           family={Jin},
-           familyi={J\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=92faacc6874983183ce7fb86e39f31ec}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cc4aadc875d7abdbaf96dfa4a83d8b77}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{55fad1f25e3194478c8eb2b07ec6b483}
-      \strng{fullhash}{390c66ca91afafcb64d6b1addff62440}
-      \strng{fullhashraw}{390c66ca91afafcb64d6b1addff62440}
-      \strng{bibnamehash}{390c66ca91afafcb64d6b1addff62440}
-      \strng{authorbibnamehash}{390c66ca91afafcb64d6b1addff62440}
-      \strng{authornamehash}{55fad1f25e3194478c8eb2b07ec6b483}
-      \strng{authorfullhash}{390c66ca91afafcb64d6b1addff62440}
-      \strng{authorfullhashraw}{390c66ca91afafcb64d6b1addff62440}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Medical Image Analysis}
-      \field{title}{CKDNet: a deep learning framework for skin lesion segmentation and classification}
-      \field{volume}{68}
-      \field{year}{2021}
-      \field{pages}{101871}
-      \range{pages}{1}
     \endentry
     \entry{karshiev2020improved}{article}{}{}
       \name{author}{6}{}{%
@@ -3929,6 +3345,93 @@
       \field{pages}{1097\bibrangedash 1105}
       \range{pages}{9}
     \endentry
+    \entry{lee2008}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=fb32cc1c24443e5ef2c25fdd8c785276}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Chul\bibnamedelima Hwan},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=5c9428e5addbce3fe72c45a0dc0ca155}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Nam-Yong},
+           giveni={N\bibinithyphendelim Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=9aa149be8f386eb0ec00d265e4f55e1f}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Hyo\bibnamedelima Jin},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5eb06e951efd53dea4e270c850fd3f31}
+      \strng{fullhash}{73b503ef7c418fcf29f94942ffa40c90}
+      \strng{fullhashraw}{73b503ef7c418fcf29f94942ffa40c90}
+      \strng{bibnamehash}{73b503ef7c418fcf29f94942ffa40c90}
+      \strng{authorbibnamehash}{73b503ef7c418fcf29f94942ffa40c90}
+      \strng{authornamehash}{5eb06e951efd53dea4e270c850fd3f31}
+      \strng{authorfullhash}{73b503ef7c418fcf29f94942ffa40c90}
+      \strng{authorfullhashraw}{73b503ef7c418fcf29f94942ffa40c90}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Dermatological Science}
+      \field{title}{A quantitative analysis of facial wrinkles in the Korean population}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2613964/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2613964/
+      \endverb
+    \endentry
+    \entry{lee2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=a38fe2282e0ae708270c02346a36d08f}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=a3ee7bee5a5ecb7a55a51ecdd4e78cef}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{fullhash}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{fullhashraw}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{bibnamehash}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{authorbibnamehash}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{authornamehash}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{authorfullhash}{07dd27ddb7d58787d21f960ffc963778}
+      \strng{authorfullhashraw}{07dd27ddb7d58787d21f960ffc963778}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cosmetic Dermatology}
+      \field{number}{7}
+      \field{title}{Automatic facial wrinkle detection using deep learning: A dermatological approach}
+      \field{volume}{19}
+      \field{year}{2020}
+      \field{pages}{1567\bibrangedash 1574}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/jocd.13370
+      \endverb
+    \endentry
     \entry{mohammadi2019}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -4032,72 +3535,23 @@
       \verb https://github.com/labhai/ffhq-wrinkle-dataset
       \endverb
     \endentry
-    \entry{tec_nishida2015multimodal}{report}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=c215f8d03e8981958b33fef05bef95de}{%
-           family={Nishida},
-           familyi={N\bibinitperiod},
-           given={Noriki},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1f9ff031d2ad4586c77cd52cd46d1311}{%
-           family={Nakayama},
-           familyi={N\bibinitperiod},
-           given={Hideki},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Universidad de Tokio}%
-      }
-      \strng{namehash}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{fullhash}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{fullhashraw}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{bibnamehash}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{authorbibnamehash}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{authornamehash}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{authorfullhash}{c41657d8ed262a3b2d817060d5ce6f02}
-      \strng{authorfullhashraw}{c41657d8ed262a3b2d817060d5ce6f02}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Multimodal gesture recognition using multi-stream recurrent neural network}
-      \field{type}{Reporte técnico}
-      \field{year}{2015}
-      \verb{urlraw}
-      \verb http://www.nlab.ci.i.u-tokyo.ac.jp/projects/deeplearn-e.html
-      \endverb
-      \verb{url}
-      \verb http://www.nlab.ci.i.u-tokyo.ac.jp/projects/deeplearn-e.html
-      \endverb
-    \endentry
-    \entry{phillips2020}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=cd11e30a94f3958bcd2f8a6c9cf887cf}{%
-           family={Phillips},
+    \entry{elperuano2025belleza}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=23f2026178a5cd3b56f3239350abd54b}{%
+           family={Peruano},
            familyi={P\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6d96d6fbd106e2ffd88ad23ce0119654}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
+           given={Redacción\bibnamedelima El},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{039fa04337b7771db225a82a746939c2}
-      \strng{fullhash}{039fa04337b7771db225a82a746939c2}
-      \strng{fullhashraw}{039fa04337b7771db225a82a746939c2}
-      \strng{bibnamehash}{039fa04337b7771db225a82a746939c2}
-      \strng{authorbibnamehash}{039fa04337b7771db225a82a746939c2}
-      \strng{authornamehash}{039fa04337b7771db225a82a746939c2}
-      \strng{authorfullhash}{039fa04337b7771db225a82a746939c2}
-      \strng{authorfullhashraw}{039fa04337b7771db225a82a746939c2}
+      \strng{namehash}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{fullhash}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{fullhashraw}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{bibnamehash}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{authorbibnamehash}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{authornamehash}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{authorfullhash}{23f2026178a5cd3b56f3239350abd54b}
+      \strng{authorfullhashraw}{23f2026178a5cd3b56f3239350abd54b}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -4105,13 +3559,61 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Dermatology Research}
-      \field{number}{4}
-      \field{title}{Advanced analysis of facial skin features}
-      \field{volume}{12}
+      \field{journaltitle}{Diario Oficial El Peruano}
+      \field{note}{Consultado el 6 de abril de 2025}
+      \field{title}{Belleza y cuidado personal: una industria que se afianza}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.elperuano.pe/noticia/237309-belleza-y-cuidado-personal-una-industria-que-se-afianza
+      \endverb
+      \verb{url}
+      \verb https://www.elperuano.pe/noticia/237309-belleza-y-cuidado-personal-una-industria-que-se-afianza
+      \endverb
+    \endentry
+    \entry{phillips2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cd11e30a94f3958bcd2f8a6c9cf887cf}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1971ba4710beb366867335cd7fb9cac5}{%
+           family={Marsden},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3d224583fa3e85fca7621fa1db10818}
+      \strng{fullhash}{2a2c3e7f596e51393e9b5f275e0d315f}
+      \strng{fullhashraw}{2a2c3e7f596e51393e9b5f275e0d315f}
+      \strng{bibnamehash}{2a2c3e7f596e51393e9b5f275e0d315f}
+      \strng{authorbibnamehash}{2a2c3e7f596e51393e9b5f275e0d315f}
+      \strng{authornamehash}{a3d224583fa3e85fca7621fa1db10818}
+      \strng{authorfullhash}{2a2c3e7f596e51393e9b5f275e0d315f}
+      \strng{authorfullhashraw}{2a2c3e7f596e51393e9b5f275e0d315f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers in Biology and Medicine}
+      \field{title}{Deep learning for dermoscopic image analysis: A review}
+      \field{volume}{124}
       \field{year}{2020}
-      \field{pages}{202\bibrangedash 215}
-      \range{pages}{14}
+      \field{pages}{103930}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.compbiomed.2020.103930
+      \endverb
     \endentry
     \entry{ronneberger2015}{article}{}{}
       \name{author}{3}{}{%
@@ -4134,7 +3636,7 @@
            giveni={T\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
+      \list{organization}{1}{%
         {Springer}%
       }
       \strng{namehash}{9a497128db448eba9bbb6e27b1ed57ed}
@@ -4152,14 +3654,16 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Medical Image Computing and Computer-Assisted Intervention (MICCAI)}
+      \field{journaltitle}{International Conference on Medical image computing and computer-assisted intervention}
       \field{title}{U-Net: Convolutional Networks for Biomedical Image Segmentation}
-      \field{volume}{9351}
       \field{year}{2015}
       \field{pages}{234\bibrangedash 241}
       \range{pages}{8}
-      \verb{doi}
-      \verb 10.1007/978-3-319-24574-4_28
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1505.04597
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1505.04597
       \endverb
     \endentry
     \entry{bk_russell2004intart}{book}{}{}
@@ -4255,46 +3759,6 @@
       \verb{url}
       \verb https://luismejias21.files.wordpress.com/2017/09/inteligencia-artificial-un-enfoque-moderno-stuart-j-russell.pdf
       \endverb
-    \endentry
-    \entry{Salih2020}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=bc304938533aad2f6949b4bb319050ec}{%
-           family={Salih},
-           familyi={S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=07f4269e986daa34dca7a01c1f5c129f}{%
-           family={Viriri},
-           familyi={V\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{e1793d8b6764420521159de5eca63bc5}
-      \strng{fullhash}{e1793d8b6764420521159de5eca63bc5}
-      \strng{fullhashraw}{e1793d8b6764420521159de5eca63bc5}
-      \strng{bibnamehash}{e1793d8b6764420521159de5eca63bc5}
-      \strng{authorbibnamehash}{e1793d8b6764420521159de5eca63bc5}
-      \strng{authornamehash}{e1793d8b6764420521159de5eca63bc5}
-      \strng{authorfullhash}{e1793d8b6764420521159de5eca63bc5}
-      \strng{authorfullhashraw}{e1793d8b6764420521159de5eca63bc5}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computers in Biology and Medicine}
-      \field{title}{Skin lesion classification using a hybrid model based on SRM and MRF}
-      \field{volume}{127}
-      \field{year}{2020}
-      \field{pages}{104049}
-      \range{pages}{1}
     \endentry
     \entry{tec_sancho2018supnosup}{report}{}{}
       \name{author}{1}{}{%
@@ -4429,6 +3893,38 @@
       \field{pages}{1\bibrangedash 34}
       \range{pages}{34}
     \endentry
+    \entry{statista2023segment}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global revenue in the skin care market by segment}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.statista.com/forecasts/1270033/global-revenue-skin-care-market-by-segment
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/forecasts/1270033/global-revenue-skin-care-market-by-segment
+      \endverb
+    \endentry
     \entry{statista2023}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
@@ -4443,8 +3939,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -4457,6 +3955,134 @@
       \endverb
       \verb{url}
       \verb https://www.statista.com/statistics/254612/global-skin-care-market-size/
+      \endverb
+    \endentry
+    \entry{statista2023peru}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Peru - Beauty \& Personal Care}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.statista.com/outlook/cmo/beauty-personal-care/peru
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/outlook/cmo/beauty-personal-care/peru
+      \endverb
+    \endentry
+    \entry{statista2025usforecast}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Revenue forecast in the U.S. skin care market (2025-2029)}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.statista.com/outlook/cmo/beauty-personal-care/skin-care/united-states
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/outlook/cmo/beauty-personal-care/skin-care/united-states
+      \endverb
+    \endentry
+    \entry{statista2023global}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Revenue in the Skin Care market worldwide}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.statista.com/forecasts/1268473/worldwide-revenue-skin-care-market
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/forecasts/1268473/worldwide-revenue-skin-care-market
+      \endverb
+    \endentry
+    \entry{statista2023us}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={{Statista}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{extraname}{6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{U.S. skin care market - Statistics \& Facts}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.statista.com/topics/4517/us-skin-care-market/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/topics/4517/us-skin-care-market/
       \endverb
     \endentry
     \entry{Tamilkodi2024}{article}{}{}
@@ -4527,68 +4153,6 @@
       \field{year}{2024}
       \verb{doi}
       \verb 10.2991/978-94-6463-471-6_129
-      \endverb
-    \endentry
-    \entry{Thanh2021}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=c6f3684f2c2fdeca92a0c8b61032417f}{%
-           family={Thanh},
-           familyi={T\bibinitperiod},
-           given={D.\bibnamedelimi N.\bibnamedelimi H.},
-           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=81e3bf632c905a935854e4e471231571}{%
-           family={Hai},
-           familyi={H\bibinitperiod},
-           given={N.\bibnamedelimi H.},
-           giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5d4c4d8ee4316ad88fd94e0dc2e35a2f}{%
-           family={Hieu},
-           familyi={H\bibinitperiod},
-           given={L.\bibnamedelimi M.},
-           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d7f00261fb2a8a880108ffb616ac1d74}{%
-           family={Tiwari},
-           familyi={T\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e9b06e37d293d7b26830207ac4681d5e}{%
-           family={Prasath},
-           familyi={P\bibinitperiod},
-           given={V.\bibnamedelimi B.\bibnamedelimi S.},
-           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Computer Optics}%
-      }
-      \strng{namehash}{1388104c1f59ecd508f916528fbcc940}
-      \strng{fullhash}{6116db24f4d962c4c499face2db9cfb3}
-      \strng{fullhashraw}{6116db24f4d962c4c499face2db9cfb3}
-      \strng{bibnamehash}{6116db24f4d962c4c499face2db9cfb3}
-      \strng{authorbibnamehash}{6116db24f4d962c4c499face2db9cfb3}
-      \strng{authornamehash}{1388104c1f59ecd508f916528fbcc940}
-      \strng{authorfullhash}{6116db24f4d962c4c499face2db9cfb3}
-      \strng{authorfullhashraw}{6116db24f4d962c4c499face2db9cfb3}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computer Optics}
-      \field{number}{1}
-      \field{title}{Skin lesion segmentation method for dermoscopic images with convolutional neural networks and semantic segmentation}
-      \field{volume}{45}
-      \field{year}{2021}
-      \field{pages}{122\bibrangedash 129}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.18287/2412-6179-CO-748
       \endverb
     \endentry
     \entry{autor2021atencion}{article}{}{}
@@ -4884,12 +4448,12 @@
            given={Feng},
            giveni={F\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=69be1248ab71da4b806d79d77bb6b0b8}{%
+        {{un=0,uniquepart=base,hash=69be1248ab71da4b806d79d77bb6b0b8}{%
            family={Liu},
            familyi={L\bibinitperiod},
            given={Xinyi},
            giveni={X\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{fullhash}{41fb6c8b36536d8c2ea94ff59afdbc73}
@@ -4994,16 +4558,11 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{autor2019cyclegan}
-  \missing{autor2019pix2pix}
   \missing{autor2020imagen}
   \missing{autor2021deep}
-  \missing{autor2021gans_segmentacion}
-  \missing{autor2022challenges_gans}
   \missing{autor2022senet}
   \missing{bk_kamath2019deeplearning_nlp_sr}
   \missing{bk_russell2009intart}
-  \missing{th_zant2010genai}
 \endrefsection
 \endinput
 

@@ -1,27 +1,20 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces The dataset used in the research in the segmentation process is a dermoscopy image from The HAM10000}}{11}{figure.caption.11}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Resultados segmentados de lesiones cutáneas en modo blanco y negro}}{13}{figure.caption.14}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Las lesiones cutáneas segmentadas de las imágenes dermatoscópicas: el borde rojo (oscuro) – nuestro resultado segmentado, el borde verde (claro) – la realidad fundamental}}{14}{figure.caption.15}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Comparación del modelo propuesto con otros 6 modelos de redes neuronales}}{15}{figure.caption.16}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Estructura de red de DeepLabV3+}}{16}{figure.caption.17}%
-\contentsline {figure}{\numberline {6}{\ignorespaces El proceso de convolución separable en profundidad}}{16}{figure.caption.18}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Diagrama de flujo del sistema propuesto}}{18}{figure.caption.19}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Modelo totalmente convolucional propuesto para la segmentación de lesiones cutáneas}}{18}{figure.caption.20}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Propuesta basada en RethNet RE-Xception y el decodificador de DeepLabv3+}}{20}{figure.caption.21}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Detección de edad y género}}{21}{figure.caption.22}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Análisis del tono de piel}}{21}{figure.caption.23}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Análisis de arrugas}}{22}{figure.caption.24}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Entrenamiento en dos etapas para la segmentación de arrugas faciales}}{23}{figure.caption.25}%
-\contentsline {figure}{\numberline {14}{\ignorespaces El algoritmo de K medias}}{26}{figure.caption.26}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Relación entre IA, ML y DL}}{28}{figure.caption.27}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Modelo de aprendizaje profundo}}{29}{figure.caption.28}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Modelo que combina imágenes y texto}}{29}{figure.caption.29}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Un modelo multimodal para las señales de la vista}}{31}{figure.caption.30}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Modelos de difusión}}{32}{figure.caption.31}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Autocodificadores variacionales}}{33}{figure.caption.32}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Arquitectura de un modelo CNN}}{36}{figure.caption.33}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Red Generativa Antagónica de Imágenes}}{38}{figure.caption.34}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Red Generativa Antagónica de Imágenes}}{39}{figure.caption.35}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Imágenes de Ruido Gaussiano}}{39}{figure.caption.36}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Diagrama de la Metodología}}{53}{figure.caption.40}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Cronograma de actividades}}{57}{figure.caption.41}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Mercado mundial de productos para el cuidado de la piel: tendencias de la industria y pronóstico hasta 2031}}{4}{figure.caption.10}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Ingresos del mercado mundial del cuidado de la piel de 2020 a 2030 (en millones de dólares estadounidenses)}}{5}{figure.caption.11}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Ingresos del mercado del cuidado de la piel en Estados Unidos de 2019 a 2030 (en millones de dólares estadounidenses)}}{6}{figure.caption.12}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Infografía de la Proyección del Mercado Cosmético e Higiene Personal en Perú}}{7}{figure.caption.13}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Comparación del modelo propuesto con otros 6 modelos de redes neuronales}}{16}{figure.caption.15}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Estructura de red de DeepLabV3+}}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {7}{\ignorespaces El proceso de convolución separable en profundidad}}{17}{figure.caption.17}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Diagrama de flujo del sistema propuesto}}{19}{figure.caption.18}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Modelo totalmente convolucional propuesto para la segmentación de lesiones cutáneas}}{19}{figure.caption.19}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Detección de edad y género}}{21}{figure.caption.20}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Análisis del tono de piel}}{21}{figure.caption.21}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Análisis de arrugas}}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Entrenamiento en dos etapas para la segmentación de arrugas faciales}}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {14}{\ignorespaces El algoritmo de K medias}}{26}{figure.caption.24}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Relación entre IA, ML y DL}}{27}{figure.caption.25}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Modelo de aprendizaje profundo}}{28}{figure.caption.26}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Arquitectura de un modelo CNN}}{32}{figure.caption.27}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Diagrama de la Metodología}}{45}{figure.caption.31}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Cronograma de actividades}}{49}{figure.caption.32}%
