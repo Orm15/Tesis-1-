@@ -2,13 +2,23 @@
 \subsection{Redes Neuronales Convolucionales (CNN)}
 
 
-Las Redes Neuronales Convolucionales (CNN, por sus siglas en inglés) son una clase de modelos de aprendizaje profundo ampliamente utilizadas en tareas de visión por computadora, como clasificación de imágenes, detección de objetos y segmentación semántica. Su arquitectura está diseñada para capturar patrones espaciales jerárquicos en las imágenes mediante la aplicación de filtros convolucionales que extraen características locales.
+Las Redes Neuronales Convolucionales (CNN, por sus siglas en inglés) son una clase de modelos de aprendizaje profundo ampliamente utilizadas en tareas de visión por computadora, como clasificación de imágenes, detección de objetos y segmentación semántica. Su arquitectura está diseñada para capturar patrones espaciales jerárquicos en las imágenes mediante la aplicación de filtros convolucionales que extraen características locales \cite{lecun1998gradient, krizhevsky2012imagenet, ronneberger2015unet}.
 
-Una CNN típica se compone de capas convolucionales, funciones de activación no lineales como ReLU, capas de normalización, y capas de pooling que reducen la dimensionalidad espacial, manteniendo la información más relevante. Las características extraídas en capas tempranas tienden a ser más simples (como bordes o texturas), mientras que las capas más profundas capturan patrones de alto nivel (como estructuras faciales o patrones morfológicos).
+Una CNN típica se compone de capas convolucionales, funciones de activación no lineales como ReLU, capas de normalización, y capas de pooling que reducen la dimensionalidad espacial, manteniendo la información más relevante. Las características extraídas en capas tempranas tienden a ser más simples (como bordes o texturas), mientras que las capas más profundas capturan patrones de alto nivel (como estructuras faciales o patrones morfológicos) \cite{lecun1998gradient, krizhevsky2012imagenet, ronneberger2015unet}.
 
 En el contexto de segmentación de imágenes de piel facial, las CNN permiten detectar y delimitar con precisión características morfológicas como arrugas, poros y manchas, debido a su capacidad de aprendizaje automático basado en ejemplos etiquetados. Además, su arquitectura se adapta fácilmente a modelos más complejos, como U-Net y DeepLabV3+, que han demostrado alto rendimiento en segmentación biomédica y estética \cite{lecun1998gradient, krizhevsky2012imagenet, ronneberger2015unet}.
 
+%\subsubsection{Ventajas y Limitaciones}  
+%Las CNN ofrecen varias ventajas, entre ellas:
+%\begin{itemize}
+%    \item Alta precisión en la extracción y análisis de características complejas.
+%    \item Automatización de procesos que tradicionalmente dependen de evaluaciones subjetivas.
+%    \item Adaptabilidad a diferentes tipos de imágenes y tareas específicas.
+%\end{itemize}
 
+%Sin embargo, estas redes también presentan desafíos, como la necesidad de grandes volúmenes de datos etiquetados para el entrenamiento, el alto costo computacional y la posibilidad de sobreajuste si no se implementan técnicas adecuadas de regularización.
+
+%En el presente estudio, las CNN se utilizarán para desarrollar un sistema avanzado de segmentación de imágenes faciales, optimizado para la detección de arrugas, poros y manchas. Este enfoque busca contribuir al sector cosmético y de belleza, permitiendo una evaluación estética más precisa y la personalización de tratamientos cosméticos.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Segmentación de Imágenes}
@@ -16,15 +26,15 @@ La segmentación de imágenes es el proceso de dividir una imagen en diferentes 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Características Morfológicas del rostro}
-Las características morfológicas de la piel desempeñan un papel crucial en la evaluación de la salud y la estética facial, ya que ofrecen información valiosa sobre el estado general de la piel y sus posibles alteraciones. En este estudio, se consideran tres características clave: arrugas y manchas. La correcta segmentación de estas características en imágenes faciales permite no solo el análisis cuantitativo de las mismas, sino también su monitoreo a lo largo del tiempo, contribuyendo al diseño de tratamientos cosméticos personalizados y a la evaluación de su efectividad.
+Las características morfológicas de la piel desempeñan un papel crucial en la evaluación de la salud y la estética facial, ya que ofrecen información valiosa sobre el estado general de la piel y sus posibles alteraciones. En este estudio, se consideran tres características clave: arrugas y manchas. La correcta segmentación de estas características en imágenes faciales permite no solo el análisis cuantitativo de las mismas, sino también su monitoreo a lo largo del tiempo, contribuyendo al diseño de tratamientos cosméticos personalizados y a la evaluación de su efectividad \cite{autor2021arrugas}.
 
 \subsubsection{Arrugas}
-Las arrugas son pliegues o líneas visibles en la superficie de la piel que se forman debido a la disminución de la elasticidad y el colágeno con el envejecimiento. Factores externos, como la exposición prolongada al sol, la contaminación y el tabaquismo, también contribuyen significativamente a su aparición. Además, las expresiones faciales repetitivas y la deshidratación de la piel pueden acelerar su desarrollo.
+Las arrugas son pliegues o líneas visibles en la superficie de la piel que se forman debido a la disminución de la elasticidad y el colágeno con el envejecimiento. Factores externos, como la exposición prolongada al sol, la contaminación y el tabaquismo, también contribuyen significativamente a su aparición. Además, las expresiones faciales repetitivas y la deshidratación de la piel pueden acelerar su desarrollo \cite{autor2021arrugas}.
 
 Desde el punto de vista estético, las arrugas se asocian con el envejecimiento y son una de las principales preocupaciones en el cuidado de la piel. Su segmentación precisa permite identificar su profundidad, longitud y densidad en diferentes áreas del rostro. Esta información es esencial para el desarrollo de productos antiarrugas y para evaluar la efectividad de tratamientos como cremas tópicas, terapias con láser o inyecciones de ácido hialurónico \cite{autor2021arrugas}.
 
 \subsubsection{Manchas}
-Las manchas son áreas de hiperpigmentación o hipopigmentación en la piel que resultan de una variedad de factores, incluyendo la exposición solar prolongada, cambios hormonales, envejecimiento y procesos inflamatorios. Ejemplos comunes incluyen el melasma, las manchas solares y las cicatrices post-inflamatorias.
+Las manchas son áreas de hiperpigmentación o hipopigmentación en la piel que resultan de una variedad de factores, incluyendo la exposición solar prolongada, cambios hormonales, envejecimiento y procesos inflamatorios. Ejemplos comunes incluyen el melasma, las manchas solares y las cicatrices post-inflamatorias \cite{autor2019manchas}.
 
 Estas imperfecciones no solo afectan la apariencia de la piel, sino que también pueden indicar daño subyacente. Por ello, su detección y análisis temprano son fundamentales tanto para la prevención como para el tratamiento. La segmentación precisa de manchas en imágenes faciales permite identificar su forma, tamaño, color y evolución, lo que es útil para personalizar tratamientos como cremas despigmentantes, terapias con luz pulsada intensa (IPL) o procedimientos láser. Además, este análisis contribuye al diseño de cosméticos específicos que ayudan a unificar el tono de la piel \cite{autor2019manchas}.
 %%%%%%%%%%
@@ -40,17 +50,7 @@ La segmentación de arrugas mediante CNN permite identificar líneas finas y pli
 \paragraph{Segmentación de manchas.}  
 Las manchas faciales, que pueden surgir debido a factores como la exposición solar o el envejecimiento, son una preocupación estética común. Las CNN permiten mapear su distribución y evaluar su progresión, ayudando a diagnosticar problemas como el melasma o el daño solar de manera temprana y objetiva \parencite{autor2020segmentacion}.
 
-\subsubsection{Ventajas y Limitaciones}  
-Las CNN ofrecen varias ventajas, entre ellas:
-\begin{itemize}
-    \item Alta precisión en la extracción y análisis de características complejas.
-    \item Automatización de procesos que tradicionalmente dependen de evaluaciones subjetivas.
-    \item Adaptabilidad a diferentes tipos de imágenes y tareas específicas.
-\end{itemize}
 
-Sin embargo, estas redes también presentan desafíos, como la necesidad de grandes volúmenes de datos etiquetados para el entrenamiento, el alto costo computacional y la posibilidad de sobreajuste si no se implementan técnicas adecuadas de regularización.
-
-En el presente estudio, las CNN se utilizarán para desarrollar un sistema avanzado de segmentación de imágenes faciales, optimizado para la detección de arrugas, poros y manchas. Este enfoque busca contribuir al sector cosmético y de belleza, permitiendo una evaluación estética más precisa y la personalización de tratamientos cosméticos.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\subsection{Procesamiento en Tiempo Real}
 

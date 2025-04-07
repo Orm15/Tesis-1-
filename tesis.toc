@@ -54,16 +54,15 @@
 \contentsline {subsection}{\numberline {2.3.2}Segmentación de Imágenes}{42}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Características Morfológicas del rostro}{42}{subsection.2.3.3}%
 \contentsline {subsubsection}{\numberline {2.3.3.1}Arrugas}{42}{subsubsection.2.3.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.3.2}Manchas}{42}{subsubsection.2.3.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3.2}Manchas}{43}{subsubsection.2.3.3.2}%
 \contentsline {subsubsection}{\numberline {2.3.3.3}Aplicaciones en Segmentación de Imágenes Faciales}{43}{subsubsection.2.3.3.3}%
 \contentsline {paragraph}{Segmentación de arrugas.}{43}{paragraph*.30}%
 \contentsline {paragraph}{Segmentación de manchas.}{43}{paragraph*.31}%
-\contentsline {subsubsection}{\numberline {2.3.3.4}Ventajas y Limitaciones}{43}{subsubsection.2.3.3.4}%
-\contentsline {subsection}{\numberline {2.3.4}Modelos de Segmentación Utilizados}{44}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Mecanismos de Atención}{45}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.4}Modelos de Segmentación Utilizados}{43}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Mecanismos de Atención}{44}{subsection.2.3.5}%
 \contentsline {section}{\numberline {2.4}Hipótesis}{45}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{45}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{46}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{45}{subsection.2.4.2}%
 \contentsline {chapter}{\numberline {III}Metodología de la Investigación}{47}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Diseño de la investigación}{47}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Alcance de la investigación}{47}{subsection.3.1.1}%
