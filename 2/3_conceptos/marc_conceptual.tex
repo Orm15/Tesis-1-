@@ -1,9 +1,22 @@
 %%%%%%%%
-% \subsection{Segmentación de Imágenes}
-% La segmentación de imágenes es el proceso de dividir una imagen en diferentes partes o regiones, con el objetivo de simplificar la representación de la imagen y hacerla más significativa y fácil de analizar. Este proceso es fundamental en aplicaciones de visión por computadora, especialmente en la detección de características morfológicas de la piel, como arrugas, poros y manchas \parencite{autor2020segmentacion}.
+\subsection{Redes Neuronales Convolucionales (CNN)}
 
-\subsection{Características Morfológicas de la Piel}
-Las características morfológicas de la piel desempeñan un papel crucial en la evaluación de la salud y la estética facial, ya que ofrecen información valiosa sobre el estado general de la piel y sus posibles alteraciones. En este estudio, se consideran tres características clave: arrugas, poros y manchas. La correcta segmentación de estas características en imágenes faciales permite no solo el análisis cuantitativo de las mismas, sino también su monitoreo a lo largo del tiempo, contribuyendo al diseño de tratamientos cosméticos personalizados y a la evaluación de su efectividad.
+
+Las Redes Neuronales Convolucionales (CNN, por sus siglas en inglés) son una clase de modelos de aprendizaje profundo ampliamente utilizadas en tareas de visión por computadora, como clasificación de imágenes, detección de objetos y segmentación semántica. Su arquitectura está diseñada para capturar patrones espaciales jerárquicos en las imágenes mediante la aplicación de filtros convolucionales que extraen características locales.
+
+Una CNN típica se compone de capas convolucionales, funciones de activación no lineales como ReLU, capas de normalización, y capas de pooling que reducen la dimensionalidad espacial, manteniendo la información más relevante. Las características extraídas en capas tempranas tienden a ser más simples (como bordes o texturas), mientras que las capas más profundas capturan patrones de alto nivel (como estructuras faciales o patrones morfológicos).
+
+En el contexto de segmentación de imágenes de piel facial, las CNN permiten detectar y delimitar con precisión características morfológicas como arrugas, poros y manchas, debido a su capacidad de aprendizaje automático basado en ejemplos etiquetados. Además, su arquitectura se adapta fácilmente a modelos más complejos, como U-Net y DeepLabV3+, que han demostrado alto rendimiento en segmentación biomédica y estética \cite{lecun1998gradient, krizhevsky2012imagenet, ronneberger2015unet}.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Segmentación de Imágenes}
+La segmentación de imágenes es el proceso de dividir una imagen en diferentes partes o regiones, con el objetivo de simplificar la representación de la imagen y hacerla más significativa y fácil de analizar. Este proceso es fundamental en aplicaciones de visión por computadora, especialmente en la detección de características morfológicas de la piel, como arrugas, poros y manchas \parencite{autor2020segmentacion}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Características Morfológicas del rostro}
+Las características morfológicas de la piel desempeñan un papel crucial en la evaluación de la salud y la estética facial, ya que ofrecen información valiosa sobre el estado general de la piel y sus posibles alteraciones. En este estudio, se consideran tres características clave: arrugas y manchas. La correcta segmentación de estas características en imágenes faciales permite no solo el análisis cuantitativo de las mismas, sino también su monitoreo a lo largo del tiempo, contribuyendo al diseño de tratamientos cosméticos personalizados y a la evaluación de su efectividad.
 
 \subsubsection{Arrugas}
 Las arrugas son pliegues o líneas visibles en la superficie de la piel que se forman debido a la disminución de la elasticidad y el colágeno con el envejecimiento. Factores externos, como la exposición prolongada al sol, la contaminación y el tabaquismo, también contribuyen significativamente a su aparición. Además, las expresiones faciales repetitivas y la deshidratación de la piel pueden acelerar su desarrollo.
@@ -16,13 +29,13 @@ Las manchas son áreas de hiperpigmentación o hipopigmentación en la piel que 
 Estas imperfecciones no solo afectan la apariencia de la piel, sino que también pueden indicar daño subyacente. Por ello, su detección y análisis temprano son fundamentales tanto para la prevención como para el tratamiento. La segmentación precisa de manchas en imágenes faciales permite identificar su forma, tamaño, color y evolución, lo que es útil para personalizar tratamientos como cremas despigmentantes, terapias con luz pulsada intensa (IPL) o procedimientos láser. Además, este análisis contribuye al diseño de cosméticos específicos que ayudan a unificar el tono de la piel \cite{autor2019manchas}.
 %%%%%%%%%%
 \subsubsection{Aplicaciones en Segmentación de Imágenes Faciales}  
-En el ámbito del análisis de piel facial, las CNN son una herramienta fundamental para realizar segmentaciones precisas de características morfológicas, como arrugas, poros y manchas. Gracias a su capacidad para analizar imágenes a nivel de píxel, estas redes son capaces de identificar patrones y diferencias en la textura, el color y la estructura de la piel \parencite{autor2021deeplab}.
+En el ámbito del análisis de piel facial, las CNN son una herramienta fundamental para realizar segmentaciones precisas de características morfológicas, como arrugas y manchas. Gracias a su capacidad para analizar imágenes a nivel de píxel, estas redes son capaces de identificar patrones y diferencias en la textura, el color y la estructura de la piel \parencite{autor2021deeplab}.
 
 \paragraph{Segmentación de arrugas.}  
 La segmentación de arrugas mediante CNN permite identificar líneas finas y pliegues en la piel, lo que es crucial para evaluar el envejecimiento facial y desarrollar tratamientos preventivos o correctivos. Este análisis automatizado es más preciso y rápido en comparación con las evaluaciones manuales, que pueden ser subjetivas y menos consistentes.
 
-\paragraph{Detección de poros.}  
-La identificación y segmentación de poros faciales es esencial para analizar problemas relacionados con la textura de la piel, como poros dilatados o acné. Las CNN pueden cuantificar el tamaño, la densidad y la distribución de los poros, facilitando la personalización de tratamientos según las necesidades específicas de cada individuo.
+%\paragraph{Detección de poros.}  
+%La identificación y segmentación de poros faciales es esencial para analizar problemas relacionados con la textura de la piel, como poros dilatados o acné. Las CNN pueden cuantificar el tamaño, la densidad y la distribución de los poros, facilitando la personalización de tratamientos según las necesidades específicas de cada individuo.
 
 \paragraph{Segmentación de manchas.}  
 Las manchas faciales, que pueden surgir debido a factores como la exposición solar o el envejecimiento, son una preocupación estética común. Las CNN permiten mapear su distribución y evaluar su progresión, ayudando a diagnosticar problemas como el melasma o el daño solar de manera temprana y objetiva \parencite{autor2020segmentacion}.
@@ -38,7 +51,48 @@ Las CNN ofrecen varias ventajas, entre ellas:
 Sin embargo, estas redes también presentan desafíos, como la necesidad de grandes volúmenes de datos etiquetados para el entrenamiento, el alto costo computacional y la posibilidad de sobreajuste si no se implementan técnicas adecuadas de regularización.
 
 En el presente estudio, las CNN se utilizarán para desarrollar un sistema avanzado de segmentación de imágenes faciales, optimizado para la detección de arrugas, poros y manchas. Este enfoque busca contribuir al sector cosmético y de belleza, permitiendo una evaluación estética más precisa y la personalización de tratamientos cosméticos.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Procesamiento en Tiempo Real}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Modelos de Segmentación Utilizados}
+
+Para el desarrollo del sistema de segmentación de características morfológicas en imágenes de piel facial, se han seleccionado modelos basados en redes neuronales convolucionales (CNN) y arquitecturas híbridas con mecanismos de atención. Estos modelos han demostrado un rendimiento destacado en tareas de segmentación semántica, especialmente en aplicaciones biomédicas y de visión por computadora. A continuación, se describen brevemente los modelos que serán considerados:
+
+\begin{itemize}
+    \item \textbf{U-Net:} Es una arquitectura ampliamente utilizada en segmentación de imágenes médicas. Su diseño encoder-decoder con conexiones tipo \textit{skip} permite preservar detalles espaciales relevantes mientras se capturan características de alto nivel \cite{ronneberger2015unet}.
+
+    \item \textbf{Attention U-Net:} Extiende la arquitectura original de U-Net integrando mecanismos de atención, los cuales permiten al modelo enfocarse en las regiones morfológicamente más relevantes de la imagen \cite{oktay2018attentionunet}.
+
+    \item \textbf{DeepLabV3+:} Utiliza convoluciones dilatadas y un módulo de agrupación espacial piramidal (ASPP) para capturar información contextual a múltiples escalas \cite{chen2018deeplabv3plus}.
+
+    \item \textbf{BiSeNet v2:} Diseñado para segmentación en tiempo real, combina una rama detallada para preservar la resolución con una rama contextual que extrae características globales \cite{yu2021bisenetv2}.
+
+    \item \textbf{UNETR:} Integra bloques de Transformer dentro de la arquitectura tipo U-Net para modelar dependencias espaciales de largo alcance. Ha sido evaluado con éxito en imágenes médicas volumétricas y ofrece un alto rendimiento en segmentación precisa \cite{hatamizadeh2022unetr}.
+\end{itemize}
+
+La inclusión de estos modelos permitirá realizar un análisis comparativo para identificar cuál ofrece el mejor rendimiento en la segmentación de características morfológicas faciales como arrugas, poros y manchas, especialmente en escenarios de procesamiento en tiempo real.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Mecanismos de Atención}
+Los mecanismos de atención han revolucionado el campo de la visión por computadora, especialmente en tareas como la segmentación semántica, al permitir que los modelos enfoquen su capacidad de procesamiento en regiones relevantes de la imagen. En lugar de procesar toda la imagen con igual peso, los mecanismos de atención permiten que ciertas características espaciales o de canal tengan mayor impacto en la salida del modelo.
+
+En el contexto de redes neuronales convolucionales (CNN), se han propuesto diversas variantes de atención, entre las más destacadas están:
+
+\begin{itemize}
+    \item \textbf{Spatial Attention:} Esta técnica permite al modelo concentrarse en regiones espaciales específicas de la imagen. Es útil para destacar áreas morfológicas relevantes como arrugas o manchas en el rostro \cite{woo2018cbam}.
+    
+    \item \textbf{Channel Attention:} Se enfoca en asignar pesos a los distintos canales de la imagen, permitiendo que el modelo resalte ciertos tipos de características visuales más importantes que otras \cite{hu2018senet}.
+    
+    \item \textbf{Attention Gates:} Introducidos en el modelo Attention U-Net, permiten suprimir regiones irrelevantes y resaltar solo aquellas que son informativamente importantes durante el entrenamiento \cite{oktay2018attentionunet}.
+    
+    \item \textbf{Self-Attention y Transformers:} Usados en modelos como ViT, Swin-Unet o UNETR, modelan dependencias a largo plazo entre píxeles de la imagen, lo que es especialmente útil en tareas de segmentación que requieren contexto global \cite{vaswani2017attention}.
+\end{itemize}
+
+Gracias a estos mecanismos, se ha logrado una mejora significativa en la precisión de los modelos de segmentación, especialmente en aplicaciones médicas y cosméticas donde la detección de detalles finos es esencial.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Metricas de Evaluación}
 
 %%
 %%%%%%%%%%
