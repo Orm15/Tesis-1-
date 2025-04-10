@@ -74,22 +74,6 @@ Para el desarrollo del sistema de segmentación de características morfológica
 
 La inclusión de estos modelos permitirá realizar un análisis comparativo para identificar cuál ofrece el mejor rendimiento en la segmentación de características morfológicas faciales como arrugas, poros y manchas, especialmente en escenarios de procesamiento en tiempo real.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Mecanismos de Atención}
-Los mecanismos de atención han revolucionado el campo de la visión por computadora, especialmente en tareas como la segmentación semántica, al permitir que los modelos enfoquen su capacidad de procesamiento en regiones relevantes de la imagen. En lugar de procesar toda la imagen con igual peso, los mecanismos de atención permiten que ciertas características espaciales o de canal tengan mayor impacto en la salida del modelo. \parencite{woo2018cbam}
-
-En el contexto de redes neuronales convolucionales (CNN), se han propuesto diversas variantes de atención, entre las más destacadas están:
-
-\begin{itemize}
-    \item \textbf{Spatial Attention:} Esta técnica permite al modelo concentrarse en regiones espaciales específicas de la imagen. Es útil para destacar áreas morfológicas relevantes como arrugas o manchas en el rostro. \parencite{woo2018cbam}
-    
-    \item \textbf{Channel Attention:} Se enfoca en asignar pesos a los distintos canales de la imagen, permitiendo que el modelo resalte ciertos tipos de características visuales más importantes que otras. \parencite{hu2018senet}
-    
-    \item \textbf{Attention Gates:} Introducidos en el modelo Attention U-Net, permiten suprimir regiones irrelevantes y resaltar solo aquellas que son informativamente importantes durante el entrenamiento. \parencite{oktay2018attentionunet}
-    
-    \item \textbf{Self-Attention y Transformers:} Usados en modelos como ViT, Swin-Unet o UNETR, modelan dependencias a largo plazo entre píxeles de la imagen, lo que es especialmente útil en tareas de segmentación que requieren contexto global. \parencite{vaswani2017attention}
-\end{itemize}
-
-Gracias a estos mecanismos, se ha logrado una mejora significativa en la precisión de los modelos de segmentación, especialmente en aplicaciones médicas y cosméticas donde la detección de detalles finos es esencial.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\subsection{Metricas de Evaluación}

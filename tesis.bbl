@@ -812,50 +812,6 @@
       \verb https://www.houseofbots.com/news-detail/3620-4-most-popular-20-free-online-courses-to-learn-deep-learning
       \endverb
     \endentry
-    \entry{hu2018senet}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=346b88b16d5e70356b573f350a9165aa}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Jie},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f1625e69dd01e4d86402e9815bebb102}{%
-           family={Shen},
-           familyi={S\bibinitperiod},
-           given={Li},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7c01a1c103bd601c5a256e9f1425f9d8}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Gang},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f3047729f702c4467acecfd1567bf6af}
-      \strng{fullhash}{9bec677974ec98229fc30290681f1fea}
-      \strng{fullhashraw}{9bec677974ec98229fc30290681f1fea}
-      \strng{bibnamehash}{9bec677974ec98229fc30290681f1fea}
-      \strng{authorbibnamehash}{9bec677974ec98229fc30290681f1fea}
-      \strng{authornamehash}{f3047729f702c4467acecfd1567bf6af}
-      \strng{authorfullhash}{9bec677974ec98229fc30290681f1fea}
-      \strng{authorfullhashraw}{9bec677974ec98229fc30290681f1fea}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
-      \field{number}{8}
-      \field{title}{Squeeze-and-Excitation Networks}
-      \field{volume}{42}
-      \field{year}{2018}
-      \field{pages}{2011\bibrangedash 2023}
-      \range{pages}{13}
-    \endentry
     \entry{huang2020}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=cae9da35ae12a6cbd407d07b86b4e18c}{%
@@ -2436,136 +2392,6 @@
       \verb 10.1109/TNN.2021.3051234
       \endverb
     \endentry
-    \entry{vaswani2017attention}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
-           family={Vaswani},
-           familyi={V\bibinitperiod},
-           given={Ashish},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=62efade83d70f0323fe248755e6c90c5}{%
-           family={Shazeer},
-           familyi={S\bibinitperiod},
-           given={Noam},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=06649ebab1ea5cac0250746a19764975}{%
-           family={Parmar},
-           familyi={P\bibinitperiod},
-           given={Niki},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
-      \strng{fullhash}{7cc810834e9ba19dd5f8b0a37be3172d}
-      \strng{fullhashraw}{7cc810834e9ba19dd5f8b0a37be3172d}
-      \strng{bibnamehash}{7cc810834e9ba19dd5f8b0a37be3172d}
-      \strng{authorbibnamehash}{7cc810834e9ba19dd5f8b0a37be3172d}
-      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
-      \strng{authorfullhash}{7cc810834e9ba19dd5f8b0a37be3172d}
-      \strng{authorfullhashraw}{7cc810834e9ba19dd5f8b0a37be3172d}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Advances in Neural Information Processing Systems (NeurIPS)}
-      \field{title}{Attention is All You Need}
-      \field{year}{2023}
-      \field{pages}{5998\bibrangedash 6008}
-      \range{pages}{11}
-    \endentry
-    \entry{wang2018}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=a3b7a6d0a38d8c1563b93335d38a2429}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Xie},
-           giveni={X\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=4f2458846f341e8178b36da7e92733b0}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Jifeng},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{fullhash}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{fullhashraw}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{bibnamehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{authorbibnamehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{authornamehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{authorfullhash}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{authorfullhashraw}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}
-      \field{title}{Non-local neural networks}
-      \field{year}{2018}
-      \field{pages}{7794\bibrangedash 7803}
-      \range{pages}{10}
-    \endentry
-    \entry{woo2018cbam}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=d2a3537691dc8a58afa60ad3349cc936}{%
-           family={Woo},
-           familyi={W\bibinitperiod},
-           given={Sanghyun},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3ae800a0c99ee6a4f5220a4ec7273a9a}{%
-           family={Park},
-           familyi={P\bibinitperiod},
-           given={Jongchan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=796bd34af473b19f8c8038aa58262eb9}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Joon-Young},
-           giveni={J\bibinithyphendelim Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6d1ab3d0c6ded61b91ff3b155878558f}{%
-           family={Kweon},
-           familyi={K\bibinitperiod},
-           given={In\bibnamedelima So},
-           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{724756a234761fb287e6b72e05f33eab}
-      \strng{fullhash}{f2845c6d6bdba109b1276302b426eccd}
-      \strng{fullhashraw}{f2845c6d6bdba109b1276302b426eccd}
-      \strng{bibnamehash}{f2845c6d6bdba109b1276302b426eccd}
-      \strng{authorbibnamehash}{f2845c6d6bdba109b1276302b426eccd}
-      \strng{authornamehash}{724756a234761fb287e6b72e05f33eab}
-      \strng{authorfullhash}{f2845c6d6bdba109b1276302b426eccd}
-      \strng{authorfullhashraw}{f2845c6d6bdba109b1276302b426eccd}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the European Conference on Computer Vision (ECCV)}
-      \field{title}{CBAM: Convolutional Block Attention Module}
-      \field{year}{2018}
-      \field{pages}{3\bibrangedash 19}
-      \range{pages}{17}
-    \endentry
     \entry{yoo2020}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=98b0eae050c2ed43990b77fbf3daa50e}{%
@@ -2680,12 +2506,12 @@
            given={Jingbo},
            giveni={J\bibinitperiod},
            givenun=1}}%
-        {{un=1,uniquepart=given,hash=9d02bba7e4893c3e13e5c1fd3739858c}{%
+        {{un=0,uniquepart=base,hash=9d02bba7e4893c3e13e5c1fd3739858c}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Jingbo},
            giveni={J\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{404aec30669fccbcb08cca80a888447c}
       \strng{fullhash}{436774eb71fb4077d20d8eac41e285d1}
@@ -3655,50 +3481,6 @@
       \verb https://www.houseofbots.com/news-detail/3620-4-most-popular-20-free-online-courses-to-learn-deep-learning
       \endverb
     \endentry
-    \entry{hu2018senet}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=346b88b16d5e70356b573f350a9165aa}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Jie},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f1625e69dd01e4d86402e9815bebb102}{%
-           family={Shen},
-           familyi={S\bibinitperiod},
-           given={Li},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7c01a1c103bd601c5a256e9f1425f9d8}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Gang},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f3047729f702c4467acecfd1567bf6af}
-      \strng{fullhash}{9bec677974ec98229fc30290681f1fea}
-      \strng{fullhashraw}{9bec677974ec98229fc30290681f1fea}
-      \strng{bibnamehash}{9bec677974ec98229fc30290681f1fea}
-      \strng{authorbibnamehash}{9bec677974ec98229fc30290681f1fea}
-      \strng{authornamehash}{f3047729f702c4467acecfd1567bf6af}
-      \strng{authorfullhash}{9bec677974ec98229fc30290681f1fea}
-      \strng{authorfullhashraw}{9bec677974ec98229fc30290681f1fea}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
-      \field{number}{8}
-      \field{title}{Squeeze-and-Excitation Networks}
-      \field{volume}{42}
-      \field{year}{2018}
-      \field{pages}{2011\bibrangedash 2023}
-      \range{pages}{13}
-    \endentry
     \entry{huang2020}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=cae9da35ae12a6cbd407d07b86b4e18c}{%
@@ -5279,136 +5061,6 @@
       \verb 10.1109/TNN.2021.3051234
       \endverb
     \endentry
-    \entry{vaswani2017attention}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
-           family={Vaswani},
-           familyi={V\bibinitperiod},
-           given={Ashish},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=62efade83d70f0323fe248755e6c90c5}{%
-           family={Shazeer},
-           familyi={S\bibinitperiod},
-           given={Noam},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=06649ebab1ea5cac0250746a19764975}{%
-           family={Parmar},
-           familyi={P\bibinitperiod},
-           given={Niki},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
-      \strng{fullhash}{7cc810834e9ba19dd5f8b0a37be3172d}
-      \strng{fullhashraw}{7cc810834e9ba19dd5f8b0a37be3172d}
-      \strng{bibnamehash}{7cc810834e9ba19dd5f8b0a37be3172d}
-      \strng{authorbibnamehash}{7cc810834e9ba19dd5f8b0a37be3172d}
-      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
-      \strng{authorfullhash}{7cc810834e9ba19dd5f8b0a37be3172d}
-      \strng{authorfullhashraw}{7cc810834e9ba19dd5f8b0a37be3172d}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Advances in Neural Information Processing Systems (NeurIPS)}
-      \field{title}{Attention is All You Need}
-      \field{year}{2023}
-      \field{pages}{5998\bibrangedash 6008}
-      \range{pages}{11}
-    \endentry
-    \entry{wang2018}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=a3b7a6d0a38d8c1563b93335d38a2429}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Xie},
-           giveni={X\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=4f2458846f341e8178b36da7e92733b0}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Jifeng},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{fullhash}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{fullhashraw}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{bibnamehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{authorbibnamehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{authornamehash}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{authorfullhash}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \strng{authorfullhashraw}{ab0e9dde0bbd41e8d102912a9c6cc275}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}
-      \field{title}{Non-local neural networks}
-      \field{year}{2018}
-      \field{pages}{7794\bibrangedash 7803}
-      \range{pages}{10}
-    \endentry
-    \entry{woo2018cbam}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=d2a3537691dc8a58afa60ad3349cc936}{%
-           family={Woo},
-           familyi={W\bibinitperiod},
-           given={Sanghyun},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3ae800a0c99ee6a4f5220a4ec7273a9a}{%
-           family={Park},
-           familyi={P\bibinitperiod},
-           given={Jongchan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=796bd34af473b19f8c8038aa58262eb9}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Joon-Young},
-           giveni={J\bibinithyphendelim Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6d1ab3d0c6ded61b91ff3b155878558f}{%
-           family={Kweon},
-           familyi={K\bibinitperiod},
-           given={In\bibnamedelima So},
-           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{724756a234761fb287e6b72e05f33eab}
-      \strng{fullhash}{f2845c6d6bdba109b1276302b426eccd}
-      \strng{fullhashraw}{f2845c6d6bdba109b1276302b426eccd}
-      \strng{bibnamehash}{f2845c6d6bdba109b1276302b426eccd}
-      \strng{authorbibnamehash}{f2845c6d6bdba109b1276302b426eccd}
-      \strng{authornamehash}{724756a234761fb287e6b72e05f33eab}
-      \strng{authorfullhash}{f2845c6d6bdba109b1276302b426eccd}
-      \strng{authorfullhashraw}{f2845c6d6bdba109b1276302b426eccd}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the European Conference on Computer Vision (ECCV)}
-      \field{title}{CBAM: Convolutional Block Attention Module}
-      \field{year}{2018}
-      \field{pages}{3\bibrangedash 19}
-      \range{pages}{17}
-    \endentry
     \entry{yoo2020}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=98b0eae050c2ed43990b77fbf3daa50e}{%
@@ -5523,12 +5175,12 @@
            given={Jingbo},
            giveni={J\bibinitperiod},
            givenun=1}}%
-        {{un=1,uniquepart=given,hash=9d02bba7e4893c3e13e5c1fd3739858c}{%
+        {{un=0,uniquepart=base,hash=9d02bba7e4893c3e13e5c1fd3739858c}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Jingbo},
            giveni={J\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{404aec30669fccbcb08cca80a888447c}
       \strng{fullhash}{436774eb71fb4077d20d8eac41e285d1}
