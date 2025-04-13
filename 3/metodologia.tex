@@ -1,45 +1,86 @@
 \chapter{Metodología de la Investigación}
 \section{Diseño de la investigación}
+En esta sección se detallan el diseño, tipo y enfoque de la investigación, así como la población y la muestra.
 
-El diseño de esta investigación es de tipo experimental, ya que implica la creación y evaluación de un sistema de segmentación utilizando CNN para identificar características morfológicas de la piel. Se llevarán a cabo diferentes experimentos con arquitecturas CNN para determinar la que ofrezca el mejor equilibrio entre precisión y eficiencia computacional \cite{esteva2017, khatri2018}. Este diseño permite realizar pruebas controladas sobre el conjunto de datos de imágenes faciales para comparar el desempeño de diferentes modelos y seleccionar el que mejor se adapte a las necesidades del análisis estético.
+\subsection{Tipo de investigación}
+Se ha identificado que este estudio posee un diseño experimental con el propósito de establecer el tipo de investigación. Como lo dice \cite{bk_hernandez2014metodologia}, en la obra titulada \citetitle{bk_hernandez2014metodologia}, busca determinar la consecuencia de una razón manipulada. Específicamente, se clasifica como un diseño experimental puro debido a la utilización intencionada de variables independientes (modificadas, eliminadas o añadidas) para evaluar su influencia en la variable dependiente, que en este caso es la segmentación avanzada de características morfológicas faciales (arrugas y manchas) en imágenes de rostros faciales.
 
-
-\subsection{Alcance de la investigación}
-El alcance de esta investigación se enfoca exclusivamente en la segmentación de arrugas, poros y manchas en imágenes faciales en dos dimensiones (2D). Este trabajo está orientado al sector cosmético y de belleza, en lugar de la dermatología médica, y no abordará el diagnóstico de otras condiciones cutáneas. Las imágenes provendrán de bases de datos públicas y se seleccionarán muestras representativas de diferentes tipos de piel y regiones geográficas para asegurar diversidad en los datos. La temporalidad del estudio abarca un período de aproximadamente 6 a 12 meses, desde la recolección de datos hasta la validación del modelo \cite{statista2023, aad2022}.
+% \subsection{Alcance de la investigación}
+% El alcance de esta investigación se enfoca exclusivamente en la segmentación de arrugas, poros y manchas en imágenes faciales en dos dimensiones (2D). Este trabajo está orientado al sector cosmético y de belleza, en lugar de la dermatología médica, y no abordará el diagnóstico de otras condiciones cutáneas. Las imágenes provendrán de bases de datos públicas y se seleccionarán muestras representativas de diferentes tipos de piel y regiones geográficas para asegurar diversidad en los datos. La temporalidad del estudio abarca un período de aproximadamente 6 a 12 meses, desde la recolección de datos hasta la validación del modelo \cite{statista2023, aad2022}.
 
 \subsection{Enfoque de la investigación}
-El enfoque de esta investigación es cuantitativo, ya que se busca desarrollar un sistema de segmentación para detectar características morfológicas de la piel facial mediante redes neuronales convolucionales (CNN) y analizar su efectividad con métricas cuantitativas, como precisión, recall, F1-score y AUC-ROC. Este enfoque permitirá evaluar el desempeño del sistema en la detección de arrugas, poros y manchas, proporcionando resultados medibles y objetivos \cite{esteva2017, jia2019}. Al emplear técnicas de aprendizaje profundo, el estudio pretende optimizar la precisión en la segmentación de características faciales, aplicando un marco metodológico replicable y sistemático \cite{phillips2020}.
-
-La presente investigación tiene un enfoque cuantitativo, esto dado que la variable independiente usa valores numéricos y/o estadísticos para su medición. Los resultados de la variable de Deep Learning deberán ser medidos a través de valores numéricos y, en mayor medida, estadísticos.
+Este estudio adoptó un enfoque cuantitativo, conforme a lo explicado por \cite{bk_hernandez2014metodologia} en su libro \citetitle{bk_hernandez2014metodologia}. Este enfoque se basa en la recopilación de datos para comprobar hipótesis mediante mediciones numéricas y análisis estadísticos, con el objetivo de identificar patrones de comportamiento y validar teorías. La metodología empleada sigue los diez pasos del proceso cuantitativo descritos por el autor, aplicados desde la formulación de la idea hasta la presentación de los resultados finales en el informe de investigación, ya que se busca desarrollar un sistema de segmentación para detectar características morfológicas de la piel facial mediante redes neuronales convolucionales (CNN) y analizar su efectividad con métricas cuantitativas, como precisión, recall, F1-score y AUC-ROC. Este enfoque permitirá evaluar el desempeño del sistema en la detección de arrugas, poros y manchas, proporcionando resultados medibles y objetivos. \parencite{esteva2017} Al emplear técnicas de aprendizaje profundo, el estudio pretende optimizar la precisión en la segmentación de características faciales, aplicando un marco metodológico replicable y sistemático. \parencite{phillips2020}
 
 \subsection{Población}
-La población de este estudio se compone de imágenes faciales representativas de personas con diversas edades, géneros y tipos de piel. Específicamente, estas imágenes muestran características morfológicas que se asocian con arrugas, poros dilatados y manchas de la piel facial y se han obtenido públicas y especializadas en dermatología y cosméticos bases de datos. Debido a la orientación del enfoque en el problemas estéticos, la población abarcaba imágenes de piel con claras imperfecciones y piel sin e incidencias asignadas. Así, el alcance de la población se determina como diverso y completo, asegurando la inclusión de imágenes que representa una amplia gama de condiciones de la piel. Finalmente, resulta esencial agregar diversidad geográfica, ya que ciertas diferencias geográficas.
+La población de este estudio se compone de imágenes faciales representativas de personas con diversas edades, géneros y tipos de piel. Específicamente, estas imágenes muestran características morfológicas que se asocian con arrugas y manchas faciales. Debido a la orientación del enfoque en el problemas estéticos, la población abarcaba imágenes de piel con claras imperfecciones y piel sin e incidencias asignadas. Así, el alcance de la población se determina como diverso y completo, asegurando la inclusión de imágenes que representa una amplia gama de condiciones de la piel. Finalmente, resulta esencial agregar diversidad geográfica, ya que ciertas diferencias geográficas.
 \subsection{Muestra}
-La muestra de la investigación comprenderá una parte de aproximadamente 5000 retratos faciales seleccionados de archivos públicos y privados Estas imágenes se seleccionarán mediante muestreo basado en estratos, lo que garantizará una representación uniforme en diferentes categorías de edad, identidades masculinas y femeninas y pigmentación dérmica variable La lista también tendrá imágenes con diferentes tamaños y claridad, mostrando varios tipos de arrugas, poros y manchas, asegurándose de que el grupo muestre condiciones reales de la piel Los usaremos para enseñar, verificar y desafiar nuestro modelo de visión por computadora, asegurándonos de que funcione bien en la vida real con mucha variedad.
-\section{Metodología de Implementación de la Solución}
-%%%%%%%%%%%%%%%%%%%
-\afterpage{%
-\begin{landscape}
-    \clearpage  % Asegura que el contenido empiece en una nueva página
-    \section{Diagrama de la Metodología}
-    Se propuso esta Metodología. Este se presenta en la Figura \ref{3:fig303}.
+La muestra de la investigación comprenderá una parte de aproximadamente 5000 retratos faciales. Estas imágenes se seleccionarán mediante muestreo basado en estratos, lo que garantizará una representación uniforme en diferentes categorías de edad, identidades masculinas y femeninas y pigmentación dérmica variable La lista también tendrá imágenes con diferentes tamaños y claridad, mostrando varios tipos de arrugas y manchas, asegurándose de que el grupo muestre condiciones reales de la piel Los usaremos para enseñar, verificar y desafiar nuestro modelo de segmentación avanzada, asegurándonos de que funcione bien en la vida real con mucha variedad.
 
-    \begin{figure}[!h]
-        \begin{center}
-            \includegraphics[width=\textwidth]{3/figures/metodologia.png}
-            \caption[Diagrama de la Metodología]{Diagrama de la Metodología.\\
-                Fuente: Elaboración propia.}
-            \label{3:fig303}
-        \end{center}
-    \end{figure}
-    \clearpage  % Evita que el contenido siguiente interfiera
-\end{landscape}}
+\subsection{Operacionalización de Variables}
+Los detalles acerca de cómo se definen y miden las variables de estudio se presentan en la Tabla \ref{tabla:variables}.
+%\begin{table}[h!]
+
+\begin{longtable}{>{\raggedright\arraybackslash}m{3cm} >{\raggedright\arraybackslash}m{2cm} >{\raggedright\arraybackslash}m{2cm} >{\raggedright\arraybackslash}m{3cm} >{\raggedright\arraybackslash}m{2cm} >{\raggedright\arraybackslash}m{2.5cm}}
+    \caption{Matriz de Variables Principales.}
+    \label{tabla:variables}\\
+    \hline
+    VARIABLE & DIMENSIÓN & INDICADOR & DEFINICIÓN DEL INDICADOR & TÉCNICA DE MEDICIÓN & ESCALA \\
+    \hline
+    Independiente: Imágenes de Rostros Faciales & Calidad de la Imagen & Resolución & Número de píxeles por unidad de área (píxeles por pulgada) & Análisis de propiedades de la imagen & ppi (píxeles por pulgada) \\
+    \cline{2-6}
+     & Detalle de Rostro Facial & Características Morfológicas Faciales Identificables & Cantidad de Características Morfológicas Faciales (arrugas y manchas) claramente identificables en la imagen & Contaje manual o mediante segmentación de análisis de imágenes & Número \\
+    \hline
+    Dependiente: Modelo de Segmentación Avanzada de Características Morfológicas Faciales & Precisión & Diferencia de Segmentación del Modelo vs Real & Diferencia entre la Segmentación por el modelo y la real medida & Comparación de resultados de simulación y segmentación real & Valor entre 0 y 1 \\
+    \cline{2-6}
+     & Índice de Sorensen-Dice & Similitud espacial & Medida de similitud que evalúa el solapamiento entre las áreas segmentadas por el modelo y las reales & Cálculo del índice usando máscaras binarias predicha y real & Valor entre 0 y 1 \\
+    \cline{2-6}
+     & Coeficiente de Jaccard & Similitud de conjunto & Proporción entre la intersección y la unión de las áreas segmentadas por el modelo y las reales & Cálculo del índice comparando máscaras de salida y verdad de terreno & Valor entre 0 y 1 \\
+    \cline{2-6}
+	& Entropía Cruzada & Desempeño de clasificación del modelo &  Medida de pérdida entre la distribución de probabilidad predicha y la real en cada píxel segmentado & Evaluación de la función de pérdida durante el entrenamiento del modelo & Escala real positiva \\
+    \hline
+\end{longtable}
+%\par	%%Salto de linea
+%\bigskip
+\begin{flushleft}	%%Alinear a la izquierda sin justificar
+	\small Fuente: Elaboración propia.
+\end{flushleft}
+%\end{table}
+
+\section{Técnicas de recolección de datos}
+La recolección de imágenes de características morfológicas faciales es un paso crucial para la creación del modelo de segmentación avanzada de estas. Una de las técnicas más accesibles y efectivas para obtener estas imágenes es a través del uso de bases de datos públicas como se ve en la Figura \ref{3:fig2}y repositorios en línea. Estas fuentes ofrecen una amplia variedad de imágenes de rostros faciales, que pueden ser utilizados para modelar y crear el modelo de segmentación avanzada.
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{3/figures/datapaper.png}
+		\caption[Dataset usado en el artículo de \cite{moon2024dermatology}]{Dataset usado en el artículo de \cite{moon2024dermatology}.\\
+		Fuente: \cite{moon2024dermatology}. \citetitle{moon2024dermatology}. (p. 4)}
+		\label{3:fig2}
+	\end{center}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{Repositorios de Datasets de Imágenes Faciales}: Existen múltiples repositorios en línea dedicados específicamente a la recopilación y distribución de imágenes faciales. Plataformas como Kaggle, Papers with Code, y OpenML ofrecen conjuntos de datos etiquetados que incluyen rostros humanos con diferentes características morfológicas como arrugas, manchas, expresiones y edades. Estos datasets son fundamentales para el entrenamiento y evaluación de modelos de redes neuronales convolucionales, y suelen estar acompañados de documentación sobre su uso y licencia.
+	\item \textbf{Bibliotecas Digitales y Bases de Datos Académicas}: Las bibliotecas digitales y bases de datos académicas también representan una fuente valiosa para obtener datasets faciales. En publicaciones académicas y tesis disponibles en plataformas como IEEE Xplore, SpringerLink, ScienceDirect y Google Scholar, es común encontrar referencias a datasets faciales utilizados en investigaciones previas. Estas fuentes permiten identificar conjuntos de datos validados por la comunidad científica y conocer sus aplicaciones en diferentes contextos, como el reconocimiento facial o el análisis de envejecimiento.
+	\item \textbf{Plataformas de Código Abierto y Comunidades de Investigación}: Plataformas como GitHub, Hugging Face y Zenodo son ampliamente utilizadas por la comunidad investigadora para compartir datasets y modelos preentrenados. En estos repositorios, los investigadores publican conjuntos de imágenes faciales junto con scripts de preprocesamiento, anotaciones y arquitecturas de redes neuronales. Muchos de estos recursos se distribuyen bajo licencias abiertas (como CC BY o MIT).
+  \end{itemize}
 
 
+  %\newpage
+\section{Técnicas para el procesamiento y análisis de la información}
 
+\subsection{Metodología de implementación de la solución}
 
-%%%%%%%%%%%%%%%%%%%%
-La implementación de la solución propuesta se llevará a cabo en varias etapas clave, que garantizarán la preparación adecuada de los datos, el desarrollo de modelos efectivos y su evaluación rigurosa para abordar las necesidades específicas de segmentación de características morfológicas de la piel facial.
+La creación de un Modelo de Segmentación Avanzada de Características Morfológicas varias fases de desarrollo, que van desde la recopilación de imágenes hasta su despliegue, como se menciona en el trabajo de \cite{yoon2023}. La imagen adquirida debe pasar por un proceso detallado posteriormente para alcanzar su etapa final. La metodología de esta investigación se muestra en la Figura \ref{3:fig3}.
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{3/figures/metodologia.png}
+		\caption[Método de Investigación]{Método de Investigación.\\
+			Fuente: Elaboración propia.}
+		\label{3:fig3}
+	\end{center}
+\end{figure}
+
 
 \subsection{Adquisición y Preparación de los Datos}
 Se recopilará un conjunto de datos compuesto por imágenes faciales provenientes de bases de datos públicas y privadas. Se priorizarán imágenes que reflejen diversidad en tipos de piel, condiciones morfológicas (como arrugas, poros dilatados y manchas) y niveles de calidad visual. Cada imagen será etiquetada manualmente para clasificar las características específicas en categorías relevantes, como "arrugas incipientes", "poros dilatados" o "manchas hiperpigmentadas".

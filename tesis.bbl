@@ -50,36 +50,6 @@
       \field{title}{Introduction to Machine Learning}
       \field{year}{2014}
     \endentry
-    \entry{aad2022}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9feb01f62daba370fb4d61885fd06029}{%
-           family={{American Academy of Dermatology}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{9feb01f62daba370fb4d61885fd06029}
-      \strng{fullhash}{9feb01f62daba370fb4d61885fd06029}
-      \strng{fullhashraw}{9feb01f62daba370fb4d61885fd06029}
-      \strng{bibnamehash}{9feb01f62daba370fb4d61885fd06029}
-      \strng{authorbibnamehash}{9feb01f62daba370fb4d61885fd06029}
-      \strng{authornamehash}{9feb01f62daba370fb4d61885fd06029}
-      \strng{authorfullhash}{9feb01f62daba370fb4d61885fd06029}
-      \strng{authorfullhashraw}{9feb01f62daba370fb4d61885fd06029}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Skin aging in adults: Statistics and treatment}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://www.aad.org/skin-care/skin-aging/statistics
-      \endverb
-      \verb{url}
-      \verb https://www.aad.org/skin-care/skin-aging/statistics
-      \endverb
-    \endentry
     \entry{autor2021arrugas}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6f52c51caac5c7df94f9349a2e45d419}{%
@@ -771,6 +741,70 @@
       \verb 10.1109/CVPR.2016.90
       \endverb
     \endentry
+    \entry{bk_hernandez2014metodologia}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=82531f0c5173ef965e84d101f98cbf0a}{%
+           family={Hernández\bibnamedelima Sampieri},
+           familyi={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cda946b44fb9851bceae7fa35c71abde}{%
+           family={Fernández\bibnamedelima Collado},
+           familyi={F\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e441489e7f536d4f82d39bf61aa6b76}{%
+           family={Baptista\bibnamedelima Lucio},
+           familyi={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Pilar},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d5214b09070be8ba4dd4b092d74a6a64}{%
+           family={Hirst},
+           familyi={H\bibinitperiod},
+           given={Graeme},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Ciudad de México}%
+      }
+      \list{publisher}{1}{%
+        {McGraw Hill Education}%
+      }
+      \strng{namehash}{7c7c2f335ff7edc16815d4abaab9b7e7}
+      \strng{fullhash}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{fullhashraw}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{bibnamehash}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{authorbibnamehash}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{authornamehash}{7c7c2f335ff7edc16815d4abaab9b7e7}
+      \strng{authorfullhash}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{authorfullhashraw}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{editorbibnamehash}{d5214b09070be8ba4dd4b092d74a6a64}
+      \strng{editornamehash}{d5214b09070be8ba4dd4b092d74a6a64}
+      \strng{editorfullhash}{d5214b09070be8ba4dd4b092d74a6a64}
+      \strng{editorfullhashraw}{d5214b09070be8ba4dd4b092d74a6a64}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{isbn}{978-1-4562-2396-0}
+      \field{title}{Metodología de la Investigación}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://academia.utp.edu.co/grupobasicoclinicayaplicadas/files/2013/06/Metodolog%C3%ADa-de-la-Investigaci%C3%B3n.pdf
+      \endverb
+      \verb{url}
+      \verb https://academia.utp.edu.co/grupobasicoclinicayaplicadas/files/2013/06/Metodolog%C3%ADa-de-la-Investigaci%C3%B3n.pdf
+      \endverb
+    \endentry
     \entry{tec_cook2018deeplearning}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=aeb9610436aac15fb6a7c09973abd706}{%
@@ -899,50 +933,6 @@
       \verb 10.1016/j.jbi.2021.103756
       \endverb
     \endentry
-    \entry{jia2019}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=0f98d24928baeb4dcd760770761b00a5}{%
-           family={Jia},
-           familyi={J\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b07b36e9684e023fbae93589793af22a}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=039f70565cc95ccd6851ad393fcf2844}{%
-           family={Cao},
-           familyi={C\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d5ca08d242e624c1609664349232b70f}
-      \strng{fullhash}{a08fd6923387f6d8661a34b92fe5b835}
-      \strng{fullhashraw}{a08fd6923387f6d8661a34b92fe5b835}
-      \strng{bibnamehash}{a08fd6923387f6d8661a34b92fe5b835}
-      \strng{authorbibnamehash}{a08fd6923387f6d8661a34b92fe5b835}
-      \strng{authornamehash}{d5ca08d242e624c1609664349232b70f}
-      \strng{authorfullhash}{a08fd6923387f6d8661a34b92fe5b835}
-      \strng{authorfullhashraw}{a08fd6923387f6d8661a34b92fe5b835}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Biomedical Engineering}
-      \field{number}{9}
-      \field{title}{Skin pore analysis and measurement using deep learning}
-      \field{volume}{66}
-      \field{year}{2019}
-      \field{pages}{2606\bibrangedash 2614}
-      \range{pages}{9}
-    \endentry
     \entry{bk_kamath2019deeplearning_nlp_sr}{book}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1cfc30479d29622a456cfefbcbdf6fa3}{%
@@ -1052,44 +1042,6 @@
       \verb{doi}
       \verb 10.3390/app10103658
       \endverb
-    \endentry
-    \entry{khatri2018}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=ca2c7916089619356a6460c5737526c5}{%
-           family={Khatri},
-           familyi={K\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=64e934ba546de9561d297e54c3c5e6a4}{%
-           family={Maibach},
-           familyi={M\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8b3cae952dfb10aac40314c169c25839}
-      \strng{fullhash}{8b3cae952dfb10aac40314c169c25839}
-      \strng{fullhashraw}{8b3cae952dfb10aac40314c169c25839}
-      \strng{bibnamehash}{8b3cae952dfb10aac40314c169c25839}
-      \strng{authorbibnamehash}{8b3cae952dfb10aac40314c169c25839}
-      \strng{authornamehash}{8b3cae952dfb10aac40314c169c25839}
-      \strng{authorfullhash}{8b3cae952dfb10aac40314c169c25839}
-      \strng{authorfullhashraw}{8b3cae952dfb10aac40314c169c25839}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Cosmetic Dermatology}
-      \field{number}{6}
-      \field{title}{Effectiveness of anti-aging skincare products: A review}
-      \field{volume}{17}
-      \field{year}{2018}
-      \field{pages}{1095\bibrangedash 1102}
-      \range{pages}{8}
     \endentry
     \entry{Kim2023}{article}{}{}
       \name{author}{2}{}{%
@@ -2128,38 +2080,6 @@
       \verb https://www.statista.com/forecasts/1270033/global-revenue-skin-care-market-by-segment
       \endverb
     \endentry
-    \entry{statista2023}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
-           family={Statista},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{2}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Global skin care market revenue from 2014 to 2023}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.statista.com/statistics/254612/global-skin-care-market-size/
-      \endverb
-      \verb{url}
-      \verb https://www.statista.com/statistics/254612/global-skin-care-market-size/
-      \endverb
-    \endentry
     \entry{statista2023peru}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
@@ -2174,10 +2094,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{3}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -2206,10 +2126,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{4}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -2238,10 +2158,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{5}
+      \field{extraname}{4}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{5}
+      \field{extradate}{4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -2270,10 +2190,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{6}
+      \field{extraname}{5}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{6}
+      \field{extradate}{5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -2719,36 +2639,6 @@
       \field{title}{Introduction to Machine Learning}
       \field{year}{2014}
     \endentry
-    \entry{aad2022}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9feb01f62daba370fb4d61885fd06029}{%
-           family={{American Academy of Dermatology}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{9feb01f62daba370fb4d61885fd06029}
-      \strng{fullhash}{9feb01f62daba370fb4d61885fd06029}
-      \strng{fullhashraw}{9feb01f62daba370fb4d61885fd06029}
-      \strng{bibnamehash}{9feb01f62daba370fb4d61885fd06029}
-      \strng{authorbibnamehash}{9feb01f62daba370fb4d61885fd06029}
-      \strng{authornamehash}{9feb01f62daba370fb4d61885fd06029}
-      \strng{authorfullhash}{9feb01f62daba370fb4d61885fd06029}
-      \strng{authorfullhashraw}{9feb01f62daba370fb4d61885fd06029}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Skin aging in adults: Statistics and treatment}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://www.aad.org/skin-care/skin-aging/statistics
-      \endverb
-      \verb{url}
-      \verb https://www.aad.org/skin-care/skin-aging/statistics
-      \endverb
-    \endentry
     \entry{autor2021arrugas}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6f52c51caac5c7df94f9349a2e45d419}{%
@@ -3440,6 +3330,70 @@
       \verb 10.1109/CVPR.2016.90
       \endverb
     \endentry
+    \entry{bk_hernandez2014metodologia}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=82531f0c5173ef965e84d101f98cbf0a}{%
+           family={Hernández\bibnamedelima Sampieri},
+           familyi={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cda946b44fb9851bceae7fa35c71abde}{%
+           family={Fernández\bibnamedelima Collado},
+           familyi={F\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e441489e7f536d4f82d39bf61aa6b76}{%
+           family={Baptista\bibnamedelima Lucio},
+           familyi={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Pilar},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d5214b09070be8ba4dd4b092d74a6a64}{%
+           family={Hirst},
+           familyi={H\bibinitperiod},
+           given={Graeme},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Ciudad de México}%
+      }
+      \list{publisher}{1}{%
+        {McGraw Hill Education}%
+      }
+      \strng{namehash}{7c7c2f335ff7edc16815d4abaab9b7e7}
+      \strng{fullhash}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{fullhashraw}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{bibnamehash}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{authorbibnamehash}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{authornamehash}{7c7c2f335ff7edc16815d4abaab9b7e7}
+      \strng{authorfullhash}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{authorfullhashraw}{ac5ca95afba2bfe4fd763edb69eda3d4}
+      \strng{editorbibnamehash}{d5214b09070be8ba4dd4b092d74a6a64}
+      \strng{editornamehash}{d5214b09070be8ba4dd4b092d74a6a64}
+      \strng{editorfullhash}{d5214b09070be8ba4dd4b092d74a6a64}
+      \strng{editorfullhashraw}{d5214b09070be8ba4dd4b092d74a6a64}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{isbn}{978-1-4562-2396-0}
+      \field{title}{Metodología de la Investigación}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://academia.utp.edu.co/grupobasicoclinicayaplicadas/files/2013/06/Metodolog%C3%ADa-de-la-Investigaci%C3%B3n.pdf
+      \endverb
+      \verb{url}
+      \verb https://academia.utp.edu.co/grupobasicoclinicayaplicadas/files/2013/06/Metodolog%C3%ADa-de-la-Investigaci%C3%B3n.pdf
+      \endverb
+    \endentry
     \entry{tec_cook2018deeplearning}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=aeb9610436aac15fb6a7c09973abd706}{%
@@ -3568,50 +3522,6 @@
       \verb 10.1016/j.jbi.2021.103756
       \endverb
     \endentry
-    \entry{jia2019}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=0f98d24928baeb4dcd760770761b00a5}{%
-           family={Jia},
-           familyi={J\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b07b36e9684e023fbae93589793af22a}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=039f70565cc95ccd6851ad393fcf2844}{%
-           family={Cao},
-           familyi={C\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d5ca08d242e624c1609664349232b70f}
-      \strng{fullhash}{a08fd6923387f6d8661a34b92fe5b835}
-      \strng{fullhashraw}{a08fd6923387f6d8661a34b92fe5b835}
-      \strng{bibnamehash}{a08fd6923387f6d8661a34b92fe5b835}
-      \strng{authorbibnamehash}{a08fd6923387f6d8661a34b92fe5b835}
-      \strng{authornamehash}{d5ca08d242e624c1609664349232b70f}
-      \strng{authorfullhash}{a08fd6923387f6d8661a34b92fe5b835}
-      \strng{authorfullhashraw}{a08fd6923387f6d8661a34b92fe5b835}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Biomedical Engineering}
-      \field{number}{9}
-      \field{title}{Skin pore analysis and measurement using deep learning}
-      \field{volume}{66}
-      \field{year}{2019}
-      \field{pages}{2606\bibrangedash 2614}
-      \range{pages}{9}
-    \endentry
     \entry{bk_kamath2019deeplearning_nlp_sr}{book}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1cfc30479d29622a456cfefbcbdf6fa3}{%
@@ -3721,44 +3631,6 @@
       \verb{doi}
       \verb 10.3390/app10103658
       \endverb
-    \endentry
-    \entry{khatri2018}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=ca2c7916089619356a6460c5737526c5}{%
-           family={Khatri},
-           familyi={K\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=64e934ba546de9561d297e54c3c5e6a4}{%
-           family={Maibach},
-           familyi={M\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8b3cae952dfb10aac40314c169c25839}
-      \strng{fullhash}{8b3cae952dfb10aac40314c169c25839}
-      \strng{fullhashraw}{8b3cae952dfb10aac40314c169c25839}
-      \strng{bibnamehash}{8b3cae952dfb10aac40314c169c25839}
-      \strng{authorbibnamehash}{8b3cae952dfb10aac40314c169c25839}
-      \strng{authornamehash}{8b3cae952dfb10aac40314c169c25839}
-      \strng{authorfullhash}{8b3cae952dfb10aac40314c169c25839}
-      \strng{authorfullhashraw}{8b3cae952dfb10aac40314c169c25839}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Cosmetic Dermatology}
-      \field{number}{6}
-      \field{title}{Effectiveness of anti-aging skincare products: A review}
-      \field{volume}{17}
-      \field{year}{2018}
-      \field{pages}{1095\bibrangedash 1102}
-      \range{pages}{8}
     \endentry
     \entry{Kim2023}{article}{}{}
       \name{author}{2}{}{%
@@ -4797,38 +4669,6 @@
       \verb https://www.statista.com/forecasts/1270033/global-revenue-skin-care-market-by-segment
       \endverb
     \endentry
-    \entry{statista2023}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
-           family={Statista},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{2}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Global skin care market revenue from 2014 to 2023}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.statista.com/statistics/254612/global-skin-care-market-size/
-      \endverb
-      \verb{url}
-      \verb https://www.statista.com/statistics/254612/global-skin-care-market-size/
-      \endverb
-    \endentry
     \entry{statista2023peru}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
@@ -4843,10 +4683,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{3}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -4875,10 +4715,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{4}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -4907,10 +4747,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{5}
+      \field{extraname}{4}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{5}
+      \field{extradate}{4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -4939,10 +4779,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{6}
+      \field{extraname}{5}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{6}
+      \field{extradate}{5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
