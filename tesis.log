@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.1)  10 APR 2025 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.1)  13 APR 2025 12:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -861,105 +861,6 @@ Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@pps=\count481
 \c@@ppsavesec=\count482
 \c@@ppsaveapp=\count483
-) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip90
-\f@nch@offset@elh=\skip91
-\f@nch@offset@erh=\skip92
-\f@nch@offset@olh=\skip93
-\f@nch@offset@orh=\skip94
-\f@nch@offset@elf=\skip95
-\f@nch@offset@erf=\skip96
-\f@nch@offset@olf=\skip97
-\f@nch@offset@orf=\skip98
-\f@nch@height=\skip99
-\f@nch@footalignment=\skip100
-\f@nch@widthL=\skip101
-\f@nch@widthC=\skip102
-\f@nch@widthR=\skip103
-\@temptokenb=\toks38
-) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen273
-\TX@old@table=\dimen274
-\TX@old@col=\dimen275
-\TX@target=\dimen276
-\TX@delta=\dimen277
-\TX@cols=\count484
-\TX@ftn=\toks39
-) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
-Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
-\AP@output=\toks40
-\AP@partial=\box114
-\AP@footins=\box115
-) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
-Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip104
-\RaggedLeftLeftskip=\skip105
-\RaggedRightLeftskip=\skip106
-\CenteringRightskip=\skip107
-\RaggedLeftRightskip=\skip108
-\RaggedRightRightskip=\skip109
-\CenteringParfillskip=\skip110
-\RaggedLeftParfillskip=\skip111
-\RaggedRightParfillskip=\skip112
-\JustifyingParfillskip=\skip113
-\CenteringParindent=\skip114
-\RaggedLeftParindent=\skip115
-\RaggedRightParindent=\skip116
-\JustifyingParindent=\skip117
-) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
-Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen278
-\c@nlinenum=\count485
-\TeXr@lab=\toks41
-) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
-Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count486
-\rotFPtop=\skip118
-\rotFPbot=\skip119
-\rot@float@box=\box116
-\rot@mess@toks=\toks42
-) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
-Rollback for package 'siunitx' requested -> date 2024-11-01.
-         Best approximation is the release introduced on 2021-05-17.
-Package: siunitx 2025-03-26 v3.4.8 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count487
-\l__siunitx_number_exponent_fixed_int=\count488
-\l__siunitx_number_min_decimal_int=\count489
-\l__siunitx_number_min_integer_int=\count490
-\l__siunitx_number_round_precision_int=\count491
-\l__siunitx_number_lower_threshold_int=\count492
-\l__siunitx_number_upper_threshold_int=\count493
-\l__siunitx_number_group_first_int=\count494
-\l__siunitx_number_group_size_int=\count495
-\l__siunitx_number_group_minimum_int=\count496
-\l__siunitx_angle_tmp_dim=\dimen279
-\l__siunitx_angle_marker_box=\box117
-\l__siunitx_angle_unit_box=\box118
-\l__siunitx_compound_count_int=\count497
- (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
-) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
- (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks43
-\ex@=\dimen280
-))
-\l__siunitx_table_tmp_box=\box119
-\l__siunitx_table_tmp_dim=\dimen281
-\l__siunitx_table_column_width_dim=\dimen282
-\l__siunitx_table_integer_box=\box120
-\l__siunitx_table_decimal_box=\box121
-\l__siunitx_table_uncert_box=\box122
-\l__siunitx_table_before_box=\box123
-\l__siunitx_table_after_box=\box124
-\l__siunitx_table_before_dim=\dimen283
-\l__siunitx_table_carry_dim=\dimen284
-\l__siunitx_unit_tmp_int=\count498
-\l__siunitx_unit_position_int=\count499
-\l__siunitx_unit_total_int=\count500
 ) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 Rollback for package 'xcolor' requested -> date 2024-11-01.
@@ -981,10 +882,114 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
-\everycr=\toks44
-\minrowclearance=\skip120
-\rownum=\count501
-) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+\everycr=\toks38
+\minrowclearance=\skip90
+\rownum=\count484
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip91
+\f@nch@offset@elh=\skip92
+\f@nch@offset@erh=\skip93
+\f@nch@offset@olh=\skip94
+\f@nch@offset@orh=\skip95
+\f@nch@offset@elf=\skip96
+\f@nch@offset@erf=\skip97
+\f@nch@offset@olf=\skip98
+\f@nch@offset@orf=\skip99
+\f@nch@height=\skip100
+\f@nch@footalignment=\skip101
+\f@nch@widthL=\skip102
+\f@nch@widthC=\skip103
+\f@nch@widthR=\skip104
+\@temptokenb=\toks39
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen273
+\TX@old@table=\dimen274
+\TX@old@col=\dimen275
+\TX@target=\dimen276
+\TX@delta=\dimen277
+\TX@cols=\count485
+\TX@ftn=\toks40
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks41
+\AP@partial=\box114
+\AP@footins=\box115
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip105
+\RaggedLeftLeftskip=\skip106
+\RaggedRightLeftskip=\skip107
+\CenteringRightskip=\skip108
+\RaggedLeftRightskip=\skip109
+\RaggedRightRightskip=\skip110
+\CenteringParfillskip=\skip111
+\RaggedLeftParfillskip=\skip112
+\RaggedRightParfillskip=\skip113
+\JustifyingParfillskip=\skip114
+\CenteringParindent=\skip115
+\RaggedLeftParindent=\skip116
+\RaggedRightParindent=\skip117
+\JustifyingParindent=\skip118
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen278
+\c@nlinenum=\count486
+\TeXr@lab=\toks42
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count487
+\rotFPtop=\skip119
+\rotFPbot=\skip120
+\rot@float@box=\box116
+\rot@mess@toks=\toks43
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Rollback for package 'siunitx' requested -> date 2024-11-01.
+         Best approximation is the release introduced on 2021-05-17.
+Package: siunitx 2025-03-26 v3.4.8 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count488
+\l__siunitx_number_exponent_fixed_int=\count489
+\l__siunitx_number_min_decimal_int=\count490
+\l__siunitx_number_min_integer_int=\count491
+\l__siunitx_number_round_precision_int=\count492
+\l__siunitx_number_lower_threshold_int=\count493
+\l__siunitx_number_upper_threshold_int=\count494
+\l__siunitx_number_group_first_int=\count495
+\l__siunitx_number_group_size_int=\count496
+\l__siunitx_number_group_minimum_int=\count497
+\l__siunitx_angle_tmp_dim=\dimen279
+\l__siunitx_angle_marker_box=\box117
+\l__siunitx_angle_unit_box=\box118
+\l__siunitx_compound_count_int=\count498
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks44
+\ex@=\dimen280
+))
+\l__siunitx_table_tmp_box=\box119
+\l__siunitx_table_tmp_dim=\dimen281
+\l__siunitx_table_column_width_dim=\dimen282
+\l__siunitx_table_integer_box=\box120
+\l__siunitx_table_decimal_box=\box121
+\l__siunitx_table_uncert_box=\box122
+\l__siunitx_table_before_box=\box123
+\l__siunitx_table_after_box=\box124
+\l__siunitx_table_before_dim=\dimen283
+\l__siunitx_table_carry_dim=\dimen284
+\l__siunitx_unit_tmp_int=\count499
+\l__siunitx_unit_position_int=\count500
+\l__siunitx_unit_total_int=\count501
+)
+
+LaTeX Warning: Package "xcolor" has already been loaded: ignoring load-time
+(LaTeX)        option "xcdraw".
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Rollback for package 'amsmath' requested -> date 2024-11-01.
          Best approximation is the release introduced on 2019-04-01.
 Package: amsmath 2024/11/05 v2.17t AMS math features
@@ -1150,7 +1155,7 @@ Package tocloft Info: The document has chapter divisions on input line 51.
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 )
-Package caption Info: Option `declare type' requires the `newfloat' package on input line 247.
+Package caption Info: Option `declare type' requires the `newfloat' package on input line 252.
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/newfloat\newfloat.sty
 Rollback for package 'newfloat' requested -> date 2024-11-01.
          Best approximation is the release introduced on 2023-10-01.
@@ -1162,11 +1167,11 @@ Package newfloat Info: \Hy@org@chapter = macro:[#1]#2->\NR@gettitle {#1}\NR@chap
 Package newfloat Info: \algocf@original@chapter = undefined.
 Package newfloat Info: `rotating' package detected.
 )
-Package newfloat Info: New float `equcaption' with options `' on input line 247.
+Package newfloat Info: New float `equcaption' with options `' on input line 252.
 \c@equcaption=\count535
-Package newfloat Info: float type `equcaption'=8 on input line 247.
+Package newfloat Info: float type `equcaption'=8 on input line 252.
 \c@loequcaptiondepth=\count536
-Package caption Info: New subtype `subequcaption' on input line 247.
+Package caption Info: New subtype `subequcaption' on input line 252.
 \c@subequcaption=\count537
 \mylength=\skip163
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/bibtex\apalike.sty)
@@ -1174,7 +1179,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 284.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 289.
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -1194,24 +1199,24 @@ LaTeX Warning: Label `3:fig303' multiply defined.
 )
 \openout1 = `tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 284.
-LaTeX Font Info:    ... okay on input line 284.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 284.
-LaTeX Font Info:    ... okay on input line 284.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 284.
-LaTeX Font Info:    ... okay on input line 284.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 284.
-LaTeX Font Info:    ... okay on input line 284.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 284.
-LaTeX Font Info:    ... okay on input line 284.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 284.
-LaTeX Font Info:    ... okay on input line 284.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 284.
-LaTeX Font Info:    ... okay on input line 284.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 284.
-LaTeX Font Info:    ... okay on input line 284.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 284.
-LaTeX Font Info:    ... okay on input line 284.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 289.
+LaTeX Font Info:    ... okay on input line 289.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 289.
+LaTeX Font Info:    ... okay on input line 289.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 289.
+LaTeX Font Info:    ... okay on input line 289.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 289.
+LaTeX Font Info:    ... okay on input line 289.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 289.
+LaTeX Font Info:    ... okay on input line 289.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 289.
+LaTeX Font Info:    ... okay on input line 289.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 289.
+LaTeX Font Info:    ... okay on input line 289.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 289.
+LaTeX Font Info:    ... okay on input line 289.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 289.
+LaTeX Font Info:    ... okay on input line 289.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1267,8 +1272,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \. on input line 284.
-LaTeX Info: Redefining \% on input line 284.
+LaTeX Info: Redefining \. on input line 289.
+LaTeX Info: Redefining \% on input line 289.
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
 Package biblatex Info: ... file 'spanish-apa.lbx' found.
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\spanish-apa.lbx
@@ -1302,13 +1307,13 @@ Package biblatex Warning: Biber reported the following issues
 (biblatex)                - Overwriting field 'month' with month value from field 'date' for entry 'tec_kim2014convolutional'.
 
 )
-Package biblatex Info: Reference section=0 on input line 284.
-Package biblatex Info: Reference segment=0 on input line 284.
+Package biblatex Info: Reference section=0 on input line 289.
+Package biblatex Info: Reference segment=0 on input line 289.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 284.
+Package hyperref Info: Link coloring ON on input line 289.
  (tesis.out) (tesis.out)
 \@outlinefile=\write5
 \openout5 = `tesis.out'.
@@ -1316,7 +1321,7 @@ Package hyperref Info: Link coloring ON on input line 284.
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 284.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 289.
 Package newfloat Info: Trying Plan B...
 Package newfloat Info: `float' package detected.
 \c@myequations=\count545
@@ -1329,7 +1334,7 @@ Package newfloat Info: `float' package detected.
 <images_repo/esanlogomin.png, id=351, 100.6962pt x 100.2144pt>
 File: images_repo/esanlogomin.png Graphic file (type png)
 <use images_repo/esanlogomin.png>
-Package pdftex.def Info: images_repo/esanlogomin.png  used on input line 308.
+Package pdftex.def Info: images_repo/esanlogomin.png  used on input line 313.
 (pdftex.def)             Requested size: 90.59227pt x 90.15846pt.
 
 
@@ -2240,12 +2245,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [56]
-Overfull \hbox (1.16269pt too wide) in paragraph at lines 405--405
+Overfull \hbox (1.16269pt too wide) in paragraph at lines 410--410
 \OT1/ptm/m/it/12 cee-dings of the IEEE Con-fe-ren-ce on Com-pu-ter Vi-sion and Pat-tern Re-cog-ni-tion\OT1/ptm/m/n/12 , 1204[]1213.
  []
 
 
-Overfull \hbox (22.54958pt too wide) in paragraph at lines 405--405
+Overfull \hbox (22.54958pt too wide) in paragraph at lines 410--410
 \OT1/ptm/m/n/12 Dermatologist-level clas-si-fi-ca-tion of skin can-cer with deep neu-ral net-works. \OT1/ptm/m/it/12 Na-tu-re\OT1/ptm/m/n/12 , \OT1/ptm/m/it/12 542\OT1/ptm/m/n/12 (7639),
  []
 
@@ -2261,7 +2266,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [57
 
 ]
-Overfull \hbox (5.112pt too wide) in paragraph at lines 405--405
+Overfull \hbox (5.112pt too wide) in paragraph at lines 410--410
 \OT1/ptm/m/n/12 Con-vo-lu-tio-nal Neu-ral Net-works. \OT1/ptm/m/it/12 Ad-van-ces in Neu-ral In-for-ma-tion Pro-ces-sing Sys-tems (Neu-
  []
 
@@ -2314,11 +2319,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ] (anexos/anexo.tex
-<anexos/arb_problemas.jpg, id=1105, 963.6pt x 453.94594pt>
+<anexos/arb_problemas.jpg, id=1105, 1027.58907pt x 544.28343pt>
 File: anexos/arb_problemas.jpg Graphic file (type jpg)
 <use anexos/arb_problemas.jpg>
 Package pdftex.def Info: anexos/arb_problemas.jpg  used on input line 18.
-(pdftex.def)             Requested size: 700.50723pt x 330.01323pt.
+(pdftex.def)             Requested size: 700.50723pt x 371.04631pt.
 
 
 
@@ -2332,11 +2337,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
  <./anexos/arb_problemas.jpg>]
-<anexos/arb_objetivos.jpg, id=1111, 963.6pt x 440.39531pt>
+<anexos/arb_objetivos.jpg, id=1112, 1027.58907pt x 576.65437pt>
 File: anexos/arb_objetivos.jpg Graphic file (type jpg)
 <use anexos/arb_objetivos.jpg>
 Package pdftex.def Info: anexos/arb_objetivos.jpg  used on input line 33.
-(pdftex.def)             Requested size: 700.50723pt x 320.16208pt.
+(pdftex.def)             Requested size: 700.50723pt x 393.11407pt.
 
 
 
@@ -2351,667 +2356,610 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
  <./anexos/arb_objetivos.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 []|\OT1/ptm/m/n/12 ?`De qu[]e ma-ne-ra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 pue-den las Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 des Neu-ro-na-les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 Con-vo-lu-cio-na-les
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 50--50
+Underfull \hbox (badness 7759) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 seg-men-tar de for-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 ma efi-cien-te las
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 50--50
+Underfull \hbox (badness 2894) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas mor-
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 50--50
-[]|\OT1/ptm/m/n/12 Desarrollar un sis-
+Underfull \hbox (badness 2689) in paragraph at lines 52--52
+\OT1/ptm/m/n/12 cas Fa-cia-les, en-fo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 te-ma in-te-li-gen-te
+Underfull \hbox (badness 4096) in paragraph at lines 52--52
+\OT1/ptm/m/n/12 ca-do en la de-tec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 de seg-men-ta-ci[]on
+Underfull \hbox (badness 3302) in paragraph at lines 52--52
+\OT1/ptm/m/n/12 ci[]on de arru-gas y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 de ca-rac-ter[]^^Psti-cas
+Underfull \hbox (badness 7504) in paragraph at lines 52--52
+\OT1/ptm/m/n/12 man-chas, me-dian-te
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 mor-fol[]ogi-cas en
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\OT1/ptm/m/n/12 Sis-te-ma Avan-za-do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 im[]age-nes fa-cia-
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\OT1/ptm/m/n/12 de Seg-men-ta-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 les, en-fo-ca-do en
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\OT1/ptm/m/n/12 de Ca-rac-ter[]^^Psti-cas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 la de-tec-ci[]on de
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\OT1/ptm/m/n/12 Mor-fol[]ogi-cas Fa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\OT1/ptm/m/n/12 cia-les uti-li-zan-do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 \OT1/ptm/m/n/12 Re-des Neu-ro-na-les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 Con-vo-lu-cio-na-les,
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\OT1/ptm/m/n/12 Con-vo-lu-cio-na-les
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 op-ti-mi-zar la pre-ci-
- []
-
-
-Underfull \hbox (badness 6380) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 est[]eti-ca y fa-ci-li-tar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 la per-so-na-li-za-ci[]on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 de tra-ta-mien-tos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 sis-te-ma avan-za-do
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 de seg-men-ta-ci[]on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 de ca-rac-ter[]^^Psti-cas
- []
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 mor-fol[]ogi-cas de la
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 re-des neu-ro-na-les
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 con-vo-lu-cio-na-les
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 (CNN), con me-ca-
- []
-
-
-Underfull \hbox (badness 1484) in paragraph at lines 50--50
+Underfull \hbox (badness 1484) in paragraph at lines 52--53
 \OT1/ptm/m/n/12 en la de-tec-ci[]on de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 per-mi-tien-do una
+Overfull \vbox (56.55014pt too high) detected at line 55
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 seg-men-ta-ci[]on m[]as
+Overfull \vbox (75.40016pt too high) detected at line 58
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 50--50
-\OT1/ptm/m/n/12 pre-ci-sa y efi-cien-te
+Overfull \vbox (56.55011pt too high) detected at line 61
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-[]|\OT1/ptm/m/n/12 Dependiente:
+Overfull \vbox (188.50038pt too high) detected at line 69
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-\OT1/ptm/m/n/12 Pre-diagn[]osti-
+Overfull \vbox (56.55011pt too high) detected at line 78
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-\OT1/ptm/m/n/12 co de n[]odu-los
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-\OT1/ptm/m/n/12 ti-roi-deos. In-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-\OT1/ptm/m/n/12 de-pen-dien-te:
- []
-
-
-Underfull \hbox (badness 6236) in paragraph at lines 58--58
+Underfull \hbox (badness 6236) in paragraph at lines 82--82
 \OT1/ptm/m/n/12 ne-ce-sa-rios pa-ra el
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 58--58
+Underfull \hbox (badness 2318) in paragraph at lines 82--82
 \OT1/ptm/m/n/12 en-tre-na-mien-to y la
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 58--58
+Underfull \hbox (badness 4242) in paragraph at lines 82--82
 \OT1/ptm/m/n/12 va-li-da-ci[]on del sis-
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 58--58
+Underfull \hbox (badness 2005) in paragraph at lines 82--82
 \OT1/ptm/m/n/12 te-ma de seg-men-ta-
  []
 
 
-Underfull \hbox (badness 7133) in paragraph at lines 58--58
+Underfull \hbox (badness 7133) in paragraph at lines 82--82
 \OT1/ptm/m/n/12 ce-sar un con-jun-to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 \OT1/ptm/m/n/12 re-pre-sen-ta-ti-vo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 \OT1/ptm/m/n/12 im[]age-nes fa-cia-les,
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 58--58
+Underfull \hbox (badness 4686) in paragraph at lines 82--82
 \OT1/ptm/m/n/12 que in-clu-ya di-ver-
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 58--58
+Underfull \hbox (badness 4531) in paragraph at lines 82--82
 \OT1/ptm/m/n/12 si-dad en ti-pos de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 \OT1/ptm/m/n/12 piel y afec-cio-nes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 \OT1/ptm/m/n/12 cut[]aneas, pa-ra su
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 \OT1/ptm/m/n/12 uti-li-za-ci[]on en el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\OT1/ptm/m/n/12 La uti-li-za-ci[]on de
+Underfull \hbox (badness 2941) in paragraph at lines 82--82
+\OT1/ptm/m/n/12 ver-so de im[]age-nes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\OT1/ptm/m/n/12 un con-jun-to de
+Underfull \hbox (badness 7814) in paragraph at lines 82--82
+\OT1/ptm/m/n/12 fa-cia-les, que con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\OT1/ptm/m/n/12 da-tos di-ver-so de
+Underfull \hbox (badness 6608) in paragraph at lines 82--82
+\OT1/ptm/m/n/12 tem-ple ca-rac-ter[]^^Psti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\OT1/ptm/m/n/12 im[]age-nes fa-cia-les,
+Underfull \hbox (badness 5008) in paragraph at lines 82--82
+\OT1/ptm/m/n/12 cia-les, co-mo arru-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\OT1/ptm/m/n/12 que con-tem-ple
+Underfull \hbox (badness 7151) in paragraph at lines 82--82
+\OT1/ptm/m/n/12 men-tar con pre-ci-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\OT1/ptm/m/n/12 dis-tin-tos ti-pos de
- []
-
-
-Underfull \hbox (badness 4913) in paragraph at lines 58--58
-\OT1/ptm/m/n/12 mor-fol[]ogi-cas co-mo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\OT1/ptm/m/n/12 pa-ra ge-ne-ra-li-zar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\OT1/ptm/m/n/12 y seg-men-tar con
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-[]|\OT1/ptm/m/n/12 Dependiente:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-\OT1/ptm/m/n/12 De-sa-rro-llo del
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-\OT1/ptm/m/n/12 Lear-ning. In-de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-\OT1/ptm/m/n/12 pen-dien-te: Las
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-\OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas
- []
-
-
-Underfull \hbox (badness 3138) in paragraph at lines 60--61
-\OT1/ptm/m/n/12 del con-jun-to de
- []
-
-
-Overfull \vbox (37.70015pt too high) detected at line 66
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 []|\OT1/ptm/m/n/12 ?`Cu[]ales ser[]an las
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 eta-pas y m[]eto-dos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 ta-ci[]on ba-sa-do en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 Re-des Neu-ro-na-les
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 68--68
+Underfull \hbox (badness 2735) in paragraph at lines 86--86
 []|\OT1/ptm/m/n/12 Dise[]nar, de-sa-rro-llar
  []
 
 
-Underfull \hbox (badness 8113) in paragraph at lines 68--68
+Underfull \hbox (badness 8113) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 e im-ple-men-tar un
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 ta-ci[]on ba-sa-do en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 Re-des Neu-ro-na-les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 Con-vo-lu-cio-na-les,
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 68--68
+Underfull \hbox (badness 2573) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 orien-ta-do a la de-
  []
 
 
-Underfull \hbox (badness 5403) in paragraph at lines 68--68
+Underfull \hbox (badness 5403) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 tec-ci[]on pre-ci-sa de
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 68--68
+Underfull \hbox (badness 2894) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas mor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 fol[]ogi-cas fa-cia-les,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 es-pec[]^^Pfi-ca-men-te
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 men-ta-ci[]on ba-sa-do
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 68--68
+Underfull \hbox (badness 1902) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 di-fe-ren-cia-da de las
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 68--68
+Underfull \hbox (badness 2894) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas mor-
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+\OT1/ptm/m/n/12 fol[]ogi-cas fa-cia-les,
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 86--86
 \OT1/ptm/m/n/12 m[]eto-dos tra-di-cio-na-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-[]|\OT1/ptm/m/n/12 Dependiente:
+Overfull \vbox (37.70009pt too high) detected at line 88
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-\OT1/ptm/m/n/12 Des-em-pe[]no
+Overfull \vbox (75.40015pt too high) detected at line 90
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-\OT1/ptm/m/n/12 del mo-de-lo de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-\OT1/ptm/m/n/12 Deep Lear-ning.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-\OT1/ptm/m/n/12 In-de-pen-dien-te:
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 74--74
+Underfull \hbox (badness 1521) in paragraph at lines 93--93
 \OT1/ptm/m/n/12 ce-di-mien-tos se uti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []|\OT1/ptm/m/n/12 Definir e im-ple-
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 74--74
+Underfull \hbox (badness 1210) in paragraph at lines 93--93
 \OT1/ptm/m/n/12 men-tar m[]etri-cas de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/ptm/m/n/12 me-dir la efec-ti-vi-
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 74--74
+Underfull \hbox (badness 1009) in paragraph at lines 93--93
 \OT1/ptm/m/n/12 seg-men-ta-ci[]on en la
  []
 
 
-Underfull \hbox (badness 7308) in paragraph at lines 74--74
+Underfull \hbox (badness 7308) in paragraph at lines 93--94
 []|\OT1/ptm/m/n/12 El uso de m[]etri-
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 74--74
+Underfull \hbox (badness 8038) in paragraph at lines 93--94
 \OT1/ptm/m/n/12 cas de eva-lua-ci[]on
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 74--74
+Underfull \hbox (badness 2495) in paragraph at lines 93--94
 \OT1/ptm/m/n/12 ci[]on ob-je-ti-va, con-
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 74--74
+Underfull \hbox (badness 1205) in paragraph at lines 93--94
 \OT1/ptm/m/n/12 des-em-pe[]no del sis-
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 74--74
+Underfull \hbox (badness 2005) in paragraph at lines 93--94
 \OT1/ptm/m/n/12 te-ma de seg-men-ta-
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 74--74
+Underfull \hbox (badness 1502) in paragraph at lines 93--94
 \OT1/ptm/m/n/12 de arru-gas y man-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-[]|\OT1/ptm/m/n/12 Dependiente:
+Overfull \vbox (75.40016pt too high) detected at line 96
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 76--77
-\OT1/ptm/m/n/12 Com-pa-ra-ci[]on de
+Overfull \vbox (37.70007pt too high) detected at line 102
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-\OT1/ptm/m/n/12 mo-de-los en la
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-\OT1/ptm/m/n/12 de ul-tra-so-ni-do.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-\OT1/ptm/m/n/12 In-de-pen-dien-te:
- []
-
-
-Underfull \hbox (badness 2165) in paragraph at lines 76--77
-\OT1/ptm/m/n/12 Las m[]etri-cas de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-\OT1/ptm/m/n/12 eva-lua-ci[]on de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 []|\OT1/ptm/m/n/12 ?`Qu[]e cri-te-rios se
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 80--80
+Underfull \hbox (badness 1540) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 em-plear[]an pa-ra se-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 de seg-men-ta-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
-\OT1/ptm/m/n/12 m[]as ade-cua-do
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/ptm/m/n/12 m[]as ade-cua-do en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
-\OT1/ptm/m/n/12 en la de-tec-ci[]on
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\OT1/ptm/m/n/12 la de-tec-ci[]on de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
-\OT1/ptm/m/n/12 de ca-rac-ter[]^^Psti-cas
+Underfull \hbox (badness 2894) in paragraph at lines 107--107
+\OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas mor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
-\OT1/ptm/m/n/12 mor-fol[]ogi-cas del
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 80--80
+Underfull \hbox (badness 3954) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 qui-tec-tu-ras de Re-
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 80--80
+Underfull \hbox (badness 3364) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 cas de apren-di-za-je
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 80--80
+Underfull \hbox (badness 1009) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 en la seg-men-ta-ci[]on
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 80--80
+Underfull \hbox (badness 2799) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 tem[]ati-ca en-tre dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 tin-tas ar-qui-tec-tu-ras
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 80--80
+Underfull \hbox (badness 1043) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 in-clu-yen-do aque-llas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 aten-ci[]on, per-mi-tir[]a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 m[]as efi-cien-te en
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 80--80
+Underfull \hbox (badness 3954) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 t[]ermi-nos de pre-ci-
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 80--80
+Underfull \hbox (badness 1881) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 si[]on y ren-di-mien-to
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 80--80
+Underfull \hbox (badness 2512) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 compu-tacio-nal pa-ra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 la seg-men-ta-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 de ca-rac-ter[]^^Psti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 \OT1/ptm/m/n/12 cas mor-fol[]ogi-cas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-[]|\OT1/ptm/m/n/12 Dependiente:
+Overfull \vbox (37.70007pt too high) detected at line 109
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-\OT1/ptm/m/n/12 Des-em-pe[]no en
+Overfull \vbox (75.40015pt too high) detected at line 116
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-\OT1/ptm/m/n/12 la cla-si-fi-ca-ci[]on
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 116--116
+[]|[]| 
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 82--83
-\OT1/ptm/m/n/12 de im[]age-nes de
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]|\OT1/ptm/m/n/12 ?`C[]omo se im-ple-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-\OT1/ptm/m/n/12 ul-tra-so-ni-do. In-
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 de seg-men-ta-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-\OT1/ptm/m/n/12 ar-qui-tec-tu-ras de
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 mor-fol[]ogi-ca fa-cial
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 nes en tiem-po real
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 a par-tir de vi-deo
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 en vi-vo, uti-li-zan-do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 mo-de-los de re-des
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 cio-na-les in-te-gra-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]|\OT1/ptm/m/n/12 Implementar un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 ta-ci[]on mor-fol[]ogi-ca
+ []
+
+
+Underfull \hbox (badness 6252) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 ca-paz de pro-ce-sar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 Re-des Neu-ro-na-les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 Con-vo-lu-cio-na-les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 po-ten-cia-das con
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 me-ca-nis-mos de
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 120--120
+[]|\OT1/ptm/m/n/12 La im-ple-men-ta-ci[]on
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 de un sis-te-ma de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 seg-men-ta-ci[]on de
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas mor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 aten-ci[]on, per-mi-tir[]a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 el pro-ce-sa-mien-to
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 efi-caz de im[]age-nes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\OT1/ptm/m/n/12 la pre-ci-si[]on en
+ []
+
+
+Overfull \vbox (94.25018pt too high) detected at line 122
+ []
+
+
+Overfull \vbox (56.55011pt too high) detected at line 124
+ []
+
+
+Overfull \hbox (23.67973pt too wide) in alignment at lines 43--127
+ [] [] [] [] [] [] [] 
  []
 
 
@@ -3091,17 +3039,17 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35546 strings out of 473523
- 684438 string characters out of 5715115
- 1628107 words of memory out of 5000000
- 57926 multiletter control sequences out of 15000+600000
+ 35553 strings out of 473523
+ 684630 string characters out of 5715115
+ 1642060 words of memory out of 5000000
+ 57933 multiletter control sequences out of 15000+600000
  595437 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,117p,1331b,3205s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (81 pages, 3206683 bytes).
+Output written on tesis.pdf (81 pages, 3091313 bytes).
 PDF statistics:
- 1235 PDF objects out of 1440 (max. 8388607)
+ 1237 PDF objects out of 1440 (max. 8388607)
  265 named destinations out of 1000 (max. 500000)
  817 words of extra memory for PDF output out of 10000 (max. 10000000)
 
