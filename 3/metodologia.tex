@@ -52,8 +52,8 @@ La recolección de imágenes de características morfológicas faciales es un pa
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.75\textwidth]{3/figures/datapaper.png}
-		\caption[Dataset usado en el artículo de \cite{moon2024dermatology}]{Dataset usado en el artículo de \cite{moon2024dermatology}.\\
-		Fuente: \cite{moon2024dermatology}. \citetitle{moon2024dermatology}. (p. 4)}
+		\caption[Dataset usado en el artículo de \cite{karshiev2020improved}]{Dataset usado en el artículo de \cite{karshiev2020improved}.\\
+		Fuente: \cite{karshiev2020improved}. \citetitle{karshiev2020improved}. (p. 2)}
 		\label{3:fig2}
 	\end{center}
 \end{figure}
@@ -130,20 +130,172 @@ Esta actividad explica la identificación de la data. Para la data, se obtuviero
 \textbf{Entregable}: Dataset, creado en Asia, contiene imágenes de planos interiores del mercado inmobiliario asiático.
 
 
+\subsubsection{Preprocesamiento de los Datos}
+Se realizará el preprocesamiento de las imágenes del conjunto en esta etapa. La tabla \ref{tabla:preprocesamiento} incluye las tareas y actividades necesarias para completar la etapa de preprocesamiento:
+\vspace{2ex}
 
-% \subsection{Adquisición y Preparación de los Datos}
-% Se recopilará un conjunto de datos compuesto por imágenes faciales provenientes de bases de datos públicas y privadas. Se priorizarán imágenes que reflejen diversidad en tipos de piel, condiciones morfológicas (como arrugas y manchas) y niveles de calidad visual. Cada imagen será etiquetada manualmente para clasificar las características específicas en categorías relevantes, como "arrugas incipientes", "poros dilatados" o "manchas hiperpigmentadas".
 
-% Durante esta etapa, se planea realizar las siguientes acciones:
-% \begin{itemize}
-%     \item \textbf{Exploración inicial:} Se analizará el conjunto de datos para identificar inconsistencias, como imágenes corruptas, valores faltantes o clases desbalanceadas.
-%     \item \textbf{Limpieza:} Se eliminarán imágenes no útiles (mal etiquetadas o de baja resolución) y se corregirán anomalías en las etiquetas.
-%     \item \textbf{Aumento de Datos:} Se aplicarán técnicas como rotación, escalado, cambios de iluminación y adición de ruido para abordar problemas de desbalanceo y mejorar la capacidad de generalización de los modelos.
-%     \item \textbf{Preprocesamiento:} Las imágenes se redimensionarán a una resolución uniforme, se normalizarán los valores de color y se convertirán a un formato estándar que facilite su uso en redes neuronales convolucionales.
-% \end{itemize}
+\begin{longtable}{p{3cm}p{3cm}p{9cm}}
+    \caption{Actividades de la fase de Preprocesamiento de Datos.}
+    \label{tabla:preprocesamiento}\\
+    \toprule
+    \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas} \\
+    \midrule
+    \endfirsthead
+
+    \toprule
+    \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas} \\
+    \midrule
+    \endhead
+
+    \bottomrule
+    \endfoot
+
+    \bottomrule
+    \endlastfoot
+
+    Filtración de imágenes faciales con características morfológicas & Eliminación de imágenes con baja resolución, mala iluminación o sin las características morfológicas de interés (arrugas y manchas), para mejorar la calidad del conjunto de datos. & 
+    \begin{itemize}
+        \item Eliminar imágenes borrosas, sobreexpuestas o subexpuestas.
+        \item Conservar solo imágenes con resolución mínima de 128×128 píxeles.
+        \item Seleccionar imágenes que contengan al menos una característica morfológica visible: arrugas o manchas.
+        \item Verificar que el rostro esté completamente visible y centrado en la imagen.
+    \end{itemize} \\
+
+    Representación y normalización de las imágenes faciales & Conversión de las imágenes a formatos adecuados para su análisis por redes neuronales convolucionales. & 
+    \begin{itemize}
+        \item Redimensionar todas las imágenes a un tamaño uniforme.
+        \item Convertir las imágenes a escala de grises o RGB, según el modelo.
+        \item Normalizar los valores de píxeles entre 0 y 1.
+        \item Aumentar los datos mediante técnicas como rotación, volteo, y zoom para mejorar la generalización.
+    \end{itemize} \\
+
+\end{longtable}
+
+\begin{flushleft}
+	\small Fuente: Elaboración propia.
+\end{flushleft}
+
+Enseguida, se describe en detalle las actividades junto con el resultado esperado.
+
+\textbf{Actividad 1: Filtración de imágenes faciales con características morfológicas}
+\\
+En la fase de preprocesamiento de datos, la actividad de Filtración se enfoca en depurar y mejorar la calidad del conjunto de datos al eliminar información irrelevante o poco confiable. Esto se logra a través de la eliminación de datos no estándar y la conservación de aquellos que cumplen con criterios específicos de relevancia y fiabilidad. 
+
+\textbf{Entregable}: Conjunto de datos filtrado y optimizado para su posterior análisis.
+
+\textbf{Actividad 2: Representación y normalización de las imágenes faciales}
+\\
+Por otro lado, la actividad de Representación se encarga de convertir los datos en un formato visual o estructurado más adecuado para su análisis y comprensión. Esto implica transformar los datos en imágenes o representaciones gráficas que faciliten su visualización y entendimiento, contribuyendo así a una mejor interpretación por parte de los usuarios finales, como podemos observar en la Figura \ref{3:fig4}.
+
+\textbf{Entregable}: Representación visual y estructurada de cada rostro facial en un formato adecuado para su procesamiento y análisis posterior.
+
+\begin{figure}[h]
+     \begin{center}
+         \includegraphics[width=0.65\textwidth]{3/figures/repres imagenes.png}
+         \caption[Representación de las imágenes de rostros faciales]{Representación de las imágenes de rostros faciales.\\
+         Fuente: \cite{moon2024dermatology}. \citetitle{moon2024dermatology}. (p. 4)}
+         \label{3:fig4}
+     \end{center}
+ \end{figure}
+
+
+ \subsubsection{Desarrollo de los Modelos de Segmentación}
+ El desarrollo de los modelos de segmentación de características faciales se estructura en tres actividades clave. Estas actividades incluyen el diseño, implementación y entrenamiento de modelos basados en arquitecturas de redes neuronales profundas como U-Net, ResNet y modelos híbridos con Vision Transformer (ViT). La Tabla \ref{tabla:actividades_segmentacion} presenta el detalle de cada una.
+
+\vspace{2ex}
+\begingroup
+\renewcommand\arraystretch{1.2}
+\begin{longtable}{p{4cm} p{6cm} p{6cm}}
+\caption{Actividades de la fase de Desarrollo del Modelo de Segmentación.}
+\label{tabla:actividades_segmentacion}\\
+\toprule
+\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas} \\
+\midrule
+\endfirsthead
+
+\toprule
+\textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas} \\
+\midrule
+\endhead
+
+\bottomrule
+\endfoot
+
+Diseño de la arquitectura del modelo & Selección de modelos adecuados para segmentar características morfológicas faciales. &
+\begin{itemize}
+    \item Implementación de U-Net para detección precisa de arrugas y manchas.
+    \item Uso de ResNet para captura de características profundas.
+    \item Exploración de modelos híbridos con Vision Transformer (ViT).
+\end{itemize} \\
+
+Implementación del modelo & Desarrollo práctico del modelo en entornos de aprendizaje profundo. &
+\begin{itemize}
+    \item Codificación de arquitecturas en frameworks como TensorFlow o PyTorch.
+    \item Definición de las capas de entrada, convolucionales, residuales y de salida.
+    \item Configuración de hiperparámetros iniciales.
+\end{itemize} \\
+
+Entrenamiento del modelo & Aplicación de técnicas de entrenamiento para ajustar pesos y mejorar la segmentación. &
+\begin{itemize}
+    \item Uso del optimizador Adam para una convergencia eficiente.
+    \item Aplicación de data augmentation para aumentar la diversidad de imágenes.
+    \item Configuración de número de épocas, tamaño de batch y tasa de aprendizaje.
+\end{itemize} \\
+\end{longtable}
+\endgroup
+
+ Enseguida, se proporciona un detalle de la actividad junto con el entregable correspondiente que se espera obtener.
+ 
+ \textbf{Actividad 1: Arquitectura de la Red}
+ \\
+ Durante esta etapa, mencionaré el diseño e implementación de la arquitectura de una red neuronal destinada a predecir las ubicaciones de puntos de acceso (APs). Se empleará una combinación de Redes Neuronales Convolucionales (CNN) y Redes Generativas Antagónicas (GANs) para aprovechar sus capacidades en la extracción de características espaciales y la generación de soluciones óptimas.
+ 
+ Respecto, al proceso de Red Neuronal Convolucional (CNN) para la extracción de características, podemos verla con más detalle en la Figura 39, donde se ve el uso de la capa Conv2D (Varias capas convolucionales para extraer características espaciales), la capa MaxPooling2D (Capas de pooling para reducir dimensionalidad y mantener características importantes), la capa Flatten (Aplanar la salida para conectarla con capas densas) y finalmente la capa Dense (Capas densas para aprendizaje y combinación de características extraídas).
+ 
+%  \begin{figure}[H]
+% 	 \centering
+% 	 \includegraphics[width=0.3\textwidth]{3/figures/CNN_redneuro.jpg}
+% 	 \caption[CNN para el análisis y extracción de rasgos característicos]{CNN para el análisis y extracción de rasgos característicos.\\ Fuente: Elaboración propia.}
+% 	 \label{3:4}
+%  \end{figure}
+ 
+ 
+ Por consiguiente, al proceso del Generador del GAN, podemos verla con más detalle en la Figura 40, donde se ve el uso de la capa Dense (Varias capas densas para transformar el vector de características en un plano con las ubicaciones de los Aps), la capa Reshape (Dar forma al plano para que corresponda con las dimensiones del plano de planta), la capa Flatten (Aplanar la salida para conectarla con capas densas) y finalmente la capa Conv2DTranspose (Capas convolucionales transpuestas para generar la imagen final).
+ 
+%  \begin{figure}[H]
+% 	 \centering
+% 	 \includegraphics[width=0.4\textwidth]{3/figures/gans_capas.jpg}
+% 	 \caption[Generador del GAN]{Generador del GAN.\\ Fuente: Elaboración propia.}
+% 	 \label{3:5}
+%  \end{figure}
+ 
+ Finalmente, al proceso del Discriminador del GAN, podemos verla con más detalle en la Figura 41, donde se ve el uso de la capa Conv2D (Varias capas convolucionales para analizar la imagen y evaluar la calidad de las ubicaciones propuestas), la capa MaxPooling2D (Capas de pooling para reducir dimensionalidad), la capa Flatten (Aplanar la salida para conectarla con capas densas) y finalmente la capa Dense (Capas densas para la clasificación final).
+ 
+%  \begin{figure}[H]
+% 	 \centering
+% 	 \includegraphics[width=0.4\textwidth]{3/figures/discrimGAN.jpg}
+% 	 \caption[Discriminador del GAN]{Discriminador del GAN.\\ Fuente: Elaboración propia.}
+% 	 \label{3:6}
+%  \end{figure}
+ 
+ A todo ello se se utilizará TensorFlow para implementar la arquitectura descrita. A continuación, se presenta un pseudocódigo para la implementación en la Figura 42.
+ 
+%  \begin{figure}[H]
+% 	 \centering
+% 	 \includegraphics[width=1\textwidth]{3/figures/pseudocodigo.jpg}
+% 	 \caption[Pseudocódigo para la implementación]{Pseudocódigo para la implementación.\\ Fuente: Elaboración propia.}
+% 	 \label{3:7}
+%  \end{figure}
+ 
+ \textbf{Entregable}: Código fuente de la red neuronal implementada, Diagramas y especificaciones de la arquitectura de la red y Especificaciones de entrada y salida del modelo.
+
+ 
+
+
 
 \subsection{Desarrollo de los Modelos de Segmentación}
-Se desarrollarán modelos de segmentación de características morfológicas de la piel utilizando Redes Neuronales Convolucionales (CNN), dada su eficacia comprobada en tareas de análisis de imágenes. Las arquitecturas que se implementarán incluyen:
+El desarrollo del sistema de segmentación facial se compone de tres actividades fundamentales, orientadas a diseñar, entrenar y evaluar modelos basados en redes neuronales profundas. Estas actividades se ejecutan de forma secuencial y colaborativa, empleando arquitecturas como U-Net, ResNet y modelos híbridos con Vision Transformer (ViT), aprovechando sus capacidades para el análisis detallado de imágenes faciales. La Tabla \ref{tabla:modelo_segmentacion} resume estas actividades.
 
 \begin{itemize}
     \item \textbf{U-Net:} Se utilizará por su capacidad para realizar segmentaciones precisas en áreas específicas, como arrugas y poros, gracias a su diseño simétrico que facilita la reconstrucción de imágenes segmentadas \cite{ronneberger2015}.
