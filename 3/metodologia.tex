@@ -75,23 +75,72 @@ La creación de un Modelo de Segmentación Avanzada de Características Morfoló
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=1\textwidth]{3/figures/metodologia.png}
-		\caption[Método de Investigación]{Método de Investigación.\\
+		\caption[Diagrama de Metodología de Investigación]{Diagrama de Metodología de Investigación.\\
 			Fuente: Elaboración propia.}
 		\label{3:fig3}
 	\end{center}
 \end{figure}
 
 
-\subsection{Adquisición y Preparación de los Datos}
-Se recopilará un conjunto de datos compuesto por imágenes faciales provenientes de bases de datos públicas y privadas. Se priorizarán imágenes que reflejen diversidad en tipos de piel, condiciones morfológicas (como arrugas, poros dilatados y manchas) y niveles de calidad visual. Cada imagen será etiquetada manualmente para clasificar las características específicas en categorías relevantes, como "arrugas incipientes", "poros dilatados" o "manchas hiperpigmentadas".
+\subsubsection{Adquisición de los Datos}
 
-Durante esta etapa, se planea realizar las siguientes acciones:
-\begin{itemize}
-    \item \textbf{Exploración inicial:} Se analizará el conjunto de datos para identificar inconsistencias, como imágenes corruptas, valores faltantes o clases desbalanceadas.
-    \item \textbf{Limpieza:} Se eliminarán imágenes no útiles (mal etiquetadas o de baja resolución) y se corregirán anomalías en las etiquetas.
-    \item \textbf{Aumento de Datos:} Se aplicarán técnicas como rotación, escalado, cambios de iluminación y adición de ruido para abordar problemas de desbalanceo y mejorar la capacidad de generalización de los modelos.
-    \item \textbf{Preprocesamiento:} Las imágenes se redimensionarán a una resolución uniforme, se normalizarán los valores de color y se convertirán a un formato estándar que facilite su uso en redes neuronales convolucionales.
-\end{itemize}
+En esta sección se describe el procedimiento utilizado para obtener el conjunto de datos empleado en este estudio. A continuación, se presenta una tabla que resume las tareas y actividades realizadas durante esta fase de adquisición. El primer paso fue la recopilación de datos. Los detalles sobre las actividades y tareas se encuentran en la Tabla \ref{tabla:actividades}.
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{5cm}}
+    \caption{Tabla de la Adquisición de Datos.}
+    \label{tabla:actividades}\\
+    \hline
+    \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}\\
+    \hline
+    \endfirsthead
+
+    \multicolumn{3}{c}%
+    {{\bfseries \tablename\ \thetable{} -- continuación de la página anterior}} \\
+    \hline
+    \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}\\
+    \hline
+    \endhead
+
+    \hline
+    \multicolumn{3}{r}{{Continúa en la siguiente página}} \\
+    \endfoot
+
+    \hline
+    \endlastfoot
+
+    Identificación de la data que contengan imágenes de rostros con características morfológicas faciales. & Identificación de la data que contengan imágenes de rostros con características morfológicas faciales relevantes para la investigación. & 
+    \begin{itemize}
+        \item Analizar y identificar bases de datos con rostros con características morfológicas faciales.
+        \item Confirmar que la base de datos esté disponible públicamente y sea pertinente para el estudio.
+        \item Descargar los datos desde el repositorio apropiado.
+    \end{itemize} \\
+\end{longtable}
+
+
+\begin{flushleft}
+    \small Fuente: Elaboración propia.
+\end{flushleft}
+
+Enseguida, se proporciona un detalle de la actividad mencionada en la tabla anterior, junto con los resultados que se esperan obtener.
+
+\textbf{Actividad 1: Identificación de la data que contengan imágenes de rostros con características morfológicas faciales de proporciones similares}
+\\
+Esta actividad explica la identificación de la data. Para la data, se obtuvieron más de ochenta mil planos de plantas de edificios residenciales reales de la data pública RPLAN, que recolectó planos del mercado inmobiliario de Asia en 2019. Las imágenes de planos interiores se encuentran en la base de datos. La Figura 38 muestra ejemplos de cómo es la data. Cada plano de planta tiene gráficos vectoriales dentro de una región cuadrada de 18m × 18m con elementos geométricos e información semántica, y cada plano de planta tiene una imagen de 256 × 256.
+
+\textbf{Entregable}: Dataset, creado en Asia, contiene imágenes de planos interiores del mercado inmobiliario asiático.
+
+
+
+% \subsection{Adquisición y Preparación de los Datos}
+% Se recopilará un conjunto de datos compuesto por imágenes faciales provenientes de bases de datos públicas y privadas. Se priorizarán imágenes que reflejen diversidad en tipos de piel, condiciones morfológicas (como arrugas y manchas) y niveles de calidad visual. Cada imagen será etiquetada manualmente para clasificar las características específicas en categorías relevantes, como "arrugas incipientes", "poros dilatados" o "manchas hiperpigmentadas".
+
+% Durante esta etapa, se planea realizar las siguientes acciones:
+% \begin{itemize}
+%     \item \textbf{Exploración inicial:} Se analizará el conjunto de datos para identificar inconsistencias, como imágenes corruptas, valores faltantes o clases desbalanceadas.
+%     \item \textbf{Limpieza:} Se eliminarán imágenes no útiles (mal etiquetadas o de baja resolución) y se corregirán anomalías en las etiquetas.
+%     \item \textbf{Aumento de Datos:} Se aplicarán técnicas como rotación, escalado, cambios de iluminación y adición de ruido para abordar problemas de desbalanceo y mejorar la capacidad de generalización de los modelos.
+%     \item \textbf{Preprocesamiento:} Las imágenes se redimensionarán a una resolución uniforme, se normalizarán los valores de color y se convertirán a un formato estándar que facilite su uso en redes neuronales convolucionales.
+% \end{itemize}
 
 \subsection{Desarrollo de los Modelos de Segmentación}
 Se desarrollarán modelos de segmentación de características morfológicas de la piel utilizando Redes Neuronales Convolucionales (CNN), dada su eficacia comprobada en tareas de análisis de imágenes. Las arquitecturas que se implementarán incluyen:
