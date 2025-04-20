@@ -3202,6 +3202,13 @@
     <bcf:citekey order="136" intorder="1">karshiev2020improved</bcf:citekey>
     <bcf:citekey order="137" intorder="1">karshiev2020improved</bcf:citekey>
     <bcf:citekey order="138" intorder="1">yoon2023</bcf:citekey>
+    <bcf:citekey order="139" intorder="1">izco2018bdc</bcf:citekey>
+    <bcf:citekey order="140" intorder="1">izco2018bdc</bcf:citekey>
+    <bcf:citekey order="141" intorder="1">taha2015metrics</bcf:citekey>
+    <bcf:citekey order="142" intorder="1">reinke2021common</bcf:citekey>
+    <bcf:citekey order="143" intorder="1">reinke2021common</bcf:citekey>
+    <bcf:citekey order="144" intorder="1">goodfellow2016deep</bcf:citekey>
+    <bcf:citekey order="145" intorder="1">goodfellow2016deep</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

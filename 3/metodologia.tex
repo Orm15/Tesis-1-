@@ -146,7 +146,7 @@ Por otro lado, la actividad de Representación se encarga de convertir los datos
 
 \begin{figure}[h]
      \begin{center}
-         \includegraphics[width=0.5\textwidth]{3/figures/Diagrama de preprocesamiento.png}
+         \includegraphics[width=0.75\textwidth]{3/figures/Diagrama de preprocesamiento.png}
          \caption[Diagrama de Preprocesamiento de los Datos]{Diagrama de Preprocesamiento de los Datos.\\
          Fuente: Elaboración propia}
          \label{3:fig4}
@@ -229,7 +229,7 @@ Para U-Net, esto implica establecer correctamente las conexiones tipo “skip”
  
  \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=0.5\textwidth]{3/figures/Diagrama de Desarrollo.png}
+        \includegraphics[width=0.75\textwidth]{3/figures/Diagrama de Desarrollo.png}
         \caption[Diagrama del Desarrollo de los Modelos de Segmentación]{Diagrama del Desarrollo de los Modelos de Segmentación.\\
         Fuente: Elaboración propia}
         \label{3:fig5}
@@ -418,16 +418,97 @@ El despliegue del modelo en producción es el paso en el que el modelo de segmen
 
 \section{Metodología para la Medición de Resultados de la Implementación}
 
-Para garantizar la correcta evaluación del sistema, se emplearán las siguientes métricas basadas en la matriz de confusión:
+Diversas métricas se emplean para evaluar el desempeño de un modelo, en los datos de la Matriz de Confusión, sirviendo como herramientas de evaluación fundamentadas. A continuación, se describe su significado y sus componentes.
+
 \begin{itemize}
-    \item \textbf{Precisión (Accuracy):} \[ accuracy = \frac{TP + TN}{TP + TN + FP + FN} \]
-    \item \textbf{Recall:} \[ recall = \frac{TP}{TP + FN} \]
-    \item \textbf{Precisión Positiva:} \[ precision = \frac{TP}{TP + FP} \]
-    \item \textbf{F1-Score:} \[ F1 = 2 \cdot \frac{precision \cdot recall}{precision + recall} \]
+\item \textbf{Matriz de confusión}: Tabla de dimensiones que sintetiza la precisión de predicciones generadas por un protitopo de categorización. La matriz muestra la relación entre las etiquetas predichas por el modelo y las etiquetas reales de los datos. Uno de los ejes de la matriz representa las etiquetas predichas, mientras que el otro muestra las etiquetas reales, con N representando el número total de clases. Su propósito primario es analizar la eficacia de un modelo de Aprendizaje Automático Supervisado en conjuntos de datos de prueba, donde las etiquetas reales son desconocidas. El término <<matriz de confusión>> se origina porque ayuda a identificar dónde el sistema confunde entre dos clases (Big Data, 2019). en la Figura \ref{3:fig7}, se puede encontrar una representación visual de la matriz de confusión.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{3/figures/matriz_confusion.png}
+	\caption[Matriz de Confusión]{Matriz de Confusión.\\ Fuente: \cite{izco2018bdc}. \citetitle{izco2018bdc}.}
+	\label{3:fig7}
+\end{figure}
 \end{itemize}
 
-Cada métrica será calculada para determinar la efectividad del modelo en la segmentación de arrugas, poros y manchas, evaluando su capacidad de proporcionar predicciones precisas y consistentes en datos no vistos.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+    \item \textbf{Verdaderos Positivos}: Se denomina verdadero positivo cuando el modelo realiza una predicción precisa de la clase positiva.
+    \item \textbf{Verdaderos Negativos}: Se trata de un verdadero negativo cuando el modelo realiza una predicción correcta de la clase negativa.
+    \item \textbf{Falsos Positivos}: Ocurre un falso positivo cuando el modelo hace una predicción incorrecta de la clase positiva. 
+    \item \textbf{Falsos Negativos}: Ocurre un falso negativo cuando el modelo hace una predicción incorrecta de la clase negativa. 
+    \end{itemize}
+
+Después de explicar los conceptos anteriores, se obtienen diferentes métricas, de las cuales solo se utilizará la precisión métrica según lo referenciado en los documentos anteriores:
+
+\textbf{Precisión}: evalúa la fracción de elementos detectados adecuadamente como positivos entre todos los elementos identificados como positivos. Su cálculo se basa en la siguiente expresión.
+        \begin{equation}\label{eq:precision}
+            \phantomsection
+            \text{Precisión}=\frac{V.P.}{V.P.+F.P.}
+            \end{equation}
+        \myequations{Fórmula para la precisión}
+        
+        La pregunta que responde esta métrica es: ¿Cuál es la proporción de segmentaciones positivas que son precisas?
+
+
+Además, hemos tomado otra métricas para evaluar el rendimiento del modelo de segmentación, las cuales se explicarán a continuación:
+
+\textbf{Índice de Sørensen–Dice (Dice Similarity Coefficient - DSC)}
+El índice de Sørensen-Dice es una medida estadística utilizada para evaluar la similitud entre dos muestras. En el contexto de segmentación de imágenes, cuantifica la superposición entre la segmentación predicha y la verdadera (ground truth). \parencite{taha2015metrics}
+        
+Se define como:
+        
+\begin{equation}
+    \text{DSC} = \frac{2 \times |A \cap B|}{|A| + |B|}
+\end{equation}
+\myequations{Fórmula del Índice de Sørensen–Dice (DSC)}
+
+\noindent Donde:
+\begin{itemize}
+    \item $|A|$ representa el número de píxeles predichos como positivos por el modelo.
+    \item $|B|$ representa el número de píxeles verdaderamente positivos (segmentación real).
+    \item $|A \cap B|$ es el número de píxeles correctamente clasificados como positivos (verdaderos positivos).
+\end{itemize}
+
+\noindent El Índice de Sørensen–Dice mide la superposición entre la predicción y la verdad real, con un rango de valores entre $0$ (sin coincidencia) y $1$ (coincidencia perfecta).
+     
+
+\textbf{Coeficiente de Jaccard (Índice de Intersección sobre Unión - IoU)}
+El Coeficiente de Jaccard o IoU (Intersection over Union) mide la proporción de la intersección entre el área segmentada correctamente y la unión de todas las áreas predichas y reales. Es una de las métricas más comunes en segmentación de imágenes. \parencite{reinke2021common}
+        
+\begin{equation}
+    \text{IoU} = \frac{|A \cap B|}{|A \cup B|}
+\end{equation}
+\myequations{Fórmula del Coeficiente de Jaccard (Intersection over Union)}
+
+\noindent Donde:
+\begin{itemize}
+    \item $|A|$ es el conjunto de píxeles positivos predichos.
+    \item $|B|$ es el conjunto de píxeles positivos reales.
+    \item $|A \cap B|$ representa los píxeles clasificados correctamente como positivos (verdaderos positivos).
+    \item $|A \cup B|$ representa el total de píxeles positivos predichos o reales (la unión de ambos conjuntos).
+\end{itemize}
+
+\noindent El Coeficiente de Jaccard mide la proporción de superposición respecto al total combinado de las regiones predicha y real.
+                     
+El Coeficiente de Jaccard tiende a ser más estricto que el índice de Dice, ya que penaliza con mayor fuerza las falsas predicciones. Se considera una métrica robusta para segmentaciones de alta precisión. \parencite{reinke2021common}
+
+\textbf{Entropía Cruzada (Cross-Entropy Loss)}
+La entropía cruzada es una función de pérdida ampliamente usada para tareas de clasificación y segmentación semántica, especialmente cuando se aplica un modelo que produce probabilidades para cada clase (como softmax o sigmoid). \parencite{goodfellow2016deep}
+
+\begin{equation}
+    \text{CE} = -\sum_{i=1}^{N} y_i \log(\hat{y}_i)
+\end{equation}
+\myequations{Fórmula de Entropía Cruzada (Cross-Entropy Loss)}
+
+\noindent Donde:
+\begin{itemize}
+    \item $N$ es el número total de muestras (píxeles o instancias).
+    \item $y_i$ es la etiqueta verdadera de la clase para la muestra $i$.
+    \item $\hat{y}_i$ es la probabilidad predicha por el modelo para esa clase.
+\end{itemize}
+
+\noindent La Entropía Cruzada penaliza más fuertemente las predicciones con alta confianza que resultan incorrectas, y se minimiza durante el entrenamiento del modelo.
+
+En segmentación binaria, esta función penaliza más las clasificaciones incorrectas cuanto más seguras son las predicciones erróneas. Se considera una métrica adecuada para entrenar redes neuronales cuando se requiere distinguir entre fondo y objeto. \parencite{goodfellow2016deep}
 
 \begin{landscape}
 	\section{Cronograma de actividades y presupuesto}
