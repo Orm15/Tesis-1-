@@ -261,7 +261,7 @@ Al concluir la etapa de Desarrollo de Modelos de Segmentación, se continua con 
  Configuración del entorno de entrenamiento &
  Preparación del entorno computacional y los recursos necesarios para el entrenamiento del modelo. &
  \begin{itemize}
-     \item Selección del framework (TensorFlow o PyTorch).
+     \item Selección del framework PyTorch.
      \item Habilitación del uso de GPU para acelerar el entrenamiento.
      \item Establecimiento de rutas de acceso a los datos y modelos.
  \end{itemize} \\
@@ -271,7 +271,7 @@ Al concluir la etapa de Desarrollo de Modelos de Segmentación, se continua con 
  \begin{itemize}
      \item Configuración del optimizador Adam para minimizar la función de pérdida.
      \item Ajuste de tasa de aprendizaje, tamaño de batch y número de épocas.
-     \item Monitorización de la evolución del \textit{loss} y métricas de precisión.
+     \item Monitorización de la evolución del loss y métricas de precisión.
  \end{itemize} \\
  
  Validación cruzada del rendimiento &
@@ -284,6 +284,35 @@ Al concluir la etapa de Desarrollo de Modelos de Segmentación, se continua con 
  
  \end{longtable}
  \endgroup
+
+ Enseguida, se proporciona en la Figura \ref{3:fig6} el diagrama de cada actividad, y a su vez un detalle de la actividad junto con el entregable correspondiente que se espera obtener.
+ 
+ \textbf{Actividad 1: Configuración del entorno de entrenamiento}
+ \\
+ Durante esta etapa se prepara el entorno computacional necesario para llevar a cabo el entrenamiento del modelo de segmentación facial. Esto implica elegir el framework de desarrollo adecuado, como PyTorch, que permite implementar arquitecturas de redes neuronales de manera eficiente. Además, se habilita el uso de aceleradores de hardware, como GPU, que reducen considerablemente el tiempo de entrenamiento. También se configuran las rutas para el acceso a los datos de entrada y se definen los parámetros básicos que utilizará el entorno de ejecución.
+
+ \textbf{Entregable}: Entorno de entrenamiento configurado y funcional, listo para ejecutar los modelos definidos.
+
+ \textbf{Actividad 2: Aplicación de técnicas de optimización}
+ \\
+ En esta fase se aplican técnicas diseñadas para mejorar el aprendizaje del modelo durante el entrenamiento. Se implementa el optimizador Adam, ampliamente utilizado por su capacidad de ajustar dinámicamente los parámetros de la red, favoreciendo una convergencia más rápida y estable. Se determinan parámetros críticos como la tasa de aprendizaje, el tamaño del lote (batch size) y el número total de épocas, adaptándolos al comportamiento del modelo y la complejidad del conjunto de datos. Además, se monitorean continuamente la función de pérdida (loss) y las métricas de precisión para evaluar el progreso del modelo.
+
+ \textbf{Entregable}: Modelo entrenado con parámetros de optimización ajustados, y registro de métricas de desempeño durante las épocas.
+
+ \textbf{Actividad 3: Validación cruzada del rendimiento}
+ \\
+ El objetivo de esta actividad es evaluar de manera robusta el rendimiento del modelo mediante la técnica de validación cruzada. Se divide el conjunto de datos en k pliegues, permitiendo entrenar y validar el modelo en diferentes combinaciones de subconjuntos. Esta estrategia ayuda a prevenir el sobreajuste (overfitting) y asegura que el desempeño del modelo no dependa exclusivamente de una sola partición del dataset. Finalmente, se analiza el promedio de métricas obtenidas en cada iteración para validar la estabilidad y generalización del modelo.
+
+ \textbf{Entregable}: Reporte de resultados de validación cruzada con métricas promedio y análisis de estabilidad del modelo.
+
+ \begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{3/figures/Diagrama de Desarrollo.png}
+        \caption[Diagrama del Entrenamiento del Modelo]{Diagrama del Entrenamiento del Modelo.\\
+        Fuente: Elaboración propia}
+        \label{3:fig6}
+    \end{center}
+\end{figure}
 
 \subsubsection{Evaluación del Modelo}
 El desempeño del sistema de segmentación será evaluado utilizando métricas específicas para problemas de clasificación y segmentación:
