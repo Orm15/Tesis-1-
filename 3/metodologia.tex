@@ -146,7 +146,7 @@ Por otro lado, la actividad de Representación se encarga de convertir los datos
 
 \begin{figure}[h]
      \begin{center}
-         \includegraphics[width=0.8\textwidth]{3/figures/Diagrama de preprocesamiento.png}
+         \includegraphics[width=0.5\textwidth]{3/figures/Diagrama de preprocesamiento.png}
          \caption[Diagrama de Preprocesamiento de los Datos]{Diagrama de Preprocesamiento de los Datos.\\
          Fuente: Elaboración propia}
          \label{3:fig4}
@@ -229,7 +229,7 @@ Para U-Net, esto implica establecer correctamente las conexiones tipo “skip”
  
  \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=0.8\textwidth]{3/figures/Diagrama de Desarrollo.png}
+        \includegraphics[width=0.5\textwidth]{3/figures/Diagrama de Desarrollo.png}
         \caption[Diagrama del Desarrollo de los Modelos de Segmentación]{Diagrama del Desarrollo de los Modelos de Segmentación.\\
         Fuente: Elaboración propia}
         \label{3:fig5}
@@ -285,7 +285,7 @@ Al concluir la etapa de Desarrollo de Modelos de Segmentación, se continua con 
  \end{longtable}
  \endgroup
 
- Enseguida, se proporciona en la Figura \ref{3:fig6} el diagrama de cada actividad, y a su vez un detalle de la actividad junto con el entregable correspondiente que se espera obtener.
+ Enseguida, se proporciona un detalle de la actividad junto con el entregable correspondiente que se espera obtener.
  
  \textbf{Actividad 1: Configuración del entorno de entrenamiento}
  \\
@@ -305,35 +305,116 @@ Al concluir la etapa de Desarrollo de Modelos de Segmentación, se continua con 
 
  \textbf{Entregable}: Reporte de resultados de validación cruzada con métricas promedio y análisis de estabilidad del modelo.
 
- \begin{figure}[h]
-    \begin{center}
-        \includegraphics[width=0.8\textwidth]{3/figures/Diagrama de Desarrollo.png}
-        \caption[Diagrama del Entrenamiento del Modelo]{Diagrama del Entrenamiento del Modelo.\\
-        Fuente: Elaboración propia}
-        \label{3:fig6}
-    \end{center}
-\end{figure}
-
 \subsubsection{Evaluación del Modelo}
-El desempeño del sistema de segmentación será evaluado utilizando métricas específicas para problemas de clasificación y segmentación:
-\begin{itemize}
-    \item \textbf{Precisión (Accuracy):} Proporción de predicciones correctas sobre el total de predicciones.
-    \item \textbf{Recall (Sensibilidad):} Proporción de características positivas correctamente identificadas.
-    \item \textbf{F1-Score:} Promedio armónico de precisión y recall, útil para conjuntos de datos desbalanceados.
-    \item \textbf{AUC-ROC:} Área bajo la curva ROC para medir la capacidad del modelo de distinguir entre clases.
-\end{itemize}
+En esta etapa, se lleva a cabo la evaluacion de los prototipos elaborados en este trabajo, en la seccion 3.3.2 se está empleando las métricas de clasificación seleccionadas y detalladas. Se ofrece un analisis pormenorizado de las actividades y tareas ejecutadas en esta fase en la Tabla \ref{tabla:evaluacion_modelo}.
 
-Adicionalmente, se utilizará una matriz de confusión para analizar en detalle los errores cometidos por los modelos, lo que permitirá identificar patrones en los casos mal clasificados.
+\vspace{2ex}
+ \begingroup
+ \renewcommand\arraystretch{1.2}
+ \begin{longtable}{p{4cm} p{6cm} p{6cm}}
+ \caption{Actividades de la fase de Evaluación del Modelo.}
+ \label{tabla:evaluacion_modelo}\\
+ \toprule
+ \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas} \\
+ \midrule
+ \endfirsthead
+ 
+ \toprule
+ \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas} \\
+ \midrule
+ \endhead
+ 
+ \bottomrule
+ \endfoot
+ 
+ Preparación de Datos de Validación & Seleccionar y preparar un conjunto de datos de validación representativo. & 
+ \begin{itemize}
+     \item Elección de imágenes que no hayan sido empleados en el proceso de entrenamiento.
+     \item Preprocesamiento de imágenes.
+ \end{itemize} \\
+ 
+ Definición de Métricas de Evaluación & Definir métricas cuantitativas para evaluar al modelo de segmentación. & 
+ \begin{itemize}
+     \item Identificación de métricas adecuadas.
+     \item Implementación de funciones para calcular estas métricas.
+ \end{itemize} \\
+ 
+ Evaluación del Modelo & Evaluar el modelo entrenado en el conjunto de datos de validación para obtener una línea base. & 
+ \begin{itemize}
+     \item Eficiencia del modelo de segmentación en el conjunto de validación.
+     \item Cálculo de métricas de evaluación.
+ \end{itemize} \\
+ 
+ \end{longtable}
+ \endgroup
 
+ \textbf{Actividad 1: Preparación de Datos de Validación}
+ \\
+ La preparación de los datos de validación desempeña un papel crucial en la evaluación de la efectividad del modelo en datos no previamente vistos. Esta tarea implica seleccionar un subconjunto representativo del conjunto de datos que no se haya utilizado durante el entrenamiento del modelo. La selección debe tener en cuenta la diversidad en las imágenes y sus configuraciones para garantizar que el modelo pueda generalizar correctamente a diferentes escenarios.
+ 
+ \textbf{Entregable}: Un conjunto de datos listo para su uso en la evaluación del modelo, que incluye imágenes preprocesadas y listas para ser utilizadas en el análisis.
+ 
+ \textbf{Actividad 2: Definición de Métricas de Evaluación}
+ \\
+ Para evaluar el rendimiento del modelo de manera cuantitativa, es esencial definir métricas claras. Estas métricas proporcionarán una base objetiva para comparar el rendimiento del modelo en diferentes escenarios y con otros enfoques existentes.
+ 
+ \textbf{Entregable}: Un documento detallado que describe cada métrica y proporciona el código o las funciones necesarias para calcularlas.
+ 
+ \textbf{Actividad 3: Evaluación del Modelo}
+ \\
+ La evaluación del modelo involucra el uso del conjunto de datos de validación para establecer un punto de referencia sobre su rendimiento. Esta evaluación es esencial para comprender el comportamiento del modelo en situaciones no previamente vistas durante el entrenamiento y para identificar posibles áreas de mejora.
+ 
+ \textbf{Entregable}: Un informe que presenta los resultados de la evaluación inicial, incluyendo las métricas de rendimiento calculadas y cualquier observación relevante sobre el comportamiento del modelo.
+ 
 \subsubsection{Despliegue}
-El modelo seleccionado será integrado en un prototipo funcional que permitirá procesar imágenes faciales y generar un reporte detallado de las características segmentadas. Este prototipo incluirá una interfaz amigable que mostrará:
-\begin{itemize}
-    \item Mapas de calor que destacarán áreas con arrugas, poros dilatados y manchas.
-    \item Gráficos comparativos que mostrarán la evolución de las características morfológicas.
-    \item Recomendaciones personalizadas basadas en el análisis segmentado.
-\end{itemize}
+Al concluir la metodología empleada, se procedió a implementar el modelo propuesto luego de finalizar su entrenamiento y evaluación correspondiente. Los pasos y tareas realizados en esta fase se encuentran detallados en la Tabla \ref{tabla:despliegue}.
 
-Las pruebas finales se realizarán en un entorno simulado para verificar su rendimiento en casos prácticos, como evaluaciones estéticas en clínicas dermatológicas o la personalización de tratamientos cosméticos.
+\vspace{2ex}
+ \begingroup
+ \renewcommand\arraystretch{1.2}
+ \begin{longtable}{p{4cm} p{6cm} p{6cm}}
+ \caption{Actividades de la fase de Despliegue.}
+ \label{tabla:despliegue}\\
+ \toprule
+ \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas} \\
+ \midrule
+ \endfirsthead
+ 
+ \toprule
+ \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas} \\
+ \midrule
+ \endhead
+ 
+ \bottomrule
+ \endfoot
+ 
+ Preparación del Entorno de Despliegue & Configurar el entorno necesario para desplegar el modelo en producción. & 
+    \begin{itemize}
+        \item Selección de infraestructura.
+        \item Configuración del entorno de hardware y software.
+        \item Pruebas iniciales.
+    \end{itemize} \\
+ 
+ Despliegue del Modelo en Producción & Implementar el modelo en el entorno de producción para su uso real. & 
+ \begin{itemize}
+     \item Implementación del modelo en producción.
+     \item Configuración de parámetros en tiempo de ejecución.
+     \item Monitoreo inicial del desempeño.
+ \end{itemize} \\
+ \end{longtable}
+ \endgroup
+
+E\textbf{Actividad 1: Preparación del Entorno de Despliegue}
+\\
+La preparación del entorno de despliegue es una etapa fundamental para asegurar que el modelo de segmentación pueda ser ejecutado eficientemente en producción. Este proceso implica la selección y configuración de la infraestructura necesaria, incluyendo tanto hardware como software, y la realización de pruebas iniciales para confirmar que todo funciona correctamente antes del despliegue completo.
+
+\textbf{Entregable}: Un entorno completamente preparado, con todos los componentes necesarios instalados y configurados, listo para el despliegue del modelo.
+
+\textbf{Actividad 2: Despliegue del Modelo en Producción}
+\\
+El despliegue del modelo en producción es el paso en el que el modelo de segmentación se pone en funcionamiento en el entorno de producción. Este proceso incluye la implementación del modelo, la configuración de parámetros necesarios para su ejecución en tiempo real, y el monitoreo inicial para asegurar que el modelo funciona correctamente en condiciones reales.
+
+\textbf{Entregable}: El modelo está completamente implementado y operando en el entorno de producción, con los parámetros ajustados y el desempeño monitoreado para asegurar su correcto funcionamiento.
 
 \section{Metodología para la Medición de Resultados de la Implementación}
 

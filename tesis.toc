@@ -74,20 +74,20 @@
 \contentsline {subsubsection}{\numberline {3.3.1.1}Adquisición de los Datos}{50}{subsubsection.3.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.3.1.2}Preprocesamiento de los Datos}{50}{subsubsection.3.3.1.2}%
 \contentsline {subsubsection}{\numberline {3.3.1.3}Desarrollo de los Modelos de Segmentación}{51}{subsubsection.3.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.3.1.4}Entrenamiento del Modelo}{54}{subsubsection.3.3.1.4}%
-\contentsline {subsubsection}{\numberline {3.3.1.5}Evaluación del Modelo}{56}{subsubsection.3.3.1.5}%
-\contentsline {subsubsection}{\numberline {3.3.1.6}Despliegue}{57}{subsubsection.3.3.1.6}%
-\contentsline {section}{\numberline {3.4}Metodología para la Medición de Resultados de la Implementación}{57}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Cronograma de actividades y presupuesto}{61}{section.3.5}%
-\contentsline {chapter}{\numberline {IV}Desarrollo de la Solución}{63}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Determinación y evaluación de alternativas de solución}{63}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Propuesta solución}{63}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Planeamiento y descripción de Actividades}{63}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Desarrollo de actividades}{63}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Medición de la solución}{63}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Análisis de Indicadores cuantitativo}{63}{subsection.4.3.1}%
-\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{64}{chapter.5}%
-\contentsline {chapter}{Anexos}{67}{section*.38}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{68}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{69}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{70}{section.Alph0.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.4}Entrenamiento del Modelo}{55}{subsubsection.3.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.3.1.5}Evaluación del Modelo}{59}{subsubsection.3.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.3.1.6}Despliegue}{60}{subsubsection.3.3.1.6}%
+\contentsline {section}{\numberline {3.4}Metodología para la Medición de Resultados de la Implementación}{61}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Cronograma de actividades y presupuesto}{63}{section.3.5}%
+\contentsline {chapter}{\numberline {IV}Desarrollo de la Solución}{65}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Determinación y evaluación de alternativas de solución}{65}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Propuesta solución}{65}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Planeamiento y descripción de Actividades}{65}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Desarrollo de actividades}{65}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Medición de la solución}{65}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Análisis de Indicadores cuantitativo}{65}{subsection.4.3.1}%
+\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{66}{chapter.5}%
+\contentsline {chapter}{Anexos}{69}{section*.38}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{70}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{71}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{72}{section.Alph0.3}%
