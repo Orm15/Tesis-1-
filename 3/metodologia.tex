@@ -16,25 +16,10 @@ La muestra de la investigación comprenderá una parte de aproximadamente 5000 r
 \subsection{Operacionalización de Variables}
 Los detalles acerca de cómo se definen y miden las variables de estudio se presentan en la Tabla \ref{tabla:variables}.
 
-\begin{longtable}{>{\raggedright\arraybackslash}m{3cm} >{\raggedright\arraybackslash}m{2cm} >{\raggedright\arraybackslash}m{2cm} >{\raggedright\arraybackslash}m{3cm} >{\raggedright\arraybackslash}m{2cm} >{\raggedright\arraybackslash}m{2.5cm}}
-    \caption{Matriz de Variables Principales.}
-    \label{tabla:variables}\\
-    \hline
-    VARIABLE & DIMENSIÓN & INDICADOR & DEFINICIÓN DEL INDICADOR & TÉCNICA DE MEDICIÓN & ESCALA \\
-    \hline
-    Independiente: Imágenes de Rostros Faciales & Calidad de la Imagen & Resolución & Número de píxeles por unidad de área (píxeles por pulgada) & Análisis de propiedades de la imagen & ppi (píxeles por pulgada) \\
-    \cline{2-6}
-     & Detalle de Rostro Facial & Características Morfológicas Faciales Identificables & Cantidad de Características Morfológicas Faciales (arrugas y manchas) claramente identificables en la imagen & Contaje manual o mediante segmentación de análisis de imágenes & Número \\
-    \hline
-    Dependiente: Modelo de Segmentación Avanzada de Características Morfológicas Faciales & Precisión & Diferencia de Segmentación del Modelo vs Real & Diferencia entre la Segmentación por el modelo y la real medida & Comparación de resultados de simulación y segmentación real & Valor entre 0 y 1 \\
-    \cline{2-6}
-     & Índice de Sorensen-Dice & Similitud espacial & Medida de similitud que evalúa el solapamiento entre las áreas segmentadas por el modelo y las reales & Cálculo del índice usando máscaras binarias predicha y real & Valor entre 0 y 1 \\
-    \cline{2-6}
-     & Coeficiente de Jaccard & Similitud de conjunto & Proporción entre la intersección y la unión de las áreas segmentadas por el modelo y las reales & Cálculo del índice comparando máscaras de salida y verdad de terreno & Valor entre 0 y 1 \\
-    \cline{2-6}
-	& Entropía Cruzada & Desempeño de clasificación del modelo &  Medida de pérdida entre la distribución de probabilidad predicha y la real en cada píxel segmentado & Evaluación de la función de pérdida durante el entrenamiento del modelo & Escala real positiva \\
-    \hline
-\end{longtable}
+
+   
+
+
 %\par	%%Salto de linea
 %\bigskip
 \begin{flushleft}	%%Alinear a la izquierda sin justificar
