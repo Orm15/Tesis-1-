@@ -147,7 +147,7 @@ Por otro lado, la actividad de Representación se encarga de convertir los datos
 
 \begin{figure}[h]
      \begin{center}
-         \includegraphics[width=0.75\textwidth]{3/figures/Diagrama de preprocesamiento.png}
+         \includegraphics[width=0.53\textwidth]{3/figures/Diagrama de preprocesamiento.png}
          \caption[Diagrama de Preprocesamiento de los Datos]{Diagrama de Preprocesamiento de los Datos.\\
          Fuente: Elaboración propia}
          \label{3:fig4}
@@ -230,7 +230,7 @@ Para U-Net, esto implica establecer correctamente las conexiones tipo “skip”
  
  \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=0.75\textwidth]{3/figures/Diagrama de Desarrollo.png}
+        \includegraphics[width=0.53\textwidth]{3/figures/Diagrama de Desarrollo.png}
         \caption[Diagrama del Desarrollo de los Modelos de Segmentación]{Diagrama del Desarrollo de los Modelos de Segmentación.\\
         Fuente: Elaboración propia}
         \label{3:fig5}
@@ -241,50 +241,47 @@ Para U-Net, esto implica establecer correctamente las conexiones tipo “skip”
 Al concluir la etapa de Desarrollo de Modelos de Segmentación, se continua con el Entrenamiento, en la Tabla \ref{tabla:entrenamiento_modelo} fue diseñada siguiendo las actividades.
 
 \vspace{2ex}
- \begingroup
- \renewcommand\arraystretch{1.2}
- \begin{longtable}{p{4cm} p{6cm} p{6cm}}
- \caption{Actividades de la fase de Entrenamiento del Modelo.}
- \label{tabla:entrenamiento_modelo}\\
- \toprule
- \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas} \\
- \midrule
- \endfirsthead
- 
- \toprule
- \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas} \\
- \midrule
- \endhead
- 
- \bottomrule
- \endfoot
- 
- Configuración del entorno de entrenamiento &
- Preparación del entorno computacional y los recursos necesarios para el entrenamiento del modelo. &
- \begin{itemize}
-     \item Selección del framework PyTorch.
-     \item Habilitación del uso de GPU para acelerar el entrenamiento.
-     \item Establecimiento de rutas de acceso a los datos y modelos.
- \end{itemize} \\
- 
- Aplicación de técnicas de optimización &
- Utilización de métodos que permitan una mejora progresiva del modelo a lo largo de las épocas de entrenamiento. &
- \begin{itemize}
-     \item Configuración del optimizador Adam para minimizar la función de pérdida.
-     \item Ajuste de tasa de aprendizaje, tamaño de batch y número de épocas.
-     \item Monitorización de la evolución del loss y métricas de precisión.
- \end{itemize} \\
- 
- Validación cruzada del rendimiento &
- Evaluación del desempeño del modelo utilizando múltiples divisiones del conjunto de datos. &
- \begin{itemize}
-     \item División del dataset en k pliegues para pruebas y entrenamiento.
-     \item Entrenamiento del modelo en diferentes subconjuntos.
-     \item Análisis del promedio de métricas obtenidas para garantizar estabilidad.
- \end{itemize} \\
- 
- \end{longtable}
- \endgroup
+\begingroup
+\renewcommand\arraystretch{1.2}
+\begin{longtable}{>{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{6cm} >{\raggedright\arraybackslash}p{6cm}}
+\caption{Actividades de la fase de Entrenamiento del Modelo.}
+\label{tabla:entrenamiento_modelo}\\
+\toprule
+\centering\textbf{Actividades} & \centering\textbf{Descripción} & \centering\textbf{Tareas} \tabularnewline
+\midrule
+\endfirsthead
+
+\bottomrule
+\endfoot
+
+Configuración del entorno de entrenamiento &
+Preparación del entorno computacional y los recursos necesarios para el entrenamiento del modelo. &
+\begin{itemize}
+    \item Selección del framework PyTorch.
+    \item Habilitación del uso de GPU para acelerar el entrenamiento.
+    \item Establecimiento de rutas de acceso a los datos y modelos.
+\end{itemize} \\[2ex]
+
+Aplicación de técnicas de optimización &
+Utilización de métodos que permitan una mejora progresiva del modelo a lo largo de las épocas de entrenamiento. &
+\begin{itemize}
+    \item Configuración del optimizador Adam para minimizar la función de pérdida.
+    \item Ajuste de tasa de aprendizaje, tamaño de batch y número de épocas.
+    \item Monitorización de la evolución del loss y métricas de precisión.
+\end{itemize} \\[2ex]
+
+Validación cruzada del rendimiento &
+Evaluación del desempeño del modelo utilizando múltiples divisiones del conjunto de datos. &
+\begin{itemize}
+    \item División del dataset en k pliegues para pruebas y entrenamiento.
+    \item Entrenamiento del modelo en diferentes subconjuntos.
+    \item Análisis del promedio de métricas obtenidas para garantizar estabilidad.
+\end{itemize} \\
+
+\end{longtable}
+\endgroup
+
+
 
  Enseguida, se proporciona un detalle de la actividad junto con el entregable correspondiente que se espera obtener.
  
@@ -407,7 +404,7 @@ Al concluir la metodología empleada, se procedió a implementar el modelo propu
 
 \textbf{Actividad 1: Preparación del Entorno de Despliegue}
 \\
-La preparación del entorno de despliegue es una etapa fundamental para asegurar que el modelo de segmentación pueda ser ejecutado eficientemente en producción. Este proceso implica la selección y configuración de la infraestructura necesaria, incluyendo tanto hardware como software, y la realización de pruebas iniciales para confirmar que todo funciona correctamente antes del despliegue completo.
+La preparación del entorno de despliegue es una etapa fundamental para asegurar que el modelo de segmentación, por lo que se hizo el diseño del prototipo como se ve en la Figura \ref{3:fig6} pueda ser ejecutado eficientemente en producción. Este proceso implica la selección y configuración de la infraestructura necesaria, incluyendo tanto hardware como software, y la realización de pruebas iniciales para confirmar que todo funciona correctamente antes del despliegue completo.
 
 \textbf{Entregable}: Un entorno completamente preparado, con todos los componentes necesarios instalados y configurados, listo para el despliegue del modelo.
 
@@ -416,6 +413,15 @@ La preparación del entorno de despliegue es una etapa fundamental para asegurar
 El despliegue del modelo en producción es el paso en el que el modelo de segmentación se pone en funcionamiento en el entorno de producción. Este proceso incluye la implementación del modelo, la configuración de parámetros necesarios para su ejecución en tiempo real, y el monitoreo inicial para asegurar que el modelo funciona correctamente en condiciones reales.
 
 \textbf{Entregable}: El modelo está completamente implementado y operando en el entorno de producción, con los parámetros ajustados y el desempeño monitoreado para asegurar su correcto funcionamiento.
+
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=1\textwidth]{3/figures/Prototipo de Despliegue.png}
+        \caption[Proceso de operacion del prototipo del sistema]{Proceso de operacion del prototipo del sistema.\\
+        Fuente: Elaboración propia}
+        \label{3:fig6}
+    \end{center}
+\end{figure}
 
 \section{Metodología para la Medición de Resultados de la Implementación}
 
@@ -513,14 +519,14 @@ En segmentación binaria, esta función penaliza más las clasificaciones incorr
 
 \begin{landscape}
 	\section{Cronograma de actividades y presupuesto}
-	Se propuso un cronograma para la investigación. Conforma desde el inicio hasta ser terminada con la sustentación final planeada para mediados del año 2024. Este se presneta en la Figura \ref{3:fig6}.
+	Se propuso un cronograma para la investigación. Conforma desde el inicio hasta ser terminada con la sustentación final planeada para mediados del año 2024. Este se presneta en la Figura \ref{3:fig7}.
 
 	\begin{figure}[!ht]
 		\begin{center}
 			\includegraphics[width=1.50\textwidth]{3/figures/gant.png}
 			\caption[Cronograma de actividades]{Cronograma de actividades.\\
 				Fuente: Elaboración propia.}
-			\label{3:fig6}
+			\label{3:fig7}
 		\end{center}
 	\end{figure}
 	
