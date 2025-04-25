@@ -68,13 +68,13 @@
 \contentsline {subsection}{\numberline {3.1.3}Población}{45}{subsection.3.1.3}%
 \contentsline {subsection}{\numberline {3.1.4}Muestra}{46}{subsection.3.1.4}%
 \contentsline {subsection}{\numberline {3.1.5}Operacionalización de Variables}{46}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}Técnicas de recolección de datos}{46}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Técnicas de recolección de datos}{47}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Técnicas para el procesamiento y análisis de la información}{48}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Metodología de implementación de la solución}{48}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Adquisición de los Datos}{48}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Adquisición de los Datos}{49}{subsubsection.3.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.3.1.2}Preprocesamiento de los Datos}{49}{subsubsection.3.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.3.1.3}Desarrollo de los Modelos de Segmentación}{50}{subsubsection.3.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.3.1.4}Entrenamiento del Modelo}{53}{subsubsection.3.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}Desarrollo de los Modelos de Segmentación}{51}{subsubsection.3.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.4}Entrenamiento del Modelo}{54}{subsubsection.3.3.1.4}%
 \contentsline {subsubsection}{\numberline {3.3.1.5}Evaluación del Modelo}{56}{subsubsection.3.3.1.5}%
 \contentsline {subsubsection}{\numberline {3.3.1.6}Despliegue}{58}{subsubsection.3.3.1.6}%
 \contentsline {section}{\numberline {3.4}Metodología para la Medición de Resultados de la Implementación}{59}{section.3.4}%
