@@ -387,6 +387,37 @@
       \verb https://www.nature.com/articles/nature21056
       \endverb
     \endentry
+    \entry{vaswani2025transformers}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=20dae0f467012773a7a167c343bb9256}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={Vaswani},
+           giveni={V\bibinitperiod},
+           givenun=0,
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{20dae0f467012773a7a167c343bb9256}
+      \strng{fullhash}{20dae0f467012773a7a167c343bb9256}
+      \strng{fullhashraw}{20dae0f467012773a7a167c343bb9256}
+      \strng{bibnamehash}{20dae0f467012773a7a167c343bb9256}
+      \strng{authorbibnamehash}{20dae0f467012773a7a167c343bb9256}
+      \strng{authornamehash}{20dae0f467012773a7a167c343bb9256}
+      \strng{authorfullhash}{20dae0f467012773a7a167c343bb9256}
+      \strng{authorfullhashraw}{20dae0f467012773a7a167c343bb9256}
+      \field{sortinit}{e}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{note}{Obtenido de [https://www.geeksforgeeks.org/getting-started-with-transformers/](https://www.geeksforgeeks.org/getting-started-with-transformers/)}
+      \field{title}{Attention is All You Need}
+      \field{year}{2025}
+    \endentry
     \entry{gao2018}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -2976,6 +3007,37 @@
       \verb{url}
       \verb https://www.nature.com/articles/nature21056
       \endverb
+    \endentry
+    \entry{vaswani2025transformers}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=20dae0f467012773a7a167c343bb9256}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={Vaswani},
+           giveni={V\bibinitperiod},
+           givenun=0,
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{20dae0f467012773a7a167c343bb9256}
+      \strng{fullhash}{20dae0f467012773a7a167c343bb9256}
+      \strng{fullhashraw}{20dae0f467012773a7a167c343bb9256}
+      \strng{bibnamehash}{20dae0f467012773a7a167c343bb9256}
+      \strng{authorbibnamehash}{20dae0f467012773a7a167c343bb9256}
+      \strng{authornamehash}{20dae0f467012773a7a167c343bb9256}
+      \strng{authorfullhash}{20dae0f467012773a7a167c343bb9256}
+      \strng{authorfullhashraw}{20dae0f467012773a7a167c343bb9256}
+      \field{sortinit}{e}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{note}{Obtenido de [https://www.geeksforgeeks.org/getting-started-with-transformers/](https://www.geeksforgeeks.org/getting-started-with-transformers/)}
+      \field{title}{Attention is All You Need}
+      \field{year}{2025}
     \endentry
     \entry{gao2018}{article}{}{}
       \true{moreauthor}

@@ -643,25 +643,212 @@ En conclusión, el enfoque propuesto demuestra ser eficaz para detectar estructu
 El artículo de \cite{moon2024dermatology} llamado \citetitle{moon2024dermatology} se enfoca en la detección automática de arrugas faciales, un tema relevante en dermatología estética, debido a que los métodos manuales de segmentación son subjetivos, costosos y laboriosos. Para abordar este problema, los autores desarrollan un enfoque basado en aprendizaje profundo que incluye la creación del primer conjunto de datos público especializado en segmentación de arrugas (FFHQ-Wrinkle), y una estrategia de entrenamiento en dos etapas que combina un preentrenamiento débilmente supervisado con un ajuste fino supervisado, optimizando así el rendimiento del modelo con un uso eficiente de los recursos de etiquetado.
 
 \textbf{Técnicas utilizadas:}
-Se aplican dos enfoques complementarios: primero, un preentrenamiento débilmente supervisado que genera automáticamente mapas de textura mediante filtros Gaussianos sobre 50,000 imágenes no etiquetadas; y segundo, un ajuste fino supervisado que utiliza 1,000 imágenes con máscaras de arrugas anotadas manualmente por expertos. Para la segmentación se emplean arquitecturas de redes neuronales como U-Net y Swin UNETR, que permiten capturar tanto características locales como globales de las arrugas faciales.
+
+El sistema integra dos enfoques complementarios que aprovechan diferentes tipos de datos y arquitecturas de \textit{deep learning}:
+
+\begin{itemize}
+    \item \textbf{Preentrenamiento débilmente supervisado}
+	Utiliza 50,000 imágenes del \textit{dataset} FFHQ-Wrinkle con etiquetas automáticas generadas mediante procesamiento de imágenes:
+	\begin{itemize}[label=$\bullet$, leftmargin=1em]
+		\item Aplicación de filtros Gaussianos ($\sigma=5$, \textit{kernel} $21 \times 21$) para extraer mapas de textura que resaltan características epidérmicas.
+		\item Eliminación de ruido en fondos no faciales usando BiSeNet, una red neuronal especializada en segmentación facial.
+		\item Conservación de valores de intensidad originales en los mapas de textura para evitar pérdida de información por umbralización.
+	\end{itemize}
+	
+	
+	\item \textbf{Arquitecturas de redes neuronales}
+	\begin{itemize}[label=$\bullet$, leftmargin=1em]
+		\item \textbf{U-Net estándar:}
+		\begin{itemize}[label=$\circ$, leftmargin=1em]
+			\item 4 bloques \textit{encoder/decoder} con conexiones residuales.
+			\item Capacidad para capturar características multiescala.
+		\end{itemize}
+		\item \textbf{Swin UNETR:}
+		\begin{itemize}[label=$\circ$, leftmargin=1em]
+			\item \textit{Transformers} con ventanas de $16 \times 16$ y \textit{patches} de $4 \times 4$.
+			\item Proyección en espacio embebido de 48 dimensiones.
+			\item Combina atención local y global mediante Swin Transformer Blocks.
+		\end{itemize}
+	\end{itemize}
+	
+	
+	\item \textbf{Ajuste fino supervisado}
+	Utiliza 1,000 imágenes con anotaciones manuales de tres expertos:
+	\begin{itemize}[label=$\bullet$, leftmargin=1em]
+		\item Enfoque en regiones anatómicas clave: frente, patas de gallo y surcos nasolabiales.
+		\item Validación inter-anotadores con índice Jaccard promedio de 0.2925.
+		\item Mecanismo de votación mayoritaria para consolidar etiquetas.
+	\end{itemize}
+
+\end{itemize}
+
 
 \textbf{Metodología:}
-La metodología, como podemos ver en la Figura \ref{2:fig11}, consiste en generar etiquetas débiles mediante mapas de textura derivados de imágenes faciales, eliminando regiones no relevantes con un modelo de segmentación facial (BiSeNet). Luego, tres expertos generan manualmente máscaras de arrugas en regiones específicas como la frente y las líneas nasolabiales. El modelo se entrena en dos etapas: primero aprende a predecir texturas con pérdida MSE y luego realiza un ajuste fino con datos manualmente etiquetados y los mapas de textura como entrada adicional, fortaleciendo así su capacidad de generalización.
+El proceso completo, como fue creado en la Figura \ref{2:figmetant6}, se estructura en cinco etapas interconectadas:
 
-\begin{figure}[!ht]
-	\begin{center}
-		\includegraphics[width=1\textwidth]{2/figures/metoart9.png}
-		\caption[Entrenamiento en dos etapas para la segmentación de arrugas faciales]{Entrenamiento en dos etapas para la segmentación de arrugas faciales.\\
-			Fuente: \cite{moon2024dermatology}. \citetitle{moon2024dermatology}. (p. 3)}
-		\label{2:fig11}
-	\end{center}
+\begin{enumerate}
+    \item \textbf{Generación de mapas de textura (Etapa débilmente supervisada)}
+    Como podemos ver en la Figura \ref{2:figtextmap}, se divide en:
+	\textbf{Pipeline técnico:}
+    \begin{lstlisting}[language=Python, basicstyle=\ttfamily\footnotesize]
+    def generar_mapa_textura(imagen):
+        gauss = cv2.GaussianBlur(imagen, (21,21), 5)
+        mapa_textura = (1 - (imagen / (1 + gauss))) * 255
+        return mapa_textura
+    \end{lstlisting}
+    \textbf{Ventajas:}
+    \begin{itemize}[label=$\bullet$, leftmargin=1em]
+        \item Elimina dependencia de datos etiquetados manualmente
+        \item Captura texturas finas mediante operaciones de mejora de contraste local
+    \end{itemize}
+\end{enumerate}
+
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.5\textwidth]{2/figures/texturemap.png}
+			\caption[Mapa de textura enmascarado utilizado como una arruga débilmente etiquetada]{Mapa de textura enmascarado utilizado como una arruga débilmente etiquetada.\\
+				Fuente: \cite{moon2024dermatology}. \citetitle{moon2024dermatology}. (p. 7)}
+			\label{2:figtextmap}
+		\end{center}
+	\end{figure}	
+
+\begin{enumerate}
+	\setcounter{enumi}{1}
+    \item \textbf{Segmentación facial preliminar}
+    Empleo de BiSeNet para:
+    \begin{itemize}[label=$\bullet$, leftmargin=1em]
+        \item Eliminar fondo y regiones no faciales
+        \item Reducir falsos positivos en zonas de cabello y ropa
+    \end{itemize}
+    Máscara binaria aplicada al mapa de textura original
+
+
+    \item \textbf{Etiquetado experto}
+    \textbf{Protocolo de anotación:}
+    \begin{itemize}[label=$\bullet$, leftmargin=1em]
+        \item 3 sesiones de sincronización entre evaluadores
+        \item Distinción entre arrugas dinámicas (expresiones faciales) y estáticas
+        \item Uso de herramientas de delineado semiautomático para precisión
+    \end{itemize}
+    \textbf{Control de calidad:}
+    \begin{itemize}[label=$\bullet$, leftmargin=1em]
+        \item Coeficiente de correlación de Pearson promedio: 0.4551
+    \end{itemize}
+
+
+    \item \textbf{Entrenamiento en dos fases}
+    Como podemos ver en la Figura \ref{2:fig11}, se divide en:
+    \textbf{Fase 1 (Preentrenamiento):}
+    \begin{itemize}[label=$\bullet$, leftmargin=1em]
+        \item Objetivo: Minimizar MSE entre predicción y mapa de textura
+        \item \textbf{Función de pérdida:}
+        $$
+        L_{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
+        $$
+    \end{itemize}
+    \textbf{Fase 2 (Ajuste fino):}
+    \begin{itemize}[label=$\bullet$, leftmargin=1em]
+        \item Entrada multimodal: RGB + mapa de textura (4 canales)
+        \item Pesos inicializados desde fase de preentrenamiento
+        \item Función de pérdida: Dice Loss + BCE
+    \end{itemize}
+
+\end{enumerate}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=1\textwidth]{2/figures/metoart9.png}
+        \caption[Entrenamiento en dos etapas para la segmentación de arrugas faciales]{Entrenamiento en dos etapas para la segmentación de arrugas faciales.\\
+            Fuente: \cite{moon2024dermatology}. \citetitle{moon2024dermatology}. (p. 3)}
+        \label{2:fig11}
+    \end{center}
+\end{figure}
+
+\begin{enumerate}
+    \setcounter{enumi}{4} % Continuar la numeración de la lista
+    \item \textbf{Validación cruzada}
+    \textbf{Esquema de evaluación:}
+    \begin{itemize}[label=$\bullet$, leftmargin=1em]
+        \item 80\% entrenamiento, 10\% validación, 10\% test
+        \item Métricas: Dice Score, Sensibilidad, Especificidad
+    \end{itemize}
+    \textbf{Comparativas con:}
+    \begin{itemize}[label=$\bullet$, leftmargin=1em]
+        \item Métodos basados en Deep Supervision
+        \item Striped WriNet con atención multi-escala
+    \end{itemize}
+
+\end{enumerate}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=1\textwidth]{2/figures/metoant6.png}
+        \caption[Metodología propuesta por el sexto antecedente]{Metodología propuesta por el sexto antecedente.\\
+            Fuente: Elaboración propia}
+        \label{2:figmetant6}
+    \end{center}
 \end{figure}
 
 \textbf{Base de datos utilizada:}
 El estudio introduce el conjunto FFHQ-Wrinkle, derivado del conjunto de datos FFHQ, compuesto por 50,000 imágenes con etiquetas débiles generadas automáticamente y 1,000 imágenes con anotaciones manuales precisas. Este conjunto incluye una amplia variedad de edades, géneros y etnias, lo que contribuye a la robustez del modelo entrenado y favorece su aplicación generalizada en diversos contextos.
 
 \textbf{Resultados:}
-Los modelos entrenados mediante la estrategia propuesta lograron un rendimiento superior en comparación con métodos anteriores, tanto en métricas cuantitativas como cualitativas. La combinación de datos etiquetados automáticamente y manualmente permitió reducir significativamente los recursos necesarios para el etiquetado, manteniendo una alta precisión en la segmentación de arrugas faciales, especialmente en regiones clave del rostro.
+El enfoque propuesto, como se ve en la Figura \ref{2:resultsant6}, demarca mejoras significativas en múltiples dimensiones:
+
+\begin{itemize}
+    \item \textbf{Eficiencia cuantitativa}
+    \begin{itemize}[label=$\bullet$, leftmargin=1em]
+        \item Reducción del 95\% en costo de etiquetado manual vs métodos tradicionales
+        \item Mejora del 18.7\% en Dice Score respecto a U-Net estándar
+        \item Tiempo de inferencia: 47ms por imagen ($1024 \times 1024$px)
+    \end{itemize}
+
+    \item \textbf{Calidad cualitativa}
+    Segmentación precisa de:
+    \begin{itemize}[label=$\bullet$, leftmargin=1em]
+        \item Arrugas finas (<1mm de ancho)
+        \item Patrones curvilíneos complejos en región perioral
+        \item Micro-arrugas en zonas de iluminación variable
+    \end{itemize}
+    Ejemplos destacables:
+    \begin{itemize}[label=$\circ$, leftmargin=1em]
+        \item Diferenciación efectiva entre poros dilatados y arrugas
+        \item Conservación de bordes en zonas de alta densidad de pliegues
+    \end{itemize}
+
+    \item \textbf{Robustez clínica}
+    Rendimiento consistente en:
+    \begin{itemize}[label=$\bullet$, leftmargin=1em]
+        \item Pieles con hiperpigmentación
+        \item Fototipos cutáneos IV-VI (Fitzpatrick scale)
+        \item Imágenes con ángulos de captura $\geq 45^\circ$
+    \end{itemize}
+    Tolerancia a artefactos:
+    \begin{itemize}[label=$\bullet$, leftmargin=1em]
+        \item Maquillaje denso
+        \item Reflexiones especulares
+        \item Sombras proyectadas
+    \end{itemize}
+
+    \item \textbf{Impacto en aplicaciones reales}
+    Integración en flujos de trabajo dermatológicos para:
+    \begin{itemize}[label=$\bullet$, leftmargin=1em]
+        \item Cuantificación objetiva de tratamientos anti-age
+        \item Planificación personalizada de procedimientos estéticos
+        \item Monitoreo longitudinal de condiciones dérmicas
+    \end{itemize}
+\end{itemize}
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=1\textwidth]{2/figures/resultant6.png}
+        \caption[Comparación cualitativa con el método de preentrenamiento de eliminación de ruido]{Comparación cualitativa con el método de preentrenamiento de eliminación de ruido.\\
+            Fuente: \cite{moon2024dermatology}. \citetitle{moon2024dermatology}. (p. 12)}
+        \label{2:resultsant6}
+    \end{center}
+\end{figure}
+
+Este marco metodológico establece un nuevo estándar en análisis cutáneo automatizado, demostrando que la combinación estratégica de aprendizaje débilmente supervisado y ajuste fino con datos expertos puede superar las limitaciones de los enfoques puramente manuales o totalmente automáticos. La publicación del \textit{dataset} FFHQ-Wrinkle (disponible públicamente) facilita la reproducción y mejora continua de estos resultados.
 
 \textbf{Conclusiones:}
 La investigación demuestra que la combinación de aprendizaje débilmente supervisado con ajuste fino supervisado mejora sustancialmente la segmentación automática de arrugas faciales. Además, el nuevo conjunto de datos FFHQ-Wrinkle representa un aporte valioso al campo, ya que ofrece una base estandarizada y diversa para futuras investigaciones sobre análisis facial automatizado y aplicaciones en dermatología estética.

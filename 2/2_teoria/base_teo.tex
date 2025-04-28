@@ -16,8 +16,8 @@ Se puede clasificar en cuatro tipos principales de la siguiente manera según el
 	Los dos tipos de Aprendizaje Supervisado son:
 
 	\begin{itemize}
-		\item \textbf{La Clasificación}: es la predicción del valor categórico de salida que permite dividir los datos en clases específicas. La clasificación se puede usar para varios propósitos, como determinar el clima, determinar si un correo electrónico es spam o no o identificar tipos de animales después de recibir una educación adecuada, un conjunto de datos con etiquetas de imágenes que incluyen la especie y algunas identificaciones características, según \parencite{bk_zambrano2018supnosup}.
-		\item \textbf{La Regresión}: es un tipo de problema en el que la predicción de un valor de respuesta continua es necesaria, como los precios de las acciones y la vivienda, según \parencite{bk_zambrano2018supnosup}.
+		\item \textbf{Clasificación}: es la predicción del valor categórico de salida que permite dividir los datos en clases específicas. La clasificación se puede usar para varios propósitos, como determinar el clima, determinar si un correo electrónico es spam o no o identificar tipos de animales después de recibir una educación adecuada, un conjunto de datos con etiquetas de imágenes que incluyen la especie y algunas identificaciones características, según \parencite{bk_zambrano2018supnosup}.
+		\item \textbf{Regresión}: es un tipo de problema en el que la predicción de un valor de respuesta continua es necesaria, como los precios de las acciones y la vivienda, según \parencite{bk_zambrano2018supnosup}.
 	\end{itemize}
 
 	Por lo tanto, funciona modelando las relaciones y dependencias entre las características de entrada y la salida de predicción objetivo, lo que permite predecir los valores de salida para nuevos datos utilizando las relaciones que aprendió de conjuntos de datos anteriores, según \parencite{bk_alpaydin2014ml}.
@@ -28,7 +28,7 @@ Se puede clasificar en cuatro tipos principales de la siguiente manera según el
 		\item \textbf{Agrupación K-means}: es un tipo de problema en el que cosas similares están agrupadas, como se muestra en la Figura \ref{2:fig12}. Comparte el mismo concepto con la clasificación, pero no se proporcionan etiquetas, por lo que el sistema entenderá los datos y los agrupará. Un uso de esto sería agrupar los artículos y las noticias según su género y contenido, según \parencite{tec_sancho2018supnosup}
 	\end{itemize}
 	
-		\begin{figure}[h]
+		\begin{figure}[H]
 		\begin{center}
 			\includegraphics[width=0.75\textwidth]{2/figures/kmeans.png}
 			\caption[El algoritmo de K medias]{El algoritmo de K medias.\\
@@ -55,7 +55,7 @@ Se puede clasificar en cuatro tipos principales de la siguiente manera según el
 
 Desde que llegó la Inteligencia Artificial hace un tiempo, tiene una amplia gama de aplicaciones y se divide en muchas ramas, como se menciona en \parencite{gl_sas_deeplearning}. El Aprendizaje Profundo es un subconjunto del Aprendizaje Automático, que es en sí mismo un subcampo de la IA. La Figura \ref{2:fig13} es una representación visual de la relación entre AI, ML y DL.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.50\textwidth]{2/figures/deeplearning_machinelearning.jpg}
 		\caption[Relación entre IA, ML y DL]{Relación entre IA, ML y DL.\\
@@ -66,7 +66,7 @@ Desde que llegó la Inteligencia Artificial hace un tiempo, tiene una amplia gam
 
 El Aprendizaje Profundo no solo permite representar datos de la manera correcta, sino que también permite que la computadora aprenda programas informáticos de varios pasos al incluir el concepto de profundidad en sus modelos. Como se muestra en la Figura \ref{2:fig14}, cada capa de representación puede interpretarse como el estado de la memoria de la computadora. Las computadoras interpretan las imágenes como una colección de valores de píxeles que representan escenas de nuestra realidad. Según \parencite{tec_cook2018deeplearning}, identificar un objeto o mapear su identidad a partir de esos valores es una tarea difícil para las máquinas y puede resultar casi imposible cuando se intenta aprender este mapeo directamente.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.70\textwidth]{2/figures/deeplearning_machinelearning2.jpg}
 		\caption[Modelo de aprendizaje profundo]{Modelo de aprendizaje profundo.\\
@@ -112,7 +112,7 @@ Hoy en día, el procesamiento de imágenes, que incluye problemas de clasificaci
 	
 Estas redes también se utilizan para clasificar textos. Ronan Collobert y Jason Weston modificaron la arquitectura y los parámetros internos de las Redes Neuronales Convolucionales para usarlas en aplicaciones del PLN. La Figura \ref{2:fig15} muestra la estructura de una CNN para problemas de procesamiento de información natural. \parencite{bk_kamath2019deeplearning_nlp_sr}
 	
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{2/figures/cnn_nlp.png}
 		\caption[Arquitectura de un modelo CNN]{Arquitectura de un modelo CNN.\\
@@ -141,16 +141,27 @@ El uso de CNN en la segmentación de imágenes dermatológicas ha demostrado una
 \subsubsection{Modelos avanzados de CNN para segmentación: U-Net, Fully Convolutional Networks (FCN)}
 Modelos como U-Net y FCN han sido diseñados específicamente para la segmentación de imágenes. U-Net, por ejemplo, utiliza una arquitectura simétrica que permite una recuperación precisa de detalles en imágenes médicas. \parencite{ronneberger2015}
 
-%\subsubsection{Complejidad de identificar características pequeñas como poros en imágenes de alta resolución}
-%La segmentación de características pequeñas, como los poros en la piel, es una tarea particularmente desafiante debido a su tamaño reducido y la alta resolución necesaria para detectarlos de manera precisa. Las imágenes dermatológicas a menudo contienen detalles finos que requieren técnicas avanzadas para identificar correctamente estos pequeños elementos sin incluir ruido o artefactos en la segmentación.
-
-%La identificación precisa de los poros es crucial, especialmente en aplicaciones cosméticas donde la evaluación de la textura de la piel es esencial para ofrecer tratamientos personalizados. Para abordar este desafío, se deben emplear técnicas de segmentación de alta resolución y redes neuronales profundas capaces de capturar los detalles más pequeños, incluso cuando los poros están parcialmente ocultos o tienen un contraste bajo respecto al resto de la piel. \parencite{yang2020}
-
 \subsection{Redes de Atención}  
 Las redes de atención han surgido como una de las principales innovaciones en el campo de la segmentación de imágenes, permitiendo que los modelos se enfoquen de manera más eficiente en las regiones relevantes de una imagen. Este mecanismo resulta especialmente útil cuando se trabaja con imágenes complejas, como las faciales, donde ciertas áreas contienen características importantes para el análisis, pero pueden ser de menor tamaño o estar localizadas en posiciones no centrales.
 
 \subsubsection{Mecanismo de Atención}  
 El mecanismo de atención permite a la red asignar diferentes pesos a distintas partes de la imagen durante el proceso de segmentación. Este mecanismo es esencial para que el modelo pueda enfocarse en las áreas relevantes de la imagen, como arrugas o manchas, sin perder detalles importantes de otras zonas. El concepto básico detrás de la atención es que no todas las partes de la imagen son igualmente importantes para la tarea en cuestión. Por lo tanto, la atención ayuda a los modelos a priorizar las áreas clave que impactan en el resultado final.  
+
+\begin{equation}\label{eq:atencion}
+    \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+\end{equation}
+\myequations{Ecuación base del mecanismo de atención}
+donde $Q$ son las consultas, $K$ son las claves, $V$ son los valores y $d_k$ es la dimensión de las claves, podemos verlo más a detalle en la Figura \ref{2:figeqbasmat}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{2/figures/eqbasmat.png}
+		\caption[Diagrama de Q, K, V (queries, keys, values)]{Diagrama de Q, K, V (queries, keys, values).\\
+		Fuente: \cite{vaswani2025transformers}. \citetitle{vaswani2025transformers}.}
+		\label{2:figeqbasmat}
+	\end{center}
+\end{figure}
+
 \begin{itemize}
     \item \textbf{Funcionamiento:} La atención se puede aplicar de manera global o local. En el caso de la segmentación de imágenes faciales, por ejemplo, el modelo puede aprender a dar más importancia a las áreas alrededor de los ojos o la frente, donde las arrugas suelen ser más notorias.
     \item \textbf{Beneficio:} Aumenta la precisión de la segmentación al concentrarse solo en las características más relevantes y minimizar el "ruido" de otras regiones no significativas. \parencite{autor2021atencion}
@@ -158,6 +169,14 @@ El mecanismo de atención permite a la red asignar diferentes pesos a distintas 
 
 \subsubsection{Atención Espacial}  
 La atención espacial es un tipo específico de atención que asigna pesos según la ubicación espacial de los elementos dentro de la imagen. Esto permite al modelo resaltar áreas específicas de la imagen que contienen características clave para la segmentación.  
+
+\begin{equation}\label{eq:mapa_atencion_espacial}
+    M_s = \sigma(\text{Conv2D}([\text{AvgPool}(F); \text{MaxPool}(F)]))
+\end{equation}
+\myequations{Mapa de atención espacial}
+donde $F$ es el mapa de características, $\sigma$ es la función sigmoide, y $[;]$ denota la concatenación de canales.
+
+
 \begin{itemize}
     \item \textbf{Funcionamiento:} A través de la atención espacial, el modelo puede identificar patrones en las posiciones de las características de interés, como las arrugas en la zona de la frente o las manchas en la mejilla. Este enfoque es útil cuando las características relevantes están distribuidas de manera no uniforme en la imagen.
     \item \textbf{Aplicación:} Es particularmente eficaz en la segmentación de imágenes faciales, donde las características que deben segmentarse no están siempre en el mismo lugar de la imagen y varían según la persona y la expresión facial. \parencite{autor2020spa}
@@ -165,6 +184,14 @@ La atención espacial es un tipo específico de atención que asigna pesos segú
 
 \subsubsection{Atención de Canal}  
 La atención de canal se enfoca en las características dentro de los canales de la imagen, es decir, en las distintas representaciones de las características de la imagen que corresponden a las diferentes profundidades o colores de los filtros en una red convolucional. Este tipo de atención permite que la red enfoque su procesamiento en los canales que contienen la información más relevante para la tarea.  
+
+\begin{equation}\label{eq:mapa_atencion_canal}
+    M_c = \sigma(\text{MLP}(\text{AvgPool}(F)) + \text{MLP}(\text{MaxPool}(F)))
+\end{equation}
+\myequations{Mapa de atención de canal}
+donde $M_c$ es el mapa de atención de canal, y MLP representa una red neuronal de perceptrón multicapa.
+
+
 \begin{itemize}
     \item \textbf{Funcionamiento:} En lugar de distribuir el enfoque en toda la imagen, la atención de canal resalta los canales específicos que contienen detalles cruciales, como la textura de la piel o las sombras que definen arrugas o manchas.
     \item \textbf{Beneficio:} Mejora la capacidad del modelo para diferenciar entre características de diferentes intensidades o patrones, lo cual es esencial en imágenes donde la variabilidad de la textura de la piel puede ser un desafío. \parencite{autor2019canal}
@@ -181,8 +208,96 @@ Las redes de atención proporcionan varios beneficios clave que mejoran la preci
 \subsubsection{Ejemplos de Modelos con Atención}  
 Existen varios modelos que implementan mecanismos de atención para mejorar la segmentación de imágenes. Algunos ejemplos notables incluyen:
 \begin{itemize}
-    \item \textbf{Transformer:} El modelo Transformer ha sido exitoso en tareas de procesamiento de secuencias y también ha demostrado ser útil para segmentación de imágenes, particularmente al aplicar atención a nivel global en la imagen. Este modelo asigna pesos no solo localmente, sino también a nivel global, lo que mejora la precisión en tareas complejas de segmentación. \parencite{autor2022transformer}
-    \item \textbf{SENet:} SENet es una arquitectura que utiliza un módulo de atención de canal para asignar diferentes importancias a los canales de características en una red convolucional. Este modelo ha demostrado ser eficaz en tareas de clasificación y segmentación, particularmente en la mejora de la detección de características sutiles, como pequeñas arrugas o manchas. \parencite{autor2022cnn}
+    \item \textbf{Transformer:} 
+    
+	El modelo Transformer, originalmente propuesto por  \cite{autor2022transformer}, revolucionó el procesamiento de secuencias al introducir el mecanismo de autoatención (\textit{self-attention}) como núcleo de su arquitectura, eliminando la necesidad de componentes recurrentes (RNNs). Aunque inicialmente fue diseñado para tareas de lenguaje natural, su estructura ha sido adaptada exitosamente para procesamiento de imágenes, especialmente en tareas como segmentación semántica y segmentación de instancias.
+
+\paragraph{Arquitectura General:}
+
+La arquitectura del Transformer clásico, como podemos ver en la Figura \ref{2:figarqtrans}, consiste principalmente en:
+\begin{itemize}[label=$\bullet$, leftmargin=1em]
+    \item Codificador (Encoder): Transforma las entradas en una representación abstracta (\textit{embedding}).
+    \item Decodificador (Decoder): Genera la salida basada en la representación interna y la atención.
+\end{itemize}
+Para imágenes, la variante más usada es Vision Transformer (ViT), donde:
+\begin{itemize}[label=$\bullet$, leftmargin=1em]
+    \item Una imagen $\mathbf{X} \in \mathbb{R}^{H \times W \times C}$ se divide en pequeños \textit{patches} (sub-imágenes) de tamaño fijo $P \times P$.
+    \item Cada \textit{patch} se aplana y se transforma en un vector, formando una secuencia de vectores de entrada similar a las palabras en NLP.
+    \item Se añade un \textit{embedding} posicional para retener la información espacial perdida al aplanar los \textit{patches}.
+\end{itemize}
+El proceso se puede representar así:
+\begin{equation}\label{eq:input_sequence_transformer}
+    \text{Input Sequence} = \left\{ x_p^1 + E_{\text{pos}}^1, x_p^2 + E_{\text{pos}}^2, \ldots, x_p^N + E_{\text{pos}}^N \right\}
+\end{equation}
+\myequations{Secuencia de entrada del Transformer para imágenes}
+donde $x_p^i$ es el \textit{embedding} del $i$-ésimo \textit{patch} y $E_{\text{pos}}^i$ es su \textit{embedding} posicional.
+
+
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.45\textwidth]{2/figures/transformers_arquitectura.png}
+			\caption[Arquitectura de Transformer]{Arquitectura de Transformer.\\
+			Fuente: \cite{autor2022transformer}. \citetitle{autor2022transformer}.}
+			\label{2:figarqtrans}
+		\end{center}
+	\end{figure}
+	
+	\item \textbf{SENet:} 
+	
+	SENet, propuesto por \cite{autor2022cnn}, introdujo una estrategia novedosa en las redes convolucionales tradicionales: el módulo de atención de canal llamado Squeeze-and-Excitation (SE) block.
+
+Este módulo no modifica la estructura espacial de las imágenes, sino que aprende a recalibrar dinámicamente la importancia de cada canal de características, ayudando al modelo a enfocarse en los aspectos más relevantes de la representación.
+Esta recalibración de canales resulta especialmente útil en tareas de clasificación y segmentación fina, donde detectar características sutiles —como arrugas o manchas faciales— requiere que el modelo preste especial atención a ciertos patrones de textura o color.
+
+\paragraph{Arquitectura del Módulo SE:}
+
+El SE Block se inserta dentro de una red convolucional estándar (por ejemplo, ResNet) y consta de tres etapas principales, como podemos ver en la Figura \ref{2:figarqsenet},:
+
+\textbf{Squeeze (Compresión espacial):}
+Reduce cada canal a un único valor mediante una operación de agregación global, usualmente Global Average Pooling (GAP). Esto produce un descriptor de canal que resume la información global de cada mapa de características.
+Fórmula:
+\begin{equation}\label{eq:squeeze}
+    z_c = \frac{1}{H \times W} \sum_{i=1}^{H} \sum_{j=1}^{W} F_c(i,j)
+\end{equation}
+\myequations{Operación Squeeze}
+donde:
+\begin{itemize}[label=$\bullet$, leftmargin=1em]
+    \item $F_c(i,j)$ es el valor del píxel en la posición $(i,j)$ del canal $c$,
+    \item $z_c$ es el valor comprimido del canal $c$.
+\end{itemize}
+
+\textbf{Excitation (Recalibración de canales):}
+Aprende una relación no lineal entre canales usando una pequeña red neuronal (MLP de dos capas) con activaciones ReLU y sigmoide para generar pesos entre 0 y 1 para cada canal.
+Fórmula:
+\begin{equation}\label{eq:excitation}
+    s = \sigma(W_2 \cdot \delta(W_1 \cdot z))
+\end{equation}
+\myequations{Operación Excitation}
+donde:
+\begin{itemize}[label=$\bullet$, leftmargin=1em]
+    \item $z$ es el vector comprimido,
+    \item $W_1$ y $W_2$ son matrices de pesos aprendibles,
+    \item $\delta$ es la función ReLU,
+    \item $\sigma$ es la función sigmoide.
+\end{itemize}
+
+\textbf{Scale (Reescalado):}
+Los pesos aprendidos $s$ son usados para escalar los canales originales del mapa de características:
+\begin{equation}\label{eq:scale}
+    \tilde{F}_c = s_c \times F_c
+\end{equation}
+\myequations{Operación Scale}
+donde $\tilde{F}_c$ es el canal recalibrado.
+
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.65\textwidth]{2/figures/senet.png}
+			\caption[Arquitectura de SENet]{Arquitectura de SENet.\\
+			Fuente: \cite{autor2022cnn}. \citetitle{autor2022cnn}.}
+			\label{2:figarqsenet}
+		\end{center}
+	\end{figure}
+
 \end{itemize}
 
 
