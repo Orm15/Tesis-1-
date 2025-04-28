@@ -82,8 +82,49 @@ La creación de un Modelo de Segmentación Avanzada de Características Morfoló
 \subsubsection{Adquisición de los Datos}
 
 En esta sección se describe el procedimiento utilizado para obtener el conjunto de datos empleado en este estudio. A continuación, se presenta una tabla que resume las tareas y actividades realizadas durante esta fase de adquisición. El primer paso fue la recopilación de datos. Los detalles sobre las actividades y tareas se encuentran en la Tabla \ref{tabla:actividades}.
-
-Modelo ensamblado conceptualmente, listo para su implementación en entorno de desarrollo.
+ 
+ \begin{longtable}{>{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{5cm}}
+     \caption{Tabla de la Adquisición de Datos.}
+     \label{tabla:actividades}\\
+     \hline
+     \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}\\
+     \hline
+     \endfirsthead
+ 
+     \multicolumn{3}{c}%
+     {{\bfseries \tablename\ \thetable{} -- continuación de la página anterior}} \\
+     \hline
+     \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}\\
+     \hline
+     \endhead
+ 
+     \hline
+     \multicolumn{3}{r}{{Continúa en la siguiente página}} \\
+     \endfoot
+ 
+     \hline
+     \endlastfoot
+ 
+     Identificación de la data que contengan imágenes de rostros con características morfológicas faciales. & Identificación de la data que contengan imágenes de rostros con características morfológicas faciales relevantes para la investigación. & 
+     \begin{itemize}
+         \item Analizar y identificar bases de datos con rostros con características morfológicas faciales.
+         \item Confirmar que la base de datos esté disponible públicamente y sea pertinente para el estudio.
+         \item Descargar los datos desde el repositorio apropiado.
+     \end{itemize} \\
+ \end{longtable}
+ 
+ 
+ \begin{flushleft}
+     \small Fuente: Elaboración propia.
+ \end{flushleft}
+ 
+ Enseguida, se proporciona un detalle de la actividad mencionada en la tabla anterior, junto con los resultados que se esperan obtener.
+ 
+ \textbf{Actividad 1: Identificación de la data que contengan imágenes de rostros con características morfológicas faciales de proporciones similares}
+ \\
+ Esta actividad explica la identificación de la data. Para la data, se obtuvieron más de ochenta mil imágenes de rostros faciales de las diferentes datas encontradas en repositorios públicos. Las imágenes de rostros faciales se encuentran en la base de datos. 
+ 
+ \textbf{Entregable}: Dataset que contiene imágenes de rostros faciales con características morfológicas, tales como arrugas y manchas.
 
 \subsubsection{Preprocesamiento de los Datos}
 Se realizará el preprocesamiento de las imágenes del conjunto en esta etapa. La tabla \ref{tabla:preprocesamiento} incluye las tareas y actividades necesarias para completar la etapa de preprocesamiento:
@@ -147,7 +188,7 @@ Por otro lado, la actividad de Representación se encarga de convertir los datos
 
 \begin{figure}[h]
      \begin{center}
-         \includegraphics[width=0.53\textwidth]{3/figures/Diagrama de preprocesamiento.png}
+         \includegraphics[width=0.5\textwidth]{3/figures/Diagrama de preprocesamiento.png}
          \caption[Diagrama de Preprocesamiento de los Datos]{Diagrama de Preprocesamiento de los Datos.\\
          Fuente: Elaboración propia}
          \label{3:fig4}
@@ -230,7 +271,7 @@ Para U-Net, esto implica establecer correctamente las conexiones tipo “skip”
  
  \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=0.53\textwidth]{3/figures/Diagrama de Desarrollo.png}
+        \includegraphics[width=0.5\textwidth]{3/figures/Diagrama de Desarrollo.png}
         \caption[Diagrama del Desarrollo de los Modelos de Segmentación]{Diagrama del Desarrollo de los Modelos de Segmentación.\\
         Fuente: Elaboración propia}
         \label{3:fig5}

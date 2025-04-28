@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.1)  25 APR 2025 16:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.1)  27 APR 2025 20:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1194,6 +1194,9 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported  on input line 13.
 
 
+LaTeX Warning: Label `2:fig8' multiply defined.
+
+
 LaTeX Warning: Label `3:fig7' multiply defined.
 
 )
@@ -1331,7 +1334,7 @@ Package newfloat Info: `float' package detected.
 \c@equdepth=\count546
 \cftbeforeequtitleskip=\skip167
 \cftafterequtitleskip=\skip168
-<images_repo/esanlogomin.png, id=367, 100.6962pt x 100.2144pt>
+<images_repo/esanlogomin.png, id=391, 100.6962pt x 100.2144pt>
 File: images_repo/esanlogomin.png Graphic file (type png)
 <use images_repo/esanlogomin.png>
 Package pdftex.def Info: images_repo/esanlogomin.png  used on input line 313.
@@ -1452,10 +1455,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-)
-\tf@lof=\write7
-\openout7 = `tesis.lof'.
-
 
 
 
@@ -1468,7 +1467,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [8
 
 
-] (tesis.lot
+])
+\tf@lof=\write7
+\openout7 = `tesis.lof'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9] (tesis.lot
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1485,7 +1497,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9
+[10
 
 
 ] (tesis.equ)
@@ -1501,7 +1513,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10
+[11
 
 
 ] (tesis.loa)
@@ -1517,7 +1529,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11
+[12
 
 
 ] (0/resumen.tex
@@ -1560,12 +1572,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ] (1/planteamiento.tex
 Cap\'{\i }tulo I.
-<1/figures/GlobalSkinCareProductsMarket.jpg, id=596, 803.25093pt x 401.24907pt>
+<1/figures/GlobalSkinCareProductsMarket.jpg, id=651, 803.25093pt x 401.24907pt>
 File: 1/figures/GlobalSkinCareProductsMarket.jpg Graphic file (type jpg)
 <use 1/figures/GlobalSkinCareProductsMarket.jpg>
 Package pdftex.def Info: 1/figures/GlobalSkinCareProductsMarket.jpg  used on input line 8.
 (pdftex.def)             Requested size: 452.96826pt x 226.27756pt.
-<1/figures/cap1global.png, id=600, 567.62062pt x 421.575pt>
+<1/figures/cap1global.png, id=655, 567.62062pt x 421.575pt>
 File: 1/figures/cap1global.png Graphic file (type png)
 <use 1/figures/cap1global.png>
 Package pdftex.def Info: 1/figures/cap1global.png  used on input line 19.
@@ -1583,7 +1595,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
  <./1/figures/GlobalSkinCareProductsMarket.jpg>]
-<1/figures/cap1usa.png, id=613, 567.62062pt x 421.575pt>
+<1/figures/cap1usa.png, id=668, 567.62062pt x 421.575pt>
 File: 1/figures/cap1usa.png Graphic file (type png)
 <use 1/figures/cap1usa.png>
 Package pdftex.def Info: 1/figures/cap1usa.png  used on input line 32.
@@ -1598,7 +1610,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [5 <./1/figures/cap1global.png (PNG copy)>]
-<1/figures/careperu.jpg, id=625, 762.85pt x 364.36125pt>
+<1/figures/careperu.jpg, id=680, 762.85pt x 364.36125pt>
 File: 1/figures/careperu.jpg Graphic file (type jpg)
 <use 1/figures/careperu.jpg>
 Package pdftex.def Info: 1/figures/careperu.jpg  used on input line 45.
@@ -1631,7 +1643,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [8]
-Overfull \hbox (6.00307pt too wide) in paragraph at lines 135--136
+Overfull \hbox (6.00307pt too wide) in paragraph at lines 123--124
 \OT1/ptm/m/n/12 log[]^^Pa compu-tacio-nal res-pon-de a una cre-cien-te ne-ce-si-dad de au-to-ma-ti-za-ci[]on y pre-ci-si[]on diagn[]osti-
  []
 
@@ -1703,16 +1715,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [14
 
 ]
-<2/figures/resant1.png, id=690, 347.04657pt x 359.84438pt>
-File: 2/figures/resant1.png Graphic file (type png)
-<use 2/figures/resant1.png>
-Package pdftex.def Info: 2/figures/resant1.png  used on input line 41.
-(pdftex.def)             Requested size: 452.96826pt x 469.68646pt.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\citetitle' on input line 52.
-
+<2/figures/mapsant1.png, id=747, 536.75531pt x 342.5297pt>
+File: 2/figures/mapsant1.png Graphic file (type png)
+<use 2/figures/mapsant1.png>
+Package pdftex.def Info: 2/figures/mapsant1.png  used on input line 23.
+(pdftex.def)             Requested size: 339.7262pt x 216.79312pt.
 
 
 
@@ -1722,39 +1729,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[15]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[16 <./2/figures/resant1.png>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 64.
+[15 <./2/figures/mapsant1.png>]
+<2/figures/metoant1.png, id=758, 828.09375pt x 232.61906pt>
+File: 2/figures/metoant1.png Graphic file (type png)
+<use 2/figures/metoant1.png>
+Package pdftex.def Info: 2/figures/metoant1.png  used on input line 47.
+(pdftex.def)             Requested size: 339.7262pt x 95.43477pt.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 55.
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<2/figures/resultados de cuarto anteedente.png, id=705, 358.33875pt x 181.8795pt>
-File: 2/figures/resultados de cuarto anteedente.png Graphic file (type png)
-<use 2/figures/resultados de cuarto anteedente.png>
-Package pdftex.def Info: 2/figures/resultados de cuarto anteedente.png  used on input line 71.
-(pdftex.def)             Requested size: 452.96826pt x 229.92424pt.
-<2/figures/resant2.png, id=708, 383.18156pt x 276.28218pt>
-File: 2/figures/resant2.png Graphic file (type png)
-<use 2/figures/resant2.png>
-Package pdftex.def Info: 2/figures/resant2.png  used on input line 83.
-(pdftex.def)             Requested size: 452.96826pt x 326.6172pt.
-
-Overfull \hbox (19.35707pt too wide) in paragraph at lines 93--93
-|[][]  \OT1/ptm/b/n/14.4 Fa-cial Wrin-kle De-tec-tion Ba-sed on Dee-pLabV3+ and Semi-Automatic
- []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\citetitle' on input line 93.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
+[16 <./2/figures/metoant1.png>]
+<2/figures/resant1.png, id=770, 347.04657pt x 359.84438pt>
+File: 2/figures/resant1.png Graphic file (type png)
+<use 2/figures/resant1.png>
+Package pdftex.def Info: 2/figures/resant1.png  used on input line 89.
+(pdftex.def)             Requested size: 339.7262pt x 352.2662pt.
 
 
 
@@ -1765,15 +1763,121 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [17]
-<2/figures/Meto1.png, id=718, 574.39594pt x 339.51843pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\citetitle' on input line 100.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[18 <./2/figures/resant1.png>]
+<2/figures/estant2.png, id=784, 531.48563pt x 426.09187pt>
+File: 2/figures/estant2.png Graphic file (type png)
+<use 2/figures/estant2.png>
+Package pdftex.def Info: 2/figures/estant2.png  used on input line 113.
+(pdftex.def)             Requested size: 339.7262pt x 272.36627pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[19]
+<2/figures/ant2srgan.png, id=793, 515.67656pt x 176.15813pt>
+File: 2/figures/ant2srgan.png Graphic file (type png)
+<use 2/figures/ant2srgan.png>
+Package pdftex.def Info: 2/figures/ant2srgan.png  used on input line 122.
+(pdftex.def)             Requested size: 339.7262pt x 116.05505pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[20 <./2/figures/estant2.png> <./2/figures/ant2srgan.png>]
+Overfull \hbox (23.31964pt too wide) in paragraph at lines 130--131
+[]\OT1/ptm/b/n/12 Mecanismos de lim-pie-za de pre-dic-cio-nes: \OT1/ptm/m/n/12 Se di-se[]nan pro-ce-di-mien-tos de post-procesamiento
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[21]
+<2/figures/metoant2.png, id=808, 862.72313pt x 361.35pt>
+File: 2/figures/metoant2.png Graphic file (type png)
+<use 2/figures/metoant2.png>
+Package pdftex.def Info: 2/figures/metoant2.png  used on input line 188.
+(pdftex.def)             Requested size: 339.7262pt x 142.29333pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[22]
+<2/figures/resultados de cuarto anteedente.png, id=817, 358.33875pt x 181.8795pt>
+File: 2/figures/resultados de cuarto anteedente.png Graphic file (type png)
+<use 2/figures/resultados de cuarto anteedente.png>
+Package pdftex.def Info: 2/figures/resultados de cuarto anteedente.png  used on input line 210.
+(pdftex.def)             Requested size: 339.7262pt x 172.44318pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[23 <./2/figures/metoant2.png>]
+Overfull \hbox (19.35707pt too wide) in paragraph at lines 223--223
+|[][]  \OT1/ptm/b/n/14.4 Fa-cial Wrin-kle De-tec-tion Ba-sed on Dee-pLabV3+ and Semi-Automatic
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\citetitle' on input line 223.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[24 <./2/figures/resultados de cuarto anteedente.png>]
+<2/figures/Meto1.png, id=833, 574.39594pt x 339.51843pt>
 File: 2/figures/Meto1.png Graphic file (type png)
 <use 2/figures/Meto1.png>
-Package pdftex.def Info: 2/figures/Meto1.png  used on input line 103.
+Package pdftex.def Info: 2/figures/Meto1.png  used on input line 241.
 (pdftex.def)             Requested size: 452.96826pt x 267.75035pt.
-<2/figures/Meto2.png, id=720, 651.93562pt x 194.97844pt>
+<2/figures/Meto2.png, id=836, 651.93562pt x 194.97844pt>
 File: 2/figures/Meto2.png Graphic file (type png)
 <use 2/figures/Meto2.png>
-Package pdftex.def Info: 2/figures/Meto2.png  used on input line 113.
+Package pdftex.def Info: 2/figures/Meto2.png  used on input line 253.
 (pdftex.def)             Requested size: 362.37598pt x 108.3809pt.
 
 
@@ -1784,136 +1888,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[18 <./2/figures/resultados de cuarto anteedente.png>]
+[25 <./2/figures/Meto1.png>]
+Overfull \hbox (1.74368pt too wide) in paragraph at lines 278--279
+[]\OT1/ptm/b/n/12 Origen: \OT1/ptm/m/n/12 300 im[]age-nes fa-cia-les de al-ta re-so-lu-ci[]on ($\OT1/ztmcm/m/n/12 1024 \OMS/ztmcm/m/n/12 ^^B \OT1/ztmcm/m/n/12 1024$ \OT1/ptm/m/n/12 px) del \OT1/ptm/m/it/12 da-ta-set \OT1/ptm/m/n/12 Flickr-
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[26 <./2/figures/Meto2.png>]
+Overfull \hbox (2.54593pt too wide) in paragraph at lines 290--291
+[]\OT1/ptm/b/n/12 Divisi[]on de da-tos: \OT1/ptm/m/n/12 75$ $% en-tre-na-mien-to (225 im[]age-nes), 8.3$ $% va-li-da-ci[]on (25), 16.6$ $%
+ []
+
+<2/figures/metoant3.png, id=853, 921.4425pt x 133.24782pt>
+File: 2/figures/metoant3.png Graphic file (type png)
+<use 2/figures/metoant3.png>
+Package pdftex.def Info: 2/figures/metoant3.png  used on input line 303.
+(pdftex.def)             Requested size: 339.7262pt x 49.12605pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[27 <./2/figures/metoant3.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\citetitle' on input line 135.
+(hyperref)                removing `\citetitle' on input line 356.
 
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[19 <./2/figures/resant2.png>]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[20 <./2/figures/Meto1.png> <./2/figures/Meto2.png>]
-<2/figures/flowchart.png, id=741, 553.31718pt x 280.04625pt>
-File: 2/figures/flowchart.png Graphic file (type png)
-<use 2/figures/flowchart.png>
-Package pdftex.def Info: 2/figures/flowchart.png  used on input line 145.
-(pdftex.def)             Requested size: 362.37598pt x 183.40384pt.
-<2/figures/segmentation1.png, id=744, 472.76625pt x 291.33844pt>
-File: 2/figures/segmentation1.png Graphic file (type png)
-<use 2/figures/segmentation1.png>
-Package pdftex.def Info: 2/figures/segmentation1.png  used on input line 157.
-(pdftex.def)             Requested size: 362.37598pt x 223.31772pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[21 <./2/figures/flowchart.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\citetitle' on input line 174.
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[22 <./2/figures/segmentation1.png>]
-<2/figures/softres1.png, id=761, 618.05907pt x 271.76532pt>
-File: 2/figures/softres1.png Graphic file (type png)
-<use 2/figures/softres1.png>
-Package pdftex.def Info: 2/figures/softres1.png  used on input line 193.
-(pdftex.def)             Requested size: 452.96826pt x 199.17906pt.
-<2/figures/softres2.png, id=763, 611.28375pt x 243.15843pt>
-File: 2/figures/softres2.png Graphic file (type png)
-<use 2/figures/softres2.png>
-Package pdftex.def Info: 2/figures/softres2.png  used on input line 202.
-(pdftex.def)             Requested size: 452.96826pt x 180.18301pt.
-<2/figures/softres3.png, id=765, 634.62094pt x 324.46219pt>
-File: 2/figures/softres3.png Graphic file (type png)
-<use 2/figures/softres3.png>
-Package pdftex.def Info: 2/figures/softres3.png  used on input line 211.
-(pdftex.def)             Requested size: 452.96826pt x 231.59756pt.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\citetitle' on input line 222.
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[23]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[24 <./2/figures/softres1.png> <./2/figures/softres2.png>]
-<2/figures/metoart9.png, id=780, 351.56343pt x 309.40594pt>
-File: 2/figures/metoart9.png Graphic file (type png)
-<use 2/figures/metoart9.png>
-Package pdftex.def Info: 2/figures/metoart9.png  used on input line 235.
-(pdftex.def)             Requested size: 452.96826pt x 398.64905pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[25 <./2/figures/softres3.png>]) (2/2_teoria/base_teo.tex
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[26 <./2/figures/metoart9.png>]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[27]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1923,11 +1936,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [28]
-<2/figures/kmeans.png, id=817, 563.10374pt x 284.06125pt>
-File: 2/figures/kmeans.png Graphic file (type png)
-<use 2/figures/kmeans.png>
-Package pdftex.def Info: 2/figures/kmeans.png  used on input line 33.
-(pdftex.def)             Requested size: 339.7262pt x 171.37862pt.
+<2/figures/tecsart4.png, id=868, 405.76593pt x 158.09062pt>
+File: 2/figures/tecsart4.png Graphic file (type png)
+<use 2/figures/tecsart4.png>
+Package pdftex.def Info: 2/figures/tecsart4.png  used on input line 390.
+(pdftex.def)             Requested size: 317.0764pt x 123.53934pt.
 
 
 
@@ -1937,12 +1950,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[29 <./2/figures/kmeans.png>]
-<2/figures/deeplearning_machinelearning.jpg, id=832, 502.2765pt x 519.74174pt>
-File: 2/figures/deeplearning_machinelearning.jpg Graphic file (type jpg)
-<use 2/figures/deeplearning_machinelearning.jpg>
-Package pdftex.def Info: 2/figures/deeplearning_machinelearning.jpg  used on input line 60.
-(pdftex.def)             Requested size: 226.48413pt x 234.35745pt.
+[29 <./2/figures/tecsart4.png>]
+Overfull \hbox (1.85345pt too wide) in paragraph at lines 412--413
+[]\OT1/ptm/m/n/12 Este di-se[]no re-cu-pe-ra in-for-ma-ci[]on es-pa-cial de al-ta re-so-lu-ci[]on per-di-da du-ran-te el \OT1/ptm/m/it/12 down-
+ []
+
+<2/figures/flowchart.png, id=879, 553.31718pt x 280.04625pt>
+File: 2/figures/flowchart.png Graphic file (type png)
+<use 2/figures/flowchart.png>
+Package pdftex.def Info: 2/figures/flowchart.png  used on input line 424.
+(pdftex.def)             Requested size: 362.37598pt x 183.40384pt.
+<2/figures/segmentation1.png, id=881, 472.76625pt x 291.33844pt>
+File: 2/figures/segmentation1.png Graphic file (type png)
+<use 2/figures/segmentation1.png>
+Package pdftex.def Info: 2/figures/segmentation1.png  used on input line 434.
+(pdftex.def)             Requested size: 317.0764pt x 195.40022pt.
 
 
 
@@ -1952,13 +1974,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[30 <./2/figures/deeplearning_machinelearning.jpg>]
-<2/figures/deeplearning_machinelearning2.jpg, id=842, 499.8675pt x 416.757pt>
-File: 2/figures/deeplearning_machinelearning2.jpg Graphic file (type jpg)
-<use 2/figures/deeplearning_machinelearning2.jpg>
-Package pdftex.def Info: 2/figures/deeplearning_machinelearning2.jpg  used on input line 71.
-(pdftex.def)             Requested size: 317.0764pt x 264.3643pt.
-
+[30 <./2/figures/flowchart.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1967,7 +1983,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[31 <./2/figures/deeplearning_machinelearning2.jpg>]
+[31 <./2/figures/segmentation1.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\citetitle' on input line 481.
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1986,7 +2007,166 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [33]
-<2/figures/cnn_nlp.png, id=867, 635.976pt x 269.20575pt>
+<2/figures/metoant5.png, id=912, 510.40688pt x 209.28188pt>
+File: 2/figures/metoant5.png Graphic file (type png)
+<use 2/figures/metoant5.png>
+Package pdftex.def Info: 2/figures/metoant5.png  used on input line 571.
+(pdftex.def)             Requested size: 339.7262pt x 139.3048pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[34 <./2/figures/metoant5.png>]
+<2/figures/softres1.png, id=924, 618.05907pt x 271.76532pt>
+File: 2/figures/softres1.png Graphic file (type png)
+<use 2/figures/softres1.png>
+Package pdftex.def Info: 2/figures/softres1.png  used on input line 621.
+(pdftex.def)             Requested size: 317.0764pt x 139.42369pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[35]
+<2/figures/softres2.png, id=930, 611.28375pt x 243.15843pt>
+File: 2/figures/softres2.png Graphic file (type png)
+<use 2/figures/softres2.png>
+Package pdftex.def Info: 2/figures/softres2.png  used on input line 630.
+(pdftex.def)             Requested size: 317.0764pt x 126.12773pt.
+<2/figures/softres3.png, id=932, 634.62094pt x 324.46219pt>
+File: 2/figures/softres3.png Graphic file (type png)
+<use 2/figures/softres3.png>
+Package pdftex.def Info: 2/figures/softres3.png  used on input line 639.
+(pdftex.def)             Requested size: 317.0764pt x 162.1168pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[36 <./2/figures/softres1.png> <./2/figures/softres2.png> <./2/figures/softres3.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\citetitle' on input line 650.
+
+<2/figures/metoart9.png, id=943, 351.56343pt x 309.40594pt>
+File: 2/figures/metoart9.png Graphic file (type png)
+<use 2/figures/metoart9.png>
+Package pdftex.def Info: 2/figures/metoart9.png  used on input line 663.
+(pdftex.def)             Requested size: 452.96826pt x 398.64905pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[37])
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[38 <./2/figures/metoart9.png>] (2/2_teoria/base_teo.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[39]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[40]
+<2/figures/kmeans.png, id=980, 563.10374pt x 284.06125pt>
+File: 2/figures/kmeans.png Graphic file (type png)
+<use 2/figures/kmeans.png>
+Package pdftex.def Info: 2/figures/kmeans.png  used on input line 33.
+(pdftex.def)             Requested size: 339.7262pt x 171.37862pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[41 <./2/figures/kmeans.png>]
+<2/figures/deeplearning_machinelearning.jpg, id=995, 502.2765pt x 519.74174pt>
+File: 2/figures/deeplearning_machinelearning.jpg Graphic file (type jpg)
+<use 2/figures/deeplearning_machinelearning.jpg>
+Package pdftex.def Info: 2/figures/deeplearning_machinelearning.jpg  used on input line 60.
+(pdftex.def)             Requested size: 226.48413pt x 234.35745pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[42 <./2/figures/deeplearning_machinelearning.jpg>]
+<2/figures/deeplearning_machinelearning2.jpg, id=1005, 499.8675pt x 416.757pt>
+File: 2/figures/deeplearning_machinelearning2.jpg Graphic file (type jpg)
+<use 2/figures/deeplearning_machinelearning2.jpg>
+Package pdftex.def Info: 2/figures/deeplearning_machinelearning2.jpg  used on input line 71.
+(pdftex.def)             Requested size: 317.0764pt x 264.3643pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[43 <./2/figures/deeplearning_machinelearning2.jpg>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[44]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[45]
+<2/figures/cnn_nlp.png, id=1030, 635.976pt x 269.20575pt>
 File: 2/figures/cnn_nlp.png Graphic file (type png)
 <use 2/figures/cnn_nlp.png>
 Package pdftex.def Info: 2/figures/cnn_nlp.png  used on input line 117.
@@ -2000,142 +2180,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[34]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[35 <./2/figures/cnn_nlp.png>]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[36]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[37]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[38]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[39]) (2/3_conceptos/marc_conceptual.tex
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[40]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[41]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[42]
-Overfull \hbox (1.10974pt too wide) in paragraph at lines 61--62
-[]\OT1/ptm/m/n/12 Para el de-sa-rro-llo del sis-te-ma de seg-men-ta-ci[]on de ca-rac-ter[]^^Psti-cas mor-fol[]ogi-cas en im[]age-
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[43] Excluding 'comment' comment.) (2/4_hipotesis/hipotesis.tex)) (3/metodologia.tex
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[44]
-Cap\'{\i }tulo III.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[45
-
-]
-Overfull \hbox (1.51541pt too wide) in paragraph at lines 31--31
- \OT1/ptm/m/n/12 S^^\rensen{Dice| 
- []
-
-
-Overfull \hbox (21.82304pt too wide) in alignment at lines 19--37
- [] [] [] [] 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
 [46]
-<3/figures/datapaper.png, id=997, 204.01219pt x 172.39406pt>
-File: 3/figures/datapaper.png Graphic file (type png)
-<use 3/figures/datapaper.png>
-Package pdftex.def Info: 3/figures/datapaper.png  used on input line 51.
-(pdftex.def)             Requested size: 339.7262pt x 287.08948pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2144,20 +2189,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[47]
-<3/figures/metodologia.png, id=1007, 5203.44pt x 2601.72pt>
-File: 3/figures/metodologia.png Graphic file (type png)
-<use 3/figures/metodologia.png>
-Package pdftex.def Info: 3/figures/metodologia.png  used on input line 74.
-(pdftex.def)             Requested size: 452.96826pt x 226.48279pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `tabla:actividades' on page 48 undefined on input line 84.
-
-
+[47 <./2/figures/cnn_nlp.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2166,97 +2198,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[48 <./3/figures/datapaper.png>]
-Overfull \hbox (9.82306pt too wide) in alignment at lines 93--99
- [] [] [] 
- []
-
-
-Overfull \hbox (9.82306pt too wide) in alignment at lines 99--104
- [] [] [] 
- []
-
-
-Overfull \hbox (9.82306pt too wide) in alignment at lines 104--107
- [] [] [] 
- []
-
-
-Overfull \hbox (9.82306pt too wide) in alignment at lines 107--110
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-[]|\OT1/ptm/m/n/12 Filtraci[]on de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\OT1/ptm/m/n/12 con ca-rac-ter[]^^Psti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-[]|\OT1/ptm/m/n/12 Eliminaci[]on de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\OT1/ptm/m/n/12 im[]age-nes con
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\OT1/ptm/m/n/12 ba-ja re-so-lu-ci[]on,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\OT1/ptm/m/n/12 ma-la ilu-mi-na-
- []
-
-
-Underfull \hbox (badness 7081) in paragraph at lines 112--112
-\OT1/ptm/m/n/12 ci[]on o sin las
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas
- []
-
-
-Underfull \hbox (badness 7832) in paragraph at lines 112--112
-\OT1/ptm/m/n/12 mor-fol[]ogi-cas de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-\OT1/ptm/m/n/12 in-ter[]es (arru-gas
- []
-
-
-Underfull \hbox (badness 3746) in paragraph at lines 112--112
-\OT1/ptm/m/n/12 me-jo-rar la ca-li-
- []
-
-
-Underfull \hbox (badness 2818) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 im[]age-nes a for-
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 pa-ra su an[]ali-sis
- []
-
-
-Overfull \hbox (9.82306pt too wide) in alignment at lines 110--128
- [] [] [] 
- []
-
-
+[48]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2265,7 +2207,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[49 <./3/figures/metodologia.png (PNG copy)>]
+[49]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2275,12 +2217,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [50]
-<3/figures/Diagrama de preprocesamiento.png, id=1024, 325.96782pt x 577.40718pt>
-File: 3/figures/Diagrama de preprocesamiento.png Graphic file (type png)
-<use 3/figures/Diagrama de preprocesamiento.png>
-Package pdftex.def Info: 3/figures/Diagrama de preprocesamiento.png  used on input line 150.
-(pdftex.def)             Requested size: 240.07262pt x 425.26584pt.
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2289,75 +2225,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[51 <./3/figures/Diagrama de preprocesamiento.png>]
-Overfull \hbox (38.2758pt too wide) in alignment at lines 164--170
- [] [] [] 
- []
-
-
-Overfull \hbox (38.2758pt too wide) in alignment at lines 170--175
- [] [] [] 
- []
-
-
-Overfull \hbox (38.2758pt too wide) in alignment at lines 175--178
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 182--183
-\OT1/ptm/m/n/12 men-ta-ci[]on pre-ci-sa de []areas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-[]\OT1/ptm/m/n/12 Evaluaci[]on del po-ten-cial
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 183--184
-\OT1/ptm/m/n/12 de Res-Net pa-ra re-pre-sen-tar
- []
-
-
-Underfull \hbox (badness 5133) in paragraph at lines 183--184
-\OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas pro-fun-das y
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 184--185
-[]\OT1/ptm/m/n/12 Consideraci[]on de ar-qui-tec-
- []
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 184--185
-\OT1/ptm/m/n/12 tu-ras h[]^^Pbri-das que in-te-gren
- []
-
-
-Underfull \hbox (badness 1642) in paragraph at lines 187--187
-[]|\OT1/ptm/m/n/12 Definici[]on de com-po-
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 190--191
-[]\OT1/ptm/m/n/12 Propuesta de blo-ques re-si-
- []
-
-
-Underfull \hbox (badness 2790) in paragraph at lines 197--198
-\OT1/ptm/m/n/12 for-ma-ci[]on pa-ra me-jo-rar la
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 198--199
-[]\OT1/ptm/m/n/12 Definici[]on de la es-truc-tu-ra
- []
-
-
-Overfull \hbox (38.2758pt too wide) in alignment at lines 178--201
- [] [] [] 
- []
+[51]) (2/3_conceptos/marc_conceptual.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2376,31 +2244,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [53]
-<3/figures/Diagrama de Desarrollo.png, id=1040, 338.76563pt x 577.40718pt>
-File: 3/figures/Diagrama de Desarrollo.png Graphic file (type png)
-<use 3/figures/Diagrama de Desarrollo.png>
-Package pdftex.def Info: 3/figures/Diagrama de Desarrollo.png  used on input line 233.
-(pdftex.def)             Requested size: 240.07262pt x 409.20427pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (38.2758pt too wide) in alignment at lines 246--252
- [] [] [] 
- []
-
-
-Overfull \hbox (38.2758pt too wide) in alignment at lines 252--255
- [] [] [] 
- []
-
-
-Overfull \hbox (38.2758pt too wide) in alignment at lines 255--281
- [] [] [] 
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2410,6 +2253,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [54]
+Overfull \hbox (1.10974pt too wide) in paragraph at lines 61--62
+[]\OT1/ptm/m/n/12 Para el de-sa-rro-llo del sis-te-ma de seg-men-ta-ci[]on de ca-rac-ter[]^^Psti-cas mor-fol[]ogi-cas en im[]age-
+ []
+
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 19.61925pt, for example:
@@ -2417,7 +2266,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[55 <./3/figures/Diagrama de Desarrollo.png>]
+[55] Excluding 'comment' comment.) (2/4_hipotesis/hipotesis.tex)) (3/metodologia.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2427,6 +2276,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [56]
+Cap\'{\i }tulo III.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2435,37 +2286,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[57]
-Overfull \hbox (38.2758pt too wide) in alignment at lines 312--318
- [] [] [] 
+[57
+
+]
+Overfull \hbox (1.51541pt too wide) in paragraph at lines 31--31
+ \OT1/ptm/m/n/12 S^^\rensen{Dice| 
  []
 
 
-Overfull \hbox (38.2758pt too wide) in alignment at lines 318--323
- [] [] [] 
+Overfull \hbox (21.82304pt too wide) in alignment at lines 19--37
+ [] [] [] [] 
  []
-
-
-Overfull \hbox (38.2758pt too wide) in alignment at lines 323--326
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 2990) in paragraph at lines 328--328
-[]|\OT1/ptm/m/n/12 Preparaci[]on de Da-tos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
-[]\OT1/ptm/m/n/12 Identificaci[]on de m[]etri-cas
- []
-
-
-Overfull \hbox (38.2758pt too wide) in alignment at lines 326--346
- [] [] [] 
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2475,29 +2306,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [58]
-Overfull \hbox (38.2758pt too wide) in alignment at lines 373--379
- [] [] [] 
- []
+<3/figures/datapaper.png, id=1158, 204.01219pt x 172.39406pt>
+File: 3/figures/datapaper.png Graphic file (type png)
+<use 3/figures/datapaper.png>
+Package pdftex.def Info: 3/figures/datapaper.png  used on input line 51.
+(pdftex.def)             Requested size: 339.7262pt x 287.08948pt.
 
 
-Overfull \hbox (38.2758pt too wide) in alignment at lines 379--384
- [] [] [] 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (38.2758pt too wide) in alignment at lines 384--387
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
-[]|\OT1/ptm/m/n/12 Preparaci[]on del En-
- []
-
-
-Overfull \hbox (38.2758pt too wide) in alignment at lines 387--402
- [] [] [] 
- []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2507,20 +2325,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [59]
-<3/figures/Prototipo de Despliegue.png, id=1071, 5203.44pt x 2601.72pt>
-File: 3/figures/Prototipo de Despliegue.png Graphic file (type png)
-<use 3/figures/Prototipo de Despliegue.png>
-Package pdftex.def Info: 3/figures/Prototipo de Despliegue.png  used on input line 419.
+<3/figures/metodologia.png, id=1168, 5203.44pt x 2601.72pt>
+File: 3/figures/metodologia.png Graphic file (type png)
+<use 3/figures/metodologia.png>
+Package pdftex.def Info: 3/figures/metodologia.png  used on input line 74.
 (pdftex.def)             Requested size: 452.96826pt x 226.48279pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<3/figures/matriz_confusion.png, id=1073, 598.235pt x 290.08376pt>
-File: 3/figures/matriz_confusion.png Graphic file (type png)
-<use 3/figures/matriz_confusion.png>
-Package pdftex.def Info: 3/figures/matriz_confusion.png  used on input line 434.
-(pdftex.def)             Requested size: 339.7262pt x 164.73419pt.
 
 
 
@@ -2530,7 +2343,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[60]
+[60 <./3/figures/datapaper.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2539,7 +2352,97 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[61 <./3/figures/Prototipo de Despliegue.png (PNG copy)> <./3/figures/matriz_confusion.png>]
+[61 <./3/figures/metodologia.png (PNG copy)>]
+Overfull \hbox (9.82306pt too wide) in alignment at lines 134--140
+ [] [] [] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 140--145
+ [] [] [] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 145--148
+ [] [] [] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 148--151
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]|\OT1/ptm/m/n/12 Filtraci[]on de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/ptm/m/n/12 con ca-rac-ter[]^^Psti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]|\OT1/ptm/m/n/12 Eliminaci[]on de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/ptm/m/n/12 im[]age-nes con
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/ptm/m/n/12 ba-ja re-so-lu-ci[]on,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/ptm/m/n/12 ma-la ilu-mi-na-
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 153--153
+\OT1/ptm/m/n/12 ci[]on o sin las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas
+ []
+
+
+Underfull \hbox (badness 7832) in paragraph at lines 153--153
+\OT1/ptm/m/n/12 mor-fol[]ogi-cas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+\OT1/ptm/m/n/12 in-ter[]es (arru-gas
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 153--153
+\OT1/ptm/m/n/12 me-jo-rar la ca-li-
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 161--161
+\OT1/ptm/m/n/12 im[]age-nes a for-
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 161--161
+\OT1/ptm/m/n/12 pa-ra su an[]ali-sis
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 151--169
+ [] [] [] 
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2558,6 +2461,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [63]
+<3/figures/Diagrama de preprocesamiento.png, id=1190, 325.96782pt x 577.40718pt>
+File: 3/figures/Diagrama de preprocesamiento.png Graphic file (type png)
+<use 3/figures/Diagrama de preprocesamiento.png>
+Package pdftex.def Info: 3/figures/Diagrama de preprocesamiento.png  used on input line 191.
+(pdftex.def)             Requested size: 226.48413pt x 401.19551pt.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2566,11 +2475,288 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[64]
-<3/figures/gant.png, id=1109, 1114.76476pt x 420.3705pt>
+[64 <./3/figures/Diagrama de preprocesamiento.png>]
+Overfull \hbox (38.2758pt too wide) in alignment at lines 205--211
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.2758pt too wide) in alignment at lines 211--216
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.2758pt too wide) in alignment at lines 216--219
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 223--224
+\OT1/ptm/m/n/12 men-ta-ci[]on pre-ci-sa de []areas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+[]\OT1/ptm/m/n/12 Evaluaci[]on del po-ten-cial
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 224--225
+\OT1/ptm/m/n/12 de Res-Net pa-ra re-pre-sen-tar
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 224--225
+\OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas pro-fun-das y
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 225--226
+[]\OT1/ptm/m/n/12 Consideraci[]on de ar-qui-tec-
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 225--226
+\OT1/ptm/m/n/12 tu-ras h[]^^Pbri-das que in-te-gren
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 228--228
+[]|\OT1/ptm/m/n/12 Definici[]on de com-po-
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 231--232
+[]\OT1/ptm/m/n/12 Propuesta de blo-ques re-si-
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 238--239
+\OT1/ptm/m/n/12 for-ma-ci[]on pa-ra me-jo-rar la
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 239--240
+[]\OT1/ptm/m/n/12 Definici[]on de la es-truc-tu-ra
+ []
+
+
+Overfull \hbox (38.2758pt too wide) in alignment at lines 219--242
+ [] [] [] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[65]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[66]
+<3/figures/Diagrama de Desarrollo.png, id=1206, 338.76563pt x 577.40718pt>
+File: 3/figures/Diagrama de Desarrollo.png Graphic file (type png)
+<use 3/figures/Diagrama de Desarrollo.png>
+Package pdftex.def Info: 3/figures/Diagrama de Desarrollo.png  used on input line 274.
+(pdftex.def)             Requested size: 226.48413pt x 386.04143pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (38.2758pt too wide) in alignment at lines 287--293
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.2758pt too wide) in alignment at lines 293--296
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.2758pt too wide) in alignment at lines 296--322
+ [] [] [] 
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[67]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[68 <./3/figures/Diagrama de Desarrollo.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[69]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[70]
+Overfull \hbox (38.2758pt too wide) in alignment at lines 353--359
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.2758pt too wide) in alignment at lines 359--364
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.2758pt too wide) in alignment at lines 364--367
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 369--369
+[]|\OT1/ptm/m/n/12 Preparaci[]on de Da-tos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
+[]\OT1/ptm/m/n/12 Identificaci[]on de m[]etri-cas
+ []
+
+
+Overfull \hbox (38.2758pt too wide) in alignment at lines 367--387
+ [] [] [] 
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[71]
+Overfull \hbox (38.2758pt too wide) in alignment at lines 414--420
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.2758pt too wide) in alignment at lines 420--425
+ [] [] [] 
+ []
+
+
+Overfull \hbox (38.2758pt too wide) in alignment at lines 425--428
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
+[]|\OT1/ptm/m/n/12 Preparaci[]on del En-
+ []
+
+
+Overfull \hbox (38.2758pt too wide) in alignment at lines 428--443
+ [] [] [] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[72]
+<3/figures/Prototipo de Despliegue.png, id=1237, 5203.44pt x 2601.72pt>
+File: 3/figures/Prototipo de Despliegue.png Graphic file (type png)
+<use 3/figures/Prototipo de Despliegue.png>
+Package pdftex.def Info: 3/figures/Prototipo de Despliegue.png  used on input line 460.
+(pdftex.def)             Requested size: 452.96826pt x 226.48279pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<3/figures/matriz_confusion.png, id=1239, 598.235pt x 290.08376pt>
+File: 3/figures/matriz_confusion.png Graphic file (type png)
+<use 3/figures/matriz_confusion.png>
+Package pdftex.def Info: 3/figures/matriz_confusion.png  used on input line 475.
+(pdftex.def)             Requested size: 339.7262pt x 164.73419pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[73]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[74 <./3/figures/Prototipo de Despliegue.png (PNG copy)> <./3/figures/matriz_confusion.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[75]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[76]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 19.61925pt, for example:
+(fancyhdr)                \setlength{\headheight}{19.61925pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
+
+[77]
+<3/figures/gant.png, id=1274, 1114.76476pt x 420.3705pt>
 File: 3/figures/gant.png Graphic file (type png)
 <use 3/figures/gant.png>
-Package pdftex.def Info: 3/figures/gant.png  used on input line 526.
+Package pdftex.def Info: 3/figures/gant.png  used on input line 567.
 (pdftex.def)             Requested size: 679.4524pt x 256.21396pt.
 
 
@@ -2581,17 +2767,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[65
+[78
 
  <./3/figures/gant.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 547.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 588.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 547.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 588.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 547.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 588.
 
-Underfull \hbox (badness 1248) in paragraph at lines 552--552
+Underfull \hbox (badness 1248) in paragraph at lines 593--593
 []|\OT1/ptm/m/n/10.95 Port[]atil Le-no-vo Idea-pad S340-15IIL
  []
 
@@ -2604,7 +2790,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[66
+[79
 
 ]
 Cap\'{\i }tulo IV.
@@ -2617,7 +2803,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[67
+[80
 
 ]
 Cap\'{\i }tulo V.
@@ -2630,7 +2816,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[68
+[81
 
 ]
 
@@ -2641,7 +2827,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[69])
+[82])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2650,7 +2836,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[70]
+[83]
 Overfull \hbox (1.16269pt too wide) in paragraph at lines 410--410
 \OT1/ptm/m/it/12 cee-dings of the IEEE Con-fe-ren-ce on Com-pu-ter Vi-sion and Pat-tern Re-cog-ni-tion\OT1/ptm/m/n/12 , 1204[]1213.
  []
@@ -2669,7 +2855,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[71
+[84
 
 ]
 Overfull \hbox (5.112pt too wide) in paragraph at lines 410--410
@@ -2685,7 +2871,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[72]
+[85]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2694,7 +2880,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[73]
+[86]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2703,7 +2889,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[74]
+[87]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2712,7 +2898,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[75]
+[88]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2721,11 +2907,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[76
+[89
 
 
 ] (anexos/anexo.tex
-<anexos/arb_problemas.jpg, id=1234, 1027.58907pt x 544.28343pt>
+<anexos/arb_problemas.jpg, id=1399, 1027.58907pt x 544.28343pt>
 File: anexos/arb_problemas.jpg Graphic file (type jpg)
 <use anexos/arb_problemas.jpg>
 Package pdftex.def Info: anexos/arb_problemas.jpg  used on input line 18.
@@ -2739,11 +2925,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[77
+[90
 
 
  <./anexos/arb_problemas.jpg>]
-<anexos/arb_objetivos.jpg, id=1241, 1027.58907pt x 576.65437pt>
+<anexos/arb_objetivos.jpg, id=1406, 1027.58907pt x 576.65437pt>
 File: anexos/arb_objetivos.jpg Graphic file (type jpg)
 <use anexos/arb_objetivos.jpg>
 Package pdftex.def Info: anexos/arb_objetivos.jpg  used on input line 33.
@@ -2757,614 +2943,566 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[78
+[91
 
 
 
  <./anexos/arb_objetivos.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 []|\OT1/ptm/m/n/12 ?`De qu[]e ma-ne-ra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \OT1/ptm/m/n/12 pue-den las Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \OT1/ptm/m/n/12 des Neu-ro-na-les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \OT1/ptm/m/n/12 Con-vo-lu-cio-na-les
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 52--52
+Underfull \hbox (badness 7759) in paragraph at lines 51--51
 \OT1/ptm/m/n/12 seg-men-tar de for-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \OT1/ptm/m/n/12 ma efi-cien-te las
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 52--52
+Underfull \hbox (badness 2894) in paragraph at lines 51--51
 \OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas mor-
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 52--52
-\OT1/ptm/m/n/12 cas Fa-cia-les, en-fo-
- []
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 52--52
-\OT1/ptm/m/n/12 ca-do en la de-tec-
- []
-
-
-Underfull \hbox (badness 3302) in paragraph at lines 52--52
-\OT1/ptm/m/n/12 ci[]on de arru-gas y
- []
-
-
-Underfull \hbox (badness 7504) in paragraph at lines 52--52
-\OT1/ptm/m/n/12 man-chas, me-dian-te
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-\OT1/ptm/m/n/12 Sis-te-ma Avan-za-do
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-\OT1/ptm/m/n/12 de Seg-men-ta-ci[]on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \OT1/ptm/m/n/12 de Ca-rac-ter[]^^Psti-cas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \OT1/ptm/m/n/12 Mor-fol[]ogi-cas Fa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-\OT1/ptm/m/n/12 cia-les uti-li-zan-do
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+\OT1/ptm/m/n/12 cia-les, en-fo-ca-do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-\OT1/ptm/m/n/12 Re-des Neu-ro-na-les
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-\OT1/ptm/m/n/12 Con-vo-lu-cio-na-les
- []
-
-
-Underfull \hbox (badness 1484) in paragraph at lines 52--53
+Underfull \hbox (badness 1484) in paragraph at lines 51--51
 \OT1/ptm/m/n/12 en la de-tec-ci[]on de
  []
 
 
-Overfull \vbox (56.55014pt too high) detected at line 55
- []
-
-
-Overfull \vbox (75.40016pt too high) detected at line 58
- []
-
-
-Overfull \vbox (56.55011pt too high) detected at line 61
- []
-
-
-Overfull \vbox (188.50038pt too high) detected at line 69
- []
-
-
-Overfull \vbox (56.55011pt too high) detected at line 78
- []
-
-
-Underfull \hbox (badness 6236) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 ne-ce-sa-rios pa-ra el
- []
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 en-tre-na-mien-to y la
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 va-li-da-ci[]on del sis-
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 te-ma de seg-men-ta-
- []
-
-
-Underfull \hbox (badness 7133) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 ce-sar un con-jun-to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 re-pre-sen-ta-ti-vo de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 im[]age-nes fa-cia-les,
- []
-
-
-Underfull \hbox (badness 4686) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 que in-clu-ya di-ver-
- []
-
-
-Underfull \hbox (badness 4531) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 si-dad en ti-pos de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 piel y afec-cio-nes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 cut[]aneas, pa-ra su
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 uti-li-za-ci[]on en el
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 ver-so de im[]age-nes
- []
-
-
-Underfull \hbox (badness 7814) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 fa-cia-les, que con-
- []
-
-
-Underfull \hbox (badness 6608) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 tem-ple ca-rac-ter[]^^Psti-
- []
-
-
-Underfull \hbox (badness 5008) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 cia-les, co-mo arru-
- []
-
-
-Underfull \hbox (badness 7151) in paragraph at lines 82--82
-\OT1/ptm/m/n/12 men-tar con pre-ci-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-[]|\OT1/ptm/m/n/12 ?`Cu[]ales ser[]an las
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 eta-pas y m[]eto-dos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 ta-ci[]on ba-sa-do en
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
 \OT1/ptm/m/n/12 Re-des Neu-ro-na-les
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 86--86
-[]|\OT1/ptm/m/n/12 Dise[]nar, de-sa-rro-llar
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\OT1/ptm/m/n/12 Sis-te-ma Avan-za-do
  []
 
 
-Underfull \hbox (badness 8113) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 e im-ple-men-tar un
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\OT1/ptm/m/n/12 de Seg-men-ta-ci[]on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 ta-ci[]on ba-sa-do en
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\OT1/ptm/m/n/12 de Ca-rac-ter[]^^Psti-cas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\OT1/ptm/m/n/12 Mor-fol[]ogi-cas Fa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+\OT1/ptm/m/n/12 cia-les uti-li-zan-do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 \OT1/ptm/m/n/12 Re-des Neu-ro-na-les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 Con-vo-lu-cio-na-les,
- []
-
-
-Underfull \hbox (badness 2573) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 orien-ta-do a la de-
- []
-
-
-Underfull \hbox (badness 5403) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 tec-ci[]on pre-ci-sa de
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas mor-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 fol[]ogi-cas fa-cia-les,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 es-pec[]^^Pfi-ca-men-te
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 men-ta-ci[]on ba-sa-do
- []
-
-
-Underfull \hbox (badness 1902) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 di-fe-ren-cia-da de las
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas mor-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 fol[]ogi-cas fa-cia-les,
- []
-
-
-Underfull \hbox (badness 1043) in paragraph at lines 86--86
-\OT1/ptm/m/n/12 m[]eto-dos tra-di-cio-na-
- []
-
-
-Overfull \vbox (37.70009pt too high) detected at line 88
- []
-
-
-Overfull \vbox (75.40015pt too high) detected at line 90
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 93--93
-\OT1/ptm/m/n/12 ce-di-mien-tos se uti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
-[]|\OT1/ptm/m/n/12 Definir e im-ple-
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 93--93
-\OT1/ptm/m/n/12 men-tar m[]etri-cas de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
-\OT1/ptm/m/n/12 me-dir la efec-ti-vi-
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 93--93
-\OT1/ptm/m/n/12 seg-men-ta-ci[]on en la
- []
-
-
-Underfull \hbox (badness 7308) in paragraph at lines 93--94
-[]|\OT1/ptm/m/n/12 El uso de m[]etri-
- []
-
-
-Underfull \hbox (badness 8038) in paragraph at lines 93--94
-\OT1/ptm/m/n/12 cas de eva-lua-ci[]on
- []
-
-
-Underfull \hbox (badness 2495) in paragraph at lines 93--94
-\OT1/ptm/m/n/12 ci[]on ob-je-ti-va, con-
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 93--94
-\OT1/ptm/m/n/12 des-em-pe[]no del sis-
- []
-
-
-Underfull \hbox (badness 2005) in paragraph at lines 93--94
-\OT1/ptm/m/n/12 te-ma de seg-men-ta-
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 93--94
-\OT1/ptm/m/n/12 de arru-gas y man-
- []
-
-
-Overfull \vbox (75.40016pt too high) detected at line 96
- []
-
-
-Overfull \vbox (37.70007pt too high) detected at line 102
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-[]|\OT1/ptm/m/n/12 ?`Qu[]e cri-te-rios se
- []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 em-plear[]an pa-ra se-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 de seg-men-ta-ci[]on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 m[]as ade-cua-do en
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 la de-tec-ci[]on de
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas mor-
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 qui-tec-tu-ras de Re-
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 cas de apren-di-za-je
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 en la seg-men-ta-ci[]on
- []
-
-
-Underfull \hbox (badness 2799) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 tem[]ati-ca en-tre dis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 tin-tas ar-qui-tec-tu-ras
- []
-
-
-Underfull \hbox (badness 1043) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 in-clu-yen-do aque-llas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 aten-ci[]on, per-mi-tir[]a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 m[]as efi-cien-te en
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 t[]ermi-nos de pre-ci-
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 si[]on y ren-di-mien-to
- []
-
-
-Underfull \hbox (badness 2512) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 compu-tacio-nal pa-ra
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 la seg-men-ta-ci[]on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 de ca-rac-ter[]^^Psti-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-\OT1/ptm/m/n/12 cas mor-fol[]ogi-cas
- []
-
-
-Overfull \vbox (37.70007pt too high) detected at line 109
- []
-
-
-Overfull \vbox (75.40015pt too high) detected at line 116
- []
-
-
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 116--116
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-[]|\OT1/ptm/m/n/12 ?`C[]omo se im-ple-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 de seg-men-ta-ci[]on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 mor-fol[]ogi-ca fa-cial
- []
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 nes en tiem-po real
- []
-
-
-Underfull \hbox (badness 6110) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 a par-tir de vi-deo
- []
-
-
-Underfull \hbox (badness 2443) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 en vi-vo, uti-li-zan-do
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 mo-de-los de re-des
- []
-
-
-Underfull \hbox (badness 7081) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 cio-na-les in-te-gra-dos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-[]|\OT1/ptm/m/n/12 Implementar un
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 ta-ci[]on mor-fol[]ogi-ca
- []
-
-
-Underfull \hbox (badness 6252) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 ca-paz de pro-ce-sar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 Re-des Neu-ro-na-les
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 \OT1/ptm/m/n/12 Con-vo-lu-cio-na-les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 po-ten-cia-das con
+Underfull \hbox (badness 1484) in paragraph at lines 51--52
+\OT1/ptm/m/n/12 en la de-tec-ci[]on de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 me-ca-nis-mos de
+Overfull \vbox (56.55014pt too high) detected at line 54
  []
 
 
-Underfull \hbox (badness 4913) in paragraph at lines 120--120
-[]|\OT1/ptm/m/n/12 La im-ple-men-ta-ci[]on
+Overfull \vbox (75.40016pt too high) detected at line 57
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 de un sis-te-ma de
+Overfull \vbox (56.55011pt too high) detected at line 60
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 seg-men-ta-ci[]on de
+Overfull \vbox (188.50038pt too high) detected at line 68
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 120--120
+Overfull \vbox (56.55011pt too high) detected at line 77
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 ne-ce-sa-rios pa-ra el
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 en-tre-na-mien-to y la
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 va-li-da-ci[]on del sis-
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 te-ma de seg-men-ta-
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 ce-sar un con-jun-to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 re-pre-sen-ta-ti-vo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 im[]age-nes fa-cia-les,
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 que in-clu-ya di-ver-
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 si-dad en ti-pos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 piel y afec-cio-nes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 cut[]aneas, pa-ra su
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 uti-li-za-ci[]on en el
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 ver-so de im[]age-nes
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 fa-cia-les, que con-
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 tem-ple ca-rac-ter[]^^Psti-
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 cia-les, co-mo arru-
+ []
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 81--81
+\OT1/ptm/m/n/12 men-tar con pre-ci-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]|\OT1/ptm/m/n/12 ?`Cu[]ales ser[]an las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 eta-pas y m[]eto-dos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 ta-ci[]on ba-sa-do en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 Re-des Neu-ro-na-les
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 85--85
+[]|\OT1/ptm/m/n/12 Dise[]nar, de-sa-rro-llar
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 e im-ple-men-tar un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 ta-ci[]on ba-sa-do en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 Re-des Neu-ro-na-les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 Con-vo-lu-cio-na-les,
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 orien-ta-do a la de-
+ []
+
+
+Underfull \hbox (badness 5403) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 tec-ci[]on pre-ci-sa de
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 85--85
 \OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas mor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 fol[]ogi-cas fa-cia-les,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 es-pec[]^^Pfi-ca-men-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 men-ta-ci[]on ba-sa-do
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 di-fe-ren-cia-da de las
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 ca-rac-ter[]^^Psti-cas mor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 fol[]ogi-cas fa-cia-les,
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 85--85
+\OT1/ptm/m/n/12 m[]eto-dos tra-di-cio-na-
+ []
+
+
+Overfull \vbox (37.70009pt too high) detected at line 87
+ []
+
+
+Overfull \vbox (75.40015pt too high) detected at line 89
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\OT1/ptm/m/n/12 ?`Qu[]e m[]etri-cas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\OT1/ptm/m/n/12 pro-ce-di-mien-tos y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\OT1/ptm/m/n/12 cri-te-rios se em-
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 92--92
+\OT1/ptm/m/n/12 la efi-cien-cia y se-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\OT1/ptm/m/n/12 de seg-men-ta-ci[]on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\OT1/ptm/m/n/12 m[]as ade-cua-do en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\OT1/ptm/m/n/12 la de-tec-ci[]on de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\OT1/ptm/m/n/12 otras ca-rac-ter[]^^Psti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\OT1/ptm/m/n/12 cas mor-fol[]ogi-cas
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 92--92
+\OT1/ptm/m/n/12 ti-vi-dad del sis-te-ma
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 92--92
+\OT1/ptm/m/n/12 pe[]no de di-fe-ren-tes
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 92--92
+\OT1/ptm/m/n/12 cas de Apren-di-za-je
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 92--92
+\OT1/ptm/m/n/12 el me-jor equi-li-brio
+ []
+
+
+Underfull \hbox (badness 7308) in paragraph at lines 92--93
+[]|\OT1/ptm/m/n/12 El uso de m[]etri-
+ []
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 92--93
+\OT1/ptm/m/n/12 cas de eva-lua-ci[]on
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 92--93
+\OT1/ptm/m/n/12 ci[]on ob-je-ti-va, con-
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 92--93
+\OT1/ptm/m/n/12 des-em-pe[]no del sis-
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 92--93
+\OT1/ptm/m/n/12 te-ma de seg-men-ta-
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 92--93
+\OT1/ptm/m/n/12 de arru-gas y man-
+ []
+
+
+Overfull \vbox (75.40016pt too high) detected at line 95
+ []
+
+
+Overfull \vbox (37.70007pt too high) detected at line 101
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\OT1/ptm/m/n/12 ?`C[]omo se im-ple-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 de seg-men-ta-ci[]on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 mor-fol[]ogi-ca fa-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 en tiem-po real
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 uti-li-zan-do re-des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 neu-ro-na-les con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 vo-lu-cio-na-les con
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 me-ca-nis-mos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\OT1/ptm/m/n/12 Implementar un
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 ta-ci[]on mor-fol[]ogi-ca
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 fa-cial en tiem-po
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 real uti-li-zan-do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 Re-des Neu-ro-na-les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 Con-vo-lu-cio-na-les
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 aten-ci[]on, pa-ra de-
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 tem[]ati-ca en-tre dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 tin-tas ar-qui-tec-tu-ras
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 in-clu-yen-do aque-llas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 \OT1/ptm/m/n/12 aten-ci[]on, per-mi-tir[]a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 el pro-ce-sa-mien-to
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 m[]as efi-cien-te en
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 efi-caz de im[]age-nes
+Underfull \hbox (badness 3954) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 t[]ermi-nos de pre-ci-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-\OT1/ptm/m/n/12 la pre-ci-si[]on en
+Underfull \hbox (badness 1881) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 si[]on y ren-di-mien-to
  []
 
 
-Overfull \vbox (94.25018pt too high) detected at line 122
+Underfull \hbox (badness 2512) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 compu-tacio-nal pa-ra
  []
 
 
-Overfull \vbox (56.55011pt too high) detected at line 124
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 la seg-men-ta-ci[]on
  []
 
 
-Overfull \hbox (23.67973pt too wide) in alignment at lines 43--127
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 de ca-rac-ter[]^^Psti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\OT1/ptm/m/n/12 cas mor-fol[]ogi-cas
+ []
+
+
+Overfull \vbox (37.70007pt too high) detected at line 108
+ []
+
+
+Overfull \vbox (75.40015pt too high) detected at line 115
+ []
+
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 115--115
+[]|[]| 
+ []
+
+
+Overfull \hbox (23.67973pt too wide) in alignment at lines 43--118
  [] [] [] [] [] [] [] 
  []
 
@@ -3375,7 +3513,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[79
+[92
 
 
 
@@ -3387,7 +3525,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[80]
+[93]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 19.61925pt, for example:
@@ -3395,7 +3533,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[81]
+[94]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 19.61925pt, for example:
@@ -3403,15 +3541,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[82]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 19.61925pt, for example:
-(fancyhdr)                \setlength{\headheight}{19.61925pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
-
-[83]
+[95]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3420,7 +3550,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
-[84])
+[96])
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 76.
 See the caption package documentation for explanation.
@@ -3436,29 +3566,26 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 625586059A8767CAD0C94432226FFA93;20102.
+(rerunfilecheck)             Checksum: CA78714FC70D3CA9953FFCC0117610B2;21231.
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35652 strings out of 473523
- 686900 string characters out of 5715115
- 1643329 words of memory out of 5000000
- 57991 multiletter control sequences out of 15000+600000
- 599486 words of font info for 123 fonts, out of 8000000 for 9000
+ 35772 strings out of 473523
+ 689147 string characters out of 5715115
+ 1638199 words of memory out of 5000000
+ 58060 multiletter control sequences out of 15000+600000
+ 599655 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,117p,1403b,3868s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (95 pages, 12644454 bytes).
+<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on tesis.pdf (108 pages, 13248571 bytes).
 PDF statistics:
- 1380 PDF objects out of 1440 (max. 8388607)
- 298 named destinations out of 1000 (max. 500000)
- 874 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1562 PDF objects out of 1728 (max. 8388607)
+ 348 named destinations out of 1000 (max. 500000)
+ 957 words of extra memory for PDF output out of 10000 (max. 10000000)
 
