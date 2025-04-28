@@ -44,7 +44,7 @@ La metodología, como se puede ver en el diagrama creado en la Figura \ref{2:fig
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.75\textwidth]{2/figures/metoant1.png}
+		\includegraphics[width=1\textwidth]{2/figures/metoant1.png}
 		\caption[Metodología propuesta por el primer antecedente]{Metodología propuesta por el primer antecedente.\\
 			Fuente: Elaboración propia}
 		\label{2:figant1}
@@ -185,7 +185,7 @@ La metodología general del artículo se articula en cinco fases principales, re
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=0.75\textwidth]{2/figures/metoant2.png}
+		\includegraphics[width=1\textwidth]{2/figures/metoant2.png}
 		\caption[Metodología propuesta por el segundo antecedente]{Metodología propuesta por el segundo antecedente.\\
 			Fuente: Elaboración propia}
 		\label{2:figant2}
@@ -300,7 +300,7 @@ El flujo experimental, como se puede ver en el diagrama creado en la Figura \ref
 	
 	\begin{figure}[H]
 		\begin{center}
-			\includegraphics[width=0.75\textwidth]{2/figures/metoant3.png}
+			\includegraphics[width=1\textwidth]{2/figures/metoant3.png}
 			\caption[Metodología propuesta por el tercer antecedente]{Metodología propuesta por el tercer antecedente.\\
 				Fuente: Elaboración propia}
 			\label{2:figant3}
@@ -488,34 +488,24 @@ El software integra múltiples técnicas avanzadas de procesamiento de imágenes
 
 \begin{itemize}
     \item \textbf{Redes Neuronales Convolucionales Profundas (D-CNN)}
+    Estas redes, basadas en arquitecturas preentrenadas como VGGNet, son responsables de la detección de rostros, predicción de edad y género. Su estructura multicapa permite extraer patrones jerárquicos desde bordes simples hasta texturas complejas.
 	\begin{itemize}
-		\item \textbf{Función:} Estas redes, basadas en arquitecturas preentrenadas como VGGNet, son responsables de la detección de rostros, predicción de edad y género. Su estructura multicapa permite extraer patrones jerárquicos desde bordes simples hasta texturas complejas.
-		
-		\item \textbf{Implementación:}
-		\begin{itemize}
-			\item \textbf{Detección facial:} Se utilizan modelos como OpenCV o frameworks específicos para identificar y aislar regiones de interés (ROI) en imágenes.
-			\item \textbf{Predicción de edad y género:} Los ROI se redimensionan y procesan mediante capas convolucionales y de pooling, culminando en clasificadores softmax para rangos etarios (por ejemplo, 15-40 años) y género (hombre/mujer).
-		\end{itemize}
+		\item \textbf{Detección facial:} Se utilizan modelos como OpenCV o frameworks específicos para identificar y aislar regiones de interés (ROI) en imágenes.
+		\item \textbf{Predicción de edad y género:} Los ROI se redimensionan y procesan mediante capas convolucionales y de pooling, culminando en clasificadores softmax para rangos etarios (por ejemplo, 15-40 años) y género (hombre/mujer).
 	\end{itemize}
 	
 	\item \textbf{Clasificación de tono de piel con KMeans}
 	\begin{itemize}
-		\item \textbf{Proceso:}
-		\begin{itemize}
 			\item \textbf{Conversión RGB a HEX:} Normaliza los colores para un análisis estandarizado.
 			\item \textbf{Agrupamiento:} Mediante el algoritmo KMeans de \texttt{scikit-learn}, se identifican los colores dominantes en la imagen facial, asignándolos a clusters representativos.
 			\item \textbf{Visualización:} Se generan gráficos de torta para mostrar la distribución porcentual de tonos detectados.
-		\end{itemize}
 	\end{itemize}	
 
 	\item \textbf{Detección de arrugas con gradientes de Sobel}
 	\begin{itemize}
-		\item \textbf{Método:}
-		\begin{itemize}
 			\item Se aplican filtros de Sobel en los ejes X e Y para resaltar cambios abruptos de intensidad, característicos de las arrugas.
 			\item Se calculan magnitudes de gradientes y ratios para diferenciar entre piel lisa y texturizada.
 			\item Se emplea una umbralización adaptativa para generar mapas binarios de regiones con arrugas.
-		\end{itemize}
 	\end{itemize}	
 
 \end{itemize}
