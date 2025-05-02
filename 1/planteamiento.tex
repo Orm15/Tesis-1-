@@ -1,46 +1,53 @@
 \chapter{Planteamiento del Problema}
 \section{Descripción de la Realidad Problemática}
 
-La industria global de cuidado de la piel ha experimentado un crecimiento sostenido en los últimos años, como se puede ver en la Figura \ref{1:fig1}. En 2023, se estimó que el mercado mundial generó ingresos de aproximadamente 181.2 mil millones de dólares estadounidenses, con proyecciones que indican un aumento a más de 210 mil millones para 2028 . Este crecimiento refleja una tasa compuesta anual significativa, impulsada por la creciente conciencia sobre la importancia del cuidado de la piel y la demanda de productos innovadores. \parencite{databridge2024}
+El envejecimiento cutáneo no solo representa una preocupación estética, sino que también se vincula con múltiples problemas de salud pública global, como el estrés oxidativo inducido por contaminación, el envejecimiento prematuro y la detección tardía de enfermedades dermatológicas o neurodegenerativas.
 
-\begin{figure}[!ht]
+Según la Organización Mundial de la Salud (OMS), más del 90\% de la población mundial respira aire contaminado, como se ve en la Figura \ref{1:figairp}, lo que contribuye al envejecimiento prematuro de la piel por exposición a partículas finas (PM2.5), ozono troposférico y metales pesados \parencite{Ruri2020}. Esta exposición crónica altera la función de barrera de la piel, acelera la aparición de manchas hiperpigmentadas y arrugas, y aumenta la incidencia de enfermedades inflamatorias como dermatitis y psoriasis \parencite{ding2020airpollution}.
+
+\begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=1\textwidth]{1/figures/GlobalSkinCareProductsMarket.jpg}
-		\caption[Mercado mundial de productos para el cuidado de la piel: tendencias de la industria y pronóstico hasta 2031]{Mercado mundial de productos para el cuidado de la piel: tendencias de la industria y pronóstico hasta 2031.\\
-			Fuente: \cite{databridge2024}. \citetitle{databridge2024}.}
-		\label{1:fig1}
+		\includegraphics[width=0.5\textwidth]{1/figures/airpollution.png}
+		\caption[Mecanismo de daño a la piel relacionado con contaminantes]{Mecanismo de daño a la piel relacionado con contaminantes.\\
+			Fuente: \cite{Ruri2020}. \citetitle{Ruri2020}.}
+		\label{1:figairp}
 	\end{center}
 \end{figure}
 
-Dentro de este mercado, el segmento de cuidado facial representa la mayor proporción de ingresos, como se puede ver en la Figura \ref{1:fig2}alcanzando aproximadamente 108.94 mil millones de dólares en 2023 . Este segmento incluye productos como cremas hidratantes, sueros antiarrugas y tratamientos despigmentantes, dirigidos a abordar preocupaciones estéticas como arrugas dilatados y manchas faciales. \parencite{statista2023segment}
+En paralelo, se estima que cada año se diagnostican más de 1.5 millones de casos nuevos de cáncer de piel no melanoma en el mundo, como se ve en la Figura \ref{1:figcancer}, de los cuales una proporción significativa podría haberse detectado tempranamente mediante análisis visual automatizado \parencite{globalcancer2020}. Sin embargo, el acceso a dermatólogos sigue siendo desigual, con menos de 1 dermatólogo por cada 100,000 habitantes en muchas regiones de África, Asia y América Latina \parencite{who2020workforce}. Esto genera la necesidad urgente de herramientas tecnológicas que automaticen el análisis cutáneo y permitan realizar prediagnósticos a bajo costo y con alta precisión.
 
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=1\textwidth]{1/figures/cap1global.png}
-		\caption[Ingresos del mercado mundial del cuidado de la piel de 2020 a 2030 (en millones de dólares estadounidenses)]{Ingresos del mercado mundial del cuidado de la piel de 2020 a 2030 (en millones de dólares estadounidenses).\\
-			Fuente: \cite{statista2023global}. \citetitle{statista2023global}.}
-		\label{1:fig2}
+		\includegraphics[width=1\textwidth]{1/figures/cancerpiel.png}
+		\caption[Incidencia y mortalidad por No Melanoma en el mundo]{Incidencia y mortalidad por No Melanoma en el mundo.\\
+			Fuente: \cite{gco}. \citetitle{gco}.}
+		\label{1:figcancer}
 	\end{center}
 \end{figure}
 
-Estados Unidos se posiciona como el mercado más lucrativo en la industria del cuidado de la piel. En 2023, el mercado estadounidense generó ingresos cercanos a 24 mil millones de dólares, superando a otros países como Japón y China . Se proyecta que para 2025, los ingresos alcancen los 26.01 mil millones de dólares, con una tasa de crecimiento anual compuesta del 4.53\% entre 2025 y 2029. \parencite{statista2023us}
+Los avances recientes en inteligencia artificial, especialmente en redes neuronales convolucionales (CNN), han demostrado ser efectivos para analizar imágenes cutáneas. El trabajo de \cite{esteva2017} evidenció que una CNN entrenada con más de 129,000 imágenes alcanzó una precisión comparable a la de dermatólogos certificados en la clasificación de lesiones cutáneas, lo que valida su uso en contextos clínicos y no clínicos.
 
-El segmento de cuidado facial domina el mercado estadounidense, lo podemos ver en la Figura \ref{1:fig3}, representando la mayor parte de las ventas. En 2023, las ventas de productos para el cuidado de la piel en Estados Unidos superaron los 23.5 mil millones de dólares, con el segmento facial contribuyendo significativamente a esta cifra. \parencite{statista2025usforecast}
+En Estados Unidos, el envejecimiento cutáneo y los trastornos de la piel representan un desafío tanto sanitario como económico. Según la American Academy of Dermatology (AAD), alrededor del 50\% de los estadounidenses mayores de 40 años presenta signos visibles de envejecimiento cutáneo, como arrugas y manchas solares \parencite{aad2023aging}. Además, más de 7.5 millones de personas son diagnosticadas con enfermedades cutáneas graves cada año, muchas de las cuales podrían beneficiarse de un diagnóstico temprano asistido por IA.
 
-\begin{figure}[!ht]
+El impacto económico también es considerable. En 2023, el mercado del cuidado facial en Estados Unidos, como se ve en la Figura \ref{1:fig3}, generó más de 23.5 mil millones de dólares en ingresos, con una proyección de crecimiento constante hasta 2030 \parencite{statista2025usforecast}. Esta cifra refleja una preocupación creciente no solo por la apariencia, sino también por la salud de la piel. No obstante, gran parte de los tratamientos se basan en evaluaciones subjetivas, sin apoyo tecnológico para analizar objetivamente características morfológicas como manchas o arrugas.
+\begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=1\textwidth]{1/figures/cap1usa.png}
+		\includegraphics[width=0.75\textwidth]{1/figures/cap1usa.png}
 		\caption[Ingresos del mercado del cuidado de la piel en Estados Unidos de 2019 a 2030 (en millones de dólares estadounidenses)]{Ingresos del mercado del cuidado de la piel en Estados Unidos de 2019 a 2030 (en millones de dólares estadounidenses).\\
 			Fuente: \cite{statista2023us}. \citetitle{statista2023us}.}
 		\label{1:fig3}
 	\end{center}
 \end{figure}
 
-El mercado peruano de belleza y cuidado personal también ha mostrado un crecimiento notable. En 2023, se estimó que el mercado generó ingresos de aproximadamente 2.94 mil millones de dólares, con una tasa de crecimiento anual compuesta proyectada del 4.60\% . Dentro de este mercado, el segmento de cuidado personal, que incluye productos para el cuidado de la piel, representa una proporción significativa, con un volumen estimado de 1.72 mil millones de dólares en 2025. \parencite{statista2023peru}
+A nivel clínico, también se ha identificado una relación entre enfermedades neurológicas como el Parkinson y alteraciones visibles en la piel, incluyendo cambios en la elasticidad y textura cutánea. Un estudio reciente publicado en Journal of Clinical Neuroscience destaca que estas alteraciones pueden observarse antes de la aparición de síntomas motores clásicos \parencite{pan2021cutaneous}, abriendo una oportunidad para sistemas de detección precoz mediante segmentación de imágenes faciales.
 
-En el Perú, el mercado de belleza y cuidado personal ha mostrado un crecimiento sostenido, como se ve en la Infografía de la Figura \ref{1:fig4}, alcanzando los 2,240 millones de soles en ventas durante 2023, con proyecciones favorables para los próximos años, según datos proporcionados por la Cámara de Comercio de Lima (CCL). Este comportamiento refleja una creciente preocupación de los consumidores por el cuidado estético, especialmente en segmentos como el cuidado facial y productos anti-edad. \parencite{elperuano2025belleza}
+En el contexto peruano, las enfermedades dermatológicas también representan un reto creciente. Según la Dirección General de Epidemiología del Ministerio de Salud del Perú (MINSA), las enfermedades de la piel y del tejido subcutáneo figuran entre las 10 causas más frecuentes de consulta ambulatoria, especialmente en zonas rurales y urbano-marginales \parencite{minsa2022}. Sin embargo, la escasez de dermatólogos —menos de 400 especialistas registrados a nivel nacional— limita el acceso a diagnósticos oportunos, particularmente fuera de Lima Metropolitana.
 
-\begin{figure}[!ht]
+La exposición a contaminantes ambientales, especialmente en ciudades como Lima, una de las más contaminadas de Sudamérica según la OMS \parencite{who2023air}, contribuye al envejecimiento cutáneo prematuro. A ello se suma la alta radiación UV, que favorece la aparición de manchas y arrugas a edades tempranas. Según datos del SENAMHI, Lima alcanzó niveles de radiación UV "extremadamente altos" durante más de 200 días en 2023, lo que agrava los daños cutáneos acumulativos \parencite{senamhi2023uv}.
+
+Por otro lado, el mercado peruano de productos de cuidado personal, como se ve en la Figura \ref{1:fig4}, alcanzó los 2.94 mil millones de dólares en 2023, con una proyección de 1.72 mil millones en productos para el cuidado de la piel hacia 2025 \parencite{statista2023peru}. Esta tendencia revela una demanda creciente, aunque aún no respaldada por herramientas tecnológicas para realizar diagnósticos personalizados. Incorporar modelos de segmentación de arrugas y manchas podría facilitar el acceso a evaluaciones precisas a través de plataformas móviles, beneficiando a poblaciones sin acceso regular a especialistas.
+
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=1\textwidth]{1/figures/careperu.jpg}
 		\caption[Infografía de la Proyección del Mercado Cosmético e Higiene Personal en Perú]{Infografía de la Proyección del Mercado Cosmético e Higiene Personal en Perú.\\
@@ -49,7 +56,7 @@ En el Perú, el mercado de belleza y cuidado personal ha mostrado un crecimiento
 	\end{center}
 \end{figure}
 
-A pesar de la amplia disponibilidad de productos y tratamientos, persisten desafíos en la evaluación precisa y personalizada de problemas cutáneos. La falta de herramientas tecnológicas avanzadas dificulta el análisis cuantitativo de características morfológicas de la piel, como arrugas y manchas. Actualmente, muchos diagnósticos dependen de observaciones manuales, lo que puede llevar a evaluaciones subjetivas y tratamientos menos efectivos. \parencite{esteva2017}
+A nivel global, la combinación de contaminación ambiental, desigualdad en el acceso a dermatología y aumento de enfermedades relacionadas con la piel exige soluciones innovadoras. En este marco, la aplicación de modelos de segmentación de imágenes cutáneas basados en redes neuronales ofrece una alternativa escalable y precisa para detectar signos tempranos de daño o enfermedad cutánea, reducir el subdiagnóstico, y contribuir tanto a la salud estética como médica de millones de personas.
 
 Investigaciones recientes han demostrado el potencial de las redes neuronales convolucionales (CNN) en la clasificación y análisis de imágenes de la piel. Un estudio destacado por Andre Esteva y colaboradores utilizó una base de datos de 129,450 imágenes clínicas para entrenar una CNN capaz de clasificar lesiones cutáneas con una precisión comparable a la de dermatólogos certificados . Este avance sugiere que las CNN pueden ser herramientas valiosas para mejorar la precisión en la evaluación de características cutáneas y el desarrollo de tratamientos personalizados. \parencite{clevelandclinic2023}
 

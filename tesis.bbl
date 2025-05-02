@@ -50,6 +50,32 @@
       \field{title}{Introduction to Machine Learning}
       \field{year}{2014}
     \endentry
+    \entry{aad2023aging}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6b6a2c4702b494b772624b8d7b013b8}{%
+           family={{American Academy of Dermatology Association}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{fullhash}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{fullhashraw}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{bibnamehash}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{authorbibnamehash}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{authornamehash}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{authorfullhash}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{authorfullhashraw}{b6b6a2c4702b494b772624b8d7b013b8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.aad.org/public/skin-hair-nails/skin-care/aging-skin}}
+      \field{note}{Accessed: 2025-05-02}
+      \field{title}{Aging skin: Signs and how to care for it}
+      \field{year}{2023}
+    \endentry
     \entry{autor2021arrugas}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6f52c51caac5c7df94f9349a2e45d419}{%
@@ -88,6 +114,20 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1016/j.cosmed.2021.03.001
+      \endverb
+    \endentry
+    \entry{gco}{misc}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-05-02}
+      \field{title}{Cancer Today}
+      \verb{urlraw}
+      \verb https://gco.iarc.fr/en
+      \endverb
+      \verb{url}
+      \verb https://gco.iarc.fr/en
       \endverb
     \endentry
     \entry{autor2021deeplab}{article}{}{}
@@ -247,20 +287,44 @@
       \verb https://my.clevelandclinic.org/health/diseases/10984-wrinkles
       \endverb
     \endentry
-    \entry{databridge2024}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=275dc315f4cb9010d79ef716e2c54f51}{%
-           family={{Data Bridge Market Research}},
-           familyi={D\bibinitperiod}}}%
+    \entry{ding2020airpollution}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=85c5223ac45ffab73f330ad8f3c93396}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Aolin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d00b16a037b3aaccfdf4d2eaf0f24c5}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yanan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76f9320c9899a5058dbfa7717f070eeb}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Zhuang},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7a2d9ecd385930602153d0f27be7468}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{fullhash}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{fullhashraw}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{bibnamehash}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{authorbibnamehash}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{authornamehash}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{authorfullhash}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{authorfullhashraw}{275dc315f4cb9010d79ef716e2c54f51}
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{4cacd2fc0d95dfc3e42f1545aab5063f}
+      \strng{fullhash}{92d467472f27985f215890db65206b8d}
+      \strng{fullhashraw}{92d467472f27985f215890db65206b8d}
+      \strng{bibnamehash}{92d467472f27985f215890db65206b8d}
+      \strng{authorbibnamehash}{92d467472f27985f215890db65206b8d}
+      \strng{authornamehash}{4cacd2fc0d95dfc3e42f1545aab5063f}
+      \strng{authorfullhash}{92d467472f27985f215890db65206b8d}
+      \strng{authorfullhashraw}{92d467472f27985f215890db65206b8d}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -268,13 +332,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Mercado mundial de productos para el cuidado de la piel: tendencias de la industria y pronóstico hasta 2031}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://www.databridgemarketresearch.com/es/reports/global-skin-care-products-market
-      \endverb
-      \verb{url}
-      \verb https://www.databridgemarketresearch.com/es/reports/global-skin-care-products-market
+      \field{journaltitle}{Journal of Dermatological Science}
+      \field{number}{3}
+      \field{title}{Air pollution and skin aging: Emerging evidence and mechanisms}
+      \field{volume}{97}
+      \field{year}{2020}
+      \field{pages}{205\bibrangedash 210}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.jdermsci.2020.03.007
       \endverb
     \endentry
     \entry{autor2022transformer}{article}{}{}
@@ -380,11 +446,8 @@
       \field{year}{2017}
       \field{pages}{115\bibrangedash 118}
       \range{pages}{4}
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/nature21056
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/nature21056
+      \verb{doi}
+      \verb 10.1038/nature21056
       \endverb
     \endentry
     \entry{vaswani2025transformers}{misc}{}{}
@@ -853,6 +916,32 @@
       \verb{doi}
       \verb 10.1016/j.jbi.2021.103756
       \endverb
+    \endentry
+    \entry{globalcancer2020}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e8cc8b5aac5bb12ff73771df7c419e65}{%
+           family={{International Agency for Research on Cancer}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{fullhash}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{fullhashraw}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{bibnamehash}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{authorbibnamehash}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{authornamehash}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{authorfullhash}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{authorfullhashraw}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://gco.iarc.fr/today/home}}
+      \field{note}{Accessed: 2025-05-02}
+      \field{title}{Cancer Today: Estimated number of new cases in 2020, worldwide, both sexes, all ages}
+      \field{year}{2020}
     \endentry
     \entry{izco2018bdc}{misc}{}{}
       \name{author}{1}{}{%
@@ -1379,6 +1468,32 @@
       \field{title}{Convolutional Neural Networks: Theory and Practice}
       \field{year}{2022}
     \endentry
+    \entry{minsa2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=032ba331a6e4caec8deb97c7319ac551}{%
+           family={{Ministerio de Salud del Perú}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{fullhash}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{fullhashraw}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{bibnamehash}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{authorbibnamehash}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{authornamehash}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{authorfullhash}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{authorfullhashraw}{032ba331a6e4caec8deb97c7319ac551}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.dge.gob.pe/portal/docs/vigilancia/boletines/2022/52.pdf}}
+      \field{note}{Accedido: 2025-05-02}
+      \field{title}{Boletín Epidemiológico del Perú 2022}
+      \field{year}{2022}
+    \endentry
     \entry{mohammadi2019}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1523,6 +1638,112 @@
       \field{journaltitle}{arXiv preprint arXiv:1804.03999}
       \field{title}{Attention U-Net: Learning Where to Look for the Pancreas}
       \field{year}{2018}
+    \endentry
+    \entry{who2023air}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8179b1fdebe9235e54501d2878c47e1b}{%
+           family={Organization},
+           familyi={O\bibinitperiod},
+           given={World\bibnamedelima Health},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{fullhash}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{fullhashraw}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{bibnamehash}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{authorbibnamehash}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{authornamehash}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{authorfullhash}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{authorfullhashraw}{8179b1fdebe9235e54501d2878c47e1b}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health}}
+      \field{note}{Accessed: 2025-05-02}
+      \field{title}{Air pollution}
+      \field{year}{2023}
+    \endentry
+    \entry{Ruri2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d1c970d3e823a7f26f09a3e86f59ce5}{%
+           family={Pamela},
+           familyi={P\bibinitperiod},
+           given={Ruri\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{fullhash}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{fullhashraw}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{bibnamehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{authorbibnamehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{authornamehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{authorfullhash}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{authorfullhashraw}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Dermatology and Skin}
+      \field{title}{Jakarta’s Air Pollution, and the New Emerging Cause for Skin Aging}
+      \field{year}{2020}
+    \endentry
+    \entry{pan2021cutaneous}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5a20bc013ec98bab1ec4391063497c20}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Mei},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f39d73c2040236ebf9896a42646cfa06}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7052b04ddae22859687202cf642e8ffa}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0380343ae2658d6ef64a58421354f943}
+      \strng{fullhash}{ed92fa17210742524c0027d29bafcefa}
+      \strng{fullhashraw}{ed92fa17210742524c0027d29bafcefa}
+      \strng{bibnamehash}{ed92fa17210742524c0027d29bafcefa}
+      \strng{authorbibnamehash}{ed92fa17210742524c0027d29bafcefa}
+      \strng{authornamehash}{0380343ae2658d6ef64a58421354f943}
+      \strng{authorfullhash}{ed92fa17210742524c0027d29bafcefa}
+      \strng{authorfullhashraw}{ed92fa17210742524c0027d29bafcefa}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Clinical Neuroscience}
+      \field{title}{Cutaneous manifestations of neurodegenerative diseases: An integrative approach}
+      \field{volume}{89}
+      \field{year}{2021}
+      \field{pages}{274\bibrangedash 280}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.jocn.2021.04.024
+      \endverb
     \endentry
     \entry{elperuano2025belleza}{article}{}{}
       \name{author}{1}{}{%
@@ -1978,6 +2199,32 @@
       \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
       \endverb
     \endentry
+    \entry{senamhi2023uv}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32fc15bba4943cdb9cd8354123f34af2}{%
+           family={{Servicio Nacional de Meteorología e Hidrología del Perú}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{fullhash}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{fullhashraw}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{bibnamehash}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{authorbibnamehash}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{authornamehash}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{authorfullhash}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{authorfullhashraw}{32fc15bba4943cdb9cd8354123f34af2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.senamhi.gob.pe}}
+      \field{note}{Accedido: 2025-05-02}
+      \field{title}{Radiación Ultravioleta en el Perú: Reporte anual 2023}
+      \field{year}{2023}
+    \endentry
     \entry{autor2020segmentacion}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5d0ddda3a367ceb26fbaeca02e391c22}{%
@@ -2039,7 +2286,7 @@
       \field{pages}{1\bibrangedash 34}
       \range{pages}{34}
     \endentry
-    \entry{statista2023segment}{misc}{}{}
+    \entry{statista2023peru}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
            family={{Statista}},
@@ -2057,38 +2304,6 @@
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Global revenue in the skin care market by segment}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.statista.com/forecasts/1270033/global-revenue-skin-care-market-by-segment
-      \endverb
-      \verb{url}
-      \verb https://www.statista.com/forecasts/1270033/global-revenue-skin-care-market-by-segment
-      \endverb
-    \endentry
-    \entry{statista2023peru}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
-           family={{Statista}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{2}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -2117,10 +2332,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{3}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -2133,38 +2348,6 @@
       \endverb
       \verb{url}
       \verb https://www.statista.com/outlook/cmo/beauty-personal-care/skin-care/united-states
-      \endverb
-    \endentry
-    \entry{statista2023global}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
-           family={{Statista}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{4}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Revenue in the Skin Care market worldwide}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.statista.com/forecasts/1268473/worldwide-revenue-skin-care-market
-      \endverb
-      \verb{url}
-      \verb https://www.statista.com/forecasts/1268473/worldwide-revenue-skin-care-market
       \endverb
     \endentry
     \entry{statista2023us}{misc}{}{}
@@ -2181,10 +2364,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{5}
+      \field{extraname}{3}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{5}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -2343,6 +2526,32 @@
       \verb{doi}
       \verb 10.1109/TNN.2021.3051234
       \endverb
+    \endentry
+    \entry{who2020workforce}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.who.int/data/gho}}
+      \field{note}{Accessed: 2025-05-02}
+      \field{title}{Global Health Observatory data repository: Health workforce statistics}
+      \field{year}{2020}
     \endentry
     \entry{yoo2020}{article}{}{}
       \name{author}{3}{}{%
@@ -2671,6 +2880,32 @@
       \field{title}{Introduction to Machine Learning}
       \field{year}{2014}
     \endentry
+    \entry{aad2023aging}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6b6a2c4702b494b772624b8d7b013b8}{%
+           family={{American Academy of Dermatology Association}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{fullhash}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{fullhashraw}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{bibnamehash}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{authorbibnamehash}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{authornamehash}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{authorfullhash}{b6b6a2c4702b494b772624b8d7b013b8}
+      \strng{authorfullhashraw}{b6b6a2c4702b494b772624b8d7b013b8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.aad.org/public/skin-hair-nails/skin-care/aging-skin}}
+      \field{note}{Accessed: 2025-05-02}
+      \field{title}{Aging skin: Signs and how to care for it}
+      \field{year}{2023}
+    \endentry
     \entry{autor2021arrugas}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6f52c51caac5c7df94f9349a2e45d419}{%
@@ -2709,6 +2944,20 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1016/j.cosmed.2021.03.001
+      \endverb
+    \endentry
+    \entry{gco}{misc}{}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeldatesource}{nodate}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-05-02}
+      \field{title}{Cancer Today}
+      \verb{urlraw}
+      \verb https://gco.iarc.fr/en
+      \endverb
+      \verb{url}
+      \verb https://gco.iarc.fr/en
       \endverb
     \endentry
     \entry{autor2021deeplab}{article}{}{}
@@ -2868,20 +3117,44 @@
       \verb https://my.clevelandclinic.org/health/diseases/10984-wrinkles
       \endverb
     \endentry
-    \entry{databridge2024}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=275dc315f4cb9010d79ef716e2c54f51}{%
-           family={{Data Bridge Market Research}},
-           familyi={D\bibinitperiod}}}%
+    \entry{ding2020airpollution}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=85c5223ac45ffab73f330ad8f3c93396}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Aolin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d00b16a037b3aaccfdf4d2eaf0f24c5}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yanan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76f9320c9899a5058dbfa7717f070eeb}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Zhuang},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7a2d9ecd385930602153d0f27be7468}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{fullhash}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{fullhashraw}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{bibnamehash}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{authorbibnamehash}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{authornamehash}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{authorfullhash}{275dc315f4cb9010d79ef716e2c54f51}
-      \strng{authorfullhashraw}{275dc315f4cb9010d79ef716e2c54f51}
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{4cacd2fc0d95dfc3e42f1545aab5063f}
+      \strng{fullhash}{92d467472f27985f215890db65206b8d}
+      \strng{fullhashraw}{92d467472f27985f215890db65206b8d}
+      \strng{bibnamehash}{92d467472f27985f215890db65206b8d}
+      \strng{authorbibnamehash}{92d467472f27985f215890db65206b8d}
+      \strng{authornamehash}{4cacd2fc0d95dfc3e42f1545aab5063f}
+      \strng{authorfullhash}{92d467472f27985f215890db65206b8d}
+      \strng{authorfullhashraw}{92d467472f27985f215890db65206b8d}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -2889,13 +3162,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Mercado mundial de productos para el cuidado de la piel: tendencias de la industria y pronóstico hasta 2031}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://www.databridgemarketresearch.com/es/reports/global-skin-care-products-market
-      \endverb
-      \verb{url}
-      \verb https://www.databridgemarketresearch.com/es/reports/global-skin-care-products-market
+      \field{journaltitle}{Journal of Dermatological Science}
+      \field{number}{3}
+      \field{title}{Air pollution and skin aging: Emerging evidence and mechanisms}
+      \field{volume}{97}
+      \field{year}{2020}
+      \field{pages}{205\bibrangedash 210}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.jdermsci.2020.03.007
       \endverb
     \endentry
     \entry{autor2022transformer}{article}{}{}
@@ -3001,11 +3276,8 @@
       \field{year}{2017}
       \field{pages}{115\bibrangedash 118}
       \range{pages}{4}
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/nature21056
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/nature21056
+      \verb{doi}
+      \verb 10.1038/nature21056
       \endverb
     \endentry
     \entry{vaswani2025transformers}{misc}{}{}
@@ -3474,6 +3746,32 @@
       \verb{doi}
       \verb 10.1016/j.jbi.2021.103756
       \endverb
+    \endentry
+    \entry{globalcancer2020}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e8cc8b5aac5bb12ff73771df7c419e65}{%
+           family={{International Agency for Research on Cancer}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{fullhash}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{fullhashraw}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{bibnamehash}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{authorbibnamehash}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{authornamehash}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{authorfullhash}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \strng{authorfullhashraw}{e8cc8b5aac5bb12ff73771df7c419e65}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://gco.iarc.fr/today/home}}
+      \field{note}{Accessed: 2025-05-02}
+      \field{title}{Cancer Today: Estimated number of new cases in 2020, worldwide, both sexes, all ages}
+      \field{year}{2020}
     \endentry
     \entry{izco2018bdc}{misc}{}{}
       \name{author}{1}{}{%
@@ -4000,6 +4298,32 @@
       \field{title}{Convolutional Neural Networks: Theory and Practice}
       \field{year}{2022}
     \endentry
+    \entry{minsa2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=032ba331a6e4caec8deb97c7319ac551}{%
+           family={{Ministerio de Salud del Perú}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{fullhash}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{fullhashraw}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{bibnamehash}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{authorbibnamehash}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{authornamehash}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{authorfullhash}{032ba331a6e4caec8deb97c7319ac551}
+      \strng{authorfullhashraw}{032ba331a6e4caec8deb97c7319ac551}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.dge.gob.pe/portal/docs/vigilancia/boletines/2022/52.pdf}}
+      \field{note}{Accedido: 2025-05-02}
+      \field{title}{Boletín Epidemiológico del Perú 2022}
+      \field{year}{2022}
+    \endentry
     \entry{mohammadi2019}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -4144,6 +4468,112 @@
       \field{journaltitle}{arXiv preprint arXiv:1804.03999}
       \field{title}{Attention U-Net: Learning Where to Look for the Pancreas}
       \field{year}{2018}
+    \endentry
+    \entry{who2023air}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8179b1fdebe9235e54501d2878c47e1b}{%
+           family={Organization},
+           familyi={O\bibinitperiod},
+           given={World\bibnamedelima Health},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{fullhash}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{fullhashraw}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{bibnamehash}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{authorbibnamehash}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{authornamehash}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{authorfullhash}{8179b1fdebe9235e54501d2878c47e1b}
+      \strng{authorfullhashraw}{8179b1fdebe9235e54501d2878c47e1b}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health}}
+      \field{note}{Accessed: 2025-05-02}
+      \field{title}{Air pollution}
+      \field{year}{2023}
+    \endentry
+    \entry{Ruri2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d1c970d3e823a7f26f09a3e86f59ce5}{%
+           family={Pamela},
+           familyi={P\bibinitperiod},
+           given={Ruri\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{fullhash}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{fullhashraw}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{bibnamehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{authorbibnamehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{authornamehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{authorfullhash}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \strng{authorfullhashraw}{4d1c970d3e823a7f26f09a3e86f59ce5}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Dermatology and Skin}
+      \field{title}{Jakarta’s Air Pollution, and the New Emerging Cause for Skin Aging}
+      \field{year}{2020}
+    \endentry
+    \entry{pan2021cutaneous}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5a20bc013ec98bab1ec4391063497c20}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Mei},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f39d73c2040236ebf9896a42646cfa06}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7052b04ddae22859687202cf642e8ffa}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0380343ae2658d6ef64a58421354f943}
+      \strng{fullhash}{ed92fa17210742524c0027d29bafcefa}
+      \strng{fullhashraw}{ed92fa17210742524c0027d29bafcefa}
+      \strng{bibnamehash}{ed92fa17210742524c0027d29bafcefa}
+      \strng{authorbibnamehash}{ed92fa17210742524c0027d29bafcefa}
+      \strng{authornamehash}{0380343ae2658d6ef64a58421354f943}
+      \strng{authorfullhash}{ed92fa17210742524c0027d29bafcefa}
+      \strng{authorfullhashraw}{ed92fa17210742524c0027d29bafcefa}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Clinical Neuroscience}
+      \field{title}{Cutaneous manifestations of neurodegenerative diseases: An integrative approach}
+      \field{volume}{89}
+      \field{year}{2021}
+      \field{pages}{274\bibrangedash 280}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.jocn.2021.04.024
+      \endverb
     \endentry
     \entry{elperuano2025belleza}{article}{}{}
       \name{author}{1}{}{%
@@ -4599,6 +5029,32 @@
       \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
       \endverb
     \endentry
+    \entry{senamhi2023uv}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32fc15bba4943cdb9cd8354123f34af2}{%
+           family={{Servicio Nacional de Meteorología e Hidrología del Perú}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{fullhash}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{fullhashraw}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{bibnamehash}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{authorbibnamehash}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{authornamehash}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{authorfullhash}{32fc15bba4943cdb9cd8354123f34af2}
+      \strng{authorfullhashraw}{32fc15bba4943cdb9cd8354123f34af2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.senamhi.gob.pe}}
+      \field{note}{Accedido: 2025-05-02}
+      \field{title}{Radiación Ultravioleta en el Perú: Reporte anual 2023}
+      \field{year}{2023}
+    \endentry
     \entry{autor2020segmentacion}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5d0ddda3a367ceb26fbaeca02e391c22}{%
@@ -4660,7 +5116,7 @@
       \field{pages}{1\bibrangedash 34}
       \range{pages}{34}
     \endentry
-    \entry{statista2023segment}{misc}{}{}
+    \entry{statista2023peru}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
            family={{Statista}},
@@ -4678,38 +5134,6 @@
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Global revenue in the skin care market by segment}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.statista.com/forecasts/1270033/global-revenue-skin-care-market-by-segment
-      \endverb
-      \verb{url}
-      \verb https://www.statista.com/forecasts/1270033/global-revenue-skin-care-market-by-segment
-      \endverb
-    \endentry
-    \entry{statista2023peru}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
-           family={{Statista}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{2}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -4738,10 +5162,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{3}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -4754,38 +5178,6 @@
       \endverb
       \verb{url}
       \verb https://www.statista.com/outlook/cmo/beauty-personal-care/skin-care/united-states
-      \endverb
-    \endentry
-    \entry{statista2023global}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
-           family={{Statista}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{4}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Revenue in the Skin Care market worldwide}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://www.statista.com/forecasts/1268473/worldwide-revenue-skin-care-market
-      \endverb
-      \verb{url}
-      \verb https://www.statista.com/forecasts/1268473/worldwide-revenue-skin-care-market
       \endverb
     \endentry
     \entry{statista2023us}{misc}{}{}
@@ -4802,10 +5194,10 @@
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
-      \field{extraname}{5}
+      \field{extraname}{3}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{5}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -4964,6 +5356,32 @@
       \verb{doi}
       \verb 10.1109/TNN.2021.3051234
       \endverb
+    \endentry
+    \entry{who2020workforce}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.who.int/data/gho}}
+      \field{note}{Accessed: 2025-05-02}
+      \field{title}{Global Health Observatory data repository: Health workforce statistics}
+      \field{year}{2020}
     \endentry
     \entry{yoo2020}{article}{}{}
       \name{author}{3}{}{%
