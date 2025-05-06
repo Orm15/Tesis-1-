@@ -31,10 +31,12 @@
 \contentsline {figure}{\numberline {30}{\ignorespaces Diagrama de Q, K, V (queries, keys, values)}}{54}{figure.caption.42}%
 \contentsline {figure}{\numberline {31}{\ignorespaces Arquitectura de Transformer}}{57}{figure.caption.44}%
 \contentsline {figure}{\numberline {32}{\ignorespaces Arquitectura de SENet}}{59}{figure.caption.46}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Dataset recolectado de repositorios}}{68}{figure.caption.49}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Diagrama de Metodología de Investigación}}{69}{figure.caption.50}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Diagrama de Preprocesamiento de los Datos}}{73}{figure.caption.51}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Diagrama del Desarrollo de los Modelos de Segmentación}}{77}{figure.caption.52}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Proceso de operacion del prototipo del sistema}}{83}{figure.caption.53}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Matriz de Confusión}}{84}{figure.caption.54}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Cronograma de actividades}}{87}{figure.caption.56}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Base de datos pública Flickr-Faces-HQ Dataset (FFHQ)}}{68}{figure.caption.49}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Diagrama de Metodología de Investigación}}{70}{figure.caption.50}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Diagrama de Preprocesamiento de los Datos}}{74}{figure.caption.51}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Diagrama del Desarrollo de los Modelos de Segmentación}}{78}{figure.caption.52}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Proceso de operacion del prototipo del sistema}}{84}{figure.caption.53}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Matriz de Confusión}}{85}{figure.caption.54}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Cronograma de actividades}}{88}{figure.caption.56}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Dataset recolectado de repositorios}}{91}{figure.caption.58}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Máscaras binarias generadas}}{92}{figure.caption.59}%
