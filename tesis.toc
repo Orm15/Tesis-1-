@@ -88,15 +88,9 @@
 \contentsline {section}{\numberline {4.4}Entrenamiento del Modelo}{93}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Evaluación del Modelo}{93}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Despliegue}{93}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Determinación y evaluación de alternativas de solución}{93}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Propuesta solución}{93}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Planeamiento y descripción de Actividades}{93}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Desarrollo de actividades}{93}{subsection.4.8.2}%
-\contentsline {section}{\numberline {4.9}Medición de la solución}{93}{section.4.9}%
-\contentsline {subsection}{\numberline {4.9.1}Análisis de Indicadores cuantitativo}{93}{subsection.4.9.1}%
-\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{94}{chapter.5}%
-\contentsline {chapter}{Referencias}{97}{chapter*.60}%
-\contentsline {chapter}{Anexos}{102}{section*.61}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{103}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{104}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{105}{section.Alph0.3}%
+\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{95}{chapter.5}%
+\contentsline {chapter}{Referencias}{98}{chapter*.61}%
+\contentsline {chapter}{Anexos}{103}{section*.62}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{104}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{105}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{106}{section.Alph0.3}%
