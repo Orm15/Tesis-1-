@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global/global}
-    \entry{bk_alpaydin2014ml}{book}{}{}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{bk_alpaydin2014ml}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8351b0b43ad4aed68fb279505ebd7d01}{%
            family={Alpaydin},
@@ -33,12 +33,10 @@
       }
       \strng{namehash}{8351b0b43ad4aed68fb279505ebd7d01}
       \strng{fullhash}{8351b0b43ad4aed68fb279505ebd7d01}
-      \strng{fullhashraw}{8351b0b43ad4aed68fb279505ebd7d01}
       \strng{bibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
       \strng{authorbibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
       \strng{authornamehash}{8351b0b43ad4aed68fb279505ebd7d01}
       \strng{authorfullhash}{8351b0b43ad4aed68fb279505ebd7d01}
-      \strng{authorfullhashraw}{8351b0b43ad4aed68fb279505ebd7d01}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -50,7 +48,7 @@
       \field{title}{Introduction to Machine Learning}
       \field{year}{2014}
     \endentry
-    \entry{aad2023aging}{misc}{}{}
+    \entry{aad2023aging}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b6b6a2c4702b494b772624b8d7b013b8}{%
            family={{American Academy of Dermatology Association}},
@@ -58,12 +56,10 @@
       }
       \strng{namehash}{b6b6a2c4702b494b772624b8d7b013b8}
       \strng{fullhash}{b6b6a2c4702b494b772624b8d7b013b8}
-      \strng{fullhashraw}{b6b6a2c4702b494b772624b8d7b013b8}
       \strng{bibnamehash}{b6b6a2c4702b494b772624b8d7b013b8}
       \strng{authorbibnamehash}{b6b6a2c4702b494b772624b8d7b013b8}
       \strng{authornamehash}{b6b6a2c4702b494b772624b8d7b013b8}
       \strng{authorfullhash}{b6b6a2c4702b494b772624b8d7b013b8}
-      \strng{authorfullhashraw}{b6b6a2c4702b494b772624b8d7b013b8}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -76,7 +72,7 @@
       \field{title}{Aging skin: Signs and how to care for it}
       \field{year}{2023}
     \endentry
-    \entry{autor2021arrugas}{article}{}{}
+    \entry{autor2021arrugas}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6f52c51caac5c7df94f9349a2e45d419}{%
            family={Brown},
@@ -93,12 +89,10 @@
       }
       \strng{namehash}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
       \strng{fullhash}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
-      \strng{fullhashraw}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
       \strng{bibnamehash}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
       \strng{authorbibnamehash}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
       \strng{authornamehash}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
       \strng{authorfullhash}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
-      \strng{authorfullhashraw}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -116,7 +110,7 @@
       \verb 10.1016/j.cosmed.2021.03.001
       \endverb
     \endentry
-    \entry{gco}{misc}{}{}
+    \entry{gco}{misc}{}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labeldatesource}{nodate}
@@ -130,7 +124,7 @@
       \verb https://gco.iarc.fr/en
       \endverb
     \endentry
-    \entry{autor2021deeplab}{article}{}{}
+    \entry{autor2021deeplab}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9dddfcfd529634a150ee38ee5c0203d7}{%
            family={Chen},
@@ -141,12 +135,10 @@
       }
       \strng{namehash}{9dddfcfd529634a150ee38ee5c0203d7}
       \strng{fullhash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{fullhashraw}{9dddfcfd529634a150ee38ee5c0203d7}
       \strng{bibnamehash}{9dddfcfd529634a150ee38ee5c0203d7}
       \strng{authorbibnamehash}{9dddfcfd529634a150ee38ee5c0203d7}
       \strng{authornamehash}{9dddfcfd529634a150ee38ee5c0203d7}
       \strng{authorfullhash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{authorfullhashraw}{9dddfcfd529634a150ee38ee5c0203d7}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -165,7 +157,7 @@
       \verb 10.1109/TPAMI.2017.2699184
       \endverb
     \endentry
-    \entry{chen2018deeplabv3plus}{article}{}{}
+    \entry{chen2018deeplabv3plus}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=9dddfcfd529634a150ee38ee5c0203d7}{%
            family={Chen},
@@ -200,12 +192,10 @@
       }
       \strng{namehash}{5b195b34f54d3e071b82ddb71e157be1}
       \strng{fullhash}{63608d0342c85312dc1553fbee18162e}
-      \strng{fullhashraw}{63608d0342c85312dc1553fbee18162e}
       \strng{bibnamehash}{63608d0342c85312dc1553fbee18162e}
       \strng{authorbibnamehash}{63608d0342c85312dc1553fbee18162e}
       \strng{authornamehash}{5b195b34f54d3e071b82ddb71e157be1}
       \strng{authorfullhash}{63608d0342c85312dc1553fbee18162e}
-      \strng{authorfullhashraw}{63608d0342c85312dc1553fbee18162e}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -217,7 +207,7 @@
       \field{title}{Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation}
       \field{year}{2018}
     \endentry
-    \entry{chuchu2020}{article}{}{}
+    \entry{chuchu2020}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e3bf71115c9da84dcbd4134906987eb9}{%
            family={Chuchu},
@@ -234,12 +224,10 @@
       }
       \strng{namehash}{3af3483aef5a15a2404e04cd7fdd00c8}
       \strng{fullhash}{3af3483aef5a15a2404e04cd7fdd00c8}
-      \strng{fullhashraw}{3af3483aef5a15a2404e04cd7fdd00c8}
       \strng{bibnamehash}{3af3483aef5a15a2404e04cd7fdd00c8}
       \strng{authorbibnamehash}{3af3483aef5a15a2404e04cd7fdd00c8}
       \strng{authornamehash}{3af3483aef5a15a2404e04cd7fdd00c8}
       \strng{authorfullhash}{3af3483aef5a15a2404e04cd7fdd00c8}
-      \strng{authorfullhashraw}{3af3483aef5a15a2404e04cd7fdd00c8}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -257,7 +245,7 @@
       \verb 10.1016/j.sir.2020.06.002
       \endverb
     \endentry
-    \entry{clevelandclinic2023}{misc}{}{}
+    \entry{clevelandclinic2023}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=18a3b2aa5b80cdc35c37255cff78fbaa}{%
            family={{Cleveland Clinic}},
@@ -265,12 +253,10 @@
       }
       \strng{namehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
       \strng{fullhash}{18a3b2aa5b80cdc35c37255cff78fbaa}
-      \strng{fullhashraw}{18a3b2aa5b80cdc35c37255cff78fbaa}
       \strng{bibnamehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
       \strng{authorbibnamehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
       \strng{authornamehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
       \strng{authorfullhash}{18a3b2aa5b80cdc35c37255cff78fbaa}
-      \strng{authorfullhashraw}{18a3b2aa5b80cdc35c37255cff78fbaa}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -287,7 +273,7 @@
       \verb https://my.clevelandclinic.org/health/diseases/10984-wrinkles
       \endverb
     \endentry
-    \entry{ding2020airpollution}{article}{}{}
+    \entry{ding2020airpollution}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=85c5223ac45ffab73f330ad8f3c93396}{%
            family={Ding},
@@ -319,12 +305,10 @@
       }
       \strng{namehash}{4cacd2fc0d95dfc3e42f1545aab5063f}
       \strng{fullhash}{92d467472f27985f215890db65206b8d}
-      \strng{fullhashraw}{92d467472f27985f215890db65206b8d}
       \strng{bibnamehash}{92d467472f27985f215890db65206b8d}
       \strng{authorbibnamehash}{92d467472f27985f215890db65206b8d}
       \strng{authornamehash}{4cacd2fc0d95dfc3e42f1545aab5063f}
       \strng{authorfullhash}{92d467472f27985f215890db65206b8d}
-      \strng{authorfullhashraw}{92d467472f27985f215890db65206b8d}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -343,7 +327,7 @@
       \verb 10.1016/j.jdermsci.2020.03.007
       \endverb
     \endentry
-    \entry{autor2022transformer}{article}{}{}
+    \entry{autor2022transformer}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=72308762399d6ab62bbd9391c64c7bfd}{%
            family={Dosovitskiy},
@@ -354,12 +338,10 @@
       }
       \strng{namehash}{72308762399d6ab62bbd9391c64c7bfd}
       \strng{fullhash}{72308762399d6ab62bbd9391c64c7bfd}
-      \strng{fullhashraw}{72308762399d6ab62bbd9391c64c7bfd}
       \strng{bibnamehash}{72308762399d6ab62bbd9391c64c7bfd}
       \strng{authorbibnamehash}{72308762399d6ab62bbd9391c64c7bfd}
       \strng{authornamehash}{72308762399d6ab62bbd9391c64c7bfd}
       \strng{authorfullhash}{72308762399d6ab62bbd9391c64c7bfd}
-      \strng{authorfullhashraw}{72308762399d6ab62bbd9391c64c7bfd}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -376,7 +358,7 @@
       \verb 10.1109/CVPR.2022.00123
       \endverb
     \endentry
-    \entry{esteva2017}{article}{}{}
+    \entry{esteva2017}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=5243abb0865221bf8daee169b621b075}{%
            family={Esteva},
@@ -426,12 +408,10 @@
       }
       \strng{namehash}{8996a2e2d5273de74158f688db6d25f7}
       \strng{fullhash}{6ab07ac579bf17d04b49f954f4cfa136}
-      \strng{fullhashraw}{6ab07ac579bf17d04b49f954f4cfa136}
       \strng{bibnamehash}{6ab07ac579bf17d04b49f954f4cfa136}
       \strng{authorbibnamehash}{6ab07ac579bf17d04b49f954f4cfa136}
       \strng{authornamehash}{8996a2e2d5273de74158f688db6d25f7}
       \strng{authorfullhash}{6ab07ac579bf17d04b49f954f4cfa136}
-      \strng{authorfullhashraw}{6ab07ac579bf17d04b49f954f4cfa136}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -450,7 +430,7 @@
       \verb 10.1038/nature21056
       \endverb
     \endentry
-    \entry{vaswani2025transformers}{misc}{}{}
+    \entry{vaswani2025transformers}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=20dae0f467012773a7a167c343bb9256}{%
            family={al.},
@@ -463,12 +443,10 @@
       }
       \strng{namehash}{20dae0f467012773a7a167c343bb9256}
       \strng{fullhash}{20dae0f467012773a7a167c343bb9256}
-      \strng{fullhashraw}{20dae0f467012773a7a167c343bb9256}
       \strng{bibnamehash}{20dae0f467012773a7a167c343bb9256}
       \strng{authorbibnamehash}{20dae0f467012773a7a167c343bb9256}
       \strng{authornamehash}{20dae0f467012773a7a167c343bb9256}
       \strng{authorfullhash}{20dae0f467012773a7a167c343bb9256}
-      \strng{authorfullhashraw}{20dae0f467012773a7a167c343bb9256}
       \field{sortinit}{e}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -481,7 +459,7 @@
       \field{title}{Attention is All You Need}
       \field{year}{2025}
     \endentry
-    \entry{gao2018}{article}{}{}
+    \entry{gao2018}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -494,12 +472,10 @@
       }
       \strng{namehash}{7d631ee74847fc2fba8f82c32b958fd3}
       \strng{fullhash}{7d631ee74847fc2fba8f82c32b958fd3}
-      \strng{fullhashraw}{7d631ee74847fc2fba8f82c32b958fd3}
       \strng{bibnamehash}{7d631ee74847fc2fba8f82c32b958fd3}
       \strng{authorbibnamehash}{7d631ee74847fc2fba8f82c32b958fd3}
       \strng{authornamehash}{7d631ee74847fc2fba8f82c32b958fd3}
       \strng{authorfullhash}{7d631ee74847fc2fba8f82c32b958fd3}
-      \strng{authorfullhashraw}{7d631ee74847fc2fba8f82c32b958fd3}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -518,7 +494,7 @@
       \verb 10.3390/s18020556
       \endverb
     \endentry
-    \entry{autor2019manchas}{article}{}{}
+    \entry{autor2019manchas}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c43609126ee510c62777a2ec43ff6ee6}{%
            family={Garcia},
@@ -535,12 +511,10 @@
       }
       \strng{namehash}{de546e47a30f60f5ac70139594b7f7be}
       \strng{fullhash}{de546e47a30f60f5ac70139594b7f7be}
-      \strng{fullhashraw}{de546e47a30f60f5ac70139594b7f7be}
       \strng{bibnamehash}{de546e47a30f60f5ac70139594b7f7be}
       \strng{authorbibnamehash}{de546e47a30f60f5ac70139594b7f7be}
       \strng{authornamehash}{de546e47a30f60f5ac70139594b7f7be}
       \strng{authorfullhash}{de546e47a30f60f5ac70139594b7f7be}
-      \strng{authorfullhashraw}{de546e47a30f60f5ac70139594b7f7be}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -558,7 +532,7 @@
       \verb 10.1111/srt.12345
       \endverb
     \endentry
-    \entry{gonzalez2018}{book}{}{}
+    \entry{gonzalez2018}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=07713b8c79fe78ffaf9ab728a5f3ce88}{%
            family={Gonzalez},
@@ -578,12 +552,10 @@
       }
       \strng{namehash}{629c2754a63b62c1f205866b8ab085f9}
       \strng{fullhash}{629c2754a63b62c1f205866b8ab085f9}
-      \strng{fullhashraw}{629c2754a63b62c1f205866b8ab085f9}
       \strng{bibnamehash}{629c2754a63b62c1f205866b8ab085f9}
       \strng{authorbibnamehash}{629c2754a63b62c1f205866b8ab085f9}
       \strng{authornamehash}{629c2754a63b62c1f205866b8ab085f9}
       \strng{authorfullhash}{629c2754a63b62c1f205866b8ab085f9}
-      \strng{authorfullhashraw}{629c2754a63b62c1f205866b8ab085f9}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -596,7 +568,7 @@
       \field{title}{Digital Image Processing}
       \field{year}{2018}
     \endentry
-    \entry{goodfellow2016deep}{book}{}{}
+    \entry{goodfellow2016deep}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
            family={Goodfellow},
@@ -622,12 +594,10 @@
       }
       \strng{namehash}{d17e6557c5836d2d978179999ea1037f}
       \strng{fullhash}{3ae53fe582e8a815b118d26947eaa326}
-      \strng{fullhashraw}{3ae53fe582e8a815b118d26947eaa326}
       \strng{bibnamehash}{3ae53fe582e8a815b118d26947eaa326}
       \strng{authorbibnamehash}{3ae53fe582e8a815b118d26947eaa326}
       \strng{authornamehash}{d17e6557c5836d2d978179999ea1037f}
       \strng{authorfullhash}{3ae53fe582e8a815b118d26947eaa326}
-      \strng{authorfullhashraw}{3ae53fe582e8a815b118d26947eaa326}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -638,7 +608,7 @@
       \field{title}{Deep Learning}
       \field{year}{2016}
     \endentry
-    \entry{autor2021beneficios}{article}{}{}
+    \entry{autor2021beneficios}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b8cb47c3341bac6f6c608568372f533b}{%
            family={Guo},
@@ -649,12 +619,10 @@
       }
       \strng{namehash}{b8cb47c3341bac6f6c608568372f533b}
       \strng{fullhash}{b8cb47c3341bac6f6c608568372f533b}
-      \strng{fullhashraw}{b8cb47c3341bac6f6c608568372f533b}
       \strng{bibnamehash}{b8cb47c3341bac6f6c608568372f533b}
       \strng{authorbibnamehash}{b8cb47c3341bac6f6c608568372f533b}
       \strng{authornamehash}{b8cb47c3341bac6f6c608568372f533b}
       \strng{authorfullhash}{b8cb47c3341bac6f6c608568372f533b}
-      \strng{authorfullhashraw}{b8cb47c3341bac6f6c608568372f533b}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -672,7 +640,7 @@
       \verb 10.1007/s00542-021-02514-w
       \endverb
     \endentry
-    \entry{hatamizadeh2022unetr}{article}{}{}
+    \entry{hatamizadeh2022unetr}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{4}{}{%
@@ -703,12 +671,10 @@
       }
       \strng{namehash}{4e0e6478f86fbf44f0fdf0c69f65846f}
       \strng{fullhash}{a1058cb4c1100da531dbbdb3897a8ed0}
-      \strng{fullhashraw}{a1058cb4c1100da531dbbdb3897a8ed0}
       \strng{bibnamehash}{a1058cb4c1100da531dbbdb3897a8ed0}
       \strng{authorbibnamehash}{a1058cb4c1100da531dbbdb3897a8ed0}
       \strng{authornamehash}{4e0e6478f86fbf44f0fdf0c69f65846f}
       \strng{authorfullhash}{a1058cb4c1100da531dbbdb3897a8ed0}
-      \strng{authorfullhashraw}{a1058cb4c1100da531dbbdb3897a8ed0}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -725,7 +691,7 @@
       \verb 10.1109/WACV51458.2022.00128
       \endverb
     \endentry
-    \entry{bk_hernandez2014metodologia}{book}{}{}
+    \entry{bk_hernandez2014metodologia}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=82531f0c5173ef965e84d101f98cbf0a}{%
            family={Hernández\bibnamedelima Sampieri},
@@ -761,16 +727,13 @@
       }
       \strng{namehash}{7c7c2f335ff7edc16815d4abaab9b7e7}
       \strng{fullhash}{ac5ca95afba2bfe4fd763edb69eda3d4}
-      \strng{fullhashraw}{ac5ca95afba2bfe4fd763edb69eda3d4}
       \strng{bibnamehash}{ac5ca95afba2bfe4fd763edb69eda3d4}
       \strng{authorbibnamehash}{ac5ca95afba2bfe4fd763edb69eda3d4}
       \strng{authornamehash}{7c7c2f335ff7edc16815d4abaab9b7e7}
       \strng{authorfullhash}{ac5ca95afba2bfe4fd763edb69eda3d4}
-      \strng{authorfullhashraw}{ac5ca95afba2bfe4fd763edb69eda3d4}
       \strng{editorbibnamehash}{d5214b09070be8ba4dd4b092d74a6a64}
       \strng{editornamehash}{d5214b09070be8ba4dd4b092d74a6a64}
       \strng{editorfullhash}{d5214b09070be8ba4dd4b092d74a6a64}
-      \strng{editorfullhashraw}{d5214b09070be8ba4dd4b092d74a6a64}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -789,7 +752,7 @@
       \verb https://academia.utp.edu.co/grupobasicoclinicayaplicadas/files/2013/06/Metodolog%C3%ADa-de-la-Investigaci%C3%B3n.pdf
       \endverb
     \endentry
-    \entry{tec_cook2018deeplearning}{misc}{}{}
+    \entry{tec_cook2018deeplearning}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=aeb9610436aac15fb6a7c09973abd706}{%
            family={{House of Bots}},
@@ -804,16 +767,13 @@
       }
       \strng{namehash}{aeb9610436aac15fb6a7c09973abd706}
       \strng{fullhash}{aeb9610436aac15fb6a7c09973abd706}
-      \strng{fullhashraw}{aeb9610436aac15fb6a7c09973abd706}
       \strng{bibnamehash}{aeb9610436aac15fb6a7c09973abd706}
       \strng{authorbibnamehash}{aeb9610436aac15fb6a7c09973abd706}
       \strng{authornamehash}{aeb9610436aac15fb6a7c09973abd706}
       \strng{authorfullhash}{aeb9610436aac15fb6a7c09973abd706}
-      \strng{authorfullhashraw}{aeb9610436aac15fb6a7c09973abd706}
       \strng{editorbibnamehash}{95480c374c875335e209ff987f5d42b1}
       \strng{editornamehash}{95480c374c875335e209ff987f5d42b1}
       \strng{editorfullhash}{95480c374c875335e209ff987f5d42b1}
-      \strng{editorfullhashraw}{95480c374c875335e209ff987f5d42b1}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -830,7 +790,7 @@
       \verb https://www.houseofbots.com/news-detail/3620-4-most-popular-20-free-online-courses-to-learn-deep-learning
       \endverb
     \endentry
-    \entry{huang2020}{article}{}{}
+    \entry{huang2020}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=cae9da35ae12a6cbd407d07b86b4e18c}{%
            family={Huang},
@@ -853,12 +813,10 @@
       }
       \strng{namehash}{163d2cf5fe8e59a79268f7871c4ee263}
       \strng{fullhash}{b1c09cc0517261eeb883ffd79f086366}
-      \strng{fullhashraw}{b1c09cc0517261eeb883ffd79f086366}
       \strng{bibnamehash}{b1c09cc0517261eeb883ffd79f086366}
       \strng{authorbibnamehash}{b1c09cc0517261eeb883ffd79f086366}
       \strng{authornamehash}{163d2cf5fe8e59a79268f7871c4ee263}
       \strng{authorfullhash}{b1c09cc0517261eeb883ffd79f086366}
-      \strng{authorfullhashraw}{b1c09cc0517261eeb883ffd79f086366}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -877,7 +835,7 @@
       \verb 10.1111/dth.14124
       \endverb
     \endentry
-    \entry{hussain2021}{article}{}{}
+    \entry{hussain2021}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7f3c448351715604a9867949a573eed9}{%
            family={Hussain},
@@ -894,12 +852,10 @@
       }
       \strng{namehash}{dcc2f3db49de27169f07e7d8e41d3cba}
       \strng{fullhash}{dcc2f3db49de27169f07e7d8e41d3cba}
-      \strng{fullhashraw}{dcc2f3db49de27169f07e7d8e41d3cba}
       \strng{bibnamehash}{dcc2f3db49de27169f07e7d8e41d3cba}
       \strng{authorbibnamehash}{dcc2f3db49de27169f07e7d8e41d3cba}
       \strng{authornamehash}{dcc2f3db49de27169f07e7d8e41d3cba}
       \strng{authorfullhash}{dcc2f3db49de27169f07e7d8e41d3cba}
-      \strng{authorfullhashraw}{dcc2f3db49de27169f07e7d8e41d3cba}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -917,7 +873,7 @@
       \verb 10.1016/j.jbi.2021.103756
       \endverb
     \endentry
-    \entry{globalcancer2020}{misc}{}{}
+    \entry{globalcancer2020}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e8cc8b5aac5bb12ff73771df7c419e65}{%
            family={{International Agency for Research on Cancer}},
@@ -925,12 +881,10 @@
       }
       \strng{namehash}{e8cc8b5aac5bb12ff73771df7c419e65}
       \strng{fullhash}{e8cc8b5aac5bb12ff73771df7c419e65}
-      \strng{fullhashraw}{e8cc8b5aac5bb12ff73771df7c419e65}
       \strng{bibnamehash}{e8cc8b5aac5bb12ff73771df7c419e65}
       \strng{authorbibnamehash}{e8cc8b5aac5bb12ff73771df7c419e65}
       \strng{authornamehash}{e8cc8b5aac5bb12ff73771df7c419e65}
       \strng{authorfullhash}{e8cc8b5aac5bb12ff73771df7c419e65}
-      \strng{authorfullhashraw}{e8cc8b5aac5bb12ff73771df7c419e65}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -943,7 +897,7 @@
       \field{title}{Cancer Today: Estimated number of new cases in 2020, worldwide, both sexes, all ages}
       \field{year}{2020}
     \endentry
-    \entry{izco2018bdc}{misc}{}{}
+    \entry{izco2018bdc}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=469102ff09ab2baf2f859838c2dae750}{%
            family={Izco},
@@ -954,12 +908,10 @@
       }
       \strng{namehash}{469102ff09ab2baf2f859838c2dae750}
       \strng{fullhash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{fullhashraw}{469102ff09ab2baf2f859838c2dae750}
       \strng{bibnamehash}{469102ff09ab2baf2f859838c2dae750}
       \strng{authorbibnamehash}{469102ff09ab2baf2f859838c2dae750}
       \strng{authornamehash}{469102ff09ab2baf2f859838c2dae750}
       \strng{authorfullhash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authorfullhashraw}{469102ff09ab2baf2f859838c2dae750}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -976,7 +928,7 @@
       \verb https://bookdown.org/f_izco/BDC-POC/metricas.html
       \endverb
     \endentry
-    \entry{bk_kamath2019deeplearning_nlp_sr}{book}{}{}
+    \entry{bk_kamath2019deeplearning_nlp_sr}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1cfc30479d29622a456cfefbcbdf6fa3}{%
            family={Kamath},
@@ -1002,12 +954,10 @@
       }
       \strng{namehash}{833301448c7c5c65ed3aafb1cfd401dd}
       \strng{fullhash}{ed948ed3d6f5cbfb413490904762ee41}
-      \strng{fullhashraw}{ed948ed3d6f5cbfb413490904762ee41}
       \strng{bibnamehash}{ed948ed3d6f5cbfb413490904762ee41}
       \strng{authorbibnamehash}{ed948ed3d6f5cbfb413490904762ee41}
       \strng{authornamehash}{833301448c7c5c65ed3aafb1cfd401dd}
       \strng{authorfullhash}{ed948ed3d6f5cbfb413490904762ee41}
-      \strng{authorfullhashraw}{ed948ed3d6f5cbfb413490904762ee41}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -1018,7 +968,7 @@
       \field{title}{Deep Learning for NLP and Speech Recognition}
       \field{year}{2019}
     \endentry
-    \entry{karshiev2020improved}{article}{}{}
+    \entry{karshiev2020improved}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=028ff361ef266e23e1505bdcf8188b61}{%
            family={Karshiev},
@@ -1062,12 +1012,10 @@
       }
       \strng{namehash}{f01f91cf7306405c6d475f4d8c97bf99}
       \strng{fullhash}{c0998e75b328d938fa8ce9faef3e5bdc}
-      \strng{fullhashraw}{c0998e75b328d938fa8ce9faef3e5bdc}
       \strng{bibnamehash}{c0998e75b328d938fa8ce9faef3e5bdc}
       \strng{authorbibnamehash}{c0998e75b328d938fa8ce9faef3e5bdc}
       \strng{authornamehash}{f01f91cf7306405c6d475f4d8c97bf99}
       \strng{authorfullhash}{c0998e75b328d938fa8ce9faef3e5bdc}
-      \strng{authorfullhashraw}{c0998e75b328d938fa8ce9faef3e5bdc}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -1086,7 +1034,7 @@
       \verb 10.3390/app10103658
       \endverb
     \endentry
-    \entry{Kim2023}{article}{}{}
+    \entry{Kim2023}{article}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=247a1099fedf63892b02c166c10b8ca1}{%
            family={Kim},
@@ -1106,12 +1054,10 @@
       }
       \strng{namehash}{1d67c5215e8bbd5b2212653cf68566b2}
       \strng{fullhash}{1d67c5215e8bbd5b2212653cf68566b2}
-      \strng{fullhashraw}{1d67c5215e8bbd5b2212653cf68566b2}
       \strng{bibnamehash}{1d67c5215e8bbd5b2212653cf68566b2}
       \strng{authorbibnamehash}{1d67c5215e8bbd5b2212653cf68566b2}
       \strng{authornamehash}{1d67c5215e8bbd5b2212653cf68566b2}
       \strng{authorfullhash}{1d67c5215e8bbd5b2212653cf68566b2}
-      \strng{authorfullhashraw}{1d67c5215e8bbd5b2212653cf68566b2}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -1128,7 +1074,7 @@
       \verb 10.3390/app13020989
       \endverb
     \endentry
-    \entry{tec_kim2014convolutional}{article}{}{}
+    \entry{tec_kim2014convolutional}{article}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=1fecefbf07117382be6f83e7910ea8a0}{%
            family={Kim},
@@ -1145,12 +1091,10 @@
       }
       \strng{namehash}{1fecefbf07117382be6f83e7910ea8a0}
       \strng{fullhash}{1fecefbf07117382be6f83e7910ea8a0}
-      \strng{fullhashraw}{1fecefbf07117382be6f83e7910ea8a0}
       \strng{bibnamehash}{1fecefbf07117382be6f83e7910ea8a0}
       \strng{authorbibnamehash}{1fecefbf07117382be6f83e7910ea8a0}
       \strng{authornamehash}{1fecefbf07117382be6f83e7910ea8a0}
       \strng{authorfullhash}{1fecefbf07117382be6f83e7910ea8a0}
-      \strng{authorfullhashraw}{1fecefbf07117382be6f83e7910ea8a0}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -1175,7 +1119,7 @@
       \endverb
       \warn{\item Overwriting field 'month' with month value from field 'date' for entry 'tec_kim2014convolutional'}
     \endentry
-    \entry{autor2019canal}{article}{}{}
+    \entry{autor2019canal}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7fc0edf04cce351dda404579ede3d0d1}{%
            family={Kornblith},
@@ -1186,12 +1130,10 @@
       }
       \strng{namehash}{7fc0edf04cce351dda404579ede3d0d1}
       \strng{fullhash}{7fc0edf04cce351dda404579ede3d0d1}
-      \strng{fullhashraw}{7fc0edf04cce351dda404579ede3d0d1}
       \strng{bibnamehash}{7fc0edf04cce351dda404579ede3d0d1}
       \strng{authorbibnamehash}{7fc0edf04cce351dda404579ede3d0d1}
       \strng{authornamehash}{7fc0edf04cce351dda404579ede3d0d1}
       \strng{authorfullhash}{7fc0edf04cce351dda404579ede3d0d1}
-      \strng{authorfullhashraw}{7fc0edf04cce351dda404579ede3d0d1}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -1209,7 +1151,7 @@
       \verb 10.1016/j.jcvr.2019.04.002
       \endverb
     \endentry
-    \entry{krizhevsky2012}{article}{}{}
+    \entry{krizhevsky2012}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c5e3a676e2ac1164b3afcd539c131fc9}{%
            family={Krizhevsky},
@@ -1232,12 +1174,10 @@
       }
       \strng{namehash}{dd291871bfa8ee64447232f1cca429aa}
       \strng{fullhash}{1a23c09aa65b3c2ade45ed18d8127375}
-      \strng{fullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{bibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{authorbibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{authornamehash}{dd291871bfa8ee64447232f1cca429aa}
       \strng{authorfullhash}{1a23c09aa65b3c2ade45ed18d8127375}
-      \strng{authorfullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
       \field{extraname}{1}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
@@ -1254,7 +1194,7 @@
       \field{pages}{1097\bibrangedash 1105}
       \range{pages}{9}
     \endentry
-    \entry{krizhevsky2012imagenet}{article}{}{}
+    \entry{krizhevsky2012imagenet}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c5e3a676e2ac1164b3afcd539c131fc9}{%
            family={Krizhevsky},
@@ -1277,12 +1217,10 @@
       }
       \strng{namehash}{dd291871bfa8ee64447232f1cca429aa}
       \strng{fullhash}{1a23c09aa65b3c2ade45ed18d8127375}
-      \strng{fullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{bibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{authorbibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{authornamehash}{dd291871bfa8ee64447232f1cca429aa}
       \strng{authorfullhash}{1a23c09aa65b3c2ade45ed18d8127375}
-      \strng{authorfullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
       \field{extraname}{2}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
@@ -1299,7 +1237,7 @@
       \field{pages}{1097\bibrangedash 1105}
       \range{pages}{9}
     \endentry
-    \entry{lecun1998gradient}{article}{}{}
+    \entry{lecun1998gradient}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=6a1aa6b7eab12b931ca7c7e3f927231d}{%
            family={LeCun},
@@ -1331,12 +1269,10 @@
       }
       \strng{namehash}{9e4c6012409dc8dd9b2aa198a2059804}
       \strng{fullhash}{c397b2e6efe8e5c6ca906410fc9e0ff9}
-      \strng{fullhashraw}{c397b2e6efe8e5c6ca906410fc9e0ff9}
       \strng{bibnamehash}{c397b2e6efe8e5c6ca906410fc9e0ff9}
       \strng{authorbibnamehash}{c397b2e6efe8e5c6ca906410fc9e0ff9}
       \strng{authornamehash}{9e4c6012409dc8dd9b2aa198a2059804}
       \strng{authorfullhash}{c397b2e6efe8e5c6ca906410fc9e0ff9}
-      \strng{authorfullhashraw}{c397b2e6efe8e5c6ca906410fc9e0ff9}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -1352,7 +1288,7 @@
       \field{pages}{2278\bibrangedash 2324}
       \range{pages}{47}
     \endentry
-    \entry{lee2008}{article}{}{}
+    \entry{lee2008}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{3}{}{%
@@ -1377,12 +1313,10 @@
       }
       \strng{namehash}{5eb06e951efd53dea4e270c850fd3f31}
       \strng{fullhash}{73b503ef7c418fcf29f94942ffa40c90}
-      \strng{fullhashraw}{73b503ef7c418fcf29f94942ffa40c90}
       \strng{bibnamehash}{73b503ef7c418fcf29f94942ffa40c90}
       \strng{authorbibnamehash}{73b503ef7c418fcf29f94942ffa40c90}
       \strng{authornamehash}{5eb06e951efd53dea4e270c850fd3f31}
       \strng{authorfullhash}{73b503ef7c418fcf29f94942ffa40c90}
-      \strng{authorfullhashraw}{73b503ef7c418fcf29f94942ffa40c90}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -1399,7 +1333,7 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2613964/
       \endverb
     \endentry
-    \entry{lee2020}{article}{}{}
+    \entry{lee2020}{article}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=a38fe2282e0ae708270c02346a36d08f}{%
            family={Lee},
@@ -1416,12 +1350,10 @@
       }
       \strng{namehash}{07dd27ddb7d58787d21f960ffc963778}
       \strng{fullhash}{07dd27ddb7d58787d21f960ffc963778}
-      \strng{fullhashraw}{07dd27ddb7d58787d21f960ffc963778}
       \strng{bibnamehash}{07dd27ddb7d58787d21f960ffc963778}
       \strng{authorbibnamehash}{07dd27ddb7d58787d21f960ffc963778}
       \strng{authornamehash}{07dd27ddb7d58787d21f960ffc963778}
       \strng{authorfullhash}{07dd27ddb7d58787d21f960ffc963778}
-      \strng{authorfullhashraw}{07dd27ddb7d58787d21f960ffc963778}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -1439,7 +1371,7 @@
       \verb 10.1111/jocd.13370
       \endverb
     \endentry
-    \entry{autor2022cnn}{book}{}{}
+    \entry{autor2022cnn}{book}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=dd12628ece2c2bcccc0e876cbeafa9c9}{%
            family={Lee},
@@ -1453,12 +1385,10 @@
       }
       \strng{namehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
       \strng{fullhash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{fullhashraw}{dd12628ece2c2bcccc0e876cbeafa9c9}
       \strng{bibnamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
       \strng{authorbibnamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
       \strng{authornamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
       \strng{authorfullhash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{authorfullhashraw}{dd12628ece2c2bcccc0e876cbeafa9c9}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -1468,7 +1398,7 @@
       \field{title}{Convolutional Neural Networks: Theory and Practice}
       \field{year}{2022}
     \endentry
-    \entry{minsa2022}{misc}{}{}
+    \entry{minsa2022}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=032ba331a6e4caec8deb97c7319ac551}{%
            family={{Ministerio de Salud del Perú}},
@@ -1476,12 +1406,10 @@
       }
       \strng{namehash}{032ba331a6e4caec8deb97c7319ac551}
       \strng{fullhash}{032ba331a6e4caec8deb97c7319ac551}
-      \strng{fullhashraw}{032ba331a6e4caec8deb97c7319ac551}
       \strng{bibnamehash}{032ba331a6e4caec8deb97c7319ac551}
       \strng{authorbibnamehash}{032ba331a6e4caec8deb97c7319ac551}
       \strng{authornamehash}{032ba331a6e4caec8deb97c7319ac551}
       \strng{authorfullhash}{032ba331a6e4caec8deb97c7319ac551}
-      \strng{authorfullhashraw}{032ba331a6e4caec8deb97c7319ac551}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1494,7 +1422,7 @@
       \field{title}{Boletín Epidemiológico del Perú 2022}
       \field{year}{2022}
     \endentry
-    \entry{mohammadi2019}{article}{}{}
+    \entry{mohammadi2019}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{4}{}{%
@@ -1528,12 +1456,10 @@
       }
       \strng{namehash}{472b8ee2da6bfc840099683dfcee3589}
       \strng{fullhash}{ea95c4b0aca0eae16a8825608d424785}
-      \strng{fullhashraw}{ea95c4b0aca0eae16a8825608d424785}
       \strng{bibnamehash}{ea95c4b0aca0eae16a8825608d424785}
       \strng{authorbibnamehash}{ea95c4b0aca0eae16a8825608d424785}
       \strng{authornamehash}{472b8ee2da6bfc840099683dfcee3589}
       \strng{authorfullhash}{ea95c4b0aca0eae16a8825608d424785}
-      \strng{authorfullhashraw}{ea95c4b0aca0eae16a8825608d424785}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1551,7 +1477,7 @@
       \verb 10.1016/j.compbiomed.2019.103388
       \endverb
     \endentry
-    \entry{moon2024dermatology}{article}{}{}
+    \entry{moon2024dermatology}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=79547a5b843d71784aa077e52148d086}{%
            family={Moon},
@@ -1574,12 +1500,10 @@
       }
       \strng{namehash}{08f84242db27b8503f8f37ee6aec0b14}
       \strng{fullhash}{471bc15beffc5a786885e5cda575cc54}
-      \strng{fullhashraw}{471bc15beffc5a786885e5cda575cc54}
       \strng{bibnamehash}{471bc15beffc5a786885e5cda575cc54}
       \strng{authorbibnamehash}{471bc15beffc5a786885e5cda575cc54}
       \strng{authornamehash}{08f84242db27b8503f8f37ee6aec0b14}
       \strng{authorfullhash}{471bc15beffc5a786885e5cda575cc54}
-      \strng{authorfullhashraw}{471bc15beffc5a786885e5cda575cc54}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1597,7 +1521,7 @@
       \verb https://github.com/labhai/ffhq-wrinkle-dataset
       \endverb
     \endentry
-    \entry{oktay2018attentionunet}{article}{}{}
+    \entry{oktay2018attentionunet}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{3}{}{%
@@ -1622,12 +1546,10 @@
       }
       \strng{namehash}{3c926513cb4db42dfabd499e86fbfa18}
       \strng{fullhash}{0eef35e03895395880cea8f977679b3c}
-      \strng{fullhashraw}{0eef35e03895395880cea8f977679b3c}
       \strng{bibnamehash}{0eef35e03895395880cea8f977679b3c}
       \strng{authorbibnamehash}{0eef35e03895395880cea8f977679b3c}
       \strng{authornamehash}{3c926513cb4db42dfabd499e86fbfa18}
       \strng{authorfullhash}{0eef35e03895395880cea8f977679b3c}
-      \strng{authorfullhashraw}{0eef35e03895395880cea8f977679b3c}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -1639,7 +1561,7 @@
       \field{title}{Attention U-Net: Learning Where to Look for the Pancreas}
       \field{year}{2018}
     \endentry
-    \entry{who2023air}{misc}{}{}
+    \entry{who2023air}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8179b1fdebe9235e54501d2878c47e1b}{%
            family={Organization},
@@ -1650,12 +1572,10 @@
       }
       \strng{namehash}{8179b1fdebe9235e54501d2878c47e1b}
       \strng{fullhash}{8179b1fdebe9235e54501d2878c47e1b}
-      \strng{fullhashraw}{8179b1fdebe9235e54501d2878c47e1b}
       \strng{bibnamehash}{8179b1fdebe9235e54501d2878c47e1b}
       \strng{authorbibnamehash}{8179b1fdebe9235e54501d2878c47e1b}
       \strng{authornamehash}{8179b1fdebe9235e54501d2878c47e1b}
       \strng{authorfullhash}{8179b1fdebe9235e54501d2878c47e1b}
-      \strng{authorfullhashraw}{8179b1fdebe9235e54501d2878c47e1b}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -1668,7 +1588,7 @@
       \field{title}{Air pollution}
       \field{year}{2023}
     \endentry
-    \entry{Ruri2020}{article}{}{}
+    \entry{Ruri2020}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4d1c970d3e823a7f26f09a3e86f59ce5}{%
            family={Pamela},
@@ -1679,12 +1599,10 @@
       }
       \strng{namehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
       \strng{fullhash}{4d1c970d3e823a7f26f09a3e86f59ce5}
-      \strng{fullhashraw}{4d1c970d3e823a7f26f09a3e86f59ce5}
       \strng{bibnamehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
       \strng{authorbibnamehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
       \strng{authornamehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
       \strng{authorfullhash}{4d1c970d3e823a7f26f09a3e86f59ce5}
-      \strng{authorfullhashraw}{4d1c970d3e823a7f26f09a3e86f59ce5}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1696,7 +1614,7 @@
       \field{title}{Jakarta’s Air Pollution, and the New Emerging Cause for Skin Aging}
       \field{year}{2020}
     \endentry
-    \entry{pan2021cutaneous}{article}{}{}
+    \entry{pan2021cutaneous}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5a20bc013ec98bab1ec4391063497c20}{%
            family={Pan},
@@ -1722,12 +1640,10 @@
       }
       \strng{namehash}{0380343ae2658d6ef64a58421354f943}
       \strng{fullhash}{ed92fa17210742524c0027d29bafcefa}
-      \strng{fullhashraw}{ed92fa17210742524c0027d29bafcefa}
       \strng{bibnamehash}{ed92fa17210742524c0027d29bafcefa}
       \strng{authorbibnamehash}{ed92fa17210742524c0027d29bafcefa}
       \strng{authornamehash}{0380343ae2658d6ef64a58421354f943}
       \strng{authorfullhash}{ed92fa17210742524c0027d29bafcefa}
-      \strng{authorfullhashraw}{ed92fa17210742524c0027d29bafcefa}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1745,7 +1661,7 @@
       \verb 10.1016/j.jocn.2021.04.024
       \endverb
     \endentry
-    \entry{elperuano2025belleza}{article}{}{}
+    \entry{elperuano2025belleza}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=23f2026178a5cd3b56f3239350abd54b}{%
            family={Peruano},
@@ -1756,12 +1672,10 @@
       }
       \strng{namehash}{23f2026178a5cd3b56f3239350abd54b}
       \strng{fullhash}{23f2026178a5cd3b56f3239350abd54b}
-      \strng{fullhashraw}{23f2026178a5cd3b56f3239350abd54b}
       \strng{bibnamehash}{23f2026178a5cd3b56f3239350abd54b}
       \strng{authorbibnamehash}{23f2026178a5cd3b56f3239350abd54b}
       \strng{authornamehash}{23f2026178a5cd3b56f3239350abd54b}
       \strng{authorfullhash}{23f2026178a5cd3b56f3239350abd54b}
-      \strng{authorfullhashraw}{23f2026178a5cd3b56f3239350abd54b}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1780,7 +1694,7 @@
       \verb https://www.elperuano.pe/noticia/237309-belleza-y-cuidado-personal-una-industria-que-se-afianza
       \endverb
     \endentry
-    \entry{phillips2020}{article}{}{}
+    \entry{phillips2020}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=cd11e30a94f3958bcd2f8a6c9cf887cf}{%
            family={Phillips},
@@ -1802,12 +1716,10 @@
       }
       \strng{namehash}{a3d224583fa3e85fca7621fa1db10818}
       \strng{fullhash}{2a2c3e7f596e51393e9b5f275e0d315f}
-      \strng{fullhashraw}{2a2c3e7f596e51393e9b5f275e0d315f}
       \strng{bibnamehash}{2a2c3e7f596e51393e9b5f275e0d315f}
       \strng{authorbibnamehash}{2a2c3e7f596e51393e9b5f275e0d315f}
       \strng{authornamehash}{a3d224583fa3e85fca7621fa1db10818}
       \strng{authorfullhash}{2a2c3e7f596e51393e9b5f275e0d315f}
-      \strng{authorfullhashraw}{2a2c3e7f596e51393e9b5f275e0d315f}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1825,7 +1737,7 @@
       \verb 10.1016/j.compbiomed.2020.103930
       \endverb
     \endentry
-    \entry{reinke2021common}{article}{}{}
+    \entry{reinke2021common}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -1841,12 +1753,10 @@
       }
       \strng{namehash}{18bc622f326228288c45f4029c28aa28}
       \strng{fullhash}{18bc622f326228288c45f4029c28aa28}
-      \strng{fullhashraw}{18bc622f326228288c45f4029c28aa28}
       \strng{bibnamehash}{18bc622f326228288c45f4029c28aa28}
       \strng{authorbibnamehash}{18bc622f326228288c45f4029c28aa28}
       \strng{authornamehash}{18bc622f326228288c45f4029c28aa28}
       \strng{authorfullhash}{18bc622f326228288c45f4029c28aa28}
-      \strng{authorfullhashraw}{18bc622f326228288c45f4029c28aa28}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -1862,7 +1772,7 @@
       \field{pages}{100232}
       \range{pages}{1}
     \endentry
-    \entry{ronneberger2015}{article}{}{}
+    \entry{ronneberger2015}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=8e46da9de9e53ea5d37089897d69cdd9}{%
            family={Ronneberger},
@@ -1888,12 +1798,10 @@
       }
       \strng{namehash}{9a497128db448eba9bbb6e27b1ed57ed}
       \strng{fullhash}{f23ccc5160c62c7866172335b2c76e11}
-      \strng{fullhashraw}{f23ccc5160c62c7866172335b2c76e11}
       \strng{bibnamehash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authorbibnamehash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authornamehash}{9a497128db448eba9bbb6e27b1ed57ed}
       \strng{authorfullhash}{f23ccc5160c62c7866172335b2c76e11}
-      \strng{authorfullhashraw}{f23ccc5160c62c7866172335b2c76e11}
       \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -1915,7 +1823,7 @@
       \verb https://arxiv.org/abs/1505.04597
       \endverb
     \endentry
-    \entry{ronneberger2015unet}{article}{}{}
+    \entry{ronneberger2015unet}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=8e46da9de9e53ea5d37089897d69cdd9}{%
            family={Ronneberger},
@@ -1941,12 +1849,10 @@
       }
       \strng{namehash}{9a497128db448eba9bbb6e27b1ed57ed}
       \strng{fullhash}{f23ccc5160c62c7866172335b2c76e11}
-      \strng{fullhashraw}{f23ccc5160c62c7866172335b2c76e11}
       \strng{bibnamehash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authorbibnamehash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authornamehash}{9a497128db448eba9bbb6e27b1ed57ed}
       \strng{authorfullhash}{f23ccc5160c62c7866172335b2c76e11}
-      \strng{authorfullhashraw}{f23ccc5160c62c7866172335b2c76e11}
       \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -1962,7 +1868,7 @@
       \field{pages}{234\bibrangedash 241}
       \range{pages}{8}
     \endentry
-    \entry{bk_russell2004intart}{book}{}{}
+    \entry{bk_russell2004intart}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
            family={Russell},
@@ -2027,16 +1933,13 @@
       }
       \strng{namehash}{b280605b721b4ebcba5395298499f924}
       \strng{fullhash}{b280605b721b4ebcba5395298499f924}
-      \strng{fullhashraw}{b280605b721b4ebcba5395298499f924}
       \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
       \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
       \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
       \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
-      \strng{authorfullhashraw}{b280605b721b4ebcba5395298499f924}
       \strng{translatorbibnamehash}{1cb6e05e9397c6f5bbf497c05c49a517}
       \strng{translatornamehash}{34c5a49e0dcd6a713494d87de76112f4}
       \strng{translatorfullhash}{1cb6e05e9397c6f5bbf497c05c49a517}
-      \strng{translatorfullhashraw}{1cb6e05e9397c6f5bbf497c05c49a517}
       \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -2057,7 +1960,7 @@
       \verb https://luismejias21.files.wordpress.com/2017/09/inteligencia-artificial-un-enfoque-moderno-stuart-j-russell.pdf
       \endverb
     \endentry
-    \entry{bk_russell2009intart}{book}{}{}
+    \entry{bk_russell2009intart}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
            family={Russell},
@@ -2077,12 +1980,10 @@
       }
       \strng{namehash}{b280605b721b4ebcba5395298499f924}
       \strng{fullhash}{b280605b721b4ebcba5395298499f924}
-      \strng{fullhashraw}{b280605b721b4ebcba5395298499f924}
       \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
       \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
       \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
       \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
-      \strng{authorfullhashraw}{b280605b721b4ebcba5395298499f924}
       \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -2097,7 +1998,7 @@
       \field{pages}{229}
       \range{pages}{1}
     \endentry
-    \entry{tec_sancho2018supnosup}{report}{}{}
+    \entry{tec_sancho2018supnosup}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0420a3ca37de3cf5d2661da09b11e868}{%
            family={Sancho\bibnamedelima Caparrini},
@@ -2114,12 +2015,10 @@
       }
       \strng{namehash}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{fullhash}{0420a3ca37de3cf5d2661da09b11e868}
-      \strng{fullhashraw}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{bibnamehash}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{authorbibnamehash}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{authornamehash}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{authorfullhash}{0420a3ca37de3cf5d2661da09b11e868}
-      \strng{authorfullhashraw}{0420a3ca37de3cf5d2661da09b11e868}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2137,7 +2036,7 @@
       \verb http://www.cs.us.es/~fsancho/?e=77
       \endverb
     \endentry
-    \entry{autor2020spa}{article}{}{}
+    \entry{autor2020spa}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b17a6e4a2e8a51a0d77017d50c2ef700}{%
            family={Sanh},
@@ -2148,12 +2047,10 @@
       }
       \strng{namehash}{b17a6e4a2e8a51a0d77017d50c2ef700}
       \strng{fullhash}{b17a6e4a2e8a51a0d77017d50c2ef700}
-      \strng{fullhashraw}{b17a6e4a2e8a51a0d77017d50c2ef700}
       \strng{bibnamehash}{b17a6e4a2e8a51a0d77017d50c2ef700}
       \strng{authorbibnamehash}{b17a6e4a2e8a51a0d77017d50c2ef700}
       \strng{authornamehash}{b17a6e4a2e8a51a0d77017d50c2ef700}
       \strng{authorfullhash}{b17a6e4a2e8a51a0d77017d50c2ef700}
-      \strng{authorfullhashraw}{b17a6e4a2e8a51a0d77017d50c2ef700}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2171,7 +2068,7 @@
       \verb 10.1109/JMV.2020.3051234
       \endverb
     \endentry
-    \entry{gl_sas_deeplearning}{misc}{}{}
+    \entry{gl_sas_deeplearning}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fed2cabe2c5fbb2abc601c8460691920}{%
            family={{SAS Institute}},
@@ -2179,12 +2076,10 @@
       }
       \strng{namehash}{fed2cabe2c5fbb2abc601c8460691920}
       \strng{fullhash}{fed2cabe2c5fbb2abc601c8460691920}
-      \strng{fullhashraw}{fed2cabe2c5fbb2abc601c8460691920}
       \strng{bibnamehash}{fed2cabe2c5fbb2abc601c8460691920}
       \strng{authorbibnamehash}{fed2cabe2c5fbb2abc601c8460691920}
       \strng{authornamehash}{fed2cabe2c5fbb2abc601c8460691920}
       \strng{authorfullhash}{fed2cabe2c5fbb2abc601c8460691920}
-      \strng{authorfullhashraw}{fed2cabe2c5fbb2abc601c8460691920}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labeldatesource}{nodate}
@@ -2199,7 +2094,7 @@
       \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
       \endverb
     \endentry
-    \entry{senamhi2023uv}{misc}{}{}
+    \entry{senamhi2023uv}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=32fc15bba4943cdb9cd8354123f34af2}{%
            family={{Servicio Nacional de Meteorología e Hidrología del Perú}},
@@ -2207,12 +2102,10 @@
       }
       \strng{namehash}{32fc15bba4943cdb9cd8354123f34af2}
       \strng{fullhash}{32fc15bba4943cdb9cd8354123f34af2}
-      \strng{fullhashraw}{32fc15bba4943cdb9cd8354123f34af2}
       \strng{bibnamehash}{32fc15bba4943cdb9cd8354123f34af2}
       \strng{authorbibnamehash}{32fc15bba4943cdb9cd8354123f34af2}
       \strng{authornamehash}{32fc15bba4943cdb9cd8354123f34af2}
       \strng{authorfullhash}{32fc15bba4943cdb9cd8354123f34af2}
-      \strng{authorfullhashraw}{32fc15bba4943cdb9cd8354123f34af2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2225,7 +2118,7 @@
       \field{title}{Radiación Ultravioleta en el Perú: Reporte anual 2023}
       \field{year}{2023}
     \endentry
-    \entry{autor2020segmentacion}{book}{}{}
+    \entry{autor2020segmentacion}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5d0ddda3a367ceb26fbaeca02e391c22}{%
            family={Smith},
@@ -2239,12 +2132,10 @@
       }
       \strng{namehash}{5d0ddda3a367ceb26fbaeca02e391c22}
       \strng{fullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{fullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
       \strng{bibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
       \strng{authorbibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
       \strng{authornamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
       \strng{authorfullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{authorfullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2255,7 +2146,7 @@
       \field{title}{Image Segmentation in Computer Vision}
       \field{year}{2020}
     \endentry
-    \entry{sorensen1948}{article}{}{}
+    \entry{sorensen1948}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=288e248947d6fc30e1fca311074fcc68}{%
            family={Sorensen},
@@ -2266,12 +2157,10 @@
       }
       \strng{namehash}{288e248947d6fc30e1fca311074fcc68}
       \strng{fullhash}{288e248947d6fc30e1fca311074fcc68}
-      \strng{fullhashraw}{288e248947d6fc30e1fca311074fcc68}
       \strng{bibnamehash}{288e248947d6fc30e1fca311074fcc68}
       \strng{authorbibnamehash}{288e248947d6fc30e1fca311074fcc68}
       \strng{authornamehash}{288e248947d6fc30e1fca311074fcc68}
       \strng{authorfullhash}{288e248947d6fc30e1fca311074fcc68}
-      \strng{authorfullhashraw}{288e248947d6fc30e1fca311074fcc68}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2286,7 +2175,7 @@
       \field{pages}{1\bibrangedash 34}
       \range{pages}{34}
     \endentry
-    \entry{statista2023peru}{misc}{}{}
+    \entry{statista2023peru}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
            family={{Statista}},
@@ -2294,12 +2183,10 @@
       }
       \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
       \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -2318,7 +2205,7 @@
       \verb https://www.statista.com/outlook/cmo/beauty-personal-care/peru
       \endverb
     \endentry
-    \entry{statista2025usforecast}{misc}{}{}
+    \entry{statista2025usforecast}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
            family={{Statista}},
@@ -2326,12 +2213,10 @@
       }
       \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
       \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -2350,7 +2235,7 @@
       \verb https://www.statista.com/outlook/cmo/beauty-personal-care/skin-care/united-states
       \endverb
     \endentry
-    \entry{statista2023us}{misc}{}{}
+    \entry{statista2023us}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
            family={{Statista}},
@@ -2358,12 +2243,10 @@
       }
       \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
       \field{extraname}{3}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -2382,7 +2265,7 @@
       \verb https://www.statista.com/topics/4517/us-skin-care-market/
       \endverb
     \endentry
-    \entry{taha2015metrics}{article}{}{}
+    \entry{taha2015metrics}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d64855c75d4efb2074a21443e55a4017}{%
            family={Taha},
@@ -2402,12 +2285,10 @@
       }
       \strng{namehash}{528dddfc512f31aa7ecc83bbee3ae150}
       \strng{fullhash}{528dddfc512f31aa7ecc83bbee3ae150}
-      \strng{fullhashraw}{528dddfc512f31aa7ecc83bbee3ae150}
       \strng{bibnamehash}{528dddfc512f31aa7ecc83bbee3ae150}
       \strng{authorbibnamehash}{528dddfc512f31aa7ecc83bbee3ae150}
       \strng{authornamehash}{528dddfc512f31aa7ecc83bbee3ae150}
       \strng{authorfullhash}{528dddfc512f31aa7ecc83bbee3ae150}
-      \strng{authorfullhashraw}{528dddfc512f31aa7ecc83bbee3ae150}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -2423,7 +2304,7 @@
       \field{pages}{1\bibrangedash 28}
       \range{pages}{28}
     \endentry
-    \entry{Tamilkodi2024}{article}{}{}
+    \entry{Tamilkodi2024}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=b5318b1429134a7ecaa0cc7944130a9e}{%
            family={Tamilkodi},
@@ -2471,12 +2352,10 @@
       }
       \strng{namehash}{6090a3894f9cc0a8a02548ceae0ba21e}
       \strng{fullhash}{dd19f5b4bed707fe17e8b5900eb96a5e}
-      \strng{fullhashraw}{dd19f5b4bed707fe17e8b5900eb96a5e}
       \strng{bibnamehash}{dd19f5b4bed707fe17e8b5900eb96a5e}
       \strng{authorbibnamehash}{dd19f5b4bed707fe17e8b5900eb96a5e}
       \strng{authornamehash}{6090a3894f9cc0a8a02548ceae0ba21e}
       \strng{authorfullhash}{dd19f5b4bed707fe17e8b5900eb96a5e}
-      \strng{authorfullhashraw}{dd19f5b4bed707fe17e8b5900eb96a5e}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -2493,7 +2372,7 @@
       \verb 10.2991/978-94-6463-471-6_129
       \endverb
     \endentry
-    \entry{autor2021atencion}{article}{}{}
+    \entry{autor2021atencion}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
            family={Vaswani},
@@ -2504,12 +2383,10 @@
       }
       \strng{namehash}{7f28e84700536646dd6620a0db07ad09}
       \strng{fullhash}{7f28e84700536646dd6620a0db07ad09}
-      \strng{fullhashraw}{7f28e84700536646dd6620a0db07ad09}
       \strng{bibnamehash}{7f28e84700536646dd6620a0db07ad09}
       \strng{authorbibnamehash}{7f28e84700536646dd6620a0db07ad09}
       \strng{authornamehash}{7f28e84700536646dd6620a0db07ad09}
       \strng{authorfullhash}{7f28e84700536646dd6620a0db07ad09}
-      \strng{authorfullhashraw}{7f28e84700536646dd6620a0db07ad09}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
@@ -2527,7 +2404,7 @@
       \verb 10.1109/TNN.2021.3051234
       \endverb
     \endentry
-    \entry{who2020workforce}{misc}{}{}
+    \entry{who2020workforce}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
            family={{World Health Organization}},
@@ -2535,12 +2412,10 @@
       }
       \strng{namehash}{531217507bec092b6ec36c0f78f46736}
       \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
-      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
       \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
       \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
       \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
       \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
-      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -2553,7 +2428,7 @@
       \field{title}{Global Health Observatory data repository: Health workforce statistics}
       \field{year}{2020}
     \endentry
-    \entry{yoo2020}{article}{}{}
+    \entry{yoo2020}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=98b0eae050c2ed43990b77fbf3daa50e}{%
            family={Yoo},
@@ -2576,12 +2451,10 @@
       }
       \strng{namehash}{8e47f254ab0a0045e4fc5d9daa695614}
       \strng{fullhash}{2bbfb02e918945516b9ffc5695e95963}
-      \strng{fullhashraw}{2bbfb02e918945516b9ffc5695e95963}
       \strng{bibnamehash}{2bbfb02e918945516b9ffc5695e95963}
       \strng{authorbibnamehash}{2bbfb02e918945516b9ffc5695e95963}
       \strng{authornamehash}{8e47f254ab0a0045e4fc5d9daa695614}
       \strng{authorfullhash}{2bbfb02e918945516b9ffc5695e95963}
-      \strng{authorfullhashraw}{2bbfb02e918945516b9ffc5695e95963}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
@@ -2600,7 +2473,7 @@
       \verb 10.1016/j.jdermsci.2020.06.012
       \endverb
     \endentry
-    \entry{yoon2023}{article}{}{}
+    \entry{yoon2023}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=dce0ab6c9089b1aa3ef09d0c782874b9}{%
            family={Yoon},
@@ -2629,12 +2502,10 @@
       }
       \strng{namehash}{993471a31d84e6c248175447bf2070b8}
       \strng{fullhash}{fd67b167cf40cdcc77a98a4131096eff}
-      \strng{fullhashraw}{fd67b167cf40cdcc77a98a4131096eff}
       \strng{bibnamehash}{fd67b167cf40cdcc77a98a4131096eff}
       \strng{authorbibnamehash}{fd67b167cf40cdcc77a98a4131096eff}
       \strng{authornamehash}{993471a31d84e6c248175447bf2070b8}
       \strng{authorfullhash}{fd67b167cf40cdcc77a98a4131096eff}
-      \strng{authorfullhashraw}{fd67b167cf40cdcc77a98a4131096eff}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
@@ -2651,7 +2522,7 @@
       \verb 10.3390/diagnostics13111894
       \endverb
     \endentry
-    \entry{yu2021bisenetv2}{article}{}{}
+    \entry{yu2021bisenetv2}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{3}{}{%
@@ -2676,12 +2547,10 @@
       }
       \strng{namehash}{404aec30669fccbcb08cca80a888447c}
       \strng{fullhash}{436774eb71fb4077d20d8eac41e285d1}
-      \strng{fullhashraw}{436774eb71fb4077d20d8eac41e285d1}
       \strng{bibnamehash}{436774eb71fb4077d20d8eac41e285d1}
       \strng{authorbibnamehash}{436774eb71fb4077d20d8eac41e285d1}
       \strng{authornamehash}{404aec30669fccbcb08cca80a888447c}
       \strng{authorfullhash}{436774eb71fb4077d20d8eac41e285d1}
-      \strng{authorfullhashraw}{436774eb71fb4077d20d8eac41e285d1}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
@@ -2693,7 +2562,7 @@
       \field{title}{BiseNet V2: Bilateral Network with Guided Aggregation for Real-time Semantic Segmentation}
       \field{year}{2021}
     \endentry
-    \entry{bk_zambrano2018supnosup}{online}{}{}
+    \entry{bk_zambrano2018supnosup}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5382f6d4dddfd71a612981c6be0a65c5}{%
            family={Zambrano},
@@ -2707,12 +2576,10 @@
       }
       \strng{namehash}{5382f6d4dddfd71a612981c6be0a65c5}
       \strng{fullhash}{5382f6d4dddfd71a612981c6be0a65c5}
-      \strng{fullhashraw}{5382f6d4dddfd71a612981c6be0a65c5}
       \strng{bibnamehash}{5382f6d4dddfd71a612981c6be0a65c5}
       \strng{authorbibnamehash}{5382f6d4dddfd71a612981c6be0a65c5}
       \strng{authornamehash}{5382f6d4dddfd71a612981c6be0a65c5}
       \strng{authorfullhash}{5382f6d4dddfd71a612981c6be0a65c5}
-      \strng{authorfullhashraw}{5382f6d4dddfd71a612981c6be0a65c5}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{extradatescope}{labelyear}
@@ -2730,7 +2597,7 @@
       \verb https://medium.com/@juanzambrano/aprendizaje-supervisado-o-no-supervisado-39ccf1fd6e7b
       \endverb
     \endentry
-    \entry{zhao2021}{article}{}{}
+    \entry{zhao2021}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bb86c6a67d0b873b7f2ef7defe046268}{%
            family={Zhao},
@@ -2747,12 +2614,10 @@
       }
       \strng{namehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{fullhash}{41fb6c8b36536d8c2ea94ff59afdbc73}
-      \strng{fullhashraw}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{bibnamehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{authorbibnamehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{authornamehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{authorfullhash}{41fb6c8b36536d8c2ea94ff59afdbc73}
-      \strng{authorfullhashraw}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{extradatescope}{labelyear}
@@ -2770,7 +2635,7 @@
       \verb 10.1016/j.media.2021.01.007
       \endverb
     \endentry
-    \entry{Zhong2024}{article}{}{}
+    \entry{Zhong2024}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=b397eba556bd786e66a6f64271a255c5}{%
            family={Zhong},
@@ -2821,16 +2686,13 @@
       }
       \strng{namehash}{7efbc5be057a945f797203b5eac0ca85}
       \strng{fullhash}{81c4f22c68ab1d83f02cc67d3631cea4}
-      \strng{fullhashraw}{81c4f22c68ab1d83f02cc67d3631cea4}
       \strng{bibnamehash}{81c4f22c68ab1d83f02cc67d3631cea4}
       \strng{authorbibnamehash}{81c4f22c68ab1d83f02cc67d3631cea4}
       \strng{authornamehash}{7efbc5be057a945f797203b5eac0ca85}
       \strng{authorfullhash}{81c4f22c68ab1d83f02cc67d3631cea4}
-      \strng{authorfullhashraw}{81c4f22c68ab1d83f02cc67d3631cea4}
       \strng{editorbibnamehash}{f043736d53a7fb6bc7d25ed7e3f99e20}
       \strng{editornamehash}{f043736d53a7fb6bc7d25ed7e3f99e20}
       \strng{editorfullhash}{f043736d53a7fb6bc7d25ed7e3f99e20}
-      \strng{editorfullhashraw}{f043736d53a7fb6bc7d25ed7e3f99e20}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{extradatescope}{labelyear}
@@ -2848,8 +2710,8 @@
       \endverb
     \endentry
   \enddatalist
-  \datalist[entry]{apa/global//global/global/global}
-    \entry{bk_alpaydin2014ml}{book}{}{}
+  \datalist[entry]{apa/global//global/global}
+    \entry{bk_alpaydin2014ml}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8351b0b43ad4aed68fb279505ebd7d01}{%
            family={Alpaydin},
@@ -2863,12 +2725,10 @@
       }
       \strng{namehash}{8351b0b43ad4aed68fb279505ebd7d01}
       \strng{fullhash}{8351b0b43ad4aed68fb279505ebd7d01}
-      \strng{fullhashraw}{8351b0b43ad4aed68fb279505ebd7d01}
       \strng{bibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
       \strng{authorbibnamehash}{8351b0b43ad4aed68fb279505ebd7d01}
       \strng{authornamehash}{8351b0b43ad4aed68fb279505ebd7d01}
       \strng{authorfullhash}{8351b0b43ad4aed68fb279505ebd7d01}
-      \strng{authorfullhashraw}{8351b0b43ad4aed68fb279505ebd7d01}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -2880,7 +2740,7 @@
       \field{title}{Introduction to Machine Learning}
       \field{year}{2014}
     \endentry
-    \entry{aad2023aging}{misc}{}{}
+    \entry{aad2023aging}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b6b6a2c4702b494b772624b8d7b013b8}{%
            family={{American Academy of Dermatology Association}},
@@ -2888,12 +2748,10 @@
       }
       \strng{namehash}{b6b6a2c4702b494b772624b8d7b013b8}
       \strng{fullhash}{b6b6a2c4702b494b772624b8d7b013b8}
-      \strng{fullhashraw}{b6b6a2c4702b494b772624b8d7b013b8}
       \strng{bibnamehash}{b6b6a2c4702b494b772624b8d7b013b8}
       \strng{authorbibnamehash}{b6b6a2c4702b494b772624b8d7b013b8}
       \strng{authornamehash}{b6b6a2c4702b494b772624b8d7b013b8}
       \strng{authorfullhash}{b6b6a2c4702b494b772624b8d7b013b8}
-      \strng{authorfullhashraw}{b6b6a2c4702b494b772624b8d7b013b8}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -2906,7 +2764,7 @@
       \field{title}{Aging skin: Signs and how to care for it}
       \field{year}{2023}
     \endentry
-    \entry{autor2021arrugas}{article}{}{}
+    \entry{autor2021arrugas}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6f52c51caac5c7df94f9349a2e45d419}{%
            family={Brown},
@@ -2923,12 +2781,10 @@
       }
       \strng{namehash}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
       \strng{fullhash}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
-      \strng{fullhashraw}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
       \strng{bibnamehash}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
       \strng{authorbibnamehash}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
       \strng{authornamehash}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
       \strng{authorfullhash}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
-      \strng{authorfullhashraw}{bf75b3dbca01c5a3d5d8a1b9a3d73569}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -2946,7 +2802,7 @@
       \verb 10.1016/j.cosmed.2021.03.001
       \endverb
     \endentry
-    \entry{gco}{misc}{}{}
+    \entry{gco}{misc}{}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labeldatesource}{nodate}
@@ -2960,7 +2816,7 @@
       \verb https://gco.iarc.fr/en
       \endverb
     \endentry
-    \entry{autor2021deeplab}{article}{}{}
+    \entry{autor2021deeplab}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9dddfcfd529634a150ee38ee5c0203d7}{%
            family={Chen},
@@ -2971,12 +2827,10 @@
       }
       \strng{namehash}{9dddfcfd529634a150ee38ee5c0203d7}
       \strng{fullhash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{fullhashraw}{9dddfcfd529634a150ee38ee5c0203d7}
       \strng{bibnamehash}{9dddfcfd529634a150ee38ee5c0203d7}
       \strng{authorbibnamehash}{9dddfcfd529634a150ee38ee5c0203d7}
       \strng{authornamehash}{9dddfcfd529634a150ee38ee5c0203d7}
       \strng{authorfullhash}{9dddfcfd529634a150ee38ee5c0203d7}
-      \strng{authorfullhashraw}{9dddfcfd529634a150ee38ee5c0203d7}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -2995,7 +2849,7 @@
       \verb 10.1109/TPAMI.2017.2699184
       \endverb
     \endentry
-    \entry{chen2018deeplabv3plus}{article}{}{}
+    \entry{chen2018deeplabv3plus}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=9dddfcfd529634a150ee38ee5c0203d7}{%
            family={Chen},
@@ -3030,12 +2884,10 @@
       }
       \strng{namehash}{5b195b34f54d3e071b82ddb71e157be1}
       \strng{fullhash}{63608d0342c85312dc1553fbee18162e}
-      \strng{fullhashraw}{63608d0342c85312dc1553fbee18162e}
       \strng{bibnamehash}{63608d0342c85312dc1553fbee18162e}
       \strng{authorbibnamehash}{63608d0342c85312dc1553fbee18162e}
       \strng{authornamehash}{5b195b34f54d3e071b82ddb71e157be1}
       \strng{authorfullhash}{63608d0342c85312dc1553fbee18162e}
-      \strng{authorfullhashraw}{63608d0342c85312dc1553fbee18162e}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -3047,7 +2899,7 @@
       \field{title}{Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation}
       \field{year}{2018}
     \endentry
-    \entry{chuchu2020}{article}{}{}
+    \entry{chuchu2020}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e3bf71115c9da84dcbd4134906987eb9}{%
            family={Chuchu},
@@ -3064,12 +2916,10 @@
       }
       \strng{namehash}{3af3483aef5a15a2404e04cd7fdd00c8}
       \strng{fullhash}{3af3483aef5a15a2404e04cd7fdd00c8}
-      \strng{fullhashraw}{3af3483aef5a15a2404e04cd7fdd00c8}
       \strng{bibnamehash}{3af3483aef5a15a2404e04cd7fdd00c8}
       \strng{authorbibnamehash}{3af3483aef5a15a2404e04cd7fdd00c8}
       \strng{authornamehash}{3af3483aef5a15a2404e04cd7fdd00c8}
       \strng{authorfullhash}{3af3483aef5a15a2404e04cd7fdd00c8}
-      \strng{authorfullhashraw}{3af3483aef5a15a2404e04cd7fdd00c8}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -3087,7 +2937,7 @@
       \verb 10.1016/j.sir.2020.06.002
       \endverb
     \endentry
-    \entry{clevelandclinic2023}{misc}{}{}
+    \entry{clevelandclinic2023}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=18a3b2aa5b80cdc35c37255cff78fbaa}{%
            family={{Cleveland Clinic}},
@@ -3095,12 +2945,10 @@
       }
       \strng{namehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
       \strng{fullhash}{18a3b2aa5b80cdc35c37255cff78fbaa}
-      \strng{fullhashraw}{18a3b2aa5b80cdc35c37255cff78fbaa}
       \strng{bibnamehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
       \strng{authorbibnamehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
       \strng{authornamehash}{18a3b2aa5b80cdc35c37255cff78fbaa}
       \strng{authorfullhash}{18a3b2aa5b80cdc35c37255cff78fbaa}
-      \strng{authorfullhashraw}{18a3b2aa5b80cdc35c37255cff78fbaa}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -3117,7 +2965,7 @@
       \verb https://my.clevelandclinic.org/health/diseases/10984-wrinkles
       \endverb
     \endentry
-    \entry{ding2020airpollution}{article}{}{}
+    \entry{ding2020airpollution}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=85c5223ac45ffab73f330ad8f3c93396}{%
            family={Ding},
@@ -3149,12 +2997,10 @@
       }
       \strng{namehash}{4cacd2fc0d95dfc3e42f1545aab5063f}
       \strng{fullhash}{92d467472f27985f215890db65206b8d}
-      \strng{fullhashraw}{92d467472f27985f215890db65206b8d}
       \strng{bibnamehash}{92d467472f27985f215890db65206b8d}
       \strng{authorbibnamehash}{92d467472f27985f215890db65206b8d}
       \strng{authornamehash}{4cacd2fc0d95dfc3e42f1545aab5063f}
       \strng{authorfullhash}{92d467472f27985f215890db65206b8d}
-      \strng{authorfullhashraw}{92d467472f27985f215890db65206b8d}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -3173,7 +3019,7 @@
       \verb 10.1016/j.jdermsci.2020.03.007
       \endverb
     \endentry
-    \entry{autor2022transformer}{article}{}{}
+    \entry{autor2022transformer}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=72308762399d6ab62bbd9391c64c7bfd}{%
            family={Dosovitskiy},
@@ -3184,12 +3030,10 @@
       }
       \strng{namehash}{72308762399d6ab62bbd9391c64c7bfd}
       \strng{fullhash}{72308762399d6ab62bbd9391c64c7bfd}
-      \strng{fullhashraw}{72308762399d6ab62bbd9391c64c7bfd}
       \strng{bibnamehash}{72308762399d6ab62bbd9391c64c7bfd}
       \strng{authorbibnamehash}{72308762399d6ab62bbd9391c64c7bfd}
       \strng{authornamehash}{72308762399d6ab62bbd9391c64c7bfd}
       \strng{authorfullhash}{72308762399d6ab62bbd9391c64c7bfd}
-      \strng{authorfullhashraw}{72308762399d6ab62bbd9391c64c7bfd}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -3206,7 +3050,7 @@
       \verb 10.1109/CVPR.2022.00123
       \endverb
     \endentry
-    \entry{esteva2017}{article}{}{}
+    \entry{esteva2017}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=5243abb0865221bf8daee169b621b075}{%
            family={Esteva},
@@ -3256,12 +3100,10 @@
       }
       \strng{namehash}{8996a2e2d5273de74158f688db6d25f7}
       \strng{fullhash}{6ab07ac579bf17d04b49f954f4cfa136}
-      \strng{fullhashraw}{6ab07ac579bf17d04b49f954f4cfa136}
       \strng{bibnamehash}{6ab07ac579bf17d04b49f954f4cfa136}
       \strng{authorbibnamehash}{6ab07ac579bf17d04b49f954f4cfa136}
       \strng{authornamehash}{8996a2e2d5273de74158f688db6d25f7}
       \strng{authorfullhash}{6ab07ac579bf17d04b49f954f4cfa136}
-      \strng{authorfullhashraw}{6ab07ac579bf17d04b49f954f4cfa136}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -3280,7 +3122,7 @@
       \verb 10.1038/nature21056
       \endverb
     \endentry
-    \entry{vaswani2025transformers}{misc}{}{}
+    \entry{vaswani2025transformers}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=20dae0f467012773a7a167c343bb9256}{%
            family={al.},
@@ -3293,12 +3135,10 @@
       }
       \strng{namehash}{20dae0f467012773a7a167c343bb9256}
       \strng{fullhash}{20dae0f467012773a7a167c343bb9256}
-      \strng{fullhashraw}{20dae0f467012773a7a167c343bb9256}
       \strng{bibnamehash}{20dae0f467012773a7a167c343bb9256}
       \strng{authorbibnamehash}{20dae0f467012773a7a167c343bb9256}
       \strng{authornamehash}{20dae0f467012773a7a167c343bb9256}
       \strng{authorfullhash}{20dae0f467012773a7a167c343bb9256}
-      \strng{authorfullhashraw}{20dae0f467012773a7a167c343bb9256}
       \field{sortinit}{e}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -3311,7 +3151,7 @@
       \field{title}{Attention is All You Need}
       \field{year}{2025}
     \endentry
-    \entry{gao2018}{article}{}{}
+    \entry{gao2018}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -3324,12 +3164,10 @@
       }
       \strng{namehash}{7d631ee74847fc2fba8f82c32b958fd3}
       \strng{fullhash}{7d631ee74847fc2fba8f82c32b958fd3}
-      \strng{fullhashraw}{7d631ee74847fc2fba8f82c32b958fd3}
       \strng{bibnamehash}{7d631ee74847fc2fba8f82c32b958fd3}
       \strng{authorbibnamehash}{7d631ee74847fc2fba8f82c32b958fd3}
       \strng{authornamehash}{7d631ee74847fc2fba8f82c32b958fd3}
       \strng{authorfullhash}{7d631ee74847fc2fba8f82c32b958fd3}
-      \strng{authorfullhashraw}{7d631ee74847fc2fba8f82c32b958fd3}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -3348,7 +3186,7 @@
       \verb 10.3390/s18020556
       \endverb
     \endentry
-    \entry{autor2019manchas}{article}{}{}
+    \entry{autor2019manchas}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c43609126ee510c62777a2ec43ff6ee6}{%
            family={Garcia},
@@ -3365,12 +3203,10 @@
       }
       \strng{namehash}{de546e47a30f60f5ac70139594b7f7be}
       \strng{fullhash}{de546e47a30f60f5ac70139594b7f7be}
-      \strng{fullhashraw}{de546e47a30f60f5ac70139594b7f7be}
       \strng{bibnamehash}{de546e47a30f60f5ac70139594b7f7be}
       \strng{authorbibnamehash}{de546e47a30f60f5ac70139594b7f7be}
       \strng{authornamehash}{de546e47a30f60f5ac70139594b7f7be}
       \strng{authorfullhash}{de546e47a30f60f5ac70139594b7f7be}
-      \strng{authorfullhashraw}{de546e47a30f60f5ac70139594b7f7be}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -3388,7 +3224,7 @@
       \verb 10.1111/srt.12345
       \endverb
     \endentry
-    \entry{gonzalez2018}{book}{}{}
+    \entry{gonzalez2018}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=07713b8c79fe78ffaf9ab728a5f3ce88}{%
            family={Gonzalez},
@@ -3408,12 +3244,10 @@
       }
       \strng{namehash}{629c2754a63b62c1f205866b8ab085f9}
       \strng{fullhash}{629c2754a63b62c1f205866b8ab085f9}
-      \strng{fullhashraw}{629c2754a63b62c1f205866b8ab085f9}
       \strng{bibnamehash}{629c2754a63b62c1f205866b8ab085f9}
       \strng{authorbibnamehash}{629c2754a63b62c1f205866b8ab085f9}
       \strng{authornamehash}{629c2754a63b62c1f205866b8ab085f9}
       \strng{authorfullhash}{629c2754a63b62c1f205866b8ab085f9}
-      \strng{authorfullhashraw}{629c2754a63b62c1f205866b8ab085f9}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -3426,7 +3260,7 @@
       \field{title}{Digital Image Processing}
       \field{year}{2018}
     \endentry
-    \entry{goodfellow2016deep}{book}{}{}
+    \entry{goodfellow2016deep}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
            family={Goodfellow},
@@ -3452,12 +3286,10 @@
       }
       \strng{namehash}{d17e6557c5836d2d978179999ea1037f}
       \strng{fullhash}{3ae53fe582e8a815b118d26947eaa326}
-      \strng{fullhashraw}{3ae53fe582e8a815b118d26947eaa326}
       \strng{bibnamehash}{3ae53fe582e8a815b118d26947eaa326}
       \strng{authorbibnamehash}{3ae53fe582e8a815b118d26947eaa326}
       \strng{authornamehash}{d17e6557c5836d2d978179999ea1037f}
       \strng{authorfullhash}{3ae53fe582e8a815b118d26947eaa326}
-      \strng{authorfullhashraw}{3ae53fe582e8a815b118d26947eaa326}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -3468,7 +3300,7 @@
       \field{title}{Deep Learning}
       \field{year}{2016}
     \endentry
-    \entry{autor2021beneficios}{article}{}{}
+    \entry{autor2021beneficios}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b8cb47c3341bac6f6c608568372f533b}{%
            family={Guo},
@@ -3479,12 +3311,10 @@
       }
       \strng{namehash}{b8cb47c3341bac6f6c608568372f533b}
       \strng{fullhash}{b8cb47c3341bac6f6c608568372f533b}
-      \strng{fullhashraw}{b8cb47c3341bac6f6c608568372f533b}
       \strng{bibnamehash}{b8cb47c3341bac6f6c608568372f533b}
       \strng{authorbibnamehash}{b8cb47c3341bac6f6c608568372f533b}
       \strng{authornamehash}{b8cb47c3341bac6f6c608568372f533b}
       \strng{authorfullhash}{b8cb47c3341bac6f6c608568372f533b}
-      \strng{authorfullhashraw}{b8cb47c3341bac6f6c608568372f533b}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -3502,7 +3332,7 @@
       \verb 10.1007/s00542-021-02514-w
       \endverb
     \endentry
-    \entry{hatamizadeh2022unetr}{article}{}{}
+    \entry{hatamizadeh2022unetr}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{4}{}{%
@@ -3533,12 +3363,10 @@
       }
       \strng{namehash}{4e0e6478f86fbf44f0fdf0c69f65846f}
       \strng{fullhash}{a1058cb4c1100da531dbbdb3897a8ed0}
-      \strng{fullhashraw}{a1058cb4c1100da531dbbdb3897a8ed0}
       \strng{bibnamehash}{a1058cb4c1100da531dbbdb3897a8ed0}
       \strng{authorbibnamehash}{a1058cb4c1100da531dbbdb3897a8ed0}
       \strng{authornamehash}{4e0e6478f86fbf44f0fdf0c69f65846f}
       \strng{authorfullhash}{a1058cb4c1100da531dbbdb3897a8ed0}
-      \strng{authorfullhashraw}{a1058cb4c1100da531dbbdb3897a8ed0}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -3555,7 +3383,7 @@
       \verb 10.1109/WACV51458.2022.00128
       \endverb
     \endentry
-    \entry{bk_hernandez2014metodologia}{book}{}{}
+    \entry{bk_hernandez2014metodologia}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=82531f0c5173ef965e84d101f98cbf0a}{%
            family={Hernández\bibnamedelima Sampieri},
@@ -3591,16 +3419,13 @@
       }
       \strng{namehash}{7c7c2f335ff7edc16815d4abaab9b7e7}
       \strng{fullhash}{ac5ca95afba2bfe4fd763edb69eda3d4}
-      \strng{fullhashraw}{ac5ca95afba2bfe4fd763edb69eda3d4}
       \strng{bibnamehash}{ac5ca95afba2bfe4fd763edb69eda3d4}
       \strng{authorbibnamehash}{ac5ca95afba2bfe4fd763edb69eda3d4}
       \strng{authornamehash}{7c7c2f335ff7edc16815d4abaab9b7e7}
       \strng{authorfullhash}{ac5ca95afba2bfe4fd763edb69eda3d4}
-      \strng{authorfullhashraw}{ac5ca95afba2bfe4fd763edb69eda3d4}
       \strng{editorbibnamehash}{d5214b09070be8ba4dd4b092d74a6a64}
       \strng{editornamehash}{d5214b09070be8ba4dd4b092d74a6a64}
       \strng{editorfullhash}{d5214b09070be8ba4dd4b092d74a6a64}
-      \strng{editorfullhashraw}{d5214b09070be8ba4dd4b092d74a6a64}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -3619,7 +3444,7 @@
       \verb https://academia.utp.edu.co/grupobasicoclinicayaplicadas/files/2013/06/Metodolog%C3%ADa-de-la-Investigaci%C3%B3n.pdf
       \endverb
     \endentry
-    \entry{tec_cook2018deeplearning}{misc}{}{}
+    \entry{tec_cook2018deeplearning}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=aeb9610436aac15fb6a7c09973abd706}{%
            family={{House of Bots}},
@@ -3634,16 +3459,13 @@
       }
       \strng{namehash}{aeb9610436aac15fb6a7c09973abd706}
       \strng{fullhash}{aeb9610436aac15fb6a7c09973abd706}
-      \strng{fullhashraw}{aeb9610436aac15fb6a7c09973abd706}
       \strng{bibnamehash}{aeb9610436aac15fb6a7c09973abd706}
       \strng{authorbibnamehash}{aeb9610436aac15fb6a7c09973abd706}
       \strng{authornamehash}{aeb9610436aac15fb6a7c09973abd706}
       \strng{authorfullhash}{aeb9610436aac15fb6a7c09973abd706}
-      \strng{authorfullhashraw}{aeb9610436aac15fb6a7c09973abd706}
       \strng{editorbibnamehash}{95480c374c875335e209ff987f5d42b1}
       \strng{editornamehash}{95480c374c875335e209ff987f5d42b1}
       \strng{editorfullhash}{95480c374c875335e209ff987f5d42b1}
-      \strng{editorfullhashraw}{95480c374c875335e209ff987f5d42b1}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -3660,7 +3482,7 @@
       \verb https://www.houseofbots.com/news-detail/3620-4-most-popular-20-free-online-courses-to-learn-deep-learning
       \endverb
     \endentry
-    \entry{huang2020}{article}{}{}
+    \entry{huang2020}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=cae9da35ae12a6cbd407d07b86b4e18c}{%
            family={Huang},
@@ -3683,12 +3505,10 @@
       }
       \strng{namehash}{163d2cf5fe8e59a79268f7871c4ee263}
       \strng{fullhash}{b1c09cc0517261eeb883ffd79f086366}
-      \strng{fullhashraw}{b1c09cc0517261eeb883ffd79f086366}
       \strng{bibnamehash}{b1c09cc0517261eeb883ffd79f086366}
       \strng{authorbibnamehash}{b1c09cc0517261eeb883ffd79f086366}
       \strng{authornamehash}{163d2cf5fe8e59a79268f7871c4ee263}
       \strng{authorfullhash}{b1c09cc0517261eeb883ffd79f086366}
-      \strng{authorfullhashraw}{b1c09cc0517261eeb883ffd79f086366}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -3707,7 +3527,7 @@
       \verb 10.1111/dth.14124
       \endverb
     \endentry
-    \entry{hussain2021}{article}{}{}
+    \entry{hussain2021}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7f3c448351715604a9867949a573eed9}{%
            family={Hussain},
@@ -3724,12 +3544,10 @@
       }
       \strng{namehash}{dcc2f3db49de27169f07e7d8e41d3cba}
       \strng{fullhash}{dcc2f3db49de27169f07e7d8e41d3cba}
-      \strng{fullhashraw}{dcc2f3db49de27169f07e7d8e41d3cba}
       \strng{bibnamehash}{dcc2f3db49de27169f07e7d8e41d3cba}
       \strng{authorbibnamehash}{dcc2f3db49de27169f07e7d8e41d3cba}
       \strng{authornamehash}{dcc2f3db49de27169f07e7d8e41d3cba}
       \strng{authorfullhash}{dcc2f3db49de27169f07e7d8e41d3cba}
-      \strng{authorfullhashraw}{dcc2f3db49de27169f07e7d8e41d3cba}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -3747,7 +3565,7 @@
       \verb 10.1016/j.jbi.2021.103756
       \endverb
     \endentry
-    \entry{globalcancer2020}{misc}{}{}
+    \entry{globalcancer2020}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e8cc8b5aac5bb12ff73771df7c419e65}{%
            family={{International Agency for Research on Cancer}},
@@ -3755,12 +3573,10 @@
       }
       \strng{namehash}{e8cc8b5aac5bb12ff73771df7c419e65}
       \strng{fullhash}{e8cc8b5aac5bb12ff73771df7c419e65}
-      \strng{fullhashraw}{e8cc8b5aac5bb12ff73771df7c419e65}
       \strng{bibnamehash}{e8cc8b5aac5bb12ff73771df7c419e65}
       \strng{authorbibnamehash}{e8cc8b5aac5bb12ff73771df7c419e65}
       \strng{authornamehash}{e8cc8b5aac5bb12ff73771df7c419e65}
       \strng{authorfullhash}{e8cc8b5aac5bb12ff73771df7c419e65}
-      \strng{authorfullhashraw}{e8cc8b5aac5bb12ff73771df7c419e65}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -3773,7 +3589,7 @@
       \field{title}{Cancer Today: Estimated number of new cases in 2020, worldwide, both sexes, all ages}
       \field{year}{2020}
     \endentry
-    \entry{izco2018bdc}{misc}{}{}
+    \entry{izco2018bdc}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=469102ff09ab2baf2f859838c2dae750}{%
            family={Izco},
@@ -3784,12 +3600,10 @@
       }
       \strng{namehash}{469102ff09ab2baf2f859838c2dae750}
       \strng{fullhash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{fullhashraw}{469102ff09ab2baf2f859838c2dae750}
       \strng{bibnamehash}{469102ff09ab2baf2f859838c2dae750}
       \strng{authorbibnamehash}{469102ff09ab2baf2f859838c2dae750}
       \strng{authornamehash}{469102ff09ab2baf2f859838c2dae750}
       \strng{authorfullhash}{469102ff09ab2baf2f859838c2dae750}
-      \strng{authorfullhashraw}{469102ff09ab2baf2f859838c2dae750}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -3806,7 +3620,7 @@
       \verb https://bookdown.org/f_izco/BDC-POC/metricas.html
       \endverb
     \endentry
-    \entry{bk_kamath2019deeplearning_nlp_sr}{book}{}{}
+    \entry{bk_kamath2019deeplearning_nlp_sr}{book}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1cfc30479d29622a456cfefbcbdf6fa3}{%
            family={Kamath},
@@ -3832,12 +3646,10 @@
       }
       \strng{namehash}{833301448c7c5c65ed3aafb1cfd401dd}
       \strng{fullhash}{ed948ed3d6f5cbfb413490904762ee41}
-      \strng{fullhashraw}{ed948ed3d6f5cbfb413490904762ee41}
       \strng{bibnamehash}{ed948ed3d6f5cbfb413490904762ee41}
       \strng{authorbibnamehash}{ed948ed3d6f5cbfb413490904762ee41}
       \strng{authornamehash}{833301448c7c5c65ed3aafb1cfd401dd}
       \strng{authorfullhash}{ed948ed3d6f5cbfb413490904762ee41}
-      \strng{authorfullhashraw}{ed948ed3d6f5cbfb413490904762ee41}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -3848,7 +3660,7 @@
       \field{title}{Deep Learning for NLP and Speech Recognition}
       \field{year}{2019}
     \endentry
-    \entry{karshiev2020improved}{article}{}{}
+    \entry{karshiev2020improved}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=028ff361ef266e23e1505bdcf8188b61}{%
            family={Karshiev},
@@ -3892,12 +3704,10 @@
       }
       \strng{namehash}{f01f91cf7306405c6d475f4d8c97bf99}
       \strng{fullhash}{c0998e75b328d938fa8ce9faef3e5bdc}
-      \strng{fullhashraw}{c0998e75b328d938fa8ce9faef3e5bdc}
       \strng{bibnamehash}{c0998e75b328d938fa8ce9faef3e5bdc}
       \strng{authorbibnamehash}{c0998e75b328d938fa8ce9faef3e5bdc}
       \strng{authornamehash}{f01f91cf7306405c6d475f4d8c97bf99}
       \strng{authorfullhash}{c0998e75b328d938fa8ce9faef3e5bdc}
-      \strng{authorfullhashraw}{c0998e75b328d938fa8ce9faef3e5bdc}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -3916,7 +3726,7 @@
       \verb 10.3390/app10103658
       \endverb
     \endentry
-    \entry{Kim2023}{article}{}{}
+    \entry{Kim2023}{article}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=247a1099fedf63892b02c166c10b8ca1}{%
            family={Kim},
@@ -3936,12 +3746,10 @@
       }
       \strng{namehash}{1d67c5215e8bbd5b2212653cf68566b2}
       \strng{fullhash}{1d67c5215e8bbd5b2212653cf68566b2}
-      \strng{fullhashraw}{1d67c5215e8bbd5b2212653cf68566b2}
       \strng{bibnamehash}{1d67c5215e8bbd5b2212653cf68566b2}
       \strng{authorbibnamehash}{1d67c5215e8bbd5b2212653cf68566b2}
       \strng{authornamehash}{1d67c5215e8bbd5b2212653cf68566b2}
       \strng{authorfullhash}{1d67c5215e8bbd5b2212653cf68566b2}
-      \strng{authorfullhashraw}{1d67c5215e8bbd5b2212653cf68566b2}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -3958,7 +3766,7 @@
       \verb 10.3390/app13020989
       \endverb
     \endentry
-    \entry{tec_kim2014convolutional}{article}{}{}
+    \entry{tec_kim2014convolutional}{article}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=1fecefbf07117382be6f83e7910ea8a0}{%
            family={Kim},
@@ -3975,12 +3783,10 @@
       }
       \strng{namehash}{1fecefbf07117382be6f83e7910ea8a0}
       \strng{fullhash}{1fecefbf07117382be6f83e7910ea8a0}
-      \strng{fullhashraw}{1fecefbf07117382be6f83e7910ea8a0}
       \strng{bibnamehash}{1fecefbf07117382be6f83e7910ea8a0}
       \strng{authorbibnamehash}{1fecefbf07117382be6f83e7910ea8a0}
       \strng{authornamehash}{1fecefbf07117382be6f83e7910ea8a0}
       \strng{authorfullhash}{1fecefbf07117382be6f83e7910ea8a0}
-      \strng{authorfullhashraw}{1fecefbf07117382be6f83e7910ea8a0}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -4005,7 +3811,7 @@
       \endverb
       \warn{\item Overwriting field 'month' with month value from field 'date' for entry 'tec_kim2014convolutional'}
     \endentry
-    \entry{autor2019canal}{article}{}{}
+    \entry{autor2019canal}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7fc0edf04cce351dda404579ede3d0d1}{%
            family={Kornblith},
@@ -4016,12 +3822,10 @@
       }
       \strng{namehash}{7fc0edf04cce351dda404579ede3d0d1}
       \strng{fullhash}{7fc0edf04cce351dda404579ede3d0d1}
-      \strng{fullhashraw}{7fc0edf04cce351dda404579ede3d0d1}
       \strng{bibnamehash}{7fc0edf04cce351dda404579ede3d0d1}
       \strng{authorbibnamehash}{7fc0edf04cce351dda404579ede3d0d1}
       \strng{authornamehash}{7fc0edf04cce351dda404579ede3d0d1}
       \strng{authorfullhash}{7fc0edf04cce351dda404579ede3d0d1}
-      \strng{authorfullhashraw}{7fc0edf04cce351dda404579ede3d0d1}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -4039,7 +3843,7 @@
       \verb 10.1016/j.jcvr.2019.04.002
       \endverb
     \endentry
-    \entry{krizhevsky2012}{article}{}{}
+    \entry{krizhevsky2012}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c5e3a676e2ac1164b3afcd539c131fc9}{%
            family={Krizhevsky},
@@ -4062,12 +3866,10 @@
       }
       \strng{namehash}{dd291871bfa8ee64447232f1cca429aa}
       \strng{fullhash}{1a23c09aa65b3c2ade45ed18d8127375}
-      \strng{fullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{bibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{authorbibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{authornamehash}{dd291871bfa8ee64447232f1cca429aa}
       \strng{authorfullhash}{1a23c09aa65b3c2ade45ed18d8127375}
-      \strng{authorfullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
       \field{extraname}{1}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
@@ -4084,7 +3886,7 @@
       \field{pages}{1097\bibrangedash 1105}
       \range{pages}{9}
     \endentry
-    \entry{krizhevsky2012imagenet}{article}{}{}
+    \entry{krizhevsky2012imagenet}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c5e3a676e2ac1164b3afcd539c131fc9}{%
            family={Krizhevsky},
@@ -4107,12 +3909,10 @@
       }
       \strng{namehash}{dd291871bfa8ee64447232f1cca429aa}
       \strng{fullhash}{1a23c09aa65b3c2ade45ed18d8127375}
-      \strng{fullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{bibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{authorbibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
       \strng{authornamehash}{dd291871bfa8ee64447232f1cca429aa}
       \strng{authorfullhash}{1a23c09aa65b3c2ade45ed18d8127375}
-      \strng{authorfullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
       \field{extraname}{2}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
@@ -4129,7 +3929,7 @@
       \field{pages}{1097\bibrangedash 1105}
       \range{pages}{9}
     \endentry
-    \entry{lecun1998gradient}{article}{}{}
+    \entry{lecun1998gradient}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=6a1aa6b7eab12b931ca7c7e3f927231d}{%
            family={LeCun},
@@ -4161,12 +3961,10 @@
       }
       \strng{namehash}{9e4c6012409dc8dd9b2aa198a2059804}
       \strng{fullhash}{c397b2e6efe8e5c6ca906410fc9e0ff9}
-      \strng{fullhashraw}{c397b2e6efe8e5c6ca906410fc9e0ff9}
       \strng{bibnamehash}{c397b2e6efe8e5c6ca906410fc9e0ff9}
       \strng{authorbibnamehash}{c397b2e6efe8e5c6ca906410fc9e0ff9}
       \strng{authornamehash}{9e4c6012409dc8dd9b2aa198a2059804}
       \strng{authorfullhash}{c397b2e6efe8e5c6ca906410fc9e0ff9}
-      \strng{authorfullhashraw}{c397b2e6efe8e5c6ca906410fc9e0ff9}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -4182,7 +3980,7 @@
       \field{pages}{2278\bibrangedash 2324}
       \range{pages}{47}
     \endentry
-    \entry{lee2008}{article}{}{}
+    \entry{lee2008}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{3}{}{%
@@ -4207,12 +4005,10 @@
       }
       \strng{namehash}{5eb06e951efd53dea4e270c850fd3f31}
       \strng{fullhash}{73b503ef7c418fcf29f94942ffa40c90}
-      \strng{fullhashraw}{73b503ef7c418fcf29f94942ffa40c90}
       \strng{bibnamehash}{73b503ef7c418fcf29f94942ffa40c90}
       \strng{authorbibnamehash}{73b503ef7c418fcf29f94942ffa40c90}
       \strng{authornamehash}{5eb06e951efd53dea4e270c850fd3f31}
       \strng{authorfullhash}{73b503ef7c418fcf29f94942ffa40c90}
-      \strng{authorfullhashraw}{73b503ef7c418fcf29f94942ffa40c90}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -4229,7 +4025,7 @@
       \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2613964/
       \endverb
     \endentry
-    \entry{lee2020}{article}{}{}
+    \entry{lee2020}{article}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=a38fe2282e0ae708270c02346a36d08f}{%
            family={Lee},
@@ -4246,12 +4042,10 @@
       }
       \strng{namehash}{07dd27ddb7d58787d21f960ffc963778}
       \strng{fullhash}{07dd27ddb7d58787d21f960ffc963778}
-      \strng{fullhashraw}{07dd27ddb7d58787d21f960ffc963778}
       \strng{bibnamehash}{07dd27ddb7d58787d21f960ffc963778}
       \strng{authorbibnamehash}{07dd27ddb7d58787d21f960ffc963778}
       \strng{authornamehash}{07dd27ddb7d58787d21f960ffc963778}
       \strng{authorfullhash}{07dd27ddb7d58787d21f960ffc963778}
-      \strng{authorfullhashraw}{07dd27ddb7d58787d21f960ffc963778}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -4269,7 +4063,7 @@
       \verb 10.1111/jocd.13370
       \endverb
     \endentry
-    \entry{autor2022cnn}{book}{}{}
+    \entry{autor2022cnn}{book}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=dd12628ece2c2bcccc0e876cbeafa9c9}{%
            family={Lee},
@@ -4283,12 +4077,10 @@
       }
       \strng{namehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
       \strng{fullhash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{fullhashraw}{dd12628ece2c2bcccc0e876cbeafa9c9}
       \strng{bibnamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
       \strng{authorbibnamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
       \strng{authornamehash}{dd12628ece2c2bcccc0e876cbeafa9c9}
       \strng{authorfullhash}{dd12628ece2c2bcccc0e876cbeafa9c9}
-      \strng{authorfullhashraw}{dd12628ece2c2bcccc0e876cbeafa9c9}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -4298,7 +4090,7 @@
       \field{title}{Convolutional Neural Networks: Theory and Practice}
       \field{year}{2022}
     \endentry
-    \entry{minsa2022}{misc}{}{}
+    \entry{minsa2022}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=032ba331a6e4caec8deb97c7319ac551}{%
            family={{Ministerio de Salud del Perú}},
@@ -4306,12 +4098,10 @@
       }
       \strng{namehash}{032ba331a6e4caec8deb97c7319ac551}
       \strng{fullhash}{032ba331a6e4caec8deb97c7319ac551}
-      \strng{fullhashraw}{032ba331a6e4caec8deb97c7319ac551}
       \strng{bibnamehash}{032ba331a6e4caec8deb97c7319ac551}
       \strng{authorbibnamehash}{032ba331a6e4caec8deb97c7319ac551}
       \strng{authornamehash}{032ba331a6e4caec8deb97c7319ac551}
       \strng{authorfullhash}{032ba331a6e4caec8deb97c7319ac551}
-      \strng{authorfullhashraw}{032ba331a6e4caec8deb97c7319ac551}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -4324,7 +4114,7 @@
       \field{title}{Boletín Epidemiológico del Perú 2022}
       \field{year}{2022}
     \endentry
-    \entry{mohammadi2019}{article}{}{}
+    \entry{mohammadi2019}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{4}{}{%
@@ -4358,12 +4148,10 @@
       }
       \strng{namehash}{472b8ee2da6bfc840099683dfcee3589}
       \strng{fullhash}{ea95c4b0aca0eae16a8825608d424785}
-      \strng{fullhashraw}{ea95c4b0aca0eae16a8825608d424785}
       \strng{bibnamehash}{ea95c4b0aca0eae16a8825608d424785}
       \strng{authorbibnamehash}{ea95c4b0aca0eae16a8825608d424785}
       \strng{authornamehash}{472b8ee2da6bfc840099683dfcee3589}
       \strng{authorfullhash}{ea95c4b0aca0eae16a8825608d424785}
-      \strng{authorfullhashraw}{ea95c4b0aca0eae16a8825608d424785}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -4381,7 +4169,7 @@
       \verb 10.1016/j.compbiomed.2019.103388
       \endverb
     \endentry
-    \entry{moon2024dermatology}{article}{}{}
+    \entry{moon2024dermatology}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=79547a5b843d71784aa077e52148d086}{%
            family={Moon},
@@ -4404,12 +4192,10 @@
       }
       \strng{namehash}{08f84242db27b8503f8f37ee6aec0b14}
       \strng{fullhash}{471bc15beffc5a786885e5cda575cc54}
-      \strng{fullhashraw}{471bc15beffc5a786885e5cda575cc54}
       \strng{bibnamehash}{471bc15beffc5a786885e5cda575cc54}
       \strng{authorbibnamehash}{471bc15beffc5a786885e5cda575cc54}
       \strng{authornamehash}{08f84242db27b8503f8f37ee6aec0b14}
       \strng{authorfullhash}{471bc15beffc5a786885e5cda575cc54}
-      \strng{authorfullhashraw}{471bc15beffc5a786885e5cda575cc54}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -4427,7 +4213,7 @@
       \verb https://github.com/labhai/ffhq-wrinkle-dataset
       \endverb
     \endentry
-    \entry{oktay2018attentionunet}{article}{}{}
+    \entry{oktay2018attentionunet}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{3}{}{%
@@ -4452,12 +4238,10 @@
       }
       \strng{namehash}{3c926513cb4db42dfabd499e86fbfa18}
       \strng{fullhash}{0eef35e03895395880cea8f977679b3c}
-      \strng{fullhashraw}{0eef35e03895395880cea8f977679b3c}
       \strng{bibnamehash}{0eef35e03895395880cea8f977679b3c}
       \strng{authorbibnamehash}{0eef35e03895395880cea8f977679b3c}
       \strng{authornamehash}{3c926513cb4db42dfabd499e86fbfa18}
       \strng{authorfullhash}{0eef35e03895395880cea8f977679b3c}
-      \strng{authorfullhashraw}{0eef35e03895395880cea8f977679b3c}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -4469,7 +4253,7 @@
       \field{title}{Attention U-Net: Learning Where to Look for the Pancreas}
       \field{year}{2018}
     \endentry
-    \entry{who2023air}{misc}{}{}
+    \entry{who2023air}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8179b1fdebe9235e54501d2878c47e1b}{%
            family={Organization},
@@ -4480,12 +4264,10 @@
       }
       \strng{namehash}{8179b1fdebe9235e54501d2878c47e1b}
       \strng{fullhash}{8179b1fdebe9235e54501d2878c47e1b}
-      \strng{fullhashraw}{8179b1fdebe9235e54501d2878c47e1b}
       \strng{bibnamehash}{8179b1fdebe9235e54501d2878c47e1b}
       \strng{authorbibnamehash}{8179b1fdebe9235e54501d2878c47e1b}
       \strng{authornamehash}{8179b1fdebe9235e54501d2878c47e1b}
       \strng{authorfullhash}{8179b1fdebe9235e54501d2878c47e1b}
-      \strng{authorfullhashraw}{8179b1fdebe9235e54501d2878c47e1b}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -4498,7 +4280,7 @@
       \field{title}{Air pollution}
       \field{year}{2023}
     \endentry
-    \entry{Ruri2020}{article}{}{}
+    \entry{Ruri2020}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4d1c970d3e823a7f26f09a3e86f59ce5}{%
            family={Pamela},
@@ -4509,12 +4291,10 @@
       }
       \strng{namehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
       \strng{fullhash}{4d1c970d3e823a7f26f09a3e86f59ce5}
-      \strng{fullhashraw}{4d1c970d3e823a7f26f09a3e86f59ce5}
       \strng{bibnamehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
       \strng{authorbibnamehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
       \strng{authornamehash}{4d1c970d3e823a7f26f09a3e86f59ce5}
       \strng{authorfullhash}{4d1c970d3e823a7f26f09a3e86f59ce5}
-      \strng{authorfullhashraw}{4d1c970d3e823a7f26f09a3e86f59ce5}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -4526,7 +4306,7 @@
       \field{title}{Jakarta’s Air Pollution, and the New Emerging Cause for Skin Aging}
       \field{year}{2020}
     \endentry
-    \entry{pan2021cutaneous}{article}{}{}
+    \entry{pan2021cutaneous}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5a20bc013ec98bab1ec4391063497c20}{%
            family={Pan},
@@ -4552,12 +4332,10 @@
       }
       \strng{namehash}{0380343ae2658d6ef64a58421354f943}
       \strng{fullhash}{ed92fa17210742524c0027d29bafcefa}
-      \strng{fullhashraw}{ed92fa17210742524c0027d29bafcefa}
       \strng{bibnamehash}{ed92fa17210742524c0027d29bafcefa}
       \strng{authorbibnamehash}{ed92fa17210742524c0027d29bafcefa}
       \strng{authornamehash}{0380343ae2658d6ef64a58421354f943}
       \strng{authorfullhash}{ed92fa17210742524c0027d29bafcefa}
-      \strng{authorfullhashraw}{ed92fa17210742524c0027d29bafcefa}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -4575,7 +4353,7 @@
       \verb 10.1016/j.jocn.2021.04.024
       \endverb
     \endentry
-    \entry{elperuano2025belleza}{article}{}{}
+    \entry{elperuano2025belleza}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=23f2026178a5cd3b56f3239350abd54b}{%
            family={Peruano},
@@ -4586,12 +4364,10 @@
       }
       \strng{namehash}{23f2026178a5cd3b56f3239350abd54b}
       \strng{fullhash}{23f2026178a5cd3b56f3239350abd54b}
-      \strng{fullhashraw}{23f2026178a5cd3b56f3239350abd54b}
       \strng{bibnamehash}{23f2026178a5cd3b56f3239350abd54b}
       \strng{authorbibnamehash}{23f2026178a5cd3b56f3239350abd54b}
       \strng{authornamehash}{23f2026178a5cd3b56f3239350abd54b}
       \strng{authorfullhash}{23f2026178a5cd3b56f3239350abd54b}
-      \strng{authorfullhashraw}{23f2026178a5cd3b56f3239350abd54b}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -4610,7 +4386,7 @@
       \verb https://www.elperuano.pe/noticia/237309-belleza-y-cuidado-personal-una-industria-que-se-afianza
       \endverb
     \endentry
-    \entry{phillips2020}{article}{}{}
+    \entry{phillips2020}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=cd11e30a94f3958bcd2f8a6c9cf887cf}{%
            family={Phillips},
@@ -4632,12 +4408,10 @@
       }
       \strng{namehash}{a3d224583fa3e85fca7621fa1db10818}
       \strng{fullhash}{2a2c3e7f596e51393e9b5f275e0d315f}
-      \strng{fullhashraw}{2a2c3e7f596e51393e9b5f275e0d315f}
       \strng{bibnamehash}{2a2c3e7f596e51393e9b5f275e0d315f}
       \strng{authorbibnamehash}{2a2c3e7f596e51393e9b5f275e0d315f}
       \strng{authornamehash}{a3d224583fa3e85fca7621fa1db10818}
       \strng{authorfullhash}{2a2c3e7f596e51393e9b5f275e0d315f}
-      \strng{authorfullhashraw}{2a2c3e7f596e51393e9b5f275e0d315f}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -4655,7 +4429,7 @@
       \verb 10.1016/j.compbiomed.2020.103930
       \endverb
     \endentry
-    \entry{reinke2021common}{article}{}{}
+    \entry{reinke2021common}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
@@ -4671,12 +4445,10 @@
       }
       \strng{namehash}{18bc622f326228288c45f4029c28aa28}
       \strng{fullhash}{18bc622f326228288c45f4029c28aa28}
-      \strng{fullhashraw}{18bc622f326228288c45f4029c28aa28}
       \strng{bibnamehash}{18bc622f326228288c45f4029c28aa28}
       \strng{authorbibnamehash}{18bc622f326228288c45f4029c28aa28}
       \strng{authornamehash}{18bc622f326228288c45f4029c28aa28}
       \strng{authorfullhash}{18bc622f326228288c45f4029c28aa28}
-      \strng{authorfullhashraw}{18bc622f326228288c45f4029c28aa28}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -4692,7 +4464,7 @@
       \field{pages}{100232}
       \range{pages}{1}
     \endentry
-    \entry{ronneberger2015}{article}{}{}
+    \entry{ronneberger2015}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=8e46da9de9e53ea5d37089897d69cdd9}{%
            family={Ronneberger},
@@ -4718,12 +4490,10 @@
       }
       \strng{namehash}{9a497128db448eba9bbb6e27b1ed57ed}
       \strng{fullhash}{f23ccc5160c62c7866172335b2c76e11}
-      \strng{fullhashraw}{f23ccc5160c62c7866172335b2c76e11}
       \strng{bibnamehash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authorbibnamehash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authornamehash}{9a497128db448eba9bbb6e27b1ed57ed}
       \strng{authorfullhash}{f23ccc5160c62c7866172335b2c76e11}
-      \strng{authorfullhashraw}{f23ccc5160c62c7866172335b2c76e11}
       \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -4745,7 +4515,7 @@
       \verb https://arxiv.org/abs/1505.04597
       \endverb
     \endentry
-    \entry{ronneberger2015unet}{article}{}{}
+    \entry{ronneberger2015unet}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=8e46da9de9e53ea5d37089897d69cdd9}{%
            family={Ronneberger},
@@ -4771,12 +4541,10 @@
       }
       \strng{namehash}{9a497128db448eba9bbb6e27b1ed57ed}
       \strng{fullhash}{f23ccc5160c62c7866172335b2c76e11}
-      \strng{fullhashraw}{f23ccc5160c62c7866172335b2c76e11}
       \strng{bibnamehash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authorbibnamehash}{f23ccc5160c62c7866172335b2c76e11}
       \strng{authornamehash}{9a497128db448eba9bbb6e27b1ed57ed}
       \strng{authorfullhash}{f23ccc5160c62c7866172335b2c76e11}
-      \strng{authorfullhashraw}{f23ccc5160c62c7866172335b2c76e11}
       \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -4792,7 +4560,7 @@
       \field{pages}{234\bibrangedash 241}
       \range{pages}{8}
     \endentry
-    \entry{bk_russell2004intart}{book}{}{}
+    \entry{bk_russell2004intart}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
            family={Russell},
@@ -4857,16 +4625,13 @@
       }
       \strng{namehash}{b280605b721b4ebcba5395298499f924}
       \strng{fullhash}{b280605b721b4ebcba5395298499f924}
-      \strng{fullhashraw}{b280605b721b4ebcba5395298499f924}
       \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
       \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
       \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
       \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
-      \strng{authorfullhashraw}{b280605b721b4ebcba5395298499f924}
       \strng{translatorbibnamehash}{1cb6e05e9397c6f5bbf497c05c49a517}
       \strng{translatornamehash}{34c5a49e0dcd6a713494d87de76112f4}
       \strng{translatorfullhash}{1cb6e05e9397c6f5bbf497c05c49a517}
-      \strng{translatorfullhashraw}{1cb6e05e9397c6f5bbf497c05c49a517}
       \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -4887,7 +4652,7 @@
       \verb https://luismejias21.files.wordpress.com/2017/09/inteligencia-artificial-un-enfoque-moderno-stuart-j-russell.pdf
       \endverb
     \endentry
-    \entry{bk_russell2009intart}{book}{}{}
+    \entry{bk_russell2009intart}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
            family={Russell},
@@ -4907,12 +4672,10 @@
       }
       \strng{namehash}{b280605b721b4ebcba5395298499f924}
       \strng{fullhash}{b280605b721b4ebcba5395298499f924}
-      \strng{fullhashraw}{b280605b721b4ebcba5395298499f924}
       \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
       \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
       \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
       \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
-      \strng{authorfullhashraw}{b280605b721b4ebcba5395298499f924}
       \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -4927,7 +4690,7 @@
       \field{pages}{229}
       \range{pages}{1}
     \endentry
-    \entry{tec_sancho2018supnosup}{report}{}{}
+    \entry{tec_sancho2018supnosup}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0420a3ca37de3cf5d2661da09b11e868}{%
            family={Sancho\bibnamedelima Caparrini},
@@ -4944,12 +4707,10 @@
       }
       \strng{namehash}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{fullhash}{0420a3ca37de3cf5d2661da09b11e868}
-      \strng{fullhashraw}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{bibnamehash}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{authorbibnamehash}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{authornamehash}{0420a3ca37de3cf5d2661da09b11e868}
       \strng{authorfullhash}{0420a3ca37de3cf5d2661da09b11e868}
-      \strng{authorfullhashraw}{0420a3ca37de3cf5d2661da09b11e868}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -4967,7 +4728,7 @@
       \verb http://www.cs.us.es/~fsancho/?e=77
       \endverb
     \endentry
-    \entry{autor2020spa}{article}{}{}
+    \entry{autor2020spa}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b17a6e4a2e8a51a0d77017d50c2ef700}{%
            family={Sanh},
@@ -4978,12 +4739,10 @@
       }
       \strng{namehash}{b17a6e4a2e8a51a0d77017d50c2ef700}
       \strng{fullhash}{b17a6e4a2e8a51a0d77017d50c2ef700}
-      \strng{fullhashraw}{b17a6e4a2e8a51a0d77017d50c2ef700}
       \strng{bibnamehash}{b17a6e4a2e8a51a0d77017d50c2ef700}
       \strng{authorbibnamehash}{b17a6e4a2e8a51a0d77017d50c2ef700}
       \strng{authornamehash}{b17a6e4a2e8a51a0d77017d50c2ef700}
       \strng{authorfullhash}{b17a6e4a2e8a51a0d77017d50c2ef700}
-      \strng{authorfullhashraw}{b17a6e4a2e8a51a0d77017d50c2ef700}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -5001,7 +4760,7 @@
       \verb 10.1109/JMV.2020.3051234
       \endverb
     \endentry
-    \entry{gl_sas_deeplearning}{misc}{}{}
+    \entry{gl_sas_deeplearning}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fed2cabe2c5fbb2abc601c8460691920}{%
            family={{SAS Institute}},
@@ -5009,12 +4768,10 @@
       }
       \strng{namehash}{fed2cabe2c5fbb2abc601c8460691920}
       \strng{fullhash}{fed2cabe2c5fbb2abc601c8460691920}
-      \strng{fullhashraw}{fed2cabe2c5fbb2abc601c8460691920}
       \strng{bibnamehash}{fed2cabe2c5fbb2abc601c8460691920}
       \strng{authorbibnamehash}{fed2cabe2c5fbb2abc601c8460691920}
       \strng{authornamehash}{fed2cabe2c5fbb2abc601c8460691920}
       \strng{authorfullhash}{fed2cabe2c5fbb2abc601c8460691920}
-      \strng{authorfullhashraw}{fed2cabe2c5fbb2abc601c8460691920}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labeldatesource}{nodate}
@@ -5029,7 +4786,7 @@
       \verb https://www.sas.com/es_pe/insights/analytics/deep-learning.html
       \endverb
     \endentry
-    \entry{senamhi2023uv}{misc}{}{}
+    \entry{senamhi2023uv}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=32fc15bba4943cdb9cd8354123f34af2}{%
            family={{Servicio Nacional de Meteorología e Hidrología del Perú}},
@@ -5037,12 +4794,10 @@
       }
       \strng{namehash}{32fc15bba4943cdb9cd8354123f34af2}
       \strng{fullhash}{32fc15bba4943cdb9cd8354123f34af2}
-      \strng{fullhashraw}{32fc15bba4943cdb9cd8354123f34af2}
       \strng{bibnamehash}{32fc15bba4943cdb9cd8354123f34af2}
       \strng{authorbibnamehash}{32fc15bba4943cdb9cd8354123f34af2}
       \strng{authornamehash}{32fc15bba4943cdb9cd8354123f34af2}
       \strng{authorfullhash}{32fc15bba4943cdb9cd8354123f34af2}
-      \strng{authorfullhashraw}{32fc15bba4943cdb9cd8354123f34af2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -5055,7 +4810,7 @@
       \field{title}{Radiación Ultravioleta en el Perú: Reporte anual 2023}
       \field{year}{2023}
     \endentry
-    \entry{autor2020segmentacion}{book}{}{}
+    \entry{autor2020segmentacion}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5d0ddda3a367ceb26fbaeca02e391c22}{%
            family={Smith},
@@ -5069,12 +4824,10 @@
       }
       \strng{namehash}{5d0ddda3a367ceb26fbaeca02e391c22}
       \strng{fullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{fullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
       \strng{bibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
       \strng{authorbibnamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
       \strng{authornamehash}{5d0ddda3a367ceb26fbaeca02e391c22}
       \strng{authorfullhash}{5d0ddda3a367ceb26fbaeca02e391c22}
-      \strng{authorfullhashraw}{5d0ddda3a367ceb26fbaeca02e391c22}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -5085,7 +4838,7 @@
       \field{title}{Image Segmentation in Computer Vision}
       \field{year}{2020}
     \endentry
-    \entry{sorensen1948}{article}{}{}
+    \entry{sorensen1948}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=288e248947d6fc30e1fca311074fcc68}{%
            family={Sorensen},
@@ -5096,12 +4849,10 @@
       }
       \strng{namehash}{288e248947d6fc30e1fca311074fcc68}
       \strng{fullhash}{288e248947d6fc30e1fca311074fcc68}
-      \strng{fullhashraw}{288e248947d6fc30e1fca311074fcc68}
       \strng{bibnamehash}{288e248947d6fc30e1fca311074fcc68}
       \strng{authorbibnamehash}{288e248947d6fc30e1fca311074fcc68}
       \strng{authornamehash}{288e248947d6fc30e1fca311074fcc68}
       \strng{authorfullhash}{288e248947d6fc30e1fca311074fcc68}
-      \strng{authorfullhashraw}{288e248947d6fc30e1fca311074fcc68}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -5116,7 +4867,7 @@
       \field{pages}{1\bibrangedash 34}
       \range{pages}{34}
     \endentry
-    \entry{statista2023peru}{misc}{}{}
+    \entry{statista2023peru}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
            family={{Statista}},
@@ -5124,12 +4875,10 @@
       }
       \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
       \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -5148,7 +4897,7 @@
       \verb https://www.statista.com/outlook/cmo/beauty-personal-care/peru
       \endverb
     \endentry
-    \entry{statista2025usforecast}{misc}{}{}
+    \entry{statista2025usforecast}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
            family={{Statista}},
@@ -5156,12 +4905,10 @@
       }
       \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
       \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -5180,7 +4927,7 @@
       \verb https://www.statista.com/outlook/cmo/beauty-personal-care/skin-care/united-states
       \endverb
     \endentry
-    \entry{statista2023us}{misc}{}{}
+    \entry{statista2023us}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
            family={{Statista}},
@@ -5188,12 +4935,10 @@
       }
       \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
       \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhashraw}{62182ca58a739daa8ddd8a48b7b19abb}
       \field{extraname}{3}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -5212,7 +4957,7 @@
       \verb https://www.statista.com/topics/4517/us-skin-care-market/
       \endverb
     \endentry
-    \entry{taha2015metrics}{article}{}{}
+    \entry{taha2015metrics}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d64855c75d4efb2074a21443e55a4017}{%
            family={Taha},
@@ -5232,12 +4977,10 @@
       }
       \strng{namehash}{528dddfc512f31aa7ecc83bbee3ae150}
       \strng{fullhash}{528dddfc512f31aa7ecc83bbee3ae150}
-      \strng{fullhashraw}{528dddfc512f31aa7ecc83bbee3ae150}
       \strng{bibnamehash}{528dddfc512f31aa7ecc83bbee3ae150}
       \strng{authorbibnamehash}{528dddfc512f31aa7ecc83bbee3ae150}
       \strng{authornamehash}{528dddfc512f31aa7ecc83bbee3ae150}
       \strng{authorfullhash}{528dddfc512f31aa7ecc83bbee3ae150}
-      \strng{authorfullhashraw}{528dddfc512f31aa7ecc83bbee3ae150}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -5253,7 +4996,7 @@
       \field{pages}{1\bibrangedash 28}
       \range{pages}{28}
     \endentry
-    \entry{Tamilkodi2024}{article}{}{}
+    \entry{Tamilkodi2024}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=b5318b1429134a7ecaa0cc7944130a9e}{%
            family={Tamilkodi},
@@ -5301,12 +5044,10 @@
       }
       \strng{namehash}{6090a3894f9cc0a8a02548ceae0ba21e}
       \strng{fullhash}{dd19f5b4bed707fe17e8b5900eb96a5e}
-      \strng{fullhashraw}{dd19f5b4bed707fe17e8b5900eb96a5e}
       \strng{bibnamehash}{dd19f5b4bed707fe17e8b5900eb96a5e}
       \strng{authorbibnamehash}{dd19f5b4bed707fe17e8b5900eb96a5e}
       \strng{authornamehash}{6090a3894f9cc0a8a02548ceae0ba21e}
       \strng{authorfullhash}{dd19f5b4bed707fe17e8b5900eb96a5e}
-      \strng{authorfullhashraw}{dd19f5b4bed707fe17e8b5900eb96a5e}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -5323,7 +5064,7 @@
       \verb 10.2991/978-94-6463-471-6_129
       \endverb
     \endentry
-    \entry{autor2021atencion}{article}{}{}
+    \entry{autor2021atencion}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
            family={Vaswani},
@@ -5334,12 +5075,10 @@
       }
       \strng{namehash}{7f28e84700536646dd6620a0db07ad09}
       \strng{fullhash}{7f28e84700536646dd6620a0db07ad09}
-      \strng{fullhashraw}{7f28e84700536646dd6620a0db07ad09}
       \strng{bibnamehash}{7f28e84700536646dd6620a0db07ad09}
       \strng{authorbibnamehash}{7f28e84700536646dd6620a0db07ad09}
       \strng{authornamehash}{7f28e84700536646dd6620a0db07ad09}
       \strng{authorfullhash}{7f28e84700536646dd6620a0db07ad09}
-      \strng{authorfullhashraw}{7f28e84700536646dd6620a0db07ad09}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
@@ -5357,7 +5096,7 @@
       \verb 10.1109/TNN.2021.3051234
       \endverb
     \endentry
-    \entry{who2020workforce}{misc}{}{}
+    \entry{who2020workforce}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=531217507bec092b6ec36c0f78f46736}{%
            family={{World Health Organization}},
@@ -5365,12 +5104,10 @@
       }
       \strng{namehash}{531217507bec092b6ec36c0f78f46736}
       \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
-      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
       \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
       \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
       \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
       \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
-      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -5383,7 +5120,7 @@
       \field{title}{Global Health Observatory data repository: Health workforce statistics}
       \field{year}{2020}
     \endentry
-    \entry{yoo2020}{article}{}{}
+    \entry{yoo2020}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=98b0eae050c2ed43990b77fbf3daa50e}{%
            family={Yoo},
@@ -5406,12 +5143,10 @@
       }
       \strng{namehash}{8e47f254ab0a0045e4fc5d9daa695614}
       \strng{fullhash}{2bbfb02e918945516b9ffc5695e95963}
-      \strng{fullhashraw}{2bbfb02e918945516b9ffc5695e95963}
       \strng{bibnamehash}{2bbfb02e918945516b9ffc5695e95963}
       \strng{authorbibnamehash}{2bbfb02e918945516b9ffc5695e95963}
       \strng{authornamehash}{8e47f254ab0a0045e4fc5d9daa695614}
       \strng{authorfullhash}{2bbfb02e918945516b9ffc5695e95963}
-      \strng{authorfullhashraw}{2bbfb02e918945516b9ffc5695e95963}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
@@ -5430,7 +5165,7 @@
       \verb 10.1016/j.jdermsci.2020.06.012
       \endverb
     \endentry
-    \entry{yoon2023}{article}{}{}
+    \entry{yoon2023}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=dce0ab6c9089b1aa3ef09d0c782874b9}{%
            family={Yoon},
@@ -5459,12 +5194,10 @@
       }
       \strng{namehash}{993471a31d84e6c248175447bf2070b8}
       \strng{fullhash}{fd67b167cf40cdcc77a98a4131096eff}
-      \strng{fullhashraw}{fd67b167cf40cdcc77a98a4131096eff}
       \strng{bibnamehash}{fd67b167cf40cdcc77a98a4131096eff}
       \strng{authorbibnamehash}{fd67b167cf40cdcc77a98a4131096eff}
       \strng{authornamehash}{993471a31d84e6c248175447bf2070b8}
       \strng{authorfullhash}{fd67b167cf40cdcc77a98a4131096eff}
-      \strng{authorfullhashraw}{fd67b167cf40cdcc77a98a4131096eff}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
@@ -5481,7 +5214,7 @@
       \verb 10.3390/diagnostics13111894
       \endverb
     \endentry
-    \entry{yu2021bisenetv2}{article}{}{}
+    \entry{yu2021bisenetv2}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{3}{}{%
@@ -5506,12 +5239,10 @@
       }
       \strng{namehash}{404aec30669fccbcb08cca80a888447c}
       \strng{fullhash}{436774eb71fb4077d20d8eac41e285d1}
-      \strng{fullhashraw}{436774eb71fb4077d20d8eac41e285d1}
       \strng{bibnamehash}{436774eb71fb4077d20d8eac41e285d1}
       \strng{authorbibnamehash}{436774eb71fb4077d20d8eac41e285d1}
       \strng{authornamehash}{404aec30669fccbcb08cca80a888447c}
       \strng{authorfullhash}{436774eb71fb4077d20d8eac41e285d1}
-      \strng{authorfullhashraw}{436774eb71fb4077d20d8eac41e285d1}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
@@ -5523,7 +5254,7 @@
       \field{title}{BiseNet V2: Bilateral Network with Guided Aggregation for Real-time Semantic Segmentation}
       \field{year}{2021}
     \endentry
-    \entry{bk_zambrano2018supnosup}{online}{}{}
+    \entry{bk_zambrano2018supnosup}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5382f6d4dddfd71a612981c6be0a65c5}{%
            family={Zambrano},
@@ -5537,12 +5268,10 @@
       }
       \strng{namehash}{5382f6d4dddfd71a612981c6be0a65c5}
       \strng{fullhash}{5382f6d4dddfd71a612981c6be0a65c5}
-      \strng{fullhashraw}{5382f6d4dddfd71a612981c6be0a65c5}
       \strng{bibnamehash}{5382f6d4dddfd71a612981c6be0a65c5}
       \strng{authorbibnamehash}{5382f6d4dddfd71a612981c6be0a65c5}
       \strng{authornamehash}{5382f6d4dddfd71a612981c6be0a65c5}
       \strng{authorfullhash}{5382f6d4dddfd71a612981c6be0a65c5}
-      \strng{authorfullhashraw}{5382f6d4dddfd71a612981c6be0a65c5}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{extradatescope}{labelyear}
@@ -5560,7 +5289,7 @@
       \verb https://medium.com/@juanzambrano/aprendizaje-supervisado-o-no-supervisado-39ccf1fd6e7b
       \endverb
     \endentry
-    \entry{zhao2021}{article}{}{}
+    \entry{zhao2021}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bb86c6a67d0b873b7f2ef7defe046268}{%
            family={Zhao},
@@ -5577,12 +5306,10 @@
       }
       \strng{namehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{fullhash}{41fb6c8b36536d8c2ea94ff59afdbc73}
-      \strng{fullhashraw}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{bibnamehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{authorbibnamehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{authornamehash}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \strng{authorfullhash}{41fb6c8b36536d8c2ea94ff59afdbc73}
-      \strng{authorfullhashraw}{41fb6c8b36536d8c2ea94ff59afdbc73}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{extradatescope}{labelyear}
@@ -5600,7 +5327,7 @@
       \verb 10.1016/j.media.2021.01.007
       \endverb
     \endentry
-    \entry{Zhong2024}{article}{}{}
+    \entry{Zhong2024}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=b397eba556bd786e66a6f64271a255c5}{%
            family={Zhong},
@@ -5651,16 +5378,13 @@
       }
       \strng{namehash}{7efbc5be057a945f797203b5eac0ca85}
       \strng{fullhash}{81c4f22c68ab1d83f02cc67d3631cea4}
-      \strng{fullhashraw}{81c4f22c68ab1d83f02cc67d3631cea4}
       \strng{bibnamehash}{81c4f22c68ab1d83f02cc67d3631cea4}
       \strng{authorbibnamehash}{81c4f22c68ab1d83f02cc67d3631cea4}
       \strng{authornamehash}{7efbc5be057a945f797203b5eac0ca85}
       \strng{authorfullhash}{81c4f22c68ab1d83f02cc67d3631cea4}
-      \strng{authorfullhashraw}{81c4f22c68ab1d83f02cc67d3631cea4}
       \strng{editorbibnamehash}{f043736d53a7fb6bc7d25ed7e3f99e20}
       \strng{editornamehash}{f043736d53a7fb6bc7d25ed7e3f99e20}
       \strng{editorfullhash}{f043736d53a7fb6bc7d25ed7e3f99e20}
-      \strng{editorfullhashraw}{f043736d53a7fb6bc7d25ed7e3f99e20}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{extradatescope}{labelyear}

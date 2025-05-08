@@ -74,27 +74,92 @@ Este proceso de representación y normalización, como se ve en el diagrama fina
 
 \section{Desarrollo de los Modelos de Segmentación}
 
-\textbf{Actividad 1: Diseño de la arquitectura del modelo}
+\textbf{Actividad 1: Diseño de la arquitectura del modelo}\\
+Se diseñó una arquitectura basada en U-Net con Attention Gates, que consta de:
+\begin{itemize}
+  \item Módulos de doble convolución (DoubleConv) en el encoder y decoder.  
+  \item Capas de atención (AttentionGate) ubicadas en cada salto del decoder para realzar las regiones de interés (arrugas y manchas).  
+  \item Caminos de downsampling (MaxPool2d) y upsampling (ConvTranspose2d) para conservar la resolución espacial.  
+  \item Capa final de convolución 1x1 para segmentación en tres clases (fondo, arrugas, manchas).  
+\end{itemize}
 
-\textbf{Actividad 2: Definición de componentes del modelo}
+\textbf{Actividad 2: Definición de componentes del modelo}\\
+Los componentes principales incluyen:
+\begin{itemize}
+  \item \textit{DoubleConv}: bloque de dos convoluciones secuenciales con BatchNorm y ReLU.  
+  \item \textit{AttentionGate}: mecanismo de atención consistente en convoluciones 1x1, sumas tensoriales y función Sigmoid para generar máscaras atencionales.  
+  \item Optimizador \texttt{AdamW} con decaimiento de pesos para mejorar la generalización.  
+  \item Scheduler \texttt{ReduceLROnPlateau} para ajuste dinámico de la tasa de aprendizaje.  
+  \item Función de pérdida \texttt{CrossEntropyLoss} con pesos calculados por median frequency balancing.  
+\end{itemize}
 
-\textbf{Actividad 3: Estrategia de ensamblado del modelo}
+\textbf{Actividad 3: Estrategia de ensamblado del modelo}\\
+Se definió una estrategia de ensamblado simple basada en el entrenamiento de un solo modelo entrenado por 50 épocas, guardando el estado de mejor rendimiento en validación (menor pérdida). No se implementó ensamblado múltiple, pues la arquitectura con atención demostró ser suficiente tras el análisis de métricas.
 
 \section{Entrenamiento del Modelo}
 
-\textbf{Actividad 1: Configuración del entorno de entrenamiento}
+\textbf{Actividad 1: Configuración del entorno de entrenamiento}\\
+Se configuró el entorno con los siguientes parámetros:
+\begin{itemize}
+  \item Ruta de datos: \texttt{face\_images}, \texttt{arrugas}, \texttt{manchas}.  
+  \item Tamaño de lote (batch size): 4.  
+  \item Dimensión de entrada: 256 x 256 píxeles.  
+  \item Tasa de aprendizaje inicial: $1\times10^{-4}$.  
+  \item Número de épocas: 50.  
+  \item Dispositivo de cómputo: GPU (CUDA) o CPU según disponibilidad.  
+  \item Semilla aleatoria fija (42) para reproducibilidad.  
+\end{itemize}
 
-\textbf{Actividad 2: Aplicación de técnicas de optimización}
+\textbf{Actividad 2: Aplicación de técnicas de optimización}\\
+Se incorporaron las siguientes técnicas:
+\begin{itemize}
+  \item Aumentos de datos con \texttt{albumentations}: volteos, rotaciones, ruido Gaussiano, brillo/contraste, transformaciones elásticas y desenfoque.  
+  \item Balanceo de clases mediante median frequency balancing para generar pesos en \texttt{CrossEntropyLoss}.  
+  \item Optimizador \texttt{AdamW} y scheduler \texttt{ReduceLROnPlateau} para ajuste automático de la tasa de aprendizaje.  
+  \item Impresión de métricas de pérdida en entrenamiento y validación por época.  
+\end{itemize}
 
-\textbf{Actividad 3: Validación cruzada del rendimiento}
+\textbf{Actividad 3: Validación cruzada del rendimiento}\\
+La validación se realizó con:
+\begin{itemize}
+  \item División de datos: 80\% entrenamiento, 20\% validación usando \texttt{train\_test\_split}.  
+  \item DataLoaders separados para entrenamiento y validación, garantizando evaluación independiente.  
+  \item Cálculo de métricas (pérdida, precisión, Dice, Jaccard) en el conjunto de validación cada época.  
+  \item Guardado del modelo con menor \emph{val\_loss} como mejor checkpoint.  
+\end{itemize}
+
 
 \section{Evaluación del Modelo}
 
-\textbf{Actividad 1: Preparación de Datos de Validación}
+\textbf{Actividad 1: Preparación de Datos de Validación}\\
+Se prepararon las imágenes de validación con transformaciones mínimas:
+\begin{itemize}
+  \item Redimensionamiento a 256x256 píxeles.  
+  \item Conversión a tensor SIN alteraciones adicionales.  
+  \item Unión de máscaras de arrugas y manchas en una única máscara multicategoría.  
+\end{itemize}
 
-\textbf{Actividad 2: Definición de Métricas de Evaluación}
+\textbf{Actividad 2: Definición de Métricas de Evaluación}\\
+Las métricas utilizadas fueron:
+\begin{itemize}
+  \item \textit{Precision} (macro) para evaluar la exactitud de las predicciones.  
+  \item \textit{Dice Score} promedio para medir la superposición.  
+  \item \textit{Jaccard Index (IoU)} promedio para una evaluación estricta del solapamiento.  
+\end{itemize}
 
-\textbf{Actividad 3: Evaluación del Modelo}
+\textbf{Actividad 3: Evaluación del Modelo}\\
+El modelo alcanzó los siguientes resultados en validación:
+\begin{itemize}
+  \item \textbf{Pérdida mínima (val\_loss):} 0.0458 (época 50).  
+  \item \textbf{Precision promedio:} 0.645.  
+  \item \textbf{Dice Score promedio:} 0.440.  
+  \item \textbf{Jaccard Index promedio:} 0.289.  
+  \item Se observaron mejores resultados en la detección de arrugas debido a mayor representación de esta clase.  
+  \item La clase ":manchas" mostró métricas ligeramente inferiores, sugiriendo futuras mejoras en aumentos específicos.  
+\end{itemize}
+
+Los resultados numéricos y ejemplos de segmentaciones se presentan en la sección de análisis de resultados con gráficas de evolución y comparaciones visuales.
+
 
 \section{Despliegue}
 
