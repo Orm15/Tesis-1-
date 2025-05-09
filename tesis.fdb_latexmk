@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber tesis"] 1746727303.19987 "tesis.bcf" "tesis.bbl" "tesis" 1746751619.57877 0
+["biber tesis"] 1746727303.19987 "tesis.bcf" "tesis.bbl" "tesis" 1746752352.34527 0
   "biblio/references.bib" 1746210563 40163 ba71954ba14e2578821c2b7ea4398576 ""
-  "tesis.bcf" 1746751617 148374 870c1afd0b4a178d79f229a55bfd0e6c "pdflatex"
+  "tesis.bcf" 1746752351 148374 870c1afd0b4a178d79f229a55bfd0e6c "pdflatex"
   (generated)
   "tesis.bbl"
   "tesis.blg"
   (rewritten before read)
-["pdflatex"] 1746751585.08616 "c:/Users/DELL/Desktop/Tesis/Tesis-1-/tesis.tex" "tesis.pdf" "tesis" 1746751619.58086 0
+["pdflatex"] 1746752328.09401 "c:/Users/DELL/Desktop/Tesis/Tesis-1-/tesis.tex" "tesis.pdf" "tesis" 1746752352.34647 0
   "0/agradecimientos.tex" 1745452795 143 a5ca4259ceb6a257936d6c5796fd3947 ""
   "0/aprobacion.tex" 1745778743 499 33d69842144b0b3d773950464eebc23c ""
   "0/introduccion.tex" 1745452795 2047 92a0f60fdf981fcd760720bf9018e6e3 ""
@@ -20,7 +20,7 @@
   "2/1_antecedentes/antecedentes.tex" 1745956006 55783 5b7cf67f876ac01c1f63f6a9207f6909 ""
   "2/2_teoria/base_teo.tex" 1745869787 45475 e9b2c2ec9faafc31fb12ae3f92b7ec0c ""
   "2/3_conceptos/marc_conceptual.tex" 1745452795 14794 bf8d133bf8523575597adbe3e9086a77 ""
-  "2/4_hipotesis/hipotesis.tex" 1746751575 1899 5b73ea7751ab75f08ea8064f5db42aa0 ""
+  "2/4_hipotesis/hipotesis.tex" 1746751796 1744 9c8190b6727a9308b2c012cecf04a901 ""
   "2/figures/Meto1.png" 1745452795 212870 fbc4b762a93be40eb63d44b5bbb74976 ""
   "2/figures/Meto2.png" 1745452795 112479 67566dfe082edbebac41af39db00725e ""
   "2/figures/ant2srgan.png" 1745798111 169724 36eb31baa8327817c82b7ee941288b08 ""
@@ -55,9 +55,9 @@
   "3/figures/Prototipo de Despliegue.png" 1746286641 3076130 1ffca2c3b57d5b373c61601e4c3a3230 ""
   "3/figures/gant.png" 1745452796 71502 5572db03bdf10535050d68fda68d5695 ""
   "3/figures/matriz_confusion.png" 1745452796 40716 3dbd562e2162c6790108f0bfcce6bec4 ""
-  "3/figures/metodologia.png" 1746286645 3909195 c7f01bb56d82603a7822ea18c7fe4bf4 ""
+  "3/figures/metodologia.png" 1746752288 3920228 cb0a8900d9c8a3cb779a77b62f265fb0 ""
   "3/figures/repo_github.png" 1746564930 713519 38806588507a822c5997282edbcfe5a7 ""
-  "3/metodologia.tex" 1746727202 41638 75c99b7c94c806ec7adab3d5f9a89664 ""
+  "3/metodologia.tex" 1746752329 41638 75c99b7c94c806ec7adab3d5f9a89664 ""
   "4/desarrollo.tex" 1746727375 11682 d574a898777d1ffe1127dee494c6ce8d ""
   "4/figures/data.png" 1745953268 862050 722ca12dbfaa5b8b8da539d264e801af ""
   "4/figures/diagrama final prepo.png" 1746576270 55197 7c001bf62616fdc0275da1161414e2a6 ""
@@ -279,16 +279,16 @@
   "anexos/arb_problemas.jpg" 1745954683 80765 7223f02f685fa6797ad1e67f6fce6e9a ""
   "c:/Users/DELL/Desktop/Tesis/Tesis-1-/tesis.tex" 1745778781 14130 d92cae384cbcde30d194055d7cf2bd60 ""
   "images_repo/esanlogomin.png" 1745452796 44054 5686aaa912c5c911c9912422804fbdf6 ""
-  "tesis.aux" 1746751617 92719 3ee42ce1c9ca9636a6f3d02ed117905d "pdflatex"
+  "tesis.aux" 1746752350 92719 3ee42ce1c9ca9636a6f3d02ed117905d "pdflatex"
   "tesis.bbl" 1746727310 241687 d7013187d341abce13e102962a368070 "biber tesis"
-  "tesis.equ" 1746751617 1200 9a8ff2e01aa8036c7944c887ae5f3f51 "pdflatex"
-  "tesis.loa" 1746751597 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tesis.lof" 1746751617 5515 bf04dd62045431ba47d293a1c66903e7 "pdflatex"
-  "tesis.lot" 1746751617 1333 a7902d7c742fc0e43216d8ae20ddcf75 "pdflatex"
-  "tesis.out" 1746751617 19814 73b5163fb42ba27bf323ae89a73cf60f "pdflatex"
-  "tesis.run.xml" 1746751617 2407 abd49b23619a5865ba13eeb8aa920da5 "pdflatex"
+  "tesis.equ" 1746752351 1200 9a8ff2e01aa8036c7944c887ae5f3f51 "pdflatex"
+  "tesis.loa" 1746752333 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tesis.lof" 1746752351 5515 bf04dd62045431ba47d293a1c66903e7 "pdflatex"
+  "tesis.lot" 1746752351 1333 a7902d7c742fc0e43216d8ae20ddcf75 "pdflatex"
+  "tesis.out" 1746752351 19814 73b5163fb42ba27bf323ae89a73cf60f "pdflatex"
+  "tesis.run.xml" 1746752351 2407 abd49b23619a5865ba13eeb8aa920da5 "pdflatex"
   "tesis.tex" 1745778781 14130 d92cae384cbcde30d194055d7cf2bd60 ""
-  "tesis.toc" 1746751617 9557 9dc0571aa8931802d0bd04ebcd923a3f "pdflatex"
+  "tesis.toc" 1746752351 9557 9dc0571aa8931802d0bd04ebcd923a3f "pdflatex"
   (generated)
   "tesis.aux"
   "tesis.bcf"
