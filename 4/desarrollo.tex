@@ -321,7 +321,7 @@ Durante el entrenamiento de la red UNet, se implementaron diversas técnicas par
 
   \item \textbf{Proceso de entrenamiento:}
   \begin{itemize}
-    \item 30 épocas con batch size = 4.
+    \item 50 épocas con batch size = 4.
     \item Cálculo de predicción, pérdida, retropropagación y optimización en cada iteración.
   \end{itemize}
 
@@ -344,22 +344,10 @@ Se aplicó una estrategia de validación tipo hold-out (80\% entrenamiento, 20\%
     \item Precisión por clase.
     \item Intersección sobre Unión (IoU).
     \item Dice Coefficient:
-    \[
-    \text{Dice} = \frac{2 \cdot |A \cap B|}{|A| + |B|}
-    \]
-    \item Matriz de confusión multiclase.
   \end{itemize}
 
   \item \textbf{Visualización de resultados:} \\
   Las máscaras predichas se superpusieron con las imágenes originales utilizando diferentes colores por clase (fondo, arrugas, manchas) para evaluar visualmente la segmentación.
-
-  \item \textbf{Extensiones propuestas:}
-  \begin{itemize}
-    \item Validación cruzada k-fold ($k=5$).
-    \item Early stopping para prevenir sobreajuste.
-    \item Reducción adaptativa de la tasa de aprendizaje.
-    \item Ensembling de modelos.
-  \end{itemize}
 
   \item \textbf{Justificación:} \\
   Una evaluación rigurosa permite determinar si el modelo puede ser aplicado de forma confiable a nuevas imágenes faciales con características morfológicas diversas.
@@ -821,9 +809,317 @@ Además de los resultados numéricos, se generaron visualizaciones comparativas 
 \label{fig:validacion3}
 \end{figure}
 
+\subsection{Modelo de Segmentación: U-Net con codificador MiT-B0 (Mix Transformer)}
 
-\section{Despliegue}
+\subsubsection{Diseño de la arquitectura del modelo}
+El modelo \texttt{MiT-B0} (Mix Transformer) es una arquitectura de red neuronal que combina la estructura de U-Net con bloques de atención de tipo Transformer. Esta combinación permite al modelo capturar tanto características locales como globales en las imágenes, mejorando la segmentación en comparación con arquitecturas convencionales.
+\textbf{Estructura del modelo}
+\begin{itemize}
+  \item \textbf{Encoder (Codificador)}:  
+    Se utiliza un backbone \texttt{MiT-B0} preentrenado en ImageNet como codificador. Este encoder está compuesto por cuatro etapas jerárquicas de procesamiento:
+    \begin{itemize}
+      \item Etapa 1: recibe la imagen de entrada $X\in\mathbb{R}^{H\times W\times3}$ y produce un mapa de características de dimensión $\frac{H}{4}\times\frac{W}{4}\times C_1$.
+      \item Etapa 2: reduce la resolución a $\frac{H}{8}\times\frac{W}{8}$ y aumenta la profundidad a $C_2$ canales.
+      \item Etapa 3: genera un mapa de $\frac{H}{16}\times\frac{W}{16}\times C_3$.
+      \item Etapa 4: produce la salida más profunda del encoder, de tamaño $\frac{H}{32}\times\frac{W}{32}\times C_4$.
+    \end{itemize}
+    Cada etapa combina proyecciones lineales y mecanismos de auto‑atención eficiente, capturando relaciones espaciales y contextuales tanto locales como globales. Las salidas intermedias de cada etapa se guardan para las conexiones de salto.
 
+  \item \textbf{Bottleneck}:  
+    Conceptualmente corresponde al punto más profundo de la U‑Net, situado justo después de la cuarta etapa del encoder. Aquí, las características están más condensadas y contienen la máxima abstracción:
+    \[
+      \text{Bottleneck} \;=\; \text{FeatureMap}_{4}\quad\in\mathbb{R}^{\frac{H}{32}\times\frac{W}{32}\times C_4}.
+    \]
+    Aunque no se añade un bloque explícito adicional, esta representación se considera el “cuello de botella” antes de iniciar el upsampling.
+
+  \item \textbf{Decoder (Decodificador)}:  
+    El decoder reconstruye progresivamente la resolución espacial original a través de cuatro etapas de upsampling:
+    \begin{enumerate}
+      \item \textbf{Upsample4}: Aumenta la resolución de $\frac{H}{32}\times\frac{W}{32}$ a $\frac{H}{16}\times\frac{W}{16}$ mediante \texttt{ConvTranspose2d} (o interpolación bilineal + convolución), seguido de una convolución doble con BatchNorm y ReLU. Se concatena con la salida de la Etapa 3 del encoder.
+      \item \textbf{Upsample3}: De $\frac{H}{16}\times\frac{W}{16}$ a $\frac{H}{8}\times\frac{W}{8}$, concatena con la Etapa 2 del encoder y refina con un bloque convolucional.
+      \item \textbf{Upsample2}: De $\frac{H}{8}\times\frac{W}{8}$ a $\frac{H}{4}\times\frac{W}{4}$, concatena con la Etapa 1 del encoder.
+      \item \textbf{Upsample1}: De $\frac{H}{4}\times\frac{W}{4}$ a $H\times W$, sin conexión de salto adicional (este es el nivel más bajo), refinado con convoluciones dobles.
+    \end{enumerate}
+    Gracias a las \textit{skip connections}, el decoder recupera detalles espaciales finos perdidos durante el downsampling y combina información de alto nivel (contexto) con información de bajo nivel (textura y bordes).
+
+  \item \textbf{Capa final}:  
+    Para producir la máscara segmentada multiclase, se aplica una única convolución $1\times1$:
+    \[
+      Y = \mathrm{Conv}_{1\times1}(\text{DecoderOutput}) \quad\in\mathbb{R}^{H\times W\times 3},
+    \]
+    donde las tres dimensiones de canal corresponden a las probabilidades (logits) de cada una de las clases: fondo, arrugas y manchas. Finalmente, se aplica \texttt{softmax} por píxel y se obtiene la clase predicha mediante:
+    \[
+      \hat{y}(i,j) = \arg\max_{c\in\{0,1,2\}} \;Y_{i,j,c}.
+    \]
+\end{itemize}
+
+\textbf{Razones del Diseño}
+\begin{itemize}
+    \item \textbf{Bloques de atención MiT-B0}: 
+    Permiten capturar relaciones espaciales y contextuales, mejorando la capacidad del modelo para aprender representaciones ricas y complejas.
+    
+    \item \textbf{Conexiones de salto (skip connections)}: 
+    Ayudan a recuperar detalles espaciales perdidos durante el proceso de codificación, asegurando que la información relevante fluya entre el encoder y el decoder.
+    
+    \item \textbf{Capa final de convolución $1\times1$}: 
+    Reduce los canales finales a uno solo, generando la máscara binaria segmentada.
+    \end{itemize}
+\textbf{Detalle del Funcionamiento}
+El proceso completo del modelo se detalla de la siguiente manera:
+\begin{enumerate}
+    \item La imagen de entrada se procesa a través del encoder, extrayendo características jerárquicas que van desde bordes simples hasta patrones complejos.
+    \item El bottleneck actúa como un cuello de botella que condensa toda la información del encoder en una representación compacta y de alto nivel.
+    \item El decoder empieza a recuperar la resolución original usando operaciones de upsampling, reconstruyendo progresivamente el mapa segmentado.
+    \item En cada paso del decoder, las características recuperadas se enriquecen mediante la concatenación de información relevante proveniente del encoder.
+    \item Finalmente, la capa de salida transforma las características finales en una máscara binaria que identifica las regiones segmentadas de interés en la imagen.
+    \item Este funcionamiento asegura que el modelo combine detalles locales finos con contexto global, logrando una segmentación precisa y robusta.
+\end{enumerate}
+\textbf{Pseudocódigo del Modelo}
+\begin{verbatim}
+Input: Imagen X
+# Encoder
+enc1 = MiTBlock(X)
+enc2 = MiTBlock(enc1)
+enc3 = MiTBlock(enc2)
+enc4 = MiTBlock(enc3)
+# Bottleneck
+bottleneck = MiTBlock(enc4)
+# Decoder
+up4 = UpConv(bottleneck)
+att3 = AttentionGate(up4, enc4)
+up4_cat = Concatenate(up4, att3)
+dec4 = MiTBlock(up4_cat)
+up3 = UpConv(dec4)
+att2 = AttentionGate(up3, enc3)
+up3_cat = Concatenate(up3, att2)
+dec3 = MiTBlock(up3_cat)
+up2 = UpConv(dec3)
+att1 = AttentionGate(up2, enc2)
+up2_cat = Concatenate(up2, att1)
+dec2 = MiTBlock(up2_cat)
+up1 = UpConv(dec2)
+up1_cat = Concatenate(up1, enc1)
+dec1 = MiTBlock(up1_cat)
+# Salida final
+Output = Conv1x1(dec1)
+Return Output
+\end{verbatim}
+
+\subsubsection{Definición de los componentes del modelo}
+\textbf{1. Módulos arquitectónicos}
+\begin{itemize}
+  \item \textbf{FaceSegDataset}: Clase que hereda de \texttt{torch.utils.data.Dataset} y gestiona:
+    \begin{itemize}
+      \item Carga de imágenes RGB mediante \texttt{cv2.imread} y conversión a formato RGB.
+      \item Construcción de máscara multiclase (0=fondo, 1=arrugas, 2=manchas) a partir de dos máscaras binarias.
+      \item Depuración inicial con impresión de distribución de clases para los primeros 3 índices.
+      \item Aplicación de transformaciones de Albumentations (resize a 512×512, flip, rotate, brillo/contraste, normalización con MEDIA=[0.485,0.456,0.406], STD=[0.229,0.224,0.225], y conversión a tensor).
+    \end{itemize}
+
+  \item \textbf{EarlyStopping}: Utilidad que interrumpe el entrenamiento si la pérdida de validación no mejora tras \texttt{patience=5} épocas, con un umbral mínimo de mejora \texttt{min\_delta=0}.
+
+  \item \textbf{Transforms}:  
+    \texttt{train\_transforms} y \texttt{val\_transforms} basados en Albumentations, definiendo pipelines separados para entrenamiento y validación.
+
+  \item \textbf{collate\_fn}: Función personalizada para DataLoader que agrupa lotes de tuplas \texttt{(imagen, máscara)} en tensores apilados.
+
+  \item \textbf{compute\_metrics}: Calcula métricas de segmentación:
+    \begin{itemize}
+      \item Precisión media sobre clases 1 y 2 (\texttt{precision\_score}).
+      \item Dice Coefficient: $2|P\cap G|/(|P|+|G|)$.
+      \item IoU: $|P\cap G|/|P\cup G|$.
+      \item Desglose de precisión por clase.
+    \end{itemize}
+
+  \item \textbf{Modelo (smp.Unet)}:  
+    Instanciación de \texttt{smp.Unet} con:
+    \begin{itemize}
+      \item \texttt{encoder\_name='mit\_b0'} (Mix Transformer B0).
+      \item Pesos \texttt{imagenet}.
+      \item \texttt{in\_channels=3}, \texttt{classes=3}.
+    \end{itemize}
+\end{itemize}
+
+\textbf{2. Componentes de entrenamiento}
+\begin{itemize}
+  \item \textbf{DataLoader}:  
+    \begin{itemize}
+      \item \texttt{train\_loader}: batch\_size=4, shuffle=True, \texttt{collate\_fn}.
+      \item \texttt{val\_loader}: batch\_size=2, shuffle=False.
+    \end{itemize}
+
+  \item \textbf{Cálculo de pesos de clase}:  
+    \texttt{compute\_class\_weights} recorre el \texttt{train\_loader}, suma histogramas de cada máscara y produce pesos inversamente proporcionales a la frecuencia de cada clase, normalizados a suma=3.
+
+  \item \textbf{Función de pérdida}:  
+    \[
+      \mathcal{L}_{CE} = -\sum_{i,c} w_c \, y_{i,c} \log\bigl(\mathrm{softmax}(x_{i,c})\bigr),
+    \]
+    con \texttt{weight=class\_weights} en \texttt{nn.CrossEntropyLoss}.
+
+  \item \textbf{Optimizador}:  
+    \texttt{optim.Adam(model.parameters(), lr=1e-4)} para actualización adaptativa de parámetros.
+
+  \item \textbf{Bucle de entrenamiento y validación} (20 épocas):
+    \begin{enumerate}
+      \item \textit{Entrenamiento} (modo \texttt{model.train()}):  
+        \begin{itemize}
+          \item Cálculo de salida \(\hat{Y}=f_\theta(X)\).
+          \item Pérdida \(\mathcal{L}\), retropropagación y \(\theta\leftarrow\theta-\eta\nabla_\theta\mathcal{L}\).
+        \end{itemize}
+      \item \textit{Validación} (modo \texttt{model.eval()}):  
+        \begin{itemize}
+          \item Acumulación de \(\mathrm{train\_loss}\) y \(\mathrm{val\_loss}\).
+          \item Cálculo de \(\mathrm{precision}, \mathrm{dice}, \mathrm{iou}\) por lote con \texttt{compute\_metrics}.
+          \item Impresión de precisión media por clase (arrugas, manchas).
+        \end{itemize}
+      \item \textit{EarlyStopping}: Se evalúa \(\mathrm{val\_loss}\) y, si no mejora tras 5 épocas, detiene el ciclo.
+      \item Guardado del estado del modelo en \texttt{models/unetvit\_segmentation.pth}.
+    \end{enumerate}
+
+  \item \textbf{Función \texttt{show\_comparison}}:  
+    Muestra comparativa interactiva de muestras reales vs. predichas:
+    \begin{itemize}
+      \item Denormalización de imágenes con MEDIA y STD.
+      \item Visualización lado a lado de imagen, máscara ground truth y máscara predicha.
+    \end{itemize}
+\end{itemize}
+
+\textbf{3. Resumen de interacción entre componentes}
+\begin{itemize}
+  \item El \texttt{FaceSegDataset} genera pares \((X, y)\) transformados y normalizados.
+  \item El \texttt{DataLoader} agrupa los pares en lotes y los pasa al modelo.
+  \item El encoder MiT-B0 extrae representaciones jerárquicas, el bottleneck condensa la información y el decoder reconstruye la segmentación.
+  \item La función de pérdida \(\mathcal{L}_{CE}\) con pesos balanceados mide el error, que es minimizado por Adam.
+  \item \texttt{compute\_metrics} evalúa la calidad de la segmentación en términos de precisión, Dice y IoU.
+  \item \texttt{EarlyStopping} evita sobreentrenamiento, y el modelo se guarda cuando las pérdidas mejoran.
+  \item Finalmente, los resultados se exploran gráficamente y de forma interactiva mediante \texttt{show\_comparison}.
+\end{itemize}
+
+\subsubsection{Entrenamiento del modelo}
+\textbf{Actividad 1: Configuración del entorno de entrenamiento}
+
+\begin{itemize}
+  \item \textbf{Librerías y utilidades:}
+    \begin{itemize}
+      \item \texttt{os, cv2, numpy, torch, torch.nn, torch.optim, torch.utils.data}
+      \item \texttt{segmentation\_models\_pytorch} para instanciar \texttt{smp.Unet}
+      \item \texttt{albumentations} y \texttt{ToTensorV2} para preprocesamiento
+      \item \texttt{sklearn.metrics.precision\_score} y \texttt{matplotlib.pyplot}
+    \end{itemize}
+
+  \item \textbf{Denormalización:}
+    \[
+      \text{img} = \text{STD}\cdot(\text{tensor}.cpu().\text{numpy()}.T) + \text{MEAN},\quad
+      \text{clip}(0,1)\times255
+    \]
+
+  \item \textbf{FaceSegDataset:}
+    \begin{itemize}
+      \item Carga de imágenes RGB con \texttt{cv2.imread} y conversión a RGB.
+      \item Generación de máscara multiclase:
+        \begin{itemize}
+          \item Clase 0: fondo
+          \item Clase 1: arrugas (\texttt{m1>0})
+          \item Clase 2: manchas (\texttt{m2>0})
+        \end{itemize}
+      \item Debug de distribución de clases para las primeras 3 muestras (\texttt{np.unique}).
+      \item Aplicación de \texttt{train\_transforms} o \texttt{val\_transforms}:
+        \begin{itemize}
+          \item \texttt{Resize(512,512), HorizontalFlip, Rotate(limit=30), RandomBrightnessContrast, Normalize, ToTensorV2}
+        \end{itemize}
+    \end{itemize}
+
+  \item \textbf{DataLoader y división:}
+    \begin{itemize}
+      \item \texttt{random\_split} 80\% entrenamiento / 20\% validación.
+      \item \texttt{collate\_fn} agrupa lotes con \texttt{torch.stack}.
+      \item \texttt{train\_loader}: \texttt{batch\_size=4}, shuffle.
+      \item \texttt{val\_loader}: \texttt{batch\_size=2}, no shuffle.
+    \end{itemize}
+\end{itemize}
+
+\vspace{0.5cm}
+\textbf{Actividad 2: Aplicación de técnicas de optimización}
+
+\begin{itemize}
+  \item \textbf{Cálculo de pesos de clase:}
+    \[
+      \text{counts}_c = \sum_{\text{masks}} \text{bincount}(\text{mask},\,\text{minlength}=3),\quad
+      w_c = \frac{1}{\text{counts}_c+\epsilon},\quad
+      \tilde{w} = \frac{w}{\sum w}\times 3
+    \]
+    Usado en \texttt{CrossEntropyLoss(weight=class\_weights)}.
+
+  \item \textbf{Función de pérdida:}
+    \[
+      \mathcal{L}_{CE} = -\sum_{i,c} w_c\,y_{i,c}\,\log\Bigl(\mathrm{softmax}(x_{i,c})\Bigr)
+    \]
+
+  \item \textbf{Optimizador Adam:}
+    \[
+      \theta_{t+1} = \theta_t - \eta\,\frac{\hat{m}_t}{\sqrt{\hat{v}_t}+\epsilon},\quad \eta=10^{-4}
+    \]
+
+  \item \textbf{EarlyStopping:}
+    \begin{itemize}
+      \item \texttt{patience=5}, \texttt{min\_delta=0.01}
+      \item Si la pérdida de validación no mejora \(\geq\) \texttt{patience} épocas, se interrumpe.
+    \end{itemize}
+
+  \item \textbf{Bucle de entrenamiento / validación (20 épocas):}
+    \begin{enumerate}
+      \item Entrenamiento (\texttt{model.train()}):
+        \begin{itemize}
+          \item Cálculo de \(\hat{Y}=f_\theta(X)\), pérdida, \(\nabla_\theta\), \(\theta\) actualización.
+        \end{itemize}
+      \item Validación (\texttt{model.eval()}):
+        \begin{itemize}
+          \item Acumulación de \(\mathrm{val\_loss}\).
+          \item Cálculo de \(\text{precision},\ \text{dice},\ \text{iou}\) con \texttt{compute\_metrics}.
+        \end{itemize}
+      \item Registro en \texttt{history}: \(\mathrm{train\_loss},\ \mathrm{val\_loss},\ \mathrm{precision},\ \mathrm{dice},\ \mathrm{iou}\).
+      \item EarlyStopping y guardado del modelo (\texttt{.pth}).
+    \end{enumerate}
+
+  \item \textbf{Visualización de métricas:}
+    Gráfica de \(\mathrm{train\_loss},\ \mathrm{val\_loss},\ \mathrm{precision},\ \mathrm{dice},\ \mathrm{iou}\) vs. épocas, guardada como \texttt{metrics\_unetvit.png}.
+\end{itemize}
+
+\vspace{0.5cm}
+\textbf{Actividad 3: Validación cruzada del rendimiento}
+
+\begin{itemize}
+  \item \textbf{Estrategia hold-out:}
+    80\% entrenamiento, 20\% validación. Puede extenderse a k-fold.
+
+  \item \textbf{Métricas de segmentación:}
+    \begin{itemize}
+      \item \textbf{Precisión media:} \(\text{precision} = \frac{1}{2}\sum_{c=1}^2 \text{precision}_c\).
+      \item \textbf{Dice Coefficient:} \(\frac{2|P\cap G|}{|P|+|G|}\).
+      \item \textbf{IoU:} \(\frac{|P\cap G|}{|P\cup G|}\).
+      \item \textbf{Desglose por clase:} \texttt{precision\_score(labels=[1,2])}.
+    \end{itemize}
+
+  \item \textbf{Análisis cualitativo:}
+    \begin{itemize}
+      \item Superposición máscara vs. imagen con \texttt{show\_comparison}.
+      \item Visualización de muestras (imagen de-normalizada, ground truth, predicción).
+    \end{itemize}
+
+  \item \textbf{Extensiones propuestas:}
+    \begin{itemize}
+      \item Validación cruzada k-fold (\(k=5\)).
+      \item Early stopping avanzado y reducción de \(\eta\).
+      \item Ensembling de modelos.
+    \end{itemize}
+\end{itemize}
+
+
+\subsubsection{Evaluación del modelo}
+
+
+\section{Despliegue del modelo}
 \textbf{Actividad 1: Preparación del Entorno de Despliegue}
 
 \textbf{Actividad 2: Despliegue del Modelo en Producción}
