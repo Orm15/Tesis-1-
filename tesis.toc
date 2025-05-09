@@ -84,13 +84,17 @@
 \contentsline {chapter}{\numberline {IV}Desarrollo de la Solución}{89}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Adquisición de los Datos}{89}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Preprocesamiento de los Datos}{90}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Desarrollo de los Modelos de Segmentación}{91}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Entrenamiento del Modelo}{98}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Evaluación del Modelo}{99}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Despliegue}{100}{section.4.6}%
-\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{101}{chapter.5}%
-\contentsline {chapter}{Referencias}{104}{chapter*.61}%
-\contentsline {chapter}{Anexos}{109}{section*.62}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{110}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{111}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{112}{section.Alph0.3}%
+\contentsline {section}{\numberline {4.3}Desarrollo de los Modelos de Segmentación}{92}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Modelo de Segmentación: Unet}{92}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Modelo de Segmentación: UNetAttention}{92}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Diseño de la arquitectura del modelo}{92}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}Definición de componentes del modelo}{96}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}Entrenamiento del Modelo}{100}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}Evaluación del Modelo}{103}{subsubsection.4.3.2.4}%
+\contentsline {section}{\numberline {4.4}Despliegue}{106}{section.4.4}%
+\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{107}{chapter.5}%
+\contentsline {chapter}{Referencias}{110}{chapter*.64}%
+\contentsline {chapter}{Anexos}{115}{section*.65}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{116}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{117}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{118}{section.Alph0.3}%

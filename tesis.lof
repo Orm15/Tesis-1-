@@ -41,3 +41,6 @@
 \contentsline {figure}{\numberline {40}{\ignorespaces Dataset recolectado de repositorios}}{90}{figure.caption.58}%
 \contentsline {figure}{\numberline {41}{\ignorespaces Máscaras binarias generadas}}{91}{figure.caption.59}%
 \contentsline {figure}{\numberline {42}{\ignorespaces Diagrama de Preprocesamiento Utilizado}}{92}{figure.caption.60}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Comparación visual: imagen original, máscara real multicategoría y predicción del modelo para un caso con predominio de arrugas.}}{105}{figure.caption.61}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Comparación visual: ejemplo donde se observa el desempeño del modelo en la detección de manchas, destacando regiones correctamente identificadas y algunas áreas faltantes.}}{105}{figure.caption.62}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Comparación visual: caso mixto donde se presentan simultáneamente arrugas y manchas, mostrando la capacidad del modelo para diferenciar ambas clases en un mismo rostro.}}{105}{figure.caption.63}%

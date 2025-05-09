@@ -75,6 +75,14 @@
 \captionsetup[figure]{labelsep=period,labelfont={it,bf},justification=justified,singlelinecheck=false,font=doublespacing}
 \captionsetup[subfigure]{justification=centering}
 
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+
 
 %%%Editar formato y tamaño de capítulos y secciones
 \usepackage{titlesec}
