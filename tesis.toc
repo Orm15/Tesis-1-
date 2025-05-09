@@ -85,9 +85,9 @@
 \contentsline {section}{\numberline {4.1}Adquisición de los Datos}{89}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Preprocesamiento de los Datos}{90}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Desarrollo de los Modelos de Segmentación}{91}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Entrenamiento del Modelo}{97}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Evaluación del Modelo}{98}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Despliegue}{99}{section.4.6}%
+\contentsline {section}{\numberline {4.4}Entrenamiento del Modelo}{98}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Evaluación del Modelo}{99}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Despliegue}{100}{section.4.6}%
 \contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{101}{chapter.5}%
 \contentsline {chapter}{Referencias}{104}{chapter*.61}%
 \contentsline {chapter}{Anexos}{109}{section*.62}%
