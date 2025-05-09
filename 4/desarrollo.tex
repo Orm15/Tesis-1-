@@ -75,23 +75,193 @@ Este proceso de representación y normalización, como se ve en el diagrama fina
 \section{Desarrollo de los Modelos de Segmentación}
 
 \textbf{Actividad 1: Diseño de la arquitectura del modelo}\\
-Se diseñó una arquitectura basada en U-Net con Attention Gates, que consta de:
+
+
+La arquitectura propuesta se basa en el modelo \textbf{U-Net con mecanismos de atención} (\texttt{UNetAttention}), que combina una red convolucional simétrica tipo encoder-decoder con puertas de atención (\texttt{AttentionGate}) para mejorar el enfoque en las regiones relevantes de la imagen.
+
+\subsection*{Encoder (Codificador)}
+El encoder está diseñado para capturar características de bajo a alto nivel a partir de la imagen de entrada. Consiste en cuatro bloques llamados \texttt{DoubleConv}:
 \begin{itemize}
-  \item Módulos de doble convolución (DoubleConv) en el encoder y decoder.  
-  \item Capas de atención (AttentionGate) ubicadas en cada salto del decoder para realzar las regiones de interés (arrugas y manchas).  
-  \item Caminos de downsampling (MaxPool2d) y upsampling (ConvTranspose2d) para conservar la resolución espacial.  
-  \item Capa final de convolución 1x1 para segmentación en tres clases (fondo, arrugas, manchas).  
+    \item \textbf{Encoder 1}: Dos convoluciones $3\times3$ (con \texttt{padding}=1), normalización por lotes (BatchNorm) y activación ReLU. Extrae características básicas (bordes, texturas) de las entradas con 3 canales (RGB) y produce 64 mapas de características.
+    \item \textbf{Encoder 2}: Similar al anterior, pero recibe 64 mapas y genera 128, aumentando la capacidad de representación.
+    \item \textbf{Encoder 3}: Pasa de 128 a 256 mapas, detectando patrones más complejos.
+    \item \textbf{Encoder 4}: Pasa de 256 a 512 mapas, capturando características globales.
+\end{itemize}
+Cada bloque está seguido de una capa \texttt{MaxPool2d(2)}, que reduce la resolución a la mitad e incrementa el campo receptivo, permitiendo captar relaciones espaciales más amplias.
+
+\subsection*{Puente (Bottleneck)}
+Entre el encoder y el decoder se encuentra el \textbf{bottleneck}, otra capa \texttt{DoubleConv} que recibe 512 mapas y genera 1024. Esta parte actúa como un resumen altamente condensado de toda la información, crucial para sintetizar las representaciones aprendidas antes de reconstruirlas.
+
+\subsection*{Attention Gates (Puertas de Atención)}
+En lugar de pasar directamente los mapas del encoder al decoder (skip connections), se introducen mecanismos de atención:
+\begin{itemize}
+    \item Cada \texttt{AttentionGate} recibe dos entradas: $g$ (señal del decoder) y $x$ (señal del encoder).
+    \item Ambas se alinean en dimensiones espaciales y se transforman con convoluciones $1\times1$ para reducir canales.
+    \item La suma de ambas se activa con ReLU, pasa por otra convolución $1\times1$, BatchNorm y una función sigmoide, generando un mapa de atención $\psi$ entre 0 y 1.
+    \item Finalmente, $\psi$ se multiplica por la señal $x$ para filtrar solo las características relevantes.
+\end{itemize}
+Esto asegura que solo la información útil del encoder fluya al decoder, reduciendo el ruido y enfocándose en las regiones clave.
+
+\subsection*{Decoder (Decodificador)}
+El decoder reconstruye la imagen segmentada paso a paso:
+\begin{itemize}
+    \item \textbf{Upconv4}: Upsampling (\texttt{ConvTranspose2d}) de 1024 a 512, concatenado con la salida del encoder4 filtrado por la atención (att3).
+    \item \textbf{Decoder4}: \texttt{DoubleConv} que procesa los 1024 canales concatenados y produce 512.
+    \item \textbf{Upconv3}, \textbf{Decoder3}: De 512 a 256, concatenado con att2, procesado a 256.
+    \item \textbf{Upconv2}, \textbf{Decoder2}: De 256 a 128, concatenado con att1, procesado a 128.
+    \item \textbf{Upconv1}, \textbf{Decoder1}: De 128 a 64, concatenado con enc1 (sin atención), procesado a 64.
 \end{itemize}
 
-\textbf{Actividad 2: Definición de componentes del modelo}\\
-Los componentes principales incluyen:
+\subsection*{Capa Final}
+La capa final es una convolución $1\times1$ que reduce los 64 mapas de características a un solo canal de salida (\texttt{out\_channels=1}), generando el mapa binario segmentado.
+
+\subsection*{Razones del Diseño}
 \begin{itemize}
-  \item \textit{DoubleConv}: bloque de dos convoluciones secuenciales con BatchNorm y ReLU.  
-  \item \textit{AttentionGate}: mecanismo de atención consistente en convoluciones 1x1, sumas tensoriales y función Sigmoid para generar máscaras atencionales.  
-  \item Optimizador \texttt{AdamW} con decaimiento de pesos para mejorar la generalización.  
-  \item Scheduler \texttt{ReduceLROnPlateau} para ajuste dinámico de la tasa de aprendizaje.  
-  \item Función de pérdida \texttt{CrossEntropyLoss} con pesos calculados por median frequency balancing.  
+    \item \textbf{Convoluciones dobles}: Mejoran la capacidad de aprendizaje local sin aumentar demasiado la profundidad.
+    \item \textbf{BatchNorm}: Acelera la convergencia y estabiliza el entrenamiento.
+    \item \textbf{Atención}: Permite que el modelo se enfoque en las regiones importantes, evitando pasar ruido del encoder al decoder.
+    \item \textbf{Skip connections}: Ayudan a recuperar detalles espaciales perdidos por el pooling.
+    \item \textbf{Puertas de atención}: Añaden un mecanismo de filtrado adaptativo, crucial en tareas donde no toda la información del encoder es igualmente relevante.
+    \item \textbf{Upsampling con transposed convolutions}: Permite recuperar resolución espacial de manera más precisa que el simple escalado.
 \end{itemize}
+
+\subsection*{Detalle del Funcionamiento}
+El proceso completo del modelo se detalla de la siguiente manera:
+\begin{enumerate}
+\item La imagen de entrada se procesa a través del encoder, extrayendo características jerárquicas que van desde bordes simples hasta patrones complejos, reduciendo la resolución pero aumentando la abstracción.
+\item El bottleneck actúa como un cuello de botella que condensa toda la información del encoder en una representación compacta y de alto nivel.
+\item El decoder empieza a recuperar la resolución original usando operaciones de upsampling, reconstruyendo progresivamente el mapa segmentado.
+\item En cada paso del decoder, las características recuperadas se enriquecen mediante la concatenación de información relevante proveniente del encoder, filtrada cuidadosamente por las puertas de atención.
+\item Las puertas de atención permiten que el modelo ignore información irrelevante y se enfoque en regiones específicas de interés para la tarea de segmentación.
+\item Finalmente, la capa de salida transforma las características finales en una máscara binaria que identifica las regiones segmentadas de interés en la imagen.
+\end{enumerate}
+
+Este funcionamiento asegura que el modelo combine detalles locales finos con contexto global y mecanismos de relevancia, logrando una segmentación precisa y robusta.
+
+\subsection*{Pseudocódigo del Modelo}
+\begin{verbatim}
+Input: Imagen X
+
+# Encoder
+enc1 = DoubleConv(X)
+enc2 = DoubleConv(MaxPool(enc1))
+enc3 = DoubleConv(MaxPool(enc2))
+enc4 = DoubleConv(MaxPool(enc3))
+
+# Bottleneck
+bottleneck = DoubleConv(MaxPool(enc4))
+
+# Decoder con atención
+up4 = UpConv(bottleneck)
+att3 = AttentionGate(up4, enc4)
+up4_cat = Concatenate(up4, att3)
+dec4 = DoubleConv(up4_cat)
+
+up3 = UpConv(dec4)
+att2 = AttentionGate(up3, enc3)
+up3_cat = Concatenate(up3, att2)
+dec3 = DoubleConv(up3_cat)
+
+up2 = UpConv(dec3)
+att1 = AttentionGate(up2, enc2)
+up2_cat = Concatenate(up2, att1)
+dec2 = DoubleConv(up2_cat)
+
+up1 = UpConv(dec2)
+up1_cat = Concatenate(up1, enc1)
+dec1 = DoubleConv(up1_cat)
+
+# Salida final
+Output = Conv1x1(dec1)
+Return Output
+\end{verbatim}
+
+\textbf{Actividad 2: Definición de componentes del modelo}\\
+En esta actividad se definen los módulos fundamentales y los elementos de entrenamiento que constituyen el modelo UNetAttention. A continuación se describe en detalle cada uno:
+
+\subsection*{1. Módulos arquitectónicos}
+
+\begin{itemize}
+\item \textbf{DoubleConv}:
+Es un bloque formado por dos capas convolucionales secuenciales, cada una seguida de Batch Normalization y activación ReLU.
+Este bloque permite:
+\begin{itemize}
+\item Extraer patrones locales en múltiples niveles.
+\item Evitar problemas de saturación o desaparición de gradientes gracias a ReLU.
+\item Estabilizar y acelerar el entrenamiento mediante BatchNorm, que normaliza las salidas y reduce la dependencia de la inicialización.
+\end{itemize}
+
+\item \textbf{AttentionGate}:
+Es un módulo que implementa un mecanismo de atención espacial. Su estructura:
+\begin{itemize}
+\item Dos entradas: 
+$\mathbf{x}$ (del encoder) y $\mathbf{g}$ (del decoder)
+
+g (del decoder).
+\item Aplicación de convoluciones 
+1
+×
+1
+1×1 para reducir dimensionalidad.
+\item Suma de las dos señales transformadas y paso por activación ReLU.
+\item Otra convolución 
+1
+×
+1
+1×1 seguida de BatchNorm y activación Sigmoid, que genera un mapa de atención 
+\item Multiplicación punto a punto de $\psi$ con $\mathbf{x}$, filtrando las características relevantes.
+
+x, filtrando las características relevantes.
+\end{itemize}
+El objetivo es permitir al modelo “enfocarse” solo en las regiones de interés para la tarea de segmentación, reduciendo ruido y mejorando la precisión espacial.
+
+\item \textbf{UpConv (Transposed Convolution)}:
+Operación que realiza upsampling aprendido, permitiendo reconstruir la resolución espacial en el decoder. Es superior al upsampling por interpolación porque también aprende qué características son importantes al expandir.
+
+\item \textbf{Conv1x1 final}:
+Capa de convolución 
+1
+×
+1
+1×1 que reduce los canales finales a uno solo (para segmentación binaria), generando la máscara final.
+\end{itemize}
+
+\subsection*{2. Componentes de entrenamiento}
+
+\begin{itemize}
+\item \textbf{Optimizador \texttt{AdamW}}:
+Variante del optimizador Adam que incluye decaimiento de pesos (weight decay), lo que mejora la regularización y evita el sobreajuste. Sus ventajas incluyen:
+\begin{itemize}
+\item Mantenimiento de tasas de aprendizaje adaptativas por parámetro.
+\item Mejor control sobre la penalización L2 (weight decay desacoplado de la actualización de momento).
+\end{itemize}
+
+\item \textbf{Scheduler \texttt{ReduceLROnPlateau}}:
+Planificador que reduce la tasa de aprendizaje cuando una métrica de validación (como la pérdida) deja de mejorar después de cierto número de épocas (\textit{patience}). Esto permite:
+\begin{itemize}
+\item Evitar quedarse atascado en mesetas del optimizador.
+\item Lograr una convergencia más fina en etapas avanzadas del entrenamiento.
+\end{itemize}
+
+\item \textbf{Función de pérdida \texttt{CrossEntropyLoss} (con pesos balanceados)}:
+Se utiliza la entropía cruzada como pérdida principal para clasificación pixel a pixel. Dado que en segmentación muchas veces existe un desbalance entre clases (por ejemplo, pocas áreas afectadas vs. fondo), se aplica \textit{median frequency balancing} para calcular los pesos de cada clase, lo que:
+\begin{itemize}
+\item Penaliza más fuertemente los errores en clases minoritarias.
+\item Mejora la sensibilidad en áreas poco representadas.
+\end{itemize}
+\end{itemize}
+
+\subsection*{3. Resumen de interacción entre componentes}
+Durante el entrenamiento:
+\begin{enumerate}
+\item El modelo recibe imágenes de entrada que son procesadas por los módulos convolucionales y de atención.
+\item Las predicciones por píxel son comparadas contra las máscaras reales usando la función de pérdida ponderada.
+\item El optimizador AdamW ajusta los pesos del modelo minimizando la pérdida.
+\item El scheduler supervisa la evolución de la métrica de validación y adapta la tasa de aprendizaje si es necesario.
+\end{enumerate}
+
+Este conjunto de componentes fue seleccionado cuidadosamente para equilibrar capacidad, estabilidad, precisión y generalización.
+
 
 \textbf{Actividad 3: Estrategia de ensamblado del modelo}\\
 Se definió una estrategia de ensamblado simple basada en el entrenamiento de un solo modelo entrenado por 50 épocas, guardando el estado de mejor rendimiento en validación (menor pérdida). No se implementó ensamblado múltiple, pues la arquitectura con atención demostró ser suficiente tras el análisis de métricas.

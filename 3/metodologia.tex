@@ -17,25 +17,25 @@ La muestra de la investigación comprenderá una parte de aproximadamente 5000 r
 Los detalles acerca de cómo se definen y miden las variables de estudio se presentan en la Tabla \ref{tabla:variables}.
 
 
-\begin{longtable}{>{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{2.5cm} >{\centering\arraybackslash}m{2.5cm} >{\raggedright\arraybackslash}m{7cm}}
-    \caption{Matriz de Variables Principales.}
-    \label{tabla:variables}\\
-    \hline
-    VARIABLE & DIMENSIÓN & INDICADOR & CÁLCULO \\
-    \hline
-    Independiente: Imágenes de Rostros Faciales & Calidad de la Imagen & Resolución & Número de píxeles por pulgada (ppi) de la imagen, obtenido automáticamente. \\
-    \cline{2-4}
-     & Detalle de Rostro Facial & Características Morfológicas Faciales Identificables & Conteo de arrugas y manchas detectadas manual o automáticamente. \\
-    \hline
-    Dependiente: Modelo de Segmentación Avanzada de Características Morfológicas Faciales & Precisión & Diferencia de Segmentación del Modelo vs Real & $\text{Precisión} = \frac{VP}{VP + FP}$ \\ 
-    \cline{2-4}
-     & Índice de Sørensen–Dice & Similitud espacial & $\text{DSC} = \frac{2 \times |A \cap B|}{|A| + |B|}$ \\
-    \cline{2-4}
-     & Coeficiente de Jaccard & Similitud de conjunto & $\text{IoU} = \frac{|A \cap B|}{|A \cup B|}$ \\
-    \cline{2-4}
-     & Entropía Cruzada & Desempeño de clasificación del modelo & $\text{CE} = -\sum_{i=1}^{N} y_i \log(\hat{y}_i)$ \\
-    \hline
-\end{longtable}
+% \begin{longtable}{>{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{2.5cm} >{\centering\arraybackslash}m{2.5cm} >{\raggedright\arraybackslash}m{7cm}}
+%     \caption{Matriz de Variables Principales.}
+%     \label{tabla:variables}\\
+%     \hline
+%     VARIABLE & DIMENSIÓN & INDICADOR & CÁLCULO \\
+%     \hline
+%     Independiente: Imágenes de Rostros Faciales & Calidad de la Imagen & Resolución & Número de píxeles por pulgada (ppi) de la imagen, obtenido automáticamente. \\
+%     \cline{2-4}
+%      & Detalle de Rostro Facial & Características Morfológicas Faciales Identificables & Conteo de arrugas y manchas detectadas manual o automáticamente. \\
+%     \hline
+%     Dependiente: Modelo de Segmentación Avanzada de Características Morfológicas Faciales & Precisión & Diferencia de Segmentación del Modelo vs Real & $\text{Precisión} = \frac{VP}{VP + FP}$ \\ 
+%     \cline{2-4}
+%      & Índice de Sørensen–Dice & Similitud espacial & $\text{DSC} = \frac{2 \times |A \cap B|}{|A| + |B|}$ \\
+%     \cline{2-4}
+%      & Coeficiente de Jaccard & Similitud de conjunto & $\text{IoU} = \frac{|A \cap B|}{|A \cup B|}$ \\
+%     \cline{2-4}
+%      & Entropía Cruzada & Desempeño de clasificación del modelo & $\text{CE} = -\sum_{i=1}^{N} y_i \log(\hat{y}_i)$ \\
+%     \hline
+% \end{longtable}
 
 
 
@@ -87,39 +87,39 @@ La creación de un Modelo de Segmentación Avanzada de Características Morfoló
 En esta sección se describirá el procedimiento utilizado para obtener el conjunto de datos empleado en este estudio. A continuación, se presenta una tabla que resume las tareas y actividades realizadas durante esta fase de adquisición. El primer paso será la recopilación de datos. Los detalles sobre las actividades y tareas se encuentran en la Tabla \ref{tabla:actividades}.
  
  %% segunda tabla
- \begin{longtable}{>{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{5cm}}
-    \caption{Tabla de la Adquisición de Datos.}
-    \label{tabla:actividades}\\
-    \hline
-    \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}\\
-    \hline
-    \endfirsthead
+%  \begin{longtable}{>{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{5cm}}
+%     \caption{Tabla de la Adquisición de Datos.}
+%     \label{tabla:actividades}\\
+%     \hline
+%     \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}\\
+%     \hline
+%     \endfirsthead
 
-    \multicolumn{3}{c}%
-    {{\bfseries \tablename\ \thetable{} -- continuación de la página anterior}} \\
-    \hline
-    \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}\\
-    \hline
-    \endhead
+%     \multicolumn{3}{c}%
+%     {{\bfseries \tablename\ \thetable{} -- continuación de la página anterior}} \\
+%     \hline
+%     \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}\\
+%     \hline
+%     \endhead
 
-    \hline
-    \multicolumn{3}{r}{{Continúa en la siguiente página}} \\
-    \endfoot
+%     \hline
+%     \multicolumn{3}{r}{{Continúa en la siguiente página}} \\
+%     \endfoot
 
-    \hline
-    \endlastfoot
+%     \hline
+%     \endlastfoot
 
-    Identificación de la data que contengan imágenes de rostros con características morfológicas faciales. & Identificación de la data que contengan imágenes de rostros con características morfológicas faciales relevantes para la investigación. & 
-    \begin{itemize}
-        \item Analizar y identificar bases de datos con rostros con características morfológicas faciales.
-        \item Confirmar que la base de datos esté disponible públicamente y sea pertinente para el estudio.
-        \item Descargar los datos desde el repositorio apropiado.
-    \end{itemize} \\
-\end{longtable}
+%     Identificación de la data que contengan imágenes de rostros con características morfológicas faciales. & Identificación de la data que contengan imágenes de rostros con características morfológicas faciales relevantes para la investigación. & 
+%     \begin{itemize}
+%         \item Analizar y identificar bases de datos con rostros con características morfológicas faciales.
+%         \item Confirmar que la base de datos esté disponible públicamente y sea pertinente para el estudio.
+%         \item Descargar los datos desde el repositorio apropiado.
+%     \end{itemize} \\
+% \end{longtable}
 
-\begin{flushleft}
-    \small Fuente: Elaboración propia.
-\end{flushleft}
+% \begin{flushleft}
+%     \small Fuente: Elaboración propia.
+% \end{flushleft}
 
 
  
