@@ -76,6 +76,371 @@ Este proceso de representación y normalización, como se ve en el diagrama fina
 
 \subsection{Modelo de Segmentación: Unet}
 
+\subsubsection{Diseño de la arquitectura del modelo}
+
+El modelo implementado es una arquitectura de red neuronal convolucional U-Net, que es comúnmente utilizada para tareas de segmentación de imágenes. Esta red se caracteriza por su estructura simétrica, compuesta por una parte de codificación (encoder) y decodificación (decoder), con conexiones de salto (skip connections) entre ellas. El objetivo principal de la U-Net es capturar características de bajo y alto nivel, y luego reconstruir la imagen segmentada a partir de esas características.
+
+\textbf{Estructura del Modelo}
+
+La arquitectura de la U-Net se puede dividir en dos fases principales: la fase de codificación (encoder) y la fase de decodificación (decoder).
+
+\textbf{Bloques de Convolución}
+
+Cada bloque de convolución en el encoder y el decoder sigue el mismo patrón. Un bloque está compuesto por:
+\begin{itemize}
+    \item Dos capas de convolución, cada una seguida por \texttt{BatchNorm2d} (normalización por lotes) y \texttt{ReLU} (función de activación).
+    \item La normalización por lotes ayuda a estabilizar y acelerar el entrenamiento, mientras que la activación ReLU introduce no linealidad al modelo.
+    \item Las capas de convolución utilizan un tamaño de filtro de $3 \times 3$, lo que significa que cada capa de convolución opera sobre una vecindad local de 3 píxeles en la imagen de entrada.
+\end{itemize}
+
+\textbf{Encoder (Codificador)}
+
+El encoder está diseñado para extraer características de la imagen a través de una serie de capas convolucionales. En cada paso, la imagen es reducida en resolución mediante el uso de max pooling, lo que permite que la red capture información contextual en escalas de mayor nivel.
+
+\begin{itemize}
+    \item \textbf{Encoder 1}: La imagen de entrada con 3 canales (RGB) pasa a través del primer bloque de convolución, produciendo 64 mapas de características. Luego, se aplica un max pooling para reducir la resolución de la imagen a la mitad.
+    \item \textbf{Encoder 2}: Los 64 mapas de características se procesan en el segundo bloque de convolución, produciendo 128 mapas de características. También se aplica max pooling para reducir la resolución.
+    \item \textbf{Encoder 3}: Los 128 mapas de características se procesan en el tercer bloque de convolución, produciendo 256 mapas de características, seguidos por max pooling.
+    \item \textbf{Encoder 4}: Los 256 mapas de características se procesan en el cuarto bloque de convolución, produciendo 512 mapas de características, seguidos por max pooling.
+\end{itemize}
+
+\textbf{Bottleneck}
+
+En esta etapa, la red alcanza su máxima abstracción. El bottleneck se compone de un bloque de convolución que aumenta la profundidad a 1024 mapas de características. A diferencia de los bloques anteriores, esta parte no aplica max pooling, pero se realiza una convolución estándar. Aquí, la resolución de la imagen se mantiene constante para preservar la información de alto nivel.
+
+\textbf{Decoder (Decodificador)}
+
+El decoder tiene como objetivo reconstruir la imagen segmentada a partir de la representación abstracta generada en el bottleneck. El proceso se realiza mediante convoluciones transpuestas (también conocidas como deconvoluciones), que aumentan la resolución de las características. Además, se utilizan conexiones de salto (skip connections) para combinar la información de alta resolución del encoder con la información generada en el decoder.
+
+\begin{itemize}
+    \item \textbf{Upconv4 y Decoder 4}: La salida del bottleneck (1024 mapas de características) se expande utilizando una convolución transpuesta (upconv4), lo que duplica la resolución de la imagen. Luego, esta salida se concatena con los 512 mapas de características de \texttt{enc4}. El resultado se pasa a través de un bloque convolucional (dec4), manteniendo la cantidad de mapas en 512.
+    \item \textbf{Upconv3 y Decoder 3}: De manera similar, se aplica una convolución transpuesta (upconv3) que aumenta la resolución de la imagen a la mitad de su tamaño original. Se concatena con los 256 mapas de características de \texttt{enc3} y se pasa por un bloque convolucional (dec3).
+    \item \textbf{Upconv2 y Decoder 2}: La resolución de la imagen se duplica nuevamente usando upconv2, y se concatena con los 128 mapas de características de \texttt{enc2}. El resultado se procesa en dec2.
+    \item \textbf{Upconv1 y Decoder 1}: Finalmente, se utiliza upconv1 para duplicar la resolución a su tamaño original. Los 64 mapas de características generados en \texttt{enc1} se concatenan con la salida de upconv1 y se pasan a través de dec1.
+\end{itemize}
+
+\textbf{Capa Final}
+
+La salida final de la red se genera aplicando una convolución $1 \times 1$. Esta capa reduce el número de canales de 64 a la cantidad deseada de canales en la salida (por ejemplo, 3 para una imagen RGB segmentada). La convolución de $1 \times 1$ permite realizar una clasificación de cada píxel de la imagen.
+
+\textbf{Funcionamiento General}
+
+\begin{enumerate}
+    \item La imagen de entrada pasa por el encoder, donde se extraen características a diferentes escalas. La resolución de la imagen se reduce en cada paso utilizando max pooling, y la profundidad de los mapas de características aumenta.
+    \item En el bottleneck, se extrae la representación más abstracta de la imagen, utilizando un bloque convolucional sin max pooling.
+    \item El decoder aumenta la resolución de la imagen utilizando convoluciones transpuestas, y las conexiones de salto (skip connections) se utilizan para combinar las características de bajo nivel del encoder con las características de alto nivel del decoder.
+    \item Finalmente, una capa de convolución $1 \times 1$ genera la salida segmentada de la red.
+\end{enumerate}
+
+\textbf{Pseudocódigo del Modelo}
+
+\begin{verbatim}
+Input: Imagen X (3 canales)
+
+e1 = enc1(X)  # Primer bloque de convolución
+e2 = enc2(pool1(e1))  # Segundo bloque de convolución
+e3 = enc3(pool2(e2))  # Tercer bloque de convolución
+e4 = enc4(pool3(e3))  # Cuarto bloque de convolución
+
+b = bottleneck(pool4(e4))  # Bottleneck, no max pooling
+
+d4 = upconv4(b)  # Expansión con convolución transpuesta
+d4 = dec4(concat(d4, e4))  # Conexión de salto con e4
+d3 = upconv3(d4)  # Expansión con convolución transpuesta
+d3 = dec3(concat(d3, e3))  # Conexión de salto con e3
+d2 = upconv2(d3)  # Expansión con convolución transpuesta
+d2 = dec2(concat(d2, e2))  # Conexión de salto con e2
+d1 = upconv1(d2)  # Expansión con convolución transpuesta
+d1 = dec1(concat(d1, e1))  # Conexión de salto con e1
+
+Output = final_conv(d1)  # Capa final de convolución
+\end{verbatim}
+
+\subsubsection{Definición de componentes del modelo}
+
+\begin{itemize}
+    \item \textbf{Clase \texttt{SegmentacionMulticlaseDataset}}: Esta clase personalizada hereda de \texttt{torch.utils.data.Dataset} y se encarga de cargar imágenes de entrada (rostros) y sus correspondientes máscaras binarias (arrugas y manchas). Se generan máscaras multiclase fusionando las siguientes clases:
+    \begin{itemize}
+        \item Clase 0: Fondo (valor por defecto en la máscara).
+        \item Clase 1: Arrugas (píxeles donde la imagen de arrugas tenga valores mayores a 50).
+        \item Clase 2: Manchas (píxeles donde la imagen de manchas tenga valores mayores a 50).
+    \end{itemize}
+    Para el preprocesamiento se utiliza la librería Albumentations. Las transformaciones incluyen:
+    \begin{itemize}
+        \item \texttt{HorizontalFlip(p=0.5)}
+        \item \texttt{Rotate(limit=10, p=0.3)}
+        \item \texttt{RandomBrightnessContrast(p=0.3)}
+        \item \texttt{Resize(256, 256)}
+        \item \texttt{ToTensorV2()}
+    \end{itemize}
+    Esto permite robustecer el modelo contra pequeñas variaciones geométricas e iluminación.
+
+    \item \textbf{Modelo \texttt{UNet}}: Arquitectura de segmentación semántica basada en una estructura en forma de U. Se compone de dos fases principales:
+    \begin{itemize}
+        \item \textbf{Codificador (Encoder):} Reduce progresivamente la dimensión espacial mientras aumenta la profundidad de características:
+        \begin{itemize}
+            \item \texttt{enc1}: \( \text{Conv2d}(3 \rightarrow 64) \rightarrow \text{BN} \rightarrow \text{ReLU} \rightarrow \text{Conv2d}(64 \rightarrow 64) \rightarrow \text{BN} \rightarrow \text{ReLU} \)
+            \item \texttt{pool1}: MaxPool \(2 \times 2\)
+            \item \texttt{enc2}: \(64 \rightarrow 128\), seguido de \texttt{pool2}, etc.
+        \end{itemize}
+        \item \textbf{Cuello de botella (Bottleneck):} Capa de mayor profundidad \(512 \rightarrow 1024\), sin reducción espacial.
+        \item \textbf{Decodificador (Decoder):} Recupera resolución espacial mediante \texttt{ConvTranspose2d} (upsampling) y concatenación con las salidas del encoder (skip connections). Cada bloque incluye dos capas convolucionales como el encoder.
+        \item \textbf{Capa final:} Una convolución \(1 \times 1\) que transforma el mapa de características final (con 64 canales) en un tensor con 3 canales de salida (uno por clase).
+    \end{itemize}
+\end{itemize}
+
+\vspace{1em}
+\textbf{Componentes de entrenamiento:}
+
+\begin{itemize}
+    \item \textbf{Dispositivo de cómputo:} Se selecciona automáticamente el uso de GPU con CUDA, 8 GB de Ram con tarjeta de video RTX 4060
+    \[
+    \texttt{torch.device("cuda" if torch.cuda.is\_available() else "cpu")}
+    \]
+    
+    \item \textbf{Hiperparámetros:}
+    \begin{itemize}
+        \item Épocas: \( E = 50 \)
+        \item Tamaño de lote: \( B = 4 \)
+        \item Tasa de aprendizaje: \( \eta = 10^{-3} \)
+        \item Número de clases: \( C = 3 \)
+    \end{itemize}
+
+    \item \textbf{Función de pérdida: CrossEntropy ponderada}
+
+    Se utiliza:
+    \[
+    \mathcal{L}_{CE}(x, y) = - \sum_{c=1}^{C} w_c \cdot y_c \cdot \log \left( \frac{e^{x_c}}{\sum_{k=1}^{C} e^{x_k}} \right)
+    \]
+    Donde:
+    \begin{itemize}
+        \item \( x \) es la salida del modelo (logits por clase, por píxel),
+        \item \( y \) es la máscara real codificada como entero [0, 1, 2],
+        \item \( w_c \in \mathbb{R} \) es el peso de la clase \(c\).
+    \end{itemize}
+    Se definen pesos:
+    \[
+    \vec{w} = [0.5, 5.0, 3.0]
+    \]
+    para compensar el desbalance en la presencia de fondo, arrugas y manchas respectivamente.
+
+    \item \textbf{Optimización:} Se utiliza Adam:
+    \[
+    \theta \leftarrow \theta - \eta \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
+    \]
+    con momentos corregidos, donde \(\theta\) representa los parámetros de la red.
+
+    \item \textbf{Bucle de entrenamiento:} Para cada lote:
+    \begin{enumerate}
+        \item Se pasa la imagen por el modelo: \( \hat{y} = f_\theta(x) \)
+        \item Se calcula la pérdida: \( \mathcal{L} = \text{CrossEntropy}(\hat{y}, y) \)
+        \item Se retropropaga: \( \nabla_\theta \mathcal{L} \)
+        \item Se actualizan los parámetros usando Adam.
+    \end{enumerate}
+
+    \item \textbf{Evaluación:} Se obtuvo la clase predicha para cada píxel:
+    \[
+    \hat{y}_{pred}(i,j) = \arg\max_{c \in \{0,1,2\}} \hat{y}_{c}(i,j)
+    \]
+    y se imprimen las clases únicas predichas y reales, para comparar semánticamente la segmentación.
+\end{itemize}
+
+\vspace{1em}
+\textbf{Resumen de interacción entre componentes:}
+
+\begin{itemize}
+    \item El conjunto de datos genera muestras de entrenamiento y validación a partir de rutas de imágenes faciales y sus respectivas máscaras binarias.
+    \item Las imágenes se transforman y normalizan en el rango \([0, 1]\) y se convierten en tensores \texttt{float}.
+    \item La máscara multiclase (valores en \{0,1,2\}) es convertida en tipo \texttt{long} para ser compatible con \texttt{nn.CrossEntropyLoss}.
+    \item El modelo UNet recibe un batch de imágenes y predice un tensor de salida con forma \((B, C, H, W)\), donde \(C = 3\).
+    \item Se calcula la pérdida ponderada y se retropropaga para actualizar los pesos.
+    \item En validación, se observa la capacidad del modelo para distinguir fondo, arrugas y manchas en imágenes no vistas.
+\end{itemize}
+
+\subsubsection{Entrenamiento del modelo}
+\textbf{Actividad 1: Configuración del entorno de entrenamiento}
+
+La configuración del entorno es esencial para garantizar la reproducibilidad y eficiencia del proceso de entrenamiento del modelo. Se utilizó Python 3.10 con las siguientes librerías principales: PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para aceleración por GPU si está disponible.
+
+\begin{itemize}
+  \item \textbf{Detección del dispositivo:}\\
+  \texttt{device = torch.device("cuda" if torch.cuda.is\_available() else "cpu")}
+  
+  \item \textbf{Estructura de datos:}
+  \begin{itemize}
+    \item \texttt{rostros/} -- imágenes RGB del rostro completo.
+    \item \texttt{arrugas/} -- máscaras binarias para arrugas.
+    \item \texttt{manchas/} -- máscaras binarias para manchas.
+  \end{itemize}
+
+  \item \textbf{Transformaciones con Albumentations:}
+\begin{verbatim}
+A.Compose([
+    A.HorizontalFlip(p=0.5),
+    A.Rotate(limit=10, p=0.3),
+    A.RandomBrightnessContrast(p=0.3),
+    A.Resize(256, 256),
+    ToTensorV2()
+])
+\end{verbatim}
+
+  \item \textbf{Dataset personalizado:} \\
+  Se creó una clase que transforma las máscaras binarias individuales en una sola máscara multiclase: 0 para fondo, 1 para arrugas y 2 para manchas.
+
+  \item \textbf{División de datos:} \\
+  Se utilizó \texttt{random\_split} para una partición del 80\% para entrenamiento y 20\% para validación.
+\end{itemize}
+
+\vspace{0.5cm}
+\textbf{Actividad 2: Aplicación de técnicas de optimización}
+
+Durante el entrenamiento de la red UNet, se implementaron diversas técnicas para mejorar la precisión y velocidad de convergencia del modelo.
+
+\begin{itemize}
+  \item \textbf{Modelo UNet:}
+  \begin{itemize}
+    \item Capas convolucionales con BatchNorm y activación ReLU.
+    \item MaxPooling y transposed convolutions.
+    \item Conexiones de salto entre codificador y decodificador.
+  \end{itemize}
+  
+  \item \textbf{Función de pérdida:} \\
+  Se utilizó entropía cruzada ponderada para manejar el desbalance de clases:
+  \[
+  \text{weights} = [0.5, 5.0, 3.0]
+  \]
+  \[
+  \mathcal{L}_{CE} = - \sum_{i=1}^{N} \sum_{c=1}^{C} w_c \cdot y_{ic} \cdot \log \left( \frac{e^{x_{ic}}}{\sum_{k=1}^{C} e^{x_{ik}}} \right)
+  \]
+
+  \item \textbf{Optimizador:} \\
+  Se empleó Adam con tasa de aprendizaje $\eta = 0.001$:
+  \[
+  \theta_{t+1} = \theta_t - \eta \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
+  \]
+
+  \item \textbf{Proceso de entrenamiento:}
+  \begin{itemize}
+    \item 30 épocas con batch size = 4.
+    \item Cálculo de predicción, pérdida, retropropagación y optimización en cada iteración.
+  \end{itemize}
+
+  \item \textbf{Otras técnicas aplicadas:}
+  \begin{itemize}
+    \item Aumento de datos en tiempo real.
+    \item Normalización por lotes.
+    \item Conexiones de salto para evitar pérdida de detalle espacial.
+  \end{itemize}
+\end{itemize}
+
+\vspace{0.5cm}
+\textbf{Actividad 3: Validación cruzada del rendimiento}
+
+Se aplicó una estrategia de validación tipo hold-out (80\% entrenamiento, 20\% validación). El objetivo fue medir la capacidad del modelo para generalizar a datos no vistos.
+
+\begin{itemize}
+  \item \textbf{Métricas utilizadas:}
+  \begin{itemize}
+    \item Precisión por clase.
+    \item Intersección sobre Unión (IoU).
+    \item Dice Coefficient:
+    \[
+    \text{Dice} = \frac{2 \cdot |A \cap B|}{|A| + |B|}
+    \]
+    \item Matriz de confusión multiclase.
+  \end{itemize}
+
+  \item \textbf{Visualización de resultados:} \\
+  Las máscaras predichas se superpusieron con las imágenes originales utilizando diferentes colores por clase (fondo, arrugas, manchas) para evaluar visualmente la segmentación.
+
+  \item \textbf{Extensiones propuestas:}
+  \begin{itemize}
+    \item Validación cruzada k-fold ($k=5$).
+    \item Early stopping para prevenir sobreajuste.
+    \item Reducción adaptativa de la tasa de aprendizaje.
+    \item Ensembling de modelos.
+  \end{itemize}
+
+  \item \textbf{Justificación:} \\
+  Una evaluación rigurosa permite determinar si el modelo puede ser aplicado de forma confiable a nuevas imágenes faciales con características morfológicas diversas.
+\end{itemize}
+
+\subsubsection{Evaluación del modelo}
+La evaluación del modelo entrenado se realizó con el objetivo de determinar su capacidad para segmentar correctamente las características morfológicas faciales, específicamente arrugas y manchas, a partir de imágenes RGB. Esta etapa es fundamental para verificar la efectividad del modelo antes de su implementación práctica en un entorno real.
+
+\begin{itemize}
+  \item \textbf{Conjunto de validación:}\\
+  Se utilizó el 20\% de los datos reservados previamente para validación, asegurando que las imágenes evaluadas no hayan sido vistas durante el entrenamiento. Esto garantiza una estimación imparcial del rendimiento general del modelo.
+
+  \item \textbf{Métricas de rendimiento:}\\
+  Para una evaluación integral del modelo, se utilizaron diversas métricas que capturan distintos aspectos de su desempeño:
+  \begin{itemize}
+    \item \textbf{Precisión por clase (accuracy):} proporción de píxeles correctamente clasificados.
+    \item \textbf{IoU (Intersection over Union):}
+    \[
+    \text{IoU}_c = \frac{|P_c \cap G_c|}{|P_c \cup G_c|}
+    \]
+    donde $P_c$ representa los píxeles predichos de la clase $c$, y $G_c$ los píxeles reales de dicha clase.
+
+    \item \textbf{Coeficiente Dice:}
+    \[
+    \text{Dice}_c = \frac{2 \cdot |P_c \cap G_c|}{|P_c| + |G_c|}
+    \]
+    especialmente útil para evaluar el solapamiento entre predicción y verdad de terreno en clases minoritarias como las manchas.
+
+  \end{itemize}
+
+  \item \textbf{Análisis Visual:}\\
+  Además de las métricas cuantitativas, se realizó una revisión visual de los resultados generados por el modelo. Para ello:
+  \begin{itemize}
+    \item Se superpusieron las máscaras predichas sobre las imágenes originales.
+    \item Se utilizó una codificación de colores: fondo (negro), arrugas (rojo) y manchas (azul).
+    \item Se compararon visualmente las segmentaciones predichas frente a las segmentaciones reales (ground truth).
+  \end{itemize}
+
+  \item \textbf{Observaciones esperadas:}
+  \begin{itemize}
+    \item Buena segmentación de estructuras prominentes (arrugas marcadas).
+    \item Posibles errores en bordes difusos o regiones con baja iluminación.
+    \item Posibles confusiones entre arrugas y manchas en regiones solapadas.
+  \end{itemize}
+
+  \item \textbf{resultados:}\\
+El modelo alcanzó los siguientes resultados promedio sobre el conjunto de validación:
+\begin{itemize}
+  \item \textbf{Pérdida mínima (\texttt{val\_loss}):} 0.0849 (en la época 50).
+  \item \textbf{Precisión promedio:} 0.645, indicando que casi dos tercios de los píxeles se clasificaron correctamente.
+  \item \textbf{Dice Score promedio:} 0.440, mostrando un nivel medio de superposición entre máscaras predichas y reales.
+  \item \textbf{Jaccard Index promedio:} 0.289, reflejando el desafío de obtener coincidencias exactas en regiones complejas.
+  \item Se detectaron mejores resultados en la clase \emph{arrugas}, posiblemente por la mayor representación y contraste de textura.
+  \item La clase \emph{manchas} presentó métricas ligeramente inferiores, sugiriendo que futuras optimizaciones deberían incluir aumentos más dirigidos a mejorar esta categoría (por ejemplo, resaltando contraste o coloración).
+\end{itemize}
+  A continuación se presentan las métricas calculadas, los gráficos obtenidos y los ejemplos visuales para ilustrar el rendimiento del modelo.
+
+  \vspace{0.2cm}
+  \begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{4/figures/UnetComparación1.png}
+\caption{Comparación visual: imagen original, máscara real multicategoría y predicción del modelo para un caso con predominio de arrugas.}
+\label{fig:validacion11}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{4/figures/UnetComparación2.png}
+\caption{Comparación visual: ejemplo donde se observa el desempeño del modelo en la detección de manchas, destacando regiones correctamente identificadas y algunas áreas faltantes.}
+\label{fig:validacion22}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{4/figures/UnetComparación3.png}
+\caption{Comparación visual: caso mixto donde se presentan simultáneamente arrugas y manchas, mostrando la capacidad del modelo para diferenciar ambas clases en un mismo rostro.}
+\label{fig:validacion33}
+\end{figure}
+\end{itemize}
+
+
 \subsection{Modelo de Segmentación: UNetAttention}
 
 \subsubsection{Diseño de la arquitectura del modelo}
@@ -421,10 +786,10 @@ Para evaluar de manera robusta el desempeño del modelo, se utilizaron las sigui
 \textbf{Actividad 3: Evaluación del Modelo} \\
 El modelo alcanzó los siguientes resultados promedio sobre el conjunto de validación:
 \begin{itemize}
-  \item \textbf{Pérdida mínima (\texttt{val\_loss}):} 0.0458 (en la época 50).
-  \item \textbf{Precisión promedio:} 0.645, indicando que casi dos tercios de los píxeles se clasificaron correctamente.
-  \item \textbf{Dice Score promedio:} 0.440, mostrando un nivel medio de superposición entre máscaras predichas y reales.
-  \item \textbf{Jaccard Index promedio:} 0.289, reflejando el desafío de obtener coincidencias exactas en regiones complejas.
+  \item \textbf{Pérdida mínima (\texttt{val\_loss}):} 0.0158 (en la época 50).
+  \item \textbf{Precisión promedio:} 0.821, indicando que casi 4 quintos de los píxeles se clasificaron correctamente.
+  \item \textbf{Dice Score promedio:} 0.67, mostrando un nivel medio de superposición entre máscaras predichas y reales.
+  \item \textbf{Jaccard Index promedio:} 0.61, reflejando aun el desafío de obtener coincidencias exactas en regiones complejas.
   \item Se detectaron mejores resultados en la clase \emph{arrugas}, posiblemente por la mayor representación y contraste de textura.
   \item La clase \emph{manchas} presentó métricas ligeramente inferiores, sugiriendo que futuras optimizaciones deberían incluir aumentos más dirigidos a mejorar esta categoría (por ejemplo, resaltando contraste o coloración).
 \end{itemize}
