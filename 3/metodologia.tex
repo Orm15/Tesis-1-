@@ -17,34 +17,28 @@ La muestra de la investigación comprenderá una parte de aproximadamente 5000 r
 Los detalles acerca de cómo se definen y miden las variables de estudio se presentan en la Tabla \ref{tabla:variables}.
 
 
-% \begin{longtable}{>{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{2.5cm} >{\centering\arraybackslash}m{2.5cm} >{\raggedright\arraybackslash}m{7cm}}
-%     \caption{Matriz de Variables Principales.}
-%     \label{tabla:variables}\\
-%     \hline
-%     VARIABLE & DIMENSIÓN & INDICADOR & CÁLCULO \\
-%     \hline
-%     Independiente: Imágenes de Rostros Faciales & Calidad de la Imagen & Resolución & Número de píxeles por pulgada (ppi) de la imagen, obtenido automáticamente. \\
-%     \cline{2-4}
-%      & Detalle de Rostro Facial & Características Morfológicas Faciales Identificables & Conteo de arrugas y manchas detectadas manual o automáticamente. \\
-%     \hline
-%     Dependiente: Modelo de Segmentación Avanzada de Características Morfológicas Faciales & Precisión & Diferencia de Segmentación del Modelo vs Real & $\text{Precisión} = \frac{VP}{VP + FP}$ \\ 
-%     \cline{2-4}
-%      & Índice de Sørensen–Dice & Similitud espacial & $\text{DSC} = \frac{2 \times |A \cap B|}{|A| + |B|}$ \\
-%     \cline{2-4}
-%      & Coeficiente de Jaccard & Similitud de conjunto & $\text{IoU} = \frac{|A \cap B|}{|A \cup B|}$ \\
-%     \cline{2-4}
-%      & Entropía Cruzada & Desempeño de clasificación del modelo & $\text{CE} = -\sum_{i=1}^{N} y_i \log(\hat{y}_i)$ \\
-%     \hline
-% \end{longtable}
-
-
-
+\begin{longtable}{>{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{2.5cm} >{\centering\arraybackslash}m{2.5cm} >{\raggedright\arraybackslash}m{7cm}}
+    \caption{Matriz de Variables Principales.}
+    \label{tabla:variables}\\
+    \hline
+    VARIABLE & DIMENSIÓN & INDICADOR & CÁLCULO \\
+    \hline
+    Independiente: Imágenes de Rostros Faciales & Calidad de la Imagen & Resolución & Número de píxeles por pulgada (ppi) de la imagen, obtenido automáticamente. \\
+    \cline{2-4}
+     & Detalle de Rostro Facial & Características Morfológicas Faciales Identificables & Conteo de arrugas y manchas detectadas manual o automáticamente. \\
+    \hline
+    Dependiente: Modelo de Segmentación Avanzada de Características Morfológicas Faciales & Precisión & Diferencia de Segmentación del Modelo vs Real & $\text{Precisión} = \frac{VP}{VP + FP}$ \\ 
+    \cline{2-4}
+     & Índice de Sørensen–Dice & Similitud espacial & $\text{DSC} = \frac{2 \times |A \cap B|}{|A| + |B|}$ \\
+    \cline{2-4}
+     & Coeficiente de Jaccard & Similitud de conjunto & $\text{IoU} = \frac{|A \cap B|}{|A \cup B|}$ \\
+    \cline{2-4}
+     & Entropía Cruzada & Desempeño de clasificación del modelo & $\text{CE} = -\sum_{i=1}^{N} y_i \log(\hat{y}_i)$ \\
+    \hline
+\end{longtable}
 \begin{flushleft}
 	\small Fuente: Elaboración propia.
 \end{flushleft}
-
-
-   
 
 \section{Técnicas de recolección de datos}
 La recolección de imágenes de características morfológicas faciales es un paso crucial para la creación del modelo de segmentación avanzada de estas. Una de las técnicas más accesibles y efectivas para obtener estas imágenes es a través del uso de bases de datos públicas como se ve en la Figura \ref{3:fig2} y repositorios en línea. Estas fuentes ofrecen una amplia variedad de imágenes de rostros faciales, que pueden ser utilizados para modelar y crear el modelo de segmentación avanzada.
@@ -87,50 +81,48 @@ La creación de un Modelo de Segmentación Avanzada de Características Morfoló
 En esta sección se describirá el procedimiento utilizado para obtener el conjunto de datos empleado en este estudio. A continuación, se presenta una tabla que resume las tareas y actividades realizadas durante esta fase de adquisición. El primer paso será la recopilación de datos. Los detalles sobre las actividades y tareas se encuentran en la Tabla \ref{tabla:actividades}.
  
  %% segunda tabla
-%  \begin{longtable}{>{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{5cm}}
-%     \caption{Tabla de la Adquisición de Datos.}
-%     \label{tabla:actividades}\\
-%     \hline
-%     \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}\\
-%     \hline
-%     \endfirsthead
+ \begin{longtable}{>{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{4cm} >{\raggedright\arraybackslash}p{5cm}}
+    \caption{Tabla de la Adquisición de Datos.}
+    \label{tabla:actividades}\\
+    \hline
+    \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}\\
+    \hline
+    \endfirsthead
 
-%     \multicolumn{3}{c}%
-%     {{\bfseries \tablename\ \thetable{} -- continuación de la página anterior}} \\
-%     \hline
-%     \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}\\
-%     \hline
-%     \endhead
+    \multicolumn{3}{c}%
+    {{\bfseries \tablename\ \thetable{} -- continuación de la página anterior}} \\
+    \hline
+    \textbf{Actividades} & \textbf{Descripción} & \textbf{Tareas}\\
+    \hline
+    \endhead
 
-%     \hline
-%     \multicolumn{3}{r}{{Continúa en la siguiente página}} \\
-%     \endfoot
+    \hline
+    \multicolumn{3}{r}{{Continúa en la siguiente página}} \\
+    \endfoot
 
-%     \hline
-%     \endlastfoot
+    \hline
+    \endlastfoot
 
-%     Identificación de la data que contengan imágenes de rostros con características morfológicas faciales. & Identificación de la data que contengan imágenes de rostros con características morfológicas faciales relevantes para la investigación. & 
-%     \begin{itemize}
-%         \item Analizar y identificar bases de datos con rostros con características morfológicas faciales.
-%         \item Confirmar que la base de datos esté disponible públicamente y sea pertinente para el estudio.
-%         \item Descargar los datos desde el repositorio apropiado.
-%     \end{itemize} \\
-% \end{longtable}
+    Identificación de la data que contengan imágenes de rostros con características morfológicas faciales. & Identificación de la data que contengan imágenes de rostros con características morfológicas faciales relevantes para la investigación. & 
+    \begin{itemize}
+        \item Analizar y identificar bases de datos con rostros con características morfológicas faciales.
+        \item Confirmar que la base de datos esté disponible públicamente y sea pertinente para el estudio.
+        \item Descargar los datos desde el repositorio apropiado.
+    \end{itemize} \\
+\end{longtable}
 
-% \begin{flushleft}
-%     \small Fuente: Elaboración propia.
-% \end{flushleft}
+\begin{flushleft}
+    \small Fuente: Elaboración propia.
+\end{flushleft}
 
 
+Enseguida, se proporcionará un detalle de la actividad mencionada en la tabla anterior, junto con los resultados que se esperan obtener.
  
+\textbf{Actividad 1: Identificación de la data que contengan imágenes de rostros con características morfológicas faciales de proporciones similares}
+\\
+Esta actividad explicará la identificación de la data. Para la data, se obtendrán más de dos mil imágenes de rostros faciales de las diferentes datas encontradas en repositorios públicos. Las imágenes de rostros faciales se encuentran en la base de datos. 
  
- Enseguida, se proporcionará un detalle de la actividad mencionada en la tabla anterior, junto con los resultados que se esperan obtener.
- 
- \textbf{Actividad 1: Identificación de la data que contengan imágenes de rostros con características morfológicas faciales de proporciones similares}
- \\
- Esta actividad explicará la identificación de la data. Para la data, se obtendrán más de dos mil imágenes de rostros faciales de las diferentes datas encontradas en repositorios públicos. Las imágenes de rostros faciales se encuentran en la base de datos. 
- 
- \textbf{Entregable}: Dataset que contiene imágenes de rostros faciales con características morfológicas, tales como arrugas y manchas.
+\textbf{Entregable}: Dataset que contiene imágenes de rostros faciales con características morfológicas, tales como arrugas y manchas.
 
 \subsubsection{Preprocesamiento de los Datos}
 Se realizará el preprocesamiento de las imágenes del conjunto en esta etapa. La tabla \ref{tabla:preprocesamiento} incluye las tareas y actividades necesarias para completar la etapa de preprocesamiento:
@@ -194,8 +186,8 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
 
 \begin{figure}[H]
      \begin{center}
-         \includegraphics[width=0.5\textwidth]{3/figures/Diagrama de preprocesamiento.png}
-         \caption[Diagrama de Preprocesamiento de los Datos]{Diagrama de Preprocesamiento de los Datos.\\
+         \includegraphics[width=0.4\textwidth]{3/figures/Diagrama de preprocesamiento.png}
+         \caption[Diagrama Esperado de Preprocesamiento de los Datos]{Diagrama Esperado de Preprocesamiento de los Datos.\\
          Fuente: Elaboración propia}
          \label{3:fig4}
      \end{center}
@@ -203,7 +195,7 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
 
 
  \subsubsection{Desarrollo de los Modelos de Segmentación}
- El desarrollo de los modelos de segmentación de características faciales se estructurará en tres actividades clave. Estas actividades incluirán el diseño, implementación y entrenamiento de modelos basados en arquitecturas de redes neuronales profundas como U-Net, ResNet y modelos híbridos con Vision Transformer (ViT). La Tabla \ref{tabla:actividades_segmentacion} presenta el detalle de cada una.
+ El desarrollo de los modelos de segmentación de características faciales se estructurará en tres actividades clave. Estas actividades incluirán el diseño, implementación y entrenamiento de modelos basados en arquitecturas de redes neuronales profundas como U-Net, DeepLabV3 y modelos híbridos con Vision Transformer (ViT). La Tabla \ref{tabla:actividades_segmentacion} presenta el detalle de cada una.
 
  \vspace{2ex}
  \begingroup
@@ -227,8 +219,8 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
  Diseño de la arquitectura del modelo & Selección conceptual y estructural de modelos apropiados para la segmentación de características morfológicas faciales. &
  \begin{itemize}
      \item Análisis de U-Net para segmentación precisa de áreas pequeñas como arrugas y poros.
-     \item Evaluación del potencial de ResNet para representar características profundas y complejas.
-     \item Consideración de arquitecturas híbridas que integren CNN con Vision Transformer (ViT).
+     \item Evaluación del potencial de DeepLabV3 para representar características profundas y complejas.
+     \item Consideración de arquitecturas híbridas que integren Unet con Vision Transformer (ViT).
  \end{itemize} \\
  
  Definición de componentes del modelo & Establecimiento de las partes esenciales del modelo para la segmentación de imágenes faciales. &
@@ -236,13 +228,6 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
      \item Diseño de capas convolucionales, de codificación y decodificación.
      \item Propuesta de bloques residuales y mecanismos de atención en modelos híbridos.
      \item Configuración de dimensiones de entrada y salida adaptadas a imágenes faciales.
- \end{itemize} \\
- 
- Estrategia de ensamblado del modelo & Organización lógica y estructural de los bloques que conforman cada arquitectura seleccionada. &
- \begin{itemize}
-     \item Integración de módulos especializados según la arquitectura (por ejemplo, skip connections en U-Net).
-     \item Planificación de rutas de información para mejorar la segmentación espacial.
-     \item Definición de la estructura jerárquica de procesamiento de la imagen.
  \end{itemize} \\
  
  \end{longtable}
@@ -253,7 +238,7 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
  \textbf{Actividad 1: Diseño de la arquitectura del modelo}
  \\
  Durante esta etapa se definirá la estructura general de las redes neuronales que se utilizarán para la segmentación de características morfológicas faciales. El objetivo será seleccionar arquitecturas que sean adecuadas para extraer información precisa de regiones faciales como arrugas, poros o manchas.
- Entre las arquitecturas consideradas se encontrarán U-Net, que destaca por su capacidad de segmentación precisa gracias a su estructura simétrica y sus conexiones de salto entre el codificador y el decodificador. También se evaluará el uso de ResNet, una arquitectura que incorpora bloques residuales para mejorar el aprendizaje en redes profundas, especialmente útil para capturar texturas complejas. Asimismo, se contemplará la exploración de modelos híbridos que combinan Redes Neuronales Convolucionales (CNN) con Vision Transformer (ViT), lo cual permitirá captar patrones sutiles mediante mecanismos de atención.
+ Entre las arquitecturas consideradas se encontrarán U-Net, que destaca por su capacidad de segmentación precisa gracias a su estructura simétrica y sus conexiones de salto entre el codificador y el decodificador. También se evaluará el uso de DeepLabV3, una arquitectura que incorpora bloques residuales para mejorar el aprendizaje en redes profundas, especialmente útil para capturar texturas complejas. Asimismo, se contemplará la exploración de modelos híbridos que combinan Unet con Vision Transformer (ViT), lo cual permitirá captar patrones sutiles mediante mecanismos de atención.
  
  \textbf{Entregable}: Selección de la arquitectura óptima para el modelo de segmentación facial, justificada técnicamente.
 
@@ -261,24 +246,15 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
  \\
 Esta actividad consistirá en establecer los elementos esenciales que conformarán las redes previamente seleccionadas. Se determinará la cantidad de capas, el tipo de operaciones dentro de cada módulo y la forma en que se conectan entre sí, en función de las necesidades de segmentación facial.
 
-En U-Net, por ejemplo, se definirá cuántas capas de codificación y decodificación se utilizarán, así como las conexiones que transmitirán información detallada entre estas. En ResNet, se especificará el número de bloques residuales y la profundidad de la red, asegurando que se mantenga la eficiencia del aprendizaje sin perder información relevante. En los modelos híbridos con ViT, se determinará cómo integrar los módulos de atención con las capas convolucionales, de forma que se mantenga un flujo eficiente de características entre ambos entornos.
+En U-Net, por ejemplo, se definirá cuántas capas de codificación y decodificación se utilizarán, así como las conexiones que transmitirán información detallada entre estas. En DeepLabV3, se especificará el número de bloques residuales y la profundidad de la red, asegurando que se mantenga la eficiencia del aprendizaje sin perder información relevante. En los modelos híbridos con ViT, se determinará cómo integrar los módulos de atención con las capas convolucionales, de forma que se mantenga un flujo eficiente de características entre ambos entornos.
 
  \textbf{Entregable}: Especificación detallada de los componentes y estructura interna de cada arquitectura seleccionada.
-
-
- \textbf{Actividad 3: Estrategia de ensamblado del modelo}
- \\
- La última actividad del desarrollo se enfocará en ensamblar los componentes definidos en una arquitectura operativa y coherente. El ensamblado implicará organizar los módulos en un orden lógico que permita un flujo fluido de datos desde la entrada hasta la salida del modelo.
-
-Para U-Net, esto implicará establecer correctamente las conexiones tipo “skip” que permiten recuperar detalles espaciales perdidos durante la codificación. En el caso de ResNet, se ensamblarán los bloques residuales de forma que la información pueda circular libremente entre capas profundas. Finalmente, para los modelos híbridos, se deberá asegurar que las características extraídas por las CNN puedan ser procesadas adecuadamente por los módulos de atención del Vision Transformer, logrando así una representación enriquecida para la segmentación facial.
-
- \textbf{Entregable}: Modelo ensamblado conceptualmente, listo para su implementación en entorno de desarrollo.
 
  
  \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=0.5\textwidth]{3/figures/Diagrama de Desarrollo.png}
-        \caption[Diagrama del Desarrollo de los Modelos de Segmentación]{Diagrama del Desarrollo de los Modelos de Segmentación.\\
+        \includegraphics[width=0.35\textwidth]{3/figures/Diagrama de desarrollo.png}
+        \caption[Diagrama Esperado del Desarrollo de los Modelos de Segmentación]{Diagrama Esperado del Desarrollo de los Modelos de Segmentación.\\
         Fuente: Elaboración propia}
         \label{3:fig5}
     \end{center}

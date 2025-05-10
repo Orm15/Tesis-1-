@@ -68,17 +68,17 @@ Este proceso de representación y normalización, como se ve en el diagrama fina
 		\includegraphics[width=0.45\textwidth]{4/figures/diagrama final prepo.png}
 		\caption[Diagrama de Preprocesamiento Utilizado]{Diagrama de Preprocesamiento Utilizado.\\
 		Fuente: Elaboración propia}
-		\label{4:fig2}
+		\label{4:fig3}
 	\end{center}
 \end{figure}
-
+\newpage
 \section{Desarrollo de los Modelos de Segmentación}
 
-\subsection{Modelo de Segmentación: Unet}
-
-\subsubsection{Diseño de la arquitectura del modelo}
-
-El modelo implementado es una arquitectura de red neuronal convolucional U-Net, que es comúnmente utilizada para tareas de segmentación de imágenes. Esta red se caracteriza por su estructura simétrica, compuesta por una parte de codificación (encoder) y decodificación (decoder), con conexiones de salto (skip connections) entre ellas. El objetivo principal de la U-Net es capturar características de bajo y alto nivel, y luego reconstruir la imagen segmentada a partir de esas características.
+\begin{enumerate}
+  \item \textbf{Modelo de Segmentación: U-Net}
+  \begin{itemize}
+  \item\textbf{Actividad 1: Diseño de la arquitectura del modelo}
+  El modelo implementado es una arquitectura de red neuronal convolucional U-Net, que es comúnmente utilizada para tareas de segmentación de imágenes. Esta red se caracteriza por su estructura simétrica, compuesta por una parte de codificación (encoder) y decodificación (decoder), con conexiones de salto (skip connections) entre ellas. El objetivo principal de la U-Net es capturar características de bajo y alto nivel, y luego reconstruir la imagen segmentada a partir de esas características.
 
 \textbf{Estructura del Modelo}
 
@@ -125,12 +125,12 @@ La salida final de la red se genera aplicando una convolución $1 \times 1$. Est
 
 \textbf{Funcionamiento General}
 
-\begin{enumerate}
+\begin{itemize}
     \item La imagen de entrada pasa por el encoder, donde se extraen características a diferentes escalas. La resolución de la imagen se reduce en cada paso utilizando max pooling, y la profundidad de los mapas de características aumenta.
     \item En el bottleneck, se extrae la representación más abstracta de la imagen, utilizando un bloque convolucional sin max pooling.
     \item El decoder aumenta la resolución de la imagen utilizando convoluciones transpuestas, y las conexiones de salto (skip connections) se utilizan para combinar las características de bajo nivel del encoder con las características de alto nivel del decoder.
     \item Finalmente, una capa de convolución $1 \times 1$ genera la salida segmentada de la red.
-\end{enumerate}
+\end{itemize}
 
 \textbf{Pseudocódigo del Modelo}
 
@@ -156,9 +156,9 @@ d1 = dec1(concat(d1, e1))  # Conexión de salto con e1
 Output = final_conv(d1)  # Capa final de convolución
 \end{verbatim}
 
-\subsubsection{Definición de componentes del modelo}
 
-\begin{itemize}
+  \item\textbf{Actividad 2: Definición de componentes del modelo}
+  \begin{itemize}
     \item \textbf{Clase \texttt{SegmentacionMulticlaseDataset}}: Esta clase personalizada hereda de \texttt{torch.utils.data.Dataset} y se encarga de cargar imágenes de entrada (rostros) y sus correspondientes máscaras binarias (arrugas y manchas). Se generan máscaras multiclase fusionando las siguientes clases:
     \begin{itemize}
         \item Clase 0: Fondo (valor por defecto en la máscara).
@@ -188,61 +188,6 @@ Output = final_conv(d1)  # Capa final de convolución
         \item \textbf{Capa final:} Una convolución \(1 \times 1\) que transforma el mapa de características final (con 64 canales) en un tensor con 3 canales de salida (uno por clase).
     \end{itemize}
 \end{itemize}
-
-\vspace{1em}
-\textbf{Componentes de entrenamiento:}
-
-\begin{itemize}
-    \item \textbf{Dispositivo de cómputo:} Se selecciona automáticamente el uso de GPU con CUDA, 8 GB de Ram con tarjeta de video RTX 4060
-    \[
-    \texttt{torch.device("cuda" if torch.cuda.is\_available() else "cpu")}
-    \]
-    
-    \item \textbf{Hiperparámetros:}
-    \begin{itemize}
-        \item Épocas: \( E = 50 \)
-        \item Tamaño de lote: \( B = 4 \)
-        \item Tasa de aprendizaje: \( \eta = 10^{-3} \)
-        \item Número de clases: \( C = 3 \)
-    \end{itemize}
-
-    \item \textbf{Función de pérdida: CrossEntropy ponderada}
-
-    Se utiliza:
-    \[
-    \mathcal{L}_{CE}(x, y) = - \sum_{c=1}^{C} w_c \cdot y_c \cdot \log \left( \frac{e^{x_c}}{\sum_{k=1}^{C} e^{x_k}} \right)
-    \]
-    Donde:
-    \begin{itemize}
-        \item \( x \) es la salida del modelo (logits por clase, por píxel),
-        \item \( y \) es la máscara real codificada como entero [0, 1, 2],
-        \item \( w_c \in \mathbb{R} \) es el peso de la clase \(c\).
-    \end{itemize}
-    Se definen pesos:
-    \[
-    \vec{w} = [0.5, 5.0, 3.0]
-    \]
-    para compensar el desbalance en la presencia de fondo, arrugas y manchas respectivamente.
-
-    \item \textbf{Optimización:} Se utiliza Adam:
-    \[
-    \theta \leftarrow \theta - \eta \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
-    \]
-    con momentos corregidos, donde \(\theta\) representa los parámetros de la red.
-
-    \item \textbf{Bucle de entrenamiento:} Para cada lote:
-    \begin{enumerate}
-        \item Se pasa la imagen por el modelo: \( \hat{y} = f_\theta(x) \)
-        \item Se calcula la pérdida: \( \mathcal{L} = \text{CrossEntropy}(\hat{y}, y) \)
-        \item Se retropropaga: \( \nabla_\theta \mathcal{L} \)
-        \item Se actualizan los parámetros usando Adam.
-    \end{enumerate}
-
-    \item \textbf{Evaluación:} Se obtuvo la clase predicha para cada píxel:
-    \[
-    \hat{y}_{pred}(i,j) = \arg\max_{c \in \{0,1,2\}} \hat{y}_{c}(i,j)
-    \]
-    y se imprimen las clases únicas predichas y reales, para comparar semánticamente la segmentación.
 \end{itemize}
 
 \vspace{1em}
@@ -257,184 +202,11 @@ Output = final_conv(d1)  # Capa final de convolución
     \item En validación, se observa la capacidad del modelo para distinguir fondo, arrugas y manchas en imágenes no vistas.
 \end{itemize}
 
-\subsubsection{Entrenamiento del modelo}
-\textbf{Actividad 1: Configuración del entorno de entrenamiento}
 
-La configuración del entorno es esencial para garantizar la reproducibilidad y eficiencia del proceso de entrenamiento del modelo. Se utilizó Python 3.10 con las siguientes librerías principales: PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para aceleración por GPU si está disponible.
-
-\begin{itemize}
-  \item \textbf{Detección del dispositivo:}\\
-  \texttt{device = torch.device("cuda" if torch.cuda.is\_available() else "cpu")}
-  
-  \item \textbf{Estructura de datos:}
+  \item \textbf{Modelo de Segmentación: U-Net Attention}
   \begin{itemize}
-    \item \texttt{rostros/} -- imágenes RGB del rostro completo.
-    \item \texttt{arrugas/} -- máscaras binarias para arrugas.
-    \item \texttt{manchas/} -- máscaras binarias para manchas.
-  \end{itemize}
-
-  \item \textbf{Transformaciones con Albumentations:}
-\begin{verbatim}
-A.Compose([
-    A.HorizontalFlip(p=0.5),
-    A.Rotate(limit=10, p=0.3),
-    A.RandomBrightnessContrast(p=0.3),
-    A.Resize(256, 256),
-    ToTensorV2()
-])
-\end{verbatim}
-
-  \item \textbf{Dataset personalizado:} \\
-  Se creó una clase que transforma las máscaras binarias individuales en una sola máscara multiclase: 0 para fondo, 1 para arrugas y 2 para manchas.
-
-  \item \textbf{División de datos:} \\
-  Se utilizó \texttt{random\_split} para una partición del 80\% para entrenamiento y 20\% para validación.
-\end{itemize}
-
-\vspace{0.5cm}
-\textbf{Actividad 2: Aplicación de técnicas de optimización}
-
-Durante el entrenamiento de la red UNet, se implementaron diversas técnicas para mejorar la precisión y velocidad de convergencia del modelo.
-
-\begin{itemize}
-  \item \textbf{Modelo UNet:}
-  \begin{itemize}
-    \item Capas convolucionales con BatchNorm y activación ReLU.
-    \item MaxPooling y transposed convolutions.
-    \item Conexiones de salto entre codificador y decodificador.
-  \end{itemize}
-  
-  \item \textbf{Función de pérdida:} \\
-  Se utilizó entropía cruzada ponderada para manejar el desbalance de clases:
-  \[
-  \text{weights} = [0.5, 5.0, 3.0]
-  \]
-  \[
-  \mathcal{L}_{CE} = - \sum_{i=1}^{N} \sum_{c=1}^{C} w_c \cdot y_{ic} \cdot \log \left( \frac{e^{x_{ic}}}{\sum_{k=1}^{C} e^{x_{ik}}} \right)
-  \]
-
-  \item \textbf{Optimizador:} \\
-  Se empleó Adam con tasa de aprendizaje $\eta = 0.001$:
-  \[
-  \theta_{t+1} = \theta_t - \eta \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
-  \]
-
-  \item \textbf{Proceso de entrenamiento:}
-  \begin{itemize}
-    \item 50 épocas con batch size = 4.
-    \item Cálculo de predicción, pérdida, retropropagación y optimización en cada iteración.
-  \end{itemize}
-
-  \item \textbf{Otras técnicas aplicadas:}
-  \begin{itemize}
-    \item Aumento de datos en tiempo real.
-    \item Normalización por lotes.
-    \item Conexiones de salto para evitar pérdida de detalle espacial.
-  \end{itemize}
-\end{itemize}
-
-\vspace{0.5cm}
-\textbf{Actividad 3: Validación cruzada del rendimiento}
-
-Se aplicó una estrategia de validación tipo hold-out (80\% entrenamiento, 20\% validación). El objetivo fue medir la capacidad del modelo para generalizar a datos no vistos.
-
-\begin{itemize}
-  \item \textbf{Métricas utilizadas:}
-  \begin{itemize}
-    \item Precisión por clase.
-    \item Intersección sobre Unión (IoU).
-    \item Dice Coefficient:
-  \end{itemize}
-
-  \item \textbf{Visualización de resultados:} \\
-  Las máscaras predichas se superpusieron con las imágenes originales utilizando diferentes colores por clase (fondo, arrugas, manchas) para evaluar visualmente la segmentación.
-
-  \item \textbf{Justificación:} \\
-  Una evaluación rigurosa permite determinar si el modelo puede ser aplicado de forma confiable a nuevas imágenes faciales con características morfológicas diversas.
-\end{itemize}
-
-\subsubsection{Evaluación del modelo}
-La evaluación del modelo entrenado se realizó con el objetivo de determinar su capacidad para segmentar correctamente las características morfológicas faciales, específicamente arrugas y manchas, a partir de imágenes RGB. Esta etapa es fundamental para verificar la efectividad del modelo antes de su implementación práctica en un entorno real.
-
-\begin{itemize}
-  \item \textbf{Conjunto de validación:}\\
-  Se utilizó el 20\% de los datos reservados previamente para validación, asegurando que las imágenes evaluadas no hayan sido vistas durante el entrenamiento. Esto garantiza una estimación imparcial del rendimiento general del modelo.
-
-  \item \textbf{Métricas de rendimiento:}\\
-  Para una evaluación integral del modelo, se utilizaron diversas métricas que capturan distintos aspectos de su desempeño:
-  \begin{itemize}
-    \item \textbf{Precisión por clase (accuracy):} proporción de píxeles correctamente clasificados.
-    \item \textbf{IoU (Intersection over Union):}
-    \[
-    \text{IoU}_c = \frac{|P_c \cap G_c|}{|P_c \cup G_c|}
-    \]
-    donde $P_c$ representa los píxeles predichos de la clase $c$, y $G_c$ los píxeles reales de dicha clase.
-
-    \item \textbf{Coeficiente Dice:}
-    \[
-    \text{Dice}_c = \frac{2 \cdot |P_c \cap G_c|}{|P_c| + |G_c|}
-    \]
-    especialmente útil para evaluar el solapamiento entre predicción y verdad de terreno en clases minoritarias como las manchas.
-
-  \end{itemize}
-
-  \item \textbf{Análisis Visual:}\\
-  Además de las métricas cuantitativas, se realizó una revisión visual de los resultados generados por el modelo. Para ello:
-  \begin{itemize}
-    \item Se superpusieron las máscaras predichas sobre las imágenes originales.
-    \item Se utilizó una codificación de colores: fondo (negro), arrugas (rojo) y manchas (azul).
-    \item Se compararon visualmente las segmentaciones predichas frente a las segmentaciones reales (ground truth).
-  \end{itemize}
-
-  \item \textbf{Observaciones esperadas:}
-  \begin{itemize}
-    \item Buena segmentación de estructuras prominentes (arrugas marcadas).
-    \item Posibles errores en bordes difusos o regiones con baja iluminación.
-    \item Posibles confusiones entre arrugas y manchas en regiones solapadas.
-  \end{itemize}
-
-  \item \textbf{resultados:}\\
-El modelo alcanzó los siguientes resultados promedio sobre el conjunto de validación:
-\begin{itemize}
-  \item \textbf{Pérdida mínima (\texttt{val\_loss}):} 0.0849 (en la época 50).
-  \item \textbf{Precisión promedio:} 0.645, indicando que casi dos tercios de los píxeles se clasificaron correctamente.
-  \item \textbf{Dice Score promedio:} 0.440, mostrando un nivel medio de superposición entre máscaras predichas y reales.
-  \item \textbf{Jaccard Index promedio:} 0.289, reflejando el desafío de obtener coincidencias exactas en regiones complejas.
-  \item Se detectaron mejores resultados en la clase \emph{arrugas}, posiblemente por la mayor representación y contraste de textura.
-  \item La clase \emph{manchas} presentó métricas ligeramente inferiores, sugiriendo que futuras optimizaciones deberían incluir aumentos más dirigidos a mejorar esta categoría (por ejemplo, resaltando contraste o coloración).
-\end{itemize}
-  A continuación se presentan las métricas calculadas, los gráficos obtenidos y los ejemplos visuales para ilustrar el rendimiento del modelo.
-
-  \vspace{0.2cm}
-  \begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{4/figures/UnetComparación1.png}
-\caption{Comparación visual: imagen original, máscara real multicategoría y predicción del modelo para un caso con predominio de arrugas.}
-\label{fig:validacion11}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{4/figures/UnetComparación2.png}
-\caption{Comparación visual: ejemplo donde se observa el desempeño del modelo en la detección de manchas, destacando regiones correctamente identificadas y algunas áreas faltantes.}
-\label{fig:validacion22}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{4/figures/UnetComparación3.png}
-\caption{Comparación visual: caso mixto donde se presentan simultáneamente arrugas y manchas, mostrando la capacidad del modelo para diferenciar ambas clases en un mismo rostro.}
-\label{fig:validacion33}
-\end{figure}
-\end{itemize}
-
-
-\subsection{Modelo de Segmentación: UNetAttention}
-
-\subsubsection{Diseño de la arquitectura del modelo}
-
-
-La arquitectura propuesta se basa en el modelo \textbf{U-Net con mecanismos de atención} (\texttt{UNetAttention}), que combina una red convolucional simétrica tipo encoder-decoder con puertas de atención (\texttt{AttentionGate}) para mejorar el enfoque en las regiones relevantes de la imagen.
+  \item\textbf{Actividad 1: Diseño de la arquitectura del modelo}
+  La arquitectura propuesta se basa en el modelo \textbf{U-Net con mecanismos de atención} (\texttt{UNetAttention}), que combina una red convolucional simétrica tipo encoder-decoder con puertas de atención (\texttt{AttentionGate}) para mejorar el enfoque en las regiones relevantes de la imagen.
 
 \textbf{Encoder (Codificador)}
 El encoder está diseñado para capturar características de bajo a alto nivel a partir de la imagen de entrada. Consiste en cuatro bloques llamados \texttt{DoubleConv}:
@@ -484,14 +256,14 @@ La capa final es una convolución $1\times1$ que reduce los 64 mapas de caracter
 
 \textbf{Detalle del Funcionamiento}
 El proceso completo del modelo se detalla de la siguiente manera:
-\begin{enumerate}
+\begin{itemize}
 \item La imagen de entrada se procesa a través del encoder, extrayendo características jerárquicas que van desde bordes simples hasta patrones complejos, reduciendo la resolución pero aumentando la abstracción.
 \item El bottleneck actúa como un cuello de botella que condensa toda la información del encoder en una representación compacta y de alto nivel.
 \item El decoder empieza a recuperar la resolución original usando operaciones de upsampling, reconstruyendo progresivamente el mapa segmentado.
 \item En cada paso del decoder, las características recuperadas se enriquecen mediante la concatenación de información relevante proveniente del encoder, filtrada cuidadosamente por las puertas de atención.
 \item Las puertas de atención permiten que el modelo ignore información irrelevante y se enfoque en regiones específicas de interés para la tarea de segmentación.
 \item Finalmente, la capa de salida transforma las características finales en una máscara binaria que identifica las regiones segmentadas de interés en la imagen.
-\end{enumerate}
+\end{itemize}
 
 Este funcionamiento asegura que el modelo combine detalles locales finos con contexto global y mecanismos de relevancia, logrando una segmentación precisa y robusta.
 
@@ -533,10 +305,11 @@ Output = Conv1x1(dec1)
 Return Output
 \end{verbatim}
 
-\subsubsection{Definición de componentes del modelo}
-En esta actividad se definen los módulos fundamentales y los elementos de entrenamiento que constituyen el modelo UNetAttention. A continuación se describe en detalle cada uno:
+  \item\textbf{Actividad 2: Definición de componentes del modelo}
 
-\textbf{1. Módulos arquitectónicos}
+  En esta actividad se definen los módulos fundamentales y los elementos de entrenamiento que constituyen el modelo UNetAttention. A continuación se describe en detalle cada uno:
+
+\textbf{Módulos arquitectónicos}
 
 \begin{itemize}
 \item \textbf{DoubleConv}:
@@ -583,236 +356,24 @@ Capa de convolución
 1×1 que reduce los canales finales a uno solo (para segmentación binaria), generando la máscara final.
 \end{itemize}
 
-\textbf{2. Componentes de entrenamiento}
-\begin{itemize}
-    \item \textbf{Optimizador \texttt{AdamW}}:
-    El optimizador \texttt{AdamW} es una variante de \texttt{Adam} que incluye decaimiento de pesos (weight decay) como un término de regularización, lo que ayuda a prevenir el sobreajuste durante el entrenamiento. AdamW es particularmente útil para redes neuronales profundas donde los modelos tienden a tener una gran cantidad de parámetros. A continuación se detallan los elementos clave de \texttt{AdamW}:
-    
-    \begin{itemize}
-        \item \textbf{Tasas de Aprendizaje Adaptativas}: 
-        El optimizador AdamW mantiene tasas de aprendizaje adaptativas para cada parámetro, lo que significa que los parámetros que tienen gradientes más grandes recibirán actualizaciones más pequeñas, mientras que los parámetros con gradientes más pequeños recibirán actualizaciones más grandes. Este enfoque permite que el modelo aprenda de manera más eficiente y rápida, sin necesidad de ajustarse manualmente a una tasa de aprendizaje fija para todos los parámetros. 
 
-        \item \textbf{Decaimiento de Pesos Desacoplado}: 
-        A diferencia de \texttt{Adam}, donde el decaimiento de pesos (penalización L2) es acoplado a la actualización de los momentos de primer y segundo orden, \texttt{AdamW} desacopla el decaimiento de pesos de la actualización del momento. Esto significa que el decaimiento de pesos se aplica directamente a los parámetros del modelo y no a los momentos, lo que mejora la regularización y permite un mejor control sobre la actualización de los parámetros.
 
-        \item \textbf{Ventajas sobre Adam}: 
-        \begin{itemize}
-            \item El decaimiento de pesos desacoplado de los momentos mejora la capacidad de generalización del modelo, reduciendo el riesgo de sobreajuste.
-            \item El mantenimiento de tasas de aprendizaje adaptativas optimiza la convergencia durante el entrenamiento.
-            \item La actualización de parámetros se realiza con base en los gradientes de la función de pérdida, pero también incluye una penalización proporcional al tamaño de los pesos, evitando que crezcan demasiado y afecten negativamente el rendimiento.
-        \end{itemize}
-        
-        La actualización de parámetros en \texttt{AdamW} sigue la siguiente fórmula:
-        \[
-        \theta_t = \theta_{t-1} - \frac{\eta}{\sqrt{v_t} + \epsilon} m_t - \eta \cdot \lambda \cdot \theta_{t-1}
-        \]
-        donde:
-        \begin{itemize}
-            \item \( \theta_t \) es el parámetro actualizado en el paso \( t \),
-            \item \( m_t \) es el primer momento (promedio de gradientes),
-            \item \( v_t \) es el segundo momento (promedio de los cuadrados de los gradientes),
-            \item \( \lambda \) es el factor de decaimiento de pesos (regularización L2),
-            \item \( \eta \) es la tasa de aprendizaje.
-        \end{itemize}
-    \end{itemize}
-
-    \item \textbf{Scheduler \texttt{ReduceLROnPlateau}}:
-    El planificador \texttt{ReduceLROnPlateau} ajusta la tasa de aprendizaje durante el entrenamiento en función de una métrica de validación, como la pérdida o precisión de validación. Este planificador reduce la tasa de aprendizaje cuando una métrica deja de mejorar, ayudando a evitar que el optimizador se quede "atascado" en una meseta, lo que puede ocurrir cuando la tasa de aprendizaje es demasiado alta o demasiado baja. A continuación se detallan sus características:
-    
-    \begin{itemize}
-        \item \textbf{Monitoreo de Métrica de Validación}: 
-        \texttt{ReduceLROnPlateau} monitoriza una métrica específica de validación, como la pérdida de validación. Cuando esta métrica deja de mejorar durante un número determinado de épocas (\textit{patience}), el planificador reduce la tasa de aprendizaje de manera progresiva.
-
-        \item \textbf{Evitar mesetas en el entrenamiento}: 
-        En ocasiones, durante el entrenamiento, el optimizador se puede quedar atrapado en una meseta, donde la métrica de validación se estabiliza y no mejora, aunque el entrenamiento continúe. Reducir la tasa de aprendizaje en estos puntos puede permitir una convergencia más fina y evitar que el modelo se quede estancado en un mínimo local.
-
-        \item \textbf{Convergencia más fina}: 
-        A medida que el entrenamiento progresa y el modelo se acerca a una solución óptima, reducir la tasa de aprendizaje permite que el modelo haga ajustes más pequeños pero precisos. Esto es particularmente útil en las etapas finales del entrenamiento, donde la tasa de aprendizaje grande puede causar grandes oscilaciones en los parámetros.
-
-        \item \textbf{Parámetros de Configuración}: 
-        Los parámetros clave de \texttt{ReduceLROnPlateau} incluyen:
-        \begin{itemize}
-            \item \textbf{factor}: Un valor entre 0 y 1 que indica cuánto reducir la tasa de aprendizaje (por ejemplo, 0.1 reducirá la tasa de aprendizaje en un 90\%).
-            \item \textbf{patience}: El número de épocas sin mejora antes de que se reduzca la tasa de aprendizaje.
-            \item \textbf{min\_lr}: La tasa de aprendizaje mínima que puede alcanzar el optimizador.
-        \end{itemize}
-    \end{itemize}
-
-    \item \textbf{Función de Pérdida \texttt{CrossEntropyLoss} (con Pesos Balanceados)}:
-    La función de pérdida \texttt{CrossEntropyLoss} es adecuada para problemas de clasificación, y se adapta a segmentación de imágenes al tratar cada píxel como una instancia de clasificación. En casos de clases desbalanceadas (como en segmentación de imágenes médicas), se utilizan \textit{pesos balanceados} para abordar este problema. A continuación, se detallan las características de esta función de pérdida:
-    
-    \begin{itemize}
-        \item \textbf{Desbalance de Clases}: 
-        En segmentación, es común que las clases estén desbalanceadas, por ejemplo, el fondo puede ocupar la mayor parte de la imagen mientras que las regiones de interés (como una lesión o arruga) son pequeñas. La función \texttt{CrossEntropyLoss} utiliza pesos balanceados para penalizar más fuertemente los errores en las clases minoritarias.
-        
-        \item \textbf{Cálculo de Pesos Balanceados}:
-        Para calcular los pesos de cada clase, se utiliza un enfoque basado en la frecuencia de cada clase en el conjunto de datos. Se emplea el \textit{Median Frequency Balancing}, donde los pesos son calculados en función de la mediana de las frecuencias de aparición de todas las clases en el conjunto de entrenamiento. Este método asegura que las clases menos representadas tengan un mayor peso en la función de pérdida.
-
-        \item \textbf{Impacto en el Entrenamiento}: 
-        La asignación de mayores pesos a las clases minoritarias tiene un impacto positivo en la precisión del modelo al hacer que el modelo enfoque su aprendizaje en esas clases más raras. Esto es crucial para la segmentación de regiones pequeñas o poco representadas, como manchas en la piel, lesiones, o áreas específicas de interés en imágenes médicas.
-
-        \item \textbf{Fórmula de la Pérdida}: 
-        La fórmula general para la función de pérdida de entropía cruzada con pesos balanceados es:
-        \[
-        \text{Loss} = - \sum_{i} w_i \cdot y_i \cdot \log(p_i)
-        \]
-        donde:
-        \begin{itemize}
-            \item \( y_i \) es la etiqueta verdadera de la clase \( i \),
-            \item \( p_i \) es la probabilidad predicha para la clase \( i \),
-            \item \( w_i \) es el peso asignado a la clase \( i \) (calculado a partir de la frecuencia).
-        \end{itemize}
-    \end{itemize}
-\end{itemize}
-
-\textbf{3. Resumen de interacción entre componentes}
+\textbf{Resumen de interacción entre componentes}
 Durante el entrenamiento:
-\begin{enumerate}
+\begin{itemize}
 \item El modelo recibe imágenes de entrada que son procesadas por los módulos convolucionales y de atención.
 \item Las predicciones por píxel son comparadas contra las máscaras reales usando la función de pérdida ponderada.
 \item El optimizador AdamW ajusta los pesos del modelo minimizando la pérdida.
 \item El scheduler supervisa la evolución de la métrica de validación y adapta la tasa de aprendizaje si es necesario.
-\end{enumerate}
+\end{itemize}
 
 Este conjunto de componentes fue seleccionado cuidadosamente para equilibrar capacidad, estabilidad, precisión y generalización.
 
-\subsubsection{Entrenamiento del Modelo}
-\textbf{Actividad 1: Configuración del entorno de entrenamiento} \\
-Se preparó el entorno de ejecución para garantizar que todos los experimentos fueran reproducibles y consistentes, realizando lo siguiente:
-\begin{itemize}
-\item Se definieron las rutas de los conjuntos de datos: las carpetas \texttt{face\_images}, \texttt{arrugas} y \texttt{manchas} contenían las imágenes originales y las máscaras de segmentación correspondientes.
-\item El tamaño de lote (\emph{batch size}) se fijó en 4, equilibrando el uso eficiente de memoria GPU/CPU y la estabilidad del gradiente durante la retropropagación.
-\item Las imágenes de entrada se redimensionaron a 256 $\times$ 256 píxeles para asegurar una entrada uniforme al modelo y reducir el costo computacional.
-\item La tasa de aprendizaje inicial se estableció en $1 \times 10^{-4}$, un valor conservador para evitar inestabilidad en las primeras épocas de entrenamiento.
-\item Se programaron 50 épocas completas, buscando alcanzar la convergencia del modelo observando las métricas a lo largo del tiempo.
-\item Se habilitó el uso del dispositivo CUDA (GPU) cuando estaba disponible, y si no, el entrenamiento se realizaba en CPU.
-\item Se fijó una semilla aleatoria global en 42 para garantizar reproducibilidad en todas las operaciones pseudoaleatorias (división de datos, inicialización de pesos, aumentos de datos).
-\end{itemize}
-
-\textbf{Actividad 2: Aplicación de técnicas de optimización} \\
-Con el objetivo de mejorar la generalización y eficiencia del modelo, se incorporaron varias técnicas de optimización:
-\begin{itemize}
-\item Se aplicaron aumentos de datos usando la biblioteca \texttt{albumentations}, generando variaciones artificiales en las imágenes para enriquecer el conjunto de entrenamiento y reducir el sobreajuste. Las transformaciones aplicadas fueron:
-  \begin{itemize}
-  \item \texttt{A.HorizontalFlip(p=0.5)}: aplica volteo horizontal aleatorio con probabilidad 50\%.
-  \item \texttt{A.VerticalFlip(p=0.1)}: aplica volteo vertical aleatorio con probabilidad 10\%.
-  \item \texttt{A.RandomRotate90(p=0.2)}: rota la imagen aleatoriamente en múltiplos de 90 grados.
-  \item \texttt{A.Rotate(limit=15, p=0.3)}: rota la imagen aleatoriamente hasta 15 grados.
-  \item \texttt{A.ElasticTransform(alpha=1, sigma=50, approximate=True, p=0.2)}: aplica transformaciones elásticas para simular deformaciones.
-  \item \texttt{A.Affine(scale=(0.9, 1.1), translate\_percent=(0.05, 0.05), rotate=(-10, 10), p=0.3)}: realiza escalado, traslación y rotación aleatoria.
-  \item \texttt{A.RandomBrightnessContrast(brightness\_limit=0.2, contrast\_limit=0.2, p=0.3)}: modifica aleatoriamente el brillo y contraste.
-  \item \texttt{A.GaussNoise(std\_range=(0.2, 0.44), mean\_range=(0, 0), p=0.2)}: añade ruido gaussiano con desviación estándar variable.
-  \item \texttt{A.MotionBlur(blur\_limit=3, p=0.1)}: aplica desenfoque de movimiento.
-  \item \texttt{A.HueSaturationValue(hue\_shift\_limit=10, sat\_shift\_limit=15, val\_shift\_limit=10, p=0.2)}: ajusta aleatoriamente el tono, la saturación y el valor.
-  \item \texttt{A.Resize(256, 256)}: redimensiona la imagen a 256x256 píxeles.
-  \item \texttt{ToTensorV2()} : convierte la imagen y máscara en tensores para PyTorch.
   \end{itemize}
-  El bloque de código completo utilizado fue:
-  \begin{lstlisting}[language=Python]
-  train_transforms = A.Compose([
-      A.HorizontalFlip(p=0.5),
-      A.VerticalFlip(p=0.1),
-      A.RandomRotate90(p=0.2),
-      A.Rotate(limit=15, p=0.3),
-      A.ElasticTransform(alpha=1, sigma=50, approximate=True, p=0.2),
-      A.Affine(scale=(0.9, 1.1), translate_percent=(0.05, 0.05), rotate=(-10, 10), p=0.3),
-      A.RandomBrightnessContrast(brightness_limit=0.2, contrast_limit=0.2, p=0.3),
-      A.GaussNoise(std_range=(0.2, 0.44), mean_range=(0, 0), p=0.2),
-      A.MotionBlur(blur_limit=3, p=0.1),
-      A.HueSaturationValue(hue_shift_limit=10, sat_shift_limit=15, val_shift_limit=10, p=0.2),
-      A.Resize(256, 256),
-      ToTensorV2()
-  ])
-  \end{lstlisting}
-
-\item Para enfrentar el desbalance entre clases (por ejemplo, menor cantidad de píxeles pertenecientes a manchas comparado con piel), se utilizó el enfoque \emph{median frequency balancing}, que asigna pesos inversamente proporcionales a la frecuencia de cada clase. Estos pesos se pasaron como argumento al criterio \texttt{CrossEntropyLoss}, forzando al modelo a prestar más atención a las clases minoritarias.
-
-\item Se eligió el optimizador \texttt{AdamW}, conocido por su manejo eficiente de regularización y su rendimiento robusto en redes convolucionales, junto con un programador de tasa de aprendizaje (\texttt{ReduceLROnPlateau}), que ajustaba dinámicamente la tasa de aprendizaje cuando la métrica de validación (\texttt{val\_loss}) dejaba de mejorar.
-
-\item Se implementó la impresión detallada de métricas al final de cada época, mostrando pérdidas (\texttt{train\_loss}, \texttt{val\_loss}), precisión, coeficiente Dice e índice de Jaccard, lo cual permitió un seguimiento cuantitativo en tiempo real del progreso del modelo.
-\end{itemize}
-
-
-
-
-\textbf{Actividad 3: Validación cruzada del rendimiento} \\
-Para evaluar la capacidad del modelo de generalizar sobre datos no vistos, se implementó una rutina robusta de validación:
-\begin{itemize}
-\item Los datos se dividieron en dos subconjuntos, usando un 80\% para entrenamiento y un 20\% para validación, aplicando la función \texttt{train\_test\_split} para asegurar que ambos conjuntos fueran mutuamente exclusivos.
-\item Se construyeron \texttt{DataLoaders} separados para el conjunto de entrenamiento y el de validación, permitiendo un procesamiento eficiente por lotes y garantizando que la evaluación se realizara de forma independiente al entrenamiento.
-\item En cada época, se recolectaron todas las predicciones del conjunto de validación y se calcularon métricas de segmentación:
+  \item \textbf{Modelo de Segmentación: U-Net con codificador MiT-B0 (Mix Transformer)}
   \begin{itemize}
-  \item Precisión global de los píxeles predichos.
-  \item Coeficiente Dice, que mide la superposición entre las máscaras predichas y las verdaderas.
-  \item Índice de Jaccard, que cuantifica la similitud entre los conjuntos predicho y verdadero.
-  \end{itemize}
-\item Se guardó automáticamente el modelo correspondiente a la menor pérdida de validación obtenida hasta el momento (\emph{early stopping} implícito), almacenando su estado en el archivo \texttt{best\_model\_Unet\_attention\_100\_epochs.pth}. Esto garantizó que, al final del entrenamiento, se contara con el mejor modelo disponible según el criterio de validación.
-\end{itemize}
-
-\subsubsection{Evaluación del Modelo}
-
-\textbf{Actividad 1: Preparación de Datos de Validación} \\
-Se prepararon cuidadosamente las imágenes de validación aplicando únicamente transformaciones mínimas para asegurar que las métricas reflejaran el rendimiento real del modelo, sin influencias de aumentos artificiales:
-\begin{itemize}
-  \item \textbf{Redimensionamiento uniforme:} todas las imágenes y máscaras se reescalaron a 256x256 píxeles, asegurando compatibilidad con las dimensiones de entrada del modelo.
-  \item \textbf{Conversión a tensores:} las imágenes se transformaron en tensores (\texttt{ToTensorV2}) sin aplicar alteraciones de brillo, contraste, ruido ni geometría, garantizando que las métricas se calcularan sobre datos reales.
-  \item \textbf{Construcción de máscara multicategoría:} las máscaras individuales de arrugas y manchas se combinaron en una única máscara de clase múltiple (con valores codificados por categoría), permitiendo al modelo aprender a distinguir ambas clases en un solo paso de inferencia.
-\end{itemize}
-
-\vspace{0.5cm}
-
-\textbf{Actividad 2: Definición de Métricas de Evaluación} \\
-Para evaluar de manera robusta el desempeño del modelo, se utilizaron las siguientes métricas:
-\begin{itemize}
-  \item \textbf{Precisión (macro):} mide la proporción de píxeles predichos correctamente entre todas las clases, promediando por igual sin favorecer a clases más grandes.
-  \item \textbf{Dice Score (coeficiente de Sørensen-Dice):} calcula el doble de la intersección dividido por la suma de los tamaños predicho y verdadero, reflejando cuánta superposición real se logró en la segmentación.
-  \item \textbf{Índice de Jaccard (IoU):} mide la intersección sobre la unión entre predicciones y referencias, siendo una métrica más estricta para evaluar solapamientos exactos.
-\end{itemize}
-
-\vspace{0.5cm}
-
-\textbf{Actividad 3: Evaluación del Modelo} \\
-El modelo alcanzó los siguientes resultados promedio sobre el conjunto de validación:
-\begin{itemize}
-  \item \textbf{Pérdida mínima (\texttt{val\_loss}):} 0.0158 (en la época 50).
-  \item \textbf{Precisión promedio:} 0.821, indicando que casi 4 quintos de los píxeles se clasificaron correctamente.
-  \item \textbf{Dice Score promedio:} 0.67, mostrando un nivel medio de superposición entre máscaras predichas y reales.
-  \item \textbf{Jaccard Index promedio:} 0.61, reflejando aun el desafío de obtener coincidencias exactas en regiones complejas.
-  \item Se detectaron mejores resultados en la clase \emph{arrugas}, posiblemente por la mayor representación y contraste de textura.
-  \item La clase \emph{manchas} presentó métricas ligeramente inferiores, sugiriendo que futuras optimizaciones deberían incluir aumentos más dirigidos a mejorar esta categoría (por ejemplo, resaltando contraste o coloración).
-\end{itemize}
-
-\vspace{0.5cm}
-
-Además de los resultados numéricos, se generaron visualizaciones comparativas entre los datos reales y las predicciones del modelo. Estas imágenes permiten evaluar cualitativamente el desempeño del modelo, mostrando tanto los aciertos como las áreas de mejora. A continuación, se presentan tres ejemplos destacados:
-
-\vspace{0.5cm}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{4/figures/comparación9.png}
-\caption{Comparación visual: imagen original, máscara real multicategoría y predicción del modelo para un caso con predominio de arrugas.}
-\label{fig:validacion1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{4/figures/comparación6.png}
-\caption{Comparación visual: ejemplo donde se observa el desempeño del modelo en la detección de manchas, destacando regiones correctamente identificadas y algunas áreas faltantes.}
-\label{fig:validacion2}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{4/figures/comparación1.png}
-\caption{Comparación visual: caso mixto donde se presentan simultáneamente arrugas y manchas, mostrando la capacidad del modelo para diferenciar ambas clases en un mismo rostro.}
-\label{fig:validacion3}
-\end{figure}
-
-\subsection{Modelo de Segmentación: U-Net con codificador MiT-B0 (Mix Transformer)}
-
-\subsubsection{Diseño de la arquitectura del modelo}
-El modelo \texttt{MiT-B0} (Mix Transformer) es una arquitectura de red neuronal que combina la estructura de U-Net con bloques de atención de tipo Transformer. Esta combinación permite al modelo capturar tanto características locales como globales en las imágenes, mejorando la segmentación en comparación con arquitecturas convencionales.
+  \item\textbf{Actividad 1: Diseño de la arquitectura del modelo}
+  El modelo \texttt{MiT-B0} (Mix Transformer) es una arquitectura de red neuronal que combina la estructura de U-Net con bloques de atención de tipo Transformer. Esta combinación permite al modelo capturar tanto características locales como globales en las imágenes, mejorando la segmentación en comparación con arquitecturas convencionales.
 \textbf{Estructura del modelo}
 \begin{itemize}
   \item \textbf{Encoder (Codificador)}:  
@@ -826,10 +387,12 @@ El modelo \texttt{MiT-B0} (Mix Transformer) es una arquitectura de red neuronal 
     Cada etapa combina proyecciones lineales y mecanismos de auto‑atención eficiente, capturando relaciones espaciales y contextuales tanto locales como globales. Las salidas intermedias de cada etapa se guardan para las conexiones de salto.
 
   \item \textbf{Bottleneck}:  
-    Conceptualmente corresponde al punto más profundo de la U‑Net, situado justo después de la cuarta etapa del encoder. Aquí, las características están más condensadas y contienen la máxima abstracción:
-    \[
-      \text{Bottleneck} \;=\; \text{FeatureMap}_{4}\quad\in\mathbb{R}^{\frac{H}{32}\times\frac{W}{32}\times C_4}.
-    \]
+    Conceptualmente corresponde al punto más profundo de la U‑Net, situado justo después de la cuarta etapa del encoder. Aquí en la fórmula \ref{eq:bottleneck_mapa}, las características están más condensadas y contienen la máxima abstracción:
+    \begin{equation}\label{eq:bottleneck_mapa}
+      \text{Bottleneck} = \text{FeatureMap}_{4} \in \mathbb{R}^{\frac{H}{32}\times\frac{W}{32}\times C_4}.
+  \end{equation}
+  \myequations{Cuarto mapa de características (Bottleneck)}
+
     Aunque no se añade un bloque explícito adicional, esta representación se considera el “cuello de botella” antes de iniciar el upsampling.
 
   \item \textbf{Decoder (Decodificador)}:  
@@ -843,14 +406,16 @@ El modelo \texttt{MiT-B0} (Mix Transformer) es una arquitectura de red neuronal 
     Gracias a las \textit{skip connections}, el decoder recupera detalles espaciales finos perdidos durante el downsampling y combina información de alto nivel (contexto) con información de bajo nivel (textura y bordes).
 
   \item \textbf{Capa final}:  
-    Para producir la máscara segmentada multiclase, se aplica una única convolución $1\times1$:
-    \[
-      Y = \mathrm{Conv}_{1\times1}(\text{DecoderOutput}) \quad\in\mathbb{R}^{H\times W\times 3},
-    \]
-    donde las tres dimensiones de canal corresponden a las probabilidades (logits) de cada una de las clases: fondo, arrugas y manchas. Finalmente, se aplica \texttt{softmax} por píxel y se obtiene la clase predicha mediante:
-    \[
+    Para producir la máscara segmentada multiclase, se aplica una única convolución $1\times1$ como se ve en la Fórmula \ref{eq:salida_decodificador}:
+    \begin{equation}\label{eq:salida_decodificador}
+      Y = \mathrm{Conv}_{1\times1}(\text{DecoderOutput}) \in \mathbb{R}^{H\times W\times 3},
+  \end{equation}
+  \myequations{Mapa de salida del decodificador}
+    donde las tres dimensiones de canal corresponden a las probabilidades (logits) de cada una de las clases: fondo, arrugas y manchas. Finalmente, se aplica \texttt{softmax} por píxel y se obtiene la clase predicha como se ve en la Fórmula \ref{eq:prediccion_pixel}:
+    \begin{equation}\label{eq:prediccion_pixel}
       \hat{y}(i,j) = \arg\max_{c\in\{0,1,2\}} \;Y_{i,j,c}.
-    \]
+  \end{equation}
+  \myequations{Predicción de la etiqueta de clase para el píxel (i, j)}
 \end{itemize}
 
 \textbf{Razones del Diseño}
@@ -905,8 +470,8 @@ Output = Conv1x1(dec1)
 Return Output
 \end{verbatim}
 
-\subsubsection{Definición de los componentes del modelo}
-\textbf{1. Módulos arquitectónicos}
+  \item\textbf{Actividad 2: Definición de componentes del modelo}
+  \textbf{Módulos arquitectónicos}
 \begin{itemize}
   \item \textbf{FaceSegDataset}: Clase que hereda de \texttt{torch.utils.data.Dataset} y gestiona:
     \begin{itemize}
@@ -940,52 +505,7 @@ Return Output
     \end{itemize}
 \end{itemize}
 
-\textbf{2. Componentes de entrenamiento}
-\begin{itemize}
-  \item \textbf{DataLoader}:  
-    \begin{itemize}
-      \item \texttt{train\_loader}: batch\_size=4, shuffle=True, \texttt{collate\_fn}.
-      \item \texttt{val\_loader}: batch\_size=2, shuffle=False.
-    \end{itemize}
-
-  \item \textbf{Cálculo de pesos de clase}:  
-    \texttt{compute\_class\_weights} recorre el \texttt{train\_loader}, suma histogramas de cada máscara y produce pesos inversamente proporcionales a la frecuencia de cada clase, normalizados a suma=3.
-
-  \item \textbf{Función de pérdida}:  
-    \[
-      \mathcal{L}_{CE} = -\sum_{i,c} w_c \, y_{i,c} \log\bigl(\mathrm{softmax}(x_{i,c})\bigr),
-    \]
-    con \texttt{weight=class\_weights} en \texttt{nn.CrossEntropyLoss}.
-
-  \item \textbf{Optimizador}:  
-    \texttt{optim.Adam(model.parameters(), lr=1e-4)} para actualización adaptativa de parámetros.
-
-  \item \textbf{Bucle de entrenamiento y validación} (20 épocas):
-    \begin{enumerate}
-      \item \textit{Entrenamiento} (modo \texttt{model.train()}):  
-        \begin{itemize}
-          \item Cálculo de salida \(\hat{Y}=f_\theta(X)\).
-          \item Pérdida \(\mathcal{L}\), retropropagación y \(\theta\leftarrow\theta-\eta\nabla_\theta\mathcal{L}\).
-        \end{itemize}
-      \item \textit{Validación} (modo \texttt{model.eval()}):  
-        \begin{itemize}
-          \item Acumulación de \(\mathrm{train\_loss}\) y \(\mathrm{val\_loss}\).
-          \item Cálculo de \(\mathrm{precision}, \mathrm{dice}, \mathrm{iou}\) por lote con \texttt{compute\_metrics}.
-          \item Impresión de precisión media por clase (arrugas, manchas).
-        \end{itemize}
-      \item \textit{EarlyStopping}: Se evalúa \(\mathrm{val\_loss}\) y, si no mejora tras 5 épocas, detiene el ciclo.
-      \item Guardado del estado del modelo en \texttt{models/unetvit\_segmentation.pth}.
-    \end{enumerate}
-
-  \item \textbf{Función \texttt{show\_comparison}}:  
-    Muestra comparativa interactiva de muestras reales vs. predichas:
-    \begin{itemize}
-      \item Denormalización de imágenes con MEDIA y STD.
-      \item Visualización lado a lado de imagen, máscara ground truth y máscara predicha.
-    \end{itemize}
-\end{itemize}
-
-\textbf{3. Resumen de interacción entre componentes}
+\textbf{Resumen de interacción entre componentes}
 \begin{itemize}
   \item El \texttt{FaceSegDataset} genera pares \((X, y)\) transformados y normalizados.
   \item El \texttt{DataLoader} agrupa los pares en lotes y los pasa al modelo.
@@ -996,127 +516,503 @@ Return Output
   \item Finalmente, los resultados se exploran gráficamente y de forma interactiva mediante \texttt{show\_comparison}.
 \end{itemize}
 
-\subsubsection{Entrenamiento del modelo}
-\textbf{Actividad 1: Configuración del entorno de entrenamiento}
+  \end{itemize}
+  \item \textbf{Modelo de Segmentación: DeepLabV3}
+  \begin{itemize}
+  \item\textbf{Actividad 1: Diseño de la arquitectura del modelo}
+  \item\textbf{Actividad 2: Definición de componentes del modelo}
+
+  \end{itemize}
+\end{enumerate}
+
+
+\section{Entrenamiento del modelo}
+
+\begin{enumerate}
+  \item \textbf{Modelo de Segmentación: U-Net}
+  \begin{itemize}
+  \item\textbf{Actividad 1: Configuración del entorno de entrenamiento}
+  La configuración del entorno es esencial para garantizar la reproducibilidad y eficiencia del proceso de entrenamiento del modelo. Se utilizó Python 3.10 con las siguientes librerías principales: PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para aceleración por GPU si está disponible.
 
 \begin{itemize}
-  \item \textbf{Librerías y utilidades:}
-    \begin{itemize}
-      \item \texttt{os, cv2, numpy, torch, torch.nn, torch.optim, torch.utils.data}
-      \item \texttt{segmentation\_models\_pytorch} para instanciar \texttt{smp.Unet}
-      \item \texttt{albumentations} y \texttt{ToTensorV2} para preprocesamiento
-      \item \texttt{sklearn.metrics.precision\_score} y \texttt{matplotlib.pyplot}
-    \end{itemize}
+  \item \textbf{Detección del dispositivo:}\\
+  \texttt{device = torch.device("cuda" if torch.cuda.is\_available() else "cpu")}
+  
+  \item \textbf{Estructura de datos:}
+  \begin{itemize}
+    \item \texttt{rostros/} -- imágenes RGB del rostro completo.
+    \item \texttt{arrugas/} -- máscaras binarias para arrugas.
+    \item \texttt{manchas/} -- máscaras binarias para manchas.
+  \end{itemize}
 
-  \item \textbf{Denormalización:}
-    \[
-      \text{img} = \text{STD}\cdot(\text{tensor}.cpu().\text{numpy()}.T) + \text{MEAN},\quad
-      \text{clip}(0,1)\times255
-    \]
+  \item \textbf{Transformaciones con Albumentations:}
+\begin{verbatim}
+A.Compose([
+    A.HorizontalFlip(p=0.5),
+    A.Rotate(limit=10, p=0.3),
+    A.RandomBrightnessContrast(p=0.3),
+    A.Resize(256, 256),
+    ToTensorV2()
+])
+\end{verbatim}
 
-  \item \textbf{FaceSegDataset:}
-    \begin{itemize}
-      \item Carga de imágenes RGB con \texttt{cv2.imread} y conversión a RGB.
-      \item Generación de máscara multiclase:
-        \begin{itemize}
-          \item Clase 0: fondo
-          \item Clase 1: arrugas (\texttt{m1>0})
-          \item Clase 2: manchas (\texttt{m2>0})
-        \end{itemize}
-      \item Debug de distribución de clases para las primeras 3 muestras (\texttt{np.unique}).
-      \item Aplicación de \texttt{train\_transforms} o \texttt{val\_transforms}:
-        \begin{itemize}
-          \item \texttt{Resize(512,512), HorizontalFlip, Rotate(limit=30), RandomBrightnessContrast, Normalize, ToTensorV2}
-        \end{itemize}
-    \end{itemize}
+  \item \textbf{Dataset personalizado:} \\
+  Se creó una clase que transforma las máscaras binarias individuales en una sola máscara multiclase: 0 para fondo, 1 para arrugas y 2 para manchas.
 
-  \item \textbf{DataLoader y división:}
-    \begin{itemize}
-      \item \texttt{random\_split} 80\% entrenamiento / 20\% validación.
-      \item \texttt{collate\_fn} agrupa lotes con \texttt{torch.stack}.
-      \item \texttt{train\_loader}: \texttt{batch\_size=4}, shuffle.
-      \item \texttt{val\_loader}: \texttt{batch\_size=2}, no shuffle.
-    \end{itemize}
+  \item \textbf{División de datos:} \\
+  Se utilizó \texttt{random\_split} para una partición del 80\% para entrenamiento y 20\% para validación.
 \end{itemize}
 
 \vspace{0.5cm}
-\textbf{Actividad 2: Aplicación de técnicas de optimización}
+
+  \item\textbf{Actividad 2: Aplicación de técnicas de optimización}
+  Durante el entrenamiento de la red UNet, se implementaron diversas técnicas para mejorar la precisión y velocidad de convergencia del modelo.
 
 \begin{itemize}
-  \item \textbf{Cálculo de pesos de clase:}
-    \[
-      \text{counts}_c = \sum_{\text{masks}} \text{bincount}(\text{mask},\,\text{minlength}=3),\quad
+  \item \textbf{Modelo U-Net:}
+  \begin{itemize}
+    \item Capas convolucionales con BatchNorm y activación ReLU.
+    \item MaxPooling y transposed convolutions.
+    \item Conexiones de salto entre codificador y decodificador.
+  \end{itemize}
+  
+  \item \textbf{Función de pérdida:} \\
+  Se utilizó entropía cruzada ponderada, como se ve en la Fórmula \ref{eq:cross_entropy_ponderada}, para manejar el desbalance de clases:
+  \[
+    \text{weights} = [0.5, 5.0, 3.0]
+\]
+
+\begin{equation}\label{eq:cross_entropy_ponderada}
+  \mathcal{L}_{CE} = - \sum_{i=1}^{N} \sum_{c=1}^{C} w_c \cdot y_{ic} \cdot \log \left( \frac{e^{x_{ic}}}{\sum_{k=1}^{C} e^{x_{ik}}} \right)
+\end{equation}
+\myequations{Función de pérdida Cross-Entropy ponderada del Modelo U-Net}
+
+  \item \textbf{Optimizador:} \\
+  Se empleó Adam, como se ve en la Fórmula \ref{eq:actualizacion_adam}, con tasa de aprendizaje $\eta = 0.001$:
+  \begin{equation}\label{eq:actualizacion_adam}
+    \theta_{t+1} = \theta_t - \eta \cdot \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
+\end{equation}
+\myequations{Regla de actualización de parámetros del optimizador Adam}
+
+  \item \textbf{Proceso de entrenamiento:}
+  \begin{itemize}
+    \item 50 épocas con batch size = 4.
+    \item Cálculo de predicción, pérdida, retropropagación y optimización en cada iteración.
+  \end{itemize}
+
+  \item \textbf{Otras técnicas aplicadas:}
+  \begin{itemize}
+    \item Aumento de datos en tiempo real.
+    \item Normalización por lotes.
+    \item Conexiones de salto para evitar pérdida de detalle espacial.
+  \end{itemize}
+\end{itemize}
+
+\vspace{0.5cm}
+
+
+  \item\textbf{Actividad 3: Validación cruzada del rendimiento}
+  Se aplicó una estrategia de validación tipo hold-out (80\% entrenamiento, 20\% validación). El objetivo fue medir la capacidad del modelo para generalizar a datos no vistos.
+
+\begin{itemize}
+  \item \textbf{Métricas utilizadas:}
+  \begin{itemize}
+    \item Precisión por clase.
+    \item Intersección sobre Unión (IoU).
+    \item Dice Coefficient:
+  \end{itemize}
+
+  \item \textbf{Justificación:} \\
+  Una evaluación rigurosa permite determinar si el modelo puede ser aplicado de forma confiable a nuevas imágenes faciales con características morfológicas diversas.
+\end{itemize}
+
+
+
+  \end{itemize}
+
+  \item \textbf{Modelo de Segmentación: U-Net Attention}
+  \begin{itemize}
+  \item\textbf{Actividad 1: Configuración del entorno de entrenamiento}
+  Se preparó el entorno de ejecución para garantizar que todos los experimentos fueran reproducibles y consistentes, realizando lo siguiente:
+\begin{itemize}
+\item Se definieron las rutas de los conjuntos de datos: las carpetas \texttt{face\_images}, \texttt{arrugas} y \texttt{manchas} contenían las imágenes originales y las máscaras de segmentación correspondientes.
+\item El tamaño de lote (\emph{batch size}) se fijó en 4, equilibrando el uso eficiente de memoria GPU/CPU y la estabilidad del gradiente durante la retropropagación.
+\item Las imágenes de entrada se redimensionaron a 256 $\times$ 256 píxeles para asegurar una entrada uniforme al modelo y reducir el costo computacional.
+\item La tasa de aprendizaje inicial se estableció en $1 \times 10^{-4}$, un valor conservador para evitar inestabilidad en las primeras épocas de entrenamiento.
+\item Se programaron 50 épocas completas, buscando alcanzar la convergencia del modelo observando las métricas a lo largo del tiempo.
+\item Se habilitó el uso del dispositivo CUDA (GPU) cuando estaba disponible, y si no, el entrenamiento se realizaba en CPU.
+\item Se fijó una semilla aleatoria global en 42 para garantizar reproducibilidad en todas las operaciones pseudoaleatorias (división de datos, inicialización de pesos, aumentos de datos).
+\end{itemize}
+
+  \item\textbf{Actividad 2: Aplicación de técnicas de optimización}
+  Con el objetivo de mejorar la generalización y eficiencia del modelo, se incorporaron varias técnicas de optimización:
+\begin{itemize}
+\item Se aplicaron aumentos de datos usando la biblioteca \texttt{albumentations}, generando variaciones artificiales en las imágenes para enriquecer el conjunto de entrenamiento y reducir el sobreajuste. Las transformaciones aplicadas fueron:
+  \begin{itemize}
+  \item \texttt{A.HorizontalFlip(p=0.5)}: aplica volteo horizontal aleatorio con probabilidad 50\%.
+  \item \texttt{A.VerticalFlip(p=0.1)}: aplica volteo vertical aleatorio con probabilidad 10\%.
+  \item \texttt{A.RandomRotate90(p=0.2)}: rota la imagen aleatoriamente en múltiplos de 90 grados.
+  \item \texttt{A.Rotate(limit=15, p=0.3)}: rota la imagen aleatoriamente hasta 15 grados.
+  \item \texttt{A.ElasticTransform(alpha=1, sigma=50, approximate=True, p=0.2)}: aplica transformaciones elásticas para simular deformaciones.
+  \item \texttt{A.Affine(scale=(0.9, 1.1), translate\_percent=(0.05, 0.05), rotate=(-10, 10), p=0.3)}: realiza escalado, traslación y rotación aleatoria.
+  \item \texttt{A.RandomBrightnessContrast(brightness\_limit=0.2, contrast\_limit=0.2, p=0.3)}: modifica aleatoriamente el brillo y contraste.
+  \item \texttt{A.GaussNoise(std\_range=(0.2, 0.44), mean\_range=(0, 0), p=0.2)}: añade ruido gaussiano con desviación estándar variable.
+  \item \texttt{A.MotionBlur(blur\_limit=3, p=0.1)}: aplica desenfoque de movimiento.
+  \item \texttt{A.HueSaturationValue(hue\_shift\_limit=10, sat\_shift\_limit=15, val\_shift\_limit=10, p=0.2)}: ajusta aleatoriamente el tono, la saturación y el valor.
+  \item \texttt{A.Resize(256, 256)}: redimensiona la imagen a 256x256 píxeles.
+  \item \texttt{ToTensorV2()} : convierte la imagen y máscara en tensores para PyTorch.
+  \end{itemize}
+  El bloque de código completo utilizado fue:
+  \begin{lstlisting}[language=Python]
+  train_transforms = A.Compose([
+      A.HorizontalFlip(p=0.5),
+      A.VerticalFlip(p=0.1),
+      A.RandomRotate90(p=0.2),
+      A.Rotate(limit=15, p=0.3),
+      A.ElasticTransform(alpha=1, sigma=50, approximate=True, p=0.2),
+      A.Affine(scale=(0.9, 1.1), translate_percent=(0.05, 0.05), rotate=(-10, 10), p=0.3),
+      A.RandomBrightnessContrast(brightness_limit=0.2, contrast_limit=0.2, p=0.3),
+      A.GaussNoise(std_range=(0.2, 0.44), mean_range=(0, 0), p=0.2),
+      A.MotionBlur(blur_limit=3, p=0.1),
+      A.HueSaturationValue(hue_shift_limit=10, sat_shift_limit=15, val_shift_limit=10, p=0.2),
+      A.Resize(256, 256),
+      ToTensorV2()
+  ])
+  \end{lstlisting}
+
+\item Para enfrentar el desbalance entre clases (por ejemplo, menor cantidad de píxeles pertenecientes a manchas comparado con piel), se utilizó el enfoque \emph{median frequency balancing}, que asigna pesos inversamente proporcionales a la frecuencia de cada clase. Estos pesos se pasaron como argumento al criterio \texttt{CrossEntropyLoss}, forzando al modelo a prestar más atención a las clases minoritarias.
+
+\item Se eligió el optimizador \texttt{AdamW}, conocido por su manejo eficiente de regularización y su rendimiento robusto en redes convolucionales, junto con un programador de tasa de aprendizaje (\texttt{ReduceLROnPlateau}), que ajustaba dinámicamente la tasa de aprendizaje cuando la métrica de validación (\texttt{val\_loss}) dejaba de mejorar.
+
+\item Se implementó la impresión detallada de métricas al final de cada época, mostrando pérdidas (\texttt{train\_loss}, \texttt{val\_loss}), precisión, coeficiente Dice e índice de Jaccard, lo cual permitió un seguimiento cuantitativo en tiempo real del progreso del modelo.
+\end{itemize}
+
+
+  \item\textbf{Actividad 3: Validación cruzada del rendimiento}
+  Para evaluar la capacidad del modelo de generalizar sobre datos no vistos, se implementó una rutina robusta de validación:
+\begin{itemize}
+\item Los datos se dividieron en dos subconjuntos, usando un 80\% para entrenamiento y un 20\% para validación, aplicando la función \texttt{train\_test\_split} para asegurar que ambos conjuntos fueran mutuamente exclusivos.
+\item Se construyeron \texttt{DataLoaders} separados para el conjunto de entrenamiento y el de validación, permitiendo un procesamiento eficiente por lotes y garantizando que la evaluación se realizara de forma independiente al entrenamiento.
+\item En cada época, se recolectaron todas las predicciones del conjunto de validación y se calcularon métricas de segmentación:
+  \begin{itemize}
+  \item Precisión global de los píxeles predichos.
+  \item Coeficiente Dice, que mide la superposición entre las máscaras predichas y las verdaderas.
+  \item Índice de Jaccard, que cuantifica la similitud entre los conjuntos predicho y verdadero.
+  \end{itemize}
+\item Se guardó automáticamente el modelo correspondiente a la menor pérdida de validación obtenida hasta el momento (\emph{early stopping} implícito), almacenando su estado en el archivo \texttt{best\_model\_Unet\_attention\_100\_epochs.pth}. Esto garantizó que, al final del entrenamiento, se contara con el mejor modelo disponible según el criterio de validación.
+\end{itemize}
+
+  \end{itemize}
+
+  \item \textbf{Modelo de Segmentación: U-Net con codificador MiT-B0 (Mix Transformer)}
+  \begin{itemize}
+  \item\textbf{Actividad 1: Configuración del entorno de entrenamiento}
+  \begin{itemize}
+    \item \textbf{Librerías y utilidades:}
+      \begin{itemize}
+        \item \texttt{os, cv2, numpy, torch, torch.nn, torch.optim, torch.utils.data}
+        \item \texttt{segmentation\_models\_pytorch} para instanciar \texttt{smp.Unet}
+        \item \texttt{albumentations} y \texttt{ToTensorV2} para preprocesamiento
+        \item \texttt{sklearn.metrics.precision\_score} y \texttt{matplotlib.pyplot}
+      \end{itemize}
+  
+    \item \textbf{Denormalización:}
+    Se aplicó la Fórmula \ref{eq:normalizacion_imagen}:
+    \begin{equation}\label{eq:normalizacion_imagen}
+      \text{img} = \text{STD} \cdot (\text{tensor}.cpu().\text{numpy}().T) + \text{MEAN},\quad \text{clip}(0,1) \times 255
+  \end{equation}
+  \myequations{Normalización y escalado de la imagen}
+  
+    \item \textbf{FaceSegDataset:}
+      \begin{itemize}
+        \item Carga de imágenes RGB con \texttt{cv2.imread} y conversión a RGB.
+        \item Generación de máscara multiclase:
+          \begin{itemize}
+            \item Clase 0: fondo
+            \item Clase 1: arrugas (\texttt{m1>0})
+            \item Clase 2: manchas (\texttt{m2>0})
+          \end{itemize}
+        \item Debug de distribución de clases para las primeras 3 muestras (\texttt{np.unique}).
+        \item Aplicación de \texttt{train\_transforms} o \texttt{val\_transforms}:
+          \begin{itemize}
+            \item \texttt{Resize(512,512), HorizontalFlip, Rotate(limit=30), RandomBrightnessContrast, Normalize, ToTensorV2}
+          \end{itemize}
+      \end{itemize}
+  
+    \item \textbf{DataLoader y división:}
+      \begin{itemize}
+        \item \texttt{random\_split} 80\% entrenamiento / 20\% validación.
+        \item \texttt{collate\_fn} agrupa lotes con \texttt{torch.stack}.
+        \item \texttt{train\_loader}: \texttt{batch\_size=4}, shuffle.
+        \item \texttt{val\_loader}: \texttt{batch\_size=2}, no shuffle.
+      \end{itemize}
+  \end{itemize}
+  
+  \vspace{0.5cm}
+
+  \item\textbf{Actividad 2: Aplicación de técnicas de optimización}
+  \begin{itemize}
+    \item \textbf{Cálculo de pesos de clase:}
+    Se usó la Fórmula \ref{eq:calculo_pesos_clase}:
+    \begin{equation}\label{eq:calculo_pesos_clase}
+      \text{counts}_c = \sum_{\text{masks}} \text{bincount}(\text{mask},\, \text{minlength}=3),\quad
       w_c = \frac{1}{\text{counts}_c+\epsilon},\quad
       \tilde{w} = \frac{w}{\sum w}\times 3
-    \]
-    Usado en \texttt{CrossEntropyLoss(weight=class\_weights)}.
-
-  \item \textbf{Función de pérdida:}
-    \[
+  \end{equation}
+  \myequations{Cálculo de pesos de clase}
+      Usado en \texttt{CrossEntropyLoss(weight=class\_weights)}.
+  
+    \item \textbf{Función de pérdida:}
+    Se usó la Fórmula \ref{eq:cross_entropy_ponderada_simplificada}:
+    \begin{equation}\label{eq:cross_entropy_ponderada_simplificada}
       \mathcal{L}_{CE} = -\sum_{i,c} w_c\,y_{i,c}\,\log\Bigl(\mathrm{softmax}(x_{i,c})\Bigr)
-    \]
-
-  \item \textbf{Optimizador Adam:}
-    \[
+  \end{equation}
+  \myequations{Función de pérdida Cross-Entropy ponderada (forma simplificada)}
+  
+    \item \textbf{Optimizador Adam:}
+    Se usó la Fórmula \ref{eq:actualizacion_adam_con_lr}:
+    \begin{equation}\label{eq:actualizacion_adam_con_lr}
       \theta_{t+1} = \theta_t - \eta\,\frac{\hat{m}_t}{\sqrt{\hat{v}_t}+\epsilon},\quad \eta=10^{-4}
-    \]
+  \end{equation}
+  \myequations{Regla de actualización de parámetros del optimizador Adam con tasa de aprendizaje}
+  
+    \item \textbf{EarlyStopping:}
+      \begin{itemize}
+        \item \texttt{patience=5}, \texttt{min\_delta=0.01}
+        \item Si la pérdida de validación no mejora \(\geq\) \texttt{patience} épocas, se interrumpe.
+      \end{itemize}
+  
+    \item \textbf{Bucle de entrenamiento / validación (20 épocas):}
+      \begin{enumerate}
+        \item Entrenamiento (\texttt{model.train()}):
+          \begin{itemize}
+            \item Cálculo de \(\hat{Y}=f_\theta(X)\), pérdida, \(\nabla_\theta\), \(\theta\) actualización.
+          \end{itemize}
+        \item Validación (\texttt{model.eval()}):
+          \begin{itemize}
+            \item Acumulación de \(\mathrm{val\_loss}\).
+            \item Cálculo de \(\text{precision},\ \text{dice},\ \text{iou}\) con \texttt{compute\_metrics}.
+          \end{itemize}
+        \item Registro en \texttt{history}: \(\mathrm{train\_loss},\ \mathrm{val\_loss},\ \mathrm{precision},\ \mathrm{dice},\ \mathrm{iou}\).
+        \item EarlyStopping y guardado del modelo (\texttt{.pth}).
+      \end{enumerate}
+  
+      \end{itemize}
+  
+  \vspace{0.5cm}
 
-  \item \textbf{EarlyStopping:}
+  \item\textbf{Actividad 3: Validación cruzada del rendimiento}
+  \begin{itemize}
+    \item \textbf{Estrategia hold-out:}
+      80\% entrenamiento, 20\% validación. Puede extenderse a k-fold.
+  
+    \item \textbf{Métricas de segmentación:}
+      \begin{itemize}
+        \item \textbf{Precisión media:} \(\text{precision} = \frac{1}{2}\sum_{c=1}^2 \text{precision}_c\).
+        \item \textbf{Dice Coefficient:} \(\frac{2|P\cap G|}{|P|+|G|}\).
+        \item \textbf{IoU:} \(\frac{|P\cap G|}{|P\cup G|}\).
+        \item \textbf{Desglose por clase:} \texttt{precision\_score(labels=[1,2])}.
+      \end{itemize}
+  
+    \item \textbf{Análisis cualitativo:}
+      \begin{itemize}
+        \item Superposición máscara vs. imagen con \texttt{show\_comparison}.
+   \end{itemize}
+  
+    \item \textbf{Extensiones propuestas:}
+      \begin{itemize}
+        \item Validación cruzada k-fold (\(k=5\)).
+        \item Early stopping avanzado y reducción de \(\eta\).
+        \item Ensembling de modelos.
+      \end{itemize}
+  \end{itemize}
+  
+
+  \end{itemize}
+
+\item \textbf{Modelo de Segmentación: DeepLabV3}
+  \begin{itemize}
+  \item\textbf{Actividad 1: Configuración del entorno de entrenamiento}
+  \item\textbf{Actividad 2: Aplicación de técnicas de optimización}
+  \item\textbf{Actividad 3: Validación cruzada del rendimiento}
+  \end{itemize}
+\end{enumerate}
+
+
+
+\section{Evaluación del modelo}
+
+\begin{enumerate}
+  \item \textbf{Modelo de Segmentación: U-Net}
+  La evaluación del modelo entrenado se realizó con el objetivo de determinar su capacidad para segmentar correctamente las características morfológicas faciales, específicamente arrugas y manchas, a partir de imágenes RGB. Esta etapa es fundamental para verificar la efectividad del modelo antes de su implementación práctica en un entorno real.
+
+  \begin{itemize}
+  \item\textbf{Actividad 1: Preparación de Datos de Validación}
+  Se utilizó el 20\% de los datos reservados previamente para validación, asegurando que las imágenes evaluadas no hayan sido vistas durante el entrenamiento. Esto garantiza una estimación imparcial del rendimiento general del modelo.
+
+  \item\textbf{Actividad 2: Definición de Métricas de Evaluación}
+  \begin{itemize}
+  
+  
+    \item \textbf{Métricas de rendimiento:}\\
+    Para una evaluación integral del modelo, se utilizaron diversas métricas que capturan distintos aspectos de su desempeño:
     \begin{itemize}
-      \item \texttt{patience=5}, \texttt{min\_delta=0.01}
-      \item Si la pérdida de validación no mejora \(\geq\) \texttt{patience} épocas, se interrumpe.
+      \item \textbf{Precisión por clase (accuracy):} proporción de píxeles correctamente clasificados.
+      \item \textbf{IoU (Intersection over Union):}
+      Se usó la Fórmula \ref{eq:iou_clase}:
+      \begin{equation}\label{eq:iou_clase}
+        \text{IoU}_c = \frac{|P_c \cap G_c|}{|P_c \cup G_c|}
+    \end{equation}
+    \myequations{Intersection over Union para la clase c}
+      donde $P_c$ representa los píxeles predichos de la clase $c$, y $G_c$ los píxeles reales de dicha clase.
+  
+      \item \textbf{Coeficiente Dice:}
+      Se usó la Fórmula \ref{eq:dice_clase}:
+      \begin{equation}\label{eq:dice_clase}
+        \text{Dice}_c = \frac{2 \cdot |P_c \cap G_c|}{|P_c| + |G_c|}
+    \end{equation}
+    \myequations{Índice de Sorensen-Dice para la clase c}
+      especialmente útil para evaluar el solapamiento entre predicción y verdad de terreno en clases minoritarias como las manchas.
+  
     \end{itemize}
+  
+    \item \textbf{Análisis Visual:}\\
+    Además de las métricas cuantitativas, se realizó una revisión visual de los resultados generados por el modelo. Para ello:
+    \begin{itemize}
+      \item Se superpusieron las máscaras predichas sobre las imágenes originales.
+      \item Se utilizó una codificación de colores: fondo (negro), arrugas (rojo) y manchas (azul).
+      \item Se compararon visualmente las segmentaciones predichas frente a las segmentaciones reales (ground truth).
+    \end{itemize}
+  
+    \item \textbf{Observaciones esperadas:}
+    \begin{itemize}
+      \item Buena segmentación de estructuras prominentes (arrugas marcadas).
+      \item Posibles errores en bordes difusos o regiones con baja iluminación.
+      \item Posibles confusiones entre arrugas y manchas en regiones solapadas.
+    \end{itemize}
+  \end{itemize}
 
-  \item \textbf{Bucle de entrenamiento / validación (20 épocas):}
-    \begin{enumerate}
-      \item Entrenamiento (\texttt{model.train()}):
-        \begin{itemize}
-          \item Cálculo de \(\hat{Y}=f_\theta(X)\), pérdida, \(\nabla_\theta\), \(\theta\) actualización.
-        \end{itemize}
-      \item Validación (\texttt{model.eval()}):
-        \begin{itemize}
-          \item Acumulación de \(\mathrm{val\_loss}\).
-          \item Cálculo de \(\text{precision},\ \text{dice},\ \text{iou}\) con \texttt{compute\_metrics}.
-        \end{itemize}
-      \item Registro en \texttt{history}: \(\mathrm{train\_loss},\ \mathrm{val\_loss},\ \mathrm{precision},\ \mathrm{dice},\ \mathrm{iou}\).
-      \item EarlyStopping y guardado del modelo (\texttt{.pth}).
-    \end{enumerate}
+  \item\textbf{Actividad 3: Evaluación del Modelo}
+  \begin{itemize}
+    \item \textbf{Resultados:}\\
+El modelo alcanzó los siguientes resultados promedio sobre el conjunto de validación:
+\begin{itemize}
+  \item \textbf{Pérdida mínima (\texttt{val\_loss}):} 0.0849 (en la época 50).
+  \item \textbf{Precisión promedio:} 0.645, indicando que casi dos tercios de los píxeles se clasificaron correctamente.
+  \item \textbf{Dice Score promedio:} 0.440, mostrando un nivel medio de superposición entre máscaras predichas y reales.
+  \item \textbf{Jaccard Index promedio:} 0.289, reflejando el desafío de obtener coincidencias exactas en regiones complejas.
+  \item Se detectaron mejores resultados en la clase \emph{arrugas}, posiblemente por la mayor representación y contraste de textura.
+  \item La clase \emph{manchas} presentó métricas ligeramente inferiores, sugiriendo que futuras optimizaciones deberían incluir aumentos más dirigidos a mejorar esta categoría (por ejemplo, resaltando contraste o coloración).
+\end{itemize}
+  A continuación se presentan las métricas calculadas, los gráficos obtenidos y los ejemplos visuales para ilustrar el rendimiento del modelo.
 
-  \item \textbf{Visualización de métricas:}
-    Gráfica de \(\mathrm{train\_loss},\ \mathrm{val\_loss},\ \mathrm{precision},\ \mathrm{dice},\ \mathrm{iou}\) vs. épocas, guardada como \texttt{metrics\_unetvit.png}.
+  \vspace{0.2cm}
+  \begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{4/figures/UnetComparación1.png}
+\caption{Comparación visual: imagen original, máscara real multicategoría y predicción del modelo para un caso con predominio de arrugas.}
+\label{fig:validacion11}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{4/figures/UnetComparación2.png}
+\caption{Comparación visual: ejemplo donde se observa el desempeño del modelo en la detección de manchas, destacando regiones correctamente identificadas y algunas áreas faltantes.}
+\label{fig:validacion22}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{4/figures/UnetComparación3.png}
+\caption{Comparación visual: caso mixto donde se presentan simultáneamente arrugas y manchas, mostrando la capacidad del modelo para diferenciar ambas clases en un mismo rostro.}
+\label{fig:validacion33}
+\end{figure}
+\end{itemize}
+
+  \end{itemize}
+
+  \item \textbf{Modelo de Segmentación: U-Net Attention}
+  \begin{itemize}
+  \item\textbf{Actividad 1: Preparación de Datos de Validación}
+  Se prepararon cuidadosamente las imágenes de validación aplicando únicamente transformaciones mínimas para asegurar que las métricas reflejaran el rendimiento real del modelo, sin influencias de aumentos artificiales:
+\begin{itemize}
+  \item \textbf{Redimensionamiento uniforme:} todas las imágenes y máscaras se reescalaron a 256x256 píxeles, asegurando compatibilidad con las dimensiones de entrada del modelo.
+  \item \textbf{Conversión a tensores:} las imágenes se transformaron en tensores (\texttt{ToTensorV2}) sin aplicar alteraciones de brillo, contraste, ruido ni geometría, garantizando que las métricas se calcularan sobre datos reales.
+  \item \textbf{Construcción de máscara multicategoría:} las máscaras individuales de arrugas y manchas se combinaron en una única máscara de clase múltiple (con valores codificados por categoría), permitiendo al modelo aprender a distinguir ambas clases en un solo paso de inferencia.
 \end{itemize}
 
 \vspace{0.5cm}
-\textbf{Actividad 3: Validación cruzada del rendimiento}
 
+  \item\textbf{Actividad 2: Definición de Métricas de Evaluación}
+  Para evaluar de manera robusta el desempeño del modelo, se utilizaron las siguientes métricas:
 \begin{itemize}
-  \item \textbf{Estrategia hold-out:}
-    80\% entrenamiento, 20\% validación. Puede extenderse a k-fold.
-
-  \item \textbf{Métricas de segmentación:}
-    \begin{itemize}
-      \item \textbf{Precisión media:} \(\text{precision} = \frac{1}{2}\sum_{c=1}^2 \text{precision}_c\).
-      \item \textbf{Dice Coefficient:} \(\frac{2|P\cap G|}{|P|+|G|}\).
-      \item \textbf{IoU:} \(\frac{|P\cap G|}{|P\cup G|}\).
-      \item \textbf{Desglose por clase:} \texttt{precision\_score(labels=[1,2])}.
-    \end{itemize}
-
-  \item \textbf{Análisis cualitativo:}
-    \begin{itemize}
-      \item Superposición máscara vs. imagen con \texttt{show\_comparison}.
-      \item Visualización de muestras (imagen de-normalizada, ground truth, predicción).
-    \end{itemize}
-
-  \item \textbf{Extensiones propuestas:}
-    \begin{itemize}
-      \item Validación cruzada k-fold (\(k=5\)).
-      \item Early stopping avanzado y reducción de \(\eta\).
-      \item Ensembling de modelos.
-    \end{itemize}
+  \item \textbf{Precisión (macro):} mide la proporción de píxeles predichos correctamente entre todas las clases, promediando por igual sin favorecer a clases más grandes.
+  \item \textbf{Dice Score (coeficiente de Sørensen-Dice):} calcula el doble de la intersección dividido por la suma de los tamaños predicho y verdadero, reflejando cuánta superposición real se logró en la segmentación.
+  \item \textbf{Índice de Jaccard (IoU):} mide la intersección sobre la unión entre predicciones y referencias, siendo una métrica más estricta para evaluar solapamientos exactos.
 \end{itemize}
 
+\vspace{0.5cm}
 
-\subsubsection{Evaluación del modelo}
+  \item\textbf{Actividad 3: Evaluación del Modelo}
+  El modelo alcanzó los siguientes resultados promedio sobre el conjunto de validación:
+\begin{itemize}
+  \item \textbf{Pérdida mínima (\texttt{val\_loss}):} 0.0158 (en la época 50).
+  \item \textbf{Precisión promedio:} 0.821, indicando que casi 4 quintos de los píxeles se clasificaron correctamente.
+  \item \textbf{Dice Score promedio:} 0.67, mostrando un nivel medio de superposición entre máscaras predichas y reales.
+  \item \textbf{Jaccard Index promedio:} 0.61, reflejando aun el desafío de obtener coincidencias exactas en regiones complejas.
+  \item Se detectaron mejores resultados en la clase \emph{arrugas}, posiblemente por la mayor representación y contraste de textura.
+  \item La clase \emph{manchas} presentó métricas ligeramente inferiores, sugiriendo que futuras optimizaciones deberían incluir aumentos más dirigidos a mejorar esta categoría (por ejemplo, resaltando contraste o coloración).
+\end{itemize}
+
+\vspace{0.5cm}
+
+Además de los resultados numéricos, se generaron visualizaciones comparativas entre los datos reales y las predicciones del modelo. Estas imágenes permiten evaluar cualitativamente el desempeño del modelo, mostrando tanto los aciertos como las áreas de mejora. A continuación, se presentan tres ejemplos destacados:
+
+\vspace{0.5cm}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{4/figures/comparación9.png}
+\caption{Comparación visual: imagen original, máscara real multicategoría y predicción del modelo para un caso con predominio de arrugas.}
+\label{fig:validacion1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{4/figures/comparación6.png}
+\caption{Comparación visual: ejemplo donde se observa el desempeño del modelo en la detección de manchas, destacando regiones correctamente identificadas y algunas áreas faltantes.}
+\label{fig:validacion2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{4/figures/comparación1.png}
+\caption{Comparación visual: caso mixto donde se presentan simultáneamente arrugas y manchas, mostrando la capacidad del modelo para diferenciar ambas clases en un mismo rostro.}
+\label{fig:validacion3}
+\end{figure}
+
+  \end{itemize}
+
+
+  \item \textbf{Modelo de Segmentación: U-Net con codificador MiT-B0 (Mix Transformer)}
+  \begin{itemize}
+  \item\textbf{Actividad 1: Preparación de Datos de Validación}
+  \item\textbf{Actividad 2: Definición de Métricas de Evaluación}
+  \item\textbf{Actividad 3: Evaluación del Modelo}
+  \end{itemize}
+
+
+\item \textbf{Modelo de Segmentación: DeepLabV3}
+  \begin{itemize}
+  \item\textbf{Actividad 1: Preparación de Datos de Validación}
+  \item\textbf{Actividad 2: Definición de Métricas de Evaluación}
+  \item\textbf{Actividad 3: Evaluación del Modelo}
+  \end{itemize}
+\end{enumerate}
+
+
+
+
 
 
 \section{Despliegue del modelo}
