@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.1)  9 MAY 2025 21:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.1)  9 MAY 2025 22:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2527,11 +2527,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [75]
-<3/figures/Diagrama de desarrollo.png, id=1342, 368.1253pt x 574.39594pt>
+<3/figures/Diagrama de desarrollo.png, id=1342, 353.06906pt x 566.115pt>
 File: 3/figures/Diagrama de desarrollo.png Graphic file (type png)
 <use 3/figures/Diagrama de desarrollo.png>
 Package pdftex.def Info: 3/figures/Diagrama de desarrollo.png  used on input line 256.
-(pdftex.def)             Requested size: 158.54164pt x 247.37984pt.
+(pdftex.def)             Requested size: 158.54164pt x 254.20518pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2920,11 +2920,11 @@ LaTeX Font Info:    Trying to load font information for U+eus on input line 513.
  (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
-<4/figures/Diagrama de desarrollo.png, id=1514, 368.1253pt x 574.39594pt>
+<4/figures/Diagrama de desarrollo.png, id=1514, 353.06906pt x 566.115pt>
 File: 4/figures/Diagrama de desarrollo.png Graphic file (type png)
 <use 4/figures/Diagrama de desarrollo.png>
 Package pdftex.def Info: 4/figures/Diagrama de desarrollo.png  used on input line 532.
-(pdftex.def)             Requested size: 203.83434pt x 318.05728pt.
+(pdftex.def)             Requested size: 203.83434pt x 326.83524pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -3075,12 +3075,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [114]
-<4/figures/UnetComparación1.png, id=1591, 823.878pt x 286.9119pt>
+<4/figures/UnetComparación1.png, id=1594, 823.878pt x 286.9119pt>
 File: 4/figures/UnetComparación1.png Graphic file (type png)
 <use 4/figures/UnetComparación1.png>
 Package pdftex.def Info: 4/figures/UnetComparación1.png  used on input line 923.
 (pdftex.def)             Requested size: 385.02577pt x 134.08246pt.
-<4/figures/UnetComparación2.png, id=1592, 823.878pt x 286.9119pt>
+<4/figures/UnetComparación2.png, id=1595, 823.878pt x 286.9119pt>
 File: 4/figures/UnetComparación2.png Graphic file (type png)
 <use 4/figures/UnetComparación2.png>
 Package pdftex.def Info: 4/figures/UnetComparación2.png  used on input line 930.
@@ -3095,7 +3095,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [115 <./4/figures/UnetComparación1.png>]
-<4/figures/UnetComparación3.png, id=1599, 823.878pt x 286.9119pt>
+<4/figures/UnetComparación3.png, id=1602, 823.878pt x 286.9119pt>
 File: 4/figures/UnetComparación3.png Graphic file (type png)
 <use 4/figures/UnetComparación3.png>
 Package pdftex.def Info: 4/figures/UnetComparación3.png  used on input line 937.
@@ -3115,7 +3115,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [116 <./4/figures/UnetComparación2.png> <./4/figures/UnetComparación3.png>]
-<4/figures/comparación9.png, id=1607, 854.2314pt x 277.5168pt>
+<4/figures/comparación9.png, id=1613, 854.2314pt x 277.5168pt>
 File: 4/figures/comparación9.png Graphic file (type png)
 <use 4/figures/comparación9.png>
 Package pdftex.def Info: 4/figures/comparación9.png  used on input line 986.
@@ -3130,12 +3130,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-7.61925pt}.
 
 [117]
-<4/figures/comparación6.png, id=1612, 854.2314pt x 277.5168pt>
+<4/figures/comparación6.png, id=1618, 854.2314pt x 277.5168pt>
 File: 4/figures/comparación6.png Graphic file (type png)
 <use 4/figures/comparación6.png>
 Package pdftex.def Info: 4/figures/comparación6.png  used on input line 993.
 (pdftex.def)             Requested size: 385.02577pt x 125.08466pt.
-<4/figures/comparación1.png, id=1613, 854.2314pt x 277.5168pt>
+<4/figures/comparación1.png, id=1619, 854.2314pt x 277.5168pt>
 File: 4/figures/comparación1.png Graphic file (type png)
 <use 4/figures/comparación1.png>
 Package pdftex.def Info: 4/figures/comparación1.png  used on input line 1000.
@@ -3274,7 +3274,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ] (anexos/anexo.tex
-<anexos/arb_problemas.jpg, id=1734, 1027.58907pt x 577.40718pt>
+<anexos/arb_problemas.jpg, id=1740, 1027.58907pt x 577.40718pt>
 File: anexos/arb_problemas.jpg Graphic file (type jpg)
 <use anexos/arb_problemas.jpg>
 Package pdftex.def Info: anexos/arb_problemas.jpg  used on input line 18.
@@ -3292,7 +3292,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
  <./anexos/arb_problemas.jpg>]
-<anexos/arb_objetivos.jpg, id=1741, 1027.58907pt x 577.40718pt>
+<anexos/arb_objetivos.jpg, id=1747, 1027.58907pt x 577.40718pt>
 File: anexos/arb_objetivos.jpg Graphic file (type jpg)
 <use anexos/arb_objetivos.jpg>
 Package pdftex.def Info: anexos/arb_objetivos.jpg  used on input line 33.
@@ -3911,9 +3911,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  89i,13n,117p,1403b,3205s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (147 pages, 16847331 bytes).
+Output written on tesis.pdf (147 pages, 16886076 bytes).
 PDF statistics:
- 1938 PDF objects out of 2073 (max. 8388607)
+ 1944 PDF objects out of 2073 (max. 8388607)
  476 named destinations out of 1000 (max. 500000)
  989 words of extra memory for PDF output out of 10000 (max. 10000000)
 

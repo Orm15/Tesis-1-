@@ -195,7 +195,7 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
 
 
  \subsubsection{Desarrollo de los Modelos de Segmentación}
- El desarrollo de los modelos de segmentación de características faciales se estructurará en tres actividades clave. Estas actividades incluirán el diseño, implementación y entrenamiento de modelos basados en arquitecturas de redes neuronales profundas como U-Net, DeepLabV3 y modelos híbridos con Vision Transformer (ViT). La Tabla \ref{tabla:actividades_segmentacion} presenta el detalle de cada una.
+ El desarrollo de los modelos de segmentación de características faciales se estructurará en tres actividades clave. Estas actividades incluirán el diseño, implementación y entrenamiento de modelos basados en arquitecturas de redes neuronales profundas como U-Net, Mask R-CNN y modelos híbridos con Vision Transformer (ViT). La Tabla \ref{tabla:actividades_segmentacion} presenta el detalle de cada una.
 
  \vspace{2ex}
  \begingroup
@@ -219,7 +219,7 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
  Diseño de la arquitectura del modelo & Selección conceptual y estructural de modelos apropiados para la segmentación de características morfológicas faciales. &
  \begin{itemize}
      \item Análisis de U-Net para segmentación precisa de áreas pequeñas como arrugas y poros.
-     \item Evaluación del potencial de DeepLabV3 para representar características profundas y complejas.
+     \item Evaluación del potencial de Mask R-CNN para representar características profundas y complejas.
      \item Consideración de arquitecturas híbridas que integren Unet con Vision Transformer (ViT).
  \end{itemize} \\
  
@@ -238,7 +238,7 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
  \textbf{Actividad 1: Diseño de la arquitectura del modelo}
  \\
  Durante esta etapa se definirá la estructura general de las redes neuronales que se utilizarán para la segmentación de características morfológicas faciales. El objetivo será seleccionar arquitecturas que sean adecuadas para extraer información precisa de regiones faciales como arrugas, poros o manchas.
- Entre las arquitecturas consideradas se encontrarán U-Net, que destaca por su capacidad de segmentación precisa gracias a su estructura simétrica y sus conexiones de salto entre el codificador y el decodificador. También se evaluará el uso de DeepLabV3, una arquitectura que incorpora bloques residuales para mejorar el aprendizaje en redes profundas, especialmente útil para capturar texturas complejas. Asimismo, se contemplará la exploración de modelos híbridos que combinan Unet con Vision Transformer (ViT), lo cual permitirá captar patrones sutiles mediante mecanismos de atención.
+ Entre las arquitecturas consideradas se encontrarán U-Net, que destaca por su capacidad de segmentación precisa gracias a su estructura simétrica y sus conexiones de salto entre el codificador y el decodificador. También se evaluará el uso de Mask R-CNN, una arquitectura que incorpora bloques residuales para mejorar el aprendizaje en redes profundas, especialmente útil para capturar texturas complejas. Asimismo, se contemplará la exploración de modelos híbridos que combinan Unet con Vision Transformer (ViT), lo cual permitirá captar patrones sutiles mediante mecanismos de atención.
  
  \textbf{Entregable}: Selección de la arquitectura óptima para el modelo de segmentación facial, justificada técnicamente.
 
@@ -246,7 +246,7 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
  \\
 Esta actividad consistirá en establecer los elementos esenciales que conformarán las redes previamente seleccionadas. Se determinará la cantidad de capas, el tipo de operaciones dentro de cada módulo y la forma en que se conectan entre sí, en función de las necesidades de segmentación facial.
 
-En U-Net, por ejemplo, se definirá cuántas capas de codificación y decodificación se utilizarán, así como las conexiones que transmitirán información detallada entre estas. En DeepLabV3, se especificará el número de bloques residuales y la profundidad de la red, asegurando que se mantenga la eficiencia del aprendizaje sin perder información relevante. En los modelos híbridos con ViT, se determinará cómo integrar los módulos de atención con las capas convolucionales, de forma que se mantenga un flujo eficiente de características entre ambos entornos.
+En U-Net, por ejemplo, se definirá cuántas capas de codificación y decodificación se utilizarán, así como las conexiones que transmitirán información detallada entre estas. En Mask R-CNN, se especificará el número de bloques residuales y la profundidad de la red, asegurando que se mantenga la eficiencia del aprendizaje sin perder información relevante. En los modelos híbridos con ViT, se determinará cómo integrar los módulos de atención con las capas convolucionales, de forma que se mantenga un flujo eficiente de características entre ambos entornos.
 
  \textbf{Entregable}: Especificación detallada de los componentes y estructura interna de cada arquitectura seleccionada.
 

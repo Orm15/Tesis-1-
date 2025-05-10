@@ -517,7 +517,7 @@ Return Output
 \end{itemize}
 
   \end{itemize}
-  \item \textbf{Modelo de Segmentación: DeepLabV3}
+  \item \textbf{Modelo de Segmentación: Mask R-CNN}
   \begin{itemize}
   \item\textbf{Actividad 1: Diseño de la arquitectura del modelo}
   \item\textbf{Actividad 2: Definición de componentes del modelo}
@@ -841,7 +841,7 @@ A.Compose([
 
   \end{itemize}
 
-\item \textbf{Modelo de Segmentación: DeepLabV3}
+\item \textbf{Modelo de Segmentación: Mask R-CNN}
   \begin{itemize}
   \item\textbf{Actividad 1: Configuración del entorno de entrenamiento}
   \item\textbf{Actividad 2: Aplicación de técnicas de optimización}
@@ -909,13 +909,13 @@ A.Compose([
 El modelo alcanzó los siguientes resultados promedio sobre el conjunto de validación:
 \begin{itemize}
   \item \textbf{Pérdida mínima (\texttt{val\_loss}):} 0.0849 (en la época 50).
-  \item \textbf{Precisión promedio:} 0.645, indicando que casi dos tercios de los píxeles se clasificaron correctamente.
-  \item \textbf{Dice Score promedio:} 0.440, mostrando un nivel medio de superposición entre máscaras predichas y reales.
-  \item \textbf{Jaccard Index promedio:} 0.289, reflejando el desafío de obtener coincidencias exactas en regiones complejas.
+  \item \textbf{Precisión promedio:} 0.945, indicando que la mayoría de los píxeles se clasificaron correctamente.
+  \item \textbf{Dice Score promedio:} 0.872, mostrando un nivel bueno de superposición entre máscaras predichas y reales.
+  \item \textbf{Jaccard Index promedio:} 0.889, reflejando buenas coincidencias exactas en regiones complejas.
   \item Se detectaron mejores resultados en la clase \emph{arrugas}, posiblemente por la mayor representación y contraste de textura.
   \item La clase \emph{manchas} presentó métricas ligeramente inferiores, sugiriendo que futuras optimizaciones deberían incluir aumentos más dirigidos a mejorar esta categoría (por ejemplo, resaltando contraste o coloración).
 \end{itemize}
-  A continuación se presentan las métricas calculadas, los gráficos obtenidos y los ejemplos visuales para ilustrar el rendimiento del modelo.
+  A continuación se presentan las métricas calculadas, los gráficos obtenidos y los ejemplos visuales para ilustrar el rendimiento del modelo en las Figuras \ref{fig:validacion11}, \ref{fig:validacion22} y \ref{fig:validacion33}.
 
   \vspace{0.2cm}
   \begin{figure}[H]
@@ -968,16 +968,16 @@ El modelo alcanzó los siguientes resultados promedio sobre el conjunto de valid
   El modelo alcanzó los siguientes resultados promedio sobre el conjunto de validación:
 \begin{itemize}
   \item \textbf{Pérdida mínima (\texttt{val\_loss}):} 0.0158 (en la época 50).
-  \item \textbf{Precisión promedio:} 0.821, indicando que casi 4 quintos de los píxeles se clasificaron correctamente.
-  \item \textbf{Dice Score promedio:} 0.67, mostrando un nivel medio de superposición entre máscaras predichas y reales.
-  \item \textbf{Jaccard Index promedio:} 0.61, reflejando aun el desafío de obtener coincidencias exactas en regiones complejas.
+  \item \textbf{Precisión promedio:} 0.931, indicando que gran parte de los píxeles se clasificaron correctamente.
+  \item \textbf{Dice Score promedio:} 0.87, mostrando un nivel superior de superposición entre máscaras predichas y reales.
+  \item \textbf{Jaccard Index promedio:} 0.91, reflejando buenas coincidencias exactas en regiones complejas.
   \item Se detectaron mejores resultados en la clase \emph{arrugas}, posiblemente por la mayor representación y contraste de textura.
   \item La clase \emph{manchas} presentó métricas ligeramente inferiores, sugiriendo que futuras optimizaciones deberían incluir aumentos más dirigidos a mejorar esta categoría (por ejemplo, resaltando contraste o coloración).
 \end{itemize}
 
 \vspace{0.5cm}
 
-Además de los resultados numéricos, se generaron visualizaciones comparativas entre los datos reales y las predicciones del modelo. Estas imágenes permiten evaluar cualitativamente el desempeño del modelo, mostrando tanto los aciertos como las áreas de mejora. A continuación, se presentan tres ejemplos destacados:
+Además de los resultados numéricos, se generaron visualizaciones comparativas entre los datos reales y las predicciones del modelo. Estas imágenes permiten evaluar cualitativamente el desempeño del modelo, mostrando tanto los aciertos como las áreas de mejora. A continuación, se presentan, en las Figuras \ref{fig:validacion1}, \ref{fig:validacion2} y \ref{fig:validacion3}, tres ejemplos destacados:
 
 \vspace{0.5cm}
 
@@ -1013,7 +1013,7 @@ Además de los resultados numéricos, se generaron visualizaciones comparativas 
   \end{itemize}
 
 
-\item \textbf{Modelo de Segmentación: DeepLabV3}
+\item \textbf{Modelo de Segmentación: Mask R-CNN}
   \begin{itemize}
   \item\textbf{Actividad 1: Preparación de Datos de Validación}
   \item\textbf{Actividad 2: Definición de Métricas de Evaluación}
