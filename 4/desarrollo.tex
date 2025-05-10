@@ -1571,38 +1571,32 @@ Estas métricas confirman que la integración del codificador MiT-B0 aporta bene
     \item \textbf{Actividad 3: Evaluación del Modelo} \\
     Los resultados del modelo Mask R-CNN sobre el conjunto de validación fueron los siguientes:
     \begin{itemize}
-      \item \textbf{Pérdida mínima (\texttt{val\_loss}):} 0.0441.
-      \item \textbf{Precisión:} 0.771.
-      \item \textbf{Dice Score:} 0.563.
-      \item \textbf{Jaccard Index (IoU):} 0.647.
-      \item La clase \emph{manchas} obtuvo una segmentación precisa, superando ligeramente a U-Net tradicional.
-      \item La clase \emph{arrugas} mostró un desempeño inferior en algunos casos debido a la dificultad de detección sin bordes claros.
+      \item \textbf{Pérdida mínima (\texttt{val\_loss}):} 0.441.
+      \item \textbf{Precisión:} 0.153.
+      \item \textbf{Dice Score:} 0.052.
+      \item \textbf{Jaccard Index (IoU):} 0.221.
+      \item La clase \emph{manchas} obtuvo una segmentación nada precisa.
+      \item La clase \emph{arrugas} mostró un desempeño muy inferior debido a la dificultad de detección sin bordes claros.
     \end{itemize}
   
-    % Además de los resultados numéricos, se generaron visualizaciones comparativas entre los datos reales y las predicciones del modelo. Estas imágenes permiten evaluar cualitativamente el desempeño del modelo, mostrando tanto los aciertos como las áreas de mejora. A continuación, se presentan, en las Figuras \ref{fig:validacionmaskrcnn1}, \ref{fig:validacionmaskrcnn2} y \ref{fig:validacionmaskrcnn3}, tres ejemplos destacados:
+    Además de los resultados numéricos, se generaron visualizaciones comparativas entre los datos reales y las predicciones del modelo. Estas imágenes permiten evaluar cualitativamente el desempeño del modelo, mostrando tanto los aciertos como las áreas de mejora. A continuación, se presentan, en las Figuras \ref{fig:validacionmaskrcnn1}, \ref{fig:validacionmaskrcnn2} y \ref{fig:validacionmaskrcnn3}, tres ejemplos destacados:
   
-    % \vspace{0.5cm}
+    \vspace{0.5cm}
   
-    % \begin{figure}[H]
-    %   \centering
-    %   \includegraphics[width=0.85\textwidth]{4/figures/unetvit1.jpg}
-    %   \caption{Comparación visual: imagen original, máscara real multicategoría y predicción del modelo para un caso con predominio de manchas.}
-    %   \label{fig:validacionmaskrcnn1}
-    % \end{figure}
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.85\textwidth]{4/figures/maskrcnn1.png}
+      \caption{Comparación visual: imagen original, máscara real multicategoría y predicción del modelo 1.}
+      \label{fig:validacionmaskrcnn1}
+    \end{figure}
   
-    % \begin{figure}[H]
-    %   \centering
-    %   \includegraphics[width=0.85\textwidth]{4/figures/unetvit1.jpg}
-    %   \caption{Comparación visual: ejemplo donde se observa el desempeño del modelo en la detección de manchas, destacando pocas regiones correctamente identificadas y la mayoría de áreas faltantes.}
-    %   \label{fig:validacionmaskrcnn2}
-    % \end{figure}
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.85\textwidth]{4/figures/maskrcnn2.png}
+      \caption{Comparación visual: imagen original, máscara real multicategoría y predicción del modelo 2.}
+      \label{fig:validacionmaskrcnn2}
+    \end{figure}
   
-    % \begin{figure}[H]
-    %   \centering
-    %   \includegraphics[width=0.85\textwidth]{4/figures/unetvit1.jpg}
-    %   \caption{Comparación visual: ejemplo donde se observa el desempeño del modelo en la detección de manchas, destacando casi ninguna de las regiones correctamente identificadas y muchas áreas faltantes.}
-    %   \label{fig:validacionmaskrcnn3}
-    % \end{figure}
   
   \end{itemize}
   
@@ -1625,7 +1619,7 @@ Para poder comparar los resultados y métricas de los modelos de segmentación q
       U-Net & 0.925 & 0.812 & 0.859  \\
       U-Net Attention & 0.941 & 0.87 & 0.91  \\
       U-Net con codificador MiT-B0 & 0.443 & 0.32 & 0.47  \\
-      Mask R-CNN & 0.771 & 0.563 & 0.647  \\ 
+      Mask R-CNN & 0.153 & 0.052 & 0.221  \\ 
       \bottomrule
   \end{tabularx}
   \label{tab:result_models}

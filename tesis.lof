@@ -51,3 +51,5 @@
 \contentsline {figure}{\numberline {50}{\ignorespaces Comparación visual: imagen original, máscara real multicategoría y predicción del modelo para un caso con predominio de manchas.}}{127}{figure.caption.68}%
 \contentsline {figure}{\numberline {51}{\ignorespaces Comparación visual: ejemplo donde se observa el desempeño del modelo en la detección de manchas, destacando pocas regiones correctamente identificadas y la mayoría de áreas faltantes.}}{128}{figure.caption.69}%
 \contentsline {figure}{\numberline {52}{\ignorespaces Comparación visual: ejemplo donde se observa el desempeño del modelo en la detección de manchas, destacando casi ninguna de las regiones correctamente identificadas y muchas áreas faltantes.}}{128}{figure.caption.70}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Comparación visual: imagen original, máscara real multicategoría y predicción del modelo 1.}}{130}{figure.caption.71}%
+\contentsline {figure}{\numberline {54}{\ignorespaces Comparación visual: imagen original, máscara real multicategoría y predicción del modelo 2.}}{130}{figure.caption.72}%
