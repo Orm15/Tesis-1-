@@ -3,7 +3,7 @@ Dentro de esta sección se expone con precisión el procedimiento descrito previ
 
 \section{Adquisición de los Datos}
 
-\textbf{Actividad 1: Identificación de la data que contengan imágenes de rostros con características morfológicas faciales de proporciones similares}
+\textbf{Actividad 1 de Adquisición de los Datos: Identificación de la data que contengan imágenes de rostros con características morfológicas faciales de proporciones similares}
  
 Con el objetivo de entrenar un modelo de segmentación enfocado en características morfológicas faciales como arrugas y manchas, se llevó a cabo una exhaustiva búsqueda de bases de datos públicas en repositorios especializados. Se priorizó la recolección de conjuntos de datos que incluyeran imágenes faciales en alta resolución, variedad de edades, géneros y tonos de piel, así como condiciones de iluminación lo suficientemente controladas como para facilitar la segmentación de detalles faciales sutiles.
 
@@ -31,13 +31,13 @@ Este conjunto reducido pero representativo,lo podemos ver en la Figura \ref{4:fi
 
 \section{Preprocesamiento de los Datos}
 
-\textbf{Actividad 1: Filtración de imágenes faciales con características morfológicas}
+\textbf{Actividad 1 de Preprocesamiento de los Datos: Filtración de imágenes faciales con características morfológicas}
 
 Una vez recopilado el subconjunto de 5,000 imágenes faciales con características morfológicas visibles, se procedió a una etapa de filtración adicional orientada a reforzar la consistencia y la relevancia de los datos para la tarea de segmentación. Esta filtración se enfocó en garantizar que todas las imágenes seleccionadas contuvieran arrugas y manchas claramente identificables, descartando aquellas que, pese a su calidad visual, no presentaban estas características de manera explícita.
 
 El proceso se realizó mediante una inspección semiautomática, apoyada en técnicas básicas de detección de texturas y realce de bordes para facilitar la identificación visual de las zonas con deformaciones. Como resultado, se aseguraron condiciones homogéneas entre las imágenes del dataset final, lo que permitió una base sólida para la generación de máscaras de segmentación precisas.
 
-\textbf{Actividad 2: Representación y normalización de las imágenes faciales}
+\textbf{Actividad 2 de Preprocesamiento de los Datos: Representación y normalización de las imágenes faciales}
 
 Con el conjunto de imágenes definitivo, se ejecutó un proceso de preprocesamiento estandarizado con dos objetivos principales: uniformar las dimensiones espaciales de las imágenes y generar las máscaras binarias asociadas a las regiones con deformaciones morfológicas.
 
@@ -71,12 +71,22 @@ Este proceso de representación y normalización, como se ve en el diagrama fina
 		\label{4:fig3}
 	\end{center}
 \end{figure}
+\clearpage
 \newpage
 \section{Desarrollo de los Modelos de Segmentación}
 
 \begin{enumerate}
   \item \textbf{Modelo de Segmentación: U-Net}
+  \begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{4/figures/desunet.png}
+		\caption[Desarrollo del Modelo U-Net]{Desarrollo del Modelo U-Net.\\
+		Fuente: Elaboración propia}
+		\label{4:figdesunet}
+	\end{center}
+\end{figure}
   \begin{itemize}
+
   \item\textbf{Actividad 1: Diseño de la arquitectura del modelo}
   El modelo implementado es una arquitectura de red neuronal convolucional U-Net, que es comúnmente utilizada para tareas de segmentación de imágenes. Esta red se caracteriza por su estructura simétrica, compuesta por una parte de codificación (encoder) y decodificación (decoder), con conexiones de salto (skip connections) entre ellas. El objetivo principal de la U-Net es capturar características de bajo y alto nivel, y luego reconstruir la imagen segmentada a partir de esas características.
 
@@ -178,11 +188,11 @@ Output = final_conv(d1)  # Capa final de convolución
     \item \textbf{Modelo \texttt{UNet}}: Arquitectura de segmentación semántica basada en una estructura en forma de U. Se compone de dos fases principales:
     \begin{itemize}
         \item \textbf{Codificador (Encoder):} Reduce progresivamente la dimensión espacial mientras aumenta la profundidad de características:
-        \begin{itemize}
+        \begin{description}
             \item \texttt{enc1}: \( \text{Conv2d}(3 \rightarrow 64) \rightarrow \text{BN} \rightarrow \text{ReLU} \rightarrow \text{Conv2d}(64 \rightarrow 64) \rightarrow \text{BN} \rightarrow \text{ReLU} \)
             \item \texttt{pool1}: MaxPool \(2 \times 2\)
             \item \texttt{enc2}: \(64 \rightarrow 128\), seguido de \texttt{pool2}, etc.
-        \end{itemize}
+        \end{description}
         \item \textbf{Cuello de botella (Bottleneck):} Capa de mayor profundidad \(512 \rightarrow 1024\), sin reducción espacial.
         \item \textbf{Decodificador (Decoder):} Recupera resolución espacial mediante \texttt{ConvTranspose2d} (upsampling) y concatenación con las salidas del encoder (skip connections). Cada bloque incluye dos capas convolucionales como el encoder.
         \item \textbf{Capa final:} Una convolución \(1 \times 1\) que transforma el mapa de características final (con 64 canales) en un tensor con 3 canales de salida (uno por clase).
@@ -202,9 +212,19 @@ Output = final_conv(d1)  # Capa final de convolución
     \item En validación, se observa la capacidad del modelo para distinguir fondo, arrugas y manchas en imágenes no vistas.
 \end{itemize}
 
-
+\newpage
   \item \textbf{Modelo de Segmentación: U-Net Attention}
+  \begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{4/figures/desunetat.png}
+		\caption[Desarrollo del Modelo U-Net Attention]{Desarrollo del Modelo U-Net Attention.\\
+		Fuente: Elaboración propia}
+		\label{4:figdesunetat}
+	\end{center}
+\end{figure}
   \begin{itemize}
+
+
   \item\textbf{Actividad 1: Diseño de la arquitectura del modelo}
   La arquitectura propuesta se basa en el modelo \textbf{U-Net con mecanismos de atención} (\texttt{UNetAttention}), que combina una red convolucional simétrica tipo encoder-decoder con puertas de atención (\texttt{AttentionGate}) para mejorar el enfoque en las regiones relevantes de la imagen.
 
@@ -488,8 +508,18 @@ Durante el entrenamiento:
 Este conjunto de componentes fue seleccionado cuidadosamente para equilibrar capacidad, estabilidad, precisión y generalización.
 
   \end{itemize}
+  \newpage
   \item \textbf{Modelo de Segmentación: U-Net con codificador MiT-B0 (Mix Transformer)}
+  \begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{4/figures/desunetmit.png}
+		\caption[Desarrollo del Modelo U-Net con codificador MiT-B0]{Desarrollo del Modelo U-Net con codificador MiT-B0.\\
+		Fuente: Elaboración propia}
+		\label{4:figdesunetmit}
+	\end{center}
+\end{figure}
   \begin{itemize}
+
   \item\textbf{Actividad 1: Diseño de la arquitectura del modelo}
   El modelo \texttt{MiT-B0} (Mix Transformer) es una arquitectura de red neuronal que combina la estructura de U-Net con bloques de atención de tipo Transformer. Esta combinación permite al modelo capturar tanto características locales como globales en las imágenes, mejorando la segmentación en comparación con arquitecturas convencionales.
 \textbf{Estructura del modelo}
@@ -635,8 +665,20 @@ Return Output
 \end{itemize}
 
   \end{itemize}
+
+  \newpage
   \item \textbf{Modelo de Segmentación: Mask R-CNN}
+  \begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{4/figures/desmask.png}
+		\caption[Desarrollo del Modelo Mask R-CNN]{Desarrollo del Modelo Mask R-CNN.\\
+		Fuente: Elaboración propia}
+		\label{4:figdesmask}
+	\end{center}
+\end{figure}
   \begin{itemize}
+
+ 
   \item\textbf{Actividad 1: Diseño de la arquitectura del modelo}
 
 La arquitectura seleccionada para abordar la tarea de detección y segmentación de arrugas y manchas en imágenes faciales es la avanzada \textbf{Mask R-CNN}, reconocida por su capacidad para combinar detección de objetos (identificación y localización con cajas delimitadoras) y segmentación de instancias (precisión a nivel de píxel en cada objeto detectado).
@@ -804,18 +846,27 @@ El flujo de datos en el modelo entrenado es el siguiente:
 El proceso de Desarrollo de los Modelos de Segmentación que se siguió, se puede ver en el diagrama final de Desarrollo en la Figura \ref{4:figdesfin}.
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.45\textwidth]{4/figures/Diagrama de desarrollo.png}
+		\includegraphics[width=0.40\textwidth]{4/figures/Diagrama de desarrollo.png}
 		\caption[Diagrama de Desarrollo Utilizado]{Diagrama de Desarrollo Utilizado.\\
 		Fuente: Elaboración propia}
 		\label{4:figdesfin}
 	\end{center}
 \end{figure}
+\clearpage
 \newpage
 
 \section{Entrenamiento del modelo}
 
 \begin{enumerate}
   \item \textbf{Modelo de Segmentación: U-Net}
+  \begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{4/figures/entrunet.png}
+		\caption[Entrenamiento del Modelo U-Net]{Entrenamiento del Modelo U-Net.\\
+		Fuente: Elaboración propia}
+		\label{4:figentunet}
+	\end{center}
+\end{figure}
   \begin{itemize}
   \item\textbf{Actividad 1: Configuración del entorno de entrenamiento}
   La configuración del entorno es esencial para garantizar la reproducibilidad y eficiencia del proceso de entrenamiento del modelo. Se utilizó Python 3.10 con las siguientes librerías principales: PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para aceleración por GPU si está disponible.
@@ -918,8 +969,16 @@ A.Compose([
 
 
   \end{itemize}
-
+\newpage
   \item \textbf{Modelo de Segmentación: U-Net Attention}
+  \begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{4/figures/entrunetat.png}
+		\caption[Entrenamiento del Modelo U-Net Attention]{Entrenamiento del Modelo U-Net Attention.\\
+		Fuente: Elaboración propia}
+		\label{4:figentunetat}
+	\end{center}
+\end{figure}
   \begin{itemize}
   \item\textbf{Actividad 1: Configuración del entorno de entrenamiento}
   Se preparó el entorno de ejecución para garantizar que todos los experimentos fueran reproducibles y consistentes, realizando lo siguiente:
@@ -1002,8 +1061,16 @@ A.Compose([
 \end{itemize}
 
   \end{itemize}
-
+\newpage
   \item \textbf{Modelo de Segmentación: U-Net con codificador MiT-B0 (Mix Transformer)}
+  \begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{4/figures/entrunetmit.png}
+		\caption[Entrenamiento del Modelo U-Net con codificador MiT-B0]{Entrenamiento del Modelo U-Net con codificador MiT-B0.\\
+		Fuente: Elaboración propia}
+		\label{4:figentunetmit}
+	\end{center}
+\end{figure}
   \begin{itemize}
   \item\textbf{Actividad 1: Configuración del entorno de entrenamiento}
   \begin{itemize}
@@ -1026,16 +1093,16 @@ A.Compose([
       \begin{itemize}
         \item Carga de imágenes RGB con \texttt{cv2.imread} y conversión a RGB.
         \item Generación de máscara multiclase:
-          \begin{itemize}
+          \begin{description}
             \item Clase 0: fondo
             \item Clase 1: arrugas (\texttt{m1>0})
             \item Clase 2: manchas (\texttt{m2>0})
-          \end{itemize}
+          \end{description}
         \item Debug de distribución de clases para las primeras 3 muestras (\texttt{np.unique}).
         \item Aplicación de \texttt{train\_transforms} o \texttt{val\_transforms}:
-          \begin{itemize}
+          \begin{description}
             \item \texttt{Resize(512,512), HorizontalFlip, Rotate(limit=30), RandomBrightnessContrast, Normalize, ToTensorV2}
-          \end{itemize}
+          \end{description}
       \end{itemize}
   
     \item \textbf{DataLoader y división:}
@@ -1138,8 +1205,16 @@ A.Compose([
   
 
   \end{itemize}
-
+\newpage
 \item \textbf{Modelo de Segmentación: Mask R-CNN}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{4/figures/entrmask.png}
+		\caption[Entrenamiento del Modelo Mask R-CNN]{Entrenamiento del Modelo Mask R-CNN.\\
+		Fuente: Elaboración propia}
+		\label{4:figentmask}
+	\end{center}
+\end{figure}
   \begin{itemize}
     \item \textbf{Actividad 1: Configuración del entorno de entrenamiento}
     \begin{itemize}
@@ -1158,16 +1233,16 @@ A.Compose([
         \item Carga de máscaras binarizadas desde las carpetas \texttt{arrugas} y \texttt{manchas}
         \item Filtrado de máscaras no vacías para asegurar que solo se usen imágenes con segmentaciones
         \item Asignación de etiquetas:
-        \begin{itemize}
+        \begin{description}
           \item Clase 1: arrugas
           \item Clase 2: manchas
-        \end{itemize}
+        \end{description}
         \item Construcción de:
-        \begin{itemize}
+        \begin{description}
           \item \texttt{boxes}: coordenadas de los cuadros delimitadores
           \item \texttt{labels}: etiquetas por instancia
           \item \texttt{masks}: máscaras binarias por instancia
-        \end{itemize}
+        \end{description}
         \item Aplicación opcional de transformaciones con \texttt{albumentations} si se proporciona
       \end{itemize}
   
@@ -1182,11 +1257,11 @@ A.Compose([
       \begin{itemize}
         \item División en 80\% entrenamiento y 20\% validación mediante \texttt{random\_split}
         \item Uso de \texttt{DataLoader} con:
-        \begin{itemize}
+        \begin{description}
           \item \texttt{batch\_size=2}
           \item \texttt{shuffle=True} para entrenamiento
           \item \texttt{collate\_fn} personalizado para manejar listas de diferentes longitudes
-        \end{itemize}
+        \end{description}
       \end{itemize}
   
     \end{itemize}
@@ -1203,11 +1278,11 @@ A.Compose([
       \item \textbf{Función de pérdida:}
       \begin{itemize}
         \item Internamente gestionada por el modelo \texttt{Mask R-CNN}, incluye:
-        \begin{itemize}
+        \begin{description}
           \item Pérdida de clasificación
           \item Pérdida de localización (bounding boxes)
           \item Pérdida de segmentación (máscaras)
-        \end{itemize}
+        \end{description}
       \end{itemize}
   
       \item \textbf{Optimizador:}
@@ -1219,12 +1294,12 @@ A.Compose([
       \begin{itemize}
         \item El modelo se entrena usando \texttt{model.train()} por cada época
         \item Se realiza:
-        \begin{itemize}
+        \begin{description}
           \item Forward pass
           \item Cálculo de pérdidas
           \item Backward pass (\texttt{loss.backward()})
           \item Optimización (\texttt{optimizer.step()})
-        \end{itemize}
+        \end{description}
         \item Evaluación con \texttt{model.eval()} sobre el conjunto de validación
       \end{itemize}
   
@@ -1255,11 +1330,11 @@ A.Compose([
       \begin{itemize}
         \item Implementación de validación cruzada k-fold
         \item Búsqueda de hiperparámetros:
-        \begin{itemize}
+        \begin{description}
           \item tasa de aprendizaje
           \item tamaño de lote
           \item arquitectura del backbone
-        \end{itemize}
+        \end{description}
         \item Uso de ensamble de modelos entrenados con diferentes semillas
       \end{itemize}
   
@@ -1269,13 +1344,20 @@ A.Compose([
 
 \end{enumerate}
 
-
-
+\clearpage
+\newpage
 \section{Evaluación del modelo}
 
 \begin{enumerate}
   \item \textbf{Modelo de Segmentación: U-Net}
-  La evaluación del modelo entrenado se realizó con el objetivo de determinar su capacidad para segmentar correctamente las características morfológicas faciales, específicamente arrugas y manchas, a partir de imágenes RGB. Esta etapa es fundamental para verificar la efectividad del modelo antes de su implementación práctica en un entorno real.
+  \begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{4/figures/evunet.png}
+		\caption[Evaluación del U-Net]{Evaluación del U-Net.\\
+		Fuente: Elaboración propia}
+		\label{4:figevunet}
+	\end{center}
+\end{figure}
 
   \begin{itemize}
   \item\textbf{Actividad 1: Preparación de Datos de Validación}
@@ -1361,8 +1443,16 @@ El modelo alcanzó los siguientes resultados promedio sobre el conjunto de valid
 \end{itemize}
 
   \end{itemize}
-
+  \newpage
   \item \textbf{Modelo de Segmentación: U-Net Attention}
+  \begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{4/figures/evunetat.png}
+		\caption[Evaluación del U-Net Attention]{Evaluación del U-Net Attention.\\
+		Fuente: Elaboración propia}
+		\label{4:figevunetat}
+	\end{center}
+\end{figure}
   \begin{itemize}
   \item\textbf{Actividad 1: Preparación de Datos de Validación}
   Se prepararon cuidadosamente las imágenes de validación aplicando únicamente transformaciones mínimas para asegurar que las métricas reflejaran el rendimiento real del modelo, sin influencias de aumentos artificiales:
@@ -1424,8 +1514,16 @@ Además de los resultados numéricos, se generaron visualizaciones comparativas 
 
   \end{itemize}
 
-
+  \newpage
   \item \textbf{Modelo de Segmentación: U-Net con codificador MiT-B0 (Mix Transformer)}
+  \begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{4/figures/evunetmit.png}
+		\caption[Evaluación del U-Net con codificador MiT-B0]{Evaluación del U-Net con codificador MiT-B0.\\
+		Fuente: Elaboración propia}
+		\label{4:figevunetmit}
+	\end{center}
+\end{figure}
   \begin{itemize}
   \item\textbf{Actividad 1: Preparación de Datos de Validación}
   Para garantizar una evaluación imparcial del modelo, se reservó el 20\% del conjunto total de imágenes anotadas exclusivamente para validación. Estas imágenes no fueron vistas por el modelo durante el entrenamiento.
@@ -1533,6 +1631,14 @@ Estas métricas confirman que la integración del codificador MiT-B0 aporta bene
 
 
   \item \textbf{Modelo de Segmentación: Mask R-CNN}
+  \begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=1\textwidth]{4/figures/evmask.png}
+		\caption[Evaluación del Mask R-CNN]{Evaluación del Mask R-CNN.\\
+		Fuente: Elaboración propia}
+		\label{4:figevmask}
+	\end{center}
+\end{figure}
   \begin{itemize}
   
     \item \textbf{Actividad 1: Preparación de Datos de Validación} \\

@@ -138,9 +138,6 @@ Esta arquitectura jerárquica es especialmente efectiva para el procesamiento de
 \subsubsection{Aplicación de CNN en segmentación de imágenes y su relevancia para la dermatología}
 El uso de CNN en la segmentación de imágenes dermatológicas ha demostrado una mejora significativa en la precisión de diagnósticos. Estas redes son capaces de aprender patrones complejos y detalles sutiles que son esenciales para evaluar condiciones de la piel. \parencite{esteva2017}
 
-\subsubsection{Modelos avanzados de CNN para segmentación: U-Net, Fully Convolutional Networks (FCN)}
-Modelos como U-Net y FCN han sido diseñados específicamente para la segmentación de imágenes. U-Net, por ejemplo, utiliza una arquitectura simétrica que permite una recuperación precisa de detalles en imágenes médicas. \parencite{ronneberger2015}
-
 \subsection{Redes de Atención}  
 Las redes de atención han surgido como una de las principales innovaciones en el campo de la segmentación de imágenes, permitiendo que los modelos se enfoquen de manera más eficiente en las regiones relevantes de una imagen. Este mecanismo resulta especialmente útil cuando se trabaja con imágenes complejas, como las faciales, donde ciertas áreas contienen características importantes para el análisis, pero pueden ser de menor tamaño o estar localizadas en posiciones no centrales.
 
@@ -300,79 +297,247 @@ donde $\tilde{F}_c$ es el canal recalibrado.
 
 \end{itemize}
 
+\subsection{Modelos Avanzados de Segmentación en Imágenes Médicas} 
 
-\subsection{Modelos Avanzados de Segmentación en Imágenes Médicas}
-%
-\subsubsection{Comparación entre modelos basados en CNN y modelos híbridos en el contexto dermatológico}
-La segmentación de imágenes dermatológicas es crucial para una correcta evaluación clínica y cosmética de la piel, donde las redes neuronales convolucionales (CNN) han demostrado ser eficaces al aprender características relevantes de manera jerárquica y sin necesidad de intervención manual. Sin embargo, las CNN pueden enfrentar desafíos cuando se trata de la segmentación en condiciones de iluminación cambiantes, variabilidad en tipos de piel y características pequeñas como arrugas finas.
+Para el desarrollo del sistema de segmentación de características morfológicas en imágenes de piel facial, se han seleccionado modelos basados en redes neuronales convolucionales (CNN) y arquitecturas híbridas con mecanismos de atención. Estos modelos han demostrado un rendimiento destacado en tareas de segmentación semántica, especialmente en aplicaciones biomédicas y de visión por computadora. A continuación, se describen brevemente los modelos que serán considerados:
 
-Los modelos híbridos, que combinan las capacidades de las CNN con técnicas clásicas de segmentación, ofrecen una alternativa interesante. Estos modelos integran la capacidad de las CNN para aprender representaciones complejas con enfoques más tradicionales como el umbralizado o la segmentación basada en regiones, lo que permite un control más preciso de las áreas de interés, especialmente cuando se requiere segmentar características cutáneas muy específicas. La comparación entre modelos CNN y modelos híbridos ayuda a identificar cuál de estos enfoques es más eficaz dependiendo del tipo de imagen, la complejidad de la tarea de segmentación y los requisitos de precisión.
+\begin{itemize}
+    \item \textbf{U-Net:} U-Net es una arquitectura de red neuronal convolucional diseñada para segmentación de imágenes biomédicas. Introducida por \cite{ronneberger2015}, su estructura simétrica de codificador-decodificador con conexiones de salto permite una segmentación precisa incluso con conjuntos de datos limitados. 
+	\begin{itemize} 
+\item \textbf{Arquitectura:} Como se muestra en la Figura \ref{2:unet}, se divide en:
+\begin{itemize} 
+\item \textbf{Codificador (contracción):}  Serie de capas convolucionales seguidas de operaciones de agrupamiento máximo, que capturan el contexto de la imagen. \parencite{ronneberger2015}
+\item \textbf{Decodificador (expansión):} Capas de convolución transpuesta que aumentan la resolución espacial, combinadas con características del codificador a través de conexiones de salto. \parencite{ronneberger2015}
+\item \textbf{Conexiones de salto:} Permiten la transferencia de información de alta resolución desde el codificador al decodificador, mejorando la precisión en los bordes. \parencite{ronneberger2015}
+\end{itemize}
 
-Por ejemplo, en el análisis de la piel facial, los modelos híbridos podrían combinar las redes convolucionales para la detección de características complejas con métodos tradicionales para afinar los bordes de las regiones segmentadas. Esto puede mejorar significativamente la precisión y robustez del modelo, lo cual es esencial para aplicaciones dermatológicas, donde un pequeño error de segmentación puede afectar el diagnóstico o el tratamiento de afecciones cutáneas. \parencite{hussain2021}
+\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.75\textwidth]{2/figures/unet arq.png}
+			\caption[Arquitectura U-Net]{Arquitectura U-Net.\\
+			Fuente: \cite{ronneberger2015}. \citetitle{ronneberger2015}. (p. 2)}
+			\label{2:unet}
+		\end{center}
+	\end{figure}
 
-\subsubsection{Métricas de evaluación: Sorensen-Dice, especificidad, precisión, sensibilidad}
-Las métricas de evaluación son fundamentales para determinar la calidad y efectividad de los modelos de segmentación, especialmente en el ámbito médico y dermatológico. Entre estas métricas, el índice de Sorensen-Dice es ampliamente utilizado debido a su capacidad para medir la similitud entre las áreas segmentadas y las áreas reales de interés, lo cual es crítico cuando se analiza la precisión de la segmentación de lesiones o características cutáneas. Esta métrica es especialmente útil en la detección de anomalías de la piel, como manchas y arrugas, ya que permite una comparación directa entre la segmentación automática y la segmentación realizada por expertos.
+\item \textbf{Ventajas:} 
+\item 
+\begin{itemize} 
+\item Eficiente en tareas de segmentación con datos limitados. \parencite{ronneberger2015}
+\item Capacidad para aprender representaciones jerárquicas de las imágenes. \parencite{ronneberger2015}
+\item Amplia adopción en aplicaciones médicas, como segmentación de células y órganos. \parencite{ronneberger2015}
+\end{itemize}
 
-Junto al índice de Sorensen-Dice, otras métricas comunes en la evaluación de modelos de segmentación incluyen la precisión, que mide la exactitud de las regiones segmentadas positivas, y la sensibilidad, que evalúa la capacidad del modelo para detectar correctamente las áreas de interés. La especificidad, por otro lado, mide la capacidad del modelo para identificar correctamente las áreas no relevantes, lo que ayuda a reducir los falsos positivos en la segmentación de imágenes dermatológicas. \parencite{sorensen1948}
-
-\subsubsection{Importancia de la precisión en segmentación de arrugas y manchas para aplicaciones clínicas y cosméticas}
-La precisión en la segmentación de características cutáneas como arrugas y manchas es de vital importancia para una evaluación correcta en aplicaciones clínicas y cosméticas. En la práctica clínica, la segmentación precisa permite a los dermatólogos realizar diagnósticos más exactos, detectar signos tempranos de enfermedades de la piel y personalizar los tratamientos para cada paciente. En el ámbito cosmético, la segmentación precisa es esencial para ofrecer recomendaciones personalizadas sobre tratamientos faciales, como la mejora de la textura de la piel o la reducción de manchas y arrugas.
-
-Un modelo de segmentación que no sea preciso puede dar lugar a resultados erróneos, afectando la calidad de los tratamientos recomendados y, por lo tanto, la satisfacción del cliente o del paciente. Además, la segmentación precisa facilita la evaluación del progreso de un tratamiento a lo largo del tiempo, lo que permite a los profesionales de la salud y belleza ajustar sus enfoques terapéuticos de manera más efectiva. \parencite{chuchu2020}
-
-\subsubsection{Variabilidad en tipos de piel y condiciones externas (luz, color)}
-Uno de los mayores desafíos en la segmentación dermatológica es la variabilidad en los tipos de piel y las condiciones externas, como la iluminación y los cambios en el color de la piel. Las pieles de diferentes tonos pueden presentar características distintas, como la intensidad del contraste entre la piel y las lesiones, lo que puede dificultar la tarea de segmentación. Además, las condiciones de iluminación, como la luz natural o artificial, pueden alterar la apariencia de las características cutáneas, complicando la segmentación precisa en entornos reales.
-
-Por lo tanto, se necesita el desarrollo de modelos de segmentación más robustos que puedan adaptarse a estas variabilidades. Esto implica entrenar modelos utilizando una amplia variedad de datos, que incluyan diferentes tipos de piel, condiciones de iluminación y otros factores ambientales que puedan influir en la calidad de la imagen y en la precisión de la segmentación. \parencite{zhao2021}
+\end{itemize}
 
 
-% \subsection{Métricas de Evaluación}  
-% Las métricas de evaluación son fundamentales para medir la precisión y eficacia de los modelos de segmentación de imágenes, ya que permiten comparar la segmentación automática generada por el modelo con las segmentaciones de referencia (verdaderas). A continuación se describen las principales métricas utilizadas en este tipo de análisis.
+    \item \textbf{Attention U-Net:} Attention U-Net es una extensión de U-Net que incorpora mecanismos de atención para mejorar la segmentación al enfocarse en regiones relevantes de la imagen. Propuesta por \cite{oktay2018attentionunet}, esta arquitectura ha demostrado mejoras significativas en la segmentación de estructuras anatómicas complejas. 
 
-% \subsubsection{Índice de Sorensen-Dice (Dice Coefficient)}  
-% El índice de Sorensen-Dice, o simplemente Dice coefficient, es una métrica ampliamente utilizada para evaluar la similitud entre dos conjuntos de datos segmentados. Esta métrica es especialmente útil en problemas de segmentación de imágenes médicas, donde es necesario comparar la segmentación automática con la segmentación de referencia.  
-% \begin{itemize}
-%     \item \textbf{Fórmula:}  
-%     \begin{equation}\label{eq:Índice de Sorensen-Dice}
-% 		\text{Dice} = \frac{2|A \cap B|}{|A| + |B|}
-% 	\end{equation}
-%     donde \( A \) y \( B \) son los conjuntos de píxeles segmentados de la imagen predicha y la imagen real, respectivamente.
-%     \item \textbf{Interpretación:} El valor de Dice oscila entre 0 y 1, donde 1 indica una coincidencia perfecta entre las dos segmentaciones, y 0 indica ninguna superposición.
-%     \item \textbf{Aplicación:} Es útil para tareas donde se requiere alta precisión en la identificación de áreas segmentadas, como en el análisis de manchas y arrugas en la piel, donde una segmentación precisa es crucial \parencite{autor2020dice}.
-% \end{itemize}
+	\begin{itemize} 
+\item \textbf{Arquitectura:} Como se muestra en la Figura \ref{2:unetat}, se divide en:
+\begin{itemize} 
+\item \textbf{Atención suave:}  Mecanismo que asigna pesos a diferentes regiones de la imagen, permitiendo al modelo enfocarse en áreas de interés. \parencite{oktay2018attentionunet}
+\item \textbf{Puertas de atención (AGs):} Integradas en las conexiones de salto, filtran las características transmitidas al decodificador, mejorando la precisión en la segmentación. \parencite{oktay2018attentionunet}
+\item \textbf{Integración eficiente:} Las AGs se incorporan sin un aumento significativo en la complejidad computacional. \parencite{oktay2018attentionunet}
+\end{itemize}
 
-% \subsubsection{Coeficiente de Jaccard (Intersection over Union, IoU)}  
-% El coeficiente de Jaccard, también conocido como \( \text{Intersection over Union} \) (IoU), es otra métrica popular para evaluar la superposición entre dos conjuntos de segmentación. A diferencia del índice de Dice, IoU mide la relación entre la intersección de los conjuntos de píxeles predichos y reales con respecto a su unión total.  
-% \begin{itemize}
-%     \item \textbf{Fórmula:}  
-%     \begin{equation}\label{eq:Coeficiente de Jaccard}
-%     \text{IoU} = \frac{|A \cap B|}{|A \cup B|}
-% 	\end{equation}
-%     donde \( A \) y \( B \) son los conjuntos de píxeles segmentados de la imagen predicha y la imagen real, respectivamente.
-%     \item \textbf{Interpretación:} El valor de IoU también varía entre 0 y 1. Un valor más alto indica una mayor superposición entre los segmentos predichos y reales. IoU es especialmente útil cuando se requiere evaluar la precisión en áreas de segmentación con bordes definidos, como en el análisis de arrugas y poros \parencite{autor2021iou}.
-%     \item \textbf{Aplicación:} Es más severo que el índice de Dice, por lo que es adecuado para evaluar tareas donde la precisión en los bordes y las áreas superpuestas es esencial.
-% \end{itemize}
+\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.75\textwidth]{2/figures/arqunetat.png}
+			\caption[Arquitectura Attention U-Net]{Arquitectura Attention U-Net.\\
+			Fuente: \cite{oktay2018attentionunet}. \citetitle{oktay2018attentionunet}. (p. 3)}
+			\label{2:unetat}
+		\end{center}
+	\end{figure}
 
-% \subsubsection{Precisión (Precision)}  
-% La precisión es una métrica que refleja la efectividad del modelo en evitar falsos positivos. Se calcula como la relación entre los verdaderos positivos y el total de elementos que el modelo ha predicho como positivos. En el contexto de la segmentación de imágenes, la precisión mide la exactitud de las regiones predichas como relevantes por el modelo.  
-% \begin{itemize}
-%     \item \textbf{Fórmula:}  
-%     \[
-%     \text{Precisión} = \frac{TP}{TP + FP}
-%     \]
-%     donde \( TP \) son los verdaderos positivos (píxeles correctamente predichos como parte de la característica) y \( FP \) son los falsos positivos (píxeles incorrectamente predichos como parte de la característica).
-%     \item \textbf{Interpretación:} Un valor más alto de precisión indica que el modelo es más efectivo en minimizar los falsos positivos, lo cual es crítico en aplicaciones dermatológicas, donde un modelo debe evitar identificar incorrectamente áreas no relevantes como características de la piel.
-%     \item \textbf{Aplicación:} Es útil para tareas donde el modelo debe ser riguroso en evitar predecir áreas de la imagen que no pertenecen a la característica de interés, como en el caso de la segmentación de manchas o poros \parencite{autor2019precision}.
-% \end{itemize}
+\item \textbf{Ventajas:} 
+\item 
+\begin{itemize} 
+\item Mejora la precisión en la segmentación de estructuras pequeñas o de formas variables. \parencite{oktay2018attentionunet}
+\item Reducción de falsas detecciones al suprimir regiones irrelevantes. \parencite{oktay2018attentionunet}
+\item Aplicaciones exitosas en segmentación de órganos en imágenes de tomografía computarizada. \parencite{oktay2018attentionunet}
+\end{itemize}
+\end{itemize}
 
-% \subsubsection{Entropía Cruzada (Cross-Entropy)}  
-% La entropía cruzada es una función de pérdida utilizada comúnmente en problemas de clasificación y segmentación. Mide la disonancia o la diferencia entre la distribución de probabilidad predicha por el modelo y la distribución de probabilidad real (etiquetas verdaderas). En el contexto de la segmentación, la entropía cruzada es utilizada para entrenar el modelo, ya que penaliza las predicciones incorrectas.  
-% \begin{itemize}
-%     \item \textbf{Fórmula:}  
-%     \[
-%     \text{Cross-Entropy} = -\sum_{i} y_i \log(p_i)
-%     \]
-%     donde \( y_i \) es la etiqueta real de la clase \( i \) y \( p_i \) es la probabilidad predicha para la clase \( i \).
-%     \item \textbf{Interpretación:} Un valor bajo de entropía cruzada indica que el modelo ha aprendido bien a predecir las clases correctas, es decir, las características de la piel en las imágenes segmentadas. Un valor alto sugiere una mala predicción, lo que indica que el modelo está lejos de la distribución real.
-%     \item \textbf{Aplicación:} La entropía cruzada es especialmente útil durante el proceso de entrenamiento para ajustar los parámetros del modelo y garantizar que la segmentación final sea lo más precisa posible, especialmente al tratar con características complejas de la piel como manchas o arrugas \parencite{autor2022crossentropy}.
-% \end{itemize}
+
+   \item \textbf{U-Net con codificador MiT-B0:} Esta variante de U-Net reemplaza el codificador tradicional por MiT-B0, un codificador basado en transformadores propuesto en la arquitectura SegFormer. Esta combinación busca aprovechar la capacidad de los transformadores para capturar contextos globales en las imágenes, mejorando así la segmentación en tareas complejas. \parencite{Yeom2025}
+
+\begin{itemize} 
+    \item \textbf{Arquitectura:} Como se muestra en la Figura \ref{2:unetmit}, se divide en:
+    \begin{itemize} 
+        \item \textbf{Codificador MiT-B0:} Utiliza bloques de transformadores jerárquicos para extraer características multiescalares sin necesidad de codificaciones posicionales. \parencite{Yeom2025}
+        \item \textbf{Decodificador MLP:} Agrega información de diferentes capas del codificador mediante perceptrones multicapa, combinando atención local y global. \parencite{Yeom2025}
+        \item \textbf{Integración con U-Net:} La estructura de U-Net se adapta para incorporar el codificador MiT-B0, manteniendo las conexiones de salto para preservar detalles espaciales. \parencite{Yeom2025}
+    \end{itemize}
+
+    \begin{figure}[H]
+        \begin{center}
+            \includegraphics[width=0.75\textwidth]{2/figures/unet mitb.png}
+            \caption[Arquitectura U-Net con codificador MiT-B0]{Arquitectura U-Net con codificador MiT-B0.\\
+            Fuente: \cite{Yeom2025}. \citetitle{Yeom2025}.}
+            \label{2:unetmit}
+        \end{center}
+    \end{figure}
+
+    \item \textbf{Ventajas:}
+    \begin{itemize} 
+        \item Mejora en la precisión de segmentación en comparación con U-Net tradicional. \parencite{Yeom2025}
+        \item Eficiencia computacional, adecuada para aplicaciones en dispositivos con recursos limitados. \parencite{Yeom2025}
+        \item Aplicaciones en segmentación semántica de imágenes urbanas y médicas. \parencite{Yeom2025}
+    \end{itemize}
+\end{itemize}
+
+\item \textbf{Mask R-CNN:} Mask R-CNN es una arquitectura de aprendizaje profundo desarrollada para la segmentación de instancias en imágenes. Es una extensión de Faster R-CNN que añade una rama adicional para predecir máscaras de segmentación a nivel de píxel para cada objeto detectado. \parencite{Jung2019AutomaticNucleiSegmentation}
+
+\begin{itemize} 
+    \item \textbf{Arquitectura:} Como se muestra en la Figura \ref{2:maskrcnn}, se divide en:
+    \begin{itemize} 
+        \item \textbf{Red de Propuestas de Regiones (RPN):} Genera regiones de interés (RoIs) que probablemente contengan objetos. \parencite{Jung2019AutomaticNucleiSegmentation}
+        \item \textbf{Cabeza de Clasificación y Regresión de Cajas:} Clasifica cada RoI y ajusta las coordenadas de las cajas delimitadoras. \parencite{Jung2019AutomaticNucleiSegmentation}
+        \item \textbf{Rama de Segmentación de Máscaras:} Genera una máscara binaria para cada RoI, indicando la forma precisa del objeto. \parencite{Jung2019AutomaticNucleiSegmentation}
+        \item \textbf{RoIAlign:} Mejora la precisión al evitar errores de cuantización durante la alineación de características. \parencite{Jung2019AutomaticNucleiSegmentation}
+    \end{itemize}
+
+    \begin{figure}[H]
+        \begin{center}
+            \includegraphics[width=0.75\textwidth]{2/figures/Mask-R-CNN.png}
+            \caption[Arquitectura Mask R-CNN]{Arquitectura Mask R-CNN.\\
+            Fuente: \cite{Jung2019AutomaticNucleiSegmentation}. \citetitle{Jung2019AutomaticNucleiSegmentation}. (p. 5)}
+            \label{2:maskrcnn}
+        \end{center}
+    \end{figure}
+
+    \item \textbf{Ventajas:}
+    \begin{itemize} 
+        \item Capacidad para realizar detección de objetos y segmentación de instancias simultáneamente. \parencite{Jung2019AutomaticNucleiSegmentation}
+        \item Aplicaciones en diversos campos, como análisis de imágenes médicas, vigilancia y conducción autónoma. \parencite{Jung2019AutomaticNucleiSegmentation}
+        \item Rendimiento superior en desafíos de segmentación de instancias, como el COCO 2016. \parencite{Jung2019AutomaticNucleiSegmentation}
+    \end{itemize}
+\end{itemize}
+
+
+\end{itemize}
+
+
+Estas arquitecturas representan avances significativos en el campo de la segmentación de imágenes, cada una con características únicas que las hacen adecuadas para diferentes aplicaciones. La elección de la arquitectura dependerá de los requisitos específicos de la tarea, como la precisión deseada, la complejidad de las imágenes y los recursos computacionales disponibles.
+
+
+\subsection{Características Morfológicas del rostro}
+Las características morfológicas del rostro, como las arrugas y las manchas, son indicadores clave en la evaluación de la salud y la estética facial. Su análisis detallado permite no solo comprender el estado actual de la piel, sino también monitorear cambios a lo largo del tiempo, facilitando el diseño de tratamientos personalizados y la evaluación de su efectividad. \parencite{makrantonaki2012skin}
+
+\subsubsection{Arrugas}
+
+Las arrugas son pliegues o líneas visibles en la superficie de la piel que se desarrollan debido a una combinación de factores intrínsecos y extrínsecos. Intrínsecamente, el envejecimiento natural conlleva una disminución en la producción de colágeno y elastina, proteínas esenciales que proporcionan estructura y elasticidad a la piel. Esta reducción resulta en una piel más delgada, menos elástica y más propensa a la formación de arrugas. \parencite{autor2021arrugas}
+
+Extrínsecamente, factores como la exposición prolongada al sol, el tabaquismo, la contaminación ambiental y las expresiones faciales repetitivas contribuyen significativamente a la aparición de arrugas. La radiación ultravioleta (UV) del sol, por ejemplo, acelera la degradación del colágeno y la elastina, proceso conocido como fotoenvejecimiento. \parencite{yoon2023}
+
+Desde el punto de vista estético, las arrugas se asocian con el envejecimiento y son una de las principales preocupaciones en el cuidado de la piel. Su segmentación precisa permite identificar su profundidad, longitud y densidad en diferentes áreas del rostro. Esta información es esencial para el desarrollo de productos antiarrugas y para evaluar la efectividad de tratamientos como cremas tópicas, terapias con láser o inyecciones de ácido hialurónico. \parencite{autor2021arrugas}
+
+
+\begin{itemize}
+	\item Clasificación
+Las arrugas se clasifican comúnmente en dos tipos:
+\begin{itemize}
+\item \textbf{Arrugas dinámicas:} Se forman debido a la contracción repetitiva de los músculos faciales, como al sonreír o fruncir el ceño, como se ve en la Figura \ref{2:ardin}. Son más evidentes durante las expresiones faciales y pueden convertirse en permanentes con el tiempo. \parencite{yoon2023}
+
+\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.45\textwidth]{2/figures/arrugas dinamicas.jpg}
+			\caption[Arrugas dinámicas]{Arrugas dinámicas.\\
+			Fuente: \cite{medicinaesteticaregenerativa}. \citetitle{medicinaesteticaregenerativa}.}
+			\label{2:ardin}
+		\end{center}
+	\end{figure}
+
+\item \textbf{Arrugas estáticas:} Son visibles incluso en reposo y resultan de la pérdida de elasticidad y volumen de la piel, así como de la gravedad y otros factores ambientales, como se ve en la Figura \ref{2:arest}. \parencite{yoon2023}
+
+\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.45\textwidth]{2/figures/arrugas estaticas.jpeg}
+			\caption[Arrugas estáticas]{Arrugas estáticas.\\
+			Fuente: \cite{dermatologiavelazquez}. \citetitle{dermatologiavelazquez}.}
+			\label{2:arest}
+		\end{center}
+	\end{figure}
+
+
+\end{itemize}
+\item Implicaciones Estéticas y Clínicas
+Desde una perspectiva estética, las arrugas son una de las principales preocupaciones en el cuidado de la piel, ya que se asocian con el envejecimiento y pueden afectar la autoestima. Clínicamente, su análisis detallado permite evaluar la efectividad de tratamientos como cremas antiarrugas, terapias con láser, inyecciones de ácido hialurónico y procedimientos quirúrgicos. \parencite{moon2024dermatology}
+
+\item Técnicas de Evaluación
+La evaluación de las arrugas puede realizarse mediante diversas técnicas, incluyendo:
+\begin{itemize} 
+\item \textbf{Fotografía de alta resolución:} Permite documentar y comparar cambios en la piel a lo largo del tiempo. \parencite{yoon2023}
+
+\item \textbf{Análisis de imágenes mediante inteligencia artificial:} Utiliza algoritmos para detectar y cuantificar arrugas, proporcionando una evaluación objetiva y reproducible. \parencite{yoon2023}
+\end{itemize}
+\end{itemize}
+
+\subsubsection{Manchas}
+Las manchas son áreas de hiperpigmentación o hipopigmentación en la piel que resultan de una variedad de factores, incluyendo la exposición solar prolongada, cambios hormonales, envejecimiento y procesos inflamatorios. Ejemplos comunes incluyen el melasma, las manchas solares y las cicatrices post-inflamatorias. \parencite{autor2019manchas}
+
+Estas imperfecciones no solo afectan la apariencia de la piel, sino que también pueden indicar daño subyacente. Por ello, su detección y análisis temprano son fundamentales tanto para la prevención como para el tratamiento. La segmentación precisa de manchas en imágenes faciales permite identificar su forma, tamaño, color y evolución, lo que es útil para personalizar tratamientos como cremas despigmentantes, terapias con luz pulsada intensa (IPL) o procedimientos láser. Además, este análisis contribuye al diseño de cosméticos específicos que ayudan a unificar el tono de la piel. \parencite{autor2019manchas}
+
+\begin{itemize}
+	\item Tipos
+Entre los tipos más comunes se encuentran:
+\begin{itemize}
+\item \textbf{Melasma:} Caracterizado por manchas marrones o grisáceas, generalmente en la cara, como se ve en la Figura \ref{2:melasma}. Se asocia con cambios hormonales y exposición solar. \parencite{lee2024pigmentary}
+
+\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.45\textwidth]{2/figures/melasma.png}
+			\caption[Melasma]{Melasma.\\
+			Fuente: \cite{consejosiml}. \citetitle{consejosiml}.}
+			\label{2:melasma}
+		\end{center}
+	\end{figure}
+
+\item \textbf{Manchas solares (lentigos solares):} Causadas por la exposición prolongada al sol, aparecen como manchas marrones en áreas expuestas, como se ve en la Figura \ref{2:mansol}. \parencite{lee2024pigmentary}
+
+\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.45\textwidth]{2/figures/manchas solares.png}
+			\caption[Manchas solares (lentigos solares)]{Manchas solares (lentigos solares).\\
+			Fuente: \cite{eauthermaleavene}. \citetitle{eauthermaleavene}.}
+			\label{2:mansol}
+		\end{center}
+	\end{figure}
+
+\item \textbf{Hiperpigmentación postinflamatoria:} Resulta de lesiones o inflamaciones en la piel, como el acné, como se ve en la Figura \ref{2:hpi}. \parencite{lee2024pigmentary}
+
+\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.45\textwidth]{2/figures/hpi.png}
+			\caption[Hiperpigmentación postinflamatoria]{Hiperpigmentación postinflamatoria.\\
+			Fuente: \cite{eucerin}. \citetitle{eucerin}.}
+			\label{2:hpi}
+		\end{center}
+	\end{figure}
+
+\end{itemize}
+\item Causas y Factores de Riesgo
+Las principales causas de las manchas incluyen:
+
+\begin{itemize}
+\item \textbf{Exposición solar:} La radiación UV estimula la producción de melanina, lo que puede llevar a la formación de manchas. \parencite{gupta2023skin}
+\item \textbf{Cambios hormonales:} Embarazo, uso de anticonceptivos orales y terapias hormonales pueden desencadenar melasma. \parencite{gupta2023skin}
+\item \textbf{HInflamaciones o lesiones:} Cualquier daño en la piel puede resultar en hiperpigmentación durante el proceso de curación. \parencite{gupta2023skin}
+\end{itemize}
+
+\item Implicaciones Estéticas y Clínicas
+
+Las manchas pueden afectar significativamente la apariencia de la piel y, por ende, la autoestima de las personas. Clínicamente, su detección y análisis temprano son fundamentales para la prevención y el tratamiento. Las opciones terapéuticas incluyen cremas despigmentantes, terapias con luz pulsada intensa (IPL), procedimientos láser y peelings químicos. \parencite{autor2019manchas}
+
+\item Técnicas de Evaluación
+Al igual que con las arrugas, la evaluación de las manchas puede beneficiarse del uso de tecnologías avanzadas, como:
+\begin{itemize} 
+\item \textbf{Análisis de imágenes digitales:} Permite la detección y cuantificación precisa de las manchas. \parencite{gupta2023skin}
+\item \textbf{Inteligencia artificial y aprendizaje profundo:} Facilita la segmentación y clasificación de las manchas en imágenes faciales. \parencite{gupta2023skin}
+\end{itemize}
+\end{itemize}
+
+
+
+
