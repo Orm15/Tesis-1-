@@ -72,24 +72,24 @@
 \contentsline {section}{\numberline {3.2}Técnicas de recolección de datos}{74}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Técnicas para el procesamiento y análisis de la información}{75}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Metodología de implementación de la solución}{75}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Adquisición de los Datos}{75}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Preprocesamiento de los Datos}{77}{subsubsection.3.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.3.1.3}Desarrollo de los Modelos de Segmentación}{80}{subsubsection.3.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.3.1.4}Entrenamiento del Modelo}{83}{subsubsection.3.3.1.4}%
-\contentsline {subsubsection}{\numberline {3.3.1.5}Evaluación del Modelo}{85}{subsubsection.3.3.1.5}%
-\contentsline {subsubsection}{\numberline {3.3.1.6}Despliegue}{87}{subsubsection.3.3.1.6}%
-\contentsline {section}{\numberline {3.4}Metodología para la Medición de Resultados de la Implementación}{89}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Cronograma de actividades y presupuesto}{93}{section.3.5}%
-\contentsline {chapter}{\numberline {IV}Desarrollo de la Solución}{95}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Adquisición de los Datos}{95}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Preprocesamiento de los Datos}{96}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Desarrollo de los Modelos de Segmentación}{99}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Entrenamiento del modelo}{120}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Evaluación del modelo}{133}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Despliegue del modelo}{146}{section.4.6}%
-\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{147}{chapter.5}%
-\contentsline {chapter}{Referencias}{150}{chapter*.93}%
-\contentsline {chapter}{Anexos}{155}{section*.94}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{156}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{157}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{158}{section.Alph0.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Adquisición de los Datos}{76}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Preprocesamiento de los Datos}{78}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}Desarrollo de los Modelos de Segmentación}{81}{subsubsection.3.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.4}Entrenamiento del Modelo}{85}{subsubsection.3.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.3.1.5}Evaluación del Modelo}{88}{subsubsection.3.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.3.1.6}Despliegue}{90}{subsubsection.3.3.1.6}%
+\contentsline {section}{\numberline {3.4}Metodología para la Medición de Resultados de la Implementación}{91}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Cronograma de actividades y presupuesto}{95}{section.3.5}%
+\contentsline {chapter}{\numberline {IV}Desarrollo de la Solución}{97}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Adquisición de los Datos}{97}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Preprocesamiento de los Datos}{98}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Desarrollo de los Modelos de Segmentación}{101}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Entrenamiento del modelo}{113}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Evaluación del modelo}{120}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Despliegue del modelo}{132}{section.4.6}%
+\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{133}{chapter.5}%
+\contentsline {chapter}{Referencias}{136}{chapter*.93}%
+\contentsline {chapter}{Anexos}{141}{section*.94}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{142}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{143}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{144}{section.Alph0.3}%

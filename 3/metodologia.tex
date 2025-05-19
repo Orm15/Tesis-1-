@@ -66,9 +66,9 @@ La recolección de imágenes de características morfológicas faciales es un pa
 
 La creación de un Modelo de Segmentación Avanzada de Características Morfológicas varias fases de desarrollo, que van desde la recopilación de imágenes hasta su despliegue, como se menciona en el trabajo de \cite{yoon2023}. La imagen adquirida debe pasar por un proceso detallado posteriormente para alcanzar su etapa final. La metodología de esta investigación se muestra en la Figura \ref{3:fig3}.
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\begin{center}
-		\includegraphics[width=1\textwidth]{3/figures/metodologia.png}
+		\includegraphics[width=0.8\textwidth]{3/figures/metodologia.png}
 		\caption[Diagrama de Metodología de Investigación]{Diagrama de Metodología de Investigación.\\
 			Fuente: Elaboración propia.}
 		\label{3:fig3}
@@ -103,7 +103,7 @@ En esta sección se describirá el procedimiento utilizado para obtener el conju
     \hline
     \endlastfoot
 
-    Identificación de la data que contengan imágenes de rostros con características morfológicas faciales. & Identificación de la data que contengan imágenes de rostros con características morfológicas faciales relevantes para la investigación. & 
+    \textbf{Actividad 1:} Identificación de la data que contengan imágenes de rostros con características morfológicas faciales. & Identificación de la data que contengan imágenes de rostros con características morfológicas faciales relevantes para la investigación. & 
     \begin{itemize}
         \item Analizar y identificar bases de datos con rostros con características morfológicas faciales.
         \item Confirmar que la base de datos esté disponible públicamente y sea pertinente para el estudio.
@@ -118,12 +118,13 @@ En esta sección se describirá el procedimiento utilizado para obtener el conju
 
 Enseguida, se proporcionará un detalle de la actividad mencionada en la tabla anterior, junto con los resultados que se esperan obtener.
  
-\textbf{Actividad 1 de Adquisición de los Datos: Identificación de la data que contengan imágenes de rostros con características morfológicas faciales de proporciones similares}
+\textbf{Actividad 1 de "\textit{Adquisición de los Datos}": Identificación de la data que contengan imágenes de rostros con características morfológicas faciales de proporciones similares}
 \\
 Esta actividad explicará la identificación de la data. Para la data, se obtendrán más de dos mil imágenes de rostros faciales de las diferentes datas encontradas en repositorios públicos. Las imágenes de rostros faciales se encuentran en la base de datos. 
  
 \textbf{Entregable}: Dataset que contiene imágenes de rostros faciales con características morfológicas, tales como arrugas y manchas.
-
+\clearpage
+\newpage
 \subsubsection{Preprocesamiento de los Datos}
 Se realizará el preprocesamiento de las imágenes del conjunto en esta etapa. La tabla \ref{tabla:preprocesamiento} incluye las tareas y actividades necesarias para completar la etapa de preprocesamiento:
 \vspace{2ex}
@@ -148,7 +149,7 @@ Se realizará el preprocesamiento de las imágenes del conjunto en esta etapa. L
     \bottomrule
     \endlastfoot
 
-    Filtración de imágenes faciales con características morfológicas & Eliminación de imágenes con baja resolución, mala iluminación o sin las características morfológicas de interés (arrugas y manchas), para mejorar la calidad del conjunto de datos. & 
+    \textbf{Actividad 1:} Filtración de imágenes faciales con características morfológicas & Eliminación de imágenes con baja resolución, mala iluminación o sin las características morfológicas de interés (arrugas y manchas), para mejorar la calidad del conjunto de datos. & 
     \begin{itemize}
         \item Eliminar imágenes borrosas, sobreexpuestas o subexpuestas.
         \item Conservar solo imágenes con resolución mínima de 128×128 píxeles.
@@ -156,7 +157,7 @@ Se realizará el preprocesamiento de las imágenes del conjunto en esta etapa. L
         \item Verificar que el rostro esté completamente visible y centrado en la imagen.
     \end{itemize} \\
 
-    Representación y normalización de las imágenes faciales & Conversión de las imágenes a formatos adecuados para su análisis por redes neuronales convolucionales. & 
+    \textbf{Actividad 2:} Representación y normalización de las imágenes faciales & Conversión de las imágenes a formatos adecuados para su análisis por redes neuronales convolucionales. & 
     \begin{itemize}
         \item Redimensionar todas las imágenes a un tamaño uniforme.
         \item Convertir las imágenes a escala de grises o RGB, según el modelo.
@@ -172,13 +173,13 @@ Se realizará el preprocesamiento de las imágenes del conjunto en esta etapa. L
 
 Enseguida, se describirá en detalle las actividades junto con el resultado esperado.
 
-\textbf{Actividad 1 de Preprocesamiento de los Datos: Filtración de imágenes faciales con características morfológicas}
+\textbf{Actividad 1 de "\textit{Preprocesamiento de los Datos}": Filtración de imágenes faciales con características morfológicas}
 \\
 En la fase de preprocesamiento de datos, la actividad de Filtración se enfocará en depurar y mejorar la calidad del conjunto de datos al eliminar información irrelevante o poco confiable. Esto se logrará a través de la eliminación de datos no estándar y la conservación de aquellos que cumplen con criterios específicos de relevancia y fiabilidad. 
 
 \textbf{Entregable}: Conjunto de datos filtrado y optimizado para su posterior análisis.
 
-\textbf{Actividad 2 de Preprocesamiento de los Datos: Representación y normalización de las imágenes faciales}
+\textbf{Actividad 2 de "\textit{Preprocesamiento de los Datos}": Representación y normalización de las imágenes faciales}
 \\
 Por otro lado, la actividad de Representación se encargará de convertir los datos en un formato visual o estructurado más adecuado para su análisis y comprensión. Esto implicará transformar los datos en imágenes o representaciones gráficas que faciliten su visualización y entendimiento, contribuyendo así a una mejor interpretación por parte de los usuarios finales, como podemos observar en la Figura \ref{3:fig4}.
 
@@ -186,14 +187,15 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
 
 \begin{figure}[H]
      \begin{center}
-         \includegraphics[width=0.4\textwidth]{3/figures/Diagrama de preprocesamiento.png}
+         \includegraphics[width=0.6\textwidth]{3/figures/Diagrama de preprocesamiento.png}
          \caption[Diagrama Esperado de Preprocesamiento de los Datos]{Diagrama Esperado de Preprocesamiento de los Datos.\\
          Fuente: Elaboración propia}
          \label{3:fig4}
      \end{center}
  \end{figure}
 
-
+\clearpage
+\newpage
  \subsubsection{Desarrollo de los Modelos de Segmentación}
  El desarrollo de los modelos de segmentación de características faciales se estructurará en tres actividades clave. Estas actividades incluirán el diseño, implementación y entrenamiento de modelos basados en arquitecturas de redes neuronales profundas como U-Net, Mask R-CNN y modelos híbridos con Vision Transformer (ViT). La Tabla \ref{tabla:actividades_segmentacion} presenta el detalle de cada una.
 
@@ -216,14 +218,14 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
  \bottomrule
  \endfoot
  
- Diseño de la arquitectura del modelo & Selección conceptual y estructural de modelos apropiados para la segmentación de características morfológicas faciales. &
+ \textbf{Actividad 1:} Diseño de la arquitectura del modelo & Selección conceptual y estructural de modelos apropiados para la segmentación de características morfológicas faciales. &
  \begin{itemize}
      \item Análisis de U-Net para segmentación precisa de áreas pequeñas como arrugas y poros.
      \item Evaluación del potencial de Mask R-CNN para representar características profundas y complejas.
      \item Consideración de arquitecturas híbridas que integren Unet con Vision Transformer (ViT).
  \end{itemize} \\
  
- Definición de componentes del modelo & Establecimiento de las partes esenciales del modelo para la segmentación de imágenes faciales. &
+ \textbf{Actividad 2:} Definición de componentes del modelo & Establecimiento de las partes esenciales del modelo para la segmentación de imágenes faciales. &
  \begin{itemize}
      \item Diseño de capas convolucionales, de codificación y decodificación.
      \item Propuesta de bloques residuales y mecanismos de atención en modelos híbridos.
@@ -235,14 +237,14 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
 
  Enseguida, se proporcionará en la Figura \ref{3:fig5} el diagrama de cada actividad, y a su vez un detalle de la actividad junto con el entregable correspondiente que se espera obtener.
  
- \textbf{Actividad 1 de Desarrollo de los Modelos de Segmentación: Diseño de la arquitectura del modelo}
+ \textbf{Actividad 1 de "\textit{Desarrollo de los Modelos de Segmentación}": Diseño de la arquitectura del modelo}
  \\
  Durante esta etapa se definirá la estructura general de las redes neuronales que se utilizarán para la segmentación de características morfológicas faciales. El objetivo será seleccionar arquitecturas que sean adecuadas para extraer información precisa de regiones faciales como arrugas, poros o manchas.
  Entre las arquitecturas consideradas se encontrarán U-Net, que destaca por su capacidad de segmentación precisa gracias a su estructura simétrica y sus conexiones de salto entre el codificador y el decodificador. También se evaluará el uso de Mask R-CNN, una arquitectura que incorpora bloques residuales para mejorar el aprendizaje en redes profundas, especialmente útil para capturar texturas complejas. Asimismo, se contemplará la exploración de modelos híbridos que combinan Unet con Vision Transformer (ViT), lo cual permitirá captar patrones sutiles mediante mecanismos de atención.
  
  \textbf{Entregable}: Selección de la arquitectura óptima para el modelo de segmentación facial, justificada técnicamente.
 
- \textbf{Actividad 2 de Desarrollo de los Modelos de Segmentación: Definición de componentes del modelo}
+ \textbf{Actividad 2 de "\textit{Desarrollo de los Modelos de Segmentación}": Definición de componentes del modelo}
  \\
 Esta actividad consistirá en establecer los elementos esenciales que conformarán las redes previamente seleccionadas. Se determinará la cantidad de capas, el tipo de operaciones dentro de cada módulo y la forma en que se conectan entre sí, en función de las necesidades de segmentación facial.
 
@@ -251,15 +253,16 @@ En U-Net, por ejemplo, se definirá cuántas capas de codificación y decodifica
  \textbf{Entregable}: Especificación detallada de los componentes y estructura interna de cada arquitectura seleccionada.
 
  
- \begin{figure}[h]
+ \begin{figure}[H]
     \begin{center}
-        \includegraphics[width=0.35\textwidth]{3/figures/Diagrama de desarrollo.png}
+        \includegraphics[width=0.6\textwidth]{3/figures/Diagrama de desarrollo.png}
         \caption[Diagrama Esperado del Desarrollo de los Modelos de Segmentación]{Diagrama Esperado del Desarrollo de los Modelos de Segmentación.\\
         Fuente: Elaboración propia}
         \label{3:fig5}
     \end{center}
 \end{figure}
-
+\clearpage
+\newpage
 \subsubsection{Entrenamiento del Modelo}
 Al concluir la etapa de Desarrollo de Modelos de Segmentación, se continuará con el Entrenamiento, en la Tabla \ref{tabla:entrenamiento_modelo} fue diseñada siguiendo las actividades.
 
@@ -277,7 +280,7 @@ Al concluir la etapa de Desarrollo de Modelos de Segmentación, se continuará c
 \bottomrule
 \endfoot
 
-Configuración del entorno de entrenamiento &
+\textbf{Actividad 1:} Configuración del entorno de entrenamiento &
 Preparación del entorno computacional y los recursos necesarios para el entrenamiento del modelo. &
 \begin{itemize}
     \item Selección del framework PyTorch.
@@ -285,7 +288,7 @@ Preparación del entorno computacional y los recursos necesarios para el entrena
     \item Establecimiento de rutas de acceso a los datos y modelos.
 \end{itemize} \\[2ex]
 
-Aplicación de técnicas de optimización &
+\textbf{Acitividad 2:} Aplicación de técnicas de optimización &
 Utilización de métodos que permitan una mejora progresiva del modelo a lo largo de las épocas de entrenamiento. &
 \begin{itemize}
     \item Configuración del optimizador Adam para minimizar la función de pérdida.
@@ -293,7 +296,7 @@ Utilización de métodos que permitan una mejora progresiva del modelo a lo larg
     \item Monitorización de la evolución del loss y métricas de precisión.
 \end{itemize} \\[2ex]
 
-Validación cruzada del rendimiento &
+\textbf{Actividad 3:} Validación cruzada del rendimiento &
 Evaluación del desempeño del modelo utilizando múltiples divisiones del conjunto de datos. &
 \begin{itemize}
     \item División del dataset en k pliegues para pruebas y entrenamiento.
@@ -308,24 +311,25 @@ Evaluación del desempeño del modelo utilizando múltiples divisiones del conju
 
  Enseguida, se proporcionará un detalle de la actividad junto con el entregable correspondiente que se espera obtener.
  
- \textbf{Actividad 1 de Entrenamiento del Modelo: Configuración del entorno de entrenamiento}
+ \textbf{Actividad 1 de "\textit{Entrenamiento del modelo}": Configuración del entorno de entrenamiento}
  \\
  Durante esta etapa se preparará el entorno computacional necesario para llevar a cabo el entrenamiento del modelo de segmentación facial. Esto implicará elegir el framework de desarrollo adecuado, como PyTorch, que permitirá implementar arquitecturas de redes neuronales de manera eficiente. Además, se habilitará el uso de aceleradores de hardware, como GPU, que reducirán considerablemente el tiempo de entrenamiento. También se configurarán las rutas para el acceso a los datos de entrada y se definirán los parámetros básicos que utilizará el entorno de ejecución.
 
  \textbf{Entregable}: Entorno de entrenamiento configurado y funcional, listo para ejecutar los modelos definidos.
 
- \textbf{Actividad 2 de Entrenamiento del Modelo: Aplicación de técnicas de optimización}
+ \textbf{Actividad 2 de "\textit{Entrenamiento del modelo}": Aplicación de técnicas de optimización}
  \\
  En esta fase se aplicarán técnicas diseñadas para mejorar el aprendizaje del modelo durante el entrenamiento. Se implementará el optimizador Adam, ampliamente utilizado por su capacidad de ajustar dinámicamente los parámetros de la red, favoreciendo una convergencia más rápida y estable. Se determinarán parámetros críticos como la tasa de aprendizaje, el tamaño del lote (batch size) y el número total de épocas, adaptándolos al comportamiento del modelo y la complejidad del conjunto de datos. Además, se monitorearán continuamente la función de pérdida (loss) y las métricas de precisión para evaluar el progreso del modelo.
 
  \textbf{Entregable}: Modelo entrenado con parámetros de optimización ajustados, y registro de métricas de desempeño durante las épocas.
 
- \textbf{Actividad 3 de Entrenamiento del Modelo: Validación cruzada del rendimiento}
+ \textbf{Actividad 3 de "\textit{Entrenamiento del modelo}": Validación cruzada del rendimiento}
  \\
  El objetivo de esta actividad será evaluar de manera robusta el rendimiento del modelo mediante la técnica de validación cruzada. Se dividirá el conjunto de datos en k pliegues, permitiendo entrenar y validar el modelo en diferentes combinaciones de subconjuntos. Esta estrategia ayudará a prevenir el sobreajuste (overfitting) y asegurará que el desempeño del modelo no dependa exclusivamente de una sola partición del dataset. Finalmente, se analizará el promedio de métricas obtenidas en cada iteración para validar la estabilidad y generalización del modelo.
 
  \textbf{Entregable}: Reporte de resultados de validación cruzada con métricas promedio y análisis de estabilidad del modelo.
-
+\clearpage
+\newpage
 \subsubsection{Evaluación del Modelo}
 En esta etapa, se llevará a cabo la evaluacion de los prototipos elaborados en este trabajo, en la seccion 3.3.2 se está empleando las métricas de clasificación seleccionadas y detalladas. Se ofrece un analisis pormenorizado de las actividades y tareas ejecutadas en esta fase en la Tabla \ref{tabla:evaluacion_modelo}.
 
@@ -348,19 +352,19 @@ En esta etapa, se llevará a cabo la evaluacion de los prototipos elaborados en 
  \bottomrule
  \endfoot
  
- Preparación de Datos de Validación & Seleccionar y preparar un conjunto de datos de validación representativo. & 
+ \textbf{Actividad 1:} Preparación de Datos de Validación & Seleccionar y preparar un conjunto de datos de validación representativo. & 
  \begin{itemize}
      \item Elección de imágenes que no hayan sido empleados en el proceso de entrenamiento.
      \item Preprocesamiento de imágenes.
  \end{itemize} \\
  
- Definición de Métricas de Evaluación & Definir métricas cuantitativas para evaluar al modelo de segmentación. & 
+ \textbf{Actividad 2:} Definición de Métricas de Evaluación & Definir métricas cuantitativas para evaluar al modelo de segmentación. & 
  \begin{itemize}
      \item Identificación de métricas adecuadas.
      \item Implementación de funciones para calcular estas métricas.
  \end{itemize} \\
  
- Evaluación del Modelo & Evaluar el modelo entrenado en el conjunto de datos de validación para obtener una línea base. & 
+ \textbf{Actividad 3:} Evaluación del Modelo & Evaluar el modelo entrenado en el conjunto de datos de validación para obtener una línea base. & 
  \begin{itemize}
      \item Eficiencia del modelo de segmentación en el conjunto de validación.
      \item Cálculo de métricas de evaluación.
@@ -372,24 +376,25 @@ En esta etapa, se llevará a cabo la evaluacion de los prototipos elaborados en 
  Enseguida, se proporcionará un detalle de la actividad junto con el entregable correspondiente que se espera obtener.
 
 
- \textbf{Actividad 1 de Evaluación del Modelo: Preparación de Datos de Validación}
+ \textbf{Actividad 1 de "\textit{Evaluación del modelo}": Preparación de Datos de Validación}
  \\
  La preparación de los datos de validación desempeñará un papel crucial en la evaluación de la efectividad del modelo en datos no previamente vistos. Esta tarea implicará seleccionar un subconjunto representativo del conjunto de datos que no se haya utilizado durante el entrenamiento del modelo. La selección deberá tener en cuenta la diversidad en las imágenes y sus configuraciones para garantizar que el modelo pueda generalizar correctamente a diferentes escenarios.
  
  \textbf{Entregable}: Un conjunto de datos listo para su uso en la evaluación del modelo, que incluye imágenes preprocesadas y listas para ser utilizadas en el análisis.
  
- \textbf{Actividad 2 de Evaluación del Modelo: Definición de Métricas de Evaluación}
+ \textbf{Actividad 2 de "\textit{Evaluación del modelo}": Definición de Métricas de Evaluación}
  \\
  Para la evaluación del rendimiento del modelo de manera cuantitativa, será esencial definir métricas claras. Estas métricas proporcionarán una base objetiva para comparar el rendimiento del modelo en diferentes escenarios y con otros enfoques existentes.
  
  \textbf{Entregable}: Un documento detallado que describe cada métrica y proporciona el código o las funciones necesarias para calcularlas.
  
- \textbf{Actividad 3 de Evaluación del Modelo: Evaluación del Modelo}
+ \textbf{Actividad 3 de "\textit{Evaluación del modelo}": Evaluación del Modelo}
  \\
  La evaluación del modelo involucrará el uso del conjunto de datos de validación para establecer un punto de referencia sobre su rendimiento. Esta evaluación será esencial para comprender el comportamiento del modelo en situaciones no previamente vistas durante el entrenamiento y para identificar posibles áreas de mejora.
  
  \textbf{Entregable}: Un informe que presenta los resultados de la evaluación inicial, incluyendo las métricas de rendimiento calculadas y cualquier observación relevante sobre el comportamiento del modelo.
- 
+ \clearpage
+\newpage
 \subsubsection{Despliegue}
 Al concluir la metodología empleada, se procederá a implementar el modelo propuesto luego de finalizar su entrenamiento y evaluación correspondiente. Los pasos y tareas realizados en esta fase se encuentran detallados en la Tabla \ref{tabla:despliegue}.
 
@@ -412,14 +417,14 @@ Al concluir la metodología empleada, se procederá a implementar el modelo prop
  \bottomrule
  \endfoot
  
- Preparación del Entorno de Despliegue & Configurar el entorno necesario para desplegar el modelo en producción. & 
+ \textbf{Actividad 1:} Preparación del Entorno de Despliegue & Configurar el entorno necesario para desplegar el modelo en producción. & 
     \begin{itemize}
         \item Selección de infraestructura.
         \item Configuración del entorno de hardware y software.
         \item Pruebas iniciales.
     \end{itemize} \\
  
- Despliegue del Modelo en Producción & Implementar el modelo en el entorno de producción para su uso real. & 
+ \textbf{Actividad 2:} Despliegue del Modelo en Producción & Implementar el modelo en el entorno de producción para su uso real. & 
  \begin{itemize}
      \item Implementación del modelo en producción.
      \item Configuración de parámetros en tiempo de ejecución.
@@ -430,13 +435,13 @@ Al concluir la metodología empleada, se procederá a implementar el modelo prop
 
  Enseguida, se proporcionará un detalle de la actividad junto con el entregable correspondiente que se espera obtener.
 
-\textbf{Actividad 1 de Despliegue: Preparación del Entorno de Despliegue}
+\textbf{Actividad 1 de "\textit{Despliegue del modelo}": Preparación del Entorno de Despliegue}
 \\
 La preparación del entorno de despliegue será una etapa fundamental para asegurar que el modelo de segmentación, por lo que se hizo el diseño del prototipo como se ve en la Figura \ref{3:fig6} pueda ser ejecutado eficientemente en producción. Este proceso implicará la selección y configuración de la infraestructura necesaria, incluyendo tanto hardware como software, y la realización de pruebas iniciales para confirmar que todo funciona correctamente antes del despliegue completo.
 
 \textbf{Entregable}: Un entorno completamente preparado, con todos los componentes necesarios instalados y configurados, listo para el despliegue del modelo.
 
-\textbf{Actividad 2 de Despliegue: Despliegue del Modelo en Producción}
+\textbf{Actividad 2 de "\textit{Despliegue del modelo}": Despliegue del Modelo en Producción}
 \\
 El despliegue del modelo en producción será el paso en el que el modelo de segmentación se pone en funcionamiento en el entorno de producción. Este proceso incluirá la implementación del modelo, la configuración de parámetros necesarios para su ejecución en tiempo real, y el monitoreo inicial para asegurar que el modelo funciona correctamente en condiciones reales.
 
@@ -547,14 +552,14 @@ En segmentación binaria, esta función penaliza más las clasificaciones incorr
 
 \begin{landscape}
 	\section{Cronograma de actividades y presupuesto}
-	Se propuso un cronograma para la investigación. Conforma desde el inicio hasta ser terminada con la sustentación final planeada para mediados del año 2024. Este se presneta en la Figura \ref{3:fig7}.
+	Se propuso un cronograma para la investigación. Conforma desde el inicio hasta ser terminada con la sustentación final planeada para mediados del año 2024. Este se presneta en la Figura \ref{3:fig8}.
 
 	\begin{figure}[!ht]
 		\begin{center}
 			\includegraphics[width=1.50\textwidth]{3/figures/gant.png}
 			\caption[Cronograma de actividades]{Cronograma de actividades.\\
 				Fuente: Elaboración propia.}
-			\label{3:fig7}
+			\label{3:fig8}
 		\end{center}
 	\end{figure}
 	

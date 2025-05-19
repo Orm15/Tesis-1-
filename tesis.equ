@@ -5,20 +5,7 @@
 \contentsline {myequations}{Ecuación \numberline {5}Operación Squeeze}{58}{equation.2.5}%
 \contentsline {myequations}{Ecuación \numberline {6}Operación Excitation}{58}{equation.2.6}%
 \contentsline {myequations}{Ecuación \numberline {7}Operación Scale}{59}{equation.2.7}%
-\contentsline {myequations}{Ecuación \numberline {8}Fórmula para la precisión}{90}{section*.62}%
-\contentsline {myequations}{Ecuación \numberline {9}Fórmula del Índice de Sørensen–Dice (DSC)}{91}{equation.3.9}%
-\contentsline {myequations}{Ecuación \numberline {10}Fórmula del Coeficiente de Jaccard (Intersection over Union)}{91}{equation.3.10}%
-\contentsline {myequations}{Ecuación \numberline {11}Fórmula de Entropía Cruzada (Cross-Entropy Loss)}{92}{equation.3.11}%
-\contentsline {myequations}{Ecuación \numberline {12}Cuarto mapa de características (Bottleneck)}{110}{equation.4.12}%
-\contentsline {myequations}{Ecuación \numberline {13}Mapa de salida del decodificador}{110}{equation.4.13}%
-\contentsline {myequations}{Ecuación \numberline {14}Predicción de la etiqueta de clase para el píxel (i, j)}{111}{equation.4.14}%
-\contentsline {myequations}{Ecuación \numberline {15}Función de pérdida Cross-Entropy ponderada del Modelo U-Net}{121}{equation.4.15}%
-\contentsline {myequations}{Ecuación \numberline {16}Regla de actualización de parámetros del optimizador Adam}{121}{equation.4.16}%
-\contentsline {myequations}{Ecuación \numberline {17}Normalización y escalado de la imagen}{127}{equation.4.17}%
-\contentsline {myequations}{Ecuación \numberline {18}Cálculo de pesos de clase}{128}{equation.4.18}%
-\contentsline {myequations}{Ecuación \numberline {19}Función de pérdida Cross-Entropy ponderada (forma simplificada)}{128}{equation.4.19}%
-\contentsline {myequations}{Ecuación \numberline {20}Regla de actualización de parámetros del optimizador Adam con tasa de aprendizaje}{128}{equation.4.20}%
-\contentsline {myequations}{Ecuación \numberline {21}Intersection over Union para la clase c}{133}{equation.4.21}%
-\contentsline {myequations}{Ecuación \numberline {22}Índice de Sorensen-Dice para la clase c}{134}{equation.4.22}%
-\contentsline {myequations}{Ecuación \numberline {23}Intersección sobre Unión para la clase c}{141}{equation.4.23}%
-\contentsline {myequations}{Ecuación \numberline {24}Índice de Sorensen-Dice para la clase c}{141}{equation.4.24}%
+\contentsline {myequations}{Ecuación \numberline {8}Fórmula para la precisión}{93}{section*.62}%
+\contentsline {myequations}{Ecuación \numberline {9}Fórmula del Índice de Sørensen–Dice (DSC)}{93}{equation.3.9}%
+\contentsline {myequations}{Ecuación \numberline {10}Fórmula del Coeficiente de Jaccard (Intersection over Union)}{93}{equation.3.10}%
+\contentsline {myequations}{Ecuación \numberline {11}Fórmula de Entropía Cruzada (Cross-Entropy Loss)}{94}{equation.3.11}%

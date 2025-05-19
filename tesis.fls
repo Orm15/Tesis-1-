@@ -951,9 +951,6 @@ INPUT .\4\figures\desunet.png
 INPUT .\4\figures\desunet.png
 INPUT .\4\figures\desunet.png
 INPUT .\4\figures\desunet.png
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsptm.fd
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsptm.fd
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsptm.fd
 INPUT .\4\figures\desunetat.png
 INPUT .\4\figures\desunetat.png
 INPUT .\4\figures\desunetat.png
@@ -968,80 +965,61 @@ INPUT .\4\figures\desunetmit.png
 INPUT .\4\figures\desunetmit.png
 INPUT .\4\figures\desunetmit.png
 INPUT .\4\figures\desunetmit.png
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7m.vf
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\psyro.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7t.vf
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT .\4\figures\desmask.png
+INPUT .\4\figures\desmask.png
+INPUT .\4\figures\desmask.png
+INPUT .\4\figures\desmask.png
+INPUT .\4\figures\desmask.png
+INPUT .\4\figures\desmask.png
+INPUT .\4\figures\desmask.png
+INPUT .\4\figures\Diagrama de desarrollo.png
+INPUT .\4\figures\Diagrama de desarrollo.png
+INPUT .\4\figures\Diagrama de desarrollo.png
+INPUT .\4\figures\Diagrama de desarrollo.png
+INPUT .\4\figures\Diagrama de desarrollo.png
+INPUT .\4\figures\Diagrama de desarrollo.png
+INPUT .\4\figures\Diagrama de desarrollo.png
+INPUT .\4\figures\entrunet.png
+INPUT .\4\figures\entrunet.png
+INPUT .\4\figures\entrunet.png
+INPUT .\4\figures\entrunet.png
+INPUT .\4\figures\entrunet.png
+INPUT .\4\figures\entrunet.png
+INPUT .\4\figures\entrunet.png
+INPUT .\4\figures\entrunetat.png
+INPUT .\4\figures\entrunetat.png
+INPUT .\4\figures\entrunetat.png
+INPUT .\4\figures\entrunetat.png
+INPUT .\4\figures\entrunetat.png
+INPUT .\4\figures\entrunetat.png
+INPUT .\4\figures\entrunetat.png
+INPUT .\4\figures\entrunetmit.png
+INPUT .\4\figures\entrunetmit.png
+INPUT .\4\figures\entrunetmit.png
+INPUT .\4\figures\entrunetmit.png
+INPUT .\4\figures\entrunetmit.png
+INPUT .\4\figures\entrunetmit.png
+INPUT .\4\figures\entrunetmit.png
+INPUT .\4\figures\entrmask.png
+INPUT .\4\figures\entrmask.png
+INPUT .\4\figures\entrmask.png
+INPUT .\4\figures\entrmask.png
+INPUT .\4\figures\entrmask.png
+INPUT .\4\figures\entrmask.png
+INPUT .\4\figures\entrmask.png
+INPUT .\4\figures\evunet.png
+INPUT .\4\figures\evunet.png
+INPUT .\4\figures\evunet.png
+INPUT .\4\figures\evunet.png
+INPUT .\4\figures\evunet.png
+INPUT .\4\figures\evunet.png
+INPUT .\4\figures\evunet.png
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\ueus.fd
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\ueus.fd
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\ueus.fd
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eusm10.tfm
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eusm10.tfm
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eusm7.tfm
-INPUT .\4\figures\desmask.png
-INPUT .\4\figures\desmask.png
-INPUT .\4\figures\desmask.png
-INPUT .\4\figures\desmask.png
-INPUT .\4\figures\desmask.png
-INPUT .\4\figures\desmask.png
-INPUT .\4\figures\desmask.png
-INPUT .\4\figures\Diagrama de desarrollo.png
-INPUT .\4\figures\Diagrama de desarrollo.png
-INPUT .\4\figures\Diagrama de desarrollo.png
-INPUT .\4\figures\Diagrama de desarrollo.png
-INPUT .\4\figures\Diagrama de desarrollo.png
-INPUT .\4\figures\Diagrama de desarrollo.png
-INPUT .\4\figures\Diagrama de desarrollo.png
-INPUT .\4\figures\entrunet.png
-INPUT .\4\figures\entrunet.png
-INPUT .\4\figures\entrunet.png
-INPUT .\4\figures\entrunet.png
-INPUT .\4\figures\entrunet.png
-INPUT .\4\figures\entrunet.png
-INPUT .\4\figures\entrunet.png
-INPUT .\4\figures\entrunetat.png
-INPUT .\4\figures\entrunetat.png
-INPUT .\4\figures\entrunetat.png
-INPUT .\4\figures\entrunetat.png
-INPUT .\4\figures\entrunetat.png
-INPUT .\4\figures\entrunetat.png
-INPUT .\4\figures\entrunetat.png
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eusm10.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eusm10.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eusm7.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7m.vf
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\psyro.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7y.vf
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
-INPUT C:\Users\DELL\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
-INPUT .\4\figures\entrunetmit.png
-INPUT .\4\figures\entrunetmit.png
-INPUT .\4\figures\entrunetmit.png
-INPUT .\4\figures\entrunetmit.png
-INPUT .\4\figures\entrunetmit.png
-INPUT .\4\figures\entrunetmit.png
-INPUT .\4\figures\entrunetmit.png
-INPUT .\4\figures\entrmask.png
-INPUT .\4\figures\entrmask.png
-INPUT .\4\figures\entrmask.png
-INPUT .\4\figures\entrmask.png
-INPUT .\4\figures\entrmask.png
-INPUT .\4\figures\entrmask.png
-INPUT .\4\figures\entrmask.png
-INPUT .\4\figures\evunet.png
-INPUT .\4\figures\evunet.png
-INPUT .\4\figures\evunet.png
-INPUT .\4\figures\evunet.png
-INPUT .\4\figures\evunet.png
-INPUT .\4\figures\evunet.png
-INPUT .\4\figures\evunet.png
 INPUT .\4\figures\UnetComparación1.png
 INPUT .\4\figures\UnetComparación1.png
 INPUT .\4\figures\UnetComparación1.png
