@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {1.4.3}Metodológica}{11}{subsection.1.4.3}%
 \contentsline {section}{\numberline {1.5}Delimitación del Estudio}{12}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Espacial}{12}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Temporal}{13}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.2}Temporal}{12}{subsection.1.5.2}%
 \contentsline {subsection}{\numberline {1.5.3}Conceptual}{13}{subsection.1.5.3}%
 \contentsline {chapter}{\numberline {II}Marco Teórico}{14}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{14}{section.2.1}%

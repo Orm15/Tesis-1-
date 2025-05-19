@@ -6,7 +6,7 @@ En esta sección se detallará el diseño, tipo y enfoque de la investigación, 
 Se ha identificado que este estudio posee un diseño experimental con el propósito de establecer el tipo de investigación. Como lo dice \cite{bk_hernandez2014metodologia}, en la obra titulada \citetitle{bk_hernandez2014metodologia}, busca determinar la consecuencia de una razón manipulada. Específicamente, se clasifica como un diseño experimental puro debido a la utilización intencionada de variables independientes (modificadas, eliminadas o añadidas) para evaluar su influencia en la variable dependiente, que en este caso es la segmentación avanzada de características morfológicas faciales (arrugas y manchas) en imágenes de rostros faciales.
 
 \subsection{Enfoque de la investigación}
-Este estudio adoptó un enfoque cuantitativo, conforme a lo explicado por \cite{bk_hernandez2014metodologia} en su libro \citetitle{bk_hernandez2014metodologia}. Este enfoque se basa en la recopilación de datos para comprobar hipótesis mediante mediciones numéricas y análisis estadísticos, con el objetivo de identificar patrones de comportamiento y validar teorías. La metodología empleada sigue los diez pasos del proceso cuantitativo descritos por el autor, aplicados desde la formulación de la idea hasta la presentación de los resultados finales en el informe de investigación, ya que se busca desarrollar un sistema de segmentación para detectar características morfológicas de la piel facial mediante redes neuronales convolucionales (CNN) y analizar su efectividad con métricas cuantitativas, como precisión, recall, F1-score y AUC-ROC. Este enfoque permitirá evaluar el desempeño del sistema en la detección de arrugas, poros y manchas, proporcionando resultados medibles y objetivos. \parencite{esteva2017} Al emplear técnicas de aprendizaje profundo, el estudio pretende optimizar la precisión en la segmentación de características faciales, aplicando un marco metodológico replicable y sistemático. \parencite{phillips2020}
+Este estudio adoptó un enfoque cuantitativo, conforme a lo explicado por \cite{bk_hernandez2014metodologia} en su libro \citetitle{bk_hernandez2014metodologia}. Este enfoque se basa en la recopilación de datos para comprobar hipótesis mediante mediciones numéricas y análisis estadísticos, con el objetivo de identificar patrones de comportamiento y validar teorías. La metodología empleada sigue los diez pasos del proceso cuantitativo descritos por el autor, aplicados desde la formulación de la idea hasta la presentación de los resultados finales en el informe de investigación, ya que se busca desarrollar un sistema de segmentación para detectar características morfológicas de la piel facial mediante redes neuronales convolucionales (CNN) y analizar su efectividad con métricas cuantitativas, como precisión, recall, F1-score y AUC-ROC. Este enfoque permitirá evaluar el desempeño del sistema en la detección de arrugas y manchas, proporcionando resultados medibles y objetivos. \parencite{esteva2017} Al emplear técnicas de aprendizaje profundo, el estudio pretende optimizar la precisión en la segmentación de características faciales, aplicando un marco metodológico replicable y sistemático. \parencite{phillips2020}
 
 \subsection{Población}
 La población de este estudio se compone de imágenes faciales representativas de personas con diversas edades, géneros y tipos de piel. Específicamente, estas imágenes muestran características morfológicas que se asocian con arrugas y manchas faciales. Debido a la orientación del enfoque en el problemas estéticos, la población abarcaba imágenes de piel con claras imperfecciones y piel sin e incidencias asignadas. Así, el alcance de la población se determina como diverso y completo, asegurando la inclusión de imágenes que representa una amplia gama de condiciones de la piel. Finalmente, resulta esencial agregar diversidad geográfica, ya que ciertas diferencias geográficas.
@@ -197,7 +197,7 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
 \clearpage
 \newpage
  \subsubsection{Desarrollo de los Modelos de Segmentación}
- El desarrollo de los modelos de segmentación de características faciales se estructurará en tres actividades clave. Estas actividades incluirán el diseño, implementación y entrenamiento de modelos basados en arquitecturas de redes neuronales profundas como U-Net, Mask R-CNN y modelos híbridos con Vision Transformer (ViT). La Tabla \ref{tabla:actividades_segmentacion} presenta el detalle de cada una.
+ El desarrollo de los modelos de segmentación de características faciales se estructurará en tres actividades clave. Estas actividades incluirán el diseño, implementación y entrenamiento de modelos basados en arquitecturas de redes neuronales profundas como U-Net, U-Net Attention, Mask R-CNN y modelos híbridos con Vision Transformer como por ejemplo Unet MiT-B0. La Tabla \ref{tabla:actividades_segmentacion} presenta el detalle de cada una.
 
  \vspace{2ex}
  \begingroup
@@ -220,9 +220,9 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
  
  \textbf{Actividad 1:} Diseño de la arquitectura del modelo & Selección conceptual y estructural de modelos apropiados para la segmentación de características morfológicas faciales. &
  \begin{itemize}
-     \item Análisis de U-Net para segmentación precisa de áreas pequeñas como arrugas y poros.
+     \item Análisis de U-Net para segmentación precisa de áreas pequeñas como arrugas y manchas.
      \item Evaluación del potencial de Mask R-CNN para representar características profundas y complejas.
-     \item Consideración de arquitecturas híbridas que integren Unet con Vision Transformer (ViT).
+     \item Consideración de arquitecturas híbridas que integren Unet con Vision Transformer (Unet MiT-B0).
  \end{itemize} \\
  
  \textbf{Actividad 2:} Definición de componentes del modelo & Establecimiento de las partes esenciales del modelo para la segmentación de imágenes faciales. &
@@ -239,8 +239,8 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
  
  \textbf{Actividad 1 de "\textit{Desarrollo de los Modelos de Segmentación}": Diseño de la arquitectura del modelo}
  \\
- Durante esta etapa se definirá la estructura general de las redes neuronales que se utilizarán para la segmentación de características morfológicas faciales. El objetivo será seleccionar arquitecturas que sean adecuadas para extraer información precisa de regiones faciales como arrugas, poros o manchas.
- Entre las arquitecturas consideradas se encontrarán U-Net, que destaca por su capacidad de segmentación precisa gracias a su estructura simétrica y sus conexiones de salto entre el codificador y el decodificador. También se evaluará el uso de Mask R-CNN, una arquitectura que incorpora bloques residuales para mejorar el aprendizaje en redes profundas, especialmente útil para capturar texturas complejas. Asimismo, se contemplará la exploración de modelos híbridos que combinan Unet con Vision Transformer (ViT), lo cual permitirá captar patrones sutiles mediante mecanismos de atención.
+ Durante esta etapa se definirá la estructura general de las redes neuronales que se utilizarán para la segmentación de características morfológicas faciales. El objetivo será seleccionar arquitecturas que sean adecuadas para extraer información precisa de regiones faciales como arrugas o manchas.
+ Entre las arquitecturas consideradas se encontrarán U-Net, que destaca por su capacidad de segmentación precisa gracias a su estructura simétrica y sus conexiones de salto entre el codificador y el decodificador. También se evaluará el uso de Mask R-CNN, una arquitectura que incorpora bloques residuales para mejorar el aprendizaje en redes profundas, especialmente útil para capturar texturas complejas. Asimismo, se contemplará la exploración de modelos híbridos que combinan Unet con Vision Transformer (Unet MiT-B0), lo cual permitirá captar patrones sutiles mediante mecanismos de atención.
  
  \textbf{Entregable}: Selección de la arquitectura óptima para el modelo de segmentación facial, justificada técnicamente.
 
@@ -248,7 +248,7 @@ Por otro lado, la actividad de Representación se encargará de convertir los da
  \\
 Esta actividad consistirá en establecer los elementos esenciales que conformarán las redes previamente seleccionadas. Se determinará la cantidad de capas, el tipo de operaciones dentro de cada módulo y la forma en que se conectan entre sí, en función de las necesidades de segmentación facial.
 
-En U-Net, por ejemplo, se definirá cuántas capas de codificación y decodificación se utilizarán, así como las conexiones que transmitirán información detallada entre estas. En Mask R-CNN, se especificará el número de bloques residuales y la profundidad de la red, asegurando que se mantenga la eficiencia del aprendizaje sin perder información relevante. En los modelos híbridos con ViT, se determinará cómo integrar los módulos de atención con las capas convolucionales, de forma que se mantenga un flujo eficiente de características entre ambos entornos.
+En U-Net, por ejemplo, se definirá cuántas capas de codificación y decodificación se utilizarán, así como las conexiones que transmitirán información detallada entre estas. En Mask R-CNN, se especificará el número de bloques residuales y la profundidad de la red, asegurando que se mantenga la eficiencia del aprendizaje sin perder información relevante. En los modelos híbridos como Unet MiT-B0, se determinará cómo integrar los módulos de atención con las capas convolucionales, de forma que se mantenga un flujo eficiente de características entre ambos entornos.
 
  \textbf{Entregable}: Especificación detallada de los componentes y estructura interna de cada arquitectura seleccionada.
 
