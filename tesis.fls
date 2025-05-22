@@ -447,10 +447,6 @@ INPUT .\tesis.equ
 INPUT .\tesis.equ
 INPUT tesis.equ
 OUTPUT tesis.equ
-INPUT .\tesis.loa
-INPUT .\tesis.loa
-INPUT tesis.loa
-OUTPUT tesis.loa
 INPUT .\0\resumen.tex
 INPUT .\0\resumen.tex
 INPUT 0\resumen.tex

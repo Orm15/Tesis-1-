@@ -1,6 +1,6 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Resumen}{1}{chapter*.7}%
-\contentsline {chapter}{Introducción}{3}{chapter*.9}%
+\contentsline {chapter}{Resumen}{1}{chapter*.6}%
+\contentsline {chapter}{Introducción}{3}{chapter*.8}%
 \contentsline {chapter}{\numberline {I}Planteamiento del Problema}{4}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{4}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Formulación del Problema}{8}{section.1.2}%
@@ -38,58 +38,58 @@
 \contentsline {subsubsection}{\numberline {2.2.5.2}Aplicación de CNN en segmentación de imágenes y su relevancia para la dermatología}{53}{subsubsection.2.2.5.2}%
 \contentsline {subsection}{\numberline {2.2.6}Redes de Atención}{53}{subsection.2.2.6}%
 \contentsline {subsubsection}{\numberline {2.2.6.1}Mecanismo de Atención}{53}{subsubsection.2.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.2.6.2}Atención Espacial}{54}{subsubsection.2.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.2.6.2}Atención Espacial}{55}{subsubsection.2.2.6.2}%
 \contentsline {subsubsection}{\numberline {2.2.6.3}Atención de Canal}{55}{subsubsection.2.2.6.3}%
-\contentsline {subsubsection}{\numberline {2.2.6.4}Beneficios de las Redes de Atención}{55}{subsubsection.2.2.6.4}%
+\contentsline {subsubsection}{\numberline {2.2.6.4}Beneficios de las Redes de Atención}{56}{subsubsection.2.2.6.4}%
 \contentsline {subsubsection}{\numberline {2.2.6.5}Ejemplos de Modelos con Atención}{56}{subsubsection.2.2.6.5}%
-\contentsline {paragraph}{Arquitectura General:}{56}{paragraph*.43}%
-\contentsline {paragraph}{Arquitectura del Módulo SE:}{58}{paragraph*.45}%
-\contentsline {subsection}{\numberline {2.2.7}Modelos Avanzados de Segmentación en Imágenes Médicas}{59}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.2.8}Características Morfológicas del rostro}{64}{subsection.2.2.8}%
-\contentsline {subsubsection}{\numberline {2.2.8.1}Arrugas}{64}{subsubsection.2.2.8.1}%
-\contentsline {subsubsection}{\numberline {2.2.8.2}Manchas}{66}{subsubsection.2.2.8.2}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{68}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Redes Neuronales Convolucionales (CNN)}{68}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Segmentación de Imágenes}{68}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Arrugas}{69}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Manchas}{69}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Segmentación de arrugas}{69}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Segmentación de manchas}{69}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}U-Net:}{70}{subsection.2.3.7}%
-\contentsline {subsection}{\numberline {2.3.8}Attention U-Net:}{70}{subsection.2.3.8}%
-\contentsline {subsection}{\numberline {2.3.9}U-Net con codificador MiT-B0:}{70}{subsection.2.3.9}%
-\contentsline {subsection}{\numberline {2.3.10}Mask R-CNN}{70}{subsection.2.3.10}%
-\contentsline {section}{\numberline {2.4}Hipótesis}{71}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{71}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{71}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {III}Metodología de la Investigación}{72}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diseño de la investigación}{72}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Tipo de investigación}{72}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{72}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Población}{72}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Muestra}{73}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Operacionalización de Variables}{73}{subsection.3.1.5}%
-\contentsline {section}{\numberline {3.2}Técnicas de recolección de datos}{74}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Técnicas para el procesamiento y análisis de la información}{75}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Metodología de implementación de la solución}{75}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Adquisición de los Datos}{76}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Preprocesamiento de los Datos}{78}{subsubsection.3.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.3.1.3}Desarrollo de los Modelos de Segmentación}{81}{subsubsection.3.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.3.1.4}Entrenamiento del Modelo}{85}{subsubsection.3.3.1.4}%
-\contentsline {subsubsection}{\numberline {3.3.1.5}Evaluación del Modelo}{88}{subsubsection.3.3.1.5}%
-\contentsline {subsubsection}{\numberline {3.3.1.6}Despliegue}{90}{subsubsection.3.3.1.6}%
-\contentsline {section}{\numberline {3.4}Metodología para la Medición de Resultados de la Implementación}{91}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Cronograma de actividades y presupuesto}{95}{section.3.5}%
-\contentsline {chapter}{\numberline {IV}Desarrollo de la Solución}{97}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Adquisición de los Datos}{97}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Preprocesamiento de los Datos}{98}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Desarrollo de los Modelos de Segmentación}{101}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Entrenamiento del modelo}{113}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Evaluación del modelo}{120}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Despliegue del modelo}{132}{section.4.6}%
-\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{133}{chapter.5}%
-\contentsline {chapter}{Referencias}{134}{chapter*.93}%
-\contentsline {chapter}{Anexos}{139}{section*.94}%
-\contentsline {section}{\numberline {A}Árbol de Problemas}{140}{section.Alph0.1}%
-\contentsline {section}{\numberline {B}Árbol de Objetivos}{141}{section.Alph0.2}%
-\contentsline {section}{\numberline {C}Matriz de Consistencia}{142}{section.Alph0.3}%
+\contentsline {paragraph}{Arquitectura General:}{56}{paragraph*.42}%
+\contentsline {paragraph}{Arquitectura del Módulo SE:}{58}{paragraph*.44}%
+\contentsline {subsection}{\numberline {2.2.7}Modelos Avanzados de Segmentación en Imágenes Médicas}{60}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}Características Morfológicas del rostro}{65}{subsection.2.2.8}%
+\contentsline {subsubsection}{\numberline {2.2.8.1}Arrugas}{65}{subsubsection.2.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.2.8.2}Manchas}{67}{subsubsection.2.2.8.2}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{69}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Redes Neuronales Convolucionales (CNN)}{69}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Segmentación de Imágenes}{69}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Arrugas}{70}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Manchas}{70}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Segmentación de arrugas}{70}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Segmentación de manchas}{70}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}U-Net:}{71}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Attention U-Net:}{71}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.3.9}U-Net con codificador MiT-B0:}{71}{subsection.2.3.9}%
+\contentsline {subsection}{\numberline {2.3.10}Mask R-CNN}{71}{subsection.2.3.10}%
+\contentsline {section}{\numberline {2.4}Hipótesis}{72}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Hipótesis General}{72}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Hipótesis Específicas}{72}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {III}Metodología de la Investigación}{73}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diseño de la investigación}{73}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Tipo de investigación}{73}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Enfoque de la investigación}{73}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Población}{73}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Muestra}{74}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Operacionalización de Variables}{74}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Técnicas de recolección de datos}{75}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Técnicas para el procesamiento y análisis de la información}{76}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Metodología de implementación de la solución}{76}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Adquisición de los Datos}{77}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Preprocesamiento de los Datos}{79}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}Desarrollo de los Modelos de Segmentación}{82}{subsubsection.3.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.3.1.4}Entrenamiento del Modelo}{86}{subsubsection.3.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.3.1.5}Evaluación del Modelo}{89}{subsubsection.3.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.3.1.6}Despliegue}{91}{subsubsection.3.3.1.6}%
+\contentsline {section}{\numberline {3.4}Metodología para la Medición de Resultados de la Implementación}{92}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Cronograma de actividades y presupuesto}{96}{section.3.5}%
+\contentsline {chapter}{\numberline {IV}Desarrollo de la Solución}{98}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Adquisición de los Datos}{98}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Preprocesamiento de los Datos}{99}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Desarrollo de los Modelos de Segmentación}{102}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Entrenamiento del modelo}{114}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Evaluación del modelo}{122}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Despliegue del modelo}{134}{section.4.6}%
+\contentsline {chapter}{\numberline {V}Conclusiones y Recomendaciones}{135}{chapter.5}%
+\contentsline {chapter}{Referencias}{136}{chapter*.92}%
+\contentsline {chapter}{Anexos}{141}{section*.93}%
+\contentsline {section}{\numberline {A}Árbol de Problemas}{142}{section.Alph0.1}%
+\contentsline {section}{\numberline {B}Árbol de Objetivos}{143}{section.Alph0.2}%
+\contentsline {section}{\numberline {C}Matriz de Consistencia}{144}{section.Alph0.3}%

@@ -467,7 +467,7 @@ El modelo, como se puede ver en la Tabla \ref{tab:unet_comparison}, mejorado sup
 
 	\item \textbf{Calidad de segmentación:} El coeficiente Dice del 88\% refleja una superposición casi perfecta entre máscaras predichas y \textit{ground truth}, crucial para diagnósticos tempranos de melanoma.
 
-	\item \textbf{Reducción de artefactos:} La combinación de PReLU y \textit{dropout} disminuye falsos positivos en bordes irregulares, común en lesiones malignas (Figura 2:fig6).
+	\item \textbf{Reducción de artefactos:} La combinación de PReLU y \textit{dropout} disminuye falsos positivos en bordes irregulares, común en lesiones malignas.
 
 \end{itemize}
 
@@ -689,6 +689,7 @@ El proceso completo, como fue creado en la Figura \ref{2:figmetant6}, se estruct
 \begin{enumerate}
     \item \textbf{Generación de mapas de textura (Etapa débilmente supervisada)}
     Como podemos ver en la Figura \ref{2:figtextmap}, se divide en:
+\\
 	\textbf{Pipeline técnico:}
     \begin{lstlisting}[language=Python, basicstyle=\ttfamily\footnotesize]
     def generar_mapa_textura(imagen):
@@ -719,8 +720,9 @@ El proceso completo, como fue creado en la Figura \ref{2:figmetant6}, se estruct
     \begin{itemize}[label=$\bullet$, leftmargin=1em]
         \item Eliminar fondo y regiones no faciales
         \item Reducir falsos positivos en zonas de cabello y ropa
+        \item Máscara binaria aplicada al mapa de textura original
     \end{itemize}
-    Máscara binaria aplicada al mapa de textura original
+    
 
 
     \item \textbf{Etiquetado experto}
@@ -738,9 +740,10 @@ El proceso completo, como fue creado en la Figura \ref{2:figmetant6}, se estruct
 
     \item \textbf{Entrenamiento en dos fases}
     Como podemos ver en la Figura \ref{2:fig11}, se divide en:
+	\\
     \textbf{Fase 1 (Preentrenamiento):}
     \begin{itemize}[label=$\bullet$, leftmargin=1em]
-        \item Objetivo: Minimizar MSE entre predicción y mapa de textura
+        \item \textbf{Objetivo:} Minimizar MSE entre predicción y mapa de textura
         \item \textbf{Función de pérdida:}
         $$
         L_{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
@@ -816,21 +819,21 @@ El enfoque propuesto, como se ve en la Figura \ref{2:resultsant6}, demarca mejor
         \item Conservación de bordes en zonas de alta densidad de pliegues
     \end{itemize}
 
-    \item \textbf{Robustez clínica}
+    \item \textbf{Robustez clínica:}
     Rendimiento consistente en:
     \begin{itemize}[label=$\bullet$, leftmargin=1em]
         \item Pieles con hiperpigmentación
         \item Fototipos cutáneos IV-VI (Fitzpatrick scale)
         \item Imágenes con ángulos de captura $\geq 45^\circ$
     \end{itemize}
-    Tolerancia a artefactos:
+    \item \textbf{Tolerancia a artefactos:}
     \begin{itemize}[label=$\bullet$, leftmargin=1em]
         \item Maquillaje denso
         \item Reflexiones especulares
         \item Sombras proyectadas
     \end{itemize}
 
-    \item \textbf{Impacto en aplicaciones reales}
+    \item \textbf{Impacto en aplicaciones reales:}
     Integración en flujos de trabajo dermatológicos para:
     \begin{itemize}[label=$\bullet$, leftmargin=1em]
         \item Cuantificación objetiva de tratamientos anti-age

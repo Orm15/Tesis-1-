@@ -3,22 +3,21 @@ Dentro de esta sección se expone con precisión el procedimiento descrito previ
 
 \section{Adquisición de los Datos}
 
-\textbf{Actividad 1 de "\textit{Adquisición de los Datos}": Identificación de la data que contengan imágenes de rostros con características morfológicas faciales de proporciones similares}
+\textbf{Actividad 1 de “\textit{Adquisición de los Datos}”: Identificación de la data que contengan imágenes de rostros con características morfológicas faciales de proporciones similares}
  
 Con el objetivo de entrenar un modelo de segmentación enfocado en características morfológicas faciales como arrugas y manchas, se llevó a cabo una exhaustiva búsqueda de bases de datos públicas en repositorios especializados. Se priorizó la recolección de conjuntos de datos que incluyeran imágenes faciales en alta resolución, variedad de edades, géneros y tonos de piel, así como condiciones de iluminación lo suficientemente controladas como para facilitar la segmentación de detalles faciales sutiles.
 
 Durante este proceso, se identificaron diversos repositorios en plataformas como GitHub que ofrecían acceso a bases de datos con más de 200,000 imágenes faciales. Entre los conjuntos más destacados se encuentran versiones extendidas de datasets como CelebA, FFHQ (Flickr-Faces-HQ), y otros compendios curados por la comunidad investigadora, que contienen imágenes faciales etiquetadas o anotadas para tareas de reconocimiento y análisis facial.
 
-Sin embargo, debido al enfoque específico de esta investigación la segmentación de características morfológicas finas como arrugas y manchas fue necesario realizar una selección cuidadosa de las imágenes más adecuadas. Para ello, se aplicaron criterios de claridad visual, resolución suficiente y visibilidad explícita de las deformaciones morfológicas faciales. Como resultado de este filtrado, se seleccionó un subconjunto compuesto por 5,000 imágenes faciales que cumplían con los siguientes criterios:
+Sin embargo, debido al enfoque específico de esta investigación la segmentación de características morfológicas finas como arrugas y manchas fue necesario realizar una selección cuidadosa de las imágenes más adecuadas. Para ello, se aplicaron criterios de claridad visual, resolución suficiente y visibilidad explícita de las deformaciones morfológicas faciales. Como resultado de este filtrado, se seleccionó un subconjunto compuesto por 20,000 imágenes faciales que cumplían con los siguientes criterios:
 
 \begin{itemize}
     \item Alta calidad visual.   
     \item Visibilidad clara de texturas de la piel.
-    \item Presencia evidente de arrugas y manchas.
     \item Proporciones faciales dentro de un rango estándar para facilitar el modelado.
 \end{itemize} 
 
-Este conjunto reducido pero representativo,lo podemos ver en la Figura \ref{4:fig1}, constituye la base de entrenamiento y validación del modelo propuesto. La selección manual de estos datos buscó optimizar el desempeño del modelo, al exponerlo exclusivamente a ejemplos que contienen información útil para aprender patrones asociados a las características morfológicas de interés.
+Este conjunto reducido pero representativo, lo podemos ver en la Figura \ref{4:fig1}, constituye la base de entrenamiento y validación del modelo propuesto. La selección manual de estos datos buscó optimizar el desempeño del modelo, al exponerlo exclusivamente a ejemplos que contienen información útil para aprender patrones asociados a las características morfológicas de interés.
 
 \begin{figure}[h]
 	\begin{center}
@@ -31,13 +30,13 @@ Este conjunto reducido pero representativo,lo podemos ver en la Figura \ref{4:fi
 
 \section{Preprocesamiento de los Datos}
 
-\textbf{Actividad 1 de "\textit{Preprocesamiento de los Datos}": Filtración de imágenes faciales con características morfológicas}
+\textbf{Actividad 1 de “\textit{Preprocesamiento de los Datos}”: Filtración de imágenes faciales con características morfológicas}
 
-Una vez recopilado el subconjunto de 5,000 imágenes faciales con características morfológicas visibles, se procedió a una etapa de filtración adicional orientada a reforzar la consistencia y la relevancia de los datos para la tarea de segmentación. Esta filtración se enfocó en garantizar que todas las imágenes seleccionadas contuvieran arrugas y manchas claramente identificables, descartando aquellas que, pese a su calidad visual, no presentaban estas características de manera explícita.
+Una vez recopilado el subconjunto de 20,000 imágenes faciales con características morfológicas visibles, se procedió a una etapa de filtración adicional orientada a reforzar la consistencia y la relevancia de los datos para la tarea de segmentación. Esta filtración se enfocó en garantizar que todas las imágenes seleccionadas contuvieran arrugas y manchas claramente identificables, descartando aquellas que, pese a su calidad visual, no presentaban estas características de manera explícita.
 
-El proceso se realizó mediante una inspección semiautomática, apoyada en técnicas básicas de detección de texturas y realce de bordes para facilitar la identificación visual de las zonas con deformaciones. Como resultado, se aseguraron condiciones homogéneas entre las imágenes del dataset final, lo que permitió una base sólida para la generación de máscaras de segmentación precisas.
+El proceso se realizó mediante una inspección semiautomática, apoyada en técnicas básicas de detección de texturas y realce de bordes para facilitar la identificación visual de las zonas con deformaciones. Como resultado, se aseguraron condiciones homogéneas entre las imágenes del dataset final de 5,000 imágenes, lo que permitió una base sólida para la generación de máscaras de segmentación precisas.
 
-\textbf{Actividad 2 de "\textit{Preprocesamiento de los Datos}": Representación y normalización de las imágenes faciales}
+\textbf{Actividad 2 de “\textit{Preprocesamiento de los Datos}”: Representación y normalización de las imágenes faciales}
 
 Con el conjunto de imágenes definitivo, se ejecutó un proceso de preprocesamiento estandarizado con dos objetivos principales: uniformar las dimensiones espaciales de las imágenes y generar las máscaras binarias asociadas a las regiones con deformaciones morfológicas.
 
@@ -87,8 +86,9 @@ Este proceso de representación y normalización, como se ve en el diagrama fina
 \end{figure}
   \begin{itemize}
 
-  \item\textbf{Actividad 1 de "\textit{Desarrollo de los Modelos de Segmentación}": Diseño de la arquitectura del modelo}
-Se implementó una arquitectura U-Net para segmentación de imágenes, con una estructura simétrica compuesta por un codificador (encoder) y un decodificador (decoder) unidos por conexiones de salto (skip connections).
+  \item\textbf{Actividad 1 de “\textit{Desarrollo de los Modelos de Segmentación}”: Diseño de la arquitectura del modelo}
+\\
+  Se implementó una arquitectura U-Net para segmentación de imágenes, con una estructura simétrica compuesta por un codificador (encoder) y un decodificador (decoder) unidos por conexiones de salto (skip connections).
 \begin{itemize}
 \item \textbf{Encoder:} Extrae características mediante bloques de convolución (dos capas con filtros 3x3, BatchNorm y ReLU) y reduce la resolución con max pooling. Produce mapas de características en escalas progresivamente más profundas: 64, 128, 256 y 512 canales.
 \item \textbf{Bottleneck:} Máxima abstracción con 1024 mapas de características, sin max pooling para preservar la resolución.
@@ -122,7 +122,7 @@ Output = final_conv(d1)  # Capa final de convolución
 
 
 
-  \item\textbf{Actividad 2 "\textit{Desarrollo de los Modelos de Segmentación}": Definición de componentes del modelo}
+  \item\textbf{Actividad 2 “\textit{Desarrollo de los Modelos de Segmentación}”: Definición de componentes del modelo}
   \begin{itemize}
     \item \textbf{Clase Dataset personalizado:} Carga imágenes de rostros y máscaras binarias para arrugas y manchas, generando máscaras multiclase con valores {0: fondo, 1: arrugas, 2: manchas}. Se aplican transformaciones con Albumentations para robustecer el modelo (flip, rotación, brillo, cambio de tamaño, tensorización).
     \item \textbf{Modelo \texttt{U-Net}:} Detalla capas del encoder, bottleneck y decoder con su función en la reducción y recuperación de resolución y profundidad, con la capa final que produce un tensor de salida con 3 canales (una por clase).
@@ -143,8 +143,9 @@ Output = final_conv(d1)  # Capa final de convolución
   \begin{itemize}
 
 
-  \item\textbf{Actividad 1 de "\textit{Desarrollo de los Modelos de Segmentación}": Diseño de la arquitectura del modelo}
-Se propone un modelo U-Net con atención (\texttt{UNetAttention}), que combina un encoder-decoder simétrico con puertas de atención (\texttt{AttentionGate}) para resaltar regiones relevantes en la imagen.
+  \item\textbf{Actividad 1 de “\textit{Desarrollo de los Modelos de Segmentación}”: Diseño de la arquitectura del modelo}
+\\
+  Se propone un modelo U-Net con atención (\texttt{UNetAttention}), que combina un encoder-decoder simétrico con puertas de atención (\texttt{AttentionGate}) para resaltar regiones relevantes en la imagen.
 \begin{itemize}
 \item \textbf{Encoder:} Cuatro bloques \texttt{DoubleConv} (doble convolución + BatchNorm + ReLU), con reducción progresiva de resolución mediante \texttt{MaxPool2d(2)}. Los canales aumentan de 3 (RGB) a 64, 128, 256 y 512, capturando desde características básicas hasta patrones complejos y globales.
 \item \textbf{Bottleneck:} Capa \texttt{DoubleConv} que expande de 512 a 1024 canales, condensando la información.
@@ -196,7 +197,7 @@ Return Output
 
 
 
-  \item\textbf{Actividad 2 de "\textit{Desarrollo de los Modelos de Segmentación}": Definición de componentes del modelo}
+  \item\textbf{Actividad 2 de “\textit{Desarrollo de los Modelos de Segmentación}”: Definición de componentes del modelo}
 
   \begin{itemize}
     \item \textbf{DoubleConv:} Dos convoluciones seguidas de BatchNorm y ReLU para extracción eficiente y estable.
@@ -217,7 +218,8 @@ Return Output
 \end{figure}
   \begin{itemize}
 
-  \item\textbf{Actividad 1 de "\textit{Desarrollo de los Modelos de Segmentación}": Diseño de la arquitectura del modelo}
+  \item\textbf{Actividad 1 de “\textit{Desarrollo de los Modelos de Segmentación}”: Diseño de la arquitectura del modelo}
+\\
   El modelo \texttt{MiT-B0} (Mix Transformer) es una arquitectura de red neuronal que combina la estructura de U-Net con bloques de atención de tipo Transformer. Esta combinación permite al modelo capturar tanto características locales como globales en las imágenes, mejorando la segmentación en comparación con arquitecturas convencionales.
 
 \begin{itemize}
@@ -257,7 +259,7 @@ Output = Conv1x1(dec1)
 Return Output
 \end{verbatim}
 \end{itemize}
-  \item\textbf{Actividad 2 de "\textit{Desarrollo de los Modelos de Segmentación}": Definición de componentes del modelo}
+  \item\textbf{Actividad 2 de “\textit{Desarrollo de los Modelos de Segmentación}”: Definición de componentes del modelo}
   
   
   \begin{itemize}
@@ -284,11 +286,9 @@ Return Output
   \begin{itemize}
 
  
-  \item\textbf{Actividad 1 de "\textit{Desarrollo de los Modelos de Segmentación}": Diseño de la arquitectura del modelo}
-
-La arquitectura seleccionada para abordar la tarea de detección y segmentación de arrugas y manchas en imágenes faciales es la avanzada \textbf{Mask R-CNN}, reconocida por su capacidad para combinar detección de objetos (identificación y localización con cajas delimitadoras) y segmentación de instancias (precisión a nivel de píxel en cada objeto detectado).
-
-El diseño de la arquitectura considera los siguientes bloques fundamentales, organizados de forma jerárquica para maximizar la precisión multiescala y optimizar la eficiencia computacional:
+  \item\textbf{Actividad 1 de “\textit{Desarrollo de los Modelos de Segmentación}”: Diseño de la arquitectura del modelo}
+\\
+La arquitectura seleccionada para abordar la tarea de detección y segmentación de arrugas y manchas en imágenes faciales es la avanzada \textbf{Mask R-CNN}, reconocida por su capacidad para combinar detección de objetos (identificación y localización con cajas delimitadoras) y segmentación de instancias (precisión a nivel de píxel en cada objeto detectado). El diseño de la arquitectura considera los siguientes bloques fundamentales, organizados de forma jerárquica para maximizar la precisión multiescala y optimizar la eficiencia computacional:
 
 \begin{itemize}
 \item \textbf{Backbone:} ResNet-50 con FPN, que extrae características a múltiples escalas, combinando detalles espaciales y semánticos.
@@ -349,7 +349,7 @@ El diseño de la arquitectura considera los siguientes bloques fundamentales, or
   
 \end{itemize}
 
-\item\textbf{Actividad 2 de "\textit{Desarrollo de los Modelos de Segmentación}": Definición de componentes del modelo}
+\item\textbf{Actividad 2 de “\textit{Desarrollo de los Modelos de Segmentación}”: Definición de componentes del modelo}
   
 
 \begin{itemize}
@@ -404,10 +404,12 @@ El proceso de Desarrollo de los Modelos de Segmentación que se siguió, se pued
 	\end{center}
 \end{figure}
   \begin{itemize}
-  \item\textbf{Actividad 1 de "\textit{Entrenamiento del modelo}": Configuración del entorno de entrenamiento}\\
-Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para GPU. Los datos se organizan en carpetas para imágenes y máscaras. El dataset personalizado aplica las transformaciones y divide los datos en 80\% entrenamiento y 20\% validación.
+  \item\textbf{Actividad 1 de “\textit{Entrenamiento del modelo}”: Configuración del entorno de entrenamiento}\\
+\\
+  Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para GPU. Los datos se organizan en carpetas para imágenes y máscaras. El dataset personalizado aplica las transformaciones y divide los datos en 80\% entrenamiento y 20\% validación.
 
-  \item\textbf{Actividad 2 de "\textit{Entrenamiento del modelo}": Aplicación de técnicas de optimización}
+  \item\textbf{Actividad 2 de “\textit{Entrenamiento del modelo}”: Aplicación de técnicas de optimización}
+\\
   Durante el entrenamiento de la red U-Net, se implementaron diversas técnicas para mejorar la precisión y velocidad de convergencia del modelo.
 
 \begin{itemize}
@@ -427,7 +429,8 @@ Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para 
   
 
 
-  \item\textbf{Actividad 3 de "\textit{Entrenamiento del modelo}": Validación cruzada del rendimiento}
+  \item\textbf{Actividad 3 de “\textit{Entrenamiento del modelo}”: Validación cruzada del rendimiento}
+\\
   Se usó una partición hold-out (80\% entrenamiento, 20\% validación) para evaluar la capacidad de generalización con métricas como precisión por clase, IoU e índice Dice, garantizando una evaluación rigurosa para imágenes no vistas.
 
   \end{itemize}
@@ -442,10 +445,12 @@ Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para 
 	\end{center}
 \end{figure}
   \begin{itemize}
-  \item\textbf{Actividad 1 de "\textit{Entrenamiento del modelo}": Configuración del entorno de entrenamiento}
+  \item\textbf{Actividad 1 de “\textit{Entrenamiento del modelo}”: Configuración del entorno de entrenamiento}
+\\
   Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para GPU. Los datos se organizan en carpetas para imágenes y máscaras. El dataset personalizado aplica las transformaciones y divide los datos en 80\% entrenamiento y 20\% validación.
 
-  \item\textbf{Actividad 2 de "\textit{Entrenamiento del modelo}": Aplicación de técnicas de optimización}
+  \item\textbf{Actividad 2 de “\textit{Entrenamiento del modelo}”: Aplicación de técnicas de optimización}
+\\  
   Con el objetivo de mejorar la generalización y eficiencia del modelo, se incorporaron varias técnicas de optimización:
 
 \begin{itemize}
@@ -466,7 +471,8 @@ Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para 
 \end{itemize}
 
 
-  \item\textbf{Actividad 3 de "\textit{Entrenamiento del modelo}": Validación cruzada del rendimiento}
+  \item\textbf{Actividad 3 de “\textit{Entrenamiento del modelo}”: Validación cruzada del rendimiento}
+\\  
   Se usó una partición hold-out (80\% entrenamiento, 20\% validación) para evaluar la capacidad de generalización con métricas como precisión por clase, IoU e índice Dice, garantizando una evaluación rigurosa para imágenes no vistas.
 
   \end{itemize}
@@ -481,12 +487,14 @@ Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para 
 	\end{center}
 \end{figure}
   \begin{itemize}
-  \item\textbf{Actividad 1 de "\textit{Entrenamiento del modelo}": Configuración del entorno de entrenamiento}
+  \item\textbf{Actividad 1 de “\textit{Entrenamiento del modelo}”: Configuración del entorno de entrenamiento}
+\\  
   Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV, NumPy y CUDA/cuDNN para GPU. Los datos se organizan en carpetas para imágenes y máscaras. El dataset personalizado aplica las transformaciones y divide los datos en 80\% entrenamiento y 20\% validación.
 
 
-  \item\textbf{Actividad 2 de "\textit{Entrenamiento del modelo}": Aplicación de técnicas de optimización}
-   Durante el entrenamiento de la red U-Net con codificador MiT-B0, se implementaron diversas técnicas para mejorar la precisión y velocidad de convergencia del modelo.
+  \item\textbf{Actividad 2 de “\textit{Entrenamiento del modelo}”: Aplicación de técnicas de optimización}
+\\   
+  Durante el entrenamiento de la red U-Net con codificador MiT-B0, se implementaron diversas técnicas para mejorar la precisión y velocidad de convergencia del modelo.
 
 \begin{itemize}
 \item \textbf{Pesos de clase:} Se calcularon pesos inversamente proporcionales a la frecuencia de cada clase.
@@ -502,7 +510,8 @@ Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para 
   \end{itemize}
   
 
-  \item\textbf{Actividad 3 de de "\textit{Entrenamiento del modelo}": Validación cruzada del rendimiento}
+  \item\textbf{Actividad 3 de de “\textit{Entrenamiento del modelo}”: Validación cruzada del rendimiento}
+ \\ 
   Se usó una partición hold-out (80\% entrenamiento, 20\% validación) para evaluar la capacidad de generalización con métricas como precisión por clase, IoU e índice Dice, garantizando una evaluación rigurosa para imágenes no vistas.
 
   \end{itemize}
@@ -517,13 +526,15 @@ Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para 
 	\end{center}
 \end{figure}
   \begin{itemize}
-    \item \textbf{Actividad 1 de "\textit{Entrenamiento del modelo}": Configuración del entorno de entrenamiento}
-   Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV, NumPy y CUDA/cuDNN para GPU. Los datos se organizan en carpetas para imágenes y máscaras. El dataset personalizado aplica las transformaciones y divide los datos en 80\% entrenamiento y 20\% validación.
+    \item \textbf{Actividad 1 de “\textit{Entrenamiento del modelo}”: Configuración del entorno de entrenamiento}
+  \\ 
+    Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV, NumPy y CUDA/cuDNN para GPU. Los datos se organizan en carpetas para imágenes y máscaras. El dataset personalizado aplica las transformaciones y divide los datos en 80\% entrenamiento y 20\% validación.
 
 
   
-    \item \textbf{Actividad 2 de "\textit{Entrenamiento del modelo}": Aplicación de técnicas de optimización}
-     Con el objetivo de mejorar la generalización y eficiencia del modelo, se incorporaron varias técnicas de optimización:
+    \item \textbf{Actividad 2 de “\textit{Entrenamiento del modelo}”: Aplicación de técnicas de optimización}
+   \\  
+    Con el objetivo de mejorar la generalización y eficiencia del modelo, se incorporaron varias técnicas de optimización:
     
     \begin{itemize}
 \item \textbf{Modelo base:} Adaptación del Box Head y Mask Head a 3 clases.
@@ -536,7 +547,8 @@ Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para 
 
   \end{itemize}
   
-    \item \textbf{Actividad 3 de "\textit{Entrenamiento del modelo}": Validación cruzada del rendimiento}
+    \item \textbf{Actividad 3 de “\textit{Entrenamiento del modelo}”: Validación cruzada del rendimiento}
+   \\ 
     Se usó una partición hold-out (80\% entrenamiento, 20\% validación) para evaluar la capacidad de generalización con métricas como precisión por clase, IoU e índice Dice, garantizando una evaluación rigurosa para imágenes no vistas.
 
   
@@ -560,10 +572,11 @@ Se usó Python 3.10 con PyTorch 2.0.0, Albumentations, OpenCV y CUDA/cuDNN para 
 \end{figure}
 
   \begin{itemize}
-  \item\textbf{Actividad 1 de "\textit{Evaluación del modelo}": Preparación de Datos de Validación}
+  \item\textbf{Actividad 1 de “\textit{Evaluación del modelo}”: Preparación de Datos de Validación}
+  \\
   Como se mencionó antes, se reservó el 20\% de datos para validación con imágenes no vistas durante el entrenamiento, asegurando una estimación imparcial del rendimiento.
   
-  \item\textbf{Actividad 2 de "\textit{Evaluación del modelo}": Definición de Métricas de Evaluación}
+  \item\textbf{Actividad 2 de “\textit{Evaluación del modelo}”: Definición de Métricas de Evaluación}
   \begin{itemize}
   \item \textbf{Precisión por clase:} Proporción de píxeles que han sido correctamente clasificados para cada clase individual.
 
@@ -585,7 +598,7 @@ Estas métricas proporcionan una evaluación integral del desempeño del modelo 
 
 
 
-  \item\textbf{Actividad 3 de "\textit{Evaluación del modelo}": Evaluación del Modelo}
+  \item\textbf{Actividad 3 de “\textit{Evaluación del modelo}”: Evaluación del Modelo}
   \begin{itemize}
     \item \textbf{Resultados:}\\
 El modelo alcanzó los siguientes resultados promedio sobre el conjunto de validación:
@@ -634,11 +647,12 @@ El modelo alcanzó los siguientes resultados promedio sobre el conjunto de valid
 	\end{center}
 \end{figure}
   \begin{itemize}
-  \item\textbf{Actividad 1 de "\textit{Evaluación del modelo}": Preparación de Datos de Validación}
+  \item\textbf{Actividad 1 de “\textit{Evaluación del modelo}”: Preparación de Datos de Validación}
+  \\
   Como se mencionó antes, se reservó el 20\% de datos para validación con imágenes no vistas durante el entrenamiento, asegurando una estimación imparcial del rendimiento.
   
 
-  \item\textbf{Actividad 2 de "\textit{Evaluación del modelo}": Definición de Métricas de Evaluación}
+  \item\textbf{Actividad 2 de “\textit{Evaluación del modelo}”: Definición de Métricas de Evaluación}
     \begin{itemize}
   \item \textbf{Precisión por clase:} Proporción de píxeles que han sido correctamente clasificados para cada clase individual.
 
@@ -659,7 +673,7 @@ donde $y_{i,c}$ es una variable binaria que indica si el píxel $i$ pertenece a 
 Estas métricas proporcionan una evaluación integral del desempeño del modelo de segmentación.
 
 
-  \item\textbf{Actividad 3 de "\textit{Evaluación del modelo}": Evaluación del Modelo}
+  \item\textbf{Actividad 3 de “\textit{Evaluación del modelo}”: Evaluación del Modelo}
   El modelo alcanzó los siguientes resultados promedio sobre el conjunto de validación:
 \begin{itemize}
   \item \textbf{Pérdida mínima (\texttt{val\_loss}):} 0.1158
@@ -710,10 +724,11 @@ Además de los resultados numéricos, se generaron visualizaciones comparativas 
 	\end{center}
 \end{figure}
   \begin{itemize}
-  \item\textbf{Actividad 1 de "\textit{Evaluación del modelo}": Preparación de Datos de Validación}
+  \item\textbf{Actividad 1 de “\textit{Evaluación del modelo}”: Preparación de Datos de Validación}
+  \\
   Como se mencionó antes, se reservó el 20\% de datos para validación con imágenes no vistas durante el entrenamiento, asegurando una estimación imparcial del rendimiento.
   
-  \item\textbf{Actividad 2 de "\textit{Evaluación del modelo}": Definición de Métricas de Evaluación}
+  \item\textbf{Actividad 2 de “\textit{Evaluación del modelo}”: Definición de Métricas de Evaluación}
      \begin{itemize}
   \item \textbf{Precisión por clase:} Proporción de píxeles que han sido correctamente clasificados para cada clase individual.
 
@@ -735,7 +750,8 @@ Estas métricas proporcionan una evaluación integral del desempeño del modelo 
 
 
 
-  \item\textbf{Actividad 3 de "\textit{Evaluación del modelo}: Evaluación del Modelo"}
+  \item\textbf{Actividad 3 de “\textit{Evaluación del modelo}”: Evaluación del Modelo}
+  \\
   El modelo entrenado alcanzó un rendimiento destacable en comparación con la versión original de U-Net. Los resultados promedio sobre el conjunto de validación fueron:
 
 \begin{itemize}
@@ -790,11 +806,12 @@ Estas métricas confirman que la integración del codificador MiT-B0 aporta bene
 \end{figure}
   \begin{itemize}
   
-    \item \textbf{Actividad 1 de "\textit{Evaluación del modelo}": Preparación de Datos de Validación} \\
+    \item \textbf{Actividad 1 de “\textit{Evaluación del modelo}”: Preparación de Datos de Validación} \\
+    \\
     Como se mencionó antes, se reservó el 20\% de datos para validación con imágenes no vistas durante el entrenamiento, asegurando una estimación imparcial del rendimiento.
   
   
-    \item \textbf{Actividad 2 de "\textit{Evaluación del modelo}": Definición de Métricas de Evaluación}
+    \item \textbf{Actividad 2 de “\textit{Evaluación del modelo}”: Definición de Métricas de Evaluación}
      \begin{itemize}
   \item \textbf{Precisión por clase:} Proporción de píxeles que han sido correctamente clasificados para cada clase individual.
 
@@ -814,7 +831,8 @@ donde $y_{i,c}$ es una variable binaria que indica si el píxel $i$ pertenece a 
 
 Estas métricas proporcionan una evaluación integral del desempeño del modelo de segmentación.
 
-    \item \textbf{Actividad 3 de "\textit{Evaluación del modelo}": Evaluación del Modelo} \\
+    \item \textbf{Actividad 3 de “\textit{Evaluación del modelo}”: Evaluación del Modelo} \\
+    \\
     Los resultados del modelo Mask R-CNN sobre el conjunto de validación fueron los siguientes:
     \begin{itemize}
       \item \textbf{Pérdida mínima (\texttt{val\_loss}):} 0.441.
@@ -874,6 +892,6 @@ Para poder comparar los resultados y métricas de los modelos de segmentación q
 Como se observa en la Tabla \ref{tab:result_models}, el modelo U-Net Attention presenta el mejor rendimiento global en la tarea de segmentación de arrugas y manchas faciales, al registrar la mayor precisión (0.911), así como los índices más altos de Sørensen–Dice (0.810) y Jaccard (0.852), junto con la menor pérdida por entropía cruzada (0.1158). Estos resultados reflejan una segmentación más precisa y coherente en comparación con los demás modelos evaluados. En contraste, Mask R-CNN mostró un desempeño significativamente inferior en todas las métricas, lo cual sugiere una menor capacidad para capturar adecuadamente los patrones de las características faciales sutiles. El modelo U-Net con codificador MiT-B0, si bien tiene una pérdida aceptable (0.1441), no logra alcanzar niveles óptimos de precisión ni superposición, lo que indica que el codificador MiT-B0, en este caso, no mejora el rendimiento como se esperaba. En general, los resultados evidencian que el uso de mecanismos de atención en arquitecturas U-Net potencia la capacidad de los modelos para segmentar estructuras faciales finas como arrugas y manchas, lo cual será crucial para la elección del mejor modelo en el despliegue.
 
 \section{Despliegue del modelo}
-\textbf{Actividad 1 de \textit{Despliegue del modelo}: Preparación del Entorno de Despliegue}
+\textbf{Actividad 1 de “\textit{Despliegue del modelo}”: Preparación del Entorno de Despliegue}
 
-\textbf{Actividad 2 de \textit{Despliegue del modelo}: Despliegue del Modelo en Producción}
+\textbf{Actividad 2 de “\textit{Despliegue del modelo}”: Despliegue del Modelo en Producción}
