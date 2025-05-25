@@ -382,7 +382,7 @@ La arquitectura seleccionada para abordar la tarea de detección y segmentación
 El proceso de Desarrollo de los Modelos de Segmentación que se siguió, se puede ver en el diagrama final de Desarrollo en la Figura \ref{4:figdesfin}.
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.75\textwidth]{4/figures/Diagrama de desarrollo.png}
+		\includegraphics[width=0.75\textwidth]{4/figures/Diagrama de Desarrollo.png}
 		\caption[Diagrama de Desarrollo Utilizado]{Diagrama de Desarrollo Utilizado.\\
 		Fuente: Elaboración propia}
 		\label{4:figdesfin}
@@ -893,5 +893,126 @@ Como se observa en la Tabla \ref{tab:result_models}, el modelo U-Net Attention p
 
 \section{Despliegue del modelo}
 \textbf{Actividad 1 de “\textit{Despliegue del modelo}”: Preparación del Entorno de Despliegue}
+\\
+El entorno de despliegue del sistema fue diseñado para ejecutarse localmente bajo una arquitectura cliente-servidor. Esta elección permite separar la lógica de interacción del usuario (frontend) de la lógica de procesamiento y predicción (backend), facilitando la escalabilidad y mantenibilidad del proyecto.
+\\
+\textbf{Configuración del entorno de desarrollo local:}
+\\
+Se definieron dependencias específicas del entorno Python para garantizar la ejecución adecuada del backend. Estas incluyen:
+\begin{itemize}
+\item \textbf{Flask:} para la construcción de una API RESTful ligera.
+\item \textbf{PyTorch y torchvision:} para la inferencia del modelo y su manipulación.
+\item \textbf{Opencv-python, numpy y Pillow:} para operaciones de procesamiento de imágenes.
+\item \textbf{Albumentations:} para mantener el preprocesamiento coherente con el entrenamiento.
+\item \textbf{Mediapipe:} (aunque se ejecuta en el cliente) puede formar parte del entorno general.
+\end{itemize}
+Se recomienda el uso de un entorno virtual para aislar las dependencias.
 
+\textbf{Detección y configuración del dispositivo de cómputo:}
+
+El sistema detecta automáticamente si hay disponibilidad de GPU (CUDA) usando \texttt{torch.cuda.is\_available()}. Si hay GPU, el modelo se carga y ejecuta sobre ella; de lo contrario, opera en CPU. Esto garantiza compatibilidad con diversos entornos, aunque con diferentes niveles de rendimiento.
+
+\vspace{0.5em}
+\textbf{Estructura de archivos y directorios del proyecto:}
+
+\begin{itemize}
+    \item \texttt{app.py}: archivo principal que lanza el servidor Flask, carga el modelo y procesa las peticiones.
+    \item \texttt{templates/index.html}: plantilla HTML de la interfaz.
+    \item \texttt{static/}: contiene archivos como \texttt{styles.css}, scripts JS y recursos visuales.
+    \item \texttt{images/}: almacena imágenes temporales para depuración.
+    \item \texttt{best\_model\_Unet\_attention\_Modificado\_150.pth}: pesos del modelo entrenado por 150 épocas.
+\end{itemize}
+
+\vspace{1em}
 \textbf{Actividad 2 de “\textit{Despliegue del modelo}”: Despliegue del Modelo en Producción}
+
+El sistema completo fue desplegado como una aplicación web local, permitiendo a los usuarios interactuar con el modelo mediante una interfaz gráfica accesible desde un navegador.
+
+\textbf{Frontend – Captura e Interacción con el Usuario:}
+\\
+El frontend fue desarrollado con:
+\begin{itemize}
+\item HTML5 para estructura semántica.
+\item CSS3 y Bootstrap para diseño responsivo.
+\item JavaScript y JQuery para lógica e interactividad.
+\item MediaPipe Face Detection para guiar al usuario a posicionar correctamente su rostro antes de capturar la imagen.
+\end{itemize}
+
+La lógica de detección facial se ejecuta en el cliente y valida en tiempo real si el rostro está correctamente centrado. Sólo cuando se detecta el rostro alineado, se habilita el botón de captura. Esta imagen se convierte en Base64 y se envía al backend vía POST a \texttt{/segment}.
+
+\textbf{Backend – Inferencia del Modelo de Segmentación:}
+\\
+El backend, implementado con Flask, responde a las solicitudes del frontend. Al recibir una imagen codificada en Base64:
+\begin{itemize}
+\item La decodifica a formato PIL.Image.
+\item Aplica transformaciones con Albumentations:
+  \begin{itemize}
+    \item Redimensionamiento a 256×256.
+    \item Normalización con estadísticas de ImageNet.
+    \item Conversión a tensor y agregación de dimensión de lote.
+  \end{itemize}
+\item Realiza la inferencia con el modelo UNet con Atención (UNetAttention), que utiliza:
+    \begin{itemize}
+    \item Bloques DoubleConv para extraer características.
+    \item Attention Gates para enfocar regiones relevantes.
+    \item ConvTranspose2d para reconstruir la imagen segmentada.
+    \item Convolución final 1×1 para obtener 3 canales (fondo, arrugas, manchas).
+  \end{itemize}
+\item Aplica \texttt{torch.argmax} sobre la salida para obtener la clase más probable por píxel.
+\item Genera una máscara coloreada: manchas en rojo, arrugas en azul.
+\item Superpone la máscara sobre la imagen original y la convierte nuevamente a Base64.
+\end{itemize}
+
+\textbf{Visualización de Resultados:}
+El frontend recibe la imagen segmentada con overlay y la muestra dinámicamente los siguientes frames: 
+\begin{itemize}
+  \item El usuario puede ver el primer frame visual como presentación de la página como se ve en la Figura \ref{fig:presinicial}.
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=1\textwidth]{4/figures/PresentacionInicialPage.png}
+      \caption{Presentación inicial de la página.}
+      \label{fig:presinicial}
+    \end{figure}
+
+\item El usuario puede ver la notificación de que todo está bien al tomar la foto de su rostro en la posición correcta como se ve en la Figura \ref{fig:prescamact}.
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=1\textwidth]{4/figures/PresCamActive.png}
+      \caption{Presentación con cámara activa.}
+      \label{fig:prescamact}
+    \end{figure}
+
+\item El usuario puede ver en tiempo real las regiones detectadas gracias al sistema de retroalimentación visual como se ve en la Figura \ref{fig:presseg}.
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=1\textwidth]{4/figures/PresCamActive.png}
+      \caption{Presentación de la segmentación.}
+      \label{fig:presseg}
+    \end{figure}
+
+  \end{itemize}
+\textbf{Errores y control de flujo:}
+Si ocurre algunos de los siguientes errores en la captura de imagen para la futura segmentación, el sistema notifica al usuario con una alerta:
+
+\begin{itemize}
+  \item La no aparición o presentación de un rostro facil en la cámara web como se ve en la Figura \ref{fig:sincam}.
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=1\textwidth]{4/figures/PresSinCam.png}
+      \caption{Presentación cuando no hay un rostro.}
+      \label{fig:sincam}
+    \end{figure}
+  \item El no tener centrado el rostro en la cámara web para una recomendada segmentación de las deformaciones morfológicas faciales como se ve en la Figura \ref{fig:presfueracam}.
+
+\begin{figure}[H]
+      \centering
+      \includegraphics[width=1\textwidth]{4/figures/PresCamFuer.png}
+      \caption{Presentación cuando el rostro no está en el centro.}
+      \label{fig:presfueracam}
+    \end{figure}
+  \end{itemize}
+
+
+

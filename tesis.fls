@@ -387,12 +387,14 @@ INPUT .\0\agradecimientos.tex
 INPUT 0\agradecimientos.tex
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\tesis.toc
 INPUT .\tesis.toc
 INPUT tesis.toc
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
@@ -432,8 +434,6 @@ INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
 INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Users\DELL\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 OUTPUT tesis.toc
 INPUT .\tesis.lof
 INPUT .\tesis.lof
@@ -869,13 +869,13 @@ INPUT .\3\figures\Diagrama de preprocesamiento.png
 INPUT .\3\figures\Diagrama de preprocesamiento.png
 INPUT .\3\figures\Diagrama de preprocesamiento.png
 INPUT .\3\figures\Diagrama de preprocesamiento.png
-INPUT .\3\figures\Diagrama de desarrollo.png
-INPUT .\3\figures\Diagrama de desarrollo.png
-INPUT .\3\figures\Diagrama de desarrollo.png
-INPUT .\3\figures\Diagrama de desarrollo.png
-INPUT .\3\figures\Diagrama de desarrollo.png
-INPUT .\3\figures\Diagrama de desarrollo.png
-INPUT .\3\figures\Diagrama de desarrollo.png
+INPUT .\3\figures\Diagrama de Desarrollo.png
+INPUT .\3\figures\Diagrama de Desarrollo.png
+INPUT .\3\figures\Diagrama de Desarrollo.png
+INPUT .\3\figures\Diagrama de Desarrollo.png
+INPUT .\3\figures\Diagrama de Desarrollo.png
+INPUT .\3\figures\Diagrama de Desarrollo.png
+INPUT .\3\figures\Diagrama de Desarrollo.png
 INPUT .\3\figures\Prototipo de Despliegue.png
 INPUT .\3\figures\Prototipo de Despliegue.png
 INPUT .\3\figures\Prototipo de Despliegue.png
@@ -968,13 +968,13 @@ INPUT .\4\figures\desmask.png
 INPUT .\4\figures\desmask.png
 INPUT .\4\figures\desmask.png
 INPUT .\4\figures\desmask.png
-INPUT .\4\figures\Diagrama de desarrollo.png
-INPUT .\4\figures\Diagrama de desarrollo.png
-INPUT .\4\figures\Diagrama de desarrollo.png
-INPUT .\4\figures\Diagrama de desarrollo.png
-INPUT .\4\figures\Diagrama de desarrollo.png
-INPUT .\4\figures\Diagrama de desarrollo.png
-INPUT .\4\figures\Diagrama de desarrollo.png
+INPUT .\4\figures\Diagrama de Desarrollo.png
+INPUT .\4\figures\Diagrama de Desarrollo.png
+INPUT .\4\figures\Diagrama de Desarrollo.png
+INPUT .\4\figures\Diagrama de Desarrollo.png
+INPUT .\4\figures\Diagrama de Desarrollo.png
+INPUT .\4\figures\Diagrama de Desarrollo.png
+INPUT .\4\figures\Diagrama de Desarrollo.png
 INPUT .\4\figures\entrunet.png
 INPUT .\4\figures\entrunet.png
 INPUT .\4\figures\entrunet.png
@@ -1114,6 +1114,38 @@ INPUT .\4\figures\maskrcnn2.png
 INPUT .\4\figures\maskrcnn2.png
 INPUT .\4\figures\maskrcnn2.png
 INPUT .\4\figures\maskrcnn2.png
+INPUT .\4\figures\PresentacionInicialPage.png
+INPUT .\4\figures\PresentacionInicialPage.png
+INPUT .\4\figures\PresentacionInicialPage.png
+INPUT .\4\figures\PresentacionInicialPage.png
+INPUT .\4\figures\PresentacionInicialPage.png
+INPUT .\4\figures\PresentacionInicialPage.png
+INPUT .\4\figures\PresentacionInicialPage.png
+INPUT .\4\figures\PresCamActive.png
+INPUT .\4\figures\PresCamActive.png
+INPUT .\4\figures\PresCamActive.png
+INPUT .\4\figures\PresCamActive.png
+INPUT .\4\figures\PresCamActive.png
+INPUT .\4\figures\PresCamActive.png
+INPUT .\4\figures\PresCamActive.png
+INPUT .\4\figures\PresCamActive.png
+INPUT .\4\figures\PresCamActive.png
+INPUT .\4\figures\PresCamActive.png
+INPUT .\4\figures\PresCamActive.png
+INPUT .\4\figures\PresSinCam.png
+INPUT .\4\figures\PresSinCam.png
+INPUT .\4\figures\PresSinCam.png
+INPUT .\4\figures\PresSinCam.png
+INPUT .\4\figures\PresSinCam.png
+INPUT .\4\figures\PresSinCam.png
+INPUT .\4\figures\PresSinCam.png
+INPUT .\4\figures\PresCamFuer.png
+INPUT .\4\figures\PresCamFuer.png
+INPUT .\4\figures\PresCamFuer.png
+INPUT .\4\figures\PresCamFuer.png
+INPUT .\4\figures\PresCamFuer.png
+INPUT .\4\figures\PresCamFuer.png
+INPUT .\4\figures\PresCamFuer.png
 INPUT .\5\resultados.tex
 INPUT .\5\resultados.tex
 INPUT .\5\resultados.tex
